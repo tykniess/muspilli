@@ -1,0 +1,85 @@
+Multichar_Symbols
+
+%>				! Morpheme boundary
+
+%<v%>				! Verb
+
+%<inf%>				! Infinitive
+%<act%>				! Active
+%<pass%>			! Passive
+%<pres%>			! Present tense
+%<pret%>			! Preterite tense
+%<indic%>			! Indicative mood
+%<opt%>				! Optative/Subjunctive mood
+%<impv%>			! Imperative mood
+
+%<1st%>				! First Person
+%<2nd%>				! Second Person
+%<3rd%>				! Third Person
+
+%<sg%>				! Singular
+%<pl%>				! Pl
+
+LEXICON Root
+
+Verbs 			   ;
+
+LEXICON WK1
+
+%<inf%>:%>ian		 	 # ;	
+:%>i Tempus                     ;
+
+LEXICON Tempus
+
+%<pres%>: INFL-PRES-WK1		;
+%<pret%>:%>d INFL-PRET		;
+%<impv%>: IMPERATIV	;
+
+LEXICON INFL-PRES-WK1
+
+%<1st%>%<sg%>:u 		# ;
+%<2nd%>%<sg%>:s			# ;
+%<3rd%>%<sg%>:d			# ;
+%<1st%>%<pl%>:ađ		# ;
+%<2nd%>%<pl%>:ađ		# ;
+%<3rd%>%<pl%>:ađ		# ;
+
+LEXICON INFL-PRET
+%<1st%>%<sg%>:a                 # ;
+%<2nd%>%<sg%>:es                 # ;
+%<3rd%>%<sg%>:a                 # ;
+%<1st%>%<pl%>:un                 # ;
+%<2nd%>%<pl%>:un                 # ;
+%<3rd%>%<pl%>:un                 # ;
+
+LEXICON IMPERATIV
+%<sg%>:		#;
+%<pl%>:ad	#;
+
+LEXICON Verbs
+
+adêlian%<v%>:adêl WK1   ;	!"zuerkennen"
+nêrian%<v%>:nêr WK1 ; 		!"retten"
+thagian%<v%>:thag WK1	;	! "schweigen"
+gihôrian%<v%>:gihôr WK1    ;    !: nhd. hören, gehorchen, gehören
+sōkian%<v%>:sōk WK1    ;        !: nhd. suchen, aufsuchen, fordern, klagen
+hôrian%<v%>:hôr WK1    ;        !: nhd. hören, gehorchen, gehören
+lêstian%<v%>:lêst WK1    ;      !: nhd. leisten, erfüllen, tun, befolgen
+andkėnnian%<v%>:andkėnn WK1    ;        !: nhd. erkennen, anerkennen
+gilôvian%<v%>:gilôv WK1    ;    !: nhd. glauben
+giwirkian%<v%>:giwirk WK1    ;  !: nhd. tun, machen, erlangen
+wirkian%<v%>:wirk WK1    ;      !: nhd. wirken, tun, machen, bereiten (V.) (1), erwerben
+grōtian%<v%>:grōt WK1    ;      !: nhd. grüßen, anreden, fragen
+lêdian%<v%>:lêd WK1    ;        !: nhd. leiten, führen, bringen, tragen
+wėndian%<v%>:wėnd WK1    ;      !: nhd. wenden, abwenden, sich wenden
+lêrian%<v%>:lêr WK1    ;        !: nhd. lehren
+gilêstian%<v%>:gilêst WK1    ;  !: nhd. leisten, erfüllen, tun, befolgen, folgen
+kūthian%<v%>:kūth WK1    ;      !: nhd. künden, offenbaren
+mārian%<v%>:mār WK1    ;        !: nhd. verkünden, rühmen
+brėngian%<v%>:brėng WK1    ;    !: nhd. bringen, vollenden
+mênian%<v%>:mên WK1    ;        !: nhd. meinen, bedeuten, erwähnen, bezeichnen, verkünden
+sėndian%<v%>:sėnd WK1    ;      !: nhd. senden
+wānian%<v%>:wān WK1    ;        !: nhd. „wähnen“, erwarten, sich vorsehen, hoffen, glauben, vermuten
+tėllian%<v%>:tėll WK1    ;      !: nhd. zählen, erzählen, sagen
+
+
