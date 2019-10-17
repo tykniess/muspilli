@@ -44,5 +44,5 @@ def dict_scrape(POS, dictionaryfile='as_head.txt'):
 
 dict_scrape(sys.argv[1])
 for line in lemmas_cleaned:
-    with open(sys.argv[1],'a+') as to_write:
+    with open(sys.argv[1][5:],'a+') as to_write:
         to_write.write(line)

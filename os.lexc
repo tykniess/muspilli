@@ -27,13 +27,24 @@ Verbs 			   ;
 LEXICON WK1
 
 %<inf%>:%>ian		 	 # ;	
-:%>i Tempus                     ;
+:%>i Tempus-WK1                     ;
 
-LEXICON Tempus
+LEXICON WK2
 
-%<pres%>: INFL-PRES-WK1		;
-%<pret%>:%>d INFL-PRET		;
-%<impv%>: IMPERATIV	;
+%<inf%>:%>on                    # ;
+:%>o Tempus-WK2                     ;
+
+LEXICON Tempus-WK1
+
+%<pres%>: INFL-PRES-WK1			;
+%<pret%>:%>d INFL-PRET-WK1		;
+%<impv%>: IMPERATIV-WK1			;
+
+LEXICON Tempus-WK2
+
+%<pres%>: INFL-PRES-WK2         	;
+%<pret%>:%>d INFL-PRET-WK2              ;
+%<impv%>: IMPERATIV-WK2     		;
 
 LEXICON INFL-PRES-WK1
 
@@ -44,7 +55,16 @@ LEXICON INFL-PRES-WK1
 %<2nd%>%<pl%>:ađ		# ;
 %<3rd%>%<pl%>:ađ		# ;
 
-LEXICON INFL-PRET
+LEXICON INFL-PRES-WK2
+
+%<1st%>%<sg%>:n                 # ;
+%<2nd%>%<sg%>:s                 # ;
+%<3rd%>%<sg%>:d                 # ;
+%<1st%>%<pl%>:đ                # ;
+%<2nd%>%<pl%>:đ                # ;
+%<3rd%>%<pl%>:đ                # ;
+
+LEXICON INFL-PRET-WK1
 %<1st%>%<sg%>:a                 # ;
 %<2nd%>%<sg%>:es                 # ;
 %<3rd%>%<sg%>:a                 # ;
@@ -52,9 +72,21 @@ LEXICON INFL-PRET
 %<2nd%>%<pl%>:un                 # ;
 %<3rd%>%<pl%>:un                 # ;
 
-LEXICON IMPERATIV
+LEXICON INFL-PRET-WK2
+%<1st%>%<sg%>:a                 # ;
+%<2nd%>%<sg%>:os                 # ;
+%<3rd%>%<sg%>:a                 # ;
+%<1st%>%<pl%>:un                 # ;
+%<2nd%>%<pl%>:un                 # ;
+%<3rd%>%<pl%>:un                 # ;
+
+LEXICON IMPERATIV-WK1
 %<sg%>:		#;
 %<pl%>:ad	#;
+
+LEXICON IMPERATIV-WK2
+%<sg%>:         #;
+%<pl%>:d       #;
 
 LEXICON Verbs
 
@@ -65,7 +97,7 @@ gihôrian%<v%>:gihôr WK1    ;    !: nhd. hören, gehorchen, gehören
 sōkian%<v%>:sōk WK1    ;        !: nhd. suchen, aufsuchen, fordern, klagen
 hôrian%<v%>:hôr WK1    ;        !: nhd. hören, gehorchen, gehören
 lêstian%<v%>:lêst WK1    ;      !: nhd. leisten, erfüllen, tun, befolgen
-andkėnnian%<v%>:andkėnn WK1    ;        !: nhd. erkennen, anerkennen
+andkėnnian%<v%>:andkėnn WK1    ;!: nhd. erkennen, anerkennen
 gilôvian%<v%>:gilôv WK1    ;    !: nhd. glauben
 giwirkian%<v%>:giwirk WK1    ;  !: nhd. tun, machen, erlangen
 wirkian%<v%>:wirk WK1    ;      !: nhd. wirken, tun, machen, bereiten (V.) (1), erwerben
@@ -81,5 +113,38 @@ mênian%<v%>:mên WK1    ;        !: nhd. meinen, bedeuten, erwähnen, bezeichne
 sėndian%<v%>:sėnd WK1    ;      !: nhd. senden
 wānian%<v%>:wān WK1    ;        !: nhd. „wähnen“, erwarten, sich vorsehen, hoffen, glauben, vermuten
 tėllian%<v%>:tėll WK1    ;      !: nhd. zählen, erzählen, sagen
-
-
+tholon%<v%>:thol WK2    ;	! nhd. dulden, leiden, ertragen (V.), verlieren, entbehren, aushalten, verharren
+frāgon%<v%>:frāg WK2    ;	! nhd. fragen
+samnon%<v%>:samn WK2    ;	! nhd. sammeln, versammeln
+thionon%<v%>:thion WK2    ;	! nhd. dienen
+folgon%<v%>:folg WK2    ;	! nhd. folgen, nachfolgen, folgsam sein (V.), gehorchen
+sīthon%<v%>:sīth WK2    ;	! nhd. gehen, ziehen, reisen
+githolon%<v%>:githol WK2    ;	! nhd. dulden, leiden, verlieren, entbehren, aushalten, verharren, genießen
+sorgon%<v%>:sorg WK2    ;	! nhd. sorgen, sich kümmern
+giwīson%<v%>:giwīs WK2    ;	! nhd. verfahren (V.)
+wardon%<v%>:ward WK2    ;	! nhd. sich hüten, sorgen für, schützen
+wonon%<v%>:won WK2    ;	! nhd. wohnen, bleiben, verweilen, ausharren, sich fügen
+gimarkon%<v%>:gimark WK2    ;	! nhd. anordnen, bestimmen, bemerken, aufmerken, gewahren
+minnion%<v%>:minni WK2    ;	! nhd. lieben
+waron%<v%>:war WK2    ;	! nhd. wahren, Acht (F.) (2) haben, wahrnehmen, behüten, beachten, besitzen, begehen, aufsuchen
+lovon%<v%>:lov WK2    ;	! nhd. loben
+fastnon%<v%>:fastn WK2    ;	! nhd. befestigen, fesseln, stärken
+gornon%<v%>:gorn WK2    ;	! nhd. trauern
+līnon%<v%>:līn WK2    ;	! nhd. lernen
+skauwon%<v%>:skauw WK2    ;	! nhd. schauen, erblicken
+wundron%<v%>:wundr WK2    ;	! nhd. sich wundern
+êron%<v%>:êr WK2    ;	! nhd. ehren, helfen, beschenken
+wītnon%<v%>:wītn WK2    ;	! nhd. peinigen, strafen, töten
+bedon%<v%>:bed WK2    ;	! nhd. beten
+halon%<v%>:hal WK2    ;	! nhd. holen, ziehen, bringen
+lônon%<v%>:lôn WK2    ;	! nhd. lohnen
+manon%<v%>:man WK2    ;	! nhd. mahnen, treiben
+wīson%<v%>:wīs WK2    ;	! nhd. besuchen, heimsuchen
+farkôpon%<v%>:farkôp WK2    ;	! nhd. verkaufen
+gihalon%<v%>:gihal WK2    ;	! nhd. holen, erlangen
+gimanon%<v%>:giman WK2    ;	! nhd. mahnen, treiben
+gitrūon%<v%>:gitrū WK2    ;	! nhd. vertrauen
+thagon%<v%>:thag WK2    ;	! nhd. schweigen
+fīrion%<v%>:fīri WK2    ;	! nhd. feiern
+geron%<v%>:ger WK2    ;	! nhd. begehren
+ahton%<v%>:aht WK2    ;	! nhd. achten auf, glauben, erwägen, erachten

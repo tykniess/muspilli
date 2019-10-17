@@ -1,5 +1,7 @@
 import sys
-suffix = 'ian'
+#suffix = 'ian'     #used for 1st class weak verbs
+suffix = 'on'   #2nd class
+delineating_characters = [',','*']
 encoded_forms = []
 
 with open(sys.argv[1], 'r') as to_read: #open filename
@@ -7,16 +9,21 @@ with open(sys.argv[1], 'r') as to_read: #open filename
     #adêlian%<v%>:adêl WK1   ;	!"zuerkennen"
     for line in to_read:
         i = 0
-        while line[i:i+3] != 'ian':
+        while line[i] not in delineating_characters:
             i = i + 1
-        stem = line[0:i]
+        stem = line[0:i-len(suffix)]
         for char in line:
             j = 0
             while line[j] != ':':
                 j = j + 1
-        gloss = line[j:]
-        encoded_forms.append(stem+suffix+'%<v%>:'+stem+' WK1    ;	!' + gloss)
+        gloss = line[j+1:]
+#        encoded_forms.append(stem+suffix+'%<v%>:'+stem+' WK1    ;	!' + gloss)
+        encoded_forms.append(stem+suffix+'%<v%>:'+stem+' WK2    ;	!' + gloss)
 
 for form in encoded_forms:
-    with open('to_import.lexc','a+') as to_write:
+    with open('to_import.txt','a+') as to_write:
         to_write.write(form)
+
+
+
+#this failed to accurately parse holon
