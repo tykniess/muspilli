@@ -1,12 +1,15 @@
 Alphabet
 	a b c d e f g h i j k l m n o p q r s t u v w x y z 
-	đ ƀ
+        î ê ô â 
+	đ ƀ th
+	¹:0
 	;
 
 Sets
 V = a e i o u			;
 FrontV = a e i			;
 BackV = o u			;
+Cns = b d f g h j k l m n p w r s t v w x y z đ ƀ th ; 
 
 Rules
 
@@ -14,3 +17,10 @@ Rules
 
 "Remove morpheme boundary"
 %>:0 <=> _ 			;
+
+"Ablaut in strong verbs"
+Vx:Vy <=> _ Cns+ Vz: ;
+     where Vx in ( î ) 
+           Vy in ( ê ) 
+           Vz in ( ¹ ) 
+     matched ;
