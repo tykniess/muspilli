@@ -8,19 +8,17 @@ lemmas_cleaned = []
 nums = ['1','2','3','4','5','6','7','8','9','0']
 alphabet = ['a','b','c','d','e','f','g','h','i','j','k','k','l','m','n','o',
             'p','q','r','s','t','u','v','w','x','y','z',
-            'ā',
+            'ā','â','ā',
             'ê','ė',
             'ô','ō',
-            'ū',
-            'ī',]
+            'ū','û',
+            'ī','î']
 
 POS_tags = ['as., st. V. (1)', 'as., sw. V. (1a)', 'as., sw. V. (1b)',
             'as., sw. V. (2)']
 
-def dict_scrape(POS, dictionaryfile='as_kurzform.txt'):
-    """Scrapes a dictionary for a given part of speech. POS tags are below.
-    defaults to a head of 1000 most frequent lemmas
-
+def dict_scrape(POS, dictionaryfile='as_freq.txt'):
+    """Scrapes a dictionary for a given part of speech. POS tags in POS_tags.
 
     POS(str), dictionaryfile(str-of-filename) -> list-of-strings
     """
@@ -30,12 +28,12 @@ def dict_scrape(POS, dictionaryfile='as_kurzform.txt'):
                 if POS in line:
                     lemmas.append(line)
     for line in lemmas:
+#1,                                       bāga, as., st. F. (ō)?, sw. F. (n)?: nhd. Streit
         i=0
         for char in line[:44]:
             if char not in alphabet:
                 i=i+1
-        lemmas_cleaned.append(line[i:].strip().replace('*','')+'\n')
-            
+        lemmas_cleaned.append(line[i:].strip().replace('*','').replace('?','')+'\n')
         #scrub line of the frequency data, begin with headword?
 
 ##    print("Found " + str(len(lemmas_cleaned)) + " lemmas matching that category")

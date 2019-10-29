@@ -178,12 +178,15 @@ LEXICON IMPERATIV-WK2
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON StrongVerbs
-mîthan%<v%>%<str%>%<class1%>:mî STR1-TH-STEM   ;	!"avoid"
-skīnan%<v%>:skīn STR1    ;	! nhd. scheinen, leuchten
-skrīdan%<v%>:skrīd STR1    ;	! nhd. gleiten, schreiten, gehen
-stīgan%<v%>:stīg STR1    ;	! nhd. steigen
-
-
+mîthan%<v%>%<str%>%<class1%>:mî STR1-TH-STEM   ;
+skīnan%<v%>%<str%>%<class1%>:skīn STR1    ;	! nhd. scheinen, leuchten
+skrīdan%<v%>%<str%>%<class1%>:skrīd STR1    ;	! nhd. gleiten, schreiten, gehen
+stīgan%<v%>%<str%>%<class1%>:stīg STR1    ;	! nhd. steigen
+wrītan%<v%>%<str%>%<class1%>:wrīt STR1    ;	! nhd. ritzen, reißen, zerreißen, schreiben
+ofskīthan%<v%>%<str%>%<class1%>:ofskī STR1-TH-STEM    ;	! nhd. abscheiden, abschneiden, trennen
+rīdan%<v%>%<str%>%<class1%>:rīd STR1    ;	! nhd. reiten
+spīwan%<v%>%<str%>%<class1%>:spīw STR1    ;	! nhd. speien
+teskrīdan%<v%>%<str%>%<class1%>:teskrīd STR1    ;	! nhd. „zerschreiten“, zergehen
 
 LEXICON WeakVerbs
 adêlian%<v%>%<wk%>%<class1%>:adêl WK1  ;	!"zuerkennen"
