@@ -14,10 +14,10 @@ alphabet = ['a','b','c','d','e','f','g','h','i','j','k','k','l','m','n','o',
             'ū',
             'ī',]
 
-POS_tags = ['as., st. V. ', 'as., sw. V. (1a)', 'as., sw. V. (1b)',
+POS_tags = ['as., st. V. (1)', 'as., sw. V. (1a)', 'as., sw. V. (1b)',
             'as., sw. V. (2)']
 
-def dict_scrape(POS, dictionaryfile='as_head.txt'):
+def dict_scrape(POS, dictionaryfile='as_kurzform.txt'):
     """Scrapes a dictionary for a given part of speech. POS tags are below.
     defaults to a head of 1000 most frequent lemmas
 
@@ -34,7 +34,7 @@ def dict_scrape(POS, dictionaryfile='as_head.txt'):
         for char in line[:44]:
             if char not in alphabet:
                 i=i+1
-        lemmas_cleaned.append(line[i:].strip()+'\n')
+        lemmas_cleaned.append(line[i:].strip().replace('*','')+'\n')
             
         #scrub line of the frequency data, begin with headword?
 

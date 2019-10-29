@@ -36,19 +36,32 @@ WeakVerbs 			   ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!Strong Verbs!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!Still need to account for th>d (Verner) alternations!!!
+!!!in the preterite!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON STR1
 %<str%>%<inf%>:%>an		 # ;	
-%<str%>:¹ StrTempus                     ;
+%<str%>: StrTempus                     ;
+
+LEXICON STR1-TH-STEM			!some stems end in th, which alternates with d
+%<str%>%<inf%>:%>than              # ;
+%<str%>: StrTempus-TH                     ;
 
 LEXICON StrTempus
-%<pres%>: STR-INFL-PRES			;
-%<pret%>: STR-INFL-PRET		;
-%<impv%>: STR-IMPERATIV			;
+%<pres%>: STR-INFL-PRES                       ;
+%<pret%>: STR-INFL-PRET-1Grade                ;
+%<pret%>: STR-INFL-PRET-2Grade         ;
+%<impv%>: STR-IMPERATIV                       ;
+
+LEXICON StrTempus-TH
+%<pres%>:th STR-INFL-PRES			;
+%<pret%>:th STR-INFL-PRET-1Grade		;
+%<pret%>:d STR-INFL-PRET-2Grade		;
+%<impv%>:th STR-IMPERATIV			;
 
 LEXICON STR-INFL-PRES
 %<indic%>: STR-INFL-PRES-INDIC		;
-%<opt%>: STR-INFL-PRES-OPT			;
+%<opt%>: STR-INFL-PRES-OPT		;
 
 LEXICON STR-INFL-PRES-INDIC
 %<1st%>%<sg%>:%>u 		# ;
@@ -66,25 +79,27 @@ LEXICON STR-INFL-PRES-OPT
 %<2nd%>%<pl%>:%>en		# ;
 %<3rd%>%<pl%>:%>en		# ;
 
-LEXICON STR-INFL-PRET
-%<indic%>: STR-INFL-PRET-INDIC		;
-%<opt%>: STR-INFL-PRET-OPT			;
+LEXICON STR-INFL-PRET-1Grade
+%<indic%>%<1st%>%<sg%>:¹ #		;
+%<indic%>%<3rd%>%<sg%>:¹ #		;
+
+LEXICON STR-INFL-PRET-2Grade
+%<indic%>:² STR-INFL-PRET-INDIC              ;
+%<opt%>:² STR-INFL-PRET-OPT              ;
 
 LEXICON STR-INFL-PRET-INDIC
-%<1st%>%<sg%>:%>	# ;
-%<2nd%>%<sg%>:%>is			# ;
-%<3rd%>%<sg%>:%>			# ;
+%<2nd%>%<sg%>:%>i			# ;
 %<1st%>%<pl%>:%>un		# ;
 %<2nd%>%<pl%>:%>un		# ;
 %<3rd%>%<pl%>:%>un		# ;
 
 LEXICON STR-INFL-PRET-OPT
-%<1st%>%<sg%>:%>e 		# ;
-%<2nd%>%<sg%>:%>es			# ;
-%<3rd%>%<sg%>:%>e			# ;
-%<1st%>%<pl%>:%>en		# ;
-%<2nd%>%<pl%>:%>en		# ;
-%<3rd%>%<pl%>:%>en		# ;
+%<1st%>%<sg%>:%>i 		# ;
+%<2nd%>%<sg%>:%>is			# ;
+%<3rd%>%<sg%>:%>i			# ;
+%<1st%>%<pl%>:%>in		# ;
+%<2nd%>%<pl%>:%>in		# ;
+%<3rd%>%<pl%>:%>in		# ;
 
 LEXICON STR-IMPERATIV
 %<sg%>:		#;
@@ -163,7 +178,12 @@ LEXICON IMPERATIV-WK2
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON StrongVerbs
-mîthan%<v%>%<str%>%<class1%>:mîth STR1   ;	!"avoid"
+mîthan%<v%>%<str%>%<class1%>:mî STR1-TH-STEM   ;	!"avoid"
+skīnan%<v%>:skīn STR1    ;	! nhd. scheinen, leuchten
+skrīdan%<v%>:skrīd STR1    ;	! nhd. gleiten, schreiten, gehen
+stīgan%<v%>:stīg STR1    ;	! nhd. steigen
+
+
 
 LEXICON WeakVerbs
 adêlian%<v%>%<wk%>%<class1%>:adêl WK1  ;	!"zuerkennen"

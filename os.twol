@@ -1,8 +1,9 @@
 Alphabet
 	a b c d e f g h i j k l m n o p q r s t u v w x y z 
-        î ê ô â 
+        î ê ô â ī ē
 	đ ƀ th
 	¹:0
+	²:0
 	;
 
 Sets
@@ -18,9 +19,27 @@ Rules
 "Remove morpheme boundary"
 %>:0 <=> _ 			;
 
-"Ablaut in strong verbs"
+
+!!!"Verner's Law Alternations in strong verbs with stem-final -th, part 1"
+!!!t:d <=> _[h ²]: ;
+
+
+!!!"Verner's Law Alternations in strong verbs with stem-final -th, part 2"
+!!!h:0 <=> :d _ ;
+
+
+"Ablaut in preterite of strong verbs (context 1)"
 Vx:Vy <=> _ Cns+ Vz: ;
-     where Vx in ( î ) 
-           Vy in ( ê ) 
-           Vz in ( ¹ ) 
+     where Vx in ( î ī ) 
+           Vy in ( ê ê ) 
+           Vz in ( ¹ ¹ ) 
      matched ;
+
+
+"Ablaut in preterite of strong verbs (context 2)"
+Vx:Vy <=> _ Cns+ Vz: ;
+     where Vx in ( î ī )
+           Vy in ( i i )
+           Vz in ( ² ² )
+     matched ;
+
