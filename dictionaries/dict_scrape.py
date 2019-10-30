@@ -9,12 +9,12 @@ nums = ['1','2','3','4','5','6','7','8','9','0']
 alphabet = ['a','b','c','d','e','f','g','h','i','j','k','k','l','m','n','o',
             'p','q','r','s','t','u','v','w','x','y','z',
             'ā','â','ā',
-            'ê','ė',
+            'ê','ė', 'ē',
             'ô','ō',
             'ū','û',
             'ī','î']
 
-POS_tags = ['as., st. V. (1)', 'as., st. V. (2)', 'as., sw. V. (1a)', 'as., sw. V. (1b)',
+POS_tags = ['as., st. V. (1)', 'as., st. V. (2)', 'as., st. V. (3a)', 'as., st. V. (3b)', 'as., sw. V. (1a)', 'as., sw. V. (1b)',
             'as., sw. V. (2)']
 
 def dict_scrape(POS, dictionaryfile='as_freq.txt'):

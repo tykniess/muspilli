@@ -26,7 +26,8 @@ Multichar_Symbols
 
 %<class1%>			! first class
 %<class2%>			! second class
-
+%<class3a%>			! class 3a strong verb
+%<class3b%>			! class 3b strong verb
 th				! th phoneme which is actually one sound
 
 LEXICON Root
@@ -208,9 +209,105 @@ tiohan%<v%>%<str%>%<class2%>:tioh STR2    ;	! nhd. ziehen, erziehen
 withartiohan%<v%>%<str%>%<class2%>:withartioh STR2    ;	! nhd. „widerziehen“, zurückziehen
 biodan%<v%>%<str%>%<class2%>:biod STR2		;
 !!!!!!!!!!!!!!!!!!!!!!Class 3!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-bindan%<v%>%<str%>%<class3%>:bind STR1 ;
-werthan%<v%>%<str%>%<class3%>:werth STR1;
+findan%<v%>%<str%>%<class3a%>:find STR3    ;	! nhd. finden
+giwinnan%<v%>%<str%>%<class3a%>:giwinn STR3    ;	! nhd. gewinnen, erlangen
+winnan%<v%>%<str%>%<class3a%>:winn STR3    ;	! nhd. kämpfen, erwerben, leiden
+gibindan%<v%>%<str%>%<class3a%>:gibind STR3    ;	! nhd. binden, fesseln
+brinnan%<v%>%<str%>%<class3a%>:brinn STR3    ;	! nhd. verbrennen, brennen
+drinkan%<v%>%<str%>%<class3a%>:drink STR3    ;	! nhd. trinken
+bithwingan%<v%>%<str%>%<class3a%>:bithwing STR3    ;	! nhd. zwingen, bezwingen, beengen, bedrängen
+thringan%<v%>%<str%>%<class3a%>:thring STR3    ;	! nhd. dringen, drängen
+bindan%<v%>%<str%>%<class3a%>:bind STR3    ;	! nhd. binden
+rinnan%<v%>%<str%>%<class3a%>:rinn STR3    ;	! nhd. rinnen, laufen
+sinkan%<v%>%<str%>%<class3a%>:sink STR3    ;	! nhd. sinken
+windan%<v%>%<str%>%<class3a%>:wind STR3    ;	! nhd. sich wenden, sich bewegen
+andbindan%<v%>%<str%>%<class3a%>:andbind STR3    ;	! nhd. entbinden, lösen, befreien
+andfindan%<v%>%<str%>%<class3a%>:andfind STR3    ;	! nhd. finden, wahrnehmen
+bifindan%<v%>%<str%>%<class3a%>:bifind STR3    ;	! nhd. bemerken, erforschen, feststellen
+biwindan%<v%>%<str%>%<class3a%>:biwind STR3    ;	! nhd. einwickeln, umgeben
+singan%<v%>%<str%>%<class3a%>:sing STR3    ;	! nhd. singen
+āwinnan%<v%>%<str%>%<class3a%>:āwinn STR3    ;	! nhd. erwerben, erlangen, bekommen
+bisinkan%<v%>%<str%>%<class3a%>:bisink STR3    ;	! nhd. vergehen, untersinken
+farswindan%<v%>%<str%>%<class3a%>:farswind STR3    ;	! nhd. verschwinden
+gidrinkan%<v%>%<str%>%<class3a%>:gidrink STR3    ;	! nhd. trinken
+grimman%<v%>%<str%>%<class3a%>:grimm STR3    ;	! nhd. wüten
+springan%<v%>%<str%>%<class3a%>:spring STR3    ;	! nhd. springen
+thwingan%<v%>%<str%>%<class3a%>:thwing STR3    ;	! nhd. zwingen, bedrängen
+undarfindan%<v%>%<str%>%<class3a%>:undarfind STR3    ;	! nhd. „unterfinden“, herausfinden
+andspringan%<v%>%<str%>%<class3a%>:andspring STR3    ;	! nhd. aufspringen
+andwindan%<v%>%<str%>%<class3a%>:andwind STR3    ;	! nhd. loswinden, aufwickeln
+brôkan%<v%>%<str%>%<class3a%>:brôk STR3    ;	! nhd. beugen, zimmern
+edwindan%<v%>%<str%>%<class3a%>:edwind STR3    ;	! nhd. schleudern
+farsinnan%<v%>%<str%>%<class3a%>:farsinn STR3    ;	! nhd. sich besinnen, zur Besinnung kommen
+farslindan%<v%>%<str%>%<class3a%>:farslind STR3    ;	! nhd. verschlingen
+farwinnan%<v%>%<str%>%<class3a%>:farwinn STR3    ;	! nhd. verführen
+girinnan%<v%>%<str%>%<class3a%>:girinn STR3    ;	! nhd. gerinnen
+githringan%<v%>%<str%>%<class3a%>:githring STR3    ;	! nhd. durchdringen
+githwingan%<v%>%<str%>%<class3a%>:githwing STR3    ;	! nhd. besiegen, bezwingen
+kwellan%<v%>%<str%>%<class3a%>:kwell STR3    ;	! nhd. quellen
+ovarrinnan%<v%>%<str%>%<class3a%>:ovarrinn STR3    ;	! nhd. entfliehen
+swingan%<v%>%<str%>%<class3a%>:swing STR3    ;	! nhd. schwingen, sich schwingen
+teswingan%<v%>%<str%>%<class3a%>:teswing STR3    ;	! nhd. „zerschwingen“, zerstreuen
+thrimman%<v%>%<str%>%<class3a%>:thrimm STR3    ;	! nhd. schwellen
+uprinnan%<v%>%<str%>%<class3a%>:uprinn STR3    ;	! nhd. „aufrinnen“, hinaufgehen
+ūtwringan%<v%>%<str%>%<class3a%>:ūtwring STR3    ;	! nhd. auswringen
+!!!
+werthan%<v%>%<str%>%<class3b%>:werth STR3    ;	! nhd. werden
+geldan%<v%>%<str%>%<class3b%>:geld STR3    ;	! nhd. zahlen, lohnen, vergelten
+giwerthan%<v%>%<str%>%<class3b%>:giwerth STR3    ;	! nhd. werden, geschehen, zu Teil werden, gut dünken
+hwervan%<v%>%<str%>%<class3b%>:hwerv STR3    ;	! nhd. „werben“, sich wenden, gehen
+bifelhan%<v%>%<str%>%<class3b%>:bifelh STR3    ;	! nhd. anempfehlen, übergeben (V.), begraben (V.), überlassen (V.), hingeben, anvertrauen, befehlen
+gifregnan%<v%>%<str%>%<class3b%>:gifregn STR3    ;	! nhd. erfahren (V.)
+helpan%<v%>%<str%>%<class3b%>:help STR3    ;	! nhd. helfen
+werpan%<v%>%<str%>%<class3b%>:werp STR3    ;	! nhd. werfen
+sweltan%<v%>%<str%>%<class3b%>:swelt STR3    ;	! nhd. sterben
+belgan%<v%>%<str%>%<class3b%>:belg STR3    ;	! nhd. zürnen
+andgeldan%<v%>%<str%>%<class3b%>:andgeld STR3    ;	! nhd. entgelten
+biwerpan%<v%>%<str%>%<class3b%>:biwerp STR3    ;	! nhd. „bewerfen“, werfen, ausstrecken, umringen, sich umgeben
+fargeldan%<v%>%<str%>%<class3b%>:fargeld STR3    ;	! nhd. „vergelten“, zahlen, lohnen, erkaufen
+giswerkan%<v%>%<str%>%<class3b%>:giswerk STR3    ;	! nhd. sich verfinstern
+tewerpan%<v%>%<str%>%<class3b%>:tewerp STR3    ;	! nhd. „zerwerfen“, zerstreuen, zerstören
+bidėlvan%<v%>%<str%>%<class3b%>:bidėlv STR3    ;	! nhd. begraben (V.)
+gihelpan%<v%>%<str%>%<class3b%>:gihelp STR3    ;	! nhd. helfen
+brestan%<v%>%<str%>%<class3b%>:brest STR3    ;	! nhd. bersten, krachen, gebrechen (V.)
+stervan%<v%>%<str%>%<class3b%>:sterv STR3    ;	! nhd. sterben
+fregnan%<v%>%<str%>%<class3b%>:fregn STR3    ;	! nhd. fragen
+giwerran%<v%>%<str%>%<class3b%>:giwerr STR3    ;	! nhd. in Verwirrung bringen, in Not bringen
+spurnan%<v%>%<str%>%<class3b%>:spurn STR3    ;	! nhd. treten, zertreten (V.), ausschlagen
+werran%<v%>%<str%>%<class3b%>:werr STR3    ;	! nhd. in Verwirrung bringen, in Not bringen, verwirren
+ābelgan%<v%>%<str%>%<class3b%>:ābelg STR3    ;	! nhd. zürnen
+āwerpan%<v%>%<str%>%<class3b%>:āwerp STR3    ;	! nhd. steinigen, totwerfen
+biwellan%<v%>%<str%>%<class3b%>:biwell STR3    ;	! nhd. beflecken, färben
+farwerpan%<v%>%<str%>%<class3b%>:farwerp STR3    ;	! nhd. wegwerfen, verstoßen
+flehtan%<v%>%<str%>%<class3b%>:fleht STR3    ;	! nhd. flechten
+nitharwerpan%<v%>%<str%>%<class3b%>:nitharwerp STR3    ;	! nhd. niederwerfen
+umbihwervan%<v%>%<str%>%<class3b%>:umbihwerv STR3    ;	! nhd. „umwerben“, umringen
+undarwerpan%<v%>%<str%>%<class3b%>:undarwerp STR3    ;	! nhd. unterwerfen
+witharwerpan%<v%>%<str%>%<class3b%>:witharwerp STR3    ;	! nhd. „widerwerfen“, verwerfen, verschmähen
+āgeldan%<v%>%<str%>%<class3b%>:āgeld STR3    ;	! nhd. büßen
+anawerpan%<v%>%<str%>%<class3b%>:anawerp STR3    ;	! nhd. werfen auf
+andgėginwerpan%<v%>%<str%>%<class3b%>:andgėginwerp STR3    ;	! nhd. entgegenwerfen, dagegenhalten
+andwerpan%<v%>%<str%>%<class3b%>:andwerp STR3    ;	! nhd. sich bewegen
+āstervan%<v%>%<str%>%<class3b%>:āsterv STR3    ;	! nhd. „ersterben“, sterben
+āwerthan%<v%>%<str%>%<class3b%>:āwerth STR3    ;	! nhd. verderben, abfallen, zu Grunde gehen
+bihwervan%<v%>%<str%>%<class3b%>:bihwerv STR3    ;	! nhd. begehen
+bispurnan%<v%>%<str%>%<class3b%>:bispurn STR3    ;	! nhd. anstoßen
+bregdan%<v%>%<str%>%<class3b%>:bregd STR3    ;	! nhd. knüpfen, flechten
+farbrestan%<v%>%<str%>%<class3b%>:farbrest STR3    ;	! nhd. zerbrechen, übertreten (V.)
+farwerthan%<v%>%<str%>%<class3b%>:farwerth STR3    ;	! nhd. umkommen, verderben
+gibergan%<v%>%<str%>%<class3b%>:giberg STR3    ;	! nhd. bergen, bewahren
+gihwėrvan%<v%>%<str%>%<class3b%>:gihwėrv STR3    ;	! nhd. gehen
+hellan%<v%>%<str%>%<class3b%>:hell STR3    ;	! nhd. hallen, tönen
+ofskerran%<v%>%<str%>%<class3b%>:ofskerr STR3    ;	! nhd. „abscharren“, abkratzen
+smeltan%<v%>%<str%>%<class3b%>:smelt STR3    ;	! nhd. schmelzen
+swellan%<v%>%<str%>%<class3b%>:swell STR3    ;	! nhd. schwellen, aufgedunsen sein (V.)
+swerkan%<v%>%<str%>%<class3b%>:swerk STR3    ;	! nhd. „schwarz werden“, finster werden, traurig werden
+swervan%<v%>%<str%>%<class3b%>:swerv STR3    ;	! nhd. abwischen
+tebrestan%<v%>%<str%>%<class3b%>:tebrest STR3    ;	! nhd. „zerbersten“, zerreißen
+tesamnaflehtan%<v%>%<str%>%<class3b%>:tesamnafleht STR3    ;	! nhd. zusammenflechten
+undgeldan%<v%>%<str%>%<class3b%>:undgeld STR3    ;	! nhd. entgelten, büßen
 
+!!!!!
 LEXICON WeakVerbs
 adêlian%<v%>%<wk%>%<class1%>:adêl WK1  ;	!"zuerkennen"
 nêrian%<v%>%<wk%>%<class1%>:nêr WK1 ; 		!"retten"

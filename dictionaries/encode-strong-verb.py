@@ -2,7 +2,7 @@ import sys
 #suffix = 'ian'     #used for 1st class weak verbs
 #suffix = 'an'   #2nd class weak verbs
 suffix = 'an' #strong verbs
-verb_class = '2'
+verb_class = 
 delineating_characters = [',','*']
 encoded_forms = []
 
@@ -21,18 +21,17 @@ with open(sys.argv[1], 'r') as to_read: #open filename
         gloss = line[j+1:]
 #        encoded_forms.append(stem+suffix+'%<v%>:'+stem+' WK1    ;	!' + gloss)
 #        encoded_forms.append(stem+suffix+'%<v%>:'+stem+' WK2    ;	!' + gloss)
-        if stem[-2:] == 'th':
-            encoded_forms.append(stem+suffix+'%<v%>%<str%>%<class' +\
-                             str(verb_class) + '%>:'+stem[:-2]+\
-                             ' STR'+verb_class+'-TH-STEM    ;	!' + gloss)
-        else:
-            encoded_forms.append(stem+suffix+'%<v%>%<str%>%<class' +\
+#        if stem[-2:] == 'th':
+#            encoded_forms.append(stem+suffix+'%<v%>%<str%>%<class' +\
+#                             str(verb_class) + '%>:'+stem[:-2]+\
+#                             ' STR'+verb_class+'-TH-STEM    ;	!' + gloss)
+        encoded_forms.append(stem+suffix+'%<v%>%<str%>%<class' +\
                              str(verb_class) + '%>:'+stem+\
-                             ' STR'+verb_class+'    ;	!' + gloss)
+                             ' STR'+str(verb_class)+'    ;	!' + gloss)
 
 
 for form in encoded_forms:
-    with open('to_import.txt','a+') as to_write:
+    with open(str(verb_class)+'to_import.txt','a+') as to_write:
         to_write.write(form)
 
 

@@ -41,37 +41,9 @@ budi   :   biodan <v>  <str>  <class2>  <str>  <pret>  <opt>  <3rd>  <sg>
 budin   :   biodan <v>  <str>  <class2>  <str>  <pret>  <opt>  <3rd>  <pl> 
 bôd   :   biodan <v>  <str>  <class2>  <str>  <pret>  <indic>  <1st>  <sg> 
 bôd   :   biodan <v>  <str>  <class2>  <str>  <pret>  <indic>  <3rd>  <sg> 
-band   :   bindan <v>  <str>  <class3>  <str>  <pret>  <indic>  <1st>  <sg> 
-band   :   bindan <v>  <str>  <class3>  <str>  <pret>  <indic>  <3rd>  <sg> 
 biudu   :   biodan <v>  <str>  <class2>  <str>  <pres>  <indic>  <1st>  <sg> 
 biudis   :   biodan <v>  <str>  <class2>  <str>  <pres>  <indic>  <2nd>  <sg> 
 biudiđ   :   biodan <v>  <str>  <class2>  <str>  <pres>  <indic>  <3rd>  <sg> 
-bindađ   :   bindan <v>  <str>  <class3>  <str>  <pres>  <indic>  <1st>  <pl> 
-bindu   :   bindan <v>  <str>  <class3>  <str>  <pres>  <indic>  <1st>  <sg> 
-bindađ   :   bindan <v>  <str>  <class3>  <str>  <pres>  <indic>  <2nd>  <pl> 
-bindis   :   bindan <v>  <str>  <class3>  <str>  <pres>  <indic>  <2nd>  <sg> 
-bindađ   :   bindan <v>  <str>  <class3>  <str>  <pres>  <indic>  <3rd>  <pl> 
-bindiđ   :   bindan <v>  <str>  <class3>  <str>  <pres>  <indic>  <3rd>  <sg> 
-binde   :   bindan <v>  <str>  <class3>  <str>  <pres>  <opt>  <1st>  <sg> 
-binden   :   bindan <v>  <str>  <class3>  <str>  <pres>  <opt>  <1st>  <pl> 
-bindes   :   bindan <v>  <str>  <class3>  <str>  <pres>  <opt>  <2nd>  <sg> 
-binden   :   bindan <v>  <str>  <class3>  <str>  <pres>  <opt>  <2nd>  <pl> 
-binde   :   bindan <v>  <str>  <class3>  <str>  <pres>  <opt>  <3rd>  <sg> 
-binden   :   bindan <v>  <str>  <class3>  <str>  <pres>  <opt>  <3rd>  <pl> 
-bind   :   bindan <v>  <str>  <class3>  <str>  <impv>  <sg> 
-bindađ   :   bindan <v>  <str>  <class3>  <str>  <impv>  <pl> 
-bindan   :   bindan <v>  <str>  <class3>  <str>  <inf> 
-bundun   :   bindan <v>  <str>  <class3>  <str>  <pret>  <indic>  <1st>  <pl> 
-bundi   :   bindan <v>  <str>  <class3>  <str>  <pret>  <indic>  <2nd>  <sg> 
-bundun   :   bindan <v>  <str>  <class3>  <str>  <pret>  <indic>  <2nd>  <pl> 
-bundun   :   bindan <v>  <str>  <class3>  <str>  <pret>  <indic>  <3rd>  <pl> 
-bundi   :   bindan <v>  <str>  <class3>  <str>  <pret>  <opt>  <1st>  <sg> 
-bundin   :   bindan <v>  <str>  <class3>  <str>  <pret>  <opt>  <1st>  <pl> 
-bundis   :   bindan <v>  <str>  <class3>  <str>  <pret>  <opt>  <2nd>  <sg> 
-bundin   :   bindan <v>  <str>  <class3>  <str>  <pret>  <opt>  <2nd>  <pl> 
-bundi   :   bindan <v>  <str>  <class3>  <str>  <pret>  <opt>  <3rd>  <sg> 
-bundin   :   bindan <v>  <str>  <class3>  <str>  <pret>  <opt>  <3rd>  <pl> 
-bundan   :   bindan <v>  <str>  <class3>  <str>  <pastpart> 
 brėngiađ   :   brėngian <v>  <wk>  <class1>  <wk>  <pres>  <1st>  <pl> 
 brėngiađ   :   brėngian <v>  <wk>  <class1>  <wk>  <pres>  <2nd>  <pl> 
 brėngiađ   :   brėngian <v>  <wk>  <class1>  <wk>  <pres>  <3rd>  <pl> 
@@ -570,34 +542,6 @@ thagidun   :   thagian <v>  <wk>  <class1>  <wk>  <pret>  <1st>  <pl>
 thagidun   :   thagian <v>  <wk>  <class1>  <wk>  <pret>  <2nd>  <pl> 
 thagidun   :   thagian <v>  <wk>  <class1>  <wk>  <pret>  <3rd>  <pl> 
 thagian   :   thagian <v>  <wk>  <class1>  <wk>  <inf> 
-warth   :   werthan <v>  <str>  <class3>  <str>  <pret>  <indic>  <1st>  <sg> 
-warth   :   werthan <v>  <str>  <class3>  <str>  <pret>  <indic>  <3rd>  <sg> 
-werthađ   :   werthan <v>  <str>  <class3>  <str>  <pres>  <indic>  <1st>  <pl> 
-werthađ   :   werthan <v>  <str>  <class3>  <str>  <pres>  <indic>  <2nd>  <pl> 
-werthađ   :   werthan <v>  <str>  <class3>  <str>  <pres>  <indic>  <3rd>  <pl> 
-werthe   :   werthan <v>  <str>  <class3>  <str>  <pres>  <opt>  <1st>  <sg> 
-werthen   :   werthan <v>  <str>  <class3>  <str>  <pres>  <opt>  <1st>  <pl> 
-werthes   :   werthan <v>  <str>  <class3>  <str>  <pres>  <opt>  <2nd>  <sg> 
-werthen   :   werthan <v>  <str>  <class3>  <str>  <pres>  <opt>  <2nd>  <pl> 
-werthe   :   werthan <v>  <str>  <class3>  <str>  <pres>  <opt>  <3rd>  <sg> 
-werthen   :   werthan <v>  <str>  <class3>  <str>  <pres>  <opt>  <3rd>  <pl> 
-werth   :   werthan <v>  <str>  <class3>  <str>  <impv>  <sg> 
-werthađ   :   werthan <v>  <str>  <class3>  <str>  <impv>  <pl> 
-werthan   :   werthan <v>  <str>  <class3>  <str>  <inf> 
-wirthu   :   werthan <v>  <str>  <class3>  <str>  <pres>  <indic>  <1st>  <sg> 
-wirthis   :   werthan <v>  <str>  <class3>  <str>  <pres>  <indic>  <2nd>  <sg> 
-wirthiđ   :   werthan <v>  <str>  <class3>  <str>  <pres>  <indic>  <3rd>  <sg> 
-worthan   :   werthan <v>  <str>  <class3>  <str>  <pastpart> 
-wurdun   :   werthan <v>  <str>  <class3>  <str>  <pret>  <indic>  <1st>  <pl> 
-wurdi   :   werthan <v>  <str>  <class3>  <str>  <pret>  <indic>  <2nd>  <sg> 
-wurdun   :   werthan <v>  <str>  <class3>  <str>  <pret>  <indic>  <2nd>  <pl> 
-wurdun   :   werthan <v>  <str>  <class3>  <str>  <pret>  <indic>  <3rd>  <pl> 
-wurdi   :   werthan <v>  <str>  <class3>  <str>  <pret>  <opt>  <1st>  <sg> 
-wurdin   :   werthan <v>  <str>  <class3>  <str>  <pret>  <opt>  <1st>  <pl> 
-wurdis   :   werthan <v>  <str>  <class3>  <str>  <pret>  <opt>  <2nd>  <sg> 
-wurdin   :   werthan <v>  <str>  <class3>  <str>  <pret>  <opt>  <2nd>  <pl> 
-wurdi   :   werthan <v>  <str>  <class3>  <str>  <pret>  <opt>  <3rd>  <sg> 
-wurdin   :   werthan <v>  <str>  <class3>  <str>  <pret>  <opt>  <3rd>  <pl> 
 wirkiađ   :   wirkian <v>  <wk>  <class1>  <wk>  <pres>  <1st>  <pl> 
 wirkiađ   :   wirkian <v>  <wk>  <class1>  <wk>  <pres>  <2nd>  <pl> 
 wirkiađ   :   wirkian <v>  <wk>  <class1>  <wk>  <pres>  <3rd>  <pl> 
