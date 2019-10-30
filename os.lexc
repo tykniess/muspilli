@@ -52,21 +52,20 @@ LEXICON STR2
 %<str%>: StrTempus2                       ;
 %<str%>%<pastpart%>:³%>an                # ;
 
+LEXICON STR3
+%<str%>%<inf%>:%>an                     # ;
+%<str%>: StrTempus                       ; !class 3 conjugates like STR1
+%<str%>%<pastpart%>:³%>an                # ;
+
 !LEXICON STR1-TH-STEM			!some stems end in th, which alternates with d
 !%<str%>%<inf%>:%>than              # ;
 !%<str%>: StrTempus-TH                     ;
 
-LEXICON StrTempus			!for first class strong verbs
+LEXICON StrTempus			!for first and 3rd class strong verbs
 %<pres%>: STR-INFL-PRES                       ;
 %<pret%>: STR-INFL-PRET-1Grade                ;
 %<pret%>: STR-INFL-PRET-2Grade         ;
 %<impv%>: STR-IMPERATIV                       ;
-
-!LEXICON StrTempus-TH				!for first class strong verbs ending in -th
-!%<pres%>:th STR-INFL-PRES			;
-!%<pret%>:th STR-INFL-PRET-1Grade		;
-!%<pret%>:d STR-INFL-PRET-2Grade		;
-!%<impv%>:th STR-IMPERATIV			;
 
 LEXICON StrTempus2				!for second class strong verbs
 %<pres%>: STR-INFL-PRES                       ;
