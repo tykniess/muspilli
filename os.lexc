@@ -27,6 +27,8 @@ Multichar_Symbols
 %<class1%>			! first class
 %<class2%>			! second class
 
+th				! th phoneme which is actually one sound
+
 LEXICON Root
 !Nouns ; 
 Verbs ; 
@@ -49,9 +51,9 @@ LEXICON STR2
 %<str%>: StrTempus2                       ;
 %<str%>%<pastpart%>:³%>an                # ;
 
-LEXICON STR1-TH-STEM			!some stems end in th, which alternates with d
-%<str%>%<inf%>:%>than              # ;
-%<str%>: StrTempus-TH                     ;
+!LEXICON STR1-TH-STEM			!some stems end in th, which alternates with d
+!%<str%>%<inf%>:%>than              # ;
+!%<str%>: StrTempus-TH                     ;
 
 LEXICON StrTempus			!for first class strong verbs
 %<pres%>: STR-INFL-PRES                       ;
@@ -59,11 +61,11 @@ LEXICON StrTempus			!for first class strong verbs
 %<pret%>: STR-INFL-PRET-2Grade         ;
 %<impv%>: STR-IMPERATIV                       ;
 
-LEXICON StrTempus-TH				!for first class strong verbs ending in -th
-%<pres%>:th STR-INFL-PRES			;
-%<pret%>:th STR-INFL-PRET-1Grade		;
-%<pret%>:d STR-INFL-PRET-2Grade		;
-%<impv%>:th STR-IMPERATIV			;
+!LEXICON StrTempus-TH				!for first class strong verbs ending in -th
+!%<pres%>:th STR-INFL-PRES			;
+!%<pret%>:th STR-INFL-PRET-1Grade		;
+!%<pret%>:d STR-INFL-PRET-2Grade		;
+!%<impv%>:th STR-IMPERATIV			;
 
 LEXICON StrTempus2				!for second class strong verbs
 %<pres%>: STR-INFL-PRES                       ;
@@ -191,12 +193,12 @@ LEXICON IMPERATIV-WK2
 
 LEXICON StrongVerbs
 !!!!!!!!!!!!!!!!!!!!!!Class 1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-mîthan%<v%>%<str%>%<class1%>:mî STR1-TH-STEM   ;
+mîthan%<v%>%<str%>%<class1%>:mîth STR1   ;	! nhd. meiden
 skīnan%<v%>%<str%>%<class1%>:skīn STR1    ;	! nhd. scheinen, leuchten
 skrīdan%<v%>%<str%>%<class1%>:skrīd STR1    ;	! nhd. gleiten, schreiten, gehen
 stīgan%<v%>%<str%>%<class1%>:stīg STR1    ;	! nhd. steigen
 wrītan%<v%>%<str%>%<class1%>:wrīt STR1    ;	! nhd. ritzen, reißen, zerreißen, schreiben
-ofskīthan%<v%>%<str%>%<class1%>:ofskī STR1-TH-STEM    ;	! nhd. abscheiden, abschneiden, trennen
+ofskīthan%<v%>%<str%>%<class1%>:ofskīth STR1   ;	! nhd. abscheiden, abschneiden, trennen
 rīdan%<v%>%<str%>%<class1%>:rīd STR1    ;	! nhd. reiten
 spīwan%<v%>%<str%>%<class1%>:spīw STR1    ;	! nhd. speien
 teskrīdan%<v%>%<str%>%<class1%>:teskrīd STR1    ;	! nhd. „zerschreiten“, zergehen

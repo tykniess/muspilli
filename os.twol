@@ -1,7 +1,8 @@
 Alphabet
 	a b c d e f g h i j k l m n o p q r s t u v w x y z 
         î ê ô â ī ē ō ā
-	đ ƀ th
+	đ ƀ
+        th:th th:d
 	¹:0
 	²:0
 	³:0
@@ -43,10 +44,8 @@ Vx:Vy <=> _ o: Cns+ Vz: ;
      matched ;
 
 
-
-
-
-
+"test if th can alternate with d (Verner)"
+th:d <=> _ ²: ; !testing if two characters can be one symbol
 
 
 
