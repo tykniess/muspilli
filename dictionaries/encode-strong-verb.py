@@ -2,7 +2,7 @@ import sys
 #suffix = 'ian'     #used for 1st class weak verbs
 #suffix = 'an'   #2nd class weak verbs
 suffix = 'an' #strong verbs
-verb_class = '1'
+verb_class = '2'
 delineating_characters = [',','*']
 encoded_forms = []
 
@@ -24,11 +24,11 @@ with open(sys.argv[1], 'r') as to_read: #open filename
         if stem[-2:] == 'th':
             encoded_forms.append(stem+suffix+'%<v%>%<str%>%<class' +\
                              str(verb_class) + '%>:'+stem[:-2]+\
-                             ' STR1-TH-STEM    ;	!' + gloss)
+                             ' STR'+verb_class+'-TH-STEM    ;	!' + gloss)
         else:
             encoded_forms.append(stem+suffix+'%<v%>%<str%>%<class' +\
                              str(verb_class) + '%>:'+stem+\
-                             ' STR1    ;	!' + gloss)
+                             ' STR'+verb_class+'    ;	!' + gloss)
 
 
 for form in encoded_forms:

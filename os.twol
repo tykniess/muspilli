@@ -1,9 +1,11 @@
 Alphabet
 	a b c d e f g h i j k l m n o p q r s t u v w x y z 
-        î ê ô â ī ē
+        î ê ô â ī ē ō ā
 	đ ƀ th
 	¹:0
 	²:0
+	³:0
+	⁴:0
 	;
 
 Sets
@@ -11,6 +13,7 @@ V = a e i o u			;
 FrontV = a e i			;
 BackV = o u			;
 Cns = b d f g h j k l m n p w r s t v w x y z đ ƀ th ; 
+HighV = i u ;
 
 Rules
 
@@ -19,7 +22,6 @@ Rules
 "Remove morpheme boundary"
 %>:0 <=> _ 			;
 
-
 !!!"Verner's Law Alternations in strong verbs with stem-final -th, part 1"
 !!!t:d <=> _[h ²]: ;
 
@@ -27,19 +29,45 @@ Rules
 !!!"Verner's Law Alternations in strong verbs with stem-final -th, part 2"
 !!!h:0 <=> :d _ ;
 
+"Umlaut in second class strong verbs"
+!biod>u becomes biudu
+o:u <=> i _  Cns+ %>:  HighV ;
+     except
+          _ (Cns)+ ¹: ; 
 
-"Ablaut in preterite of strong verbs (context 1)"
-Vx:Vy <=> _ Cns+ Vz: ;
-     where Vx in ( î ī ) 
-           Vy in ( ê ê ) 
-           Vz in ( ¹ ¹ ) 
+"Deletion of the i in the diphtong io in ablaut grades 1 2 3 "
+Vx:Vy <=> _ o: Cns+ Vz: ;
+     where Vx in ( i i i )
+           Vy in ( 0 0 0 )
+           Vz in ( ¹ ² ³)
      matched ;
 
 
-"Ablaut in preterite of strong verbs (context 2)"
+
+
+
+
+
+
+
+"Ablaut in preterite 1sg 3sg of strong verbs (context 1)"
 Vx:Vy <=> _ Cns+ Vz: ;
-     where Vx in ( î ī )
-           Vy in ( i i )
-           Vz in ( ² ² )
+     where Vx in ( î ī o) 
+           Vy in ( ê ê ô) 
+           Vz in ( ¹ ¹ ¹) 
+     matched ;
+
+"Ablaut in preterite pl of strong verbs (context 2)"
+Vx:Vy <=> _ Cns+ Vz: ;
+     where Vx in ( î ī o )
+           Vy in ( i i u )
+           Vz in ( ² ² ² )
+     matched ;
+
+"Ablaut in participle of strong verbs (context 3)"
+Vx:Vy <=> _ Cns+ Vz: ;
+     where Vx in ( î ī o )
+           Vy in ( i i o )
+           Vz in ( ³ ³ ³ )
      matched ;
 

@@ -14,7 +14,7 @@ alphabet = ['a','b','c','d','e','f','g','h','i','j','k','k','l','m','n','o',
             'ū','û',
             'ī','î']
 
-POS_tags = ['as., st. V. (1)', 'as., sw. V. (1a)', 'as., sw. V. (1b)',
+POS_tags = ['as., st. V. (1)', 'as., st. V. (2)', 'as., sw. V. (1a)', 'as., sw. V. (1b)',
             'as., sw. V. (2)']
 
 def dict_scrape(POS, dictionaryfile='as_freq.txt'):

@@ -19,6 +19,8 @@ Multichar_Symbols
 %<sg%>				! Singular
 %<pl%>				! Pl
 
+%<pastpart%>			! Past Participle
+
 %<str%>				! Strong Declension
 %<wk%>				! Weak Declension
 
@@ -36,28 +38,38 @@ WeakVerbs 			   ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!Strong Verbs!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!Still need to account for th>d (Verner) alternations!!!
-!!!in the preterite!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON STR1
-%<str%>%<inf%>:%>an		 # ;	
-%<str%>: StrTempus                     ;
+%<str%>%<inf%>:%>an		 	# ;	
+%<str%>: StrTempus                        ;
+%<str%>%<pastpart%>:³%>an		 # ;
+
+LEXICON STR2
+%<str%>%<inf%>:%>an              	# ;
+%<str%>: StrTempus2                       ;
+%<str%>%<pastpart%>:³%>an                # ;
 
 LEXICON STR1-TH-STEM			!some stems end in th, which alternates with d
 %<str%>%<inf%>:%>than              # ;
 %<str%>: StrTempus-TH                     ;
 
-LEXICON StrTempus
+LEXICON StrTempus			!for first class strong verbs
 %<pres%>: STR-INFL-PRES                       ;
 %<pret%>: STR-INFL-PRET-1Grade                ;
 %<pret%>: STR-INFL-PRET-2Grade         ;
 %<impv%>: STR-IMPERATIV                       ;
 
-LEXICON StrTempus-TH
+LEXICON StrTempus-TH				!for first class strong verbs ending in -th
 %<pres%>:th STR-INFL-PRES			;
 %<pret%>:th STR-INFL-PRET-1Grade		;
 %<pret%>:d STR-INFL-PRET-2Grade		;
 %<impv%>:th STR-IMPERATIV			;
+
+LEXICON StrTempus2				!for second class strong verbs
+%<pres%>: STR-INFL-PRES                       ;
+%<pret%>: STR-INFL-PRET-1Grade                ;
+%<pret%>: STR-INFL-PRET-2Grade         ;
+%<impv%>: STR-IMPERATIV                       ;
 
 LEXICON STR-INFL-PRES
 %<indic%>: STR-INFL-PRES-INDIC		;
@@ -178,6 +190,7 @@ LEXICON IMPERATIV-WK2
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON StrongVerbs
+!!!!!!!!!!!!!!!!!!!!!!Class 1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 mîthan%<v%>%<str%>%<class1%>:mî STR1-TH-STEM   ;
 skīnan%<v%>%<str%>%<class1%>:skīn STR1    ;	! nhd. scheinen, leuchten
 skrīdan%<v%>%<str%>%<class1%>:skrīd STR1    ;	! nhd. gleiten, schreiten, gehen
@@ -187,6 +200,11 @@ ofskīthan%<v%>%<str%>%<class1%>:ofskī STR1-TH-STEM    ;	! nhd. abscheiden, abs
 rīdan%<v%>%<str%>%<class1%>:rīd STR1    ;	! nhd. reiten
 spīwan%<v%>%<str%>%<class1%>:spīw STR1    ;	! nhd. speien
 teskrīdan%<v%>%<str%>%<class1%>:teskrīd STR1    ;	! nhd. „zerschreiten“, zergehen
+!!!!!!!!!!!!!!!!!!!!!!Class 2!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+griotan%<v%>%<str%>%<class2%>:griot STR2    ;	! nhd. weinen
+tiohan%<v%>%<str%>%<class2%>:tioh STR2    ;	! nhd. ziehen, erziehen
+withartiohan%<v%>%<str%>%<class2%>:withartioh STR2    ;	! nhd. „widerziehen“, zurückziehen
+biodan%<v%>%<str%>%<class2%>:biod STR2		;
 
 LEXICON WeakVerbs
 adêlian%<v%>%<wk%>%<class1%>:adêl WK1  ;	!"zuerkennen"
