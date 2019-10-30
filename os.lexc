@@ -207,6 +207,9 @@ griotan%<v%>%<str%>%<class2%>:griot STR2    ;	! nhd. weinen
 tiohan%<v%>%<str%>%<class2%>:tioh STR2    ;	! nhd. ziehen, erziehen
 withartiohan%<v%>%<str%>%<class2%>:withartioh STR2    ;	! nhd. „widerziehen“, zurückziehen
 biodan%<v%>%<str%>%<class2%>:biod STR2		;
+!!!!!!!!!!!!!!!!!!!!!!Class 3!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+bindan%<v%>%<str%>%<class3%>:bind STR1 ;
+werthan%<v%>%<str%>%<class3%>:werth STR1;
 
 LEXICON WeakVerbs
 adêlian%<v%>%<wk%>%<class1%>:adêl WK1  ;	!"zuerkennen"

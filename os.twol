@@ -30,11 +30,17 @@ Rules
 !!!"Verner's Law Alternations in strong verbs with stem-final -th, part 2"
 !!!h:0 <=> :d _ ;
 
-"Umlaut in second class strong verbs"
+"Umlaut in second and third class strong verbs"
 !biod>u becomes biudu
-o:u <=> i _  Cns+ %>:  HighV ;
-     except
-          _ (Cns)+ ¹: ; 
+!werth>u becomes wirthu
+Vx:Vy <=> _  Cns+ %>:  HighV ;
+     where Vx in ( o e )
+           Vy in ( u i )
+     matched ;
+!     except
+!          _ (Cns)+ ¹: ; 
+
+!werthu becomes wirthu
 
 "Deletion of the i in the diphtong io in ablaut grades 1 2 3 "
 Vx:Vy <=> _ o: Cns+ Vz: ;
@@ -47,26 +53,24 @@ Vx:Vy <=> _ o: Cns+ Vz: ;
 "test if th can alternate with d (Verner)"
 th:d <=> _ ²: ; !testing if two characters can be one symbol
 
-
-
 "Ablaut in preterite 1sg 3sg of strong verbs (context 1)"
 Vx:Vy <=> _ Cns+ Vz: ;
-     where Vx in ( î ī o) 
-           Vy in ( ê ê ô) 
-           Vz in ( ¹ ¹ ¹) 
+     where Vx in ( î ī o i e ) 
+           Vy in ( ê ê ô a a ) 
+           Vz in ( ¹ ¹ ¹ ¹ ¹ ) 
      matched ;
 
 "Ablaut in preterite pl of strong verbs (context 2)"
-Vx:Vy <=> _ Cns+ Vz: ;
-     where Vx in ( î ī o )
-           Vy in ( i i u )
-           Vz in ( ² ² ² )
+Vx:Vy <=> _ Cns+ Vz: ; 
+     where Vx in ( î ī o i e )
+           Vy in ( i i u u u )
+           Vz in ( ² ² ² ² ² )
      matched ;
 
 "Ablaut in participle of strong verbs (context 3)"
 Vx:Vy <=> _ Cns+ Vz: ;
-     where Vx in ( î ī o )
-           Vy in ( i i o )
-           Vz in ( ³ ³ ³ )
+     where Vx in ( î ī o i e )
+           Vy in ( i i o u o )
+           Vz in ( ³ ³ ³ ³ ³ )
      matched ;
 
