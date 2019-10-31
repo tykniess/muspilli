@@ -28,7 +28,15 @@ Multichar_Symbols
 %<class2%>			! second class
 %<class3a%>			! class 3a strong verb
 %<class3b%>			! class 3b strong verb
+%<class4%>			! class 4 strong verb
+%<class5%>			! class 5 strong verb
+%<class6%>			! class 6 strong verb
+%<class7%>			! class 7 strong verb
+
 th				! th phoneme which is actually one sound
+
+%{Ë%}				! Archiphoneme stem vowel of class 4 strong V.
+
 
 LEXICON Root
 !Nouns ; 
@@ -37,9 +45,14 @@ Verbs ;
 LEXICON Verbs
 StrongVerbs                     ;
 WeakVerbs 			   ;
-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!Strong Verbs!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON STR1
@@ -57,6 +70,11 @@ LEXICON STR3
 %<str%>: StrTempus                       ; !class 3 conjugates like STR1
 %<str%>%<pastpart%>:³%>an                # ;
 
+LEXICON STR4
+%<str%>%<inf%>:%>an                     # ;
+%<str%>:₄ StrTempus4                      ; !
+%<str%>%<pastpart%>:₄³%>an                # ;
+
 !LEXICON STR1-TH-STEM			!some stems end in th, which alternates with d
 !%<str%>%<inf%>:%>than              # ;
 !%<str%>: StrTempus-TH                     ;
@@ -68,6 +86,12 @@ LEXICON StrTempus			!for first and 3rd class strong verbs
 %<impv%>: STR-IMPERATIV                       ;
 
 LEXICON StrTempus2				!for second class strong verbs
+%<pres%>: STR-INFL-PRES                       ;
+%<pret%>: STR-INFL-PRET-1Grade                ;
+%<pret%>: STR-INFL-PRET-2Grade         ;
+%<impv%>: STR-IMPERATIV                       ;
+
+LEXICON StrTempus4                              !for second class strong verbs
 %<pres%>: STR-INFL-PRES                       ;
 %<pret%>: STR-INFL-PRET-1Grade                ;
 %<pret%>: STR-INFL-PRET-2Grade         ;
@@ -120,7 +144,13 @@ LEXICON STR-IMPERATIV
 %<pl%>:%>ađ	#;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!Weak Verbs!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON WK1
@@ -188,11 +218,19 @@ LEXICON IMPERATIV-WK2
 %<pl%>:d       #;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!Dictionary!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON StrongVerbs
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!Class 1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 mîthan%<v%>%<str%>%<class1%>:mîth STR1   ;	! nhd. meiden
 skīnan%<v%>%<str%>%<class1%>:skīn STR1    ;	! nhd. scheinen, leuchten
 skrīdan%<v%>%<str%>%<class1%>:skrīd STR1    ;	! nhd. gleiten, schreiten, gehen
@@ -202,12 +240,16 @@ ofskīthan%<v%>%<str%>%<class1%>:ofskīth STR1   ;	! nhd. abscheiden, abschneide
 rīdan%<v%>%<str%>%<class1%>:rīd STR1    ;	! nhd. reiten
 spīwan%<v%>%<str%>%<class1%>:spīw STR1    ;	! nhd. speien
 teskrīdan%<v%>%<str%>%<class1%>:teskrīd STR1    ;	! nhd. „zerschreiten“, zergehen
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!Class 2!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 griotan%<v%>%<str%>%<class2%>:griot STR2    ;	! nhd. weinen
 tiohan%<v%>%<str%>%<class2%>:tioh STR2    ;	! nhd. ziehen, erziehen
 withartiohan%<v%>%<str%>%<class2%>:withartioh STR2    ;	! nhd. „widerziehen“, zurückziehen
 biodan%<v%>%<str%>%<class2%>:biod STR2		;
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!Class 3!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 findan%<v%>%<str%>%<class3a%>:find STR3    ;	! nhd. finden
 giwinnan%<v%>%<str%>%<class3a%>:giwinn STR3    ;	! nhd. gewinnen, erlangen
 winnan%<v%>%<str%>%<class3a%>:winn STR3    ;	! nhd. kämpfen, erwerben, leiden
@@ -250,7 +292,7 @@ teswingan%<v%>%<str%>%<class3a%>:teswing STR3    ;	! nhd. „zerschwingen“, ze
 thrimman%<v%>%<str%>%<class3a%>:thrimm STR3    ;	! nhd. schwellen
 uprinnan%<v%>%<str%>%<class3a%>:uprinn STR3    ;	! nhd. „aufrinnen“, hinaufgehen
 ūtwringan%<v%>%<str%>%<class3a%>:ūtwring STR3    ;	! nhd. auswringen
-!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 werthan%<v%>%<str%>%<class3b%>:werth STR3    ;	! nhd. werden
 geldan%<v%>%<str%>%<class3b%>:geld STR3    ;	! nhd. zahlen, lohnen, vergelten
 giwerthan%<v%>%<str%>%<class3b%>:giwerth STR3    ;	! nhd. werden, geschehen, zu Teil werden, gut dünken
@@ -306,7 +348,19 @@ tebrestan%<v%>%<str%>%<class3b%>:tebrest STR3    ;	! nhd. „zerbersten“, zerr
 tesamnaflehtan%<v%>%<str%>%<class3b%>:tesamnafleht STR3    ;	! nhd. zusammenflechten
 undgeldan%<v%>%<str%>%<class3b%>:undgeld STR3    ;	! nhd. entgelten, büßen
 
-!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!Class 4!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+nëman%<v%>%<str%>%<class4%>:nem STR4 ; 		! nhd. nehmen
+niman%<v%>%<str%>%<class4%>:nem STR4 ;          ! nhd. nehmen
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!Weak Verbs!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON WeakVerbs
 adêlian%<v%>%<wk%>%<class1%>:adêl WK1  ;	!"zuerkennen"
 nêrian%<v%>%<wk%>%<class1%>:nêr WK1 ; 		!"retten"
