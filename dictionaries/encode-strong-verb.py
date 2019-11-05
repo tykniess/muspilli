@@ -2,7 +2,7 @@ import sys
 #suffix = 'ian'     #used for 1st class weak verbs
 #suffix = 'an'   #2nd class weak verbs
 suffix = 'an' #strong verbs
-verb_class = 
+verb_class = sys.argv[2]
 delineating_characters = [',','*']
 encoded_forms = []
 

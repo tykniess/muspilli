@@ -68,8 +68,8 @@ Vx:Vy <=> _ Cns+ Vz: ;
 
 "Ablaut in Strong Verbs Classes 4 and 5"
 Vx:Vy <=> _ Cns+ Vz: Vw: ;
-     where Vx in ( i i i )
-           Vy in ( a â o )
-           Vz in ( ₄ ₄ ₄ )
-           Vw in ( ¹ ² ³ )
+     where Vx in ( i i i e e e u u u )
+           Vy in ( a â o a â o a â o )
+           Vz in ( ₄ ₄ ₄ ₄ ₄ ₄ ₄ ₄ ₄ )
+           Vw in ( ¹ ² ³ ¹ ² ³ ¹ ² ³ )
      matched ;

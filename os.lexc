@@ -35,9 +35,6 @@ Multichar_Symbols
 
 th				! th phoneme which is actually one sound
 
-!%{Ë%}				! Archiphoneme stem vowel of class 4 strong V.
-
-
 LEXICON Root
 !Nouns ; 
 Verbs ; 
@@ -56,28 +53,27 @@ WeakVerbs 			   ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON STR1
-%<str%>%<inf%>:%>an		 	# ;	
-%<str%>: StrTempus                        ;
-%<str%>%<pastpart%>:³%>an		 # ;
+%<inf%>:%>an		 	# ;	
+StrTempus                        ;
+%<pastpart%>:³%>an		 # ;
 
 LEXICON STR2
-%<str%>%<inf%>:%>an              	# ;
-%<str%>: StrTempus2                       ;
-%<str%>%<pastpart%>:³%>an                # ;
+%<inf%>:%>an              	# ;
+StrTempus2                       ;
+%<pastpart%>:³%>an                # ;
 
 LEXICON STR3
-%<str%>%<inf%>:%>an                     # ;
-%<str%>: StrTempus                       ; !class 3 conjugates like STR1
-%<str%>%<pastpart%>:³%>an                # ;
+%<inf%>:%>an                     # ;
+StrTempus                       ; !class 3 conjugates like STR1
+%<pastpart%>:³%>an                # ;
 
 LEXICON STR4
-%<str%>%<inf%>:%>an                     # ;
-%<str%>:₄ StrTempus4                      ; !
-%<str%>%<pastpart%>:₄³%>an                # ;
+%<inf%>:%>an                     # ;
+:₄ StrTempus4                      ; !
+%<pastpart%>:₄³%>an                # ;
 
-!LEXICON STR1-TH-STEM			!some stems end in th, which alternates with d
-!%<str%>%<inf%>:%>than              # ;
-!%<str%>: StrTempus-TH                     ;
+LEXICON STR5
+STR4 ;
 
 LEXICON StrTempus			!for first and 3rd class strong verbs
 %<pres%>: STR-INFL-PRES                       ;
@@ -351,8 +347,105 @@ undgeldan%<v%>%<str%>%<class3b%>:undgeld STR3    ;	! nhd. entgelten, büßen
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!Class 4!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!need to account for kuman
 !nëman%<v%>%<str%>%<class4%>:nem STR4 ; 		! nhd. nehmen
-niman%<v%>%<str%>%<class4%>:nim STR4 ;          ! nhd. nehmen
+neman%<v%>%<str%>%<class4%>:nem STR4 ;          ! nhd. nehmen
+!niman%<v%>%<str%>%<class4%>:nim STR4 ;          ! nhd. nehmen
+kuman%<v%>%<str%>%<class4%>:kum STR4    ;	! nhd. kommen
+sprekan%<v%>%<str%>%<class4%>:sprek STR4    ;	! nhd. sprechen
+gisprekan%<v%>%<str%>%<class4%>:gisprek STR4    ;	! nhd. sprechen
+niman%<v%>%<str%>%<class4%>:nim STR4    ;	! nhd. nehmen, fassen, ergreifen, erhalten (V.)
+giberan%<v%>%<str%>%<class4%>:giber STR4    ;	! nhd. gebären
+biniman%<v%>%<str%>%<class4%>:binim STR4    ;	! nhd. wegnehmen, berauben
+beran%<v%>%<str%>%<class4%>:ber STR4    ;	! nhd. tragen, besitzen
+farniman%<v%>%<str%>%<class4%>:farnim STR4    ;	! nhd. vernehmen, hören, wahrnehmen, zerstören, hinraffen
+wrekan%<v%>%<str%>%<class4%>:wrek STR4    ;	! nhd. rächen, vergelten, strafen
+bihelan%<v%>%<str%>%<class4%>:bihel STR4    ;	! nhd. verhehlen, verbergen
+giniman%<v%>%<str%>%<class4%>:ginim STR4    ;	! nhd. „nehmen“, wegnehmen, rauben, fassen, aufnehmen, erhalten (V.)
+bikuman%<v%>%<str%>%<class4%>:bikum STR4    ;	! nhd. kommen, gelangen, zu Teil werden
+brekan%<v%>%<str%>%<class4%>:brek STR4    ;	! nhd. brechen, zerbrechen, zerreißen
+tebrekan%<v%>%<str%>%<class4%>:tebrek STR4    ;	! nhd. zerbrechen
+farhelan%<v%>%<str%>%<class4%>:farhel STR4    ;	! nhd. verhehlen, verbergen
+farstelan%<v%>%<str%>%<class4%>:farstel STR4    ;	! nhd. wegstehlen
+bisprekan%<v%>%<str%>%<class4%>:bisprek STR4    ;	! nhd. besprechen, schmähen, über etwas sprechen, tadeln
+farbrekan%<v%>%<str%>%<class4%>:farbrek STR4    ;	! nhd. zerbrechen, übertreten (V.)
+kwelan%<v%>%<str%>%<class4%>:kwel STR4    ;	! nhd. Qual leiden
+plegan%<v%>%<str%>%<class4%>:pleg STR4    ;	! nhd. „pflegen“, verantwortlich sein (V.), einstehen für
+tōsprekan%<v%>%<str%>%<class4%>:tōsprek STR4    ;	! nhd. zusprechen
+undarniman%<v%>%<str%>%<class4%>:undarnim STR4    ;	! nhd. „unternehmen“, unterbrechen
+ūtstekan%<v%>%<str%>%<class4%>:ūtstek STR4    ;	! nhd. ausstechen
+afbrekan%<v%>%<str%>%<class4%>:afbrek STR4    ;	! nhd. abbrechen, abpflücken
+ākuman%<v%>%<str%>%<class4%>:ākum STR4    ;	! nhd. erschrecken
+anaginiman%<v%>%<str%>%<class4%>:anaginim STR4    ;	! nhd. annehmen
+ankuman%<v%>%<str%>%<class4%>:ankum STR4    ;	! nhd. angreifen
+bibrekan%<v%>%<str%>%<class4%>:bibrek STR4    ;	! nhd. brechen
+fardwelan%<v%>%<str%>%<class4%>:fardwel STR4    ;	! nhd. versäumen
+farkuman%<v%>%<str%>%<class4%>:farkum STR4    ;	! nhd. vergehen
+farsprekan%<v%>%<str%>%<class4%>:farsprek STR4    ;	! nhd. versprechen
+forasprekan%<v%>%<str%>%<class4%>:forasprek STR4    ;	! nhd. „vorsprechen“, vorhersagen
+instekan%<v%>%<str%>%<class4%>:instek STR4    ;	! nhd. „einstecken“, hineinstecken
+ovardrepan%<v%>%<str%>%<class4%>:ovardrep STR4    ;	! nhd. übertreffen
+stekan%<v%>%<str%>%<class4%>:stek STR4    ;	! nhd. stechen
+thananiman%<v%>%<str%>%<class4%>:thananim STR4    ;	! nhd. entfernen, abschneiden, wegnehmen
+thurhstekan%<v%>%<str%>%<class4%>:thurhstek STR4    ;	! nhd. durchstechen
+witharkuman%<v%>%<str%>%<class4%>:witharkum STR4    ;	! nhd. „wiederkommen“, zurückkehren
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!Class 5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+kwethan%<v%>%<str%>%<class5%>:kweth STR5    ;	! nhd. sagen, sprechen
+gisehan%<v%>%<str%>%<class5%>:giseh STR5    ;	! nhd. sehen, ansehen
+gevan%<v%>%<str%>%<class5%>:gev STR5    ;	! nhd. geben
+sittian%<v%>%<str%>%<class5%>:sitti STR5    ;	! nhd. sitzen, sich setzen, wohnen, verharren
+biddian%<v%>%<str%>%<class5%>:biddi STR5    ;	! nhd. bitten, erbitten
+fargevan%<v%>%<str%>%<class5%>:fargev STR5    ;	! nhd. schenken, geben, vergeben (V.), verheißen
+sehan%<v%>%<str%>%<class5%>:seh STR5    ;	! nhd. sehen
+liggian%<v%>%<str%>%<class5%>:ligg STR5    ;	! nhd. liegen
+gehan%<v%>%<str%>%<class5%>:geh STR5    ;	! nhd. bekennen, erklären, aussprechen
+āgevan%<v%>%<str%>%<class5%>:āgev STR5    ;	! nhd. übergeben (V.), hingeben, verlassen (V.)
+lesan%<v%>%<str%>%<class5%>:les STR5    ;	! nhd. lesen (V.) (2), auflesen
+gisittian%<v%>%<str%>%<class5%>:gisitti STR5    ;	! nhd. setzen, bewohnen
+afgevan%<v%>%<str%>%<class5%>:afgev STR5    ;	! nhd. verlassen (V.), aufgeben
+bisehan%<v%>%<str%>%<class5%>:biseh STR5    ;	! nhd. sehen, besorgen
+farsehan%<v%>%<str%>%<class5%>:farseh STR5    ;	! nhd. sehen
+ābiddian%<v%>%<str%>%<class5%>:ābiddi STR5    ;	! nhd. erbitten, sich ausbitten, losbitten
+bisittian%<v%>%<str%>%<class5%>:bisitti STR5    ;	! nhd. belagern, umlagern, umstellen
+fretan%<v%>%<str%>%<class5%>:fret STR5    ;	! nhd. fressen
+gikwethan%<v%>%<str%>%<class5%>:gikweth STR5    ;	! nhd. sagen, verkünden
+tesamnalesan%<v%>%<str%>%<class5%>:tesamnales STR5    ;	! nhd. zusammenlesen, sammeln
+tregan%<v%>%<str%>%<class5%>:treg STR5    ;	! nhd. leid sein (V.)
+ālesan%<v%>%<str%>%<class5%>:āles STR5    ;	! nhd. auflesen, erlesen (V.)
+bigehan%<v%>%<str%>%<class5%>:bigeh STR5    ;	! nhd. sich vermessen (V.), beichten, verkünden
+etan%<v%>%<str%>%<class5%>:et STR5    ;	! nhd. essen
+fargetan%<v%>%<str%>%<class5%>:farget STR5    ;	! nhd. vergessen (V.)
+gibiddian%<v%>%<str%>%<class5%>:gibidd STR5    ;	! nhd. erbitten, losbitten
+giliggian%<v%>%<str%>%<class5%>:giligg STR5    ;	! nhd. liegen, sich legen
+ginesan%<v%>%<str%>%<class5%>:gines STR5    ;	! nhd. genesen, gerettet werden
+knedan%<v%>%<str%>%<class5%>:kned STR5    ;	! nhd. kneten
+ūtgedan%<v%>%<str%>%<class5%>:ūtged STR5    ;	! nhd. ausjäten
+andkwethan%<v%>%<str%>%<class5%>:andkweth STR5    ;	! nhd. widersprechen
+āsittian%<v%>%<str%>%<class5%>:āsitt STR5    ;	! nhd. sich aufsetzen, sich aufrichten
+bigetan%<v%>%<str%>%<class5%>:biget STR5    ;	! nhd. finden, ergreifen
+biklenan%<v%>%<str%>%<class5%>:biklen STR5    ;	! nhd. bestreichen
+forthsehan%<v%>%<str%>%<class5%>:forthseh STR5    ;	! nhd. sehen
+gedan%<v%>%<str%>%<class5%>:ged STR5    ;	! nhd. jäten
+gilesan%<v%>%<str%>%<class5%>:giles STR5    ;	! nhd. zusammenlesen
+giwegan%<v%>%<str%>%<class5%>:giweg STR5    ;	! nhd. wägen, erwägen
+metan%<v%>%<str%>%<class5%>:met STR5    ;	! nhd. halten für
+ofsittian%<v%>%<str%>%<class5%>:ofsitt STR5    ;	! nhd. Besitz ergreifen, besitzen
+ovarsehan%<v%>%<str%>%<class5%>:ovarseh STR5    ;	! nhd. „übersehen“, überschauen
+stelan%<v%>%<str%>%<class5%>:stel STR5    ;	! nhd. stehlen
+umbibigevan%<v%>%<str%>%<class5%>:umbibigev STR5    ;	! nhd. umgeben
+undarwesan%<v%>%<str%>%<class5%>:undarwes STR5    ;	! nhd. dazwischen sein (V.)
+upsehan%<v%>%<str%>%<class5%>:upseh STR5    ;	! nhd. „aufsehen“, hinaufsehen
+upsittian%<v%>%<str%>%<class5%>:upsitt STR5    ;	! nhd. „aufsitzen“, sich aufsetzen
+upwegan%<v%>%<str%>%<class5%>:upweg STR5    ;	! nhd. aufwiegen
+wegan%<v%>%<str%>%<class5%>:weg STR5    ;	! nhd. wägen, erwägen
+wevan%<v%>%<str%>%<class5%>:wev STR5    ;	! nhd. weben
+witharwegan%<v%>%<str%>%<class5%>:witharweg STR5    ;	! nhd. „widerwägen“, wieder vergelten
+withkwethan%<v%>%<str%>%<class5%>:withkweth STR5    ;	! nhd. entsagen
+metan%<v%>%<str%>%<class5%>:met STR5    ;	! nhd. messen
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
