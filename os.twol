@@ -1,16 +1,6 @@
 Alphabet
-	a b c d e f g h i j k l m n o p q r s t u v w x y z 
-        î ê ô â ī ē ō ā ë
-	đ ƀ
-        th:th th:d
-	%{Ë%}:e %{Ë%}:a %{Ë%}:ā %{Ë%}:o %{Ë%}:i			!4th class S.V.
-	¹:0
-	²:0
-	³:0
-	⁴:0
-	
-	₄:0	!for 4th and 5th class Strong Verbs
-	₅:0	!for 4th and 5th class Strong Verbs
+	 a b c d e f g h i j k l m n o p q r s t u v w x y z î ê ô â ī ē ō ā ë 
+	 đ ƀ th:th th:d ¹:0 ²:0 ³:0 ⁴:0	₄:0 ₅:0
 	;
 
 Sets
@@ -51,7 +41,7 @@ Vx:Vy <=> _ Cns+ Vz: ;
      except
             ₄ _ ;
             ₅ _ ;
-     where Vx in ( î ī o i e ê ē )!!!unfortunately this e>a conflicts with class 4 
+     where Vx in ( î ī o i e ê ē )
            Vy in ( ê ê ô a a a a ) 
            Vz in ( ¹ ¹ ¹ ¹ ¹ ¹ ¹ ) 
      matched ;
@@ -76,3 +66,10 @@ Vx:Vy <=> _ Cns+ Vz: ;
            Vz in ( ³ ³ ³ ³ ³ ³ ³ )
      matched ;
 
+"Ablaut in Strong Verbs Classes 4 and 5"
+Vx:Vy <=> _ Cns+ Vz: Vw: ;
+     where Vx in ( i i i )
+           Vy in ( a â o )
+           Vz in ( ₄ ₄ ₄ )
+           Vw in ( ¹ ² ³ )
+     matched ;

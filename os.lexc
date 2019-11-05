@@ -35,7 +35,7 @@ Multichar_Symbols
 
 th				! th phoneme which is actually one sound
 
-%{Ë%}				! Archiphoneme stem vowel of class 4 strong V.
+!%{Ë%}				! Archiphoneme stem vowel of class 4 strong V.
 
 
 LEXICON Root
@@ -91,7 +91,7 @@ LEXICON StrTempus2				!for second class strong verbs
 %<pret%>: STR-INFL-PRET-2Grade         ;
 %<impv%>: STR-IMPERATIV                       ;
 
-LEXICON StrTempus4                              !for second class strong verbs
+LEXICON StrTempus4                              !for 4th class strong verbs
 %<pres%>: STR-INFL-PRES                       ;
 %<pret%>: STR-INFL-PRET-1Grade                ;
 %<pret%>: STR-INFL-PRET-2Grade         ;
@@ -351,8 +351,8 @@ undgeldan%<v%>%<str%>%<class3b%>:undgeld STR3    ;	! nhd. entgelten, büßen
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!Class 4!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-nëman%<v%>%<str%>%<class4%>:nem STR4 ; 		! nhd. nehmen
-niman%<v%>%<str%>%<class4%>:nem STR4 ;          ! nhd. nehmen
+!nëman%<v%>%<str%>%<class4%>:nem STR4 ; 		! nhd. nehmen
+niman%<v%>%<str%>%<class4%>:nim STR4 ;          ! nhd. nehmen
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

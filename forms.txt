@@ -1851,116 +1851,39 @@ māridun   :   mārian <v>  <wk>  <class1>  <wk>  <pret>  <2nd>  <pl>
 māridun   :   mārian <v>  <wk>  <class1>  <wk>  <pret>  <3rd>  <pl> 
 māris   :   mārian <v>  <wk>  <class1>  <wk>  <pres>  <2nd>  <sg> 
 māriu   :   mārian <v>  <wk>  <class1>  <wk>  <pres>  <1st>  <sg> 
-nem   :   niman <v>  <str>  <class4>  <str>  <impv>  <sg> 
-nem   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <1st>  <sg> 
-nem   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <3rd>  <sg> 
-nem   :   nëman <v>  <str>  <class4>  <str>  <impv>  <sg> 
-nem   :   nëman <v>  <str>  <class4>  <str>  <pret>  <indic>  <1st>  <sg> 
-nem   :   nëman <v>  <str>  <class4>  <str>  <pret>  <indic>  <3rd>  <sg> 
-neman   :   niman <v>  <str>  <class4>  <str>  <inf> 
-neman   :   niman <v>  <str>  <class4>  <str>  <pastpart> 
-neman   :   nëman <v>  <str>  <class4>  <str>  <inf> 
-neman   :   nëman <v>  <str>  <class4>  <str>  <pastpart> 
-nemađ   :   niman <v>  <str>  <class4>  <str>  <impv>  <pl> 
-nemađ   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <1st>  <pl> 
-nemađ   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <2nd>  <pl> 
-nemađ   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <3rd>  <pl> 
-nemađ   :   nëman <v>  <str>  <class4>  <str>  <impv>  <pl> 
-nemađ   :   nëman <v>  <str>  <class4>  <str>  <pres>  <indic>  <1st>  <pl> 
-nemađ   :   nëman <v>  <str>  <class4>  <str>  <pres>  <indic>  <2nd>  <pl> 
-nemađ   :   nëman <v>  <str>  <class4>  <str>  <pres>  <indic>  <3rd>  <pl> 
-neme   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <1st>  <sg> 
-neme   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <3rd>  <sg> 
-neme   :   nëman <v>  <str>  <class4>  <str>  <pres>  <opt>  <1st>  <sg> 
-neme   :   nëman <v>  <str>  <class4>  <str>  <pres>  <opt>  <3rd>  <sg> 
-nemen   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <1st>  <pl> 
-nemen   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <2nd>  <pl> 
-nemen   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <3rd>  <pl> 
-nemen   :   nëman <v>  <str>  <class4>  <str>  <pres>  <opt>  <1st>  <pl> 
-nemen   :   nëman <v>  <str>  <class4>  <str>  <pres>  <opt>  <2nd>  <pl> 
-nemen   :   nëman <v>  <str>  <class4>  <str>  <pres>  <opt>  <3rd>  <pl> 
-nemes   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <2nd>  <sg> 
-nemes   :   nëman <v>  <str>  <class4>  <str>  <pres>  <opt>  <2nd>  <sg> 
-nemi   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <2nd>  <sg> 
-nemi   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <1st>  <sg> 
-nemi   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <3rd>  <sg> 
-nemi   :   nëman <v>  <str>  <class4>  <str>  <pret>  <indic>  <2nd>  <sg> 
-nemi   :   nëman <v>  <str>  <class4>  <str>  <pret>  <opt>  <1st>  <sg> 
-nemi   :   nëman <v>  <str>  <class4>  <str>  <pret>  <opt>  <3rd>  <sg> 
-nemin   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <1st>  <pl> 
-nemin   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <2nd>  <pl> 
-nemin   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <3rd>  <pl> 
-nemin   :   nëman <v>  <str>  <class4>  <str>  <pret>  <opt>  <1st>  <pl> 
-nemin   :   nëman <v>  <str>  <class4>  <str>  <pret>  <opt>  <2nd>  <pl> 
-nemin   :   nëman <v>  <str>  <class4>  <str>  <pret>  <opt>  <3rd>  <pl> 
-nemis   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <2nd>  <sg> 
-nemis   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <2nd>  <sg> 
-nemis   :   nëman <v>  <str>  <class4>  <str>  <pres>  <indic>  <2nd>  <sg> 
-nemis   :   nëman <v>  <str>  <class4>  <str>  <pret>  <opt>  <2nd>  <sg> 
-nemiđ   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <3rd>  <sg> 
-nemiđ   :   nëman <v>  <str>  <class4>  <str>  <pres>  <indic>  <3rd>  <sg> 
-nemu   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <1st>  <sg> 
-nemu   :   nëman <v>  <str>  <class4>  <str>  <pres>  <indic>  <1st>  <sg> 
-nemun   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <1st>  <pl> 
-nemun   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <2nd>  <pl> 
-nemun   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <3rd>  <pl> 
-nemun   :   nëman <v>  <str>  <class4>  <str>  <pret>  <indic>  <1st>  <pl> 
-nemun   :   nëman <v>  <str>  <class4>  <str>  <pret>  <indic>  <2nd>  <pl> 
-nemun   :   nëman <v>  <str>  <class4>  <str>  <pret>  <indic>  <3rd>  <pl> 
-nem₄   :   niman <v>  <str>  <class4>  <str>  <impv>  <sg> 
-nem₄   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <1st>  <sg> 
-nem₄   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <3rd>  <sg> 
-nem₄   :   nëman <v>  <str>  <class4>  <str>  <impv>  <sg> 
-nem₄   :   nëman <v>  <str>  <class4>  <str>  <pret>  <indic>  <1st>  <sg> 
-nem₄   :   nëman <v>  <str>  <class4>  <str>  <pret>  <indic>  <3rd>  <sg> 
-nem₄an   :   niman <v>  <str>  <class4>  <str>  <pastpart> 
-nem₄an   :   nëman <v>  <str>  <class4>  <str>  <pastpart> 
-nem₄ađ   :   niman <v>  <str>  <class4>  <str>  <impv>  <pl> 
-nem₄ađ   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <1st>  <pl> 
-nem₄ađ   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <2nd>  <pl> 
-nem₄ađ   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <3rd>  <pl> 
-nem₄ađ   :   nëman <v>  <str>  <class4>  <str>  <impv>  <pl> 
-nem₄ađ   :   nëman <v>  <str>  <class4>  <str>  <pres>  <indic>  <1st>  <pl> 
-nem₄ađ   :   nëman <v>  <str>  <class4>  <str>  <pres>  <indic>  <2nd>  <pl> 
-nem₄ađ   :   nëman <v>  <str>  <class4>  <str>  <pres>  <indic>  <3rd>  <pl> 
-nem₄e   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <1st>  <sg> 
-nem₄e   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <3rd>  <sg> 
-nem₄e   :   nëman <v>  <str>  <class4>  <str>  <pres>  <opt>  <1st>  <sg> 
-nem₄e   :   nëman <v>  <str>  <class4>  <str>  <pres>  <opt>  <3rd>  <sg> 
-nem₄en   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <1st>  <pl> 
-nem₄en   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <2nd>  <pl> 
-nem₄en   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <3rd>  <pl> 
-nem₄en   :   nëman <v>  <str>  <class4>  <str>  <pres>  <opt>  <1st>  <pl> 
-nem₄en   :   nëman <v>  <str>  <class4>  <str>  <pres>  <opt>  <2nd>  <pl> 
-nem₄en   :   nëman <v>  <str>  <class4>  <str>  <pres>  <opt>  <3rd>  <pl> 
-nem₄es   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <2nd>  <sg> 
-nem₄es   :   nëman <v>  <str>  <class4>  <str>  <pres>  <opt>  <2nd>  <sg> 
-nem₄i   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <2nd>  <sg> 
-nem₄i   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <1st>  <sg> 
-nem₄i   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <3rd>  <sg> 
-nem₄i   :   nëman <v>  <str>  <class4>  <str>  <pret>  <indic>  <2nd>  <sg> 
-nem₄i   :   nëman <v>  <str>  <class4>  <str>  <pret>  <opt>  <1st>  <sg> 
-nem₄i   :   nëman <v>  <str>  <class4>  <str>  <pret>  <opt>  <3rd>  <sg> 
-nem₄in   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <1st>  <pl> 
-nem₄in   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <2nd>  <pl> 
-nem₄in   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <3rd>  <pl> 
-nem₄in   :   nëman <v>  <str>  <class4>  <str>  <pret>  <opt>  <1st>  <pl> 
-nem₄in   :   nëman <v>  <str>  <class4>  <str>  <pret>  <opt>  <2nd>  <pl> 
-nem₄in   :   nëman <v>  <str>  <class4>  <str>  <pret>  <opt>  <3rd>  <pl> 
-nem₄is   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <2nd>  <sg> 
-nem₄is   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <2nd>  <sg> 
-nem₄is   :   nëman <v>  <str>  <class4>  <str>  <pres>  <indic>  <2nd>  <sg> 
-nem₄is   :   nëman <v>  <str>  <class4>  <str>  <pret>  <opt>  <2nd>  <sg> 
-nem₄iđ   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <3rd>  <sg> 
-nem₄iđ   :   nëman <v>  <str>  <class4>  <str>  <pres>  <indic>  <3rd>  <sg> 
-nem₄u   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <1st>  <sg> 
-nem₄u   :   nëman <v>  <str>  <class4>  <str>  <pres>  <indic>  <1st>  <sg> 
-nem₄un   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <1st>  <pl> 
-nem₄un   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <2nd>  <pl> 
-nem₄un   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <3rd>  <pl> 
-nem₄un   :   nëman <v>  <str>  <class4>  <str>  <pret>  <indic>  <1st>  <pl> 
-nem₄un   :   nëman <v>  <str>  <class4>  <str>  <pret>  <indic>  <2nd>  <pl> 
-nem₄un   :   nëman <v>  <str>  <class4>  <str>  <pret>  <indic>  <3rd>  <pl> 
+nam   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <1st>  <sg> 
+nam   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <3rd>  <sg> 
+nam₄   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <1st>  <sg> 
+nam₄   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <3rd>  <sg> 
+nim   :   niman <v>  <str>  <class4>  <str>  <impv>  <sg> 
+niman   :   niman <v>  <str>  <class4>  <str>  <inf> 
+nimađ   :   niman <v>  <str>  <class4>  <str>  <impv>  <pl> 
+nimađ   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <1st>  <pl> 
+nimađ   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <2nd>  <pl> 
+nimađ   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <3rd>  <pl> 
+nime   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <1st>  <sg> 
+nime   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <3rd>  <sg> 
+nimen   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <1st>  <pl> 
+nimen   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <2nd>  <pl> 
+nimen   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <3rd>  <pl> 
+nimes   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <2nd>  <sg> 
+nimis   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <2nd>  <sg> 
+nimiđ   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <3rd>  <sg> 
+nimu   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <1st>  <sg> 
+nim₄   :   niman <v>  <str>  <class4>  <str>  <impv>  <sg> 
+nim₄ađ   :   niman <v>  <str>  <class4>  <str>  <impv>  <pl> 
+nim₄ađ   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <1st>  <pl> 
+nim₄ađ   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <2nd>  <pl> 
+nim₄ađ   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <3rd>  <pl> 
+nim₄e   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <1st>  <sg> 
+nim₄e   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <3rd>  <sg> 
+nim₄en   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <1st>  <pl> 
+nim₄en   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <2nd>  <pl> 
+nim₄en   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <3rd>  <pl> 
+nim₄es   :   niman <v>  <str>  <class4>  <str>  <pres>  <opt>  <2nd>  <sg> 
+nim₄is   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <2nd>  <sg> 
+nim₄iđ   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <3rd>  <sg> 
+nim₄u   :   niman <v>  <str>  <class4>  <str>  <pres>  <indic>  <1st>  <sg> 
 nitharwarp   :   nitharwerpan <v>  <str>  <class3b>  <str>  <pret>  <indic>  <1st>  <sg> 
 nitharwarp   :   nitharwerpan <v>  <str>  <class3b>  <str>  <pret>  <indic>  <3rd>  <sg> 
 nitharwerp   :   nitharwerpan <v>  <str>  <class3b>  <str>  <impv>  <sg> 
@@ -1989,6 +1912,28 @@ nitharwurpis   :   nitharwerpan <v>  <str>  <class3b>  <str>  <pret>  <opt>  <2n
 nitharwurpun   :   nitharwerpan <v>  <str>  <class3b>  <str>  <pret>  <indic>  <1st>  <pl> 
 nitharwurpun   :   nitharwerpan <v>  <str>  <class3b>  <str>  <pret>  <indic>  <2nd>  <pl> 
 nitharwurpun   :   nitharwerpan <v>  <str>  <class3b>  <str>  <pret>  <indic>  <3rd>  <pl> 
+noman   :   niman <v>  <str>  <class4>  <str>  <pastpart> 
+nom₄an   :   niman <v>  <str>  <class4>  <str>  <pastpart> 
+nâmi   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <2nd>  <sg> 
+nâmi   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <1st>  <sg> 
+nâmi   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <3rd>  <sg> 
+nâmin   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <1st>  <pl> 
+nâmin   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <2nd>  <pl> 
+nâmin   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <3rd>  <pl> 
+nâmis   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <2nd>  <sg> 
+nâmun   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <1st>  <pl> 
+nâmun   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <2nd>  <pl> 
+nâmun   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <3rd>  <pl> 
+nâm₄i   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <2nd>  <sg> 
+nâm₄i   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <1st>  <sg> 
+nâm₄i   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <3rd>  <sg> 
+nâm₄in   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <1st>  <pl> 
+nâm₄in   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <2nd>  <pl> 
+nâm₄in   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <3rd>  <pl> 
+nâm₄is   :   niman <v>  <str>  <class4>  <str>  <pret>  <opt>  <2nd>  <sg> 
+nâm₄un   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <1st>  <pl> 
+nâm₄un   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <2nd>  <pl> 
+nâm₄un   :   niman <v>  <str>  <class4>  <str>  <pret>  <indic>  <3rd>  <pl> 
 nêri   :   nêrian <v>  <wk>  <class1>  <wk>  <impv>  <sg> 
 nêriad   :   nêrian <v>  <wk>  <class1>  <wk>  <impv>  <pl> 
 nêrian   :   nêrian <v>  <wk>  <class1>  <wk>  <inf> 
