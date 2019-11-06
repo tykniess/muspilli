@@ -73,7 +73,9 @@ LEXICON STR4
 %<pastpart%>:₄³%>an                # ;
 
 LEXICON STR5
-STR4 ;
+%<inf%>:%>an                     # ;
+:₄ StrTempus4                      ; !if 5 is exactly like 4 in inflection, which I believe it is
+%<pastpart%>:₅³%>an 		# ;
 
 LEXICON StrTempus			!for first and 3rd class strong verbs
 %<pres%>: STR-INFL-PRES                       ;

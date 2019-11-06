@@ -39,8 +39,8 @@ th:d <=> _ ²: ;
 "Ablaut in preterite 1sg 3sg of strong verbs (context 1)"
 Vx:Vy <=> _ Cns+ Vz: ;
      except
-            ₄ _ ;
-            ₅ _ ;
+            ₄: _ ;
+            ₅: _ ;
      where Vx in ( î ī o i e ê ē )
            Vy in ( ê ê ô a a a a ) 
            Vz in ( ¹ ¹ ¹ ¹ ¹ ¹ ¹ ) 
@@ -49,8 +49,8 @@ Vx:Vy <=> _ Cns+ Vz: ;
 "Ablaut in preterite pl of strong verbs (context 2)"
 Vx:Vy <=> _ Cns+ Vz: ; 
      except
-            ₄ _ ;
-            ₅ _ ;
+            ₄: _ ;
+            ₅: _ ;
      where Vx in ( î ī o i e ê ē )
            Vy in ( i i u u u â ā )
            Vz in ( ² ² ² ² ² ² ² )
@@ -59,17 +59,18 @@ Vx:Vy <=> _ Cns+ Vz: ;
 "Ablaut in participle of strong verbs (context 3)"
 Vx:Vy <=> _ Cns+ Vz: ;
      except
-            ₄ _ ;
-            ₅ _ ;
+            ₄: _ ;
+            ₅: _ ;
      where Vx in ( î ī o i e ê ē )
            Vy in ( i i o u o o o )
            Vz in ( ³ ³ ³ ³ ³ ³ ³ )
      matched ;
 
 "Ablaut in Strong Verbs Classes 4 and 5"
-Vx:Vy <=> _ Cns+ Vz: Vw: ;
-     where Vx in ( i i i e e e u u u )
-           Vy in ( a â o a â o a â o )
-           Vz in ( ₄ ₄ ₄ ₄ ₄ ₄ ₄ ₄ ₄ )
-           Vw in ( ¹ ² ³ ¹ ² ³ ¹ ² ³ )
+!some sort of doubling error in āles₄³>an
+Vx:Vy <=> _ Cns+ (i)  Vz: Vw: %>: ;
+     where Vx in ( i i i e e e u u u e i )
+           Vy in ( a â o a â o a â o e e )
+           Vz in ( ₄ ₄ ₄ ₄ ₄ ₄ ₄ ₄ ₄ ₅ ₅ )
+           Vw in ( ¹ ² ³ ¹ ² ³ ¹ ² ³ ³ ³ )
      matched ;
