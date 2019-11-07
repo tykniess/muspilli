@@ -1,11 +1,11 @@
 Alphabet
 	 a b c d e f g h i j k l m n o p q r s t u v w x y z î ê ô â ī ē ō ā ë 
 	 đ ƀ th:th th:d ¹:0 ²:0 ³:0 ⁴:0	₄:0 ₅:0
-	;
+	 %{I%}:i %{I%}:0	;
 
 Sets
-V = a e i o u			;
-FrontV = a e i			;
+V = a e i o u %{I%}			;
+FrontV = a e i %{I%}			;
 BackV = o u			;
 Cns = b d f g h j k l m n p w r s t v w x y z đ ƀ th ; 
 HighV = i u ;
@@ -35,12 +35,12 @@ Vx:Vy <=> _ o: Cns+ Vz: ;
            Vz in ( ¹ ² ³ )
      matched ;
 
-"Verner's Law th~d alternations in strong verbs"
-th:d <=> _ ²: ;
-
-"Grammatischer Wechsel h~g" !combine with th~d
-h:g <=> _ Vx: ;
-	where Vx in (¹ ²) ;
+"Grammatischer Wechsel"
+Vx:Vy <=> _ Vz: ;
+	where Vx in ( h th h ) !add s~r alternations
+	      Vy in ( g d g )
+	      Vz in ( ¹ ² ² ) 
+	matched ; 
 
 "Ablaut in preterite 1sg 3sg of strong verbs (context 1)"
 Vx:Vy <=> _ Cns+ Vz: ;
@@ -80,3 +80,6 @@ Vx:Vy <=> _ Cns+ (i)  Vz: Vw: %>: ;
            Vz in ( ₄ ₄ ₄ ₄ ₄ ₄ ₄ ₄ ₄ ₅ ₅ )
            Vw in ( ¹ ² ³ ¹ ² ³ ¹ ² ³ ³ ³ )
      matched ;
+
+"Remove i-infix before a vocalic verbal suffix"
+%{I%}:0 <=> _ (¹:|²:) (>:) (¹:|²:) :i ; 

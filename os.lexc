@@ -35,6 +35,8 @@ Multichar_Symbols
 
 th				! th phoneme which is actually one sound
 
+%{I%}				! i-infix in strong verbs
+
 LEXICON Root
 !Nouns ; 
 Verbs ; 
@@ -82,6 +84,11 @@ LEXICON STR6				!fine but cannot yet account for the -jan verbs in class 6
 StrTempus                      ; !
 %<pastpart%>:%>an                # ;
 
+LEXICON STR6-J                         !accounts for class 6 verbs with j infix
+%<inf%>:%>ian                     # ;
+StrTempusJ                      ; !
+%<pastpart%>:%>ian                # ;
+
 LEXICON StrTempus			!for first and 3rd class strong verbs
 %<pres%>: STR-INFL-PRES                       ;
 %<pret%>: STR-INFL-PRET-1Grade                ;
@@ -100,9 +107,19 @@ LEXICON StrTempus4                              !for 4th class strong verbs
 %<pret%>: STR-INFL-PRET-2Grade         ;
 %<impv%>: STR-IMPERATIV                       ;
 
+!LEXICON StrTempusJ                      	!for j-infix 6th class verbs
+!%<pres%>: STR-INFL-PRES-J                       ;
+!%<pret%>: STR-INFL-PRET-1Grade-J                ;
+!%<pret%>: STR-INFL-PRET-2Grade-J         ;
+!%<impv%>: STR-IMPERATIV-J                       ;a
+
 LEXICON STR-INFL-PRES
 %<indic%>: STR-INFL-PRES-INDIC		;
 %<opt%>: STR-INFL-PRES-OPT		;
+
+!LEXICON STR-INFL-PRES-J
+!%<indic%>: STR-INFL-PRES-INDIC-J          ;
+!%<opt%>: STR-INFL-PRES-OPT-J              ;
 
 LEXICON STR-INFL-PRES-INDIC
 %<1st%>%<sg%>:%>u 		# ;
@@ -467,7 +484,7 @@ gistandan%<v%>%<str%>%<class6%>:gistand STR6    ;	! nhd. stehen, stehen bleiben,
 āstandan%<v%>%<str%>%<class6%>:āstand STR6    ;	! nhd. aufstehen, auferstehen
 wahsan%<v%>%<str%>%<class6%>:wahs STR6    ;	! nhd. wachsen (V.) (1)
 slahan%<v%>%<str%>%<class6%>:slah STR6    ;	! nhd. schlagen, töten
-afhėbbian%<v%>%<str%>%<class6%>:afhėbbi STR6    ;	! nhd. sich erheben, aufheben, beginnen, wegheben, anheben
+afhėbbian%<v%>%<str%>%<class6%>:afhėbb%{I%} STR6    ;	! nhd. sich erheben, aufheben, beginnen, wegheben, anheben
 !giskėppian%<v%>%<str%>%<class6%>:giskėppi STR6    ;	! nhd. schaffen, bestimmen
 !swėrian%<v%>%<str%>%<class6%>:swėri STR6    ;	! nhd. schwören
 !āhėbbian%<v%>%<str%>%<class6%>:āhėbbi STR6    ;	! nhd. erheben, anheben, erhöhen, beginnen

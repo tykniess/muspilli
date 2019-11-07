@@ -36,26 +36,26 @@ afgâvun    	afgevan <v>  <str>  <class5>  <pret>  <indic>  <2nd>  <pl>
 afgâvun    	afgevan <v>  <str>  <class5>  <pret>  <indic>  <3rd>  <pl> 
 afhėbbi    	afhėbbian <v>  <str>  <class6>  <impv>  <sg> 
 afhėbbi    	afhėbbian <v>  <str>  <class6>  <pret>  <indic>  <1st>  <sg> 
+afhėbbi    	afhėbbian <v>  <str>  <class6>  <pret>  <indic>  <2nd>  <sg> 
 afhėbbi    	afhėbbian <v>  <str>  <class6>  <pret>  <indic>  <3rd>  <sg> 
+afhėbbi    	afhėbbian <v>  <str>  <class6>  <pret>  <opt>  <1st>  <sg> 
+afhėbbi    	afhėbbian <v>  <str>  <class6>  <pret>  <opt>  <3rd>  <sg> 
 afhėbbian    	afhėbbian <v>  <str>  <class6>  <inf> 
 afhėbbian    	afhėbbian <v>  <str>  <class6>  <pastpart> 
 afhėbbiađ    	afhėbbian <v>  <str>  <class6>  <impv>  <pl> 
 afhėbbiađ    	afhėbbian <v>  <str>  <class6>  <pres>  <indic>  <1st>  <pl> 
 afhėbbiađ    	afhėbbian <v>  <str>  <class6>  <pres>  <indic>  <2nd>  <pl> 
 afhėbbiađ    	afhėbbian <v>  <str>  <class6>  <pres>  <indic>  <3rd>  <pl> 
-afhėbbii    	afhėbbian <v>  <str>  <class6>  <pret>  <indic>  <2nd>  <sg> 
-afhėbbii    	afhėbbian <v>  <str>  <class6>  <pret>  <opt>  <1st>  <sg> 
-afhėbbii    	afhėbbian <v>  <str>  <class6>  <pret>  <opt>  <3rd>  <sg> 
-afhėbbiin    	afhėbbian <v>  <str>  <class6>  <pret>  <opt>  <1st>  <pl> 
-afhėbbiin    	afhėbbian <v>  <str>  <class6>  <pret>  <opt>  <2nd>  <pl> 
-afhėbbiin    	afhėbbian <v>  <str>  <class6>  <pret>  <opt>  <3rd>  <pl> 
-afhėbbiis    	afhėbbian <v>  <str>  <class6>  <pres>  <indic>  <2nd>  <sg> 
-afhėbbiis    	afhėbbian <v>  <str>  <class6>  <pret>  <opt>  <2nd>  <sg> 
-afhėbbiiđ    	afhėbbian <v>  <str>  <class6>  <pres>  <indic>  <3rd>  <sg> 
+afhėbbin    	afhėbbian <v>  <str>  <class6>  <pret>  <opt>  <1st>  <pl> 
+afhėbbin    	afhėbbian <v>  <str>  <class6>  <pret>  <opt>  <2nd>  <pl> 
+afhėbbin    	afhėbbian <v>  <str>  <class6>  <pret>  <opt>  <3rd>  <pl> 
+afhėbbis    	afhėbbian <v>  <str>  <class6>  <pres>  <indic>  <2nd>  <sg> 
+afhėbbis    	afhėbbian <v>  <str>  <class6>  <pret>  <opt>  <2nd>  <sg> 
 afhėbbiu    	afhėbbian <v>  <str>  <class6>  <pres>  <indic>  <1st>  <sg> 
 afhėbbiun    	afhėbbian <v>  <str>  <class6>  <pret>  <indic>  <1st>  <pl> 
 afhėbbiun    	afhėbbian <v>  <str>  <class6>  <pret>  <indic>  <2nd>  <pl> 
 afhėbbiun    	afhėbbian <v>  <str>  <class6>  <pret>  <indic>  <3rd>  <pl> 
+afhėbbiđ    	afhėbbian <v>  <str>  <class6>  <pres>  <indic>  <3rd>  <sg> 
 afstand    	afstandan <v>  <str>  <class6>  <impv>  <sg> 
 afstandan    	afstandan <v>  <str>  <class6>  <inf> 
 afstandan    	afstandan <v>  <str>  <class6>  <pastpart> 
