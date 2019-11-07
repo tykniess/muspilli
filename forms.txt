@@ -789,11 +789,11 @@ dragađ    	dragan <v>  <str>  <class6>  <impv>  <pl>
 dragađ    	dragan <v>  <str>  <class6>  <pres>  <indic>  <1st>  <pl> 
 dragađ    	dragan <v>  <str>  <class6>  <pres>  <indic>  <2nd>  <pl> 
 dragađ    	dragan <v>  <str>  <class6>  <pres>  <indic>  <3rd>  <pl> 
+dragu    	dragan <v>  <str>  <class6>  <pres>  <indic>  <1st>  <sg> 
 drank    	drinkan <v>  <str>  <class3a>  <pret>  <indic>  <1st>  <sg> 
 drank    	drinkan <v>  <str>  <class3a>  <pret>  <indic>  <3rd>  <sg> 
 dregis    	dragan <v>  <str>  <class6>  <pres>  <indic>  <2nd>  <sg> 
 dregiđ    	dragan <v>  <str>  <class6>  <pres>  <indic>  <3rd>  <sg> 
-dregu    	dragan <v>  <str>  <class6>  <pres>  <indic>  <1st>  <sg> 
 drink    	drinkan <v>  <str>  <class3a>  <impv>  <sg> 
 drinkan    	drinkan <v>  <str>  <class3a>  <inf> 
 drinkađ    	drinkan <v>  <str>  <class3a>  <impv>  <pl> 

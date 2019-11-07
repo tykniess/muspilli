@@ -21,10 +21,12 @@ Rules
 !biod>u becomes biudu
 !werth>u becomes wirthu
 Vx:Vy <=> _  Cns+ %>:  HighV ;
-     where Vx in ( o e a )
-           Vy in ( u i e )
+     where Vx in ( o e )
+           Vy in ( u i )
      matched ;
-!werthu becomes wirthu
+
+"Umlaut in sixth class strong verbs"
+a:e <=> _ Cns %>: i ; !note that this umlaut doesn't apply before [u]
 
 "STR2 Deletion of the i in the diphtong io in ablaut grades 1 2 3 "
 Vx:Vy <=> _ o: Cns+ Vz: ;
