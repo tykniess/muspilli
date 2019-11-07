@@ -77,6 +77,11 @@ LEXICON STR5
 :₄ StrTempus4                      ; !if 5 is exactly like 4 in inflection, which I believe it is
 %<pastpart%>:₅³%>an 		# ;
 
+LEXICON STR6
+%<inf%>:%>an                     # ;
+StrTempus                      ; !
+%<pastpart%>:%>an                # ;
+
 LEXICON StrTempus			!for first and 3rd class strong verbs
 %<pres%>: STR-INFL-PRES                       ;
 %<pret%>: STR-INFL-PRET-1Grade                ;
@@ -448,6 +453,13 @@ wevan%<v%>%<str%>%<class5%>:wev STR5    ;	! nhd. weben
 witharwegan%<v%>%<str%>%<class5%>:witharweg STR5    ;	! nhd. „widerwägen“, wieder vergelten
 withkwethan%<v%>%<str%>%<class5%>:withkweth STR5    ;	! nhd. entsagen
 metan%<v%>%<str%>%<class5%>:met STR5    ;	! nhd. messen
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!Class 6!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+dragan%<v%>%<str%>%<class6%>:drag STR6    ;       ! nhd. tragen
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

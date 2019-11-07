@@ -21,8 +21,8 @@ Rules
 !biod>u becomes biudu
 !werth>u becomes wirthu
 Vx:Vy <=> _  Cns+ %>:  HighV ;
-     where Vx in ( o e )
-           Vy in ( u i )
+     where Vx in ( o e a )
+           Vy in ( u i e )
      matched ;
 !werthu becomes wirthu
 
@@ -36,14 +36,18 @@ Vx:Vy <=> _ o: Cns+ Vz: ;
 "Verner's Law th~d alternations in strong verbs"
 th:d <=> _ ²: ;
 
+"Grammatischer Wechsel h~g" !combine with th~d
+h:g <=> _ Vx: ;
+	where Vx in (¹ ²) ;
+
 "Ablaut in preterite 1sg 3sg of strong verbs (context 1)"
 Vx:Vy <=> _ Cns+ Vz: ;
      except
             ₄: _ ;
             ₅: _ ;
-     where Vx in ( î ī o i e ê ē )
-           Vy in ( ê ê ô a a a a ) 
-           Vz in ( ¹ ¹ ¹ ¹ ¹ ¹ ¹ ) 
+     where Vx in ( î ī o i e ê ē a )
+           Vy in ( ê ê ô a a a a ô ) 
+           Vz in ( ¹ ¹ ¹ ¹ ¹ ¹ ¹ ¹ ) 
      matched ;
 
 "Ablaut in preterite pl of strong verbs (context 2)"
@@ -51,9 +55,9 @@ Vx:Vy <=> _ Cns+ Vz: ;
      except
             ₄: _ ;
             ₅: _ ;
-     where Vx in ( î ī o i e ê ē )
-           Vy in ( i i u u u â ā )
-           Vz in ( ² ² ² ² ² ² ² )
+     where Vx in ( î ī o i e ê ē a )
+           Vy in ( i i u u u â ā ô )
+           Vz in ( ² ² ² ² ² ² ² ² )
      matched ;
 
 "Ablaut in participle of strong verbs (context 3)"

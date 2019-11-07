@@ -304,8 +304,8 @@ bidėlvu    	bidėlvan <v>  <str>  <class3b>  <pres>  <indic>  <1st>  <sg>
 bidėlvun    	bidėlvan <v>  <str>  <class3b>  <pret>  <indic>  <1st>  <pl> 
 bidėlvun    	bidėlvan <v>  <str>  <class3b>  <pret>  <indic>  <2nd>  <pl> 
 bidėlvun    	bidėlvan <v>  <str>  <class3b>  <pret>  <indic>  <3rd>  <pl> 
-bifalh    	bifelhan <v>  <str>  <class3b>  <pret>  <indic>  <1st>  <sg> 
-bifalh    	bifelhan <v>  <str>  <class3b>  <pret>  <indic>  <3rd>  <sg> 
+bifalg    	bifelhan <v>  <str>  <class3b>  <pret>  <indic>  <1st>  <sg> 
+bifalg    	bifelhan <v>  <str>  <class3b>  <pret>  <indic>  <3rd>  <sg> 
 bifand    	bifindan <v>  <str>  <class3a>  <pret>  <indic>  <1st>  <sg> 
 bifand    	bifindan <v>  <str>  <class3a>  <pret>  <indic>  <3rd>  <sg> 
 bifilhis    	bifelhan <v>  <str>  <class3b>  <pres>  <indic>  <2nd>  <sg> 
@@ -321,16 +321,16 @@ bifindis    	bifindan <v>  <str>  <class3a>  <pres>  <indic>  <2nd>  <sg>
 bifindiđ    	bifindan <v>  <str>  <class3a>  <pres>  <indic>  <3rd>  <sg> 
 bifindu    	bifindan <v>  <str>  <class3a>  <pres>  <indic>  <1st>  <sg> 
 bifolhan    	bifelhan <v>  <str>  <class3b>  <pastpart> 
-bifulhi    	bifelhan <v>  <str>  <class3b>  <pret>  <indic>  <2nd>  <sg> 
-bifulhi    	bifelhan <v>  <str>  <class3b>  <pret>  <opt>  <1st>  <sg> 
-bifulhi    	bifelhan <v>  <str>  <class3b>  <pret>  <opt>  <3rd>  <sg> 
-bifulhin    	bifelhan <v>  <str>  <class3b>  <pret>  <opt>  <1st>  <pl> 
-bifulhin    	bifelhan <v>  <str>  <class3b>  <pret>  <opt>  <2nd>  <pl> 
-bifulhin    	bifelhan <v>  <str>  <class3b>  <pret>  <opt>  <3rd>  <pl> 
-bifulhis    	bifelhan <v>  <str>  <class3b>  <pret>  <opt>  <2nd>  <sg> 
-bifulhun    	bifelhan <v>  <str>  <class3b>  <pret>  <indic>  <1st>  <pl> 
-bifulhun    	bifelhan <v>  <str>  <class3b>  <pret>  <indic>  <2nd>  <pl> 
-bifulhun    	bifelhan <v>  <str>  <class3b>  <pret>  <indic>  <3rd>  <pl> 
+bifulgi    	bifelhan <v>  <str>  <class3b>  <pret>  <indic>  <2nd>  <sg> 
+bifulgi    	bifelhan <v>  <str>  <class3b>  <pret>  <opt>  <1st>  <sg> 
+bifulgi    	bifelhan <v>  <str>  <class3b>  <pret>  <opt>  <3rd>  <sg> 
+bifulgin    	bifelhan <v>  <str>  <class3b>  <pret>  <opt>  <1st>  <pl> 
+bifulgin    	bifelhan <v>  <str>  <class3b>  <pret>  <opt>  <2nd>  <pl> 
+bifulgin    	bifelhan <v>  <str>  <class3b>  <pret>  <opt>  <3rd>  <pl> 
+bifulgis    	bifelhan <v>  <str>  <class3b>  <pret>  <opt>  <2nd>  <sg> 
+bifulgun    	bifelhan <v>  <str>  <class3b>  <pret>  <indic>  <1st>  <pl> 
+bifulgun    	bifelhan <v>  <str>  <class3b>  <pret>  <indic>  <2nd>  <pl> 
+bifulgun    	bifelhan <v>  <str>  <class3b>  <pret>  <indic>  <3rd>  <pl> 
 bifundan    	bifindan <v>  <str>  <class3a>  <pastpart> 
 bifundi    	bifindan <v>  <str>  <class3a>  <pret>  <indic>  <2nd>  <sg> 
 bifundi    	bifindan <v>  <str>  <class3a>  <pret>  <opt>  <1st>  <sg> 
@@ -782,8 +782,18 @@ bârun    	beran <v>  <str>  <class4>  <pret>  <indic>  <2nd>  <pl>
 bârun    	beran <v>  <str>  <class4>  <pret>  <indic>  <3rd>  <pl> 
 bôd    	biodan <v>  <str>  <class2>  <pret>  <indic>  <1st>  <sg> 
 bôd    	biodan <v>  <str>  <class2>  <pret>  <indic>  <3rd>  <sg> 
+drag    	dragan <v>  <str>  <class6>  <impv>  <sg> 
+dragan    	dragan <v>  <str>  <class6>  <inf> 
+dragan    	dragan <v>  <str>  <class6>  <pastpart> 
+dragađ    	dragan <v>  <str>  <class6>  <impv>  <pl> 
+dragađ    	dragan <v>  <str>  <class6>  <pres>  <indic>  <1st>  <pl> 
+dragađ    	dragan <v>  <str>  <class6>  <pres>  <indic>  <2nd>  <pl> 
+dragađ    	dragan <v>  <str>  <class6>  <pres>  <indic>  <3rd>  <pl> 
 drank    	drinkan <v>  <str>  <class3a>  <pret>  <indic>  <1st>  <sg> 
 drank    	drinkan <v>  <str>  <class3a>  <pret>  <indic>  <3rd>  <sg> 
+dregis    	dragan <v>  <str>  <class6>  <pres>  <indic>  <2nd>  <sg> 
+dregiđ    	dragan <v>  <str>  <class6>  <pres>  <indic>  <3rd>  <sg> 
+dregu    	dragan <v>  <str>  <class6>  <pres>  <indic>  <1st>  <sg> 
 drink    	drinkan <v>  <str>  <class3a>  <impv>  <sg> 
 drinkan    	drinkan <v>  <str>  <class3a>  <inf> 
 drinkađ    	drinkan <v>  <str>  <class3a>  <impv>  <pl> 
@@ -804,6 +814,18 @@ drunkis    	drinkan <v>  <str>  <class3a>  <pret>  <opt>  <2nd>  <sg>
 drunkun    	drinkan <v>  <str>  <class3a>  <pret>  <indic>  <1st>  <pl> 
 drunkun    	drinkan <v>  <str>  <class3a>  <pret>  <indic>  <2nd>  <pl> 
 drunkun    	drinkan <v>  <str>  <class3a>  <pret>  <indic>  <3rd>  <pl> 
+drôg    	dragan <v>  <str>  <class6>  <pret>  <indic>  <1st>  <sg> 
+drôg    	dragan <v>  <str>  <class6>  <pret>  <indic>  <3rd>  <sg> 
+drôgi    	dragan <v>  <str>  <class6>  <pret>  <indic>  <2nd>  <sg> 
+drôgi    	dragan <v>  <str>  <class6>  <pret>  <opt>  <1st>  <sg> 
+drôgi    	dragan <v>  <str>  <class6>  <pret>  <opt>  <3rd>  <sg> 
+drôgin    	dragan <v>  <str>  <class6>  <pret>  <opt>  <1st>  <pl> 
+drôgin    	dragan <v>  <str>  <class6>  <pret>  <opt>  <2nd>  <pl> 
+drôgin    	dragan <v>  <str>  <class6>  <pret>  <opt>  <3rd>  <pl> 
+drôgis    	dragan <v>  <str>  <class6>  <pret>  <opt>  <2nd>  <sg> 
+drôgun    	dragan <v>  <str>  <class6>  <pret>  <indic>  <1st>  <pl> 
+drôgun    	dragan <v>  <str>  <class6>  <pret>  <indic>  <2nd>  <pl> 
+drôgun    	dragan <v>  <str>  <class6>  <pret>  <indic>  <3rd>  <pl> 
 etan    	etan <v>  <str>  <class5>  <pastpart> 
 fand    	findan <v>  <str>  <class3a>  <pret>  <indic>  <1st>  <sg> 
 fand    	findan <v>  <str>  <class3a>  <pret>  <indic>  <3rd>  <sg> 
@@ -2526,20 +2548,6 @@ sėndidun    	sėndian <v>  <wk>  <class1>  <wk>  <pret>  <2nd>  <pl>
 sėndidun    	sėndian <v>  <wk>  <class1>  <wk>  <pret>  <3rd>  <pl> 
 sėndis    	sėndian <v>  <wk>  <class1>  <wk>  <pres>  <2nd>  <sg> 
 sėndiu    	sėndian <v>  <wk>  <class1>  <wk>  <pres>  <1st>  <sg> 
-thagi    	thagian <v>  <wk>  <class1>  <wk>  <impv>  <sg> 
-thagiad    	thagian <v>  <wk>  <class1>  <wk>  <impv>  <pl> 
-thagian    	thagian <v>  <wk>  <class1>  <wk>  <inf> 
-thagiađ    	thagian <v>  <wk>  <class1>  <wk>  <pres>  <1st>  <pl> 
-thagiađ    	thagian <v>  <wk>  <class1>  <wk>  <pres>  <2nd>  <pl> 
-thagiađ    	thagian <v>  <wk>  <class1>  <wk>  <pres>  <3rd>  <pl> 
-thagid    	thagian <v>  <wk>  <class1>  <wk>  <pres>  <3rd>  <sg> 
-thagida    	thagian <v>  <wk>  <class1>  <wk>  <pret>  <1st>  <sg> 
-thagida    	thagian <v>  <wk>  <class1>  <wk>  <pret>  <3rd>  <sg> 
-thagidun    	thagian <v>  <wk>  <class1>  <wk>  <pret>  <1st>  <pl> 
-thagidun    	thagian <v>  <wk>  <class1>  <wk>  <pret>  <2nd>  <pl> 
-thagidun    	thagian <v>  <wk>  <class1>  <wk>  <pret>  <3rd>  <pl> 
-thagis    	thagian <v>  <wk>  <class1>  <wk>  <pres>  <2nd>  <sg> 
-thagiu    	thagian <v>  <wk>  <class1>  <wk>  <pres>  <1st>  <sg> 
 thananim    	thananiman <v>  <str>  <class4>  <impv>  <sg> 
 thananim    	thananiman <v>  <str>  <class4>  <pret>  <indic>  <1st>  <sg> 
 thananim    	thananiman <v>  <str>  <class4>  <pret>  <indic>  <3rd>  <sg> 
@@ -2562,6 +2570,20 @@ thananâmis    	thananiman <v>  <str>  <class4>  <pret>  <opt>  <2nd>  <sg>
 thananâmun    	thananiman <v>  <str>  <class4>  <pret>  <indic>  <1st>  <pl> 
 thananâmun    	thananiman <v>  <str>  <class4>  <pret>  <indic>  <2nd>  <pl> 
 thananâmun    	thananiman <v>  <str>  <class4>  <pret>  <indic>  <3rd>  <pl> 
+thegi    	thagian <v>  <wk>  <class1>  <wk>  <impv>  <sg> 
+thegiad    	thagian <v>  <wk>  <class1>  <wk>  <impv>  <pl> 
+thegian    	thagian <v>  <wk>  <class1>  <wk>  <inf> 
+thegiađ    	thagian <v>  <wk>  <class1>  <wk>  <pres>  <1st>  <pl> 
+thegiađ    	thagian <v>  <wk>  <class1>  <wk>  <pres>  <2nd>  <pl> 
+thegiađ    	thagian <v>  <wk>  <class1>  <wk>  <pres>  <3rd>  <pl> 
+thegid    	thagian <v>  <wk>  <class1>  <wk>  <pres>  <3rd>  <sg> 
+thegida    	thagian <v>  <wk>  <class1>  <wk>  <pret>  <1st>  <sg> 
+thegida    	thagian <v>  <wk>  <class1>  <wk>  <pret>  <3rd>  <sg> 
+thegidun    	thagian <v>  <wk>  <class1>  <wk>  <pret>  <1st>  <pl> 
+thegidun    	thagian <v>  <wk>  <class1>  <wk>  <pret>  <2nd>  <pl> 
+thegidun    	thagian <v>  <wk>  <class1>  <wk>  <pret>  <3rd>  <pl> 
+thegis    	thagian <v>  <wk>  <class1>  <wk>  <pres>  <2nd>  <sg> 
+thegiu    	thagian <v>  <wk>  <class1>  <wk>  <pres>  <1st>  <sg> 
 thramm    	thrimman <v>  <str>  <class3a>  <pret>  <indic>  <1st>  <sg> 
 thramm    	thrimman <v>  <str>  <class3a>  <pret>  <indic>  <3rd>  <sg> 
 thrang    	thringan <v>  <str>  <class3a>  <pret>  <indic>  <1st>  <sg> 
@@ -2654,18 +2676,18 @@ trâgis    	tregan <v>  <str>  <class5>  <pret>  <opt>  <2nd>  <sg>
 trâgun    	tregan <v>  <str>  <class5>  <pret>  <indic>  <1st>  <pl> 
 trâgun    	tregan <v>  <str>  <class5>  <pret>  <indic>  <2nd>  <pl> 
 trâgun    	tregan <v>  <str>  <class5>  <pret>  <indic>  <3rd>  <pl> 
-tuhi    	tiohan <v>  <str>  <class2>  <pret>  <indic>  <2nd>  <sg> 
-tuhi    	tiohan <v>  <str>  <class2>  <pret>  <opt>  <1st>  <sg> 
-tuhi    	tiohan <v>  <str>  <class2>  <pret>  <opt>  <3rd>  <sg> 
-tuhin    	tiohan <v>  <str>  <class2>  <pret>  <opt>  <1st>  <pl> 
-tuhin    	tiohan <v>  <str>  <class2>  <pret>  <opt>  <2nd>  <pl> 
-tuhin    	tiohan <v>  <str>  <class2>  <pret>  <opt>  <3rd>  <pl> 
-tuhis    	tiohan <v>  <str>  <class2>  <pret>  <opt>  <2nd>  <sg> 
-tuhun    	tiohan <v>  <str>  <class2>  <pret>  <indic>  <1st>  <pl> 
-tuhun    	tiohan <v>  <str>  <class2>  <pret>  <indic>  <2nd>  <pl> 
-tuhun    	tiohan <v>  <str>  <class2>  <pret>  <indic>  <3rd>  <pl> 
-tôh    	tiohan <v>  <str>  <class2>  <pret>  <indic>  <1st>  <sg> 
-tôh    	tiohan <v>  <str>  <class2>  <pret>  <indic>  <3rd>  <sg> 
+tugi    	tiohan <v>  <str>  <class2>  <pret>  <indic>  <2nd>  <sg> 
+tugi    	tiohan <v>  <str>  <class2>  <pret>  <opt>  <1st>  <sg> 
+tugi    	tiohan <v>  <str>  <class2>  <pret>  <opt>  <3rd>  <sg> 
+tugin    	tiohan <v>  <str>  <class2>  <pret>  <opt>  <1st>  <pl> 
+tugin    	tiohan <v>  <str>  <class2>  <pret>  <opt>  <2nd>  <pl> 
+tugin    	tiohan <v>  <str>  <class2>  <pret>  <opt>  <3rd>  <pl> 
+tugis    	tiohan <v>  <str>  <class2>  <pret>  <opt>  <2nd>  <sg> 
+tugun    	tiohan <v>  <str>  <class2>  <pret>  <indic>  <1st>  <pl> 
+tugun    	tiohan <v>  <str>  <class2>  <pret>  <indic>  <2nd>  <pl> 
+tugun    	tiohan <v>  <str>  <class2>  <pret>  <indic>  <3rd>  <pl> 
+tôg    	tiohan <v>  <str>  <class2>  <pret>  <indic>  <1st>  <sg> 
+tôg    	tiohan <v>  <str>  <class2>  <pret>  <indic>  <3rd>  <sg> 
 tėlli    	tėllian <v>  <wk>  <class1>  <wk>  <impv>  <sg> 
 tėlliad    	tėllian <v>  <wk>  <class1>  <wk>  <impv>  <pl> 
 tėllian    	tėllian <v>  <wk>  <class1>  <wk>  <inf> 
@@ -2950,18 +2972,18 @@ withartiuhis    	withartiohan <v>  <str>  <class2>  <pres>  <indic>  <2nd>  <sg>
 withartiuhiđ    	withartiohan <v>  <str>  <class2>  <pres>  <indic>  <3rd>  <sg> 
 withartiuhu    	withartiohan <v>  <str>  <class2>  <pres>  <indic>  <1st>  <sg> 
 withartohan    	withartiohan <v>  <str>  <class2>  <pastpart> 
-withartuhi    	withartiohan <v>  <str>  <class2>  <pret>  <indic>  <2nd>  <sg> 
-withartuhi    	withartiohan <v>  <str>  <class2>  <pret>  <opt>  <1st>  <sg> 
-withartuhi    	withartiohan <v>  <str>  <class2>  <pret>  <opt>  <3rd>  <sg> 
-withartuhin    	withartiohan <v>  <str>  <class2>  <pret>  <opt>  <1st>  <pl> 
-withartuhin    	withartiohan <v>  <str>  <class2>  <pret>  <opt>  <2nd>  <pl> 
-withartuhin    	withartiohan <v>  <str>  <class2>  <pret>  <opt>  <3rd>  <pl> 
-withartuhis    	withartiohan <v>  <str>  <class2>  <pret>  <opt>  <2nd>  <sg> 
-withartuhun    	withartiohan <v>  <str>  <class2>  <pret>  <indic>  <1st>  <pl> 
-withartuhun    	withartiohan <v>  <str>  <class2>  <pret>  <indic>  <2nd>  <pl> 
-withartuhun    	withartiohan <v>  <str>  <class2>  <pret>  <indic>  <3rd>  <pl> 
-withartôh    	withartiohan <v>  <str>  <class2>  <pret>  <indic>  <1st>  <sg> 
-withartôh    	withartiohan <v>  <str>  <class2>  <pret>  <indic>  <3rd>  <sg> 
+withartugi    	withartiohan <v>  <str>  <class2>  <pret>  <indic>  <2nd>  <sg> 
+withartugi    	withartiohan <v>  <str>  <class2>  <pret>  <opt>  <1st>  <sg> 
+withartugi    	withartiohan <v>  <str>  <class2>  <pret>  <opt>  <3rd>  <sg> 
+withartugin    	withartiohan <v>  <str>  <class2>  <pret>  <opt>  <1st>  <pl> 
+withartugin    	withartiohan <v>  <str>  <class2>  <pret>  <opt>  <2nd>  <pl> 
+withartugin    	withartiohan <v>  <str>  <class2>  <pret>  <opt>  <3rd>  <pl> 
+withartugis    	withartiohan <v>  <str>  <class2>  <pret>  <opt>  <2nd>  <sg> 
+withartugun    	withartiohan <v>  <str>  <class2>  <pret>  <indic>  <1st>  <pl> 
+withartugun    	withartiohan <v>  <str>  <class2>  <pret>  <indic>  <2nd>  <pl> 
+withartugun    	withartiohan <v>  <str>  <class2>  <pret>  <indic>  <3rd>  <pl> 
+withartôg    	withartiohan <v>  <str>  <class2>  <pret>  <indic>  <1st>  <sg> 
+withartôg    	withartiohan <v>  <str>  <class2>  <pret>  <indic>  <3rd>  <sg> 
 witharwarp    	witharwerpan <v>  <str>  <class3b>  <pret>  <indic>  <1st>  <sg> 
 witharwarp    	witharwerpan <v>  <str>  <class3b>  <pret>  <indic>  <3rd>  <sg> 
 witharwegan    	witharwegan <v>  <str>  <class5>  <pastpart> 
