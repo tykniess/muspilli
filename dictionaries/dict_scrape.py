@@ -14,8 +14,9 @@ alphabet = ['a','b','c','d','e','f','g','h','i','j','k','k','l','m','n','o',
             'ū','û',
             'ī','î']
 
-POS_tags = ['as., st. V. (1)', 'as., st. V. (2)', 'as., st. V. (3a)', 'as., st. V. (3b)', 'as., st. V. (4)', 'as., st. V. (5)', 'as., st. V. (6)', \
-'as., sw. V. (1a)', 'as., sw. V. (1b)', 'as., sw. V. (2)']
+POS_tags = ['as., st. V. (1)', 'as., st. V. (2)', 'as., st. V. (3a)', 'as., st. V. (3b)', 'as., st. V. (4)', 'as., st. V. (5)', 'as., st. V. (6)', 'as., st. V. (7)', \
+'as., sw. V. (1a)', 'as., sw. V. (1b)', 'as., sw. V. (2)', \
+'as., red. V.']
 
 def dict_scrape(POS, dictionaryfile='as_freq.txt'):
     """Scrapes a dictionary for a given part of speech. POS tags in POS_tags.

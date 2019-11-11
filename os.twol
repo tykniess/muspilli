@@ -1,7 +1,10 @@
 Alphabet
-	 a b c d e f g h i j k l m n o p q r s t u v w x y z î ê ô â ī ē ō ā ë 
-	 đ ƀ th:th th:d ¹:0 ²:0 ³:0 ⁴:0	₄:0 ₅:0
-	 %{I%}:i %{I%}:0	;
+	a b c d e f g h i j k l m n o p q r s t u v w x y z î ê ô â ī ē ō ā ë 
+	đ ƀ th:th th:d 
+	¹:0 ²:0 ³:0 ⁴:0		!four contexts for Ablaut
+	₄:0 ₅:0 ₇:0 		!three exceptional strong verb classes
+	%{I%}:i %{I%}:0		!j-infix
+	;
 
 Sets
 V = a e i o u %{I%}			;
@@ -26,7 +29,7 @@ Vx:Vy <=> _  Cns+ %>:  HighV ;
      matched ;
 
 "Umlaut in sixth class strong verbs"
-a:e <=> _ Cns %>: i ; !note that this umlaut doesn't apply before [u]
+a:e <=> _ Cns: %>: i ; !note that this umlaut doesn't apply before [u]
 
 "STR2 Deletion of the i in the diphtong io in ablaut grades 1 2 3 "
 Vx:Vy <=> _ o: Cns+ Vz: ;
@@ -47,6 +50,7 @@ Vx:Vy <=> _ Cns+ Vz: ;
      except
             ₄: _ ;
             ₅: _ ;
+            ₇: _ ;
      where Vx in ( î ī o i e ê ē a )
            Vy in ( ê ê ô a a a a ô ) 
            Vz in ( ¹ ¹ ¹ ¹ ¹ ¹ ¹ ¹ ) 
@@ -57,6 +61,7 @@ Vx:Vy <=> _ Cns+ Vz: ;
      except
             ₄: _ ;
             ₅: _ ;
+	    ₇: _ ;
      where Vx in ( î ī o i e ê ē a )
            Vy in ( i i u u u â ā ô )
            Vz in ( ² ² ² ² ² ² ² ² )
@@ -67,6 +72,7 @@ Vx:Vy <=> _ Cns+ Vz: ;
      except
             ₄: _ ;
             ₅: _ ;
+            ₇: _ ;
      where Vx in ( î ī o i e ê ē )
            Vy in ( i i o u o o o )
            Vz in ( ³ ³ ³ ³ ³ ³ ³ )
@@ -81,5 +87,14 @@ Vx:Vy <=> _ Cns+ (i)  Vz: Vw: %>: ;
            Vw in ( ¹ ² ³ ¹ ² ³ ¹ ² ³ ³ ³ )
      matched ;
 
-"Remove i-infix before a vocalic verbal suffix"
+"Remove j-infix before a vocalic verbal suffix"
 %{I%}:0 <=> _ (¹:|²:) (>:) (¹:|²:) :i ; 
+
+"Ablaut in Strong Verbs Class 7"
+!haldan-haldu-held-heldun-gihaldan
+!âhlôp₇¹
+Vx:Vy <=> _ Cns+ ₇: Vw: (%>:) ;
+     where Vx in ( a a â â ê  ê   ô  ô  )
+           Vy in ( e e ê ê ie ie  io io )
+           Vw in ( ¹ ² ¹ ² ¹  ²   ¹  ²  ) !Don't need #3 because pastpart is same as inf stem vowel
+     matched ;
