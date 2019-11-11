@@ -1028,6 +1028,7 @@ binâmis    	biniman   <v>      <str>      <class4>      <pret>      <opt>      
 binâmun    	biniman   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <pl>   
 binâmun    	biniman   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <pl>   
 binâmun    	biniman   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <pl>   
+bis    	wesan   <v>      <irregular>      <pres>      <indic>      <2nd>      <sg>   
 bisank    	bisinkan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 bisank    	bisinkan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 bisehan    	bisehan   <v>      <str>      <class5>      <pastpart>   
@@ -1095,6 +1096,7 @@ bispurnu    	bispurnan   <v>      <str>      <class3b>      <pres>      <indic> 
 bispurnun    	bispurnan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <pl>   
 bispurnun    	bispurnan   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <pl>   
 bispurnun    	bispurnan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <pl>   
+bist    	wesan   <v>      <irregular>      <pres>      <indic>      <2nd>      <sg>   
 bisunkan    	bisinkan   <v>      <str>      <class3a>      <pastpart>   
 bisunki    	bisinkan   <v>      <str>      <class3a>      <pret>      <indic>      <2nd>      <sg>   
 bisunki    	bisinkan   <v>      <str>      <class3a>      <pret>      <opt>      <1st>      <sg>   
@@ -1163,6 +1165,8 @@ bithwungun    	bithwingan   <v>      <str>      <class3a>      <pret>      <indi
 biudis    	biodan   <v>      <str>      <class2>      <pres>      <indic>      <2nd>      <sg>   
 biudiđ    	biodan   <v>      <str>      <class2>      <pres>      <indic>      <3rd>      <sg>   
 biudu    	biodan   <v>      <str>      <class2>      <pres>      <indic>      <1st>      <sg>   
+bium    	wesan   <v>      <irregular>      <pres>      <indic>      <1st>      <sg>   
+biun    	wesan   <v>      <irregular>      <pres>      <indic>      <1st>      <sg>   
 biwald    	biwaldan   <v>      <str>      <class7>      <impv>      <sg>   
 biwaldan    	biwaldan   <v>      <str>      <class7>      <inf>   
 biwaldan    	biwaldan   <v>      <str>      <class7>      <pastpart>   
@@ -3432,6 +3436,8 @@ iokis    	ôkan   <v>      <str>      <class7>      <pret>      <opt>      <2nd>
 iokun    	ôkan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <pl>   
 iokun    	ôkan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <pl>   
 iokun    	ôkan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <pl>   
+is    	wesan   <v>      <irregular>      <pres>      <indic>      <3rd>      <sg>   
+ist    	wesan   <v>      <irregular>      <pres>      <indic>      <3rd>      <sg>   
 knag    	knagan   <v>      <str>      <class6>      <impv>      <sg>   
 knagan    	knagan   <v>      <str>      <class6>      <inf>   
 knagan    	knagan   <v>      <str>      <class6>      <pastpart>   
@@ -3940,6 +3946,12 @@ sank    	sinkan   <v>      <str>      <class3a>      <pret>      <indic>      <3
 sehan    	sehan   <v>      <str>      <class5>      <pastpart>   
 sekis    	sakan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <sg>   
 sekiđ    	sakan   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <sg>   
+sind    	wesan   <v>      <irregular>      <pres>      <indic>      <1st>      <pl>   
+sind    	wesan   <v>      <irregular>      <pres>      <indic>      <2nd>      <pl>   
+sind    	wesan   <v>      <irregular>      <pres>      <indic>      <3rd>      <pl>   
+sindun    	wesan   <v>      <irregular>      <pres>      <indic>      <1st>      <pl>   
+sindun    	wesan   <v>      <irregular>      <pres>      <indic>      <2nd>      <pl>   
+sindun    	wesan   <v>      <irregular>      <pres>      <indic>      <3rd>      <pl>   
 sing    	singan   <v>      <str>      <class3a>      <impv>      <sg>   
 singan    	singan   <v>      <str>      <class3a>      <inf>   
 singađ    	singan   <v>      <str>      <class3a>      <impv>      <pl>   
@@ -4581,6 +4593,12 @@ sâhis    	sehan   <v>      <str>      <class5>      <pret>      <opt>      <2nd
 sâhun    	sehan   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <pl>   
 sâhun    	sehan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <pl>   
 sâhun    	sehan   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <pl>   
+sî    	wesan   <v>      <irregular>      <pres>      <opt>      <1st>      <sg>   
+sî    	wesan   <v>      <irregular>      <pres>      <opt>      <3rd>      <sg>   
+sîn    	wesan   <v>      <irregular>      <pres>      <opt>      <1st>      <pl>   
+sîn    	wesan   <v>      <irregular>      <pres>      <opt>      <2nd>      <pl>   
+sîn    	wesan   <v>      <irregular>      <pres>      <opt>      <3rd>      <pl>   
+sîs    	wesan   <v>      <irregular>      <pres>      <opt>      <2nd>      <sg>   
 sôk    	sakan   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <sg>   
 sôk    	sakan   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <sg>   
 sôki    	sakan   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <sg>   
@@ -5160,6 +5178,8 @@ warr    	werran   <v>      <str>      <class3b>      <pret>      <indic>      <1
 warr    	werran   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <sg>   
 warth    	werthan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <sg>   
 warth    	werthan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <sg>   
+was    	wesan   <v>      <irregular>      <pret>      <indic>      <1st>      <sg>   
+was    	wesan   <v>      <irregular>      <pret>      <indic>      <3rd>      <sg>   
 wask    	waskan   <v>      <str>      <class6>      <impv>      <sg>   
 waskan    	waskan   <v>      <str>      <class6>      <inf>   
 waskan    	waskan   <v>      <str>      <class6>      <pastpart>   
@@ -5237,6 +5257,7 @@ wirru    	werran   <v>      <str>      <class3b>      <pres>      <indic>      <
 wirthis    	werthan   <v>      <str>      <class3b>      <pres>      <indic>      <2nd>      <sg>   
 wirthiđ    	werthan   <v>      <str>      <class3b>      <pres>      <indic>      <3rd>      <sg>   
 wirthu    	werthan   <v>      <str>      <class3b>      <pres>      <indic>      <1st>      <sg>   
+wis    	wesan   <v>      <irregular>      <imper>      <sg>   
 witharkoman    	witharkuman   <v>      <str>      <class4>      <pastpart>   
 witharkum    	witharkuman   <v>      <str>      <class4>      <impv>      <sg>   
 witharkum    	witharkuman   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <sg>   
@@ -5469,6 +5490,14 @@ wânidun    	wânian   <v>      <wk>      <class1>      <wk>      <pret>      <2
 wânidun    	wânian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
 wânis    	wânian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
 wâniu    	wânian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+wâri    	wesan   <v>      <irregular>      <pret>      <opt>      <1st>      <sg>   
+wâri    	wesan   <v>      <irregular>      <pret>      <opt>      <3rd>      <sg>   
+wârin    	wesan   <v>      <irregular>      <pret>      <opt>      <1st>      <pl>   
+wârin    	wesan   <v>      <irregular>      <pret>      <opt>      <2nd>      <pl>   
+wârin    	wesan   <v>      <irregular>      <pret>      <opt>      <3rd>      <pl>   
+wâris    	wesan   <v>      <irregular>      <pret>      <opt>      <2nd>      <sg>   
+wârun    	wesan   <v>      <irregular>      <pret>      <indic>      <1st>      <pl>   
+wârun    	wesan   <v>      <irregular>      <pret>      <indic>      <3rd>      <pl>   
 wâvi    	wevan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <sg>   
 wâvi    	wevan   <v>      <str>      <class5>      <pret>      <opt>      <1st>      <sg>   
 wâvi    	wevan   <v>      <str>      <class5>      <pret>      <opt>      <3rd>      <sg>   

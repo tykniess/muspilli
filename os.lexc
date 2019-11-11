@@ -33,6 +33,8 @@ Multichar_Symbols
 %<class6%>			! class 6 strong verb
 %<class7%>			! class 7 strong verb
 
+%<irrecgular%>			!irregular verb
+
 th				! th phoneme which is actually one sound
 
 %{I%}				! i-infix in strong verbs
@@ -152,6 +154,53 @@ LEXICON STR-INFL-PRET-OPT
 LEXICON STR-IMPERATIV
 %<sg%>:		#;
 %<pl%>:%>ađ	#;
+
+LEXICON WESAN
+%<inf%>:wesan				#;
+%<pres%>%<indic%>%<1st%>%<sg%>:bium		#;
+%<pres%>%<indic%>%<1st%>%<sg%>:biun          #;
+%<pres%>%<indic%>%<2nd%>%<sg%>:bist          #;
+%<pres%>%<indic%>%<2nd%>%<sg%>:bis          #;
+%<pres%>%<indic%>%<3rd%>%<sg%>:ist          #;
+%<pres%>%<indic%>%<3rd%>%<sg%>:is          #;
+%<pres%>%<indic%>%<1st%>%<pl%>:sind          #;
+%<pres%>%<indic%>%<1st%>%<pl%>:sindun          #;
+%<pres%>%<indic%>%<1st%>%<pl%>:sindon          #;
+!%<pres%>%<indic%>%<1st%>%<pl%>:sundon
+%<pres%>%<indic%>%<2nd%>%<pl%>:sind          #;
+%<pres%>%<indic%>%<2nd%>%<pl%>:sindun          #;
+%<pres%>%<indic%>%<2nd%>%<pl%>:sindon          #;
+!%<pres%>%<indic%>%<2nd%>%<pl%>:sundon          #;
+%<pres%>%<indic%>%<3rd%>%<pl%>:sind          #;
+%<pres%>%<indic%>%<3rd%>%<pl%>:sindun          #;
+%<pres%>%<indic%>%<3rd%>%<pl%>:sindon          #;
+!%<pres%>%<indic%>%<3rd%>%<pl%>:sundon          #;
+
+%<pres%>%<opt%>%<1st%>%<sg%>:sî				#;
+%<pres%>%<opt%>%<2nd%>%<sg%>:sîs                         #;
+%<pres%>%<opt%>%<3rd%>%<sg%>:sî                         #;
+%<pres%>%<opt%>%<3rd%>%<sg%>:wese                         #;
+%<pres%>%<opt%>%<1st%>%<pl%>:sîn                         #;
+%<pres%>%<opt%>%<2nd%>%<pl%>:sîn                        #;
+%<pres%>%<opt%>%<3rd%>%<pl%>:sîn                         #;
+
+%<pret%>%<indic%>%<1st%>%<sg%>:was			#;
+%<pret%>%<indic%>%<3rd%>%<sg%>:was                      #;
+%<pret%>%<indic%>%<1st%>%<pl%>:wârun                      #;
+%<pret%>%<indic%>%<3rd%>%<pl%>:wârun                      #;
+
+%<pret%>%<opt%>%<1st%>%<sg%>:wâri                      #;
+%<pret%>%<opt%>%<2nd%>%<sg%>:wâris                      #;
+%<pret%>%<opt%>%<3rd%>%<sg%>:wâri                      #;
+%<pret%>%<opt%>%<1st%>%<pl%>:wârin                      #;
+%<pret%>%<opt%>%<2nd%>%<pl%>:wârin                      #;
+%<pret%>%<opt%>%<3rd%>%<pl%>:wârin                      #;
+
+%<imper%>%<sg%>:wis                         #;
+%<imper%>%<sg%>:wes                         #;
+%<imper%>%<pl%>:wesađ				#;
+%<imper%>%<pl%>:wesat				#;
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -601,6 +650,9 @@ undargangan%<v%>%<str%>%<class7%>:undargang STR7    ;	! nhd. „untergehen“, d
 undspannan%<v%>%<str%>%<class7%>:undspann STR7    ;	! nhd. entspannen
 ūtâskêthan%<v%>%<str%>%<class7%>:ūtâskêth STR7    ;	! nhd. ausscheiden, ausschließen
 withfâhan%<v%>%<str%>%<class7%>:withfâh STR7    ;	! nhd. entziehen
+
+!!!!!!!!!!!!!!!!!!!!wesan!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+wesan%<v%>%<irregular%>: WESAN			;	!nhd. sein
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

@@ -4,5 +4,5 @@ Current output forms are in forms.txt
 
 
 There are 7966 unique tokens in the Hêliand.
-Project Muspilli currently contains 6059 synthetically-generated forms.
-Of the 7966 unique tokens in the Hêliand, Project Muspilli contains 234 forms, or 2.937484308310319%. Wow!
+Project Muspilli currently contains 6088 synthetically-generated forms.
+Of the 7966 unique tokens in the Hêliand, Project Muspilli contains 244 forms, or 3.0630178257594776%. Wow!
