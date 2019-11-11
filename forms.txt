@@ -78,6 +78,28 @@ afstôndis    	afstandan   <v>      <str>      <class6>      <pret>      <opt>  
 afstôndun    	afstandan   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
 afstôndun    	afstandan   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
 afstôndun    	afstandan   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
+afstėppi    	afstėppian   <v>      <str>      <class6>      <impv>      <sg>   
+afstėppi    	afstėppian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <sg>   
+afstėppi    	afstėppian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <sg>   
+afstėppi    	afstėppian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <sg>   
+afstėppi    	afstėppian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <sg>   
+afstėppi    	afstėppian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <sg>   
+afstėppian    	afstėppian   <v>      <str>      <class6>      <inf>   
+afstėppian    	afstėppian   <v>      <str>      <class6>      <pastpart>   
+afstėppiađ    	afstėppian   <v>      <str>      <class6>      <impv>      <pl>   
+afstėppiađ    	afstėppian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
+afstėppiađ    	afstėppian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
+afstėppiađ    	afstėppian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <pl>   
+afstėppin    	afstėppian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <pl>   
+afstėppin    	afstėppian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <pl>   
+afstėppin    	afstėppian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <pl>   
+afstėppis    	afstėppian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <sg>   
+afstėppis    	afstėppian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <sg>   
+afstėppiu    	afstėppian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <sg>   
+afstėppiun    	afstėppian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
+afstėppiun    	afstėppian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
+afstėppiun    	afstėppian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
+afstėppiđ    	afstėppian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <sg>   
 anafall    	anafallan   <v>      <str>      <class7>      <impv>      <sg>   
 anafallan    	anafallan   <v>      <str>      <class7>      <inf>   
 anafallan    	anafallan   <v>      <str>      <class7>      <pastpart>   
@@ -858,6 +880,28 @@ bihietis    	bihêtan   <v>      <str>      <class7>      <pret>      <opt>     
 bihietun    	bihêtan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <pl>   
 bihietun    	bihêtan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <pl>   
 bihietun    	bihêtan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <pl>   
+bihlahhi    	bihlahhian   <v>      <str>      <class6>      <impv>      <sg>   
+bihlahhi    	bihlahhian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <sg>   
+bihlahhi    	bihlahhian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <sg>   
+bihlahhi    	bihlahhian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <sg>   
+bihlahhi    	bihlahhian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <sg>   
+bihlahhi    	bihlahhian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <sg>   
+bihlahhian    	bihlahhian   <v>      <str>      <class6>      <inf>   
+bihlahhian    	bihlahhian   <v>      <str>      <class6>      <pastpart>   
+bihlahhiađ    	bihlahhian   <v>      <str>      <class6>      <impv>      <pl>   
+bihlahhiađ    	bihlahhian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
+bihlahhiađ    	bihlahhian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
+bihlahhiađ    	bihlahhian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <pl>   
+bihlahhin    	bihlahhian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <pl>   
+bihlahhin    	bihlahhian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <pl>   
+bihlahhin    	bihlahhian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <pl>   
+bihlahhis    	bihlahhian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <sg>   
+bihlahhis    	bihlahhian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <sg>   
+bihlahhiu    	bihlahhian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <sg>   
+bihlahhiun    	bihlahhian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
+bihlahhiun    	bihlahhian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
+bihlahhiun    	bihlahhian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
+bihlahhiđ    	bihlahhian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <sg>   
 biholan    	bihelan   <v>      <str>      <class4>      <pastpart>   
 bihotan    	bihêtan   <v>      <str>      <class7>      <pastpart>   
 bihwarv    	bihwervan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <sg>   
@@ -1072,6 +1116,28 @@ bisâhis    	bisehan   <v>      <str>      <class5>      <pret>      <opt>      
 bisâhun    	bisehan   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <pl>   
 bisâhun    	bisehan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <pl>   
 bisâhun    	bisehan   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <pl>   
+bisėbbi    	bisėbbian   <v>      <str>      <class6>      <impv>      <sg>   
+bisėbbi    	bisėbbian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <sg>   
+bisėbbi    	bisėbbian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <sg>   
+bisėbbi    	bisėbbian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <sg>   
+bisėbbi    	bisėbbian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <sg>   
+bisėbbi    	bisėbbian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <sg>   
+bisėbbian    	bisėbbian   <v>      <str>      <class6>      <inf>   
+bisėbbian    	bisėbbian   <v>      <str>      <class6>      <pastpart>   
+bisėbbiađ    	bisėbbian   <v>      <str>      <class6>      <impv>      <pl>   
+bisėbbiađ    	bisėbbian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
+bisėbbiađ    	bisėbbian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
+bisėbbiađ    	bisėbbian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <pl>   
+bisėbbin    	bisėbbian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <pl>   
+bisėbbin    	bisėbbian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <pl>   
+bisėbbin    	bisėbbian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <pl>   
+bisėbbis    	bisėbbian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <sg>   
+bisėbbis    	bisėbbian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <sg>   
+bisėbbiu    	bisėbbian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <sg>   
+bisėbbiun    	bisėbbian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
+bisėbbiun    	bisėbbian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
+bisėbbiun    	bisėbbian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
+bisėbbiđ    	bisėbbian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <sg>   
 bithwang    	bithwingan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 bithwang    	bithwingan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 bithwing    	bithwingan   <v>      <str>      <class3a>      <impv>      <sg>   
@@ -2683,6 +2749,28 @@ gisittiu    	gisittian   <v>      <str>      <class5>      <pres>      <indic>  
 gisittiun    	gisittian   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <pl>   
 gisittiun    	gisittian   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <pl>   
 gisittiun    	gisittian   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <pl>   
+giskėppi    	giskėppian   <v>      <str>      <class6>      <impv>      <sg>   
+giskėppi    	giskėppian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <sg>   
+giskėppi    	giskėppian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <sg>   
+giskėppi    	giskėppian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <sg>   
+giskėppi    	giskėppian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <sg>   
+giskėppi    	giskėppian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <sg>   
+giskėppian    	giskėppian   <v>      <str>      <class6>      <inf>   
+giskėppian    	giskėppian   <v>      <str>      <class6>      <pastpart>   
+giskėppiađ    	giskėppian   <v>      <str>      <class6>      <impv>      <pl>   
+giskėppiađ    	giskėppian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
+giskėppiađ    	giskėppian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
+giskėppiađ    	giskėppian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <pl>   
+giskėppin    	giskėppian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <pl>   
+giskėppin    	giskėppian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <pl>   
+giskėppin    	giskėppian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <pl>   
+giskėppis    	giskėppian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <sg>   
+giskėppis    	giskėppian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <sg>   
+giskėppiu    	giskėppian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <sg>   
+giskėppiun    	giskėppian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
+giskėppiun    	giskėppian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
+giskėppiun    	giskėppian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
+giskėppiđ    	giskėppian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <sg>   
 gislah    	gislahan   <v>      <str>      <class6>      <impv>      <sg>   
 gislahan    	gislahan   <v>      <str>      <class6>      <inf>   
 gislahan    	gislahan   <v>      <str>      <class6>      <pastpart>   
@@ -2776,6 +2864,28 @@ giswurkis    	giswerkan   <v>      <str>      <class3b>      <pret>      <opt>  
 giswurkun    	giswerkan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <pl>   
 giswurkun    	giswerkan   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <pl>   
 giswurkun    	giswerkan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <pl>   
+giswėri    	giswėrian   <v>      <str>      <class6>      <impv>      <sg>   
+giswėri    	giswėrian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <sg>   
+giswėri    	giswėrian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <sg>   
+giswėri    	giswėrian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <sg>   
+giswėri    	giswėrian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <sg>   
+giswėri    	giswėrian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <sg>   
+giswėrian    	giswėrian   <v>      <str>      <class6>      <inf>   
+giswėrian    	giswėrian   <v>      <str>      <class6>      <pastpart>   
+giswėriađ    	giswėrian   <v>      <str>      <class6>      <impv>      <pl>   
+giswėriađ    	giswėrian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
+giswėriađ    	giswėrian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
+giswėriađ    	giswėrian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <pl>   
+giswėrin    	giswėrian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <pl>   
+giswėrin    	giswėrian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <pl>   
+giswėrin    	giswėrian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <pl>   
+giswėris    	giswėrian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <sg>   
+giswėris    	giswėrian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <sg>   
+giswėriu    	giswėrian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <sg>   
+giswėriun    	giswėrian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
+giswėriun    	giswėrian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
+giswėriun    	giswėrian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
+giswėriđ    	giswėrian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <sg>   
 gisâhi    	gisehan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <sg>   
 gisâhi    	gisehan   <v>      <str>      <class5>      <pret>      <opt>      <1st>      <sg>   
 gisâhi    	gisehan   <v>      <str>      <class5>      <pret>      <opt>      <3rd>      <sg>   
@@ -3147,6 +3257,28 @@ hladađ    	hladan   <v>      <str>      <class6>      <pres>      <indic>      
 hladađ    	hladan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
 hladađ    	hladan   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <pl>   
 hladu    	hladan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <sg>   
+hlahhi    	hlahhian   <v>      <str>      <class6>      <impv>      <sg>   
+hlahhi    	hlahhian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <sg>   
+hlahhi    	hlahhian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <sg>   
+hlahhi    	hlahhian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <sg>   
+hlahhi    	hlahhian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <sg>   
+hlahhi    	hlahhian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <sg>   
+hlahhian    	hlahhian   <v>      <str>      <class6>      <inf>   
+hlahhian    	hlahhian   <v>      <str>      <class6>      <pastpart>   
+hlahhiađ    	hlahhian   <v>      <str>      <class6>      <impv>      <pl>   
+hlahhiađ    	hlahhian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
+hlahhiađ    	hlahhian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
+hlahhiađ    	hlahhian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <pl>   
+hlahhin    	hlahhian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <pl>   
+hlahhin    	hlahhian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <pl>   
+hlahhin    	hlahhian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <pl>   
+hlahhis    	hlahhian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <sg>   
+hlahhis    	hlahhian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <sg>   
+hlahhiu    	hlahhian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <sg>   
+hlahhiun    	hlahhian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
+hlahhiun    	hlahhian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
+hlahhiun    	hlahhian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
+hlahhiđ    	hlahhian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <sg>   
 hledis    	hladan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <sg>   
 hlediđ    	hladan   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <sg>   
 hlôd    	hladan   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <sg>   
@@ -4265,6 +4397,28 @@ stôtađ    	stôtan   <v>      <str>      <class7>      <pres>      <indic>    
 stôtis    	stôtan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <sg>   
 stôtiđ    	stôtan   <v>      <str>      <class7>      <pres>      <indic>      <3rd>      <sg>   
 stôtu    	stôtan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <sg>   
+stėppi    	stėppian   <v>      <str>      <class6>      <impv>      <sg>   
+stėppi    	stėppian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <sg>   
+stėppi    	stėppian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <sg>   
+stėppi    	stėppian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <sg>   
+stėppi    	stėppian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <sg>   
+stėppi    	stėppian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <sg>   
+stėppian    	stėppian   <v>      <str>      <class6>      <inf>   
+stėppian    	stėppian   <v>      <str>      <class6>      <pastpart>   
+stėppiađ    	stėppian   <v>      <str>      <class6>      <impv>      <pl>   
+stėppiađ    	stėppian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
+stėppiađ    	stėppian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
+stėppiađ    	stėppian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <pl>   
+stėppin    	stėppian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <pl>   
+stėppin    	stėppian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <pl>   
+stėppin    	stėppian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <pl>   
+stėppis    	stėppian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <sg>   
+stėppis    	stėppian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <sg>   
+stėppiu    	stėppian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <sg>   
+stėppiun    	stėppian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
+stėppiun    	stėppian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
+stėppiun    	stėppian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
+stėppiđ    	stėppian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <sg>   
 sungan    	singan   <v>      <str>      <class3a>      <pastpart>   
 sungi    	singan   <v>      <str>      <class3a>      <pret>      <indic>      <2nd>      <sg>   
 sungi    	singan   <v>      <str>      <class3a>      <pret>      <opt>      <1st>      <sg>   
@@ -4395,6 +4549,28 @@ swôgađ    	swôgan   <v>      <str>      <class7>      <pres>      <indic>    
 swôgis    	swôgan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <sg>   
 swôgiđ    	swôgan   <v>      <str>      <class7>      <pres>      <indic>      <3rd>      <sg>   
 swôgu    	swôgan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <sg>   
+swėri    	swėrian   <v>      <str>      <class6>      <impv>      <sg>   
+swėri    	swėrian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <sg>   
+swėri    	swėrian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <sg>   
+swėri    	swėrian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <sg>   
+swėri    	swėrian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <sg>   
+swėri    	swėrian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <sg>   
+swėrian    	swėrian   <v>      <str>      <class6>      <inf>   
+swėrian    	swėrian   <v>      <str>      <class6>      <pastpart>   
+swėriađ    	swėrian   <v>      <str>      <class6>      <impv>      <pl>   
+swėriađ    	swėrian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
+swėriađ    	swėrian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
+swėriađ    	swėrian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <pl>   
+swėrin    	swėrian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <pl>   
+swėrin    	swėrian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <pl>   
+swėrin    	swėrian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <pl>   
+swėris    	swėrian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <sg>   
+swėris    	swėrian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <sg>   
+swėriu    	swėrian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <sg>   
+swėriun    	swėrian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
+swėriun    	swėrian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
+swėriun    	swėrian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
+swėriđ    	swėrian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <sg>   
 sâhi    	sehan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <sg>   
 sâhi    	sehan   <v>      <str>      <class5>      <pret>      <opt>      <1st>      <sg>   
 sâhi    	sehan   <v>      <str>      <class5>      <pret>      <opt>      <3rd>      <sg>   
@@ -4856,6 +5032,28 @@ undspennis    	undspannan   <v>      <str>      <class7>      <pret>      <opt> 
 undspennun    	undspannan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <pl>   
 undspennun    	undspannan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <pl>   
 undspennun    	undspannan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <pl>   
+uphėbbi    	uphėbbian   <v>      <str>      <class6>      <impv>      <sg>   
+uphėbbi    	uphėbbian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <sg>   
+uphėbbi    	uphėbbian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <sg>   
+uphėbbi    	uphėbbian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <sg>   
+uphėbbi    	uphėbbian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <sg>   
+uphėbbi    	uphėbbian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <sg>   
+uphėbbian    	uphėbbian   <v>      <str>      <class6>      <inf>   
+uphėbbian    	uphėbbian   <v>      <str>      <class6>      <pastpart>   
+uphėbbiađ    	uphėbbian   <v>      <str>      <class6>      <impv>      <pl>   
+uphėbbiađ    	uphėbbian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
+uphėbbiađ    	uphėbbian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
+uphėbbiađ    	uphėbbian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <pl>   
+uphėbbin    	uphėbbian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <pl>   
+uphėbbin    	uphėbbian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <pl>   
+uphėbbin    	uphėbbian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <pl>   
+uphėbbis    	uphėbbian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <sg>   
+uphėbbis    	uphėbbian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <sg>   
+uphėbbiu    	uphėbbian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <sg>   
+uphėbbiun    	uphėbbian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
+uphėbbiun    	uphėbbian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
+uphėbbiun    	uphėbbian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
+uphėbbiđ    	uphėbbian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <sg>   
 uprann    	uprinnan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 uprann    	uprinnan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 uprinn    	uprinnan   <v>      <str>      <class3a>      <impv>      <sg>   
@@ -5450,6 +5648,28 @@ wėndiu    	wėndian   <v>      <wk>      <class1>      <wk>      <pres>      <1
 âhlôpis    	âhlôpan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <sg>   
 âhlôpiđ    	âhlôpan   <v>      <str>      <class7>      <pres>      <indic>      <3rd>      <sg>   
 âhlôpu    	âhlôpan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <sg>   
+âhėbbi    	âhėbbian   <v>      <str>      <class6>      <impv>      <sg>   
+âhėbbi    	âhėbbian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <sg>   
+âhėbbi    	âhėbbian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <sg>   
+âhėbbi    	âhėbbian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <sg>   
+âhėbbi    	âhėbbian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <sg>   
+âhėbbi    	âhėbbian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <sg>   
+âhėbbian    	âhėbbian   <v>      <str>      <class6>      <inf>   
+âhėbbian    	âhėbbian   <v>      <str>      <class6>      <pastpart>   
+âhėbbiađ    	âhėbbian   <v>      <str>      <class6>      <impv>      <pl>   
+âhėbbiađ    	âhėbbian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
+âhėbbiađ    	âhėbbian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
+âhėbbiađ    	âhėbbian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <pl>   
+âhėbbin    	âhėbbian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <pl>   
+âhėbbin    	âhėbbian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <pl>   
+âhėbbin    	âhėbbian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <pl>   
+âhėbbis    	âhėbbian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <sg>   
+âhėbbis    	âhėbbian   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <sg>   
+âhėbbiu    	âhėbbian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <sg>   
+âhėbbiun    	âhėbbian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
+âhėbbiun    	âhėbbian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
+âhėbbiun    	âhėbbian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
+âhėbbiđ    	âhėbbian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <sg>   
 âkoman    	âkuman   <v>      <str>      <class4>      <pastpart>   
 âkum    	âkuman   <v>      <str>      <class4>      <impv>      <sg>   
 âkum    	âkuman   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <sg>   
