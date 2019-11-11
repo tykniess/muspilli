@@ -1,0 +1,59 @@
+faran%<v%>%<str%>%<class6%>:far STR6    ;	! nhd. „fahren“, sich bewegen, gehen, reisen, ziehen, fliegen
+malan%<v%>%<str%>%<class6%>:mal STR6    ;	! nhd. mahlen
+standan%<v%>%<str%>%<class6%>:stand STR6    ;	! nhd. stehen
+dragan%<v%>%<str%>%<class6%>:drag STR6    ;	! nhd. tragen, bringen
+farstandan%<v%>%<str%>%<class6%>:farstand STR6    ;	! nhd. stehen bleiben, verhindern, verstehen
+gistandan%<v%>%<str%>%<class6%>:gistand STR6    ;	! nhd. stehen, stehen bleiben, eintreten, zu Teil werden, gereichen
+āstandan%<v%>%<str%>%<class6%>:āstand STR6    ;	! nhd. aufstehen, auferstehen
+wahsan%<v%>%<str%>%<class6%>:wahs STR6    ;	! nhd. wachsen (V.) (1)
+slahan%<v%>%<str%>%<class6%>:slah STR6    ;	! nhd. schlagen, töten
+afhėbbian%<v%>%<str%>%<class6%>:afhėbbi STR6    ;	! nhd. sich erheben, aufheben, beginnen, wegheben, anheben
+giskėppian%<v%>%<str%>%<class6%>:giskėppi STR6    ;	! nhd. schaffen, bestimmen
+swėrian%<v%>%<str%>%<class6%>:swėri STR6    ;	! nhd. schwören
+āhėbbian%<v%>%<str%>%<class6%>:āhėbbi STR6    ;	! nhd. erheben, anheben, erhöhen, beginnen
+farsakan%<v%>%<str%>%<class6%>:farsak STR6    ;	! nhd. zurückweisen, entsagen, verleugnen, sich lossagen
+lahan%<v%>%<str%>%<class6%>:lah STR6    ;	! nhd. tadeln, verbieten
+spanan%<v%>%<str%>%<class6%>:span STR6    ;	! nhd. antreiben, locken (V.) (2)
+gidragan%<v%>%<str%>%<class6%>:gidrag STR6    ;	! nhd. tragen, bringen, mit sich bringen, gebären
+tefaran%<v%>%<str%>%<class6%>:tefar STR6    ;	! nhd. „zerfahren“ (V.), zerfallen (V.), verzehren, auseinandergehen
+āslahan%<v%>%<str%>%<class6%>:āslah STR6    ;	! nhd. erschlagen (V.)
+helan%<v%>%<str%>%<class6%>:hel STR6    ;	! nhd. „hehlen“, verhehlen, verbergen
+afsėbbian%<v%>%<str%>%<class6%>:afsėbbi STR6    ;	! nhd. wahrnehmen, bemerken, erkennen
+āwahsan%<v%>%<str%>%<class6%>:āwahs STR6    ;	! nhd. erwachsen (V.), aufwachsen
+hladan%<v%>%<str%>%<class6%>:hlad STR6    ;	! nhd. laden (V.) (1), beladen (V.), aufnehmen, hinein tun
+thwahan%<v%>%<str%>%<class6%>:thwah STR6    ;	! nhd. waschen
+bigravan%<v%>%<str%>%<class6%>:bigrav STR6    ;	! nhd. begraben (V.), bestatten
+farspanan%<v%>%<str%>%<class6%>:farspan STR6    ;	! nhd. verlocken
+gislahan%<v%>%<str%>%<class6%>:gislah STR6    ;	! nhd. erschlagen (V.)
+stėppian%<v%>%<str%>%<class6%>:stėppi STR6    ;	! nhd. schreiten
+afstandan%<v%>%<str%>%<class6%>:afstand STR6    ;	! nhd. stehen bleiben, zurückbleiben
+andstandan%<v%>%<str%>%<class6%>:andstand STR6    ;	! nhd. aushalten, ertragen (V.)
+biswėrian%<v%>%<str%>%<class6%>:biswėri STR6    ;	! nhd. beschwören
+farfaran%<v%>%<str%>%<class6%>:farfar STR6    ;	! nhd. durchfahren
+farswėrian%<v%>%<str%>%<class6%>:farswėri STR6    ;	! nhd. falsch schwören
+gihėbbian (an%<v%>%<str%>%<class6%>:gihėbbian ( STR6    ;	! nhd. erheben
+gispanan%<v%>%<str%>%<class6%>:gispan STR6    ;	! nhd. antreiben
+knagan%<v%>%<str%>%<class6%>:knag STR6    ;	! nhd. nagen
+skavan%<v%>%<str%>%<class6%>:skav STR6    ;	! nhd. schaben, kratzen
+skėppian (an%<v%>%<str%>%<class6%>:skėppian ( STR6    ;	! nhd. schaffen
+ūtslahan%<v%>%<str%>%<class6%>:ūtslah STR6    ;	! nhd. ausschlagen
+witharstandan%<v%>%<str%>%<class6%>:witharstand STR6    ;	! nhd. „widerstehen“, entgegentreten
+afstėppian%<v%>%<str%>%<class6%>:afstėppi STR6    ;	! nhd. schreiten, betreten (V.)
+andsakan%<v%>%<str%>%<class6%>:andsak STR6    ;	! nhd. leugnen, in Abrede stellen, sich verwahren
+anstandan%<v%>%<str%>%<class6%>:anstand STR6    ;	! nhd. aufstehen, auferstehen, anstehen, eintreten
+bakkan%<v%>%<str%>%<class6%>:bakk STR6    ;	! nhd. backen
+bihlahhian%<v%>%<str%>%<class6%>:bihlahhi STR6    ;	! nhd. verspotten, verlachen
+bisėbbian%<v%>%<str%>%<class6%>:bisėbbi STR6    ;	! nhd. wahrnehmen, bemerken
+fardragan%<v%>%<str%>%<class6%>:fardrag STR6    ;	! nhd. dulden
+forthfaran%<v%>%<str%>%<class6%>:forthfar STR6    ;	! nhd. „fortfahren“, vorwärtsschreiten, vortreten
+gifaran%<v%>%<str%>%<class6%>:gifar STR6    ;	! nhd. einziehen, gehen
+giswėrian%<v%>%<str%>%<class6%>:giswėri STR6    ;	! nhd. schwören
+gravan%<v%>%<str%>%<class6%>:grav STR6    ;	! nhd. graben
+hlahhian%<v%>%<str%>%<class6%>:hlahhi STR6    ;	! nhd. lachen
+nitharfaran%<v%>%<str%>%<class6%>:nitharfar STR6    ;	! nhd. niederfahren
+sakan%<v%>%<str%>%<class6%>:sak STR6    ;	! nhd. streiten, schelten
+skakan%<v%>%<str%>%<class6%>:skak STR6    ;	! nhd. weggehen
+teslahan%<v%>%<str%>%<class6%>:teslah STR6    ;	! nhd. zerschlagen (V.), zerstören
+undarfaran%<v%>%<str%>%<class6%>:undarfar STR6    ;	! nhd. „unterfahren“, darunterfahren, einschleichen
+uphėbbian%<v%>%<str%>%<class6%>:uphėbbi STR6    ;	! nhd. erheben
+waskan%<v%>%<str%>%<class6%>:wask STR6    ;	! nhd. waschen

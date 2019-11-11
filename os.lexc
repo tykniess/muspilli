@@ -2,7 +2,25 @@ Multichar_Symbols
 %>				! Morpheme boundary
 
 %<v%>				! Verb
+%<n%>				! Noun
 
+
+!!!!!!!!!!!!!!!!!!NOMINAL CHARS!!!!!!!!!!!!!!!!!!!!!!!
+%<masc%>			! masculine noun
+%<fem%>				! feminine noun
+%<neut%>			! neuter noun
+
+%<a-stem%>			! a-stem noun
+
+%<nom%>				! nominative case
+%<gen%>				! genitive case
+%<dat%>				! dative case
+%<acc%>				! accusative case
+%<instr%>			! instrumental case
+
+%{E%}				! Archiphoneme e/a in the dative and genitive cases
+
+!!!!!!!!!!!!!!!!!!VERBAL CHARS!!!!!!!!!!!!!!!!!!!!!!!!
 %<inf%>				! Infinitive
 %<act%>				! Active
 %<pass%>			! Passive
@@ -40,8 +58,22 @@ th				! th phoneme which is actually one sound
 %{I%}				! i-infix in strong verbs
 
 LEXICON Root
-!Nouns 				; 
+Nouns 				; 
 Verbs 				; 
+
+LEXICON Nouns
+A-Stem				;
+
+
+LEXICON Masc-A-Stem
+%<nom%>:0		#	;
+%<gen%>:%{E%}s		#	;
+%<dat%>:%{E%}		#	;
+%<acc%>:0		#	;
+%<instr%>:u		#	;
+!%<instr%>:o             #       ; ! variant form of instrumental case
+
+
 
 LEXICON Verbs
 StrongVerbs                     ;
@@ -287,6 +319,523 @@ LEXICON IMPERATIV-WK2
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON A-Stem
+dag%<noun%>%<masc%>%<a-stem%>:dag Masc-A-Stem ;	!nhd. Tag; !send it to masculine sublexicon for now to avoid dealing with tags.
+afgod%<noun%>%<masc%>%<a-stem%>:afgod Masc-A-Stem ;
+agalthorn%<noun%>%<masc%>%<a-stem%>:agalthorn Masc-A-Stem ;
+ahastrôm%<noun%>%<masc%>%<a-stem%>:ahastrôm Masc-A-Stem ;
+ahorn%<noun%>%<masc%>%<a-stem%>:ahorn Masc-A-Stem ;
+akkar%<noun%>%<masc%>%<a-stem%>:akkar Masc-A-Stem ;
+âl%<noun%>%<masc%>%<a-stem%>:âl Masc-A-Stem ;
+alund%<noun%>%<masc%>%<a-stem%>:alund Masc-A-Stem ;
+andorn%<noun%>%<masc%>%<a-stem%>:andorn Masc-A-Stem ;
+andswôr%<noun%>%<masc%>%<a-stem%>:andswôr Masc-A-Stem ;
+angar%<noun%>%<masc%>%<a-stem%>:angar Masc-A-Stem ;
+angul%<noun%>%<masc%>%<a-stem%>:angul Masc-A-Stem ;
+antikrist%<noun%>%<masc%>%<a-stem%>:antikrist Masc-A-Stem ;
+apalder%<noun%>%<masc%>%<a-stem%>:apalder Masc-A-Stem ;
+arm%<noun%>%<masc%>%<a-stem%>:arm Masc-A-Stem ;
+armbugil%<noun%>%<masc%>%<a-stem%>:armbugil Masc-A-Stem ;
+ars%<noun%>%<masc%>%<a-stem%>:ars Masc-A-Stem ;
+athalkêsur%<noun%>%<masc%>%<a-stem%>:athalkêsur Masc-A-Stem ;
+athalkuning%<noun%>%<masc%>%<a-stem%>:athalkuning Masc-A-Stem ;
+âthom%<noun%>%<masc%>%<a-stem%>:âthom Masc-A-Stem ;
+âvand%<noun%>%<masc%>%<a-stem%>:âvand Masc-A-Stem ;
+bâg%<noun%>%<masc%>%<a-stem%>:bâg Masc-A-Stem ;
+band%<noun%>%<masc%>%<a-stem%>:band Masc-A-Stem ;
+bard%<noun%>%<masc%>%<a-stem%>:bard Masc-A-Stem ;
+barg%<noun%>%<masc%>%<a-stem%>:barg Masc-A-Stem ;
+barug%<noun%>%<masc%>%<a-stem%>:barug Masc-A-Stem ;
+berg%<noun%>%<masc%>%<a-stem%>:berg Masc-A-Stem ;
+bewod%<noun%>%<masc%>%<a-stem%>:bewod Masc-A-Stem ;
+bîhêt%<noun%>%<masc%>%<a-stem%>:bîhêt Masc-A-Stem ;
+bikkil%<noun%>%<masc%>%<a-stem%>:bikkil Masc-A-Stem ;
+binut%<noun%>%<masc%>%<a-stem%>:binut Masc-A-Stem ;
+biod%<noun%>%<masc%>%<a-stem%>:biod Masc-A-Stem ;
+biril%<noun%>%<masc%>%<a-stem%>:biril Masc-A-Stem ;
+birubôm%<noun%>%<masc%>%<a-stem%>:birubôm Masc-A-Stem ;
+biskop%<noun%>%<masc%>%<a-stem%>:biskop Masc-A-Stem ;
+bôdal%<noun%>%<masc%>%<a-stem%>:bôdal Masc-A-Stem ;
+bôg%<noun%>%<masc%>%<a-stem%>:bôg Masc-A-Stem ;
+bolt%<noun%>%<masc%>%<a-stem%>:bolt Masc-A-Stem ;
+bôm%<noun%>%<masc%>%<a-stem%>:bôm Masc-A-Stem ;
+bord%<noun%>%<masc%>%<a-stem%>:bord Masc-A-Stem ;
+bord%<noun%>%<masc%>%<a-stem%>:bord Masc-A-Stem ;
+bôsom%<noun%>%<masc%>%<a-stem%>:bôsom Masc-A-Stem ;
+bothom%<noun%>%<masc%>%<a-stem%>:bothom Masc-A-Stem ;
+brâkfugal%<noun%>%<masc%>%<a-stem%>:brâkfugal Masc-A-Stem ;
+brâkmânuth%<noun%>%<masc%>%<a-stem%>:brâkmânuth Masc-A-Stem ;
+briddil%<noun%>%<masc%>%<a-stem%>:briddil Masc-A-Stem ;
+brôk%<noun%>%<masc%>%<a-stem%>:brôk Masc-A-Stem ;
+brustlėpil%<noun%>%<masc%>%<a-stem%>:brustlėpil Masc-A-Stem ;
+budil%<noun%>%<masc%>%<a-stem%>:budil Masc-A-Stem ;
+būdil%<noun%>%<masc%>%<a-stem%>:būdil Masc-A-Stem ;
+bugil%<noun%>%<masc%>%<a-stem%>:bugil Masc-A-Stem ;
+buk%<noun%>%<masc%>%<a-stem%>:buk Masc-A-Stem ;
+būr%<noun%>%<masc%>%<a-stem%>:būr Masc-A-Stem ;
+busk%<noun%>%<masc%>%<a-stem%>:busk Masc-A-Stem ;
+dag%<noun%>%<masc%>%<a-stem%>:dag Masc-A-Stem ;
+dal%<noun%>%<masc%>%<a-stem%>:dal Masc-A-Stem ;
+diuval%<noun%>%<masc%>%<a-stem%>:diuval Masc-A-Stem ;
+dôm%<noun%>%<masc%>%<a-stem%>:dôm Masc-A-Stem ;
+dômdag%<noun%>%<masc%>%<a-stem%>:dômdag Masc-A-Stem ;
+dômsėthal%<noun%>%<masc%>%<a-stem%>:dômsėthal Masc-A-Stem ;
+dôth%<noun%>%<masc%>%<a-stem%>:dôth Masc-A-Stem ;
+drank%<noun%>%<masc%>%<a-stem%>:drank Masc-A-Stem ;
+drėmbil%<noun%>%<masc%>%<a-stem%>:drėmbil Masc-A-Stem ;
+drohtîn%<noun%>%<masc%>%<a-stem%>:drohtîn Masc-A-Stem ;
+drôm%<noun%>%<masc%>%<a-stem%>:drôm Masc-A-Stem ;
+drôr%<noun%>%<masc%>%<a-stem%>:drôr Masc-A-Stem ;
+druhting%<noun%>%<masc%>%<a-stem%>:druhting Masc-A-Stem ;
+dūmil%<noun%>%<masc%>%<a-stem%>:dūmil Masc-A-Stem ;
+dūvanstên%<noun%>%<masc%>%<a-stem%>:dūvanstên Masc-A-Stem ;
+êd%<noun%>%<masc%>%<a-stem%>:êd Masc-A-Stem ;
+eder%<noun%>%<masc%>%<a-stem%>:eder Masc-A-Stem ;
+ehuskalk%<noun%>%<masc%>%<a-stem%>:ehuskalk Masc-A-Stem ;
+ėngil%<noun%>%<masc%>%<a-stem%>:ėngil Masc-A-Stem ;
+ėngil%<noun%>%<masc%>%<a-stem%>:ėngil Masc-A-Stem ;
+êoward%<noun%>%<masc%>%<a-stem%>:êoward Masc-A-Stem ;
+erl%<noun%>%<masc%>%<a-stem%>:erl Masc-A-Stem ;
+erthhring%<noun%>%<masc%>%<a-stem%>:erthhring Masc-A-Stem ;
+erthlîm%<noun%>%<masc%>%<a-stem%>:erthlîm Masc-A-Stem ;
+ėrviward%<noun%>%<masc%>%<a-stem%>:ėrviward Masc-A-Stem ;
+ėsil%<noun%>%<masc%>%<a-stem%>:ėsil Masc-A-Stem ;
+ėstrik%<noun%>%<masc%>%<a-stem%>:ėstrik Masc-A-Stem ;
+êth%<noun%>%<masc%>%<a-stem%>:êth Masc-A-Stem ;
+êthstaf%<noun%>%<masc%>%<a-stem%>:êthstaf Masc-A-Stem ;
+evur%<noun%>%<masc%>%<a-stem%>:evur Masc-A-Stem ;
+evurspiot%<noun%>%<masc%>%<a-stem%>:evurspiot Masc-A-Stem ;
+êwandag%<noun%>%<masc%>%<a-stem%>:êwandag Masc-A-Stem ;
+faldistôl%<noun%>%<masc%>%<a-stem%>:faldistôl Masc-A-Stem ;
+fâr%<noun%>%<masc%>%<a-stem%>:fâr Masc-A-Stem ;
+fargang%<noun%>%<masc%>%<a-stem%>:fargang Masc-A-Stem ;
+farlor%<noun%>%<masc%>%<a-stem%>:farlor Masc-A-Stem ;
+farm%<noun%>%<masc%>%<a-stem%>:farm Masc-A-Stem ;
+fehuskat%<noun%>%<masc%>%<a-stem%>:fehuskat Masc-A-Stem ;
+fėlis%<noun%>%<masc%>%<a-stem%>:fėlis Masc-A-Stem ;
+fenukal%<noun%>%<masc%>%<a-stem%>:fenukal Masc-A-Stem ;
+ferskang%<noun%>%<masc%>%<a-stem%>:ferskang Masc-A-Stem ;
+ferweg%<noun%>%<masc%>%<a-stem%>:ferweg Masc-A-Stem ;
+fetar%<noun%>%<masc%>%<a-stem%>:fetar Masc-A-Stem ;
+fetherak%<noun%>%<masc%>%<a-stem%>:fetherak Masc-A-Stem ;
+fillul%<noun%>%<masc%>%<a-stem%>:fillul Masc-A-Stem ;
+fingar%<noun%>%<masc%>%<a-stem%>:fingar Masc-A-Stem ;
+fisk%<noun%>%<masc%>%<a-stem%>:fisk Masc-A-Stem ;
+fiskkôp%<noun%>%<masc%>%<a-stem%>:fiskkôp Masc-A-Stem ;
+flėgil%<noun%>%<masc%>%<a-stem%>:flėgil Masc-A-Stem ;
+flît%<noun%>%<masc%>%<a-stem%>:flît Masc-A-Stem ;
+fogat%<noun%>%<masc%>%<a-stem%>:fogat Masc-A-Stem ;
+fohs%<noun%>%<masc%>%<a-stem%>:fohs Masc-A-Stem ;
+folkkuning%<noun%>%<masc%>%<a-stem%>:folkkuning Masc-A-Stem ;
+folkwer%<noun%>%<masc%>%<a-stem%>:folkwer Masc-A-Stem ;
+forndag%<noun%>%<masc%>%<a-stem%>:forndag Masc-A-Stem ;
+forthweg%<noun%>%<masc%>%<a-stem%>:forthweg Masc-A-Stem ;
+fôtskamel%<noun%>%<masc%>%<a-stem%>:fôtskamel Masc-A-Stem ;
+frîdhof%<noun%>%<masc%>%<a-stem%>:frîdhof Masc-A-Stem ;
+frîling%<noun%>%<masc%>%<a-stem%>:frîling Masc-A-Stem ;
+frithuwîh%<noun%>%<masc%>%<a-stem%>:frithuwîh Masc-A-Stem ;
+friuthil%<noun%>%<masc%>%<a-stem%>:friuthil Masc-A-Stem ;
+frost%<noun%>%<masc%>%<a-stem%>:frost Masc-A-Stem ;
+fugal%<noun%>%<masc%>%<a-stem%>:fugal Masc-A-Stem ;
+furpėnning%<noun%>%<masc%>%<a-stem%>:furpėnning Masc-A-Stem ;
+gaduling%<noun%>%<masc%>%<a-stem%>:gaduling Masc-A-Stem ;
+gadulingmâg%<noun%>%<masc%>%<a-stem%>:gadulingmâg Masc-A-Stem ;
+gang%<noun%>%<masc%>%<a-stem%>:gang Masc-A-Stem ;
+gêrasdag%<noun%>%<masc%>%<a-stem%>:gêrasdag Masc-A-Stem ;
+gêst%<noun%>%<masc%>%<a-stem%>:gêst Masc-A-Stem ;
+gevan%<noun%>%<masc%>%<a-stem%>:gevan Masc-A-Stem ;
+gibūr%<noun%>%<masc%>%<a-stem%>:gibūr Masc-A-Stem ;
+gîsal%<noun%>%<masc%>%<a-stem%>:gîsal Masc-A-Stem ;
+gisîth%<noun%>%<masc%>%<a-stem%>:gisîth Masc-A-Stem ;
+giskêth%<noun%>%<masc%>%<a-stem%>:giskêth Masc-A-Stem ;
+god%<noun%>%<masc%>%<a-stem%>:god Masc-A-Stem ;
+gôk%<noun%>%<masc%>%<a-stem%>:gôk Masc-A-Stem ;
+goldsmith%<noun%>%<masc%>%<a-stem%>:goldsmith Masc-A-Stem ;
+goldwivil%<noun%>%<masc%>%<a-stem%>:goldwivil Masc-A-Stem ;
+grîm%<noun%>%<masc%>%<a-stem%>:grîm Masc-A-Stem ;
+grindil%<noun%>%<masc%>%<a-stem%>:grindil Masc-A-Stem ;
+griotward%<noun%>%<masc%>%<a-stem%>:griotward Masc-A-Stem ;
+grund%<noun%>%<masc%>%<a-stem%>:grund Masc-A-Stem ;
+gurdil%<noun%>%<masc%>%<a-stem%>:gurdil Masc-A-Stem ;
+hagal%<noun%>%<masc%>%<a-stem%>:hagal Masc-A-Stem ;
+hagan%<noun%>%<masc%>%<a-stem%>:hagan Masc-A-Stem ;
+haguthorn%<noun%>%<masc%>%<a-stem%>:haguthorn Masc-A-Stem ;
+halffisk%<noun%>%<masc%>%<a-stem%>:halffisk Masc-A-Stem ;
+halling%<noun%>%<masc%>%<a-stem%>:halling Masc-A-Stem ;
+halm%<noun%>%<masc%>%<a-stem%>:halm Masc-A-Stem ;
+hals%<noun%>%<masc%>%<a-stem%>:hals Masc-A-Stem ;
+hamar%<noun%>%<masc%>%<a-stem%>:hamar Masc-A-Stem ;
+handskôh%<noun%>%<masc%>%<a-stem%>:handskôh Masc-A-Stem ;
+hanup%<noun%>%<masc%>%<a-stem%>:hanup Masc-A-Stem ;
+harm%<noun%>%<masc%>%<a-stem%>:harm Masc-A-Stem ;
+harst%<noun%>%<masc%>%<a-stem%>:harst Masc-A-Stem ;
+hasal%<noun%>%<masc%>%<a-stem%>:hasal Masc-A-Stem ;
+havuk%<noun%>%<masc%>%<a-stem%>:havuk Masc-A-Stem ;
+hêlagdôm%<noun%>%<masc%>%<a-stem%>:hêlagdôm Masc-A-Stem ;
+hêlagmânuth%<noun%>%<masc%>%<a-stem%>:hêlagmânuth Masc-A-Stem ;
+hêlfling%<noun%>%<masc%>%<a-stem%>:hêlfling Masc-A-Stem ;
+hėlith%<noun%>%<masc%>%<a-stem%>:hėlith Masc-A-Stem ;
+helithhelm%<noun%>%<masc%>%<a-stem%>:helithhelm Masc-A-Stem ;
+helm%<noun%>%<masc%>%<a-stem%>:helm Masc-A-Stem ;
+hėlsîth%<noun%>%<masc%>%<a-stem%>:hėlsîth Masc-A-Stem ;
+hêmgod%<noun%>%<masc%>%<a-stem%>:hêmgod Masc-A-Stem ;
+hėngist%<noun%>%<masc%>%<a-stem%>:hėngist Masc-A-Stem ;
+hêrdôm%<noun%>%<masc%>%<a-stem%>:hêrdôm Masc-A-Stem ;
+hėrimaldar%<noun%>%<masc%>%<a-stem%>:hėrimaldar Masc-A-Stem ;
+hėring%<noun%>%<masc%>%<a-stem%>:hėring Masc-A-Stem ;
+hėrirink%<noun%>%<masc%>%<a-stem%>:hėrirink Masc-A-Stem ;
+hėriskilling%<noun%>%<masc%>%<a-stem%>:hėriskilling Masc-A-Stem ;
+herth%<noun%>%<masc%>%<a-stem%>:herth Masc-A-Stem ;
+hėrvist%<noun%>%<masc%>%<a-stem%>:hėrvist Masc-A-Stem ;
+hėrvistmânuth%<noun%>%<masc%>%<a-stem%>:hėrvistmânuth Masc-A-Stem ;
+hêt%<noun%>%<masc%>%<a-stem%>:hêt Masc-A-Stem ;
+hevankuning%<noun%>%<masc%>%<a-stem%>:hevankuning Masc-A-Stem ;
+hevanwang%<noun%>%<masc%>%<a-stem%>:hevanwang Masc-A-Stem ;
+hevanward%<noun%>%<masc%>%<a-stem%>:hevanward Masc-A-Stem ;
+hildiskalk%<noun%>%<masc%>%<a-stem%>:hildiskalk Masc-A-Stem ;
+himil%<noun%>%<masc%>%<a-stem%>:himil Masc-A-Stem ;
+himilkraft%<noun%>%<masc%>%<a-stem%>:himilkraft Masc-A-Stem ;
+himilkuning%<noun%>%<masc%>%<a-stem%>:himilkuning Masc-A-Stem ;
+hirnutbôm%<noun%>%<masc%>%<a-stem%>:hirnutbôm Masc-A-Stem ;
+hliuning%<noun%>%<masc%>%<a-stem%>:hliuning Masc-A-Stem ;
+hlôt%<noun%>%<masc%>%<a-stem%>:hlôt Masc-A-Stem ;
+hnap%<noun%>%<masc%>%<a-stem%>:hnap Masc-A-Stem ;
+hof%<noun%>%<masc%>%<a-stem%>:hof Masc-A-Stem ;
+hofward%<noun%>%<masc%>%<a-stem%>:hofward Masc-A-Stem ;
+hôhstôl%<noun%>%<masc%>%<a-stem%>:hôhstôl Masc-A-Stem ;
+holondar%<noun%>%<masc%>%<a-stem%>:holondar Masc-A-Stem ;
+holtdiuval%<noun%>%<masc%>%<a-stem%>:holtdiuval Masc-A-Stem ;
+hônpėnning%<noun%>%<masc%>%<a-stem%>:hônpėnning Masc-A-Stem ;
+hôp%<noun%>%<masc%>%<a-stem%>:hôp Masc-A-Stem ;
+hornut%<noun%>%<masc%>%<a-stem%>:hornut Masc-A-Stem ;
+horodūmbil%<noun%>%<masc%>%<a-stem%>:horodūmbil Masc-A-Stem ;
+hosk%<noun%>%<masc%>%<a-stem%>:hosk Masc-A-Stem ;
+hovar%<noun%>%<masc%>%<a-stem%>:hovar Masc-A-Stem ;
+hovaward%<noun%>%<masc%>%<a-stem%>:hovaward Masc-A-Stem ;
+hôvidband%<noun%>%<masc%>%<a-stem%>:hôvidband Masc-A-Stem ;
+hôvidskat%<noun%>%<masc%>%<a-stem%>:hôvidskat Masc-A-Stem ;
+hravan%<noun%>%<masc%>%<a-stem%>:hravan Masc-A-Stem ;
+hring%<noun%>%<masc%>%<a-stem%>:hring Masc-A-Stem ;
+hrôht%<noun%>%<masc%>%<a-stem%>:hrôht Masc-A-Stem ;
+hrôt%<noun%>%<masc%>%<a-stem%>:hrôt Masc-A-Stem ;
+humbal%<noun%>%<masc%>%<a-stem%>:humbal Masc-A-Stem ;
+hund%<noun%>%<masc%>%<a-stem%>:hund Masc-A-Stem ;
+huneg%<noun%>%<masc%>%<a-stem%>:huneg Masc-A-Stem ;
+hungar%<noun%>%<masc%>%<a-stem%>:hungar Masc-A-Stem ;
+huvil%<noun%>%<masc%>%<a-stem%>:huvil Masc-A-Stem ;
+hwelp%<noun%>%<masc%>%<a-stem%>:hwelp Masc-A-Stem ;
+hwetistên%<noun%>%<masc%>%<a-stem%>:hwetistên Masc-A-Stem ;
+igil%<noun%>%<masc%>%<a-stem%>:igil Masc-A-Stem ;
+îh%<noun%>%<masc%>%<a-stem%>:îh Masc-A-Stem ;
+ingang%<noun%>%<masc%>%<a-stem%>:ingang Masc-A-Stem ;
+inkneht%<noun%>%<masc%>%<a-stem%>:inkneht Masc-A-Stem ;
+inlât%<noun%>%<masc%>%<a-stem%>:inlât Masc-A-Stem ;
+inwidnîth%<noun%>%<masc%>%<a-stem%>:inwidnîth Masc-A-Stem ;
+inwidrâd%<noun%>%<masc%>%<a-stem%>:inwidrâd Masc-A-Stem ;
+israhel%<noun%>%<masc%>%<a-stem%>:israhel Masc-A-Stem ;
+jârasdag%<noun%>%<masc%>%<a-stem%>:jârasdag Masc-A-Stem ;
+juktâm%<noun%>%<masc%>%<a-stem%>:juktâm Masc-A-Stem ;
+jungardôm%<noun%>%<masc%>%<a-stem%>:jungardôm Masc-A-Stem ;
+jungling%<noun%>%<masc%>%<a-stem%>:jungling Masc-A-Stem ;
+kamb%<noun%>%<masc%>%<a-stem%>:kamb Masc-A-Stem ;
+karl%<noun%>%<masc%>%<a-stem%>:karl Masc-A-Stem ;
+kėlik%<noun%>%<masc%>%<a-stem%>:kėlik Masc-A-Stem ;
+kêsur%<noun%>%<masc%>%<a-stem%>:kêsur Masc-A-Stem ;
+kêsurdôm%<noun%>%<masc%>%<a-stem%>:kêsurdôm Masc-A-Stem ;
+kėtil%<noun%>%<masc%>%<a-stem%>:kėtil Masc-A-Stem ;
+kėtilkôp%<noun%>%<masc%>%<a-stem%>:kėtilkôp Masc-A-Stem ;
+kîn%<noun%>%<masc%>%<a-stem%>:kîn Masc-A-Stem ;
+kinddôm%<noun%>%<masc%>%<a-stem%>:kinddôm Masc-A-Stem ;
+kîngrund%<noun%>%<masc%>%<a-stem%>:kîngrund Masc-A-Stem ;
+kiol%<noun%>%<masc%>%<a-stem%>:kiol Masc-A-Stem ;
+kirsikbôm%<noun%>%<masc%>%<a-stem%>:kirsikbôm Masc-A-Stem ;
+kluflôk%<noun%>%<masc%>%<a-stem%>:kluflôk Masc-A-Stem ;
+kneht%<noun%>%<masc%>%<a-stem%>:kneht Masc-A-Stem ;
+knėvil%<noun%>%<masc%>%<a-stem%>:knėvil Masc-A-Stem ;
+kok%<noun%>%<masc%>%<a-stem%>:kok Masc-A-Stem ;
+kolk%<noun%>%<masc%>%<a-stem%>:kolk Masc-A-Stem ;
+kop%<noun%>%<masc%>%<a-stem%>:kop Masc-A-Stem ;
+kôp%<noun%>%<masc%>%<a-stem%>:kôp Masc-A-Stem ;
+kornskilling%<noun%>%<masc%>%<a-stem%>:kornskilling Masc-A-Stem ;
+kosp,%<noun%>%<masc%>%<a-stem%>:kosp, Masc-A-Stem ;
+kraft%<noun%>%<masc%>%<a-stem%>:kraft Masc-A-Stem ;
+kran%<noun%>%<masc%>%<a-stem%>:kran Masc-A-Stem ;
+krauwil%<noun%>%<masc%>%<a-stem%>:krauwil Masc-A-Stem ;
+krėvit%<noun%>%<masc%>%<a-stem%>:krėvit Masc-A-Stem ;
+krist%<noun%>%<masc%>%<a-stem%>:krist Masc-A-Stem ;
+kullundar%<noun%>%<masc%>%<a-stem%>:kullundar Masc-A-Stem ;
+kuning%<noun%>%<masc%>%<a-stem%>:kuning Masc-A-Stem ;
+kuningdôm%<noun%>%<masc%>%<a-stem%>:kuningdôm Masc-A-Stem ;
+kuningstôl%<noun%>%<masc%>%<a-stem%>:kuningstôl Masc-A-Stem ;
+kurnilbôm%<noun%>%<masc%>%<a-stem%>:kurnilbôm Masc-A-Stem ;
+kwekbôm%<noun%>%<masc%>%<a-stem%>:kwekbôm Masc-A-Stem ;
+kwerthar%<noun%>%<masc%>%<a-stem%>:kwerthar Masc-A-Stem ;
+kwest%<noun%>%<masc%>%<a-stem%>:kwest Masc-A-Stem ;
+landmâg%<noun%>%<masc%>%<a-stem%>:landmâg Masc-A-Stem ;
+lât%<noun%>%<masc%>%<a-stem%>:lât Masc-A-Stem ;
+lêf%<noun%>%<masc%>%<a-stem%>:lêf Masc-A-Stem ;
+lėntînmânuth%<noun%>%<masc%>%<a-stem%>:lėntînmânuth Masc-A-Stem ;
+lėpil%<noun%>%<masc%>%<a-stem%>:lėpil Masc-A-Stem ;
+lîm%<noun%>%<masc%>%<a-stem%>:lîm Masc-A-Stem ;
+lînpėnning%<noun%>%<masc%>%<a-stem%>:lînpėnning Masc-A-Stem ;
+lithokosp%<noun%>%<masc%>%<a-stem%>:lithokosp Masc-A-Stem ;
+lithowastôm%<noun%>%<masc%>%<a-stem%>:lithowastôm Masc-A-Stem ;
+liudstamn%<noun%>%<masc%>%<a-stem%>:liudstamn Masc-A-Stem ;
+liudwer%<noun%>%<masc%>%<a-stem%>:liudwer Masc-A-Stem ;
+livistok%<noun%>%<masc%>%<a-stem%>:livistok Masc-A-Stem ;
+lôf%<noun%>%<masc%>%<a-stem%>:lôf Masc-A-Stem ;
+lofsang%<noun%>%<masc%>%<a-stem%>:lofsang Masc-A-Stem ;
+lôh%<noun%>%<masc%>%<a-stem%>:lôh Masc-A-Stem ;
+lohs%<noun%>%<masc%>%<a-stem%>:lohs Masc-A-Stem ;
+lok%<noun%>%<masc%>%<a-stem%>:lok Masc-A-Stem ;
+mâg%<noun%>%<masc%>%<a-stem%>:mâg Masc-A-Stem ;
+maldar%<noun%>%<masc%>%<a-stem%>:maldar Masc-A-Stem ;
+mandrohtîn%<noun%>%<masc%>%<a-stem%>:mandrohtîn Masc-A-Stem ;
+mankus%<noun%>%<masc%>%<a-stem%>:mankus Masc-A-Stem ;
+mânuth%<noun%>%<masc%>%<a-stem%>:mânuth Masc-A-Stem ;
+mapulder%<noun%>%<masc%>%<a-stem%>:mapulder Masc-A-Stem ;
+marhskalk%<noun%>%<masc%>%<a-stem%>:marhskalk Masc-A-Stem ;
+markstên%<noun%>%<masc%>%<a-stem%>:markstên Masc-A-Stem ;
+martir%<noun%>%<masc%>%<a-stem%>:martir Masc-A-Stem ;
+masur%<noun%>%<masc%>%<a-stem%>:masur Masc-A-Stem ;
+medema%<noun%>%<masc%>%<a-stem%>:medema Masc-A-Stem ;
+mėginthiof%<noun%>%<masc%>%<a-stem%>:mėginthiof Masc-A-Stem ;
+meier%<noun%>%<masc%>%<a-stem%>:meier Masc-A-Stem ;
+mênêth%<noun%>%<masc%>%<a-stem%>:mênêth Masc-A-Stem ;
+mėristrôm%<noun%>%<masc%>%<a-stem%>:mėristrôm Masc-A-Stem ;
+mėtisahs%<noun%>%<masc%>%<a-stem%>:mėtisahs Masc-A-Stem ;
+mėtisahskôp%<noun%>%<masc%>%<a-stem%>:mėtisahskôp Masc-A-Stem ;
+metod%<noun%>%<masc%>%<a-stem%>:metod Masc-A-Stem ;
+middensumar%<noun%>%<masc%>%<a-stem%>:middensumar Masc-A-Stem ;
+mirtebôm%<noun%>%<masc%>%<a-stem%>:mirtebôm Masc-A-Stem ;
+môd%<noun%>%<masc%>%<a-stem%>:môd Masc-A-Stem ;
+môdarmâg%<noun%>%<masc%>%<a-stem%>:môdarmâg Masc-A-Stem ;
+mol%<noun%>%<masc%>%<a-stem%>:mol Masc-A-Stem ;
+moldwerp%<noun%>%<masc%>%<a-stem%>:moldwerp Masc-A-Stem ;
+morgan%<noun%>%<masc%>%<a-stem%>:morgan Masc-A-Stem ;
+morth%<noun%>%<masc%>%<a-stem%>:morth Masc-A-Stem ;
+morthdôth%<noun%>%<masc%>%<a-stem%>:morthdôth Masc-A-Stem ;
+mūlbôm%<noun%>%<masc%>%<a-stem%>:mūlbôm Masc-A-Stem ;
+mulinstên%<noun%>%<masc%>%<a-stem%>:mulinstên Masc-A-Stem ;
+mundskat%<noun%>%<masc%>%<a-stem%>:mundskat Masc-A-Stem ;
+munik%<noun%>%<masc%>%<a-stem%>:munik Masc-A-Stem ;
+mūth%<noun%>%<masc%>%<a-stem%>:mūth Masc-A-Stem ;
+nagal%<noun%>%<masc%>%<a-stem%>:nagal Masc-A-Stem ;
+nâhbūr%<noun%>%<masc%>%<a-stem%>:nâhbūr Masc-A-Stem ;
+nahthravan%<noun%>%<masc%>%<a-stem%>:nahthravan Masc-A-Stem ;
+navugêr%<noun%>%<masc%>%<a-stem%>:navugêr Masc-A-Stem ;
+neval%<noun%>%<masc%>%<a-stem%>:neval Masc-A-Stem ;
+nilstrôm%<noun%>%<masc%>%<a-stem%>:nilstrôm Masc-A-Stem ;
+nîth%<noun%>%<masc%>%<a-stem%>:nîth Masc-A-Stem ;
+niud%<noun%>%<masc%>%<a-stem%>:niud Masc-A-Stem ;
+niuwiling%<noun%>%<masc%>%<a-stem%>:niuwiling Masc-A-Stem ;
+nôdrôf%<noun%>%<masc%>%<a-stem%>:nôdrôf Masc-A-Stem ;
+northrôniwind%<noun%>%<masc%>%<a-stem%>:northrôniwind Masc-A-Stem ;
+nôtil%<noun%>%<masc%>%<a-stem%>:nôtil Masc-A-Stem ;
+nuskil%<noun%>%<masc%>%<a-stem%>:nuskil Masc-A-Stem ;
+ord%<noun%>%<masc%>%<a-stem%>:ord Masc-A-Stem ;
+ôrhring%<noun%>%<masc%>%<a-stem%>:ôrhring Masc-A-Stem ;
+ork%<noun%>%<masc%>%<a-stem%>:ork Masc-A-Stem ;
+orlôf%<noun%>%<masc%>%<a-stem%>:orlôf Masc-A-Stem ;
+ôstarweg%<noun%>%<masc%>%<a-stem%>:ôstarweg Masc-A-Stem ;
+ôstrôniwind%<noun%>%<masc%>%<a-stem%>:ôstrôniwind Masc-A-Stem ;
+ôthil%<noun%>%<masc%>%<a-stem%>:ôthil Masc-A-Stem ;
+ovan%<noun%>%<masc%>%<a-stem%>:ovan Masc-A-Stem ;
+ovardrank%<noun%>%<masc%>%<a-stem%>:ovardrank Masc-A-Stem ;
+ovarward%<noun%>%<masc%>%<a-stem%>:ovarward Masc-A-Stem ;
+pâskadag%<noun%>%<masc%>%<a-stem%>:pâskadag Masc-A-Stem ;
+pâvos%<noun%>%<masc%>%<a-stem%>:pâvos Masc-A-Stem ;
+pėllel%<noun%>%<masc%>%<a-stem%>:pėllel Masc-A-Stem ;
+pėnning%<noun%>%<masc%>%<a-stem%>:pėnning Masc-A-Stem ;
+prêster%<noun%>%<masc%>%<a-stem%>:prêster Masc-A-Stem ;
+pundur%<noun%>%<masc%>%<a-stem%>:pundur Masc-A-Stem ;
+râd%<noun%>%<masc%>%<a-stem%>:râd Masc-A-Stem ;
+radur%<noun%>%<masc%>%<a-stem%>:radur Masc-A-Stem ;
+rakud%<noun%>%<masc%>%<a-stem%>:rakud Masc-A-Stem ;
+randbôg%<noun%>%<masc%>%<a-stem%>:randbôg Masc-A-Stem ;
+regan%<noun%>%<masc%>%<a-stem%>:regan Masc-A-Stem ;
+rėgin%<noun%>%<masc%>%<a-stem%>:rėgin Masc-A-Stem ;
+rėginthiof%<noun%>%<masc%>%<a-stem%>:rėginthiof Masc-A-Stem ;
+rîkdôm%<noun%>%<masc%>%<a-stem%>:rîkdôm Masc-A-Stem ;
+rink%<noun%>%<masc%>%<a-stem%>:rink Masc-A-Stem ;
+rôf%<noun%>%<masc%>%<a-stem%>:rôf Masc-A-Stem ;
+rusal%<noun%>%<masc%>%<a-stem%>:rusal Masc-A-Stem ;
+salmsang%<noun%>%<masc%>%<a-stem%>:salmsang Masc-A-Stem ;
+sambok%<noun%>%<masc%>%<a-stem%>:sambok Masc-A-Stem ;
+sang%<noun%>%<masc%>%<a-stem%>:sang Masc-A-Stem ;
+satanas%<noun%>%<masc%>%<a-stem%>:satanas Masc-A-Stem ;
+sedal%<noun%>%<masc%>%<a-stem%>:sedal Masc-A-Stem ;
+sėdil%<noun%>%<masc%>%<a-stem%>:sėdil Masc-A-Stem ;
+sėkkil%<noun%>%<masc%>%<a-stem%>:sėkkil Masc-A-Stem ;
+selah%<noun%>%<masc%>%<a-stem%>:selah Masc-A-Stem ;
+sėlihof%<noun%>%<masc%>%<a-stem%>:sėlihof Masc-A-Stem ;
+sêostrôm%<noun%>%<masc%>%<a-stem%>:sêostrôm Masc-A-Stem ;
+sethal%<noun%>%<masc%>%<a-stem%>:sethal Masc-A-Stem ;
+sigidrohtîn%<noun%>%<masc%>%<a-stem%>:sigidrohtîn Masc-A-Stem ;
+sîl%<noun%>%<masc%>%<a-stem%>:sîl Masc-A-Stem ;
+siluvarskat%<noun%>%<masc%>%<a-stem%>:siluvarskat Masc-A-Stem ;
+sîth%<noun%>%<masc%>%<a-stem%>:sîth Masc-A-Stem ;
+skalk%<noun%>%<masc%>%<a-stem%>:skalk Masc-A-Stem ;
+skamel%<noun%>%<masc%>%<a-stem%>:skamel Masc-A-Stem ;
+skapil%<noun%>%<masc%>%<a-stem%>:skapil Masc-A-Stem ;
+skapward%<noun%>%<masc%>%<a-stem%>:skapward Masc-A-Stem ;
+skat%<noun%>%<masc%>%<a-stem%>:skat Masc-A-Stem ;
+skėrling%<noun%>%<masc%>%<a-stem%>:skėrling Masc-A-Stem ;
+skerning%<noun%>%<masc%>%<a-stem%>:skerning Masc-A-Stem ;
+skêth%<noun%>%<masc%>%<a-stem%>:skêth Masc-A-Stem ;
+skilling%<noun%>%<masc%>%<a-stem%>:skilling Masc-A-Stem ;
+skion%<noun%>%<masc%>%<a-stem%>:skion Masc-A-Stem ;
+skôf%<noun%>%<masc%>%<a-stem%>:skôf Masc-A-Stem ;
+skôffisk%<noun%>%<masc%>%<a-stem%>:skôffisk Masc-A-Stem ;
+skôh%<noun%>%<masc%>%<a-stem%>:skôh Masc-A-Stem ;
+skop%<noun%>%<masc%>%<a-stem%>:skop Masc-A-Stem ;
+skridskôh%<noun%>%<masc%>%<a-stem%>:skridskôh Masc-A-Stem ;
+skuldpėnning%<noun%>%<masc%>%<a-stem%>:skuldpėnning Masc-A-Stem ;
+slâp%<noun%>%<masc%>%<a-stem%>:slâp Masc-A-Stem ;
+slêhthorn%<noun%>%<masc%>%<a-stem%>:slêhthorn Masc-A-Stem ;
+slund%<noun%>%<masc%>%<a-stem%>:slund Masc-A-Stem ;
+slutil%<noun%>%<masc%>%<a-stem%>:slutil Masc-A-Stem ;
+smith%<noun%>%<masc%>%<a-stem%>:smith Masc-A-Stem ;
+snôrling%<noun%>%<masc%>%<a-stem%>:snôrling Masc-A-Stem ;
+sômpėnning%<noun%>%<masc%>%<a-stem%>:sômpėnning Masc-A-Stem ;
+soster%<noun%>%<masc%>%<a-stem%>:soster Masc-A-Stem ;
+sôth%<noun%>%<masc%>%<a-stem%>:sôth Masc-A-Stem ;
+spêgal%<noun%>%<masc%>%<a-stem%>:spêgal Masc-A-Stem ;
+spek%<noun%>%<masc%>%<a-stem%>:spek Masc-A-Stem ;
+spîk%<noun%>%<masc%>%<a-stem%>:spîk Masc-A-Stem ;
+spind%<noun%>%<masc%>%<a-stem%>:spind Masc-A-Stem ;
+spiot%<noun%>%<masc%>%<a-stem%>:spiot Masc-A-Stem ;
+spot%<noun%>%<masc%>%<a-stem%>:spot Masc-A-Stem ;
+staf%<noun%>%<masc%>%<a-stem%>:staf Masc-A-Stem ;
+stamn%<noun%>%<masc%>%<a-stem%>:stamn Masc-A-Stem ;
+stapal%<noun%>%<masc%>%<a-stem%>:stapal Masc-A-Stem ;
+stath%<noun%>%<masc%>%<a-stem%>:stath Masc-A-Stem ;
+stathal%<noun%>%<masc%>%<a-stem%>:stathal Masc-A-Stem ;
+stên%<noun%>%<masc%>%<a-stem%>:stên Masc-A-Stem ;
+stênbikkil%<noun%>%<masc%>%<a-stem%>:stênbikkil Masc-A-Stem ;
+stênbrukil%<noun%>%<masc%>%<a-stem%>:stênbrukil Masc-A-Stem ;
+stênbuk%<noun%>%<masc%>%<a-stem%>:stênbuk Masc-A-Stem ;
+stênfarn%<noun%>%<masc%>%<a-stem%>:stênfarn Masc-A-Stem ;
+stėngil%<noun%>%<masc%>%<a-stem%>:stėngil Masc-A-Stem ;
+stênweg%<noun%>%<masc%>%<a-stem%>:stênweg Masc-A-Stem ;
+stiorstaf%<noun%>%<masc%>%<a-stem%>:stiorstaf Masc-A-Stem ;
+stok%<noun%>%<masc%>%<a-stem%>:stok Masc-A-Stem ;
+stôl%<noun%>%<masc%>%<a-stem%>:stôl Masc-A-Stem ;
+stôp%<noun%>%<masc%>%<a-stem%>:stôp Masc-A-Stem ;
+storm%<noun%>%<masc%>%<a-stem%>:storm Masc-A-Stem ;
+strôm%<noun%>%<masc%>%<a-stem%>:strôm Masc-A-Stem ;
+strūt%<noun%>%<masc%>%<a-stem%>:strūt Masc-A-Stem ;
+sumar%<noun%>%<masc%>%<a-stem%>:sumar Masc-A-Stem ;
+sunnundag%<noun%>%<masc%>%<a-stem%>:sunnundag Masc-A-Stem ;
+swanur%<noun%>%<masc%>%<a-stem%>:swanur Masc-A-Stem ;
+swâsdôm%<noun%>%<masc%>%<a-stem%>:swâsdôm Masc-A-Stem ;
+swek%<noun%>%<masc%>%<a-stem%>:swek Masc-A-Stem ;
+swelg%<noun%>%<masc%>%<a-stem%>:swelg Masc-A-Stem ;
+swerdthegan%<noun%>%<masc%>%<a-stem%>:swerdthegan Masc-A-Stem ;
+swêt%<noun%>%<masc%>%<a-stem%>:swêt Masc-A-Stem ;
+sweval%<noun%>%<masc%>%<a-stem%>:sweval Masc-A-Stem ;
+swevan%<noun%>%<masc%>%<a-stem%>:swevan Masc-A-Stem ;
+swôr%<noun%>%<masc%>%<a-stem%>:swôr Masc-A-Stem ;
+tâfalstên%<noun%>%<masc%>%<a-stem%>:tâfalstên Masc-A-Stem ;
+tâm%<noun%>%<masc%>%<a-stem%>:tâm Masc-A-Stem ;
+tempal%<noun%>%<masc%>%<a-stem%>:tempal Masc-A-Stem ;
+tragal%<noun%>%<masc%>%<a-stem%>:tragal Masc-A-Stem ;
+tresa%<noun%>%<masc%>%<a-stem%>:tresa Masc-A-Stem ;
+tresūr%<noun%>%<masc%>%<a-stem%>:tresūr Masc-A-Stem ;
+trog%<noun%>%<masc%>%<a-stem%>:trog Masc-A-Stem ;
+trôst%<noun%>%<masc%>%<a-stem%>:trôst Masc-A-Stem ;
+tugil%<noun%>%<masc%>%<a-stem%>:tugil Masc-A-Stem ;
+thank%<noun%>%<masc%>%<a-stem%>:thank Masc-A-Stem ;
+thegan%<noun%>%<masc%>%<a-stem%>:thegan Masc-A-Stem ;
+thiodan%<noun%>%<masc%>%<a-stem%>:thiodan Masc-A-Stem ;
+thiodgod%<noun%>%<masc%>%<a-stem%>:thiodgod Masc-A-Stem ;
+thiodkuning%<noun%>%<masc%>%<a-stem%>:thiodkuning Masc-A-Stem ;
+thiof%<noun%>%<masc%>%<a-stem%>:thiof Masc-A-Stem ;
+thîstil%<noun%>%<masc%>%<a-stem%>:thîstil Masc-A-Stem ;
+thorn%<noun%>%<masc%>%<a-stem%>:thorn Masc-A-Stem ;
+thragil%<noun%>%<masc%>%<a-stem%>:thragil Masc-A-Stem ;
+thrėgil%<noun%>%<masc%>%<a-stem%>:thrėgil Masc-A-Stem ;
+thriusk%<noun%>%<masc%>%<a-stem%>:thriusk Masc-A-Stem ;
+thuner%<noun%>%<masc%>%<a-stem%>:thuner Masc-A-Stem ;
+thuring%<noun%>%<masc%>%<a-stem%>:thuring Masc-A-Stem ;
+thuris%<noun%>%<masc%>%<a-stem%>:thuris Masc-A-Stem ;
+thwerhstôl%<noun%>%<masc%>%<a-stem%>:thwerhstôl Masc-A-Stem ;
+ūhtfugal%<noun%>%<masc%>%<a-stem%>:ūhtfugal Masc-A-Stem ;
+umbigėngil%<noun%>%<masc%>%<a-stem%>:umbigėngil Masc-A-Stem ;
+undorn%<noun%>%<masc%>%<a-stem%>:undorn Masc-A-Stem ;
+ungar%<noun%>%<masc%>%<a-stem%>:ungar Masc-A-Stem ;
+uphimil%<noun%>%<masc%>%<a-stem%>:uphimil Masc-A-Stem ;
+upôd%<noun%>%<masc%>%<a-stem%>:upôd Masc-A-Stem ;
+upweg%<noun%>%<masc%>%<a-stem%>:upweg Masc-A-Stem ;
+urthank%<noun%>%<masc%>%<a-stem%>:urthank Masc-A-Stem ;
+wâg%<noun%>%<masc%>%<a-stem%>:wâg Masc-A-Stem ;
+wagan%<noun%>%<masc%>%<a-stem%>:wagan Masc-A-Stem ;
+wahsdôm%<noun%>%<masc%>%<a-stem%>:wahsdôm Masc-A-Stem ;
+wahsholondar%<noun%>%<masc%>%<a-stem%>:wahsholondar Masc-A-Stem ;
+wal%<noun%>%<masc%>%<a-stem%>:wal Masc-A-Stem ;
+wald%<noun%>%<masc%>%<a-stem%>:wald Masc-A-Stem ;
+waldandgod%<noun%>%<masc%>%<a-stem%>:waldandgod Masc-A-Stem ;
+walh%<noun%>%<masc%>%<a-stem%>:walh Masc-A-Stem ;
+wân%<noun%>%<masc%>%<a-stem%>:wân Masc-A-Stem ;
+wandal%<noun%>%<masc%>%<a-stem%>:wandal Masc-A-Stem ;
+wang%<noun%>%<masc%>%<a-stem%>:wang Masc-A-Stem ;
+wâpanhrôht%<noun%>%<masc%>%<a-stem%>:wâpanhrôht Masc-A-Stem ;
+waran%<noun%>%<masc%>%<a-stem%>:waran Masc-A-Stem ;
+ward%<noun%>%<masc%>%<a-stem%>:ward Masc-A-Stem ;
+warg%<noun%>%<masc%>%<a-stem%>:warg Masc-A-Stem ;
+wastôm%<noun%>%<masc%>%<a-stem%>:wastôm Masc-A-Stem ;
+weg%<noun%>%<masc%>%<a-stem%>:weg Masc-A-Stem ;
+wêg%<noun%>%<masc%>%<a-stem%>:wêg Masc-A-Stem ;
+wehsal%<noun%>%<masc%>%<a-stem%>:wehsal Masc-A-Stem ;
+wer%<noun%>%<masc%>%<a-stem%>:wer Masc-A-Stem ;
+weroldkêsur%<noun%>%<masc%>%<a-stem%>:weroldkêsur Masc-A-Stem ;
+weroldkuning%<noun%>%<masc%>%<a-stem%>:weroldkuning Masc-A-Stem ;
+weroldskat%<noun%>%<masc%>%<a-stem%>:weroldskat Masc-A-Stem ;
+weroldstôl%<noun%>%<masc%>%<a-stem%>:weroldstôl Masc-A-Stem ;
+werp%<noun%>%<masc%>%<a-stem%>:werp Masc-A-Stem ;
+wethar%<noun%>%<masc%>%<a-stem%>:wethar Masc-A-Stem ;
+wėthil%<noun%>%<masc%>%<a-stem%>:wėthil Masc-A-Stem ;
+widomânuth%<noun%>%<masc%>%<a-stem%>:widomânuth Masc-A-Stem ;
+wîg%<noun%>%<masc%>%<a-stem%>:wîg Masc-A-Stem ;
+wîh%<noun%>%<masc%>%<a-stem%>:wîh Masc-A-Stem ;
+wîhdag%<noun%>%<masc%>%<a-stem%>:wîhdag Masc-A-Stem ;
+wîhrôkbôm%<noun%>%<masc%>%<a-stem%>:wîhrôkbôm Masc-A-Stem ;
+wiht%<noun%>%<masc%>%<a-stem%>:wiht Masc-A-Stem ;
+wîn%<noun%>%<masc%>%<a-stem%>:wîn Masc-A-Stem ;
+wind%<noun%>%<masc%>%<a-stem%>:wind Masc-A-Stem ;
+winding%<noun%>%<masc%>%<a-stem%>:winding Masc-A-Stem ;
+wîngod%<noun%>%<masc%>%<a-stem%>:wîngod Masc-A-Stem ;
+winkil%<noun%>%<masc%>%<a-stem%>:winkil Masc-A-Stem ;
+winnemânuth%<noun%>%<masc%>%<a-stem%>:winnemânuth Masc-A-Stem ;
+winoth%<noun%>%<masc%>%<a-stem%>:winoth Masc-A-Stem ;
+wînskat%<noun%>%<masc%>%<a-stem%>:wînskat Masc-A-Stem ;
+wintarmânuth%<noun%>%<masc%>%<a-stem%>:wintarmânuth Masc-A-Stem ;
+winthumemânuth%<noun%>%<masc%>%<a-stem%>:winthumemânuth Masc-A-Stem ;
+wippil%<noun%>%<masc%>%<a-stem%>:wippil Masc-A-Stem ;
+wîsdôm%<noun%>%<masc%>%<a-stem%>:wîsdôm Masc-A-Stem ;
+wîskuning%<noun%>%<masc%>%<a-stem%>:wîskuning Masc-A-Stem ;
+witôd%<noun%>%<masc%>%<a-stem%>:witôd Masc-A-Stem ;
+wivil%<noun%>%<masc%>%<a-stem%>:wivil Masc-A-Stem ;
+wôp%<noun%>%<masc%>%<a-stem%>:wôp Masc-A-Stem ;
+wrâksîth%<noun%>%<masc%>%<a-stem%>:wrâksîth Masc-A-Stem ;
+wrôht%<noun%>%<masc%>%<a-stem%>:wrôht Masc-A-Stem ;
+wulf%<noun%>%<masc%>%<a-stem%>:wulf Masc-A-Stem ;
+wurgil%<noun%>%<masc%>%<a-stem%>:wurgil Masc-A-Stem ;
+wurpil%<noun%>%<masc%>%<a-stem%>:wurpil Masc-A-Stem ;
+wurthpėnning%<noun%>%<masc%>%<a-stem%>:wurthpėnning Masc-A-Stem ;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 LEXICON StrongVerbs
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

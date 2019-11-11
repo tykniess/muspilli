@@ -4,6 +4,7 @@ Alphabet
 	¹:0 ²:0 ³:0 ⁴:0		!four contexts for Ablaut
 	₄:0 ₅:0 ₇:0 		!three exceptional strong verb classes
 	%{I%}:i %{I%}:0		!j-infix
+	%{E%}:e %{E%}:a		!e/a alternations in dative and genitive
 	;
 
 Sets

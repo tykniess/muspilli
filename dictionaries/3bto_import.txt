@@ -1,0 +1,54 @@
+werthan%<v%>%<str%>%<class3b%>:werth STR3    ;	! nhd. werden
+geldan%<v%>%<str%>%<class3b%>:geld STR3    ;	! nhd. zahlen, lohnen, vergelten
+giwerthan%<v%>%<str%>%<class3b%>:giwerth STR3    ;	! nhd. werden, geschehen, zu Teil werden, gut dünken
+hwervan%<v%>%<str%>%<class3b%>:hwerv STR3    ;	! nhd. „werben“, sich wenden, gehen
+bifelhan%<v%>%<str%>%<class3b%>:bifelh STR3    ;	! nhd. anempfehlen, übergeben (V.), begraben (V.), überlassen (V.), hingeben, anvertrauen, befehlen
+gifregnan%<v%>%<str%>%<class3b%>:gifregn STR3    ;	! nhd. erfahren (V.)
+helpan%<v%>%<str%>%<class3b%>:help STR3    ;	! nhd. helfen
+werpan%<v%>%<str%>%<class3b%>:werp STR3    ;	! nhd. werfen
+sweltan%<v%>%<str%>%<class3b%>:swelt STR3    ;	! nhd. sterben
+belgan%<v%>%<str%>%<class3b%>:belg STR3    ;	! nhd. zürnen
+andgeldan%<v%>%<str%>%<class3b%>:andgeld STR3    ;	! nhd. entgelten
+biwerpan%<v%>%<str%>%<class3b%>:biwerp STR3    ;	! nhd. „bewerfen“, werfen, ausstrecken, umringen, sich umgeben
+fargeldan%<v%>%<str%>%<class3b%>:fargeld STR3    ;	! nhd. „vergelten“, zahlen, lohnen, erkaufen
+giswerkan%<v%>%<str%>%<class3b%>:giswerk STR3    ;	! nhd. sich verfinstern
+tewerpan%<v%>%<str%>%<class3b%>:tewerp STR3    ;	! nhd. „zerwerfen“, zerstreuen, zerstören
+bidėlvan%<v%>%<str%>%<class3b%>:bidėlv STR3    ;	! nhd. begraben (V.)
+gihelpan%<v%>%<str%>%<class3b%>:gihelp STR3    ;	! nhd. helfen
+brestan%<v%>%<str%>%<class3b%>:brest STR3    ;	! nhd. bersten, krachen, gebrechen (V.)
+stervan%<v%>%<str%>%<class3b%>:sterv STR3    ;	! nhd. sterben
+fregnan%<v%>%<str%>%<class3b%>:fregn STR3    ;	! nhd. fragen
+giwerran%<v%>%<str%>%<class3b%>:giwerr STR3    ;	! nhd. in Verwirrung bringen, in Not bringen
+spurnan%<v%>%<str%>%<class3b%>:spurn STR3    ;	! nhd. treten, zertreten (V.), ausschlagen
+werran%<v%>%<str%>%<class3b%>:werr STR3    ;	! nhd. in Verwirrung bringen, in Not bringen, verwirren
+ābelgan%<v%>%<str%>%<class3b%>:ābelg STR3    ;	! nhd. zürnen
+āwerpan%<v%>%<str%>%<class3b%>:āwerp STR3    ;	! nhd. steinigen, totwerfen
+biwellan%<v%>%<str%>%<class3b%>:biwell STR3    ;	! nhd. beflecken, färben
+farwerpan%<v%>%<str%>%<class3b%>:farwerp STR3    ;	! nhd. wegwerfen, verstoßen
+flehtan%<v%>%<str%>%<class3b%>:fleht STR3    ;	! nhd. flechten
+nitharwerpan%<v%>%<str%>%<class3b%>:nitharwerp STR3    ;	! nhd. niederwerfen
+umbihwervan%<v%>%<str%>%<class3b%>:umbihwerv STR3    ;	! nhd. „umwerben“, umringen
+undarwerpan%<v%>%<str%>%<class3b%>:undarwerp STR3    ;	! nhd. unterwerfen
+witharwerpan%<v%>%<str%>%<class3b%>:witharwerp STR3    ;	! nhd. „widerwerfen“, verwerfen, verschmähen
+āgeldan%<v%>%<str%>%<class3b%>:āgeld STR3    ;	! nhd. büßen
+anawerpan%<v%>%<str%>%<class3b%>:anawerp STR3    ;	! nhd. werfen auf
+andgėginwerpan%<v%>%<str%>%<class3b%>:andgėginwerp STR3    ;	! nhd. entgegenwerfen, dagegenhalten
+andwerpan%<v%>%<str%>%<class3b%>:andwerp STR3    ;	! nhd. sich bewegen
+āstervan%<v%>%<str%>%<class3b%>:āsterv STR3    ;	! nhd. „ersterben“, sterben
+āwerthan%<v%>%<str%>%<class3b%>:āwerth STR3    ;	! nhd. verderben, abfallen, zu Grunde gehen
+bihwervan%<v%>%<str%>%<class3b%>:bihwerv STR3    ;	! nhd. begehen
+bispurnan%<v%>%<str%>%<class3b%>:bispurn STR3    ;	! nhd. anstoßen
+bregdan%<v%>%<str%>%<class3b%>:bregd STR3    ;	! nhd. knüpfen, flechten
+farbrestan%<v%>%<str%>%<class3b%>:farbrest STR3    ;	! nhd. zerbrechen, übertreten (V.)
+farwerthan%<v%>%<str%>%<class3b%>:farwerth STR3    ;	! nhd. umkommen, verderben
+gibergan%<v%>%<str%>%<class3b%>:giberg STR3    ;	! nhd. bergen, bewahren
+gihwėrvan%<v%>%<str%>%<class3b%>:gihwėrv STR3    ;	! nhd. gehen
+hellan%<v%>%<str%>%<class3b%>:hell STR3    ;	! nhd. hallen, tönen
+ofskerran%<v%>%<str%>%<class3b%>:ofskerr STR3    ;	! nhd. „abscharren“, abkratzen
+smeltan%<v%>%<str%>%<class3b%>:smelt STR3    ;	! nhd. schmelzen
+swellan%<v%>%<str%>%<class3b%>:swell STR3    ;	! nhd. schwellen, aufgedunsen sein (V.)
+swerkan%<v%>%<str%>%<class3b%>:swerk STR3    ;	! nhd. „schwarz werden“, finster werden, traurig werden
+swervan%<v%>%<str%>%<class3b%>:swerv STR3    ;	! nhd. abwischen
+tebrestan%<v%>%<str%>%<class3b%>:tebrest STR3    ;	! nhd. „zerbersten“, zerreißen
+tesamnaflehtan%<v%>%<str%>%<class3b%>:tesamnafleht STR3    ;	! nhd. zusammenflechten
+undgeldan%<v%>%<str%>%<class3b%>:undgeld STR3    ;	! nhd. entgelten, büßen
