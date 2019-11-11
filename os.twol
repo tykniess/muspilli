@@ -5,6 +5,8 @@ Alphabet
 	₄:0 ₅:0 ₇:0 		!three exceptional strong verb classes
 	%{I%}:i %{I%}:0		!j-infix
 	%{E%}:e %{E%}:a		!e/a alternations in dative and genitive
+	%{O%}:o %{O%}:a		!o/a alternations in nominative/accusative plural
+	%{M%}:m %{M%}:n		!m/n alternation in dative plural
 	;
 
 Sets
