@@ -22,10 +22,12 @@ for token in heliand_words:
     if token.lower() in muspilli_words:
         covered_words.append(token)
 
+coverage = str(round((len(covered_words)/len(heliand_words)*100),3))
+
 print("\nThere are "+str(len(heliand_words))+" unique tokens in the Hêliand.")
 print("Project Muspilli currently contains "+str(len(muspilli_words))+" synthetically-generated forms.")
 print("Of the "+str(len(heliand_words))+" unique tokens in the Hêliand, Project Muspilli contains " +\
-      str(len(covered_words)) + " forms, or "+str(100*len(covered_words)/len(heliand_words))+"%. Wow!\n") 
+      str(len(covered_words)) + " forms, or "+str(coverage)+"%. Wow!\n") 
 
 with open('README.md', 'w') as README:
 	README.write("")
@@ -35,4 +37,6 @@ with open('README.md', 'a') as README:
 """)
 
 with open('README.md', 'a') as README:
-	README.write("There are "+str(len(heliand_words))+" unique tokens in the Hêliand.\nProject Muspilli currently contains "+str(len(muspilli_words))+" synthetically-generated forms.\nOf the "+str(len(heliand_words))+" unique tokens in the Hêliand, Project Muspilli contains " + str(len(covered_words)) + " forms, or "+str(100*len(covered_words)/len(heliand_words))+"%. Wow!\n")
+    README.write("There are "+str(len(heliand_words))+" unique tokens in the Hêliand.\nProject Muspilli currently contains "+str(len(muspilli_words))+" synthetically-generated forms.\n'")
+    README.write("Of the "+str(len(heliand_words))+" unique tokens in the Hêliand, Project Muspilli contains " + str(len(covered_words)) + " forms, or ")
+    README.write(str(coverage)+"%. Wow!\n")
