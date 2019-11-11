@@ -411,20 +411,20 @@ witharkuman%<v%>%<str%>%<class4%>:witharkum STR4    ;	! nhd. „wiederkommen“,
 kwethan%<v%>%<str%>%<class5%>:kweth STR5    ;	! nhd. sagen, sprechen
 gisehan%<v%>%<str%>%<class5%>:giseh STR5    ;	! nhd. sehen, ansehen
 gevan%<v%>%<str%>%<class5%>:gev STR5    ;	! nhd. geben
-sittian%<v%>%<str%>%<class5%>:sitti STR5    ;	! nhd. sitzen, sich setzen, wohnen, verharren
-biddian%<v%>%<str%>%<class5%>:biddi STR5    ;	! nhd. bitten, erbitten
+sittian%<v%>%<str%>%<class5%>:sitt%{I%} STR5    ;	! nhd. sitzen, sich setzen, wohnen, verharren
+biddian%<v%>%<str%>%<class5%>:bidd%{I%} STR5    ;	! nhd. bitten, erbitten
 fargevan%<v%>%<str%>%<class5%>:fargev STR5    ;	! nhd. schenken, geben, vergeben (V.), verheißen
 sehan%<v%>%<str%>%<class5%>:seh STR5    ;	! nhd. sehen
-liggian%<v%>%<str%>%<class5%>:ligg STR5    ;	! nhd. liegen
+liggian%<v%>%<str%>%<class5%>:ligg%{I%} STR5    ;	! nhd. liegen
 gehan%<v%>%<str%>%<class5%>:geh STR5    ;	! nhd. bekennen, erklären, aussprechen
 âgevan%<v%>%<str%>%<class5%>:âgev STR5    ;	! nhd. übergeben (V.), hingeben, verlassen (V.)
 lesan%<v%>%<str%>%<class5%>:les STR5    ;	! nhd. lesen (V.) (2), auflesen
-gisittian%<v%>%<str%>%<class5%>:gisitti STR5    ;	! nhd. setzen, bewohnen
+gisittian%<v%>%<str%>%<class5%>:gisitt%{I%} STR5    ;	! nhd. setzen, bewohnen
 afgevan%<v%>%<str%>%<class5%>:afgev STR5    ;	! nhd. verlassen (V.), aufgeben
 bisehan%<v%>%<str%>%<class5%>:biseh STR5    ;	! nhd. sehen, besorgen
 farsehan%<v%>%<str%>%<class5%>:farseh STR5    ;	! nhd. sehen
-âbiddian%<v%>%<str%>%<class5%>:âbiddi STR5    ;	! nhd. erbitten, sich ausbitten, losbitten
-bisittian%<v%>%<str%>%<class5%>:bisitti STR5    ;	! nhd. belagern, umlagern, umstellen
+âbiddian%<v%>%<str%>%<class5%>:âbidd%{I%} STR5    ;	! nhd. erbitten, sich ausbitten, losbitten
+bisittian%<v%>%<str%>%<class5%>:bisitt%{I%} STR5    ;	! nhd. belagern, umlagern, umstellen
 fretan%<v%>%<str%>%<class5%>:fret STR5    ;	! nhd. fressen
 gikwethan%<v%>%<str%>%<class5%>:gikweth STR5    ;	! nhd. sagen, verkünden
 tesamnalesan%<v%>%<str%>%<class5%>:tesamnales STR5    ;	! nhd. zusammenlesen, sammeln
@@ -433,13 +433,13 @@ tregan%<v%>%<str%>%<class5%>:treg STR5    ;	! nhd. leid sein (V.)
 bigehan%<v%>%<str%>%<class5%>:bigeh STR5    ;	! nhd. sich vermessen (V.), beichten, verkünden
 etan%<v%>%<str%>%<class5%>:et STR5    ;	! nhd. essen
 fargetan%<v%>%<str%>%<class5%>:farget STR5    ;	! nhd. vergessen (V.)
-gibiddian%<v%>%<str%>%<class5%>:gibidd STR5    ;	! nhd. erbitten, losbitten
-giliggian%<v%>%<str%>%<class5%>:giligg STR5    ;	! nhd. liegen, sich legen
+gibiddian%<v%>%<str%>%<class5%>:gibidd%{I%} STR5    ;	! nhd. erbitten, losbitten
+giliggian%<v%>%<str%>%<class5%>:giligg%{I%} STR5    ;	! nhd. liegen, sich legen
 ginesan%<v%>%<str%>%<class5%>:gines STR5    ;	! nhd. genesen, gerettet werden
 knedan%<v%>%<str%>%<class5%>:kned STR5    ;	! nhd. kneten
 ūtgedan%<v%>%<str%>%<class5%>:ūtged STR5    ;	! nhd. ausjäten
 andkwethan%<v%>%<str%>%<class5%>:andkweth STR5    ;	! nhd. widersprechen
-âsittian%<v%>%<str%>%<class5%>:âsitt STR5    ;	! nhd. sich aufsetzen, sich aufrichten
+âsittian%<v%>%<str%>%<class5%>:âsitt%{I%} STR5    ;	! nhd. sich aufsetzen, sich aufrichten
 bigetan%<v%>%<str%>%<class5%>:biget STR5    ;	! nhd. finden, ergreifen
 biklenan%<v%>%<str%>%<class5%>:biklen STR5    ;	! nhd. bestreichen
 forthsehan%<v%>%<str%>%<class5%>:forthseh STR5    ;	! nhd. sehen
@@ -447,13 +447,13 @@ gedan%<v%>%<str%>%<class5%>:ged STR5    ;	! nhd. jäten
 gilesan%<v%>%<str%>%<class5%>:giles STR5    ;	! nhd. zusammenlesen
 giwegan%<v%>%<str%>%<class5%>:giweg STR5    ;	! nhd. wägen, erwägen
 metan%<v%>%<str%>%<class5%>:met STR5    ;	! nhd. halten für
-ofsittian%<v%>%<str%>%<class5%>:ofsitt STR5    ;	! nhd. Besitz ergreifen, besitzen
+ofsittian%<v%>%<str%>%<class5%>:ofsitt%{I%} STR5    ;	! nhd. Besitz ergreifen, besitzen
 ovarsehan%<v%>%<str%>%<class5%>:ovarseh STR5    ;	! nhd. „übersehen“, überschauen
 stelan%<v%>%<str%>%<class5%>:stel STR5    ;	! nhd. stehlen
 umbibigevan%<v%>%<str%>%<class5%>:umbibigev STR5    ;	! nhd. umgeben
 undarwesan%<v%>%<str%>%<class5%>:undarwes STR5    ;	! nhd. dazwischen sein (V.)
 upsehan%<v%>%<str%>%<class5%>:upseh STR5    ;	! nhd. „aufsehen“, hinaufsehen
-upsittian%<v%>%<str%>%<class5%>:upsitt STR5    ;	! nhd. „aufsitzen“, sich aufsetzen
+upsittian%<v%>%<str%>%<class5%>:upsitt%{I%} STR5    ;	! nhd. „aufsitzen“, sich aufsetzen
 upwegan%<v%>%<str%>%<class5%>:upweg STR5    ;	! nhd. aufwiegen
 wegan%<v%>%<str%>%<class5%>:weg STR5    ;	! nhd. wägen, erwägen
 wevan%<v%>%<str%>%<class5%>:wev STR5    ;	! nhd. weben
@@ -475,9 +475,9 @@ gistandan%<v%>%<str%>%<class6%>:gistand STR6    ;	! nhd. stehen, stehen bleiben,
 wahsan%<v%>%<str%>%<class6%>:wahs STR6    ;	! nhd. wachsen (V.) (1)
 slahan%<v%>%<str%>%<class6%>:slah STR6    ;	! nhd. schlagen, töten
 afhėbbian%<v%>%<str%>%<class6%>:afhėbb%{I%} STR6    ;	! nhd. sich erheben, aufheben, beginnen, wegheben, anheben
-!giskėppian%<v%>%<str%>%<class6%>:giskėppi STR6    ;	! nhd. schaffen, bestimmen
-!swėrian%<v%>%<str%>%<class6%>:swėri STR6    ;	! nhd. schwören
-!âhėbbian%<v%>%<str%>%<class6%>:âhėbbi STR6    ;	! nhd. erheben, anheben, erhöhen, beginnen
+!giskėppian%<v%>%<str%>%<class6%>:giskėpp%{I%} STR6    ;	! nhd. schaffen, bestimmen
+!swėrian%<v%>%<str%>%<class6%>:swėr%{I%} STR6    ;	! nhd. schwören
+!âhėbbian%<v%>%<str%>%<class6%>:âhėbb%{I%} STR6    ;	! nhd. erheben, anheben, erhöhen, beginnen
 farsakan%<v%>%<str%>%<class6%>:farsak STR6    ;	! nhd. zurückweisen, entsagen, verleugnen, sich lossagen
 lahan%<v%>%<str%>%<class6%>:lah STR6    ;	! nhd. tadeln, verbieten
 spanan%<v%>%<str%>%<class6%>:span STR6    ;	! nhd. antreiben, locken (V.) (2)
@@ -491,7 +491,7 @@ thwahan%<v%>%<str%>%<class6%>:thwah STR6    ;	! nhd. waschen
 bigravan%<v%>%<str%>%<class6%>:bigrav STR6    ;	! nhd. begraben (V.), bestatten
 farspanan%<v%>%<str%>%<class6%>:farspan STR6    ;	! nhd. verlocken
 gislahan%<v%>%<str%>%<class6%>:gislah STR6    ;	! nhd. erschlagen (V.)
-!stėppian%<v%>%<str%>%<class6%>:stėppi STR6    ;	! nhd. schreiten
+!stėppian%<v%>%<str%>%<class6%>:stėpp%{I%} STR6    ;	! nhd. schreiten
 afstandan%<v%>%<str%>%<class6%>:afstand STR6    ;	! nhd. stehen bleiben, zurückbleiben
 andstandan%<v%>%<str%>%<class6%>:andstand STR6    ;	! nhd. aushalten, ertragen (V.)
 farfaran%<v%>%<str%>%<class6%>:farfar STR6    ;	! nhd. durchfahren
@@ -500,24 +500,24 @@ knagan%<v%>%<str%>%<class6%>:knag STR6    ;	! nhd. nagen
 skavan%<v%>%<str%>%<class6%>:skav STR6    ;	! nhd. schaben, kratzen
 ūtslahan%<v%>%<str%>%<class6%>:ūtslah STR6    ;	! nhd. ausschlagen
 witharstandan%<v%>%<str%>%<class6%>:witharstand STR6    ;	! nhd. „widerstehen“, entgegentreten
-!afstėppian%<v%>%<str%>%<class6%>:afstėppi STR6    ;	! nhd. schreiten, betreten (V.)
+!afstėppian%<v%>%<str%>%<class6%>:afstėpp%{I%} STR6    ;	! nhd. schreiten, betreten (V.)
 andsakan%<v%>%<str%>%<class6%>:andsak STR6    ;	! nhd. leugnen, in Abrede stellen, sich verwahren
 anstandan%<v%>%<str%>%<class6%>:anstand STR6    ;	! nhd. aufstehen, auferstehen, anstehen, eintreten
 bakkan%<v%>%<str%>%<class6%>:bakk STR6    ;	! nhd. backen
-!bihlahhian%<v%>%<str%>%<class6%>:bihlahhi STR6    ;	! nhd. verspotten, verlachen
-!bisėbbian%<v%>%<str%>%<class6%>:bisėbbi STR6    ;	! nhd. wahrnehmen, bemerken
+!bihlahhian%<v%>%<str%>%<class6%>:bihlahh%{I%} STR6    ;	! nhd. verspotten, verlachen
+!bisėbbian%<v%>%<str%>%<class6%>:bisėbb%{I%} STR6    ;	! nhd. wahrnehmen, bemerken
 fardragan%<v%>%<str%>%<class6%>:fardrag STR6    ;	! nhd. dulden
 forthfaran%<v%>%<str%>%<class6%>:forthfar STR6    ;	! nhd. „fortfahren“, vorwärtsschreiten, vortreten
 gifaran%<v%>%<str%>%<class6%>:gifar STR6    ;	! nhd. einziehen, gehen
-!giswėrian%<v%>%<str%>%<class6%>:giswėri STR6    ;	! nhd. schwören
+!giswėrian%<v%>%<str%>%<class6%>:giswėr%{I%} STR6    ;	! nhd. schwören
 gravan%<v%>%<str%>%<class6%>:grav STR6    ;	! nhd. graben
-!hlahhian%<v%>%<str%>%<class6%>:hlahhi STR6    ;	! nhd. lachen
+!hlahhian%<v%>%<str%>%<class6%>:hlahh%{I%} STR6    ;	! nhd. lachen
 nitharfaran%<v%>%<str%>%<class6%>:nitharfar STR6    ;	! nhd. niederfahren
 sakan%<v%>%<str%>%<class6%>:sak STR6    ;	! nhd. streiten, schelten
 skakan%<v%>%<str%>%<class6%>:skak STR6    ;	! nhd. weggehen
 teslahan%<v%>%<str%>%<class6%>:teslah STR6    ;	! nhd. zerschlagen (V.), zerstören
 undarfaran%<v%>%<str%>%<class6%>:undarfar STR6    ;	! nhd. „unterfahren“, darunterfahren, einschleichen
-!uphėbbian%<v%>%<str%>%<class6%>:uphėbbi STR6    ;	! nhd. erheben
+!uphėbbian%<v%>%<str%>%<class6%>:uphėbb%{I%} STR6    ;	! nhd. erheben
 waskan%<v%>%<str%>%<class6%>:wask STR6    ;	! nhd. waschen
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -577,7 +577,7 @@ bigangan%<v%>%<str%>%<class7%>:bigang STR7    ;	! nhd. behüten, begehen, sorgen
 bihauwan%<v%>%<str%>%<class7%>:bihauw STR7    ;	! nhd. abhauen
 bihêtan%<v%>%<str%>%<class7%>:bihêt STR7    ;	! nhd. verheißen, versprechen
 biwaldan%<v%>%<str%>%<class7%>:biwald STR7    ;	! nhd. beherrschen
-biwôpian%<v%>%<str%>%<class7%>:biwôpi STR7    ;	! nhd. beklagen, bejammern
+biwôpian%<v%>%<str%>%<class7%>:biwôp%{I%} STR7    ;	! nhd. beklagen, bejammern
 brâdan%<v%>%<str%>%<class7%>:brâd STR7    ;	! nhd. braten
 ênfarlâtan%<v%>%<str%>%<class7%>:ênfarlât STR7    ;	! nhd. allein lassen
 farflôkan%<v%>%<str%>%<class7%>:farflôk STR7    ;	! nhd. verfluchen

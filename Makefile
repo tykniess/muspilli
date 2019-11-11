@@ -1,4 +1,6 @@
 all:
+	cat os.lexc > os-copy.lexc
+	cat os-copy.lexc | gsed s/'ī'/'î'/g |gsed s/'ē'/'ê'/g | gsed s/'ō'/'ô'/g | gsed s/'ā'/'â'/g > os.lexc
 	hfst-lexc os.lexc -o os.lexc.hfst
 	hfst-twolc  os.twol -o os.twol.hfst
 	hfst-compose-intersect -1 os.lexc.hfst -2 os.twol.hfst -o os.gen.hfst
