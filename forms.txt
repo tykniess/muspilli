@@ -1,17 +1,17 @@
-adêli    	adêlian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-adêliad    	adêlian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-adêlian    	adêlian   <v>      <wk>      <class1>      <wk>      <inf>   
-adêliađ    	adêlian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-adêliađ    	adêlian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-adêliađ    	adêlian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-adêlid    	adêlian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-adêlida    	adêlian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-adêlida    	adêlian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-adêlidun    	adêlian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-adêlidun    	adêlian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-adêlidun    	adêlian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-adêlis    	adêlian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-adêliu    	adêlian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+adêli    	adêlian   <v>      <wk>      <class1>      <impv>      <sg>   
+adêliad    	adêlian   <v>      <wk>      <class1>      <impv>      <pl>   
+adêlian    	adêlian   <v>      <wk>      <class1>      <inf>   
+adêliađ    	adêlian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+adêliađ    	adêlian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+adêliađ    	adêlian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+adêlid    	adêlian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+adêlida    	adêlian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+adêlida    	adêlian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+adêlidun    	adêlian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+adêlidun    	adêlian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+adêlidun    	adêlian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+adêlis    	adêlian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+adêliu    	adêlian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 afbrokan    	afbrekan   <v>      <str>      <class4>      <pastpart>   
 afbrâki    	afbrekan   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <sg>   
 afbrâki    	afbrekan   <v>      <str>      <class4>      <pret>      <opt>      <1st>      <sg>   
@@ -379,20 +379,20 @@ andkwâthis    	andkwethan   <v>      <str>      <class5>      <pret>      <opt>
 andkwâthun    	andkwethan   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <pl>   
 andkwâthun    	andkwethan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <pl>   
 andkwâthun    	andkwethan   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <pl>   
-andkėnni    	andkėnnian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-andkėnniad    	andkėnnian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-andkėnnian    	andkėnnian   <v>      <wk>      <class1>      <wk>      <inf>   
-andkėnniađ    	andkėnnian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-andkėnniađ    	andkėnnian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-andkėnniađ    	andkėnnian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-andkėnnid    	andkėnnian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-andkėnnida    	andkėnnian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-andkėnnida    	andkėnnian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-andkėnnidun    	andkėnnian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-andkėnnidun    	andkėnnian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-andkėnnidun    	andkėnnian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-andkėnnis    	andkėnnian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-andkėnniu    	andkėnnian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+andkėnni    	andkėnnian   <v>      <wk>      <class1>      <impv>      <sg>   
+andkėnniad    	andkėnnian   <v>      <wk>      <class1>      <impv>      <pl>   
+andkėnnian    	andkėnnian   <v>      <wk>      <class1>      <inf>   
+andkėnniađ    	andkėnnian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+andkėnniađ    	andkėnnian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+andkėnniađ    	andkėnnian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+andkėnnid    	andkėnnian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+andkėnnida    	andkėnnian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+andkėnnida    	andkėnnian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+andkėnnidun    	andkėnnian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+andkėnnidun    	andkėnnian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+andkėnnidun    	andkėnnian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+andkėnnis    	andkėnnian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+andkėnniu    	andkėnnian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 andrâd    	andrâdan   <v>      <str>      <class7>      <impv>      <sg>   
 andrâdan    	andrâdan   <v>      <str>      <class7>      <inf>   
 andrâdan    	andrâdan   <v>      <str>      <class7>      <pastpart>   
@@ -1399,20 +1399,20 @@ brôku    	brôkan   <v>      <str>      <class3a>      <pres>      <indic>     
 brôkun    	brôkan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <pl>   
 brôkun    	brôkan   <v>      <str>      <class3a>      <pret>      <indic>      <2nd>      <pl>   
 brôkun    	brôkan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <pl>   
-brėngi    	brėngian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-brėngiad    	brėngian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-brėngian    	brėngian   <v>      <wk>      <class1>      <wk>      <inf>   
-brėngiađ    	brėngian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-brėngiađ    	brėngian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-brėngiađ    	brėngian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-brėngid    	brėngian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-brėngida    	brėngian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-brėngida    	brėngian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-brėngidun    	brėngian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-brėngidun    	brėngian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-brėngidun    	brėngian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-brėngis    	brėngian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-brėngiu    	brėngian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+brėngi    	brėngian   <v>      <wk>      <class1>      <impv>      <sg>   
+brėngiad    	brėngian   <v>      <wk>      <class1>      <impv>      <pl>   
+brėngian    	brėngian   <v>      <wk>      <class1>      <inf>   
+brėngiađ    	brėngian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+brėngiađ    	brėngian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+brėngiađ    	brėngian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+brėngid    	brėngian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+brėngida    	brėngian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+brėngida    	brėngian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+brėngidun    	brėngian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+brėngidun    	brėngian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+brėngidun    	brėngian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+brėngis    	brėngian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+brėngiu    	brėngian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 budi    	biodan   <v>      <str>      <class2>      <pret>      <indic>      <2nd>      <sg>   
 budi    	biodan   <v>      <str>      <class2>      <pret>      <opt>      <1st>      <sg>   
 budi    	biodan   <v>      <str>      <class2>      <pret>      <opt>      <3rd>      <sg>   
@@ -2148,6 +2148,20 @@ fretan    	fretan   <v>      <str>      <class5>      <pastpart>
 frignis    	fregnan   <v>      <str>      <class3b>      <pres>      <indic>      <2nd>      <sg>   
 frigniđ    	fregnan   <v>      <str>      <class3b>      <pres>      <indic>      <3rd>      <sg>   
 frignu    	fregnan   <v>      <str>      <class3b>      <pres>      <indic>      <1st>      <sg>   
+frimmi    	fremmian   <v>      <wk>      <class1>      <impv>      <sg>   
+frimmiad    	fremmian   <v>      <wk>      <class1>      <impv>      <pl>   
+frimmian    	fremmian   <v>      <wk>      <class1>      <inf>   
+frimmiađ    	fremmian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+frimmiađ    	fremmian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+frimmiađ    	fremmian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+frimmid    	fremmian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+frimmida    	fremmian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+frimmida    	fremmian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+frimmidun    	fremmian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+frimmidun    	fremmian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+frimmidun    	fremmian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+frimmis    	fremmian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+frimmiu    	fremmian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 frognan    	fregnan   <v>      <str>      <class3b>      <pastpart>   
 frugni    	fregnan   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <sg>   
 frugni    	fregnan   <v>      <str>      <class3b>      <pret>      <opt>      <1st>      <sg>   
@@ -2564,20 +2578,20 @@ gihêtađ    	gihêtan   <v>      <str>      <class7>      <pres>      <indic>  
 gihêtis    	gihêtan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <sg>   
 gihêtiđ    	gihêtan   <v>      <str>      <class7>      <pres>      <indic>      <3rd>      <sg>   
 gihêtu    	gihêtan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <sg>   
-gihôri    	gihôrian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-gihôriad    	gihôrian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-gihôrian    	gihôrian   <v>      <wk>      <class1>      <wk>      <inf>   
-gihôriađ    	gihôrian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-gihôriađ    	gihôrian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-gihôriađ    	gihôrian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-gihôrid    	gihôrian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-gihôrida    	gihôrian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-gihôrida    	gihôrian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-gihôridun    	gihôrian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-gihôridun    	gihôrian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-gihôridun    	gihôrian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-gihôris    	gihôrian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-gihôriu    	gihôrian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+gihôri    	gihôrian   <v>      <wk>      <class1>      <impv>      <sg>   
+gihôriad    	gihôrian   <v>      <wk>      <class1>      <impv>      <pl>   
+gihôrian    	gihôrian   <v>      <wk>      <class1>      <inf>   
+gihôriađ    	gihôrian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+gihôriađ    	gihôrian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+gihôriađ    	gihôrian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+gihôrid    	gihôrian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+gihôrida    	gihôrian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+gihôrida    	gihôrian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+gihôridun    	gihôrian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+gihôridun    	gihôrian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+gihôridun    	gihôrian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+gihôris    	gihôrian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+gihôriu    	gihôrian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 gikwethan    	gikwethan   <v>      <str>      <class5>      <pastpart>   
 gikwâthi    	gikwethan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <sg>   
 gikwâthi    	gikwethan   <v>      <str>      <class5>      <pret>      <opt>      <1st>      <sg>   
@@ -2625,34 +2639,34 @@ gilâsis    	gilesan   <v>      <str>      <class5>      <pret>      <opt>      
 gilâsun    	gilesan   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <pl>   
 gilâsun    	gilesan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <pl>   
 gilâsun    	gilesan   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <pl>   
-gilêsti    	gilêstian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-gilêstiad    	gilêstian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-gilêstian    	gilêstian   <v>      <wk>      <class1>      <wk>      <inf>   
-gilêstiađ    	gilêstian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-gilêstiađ    	gilêstian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-gilêstiađ    	gilêstian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-gilêstid    	gilêstian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-gilêstida    	gilêstian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-gilêstida    	gilêstian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-gilêstidun    	gilêstian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-gilêstidun    	gilêstian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-gilêstidun    	gilêstian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-gilêstis    	gilêstian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-gilêstiu    	gilêstian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
-gilôvi    	gilôvian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-gilôviad    	gilôvian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-gilôvian    	gilôvian   <v>      <wk>      <class1>      <wk>      <inf>   
-gilôviađ    	gilôvian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-gilôviađ    	gilôvian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-gilôviađ    	gilôvian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-gilôvid    	gilôvian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-gilôvida    	gilôvian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-gilôvida    	gilôvian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-gilôvidun    	gilôvian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-gilôvidun    	gilôvian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-gilôvidun    	gilôvian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-gilôvis    	gilôvian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-gilôviu    	gilôvian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+gilêsti    	gilêstian   <v>      <wk>      <class1>      <impv>      <sg>   
+gilêstiad    	gilêstian   <v>      <wk>      <class1>      <impv>      <pl>   
+gilêstian    	gilêstian   <v>      <wk>      <class1>      <inf>   
+gilêstiađ    	gilêstian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+gilêstiađ    	gilêstian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+gilêstiađ    	gilêstian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+gilêstid    	gilêstian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+gilêstida    	gilêstian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+gilêstida    	gilêstian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+gilêstidun    	gilêstian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+gilêstidun    	gilêstian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+gilêstidun    	gilêstian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+gilêstis    	gilêstian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+gilêstiu    	gilêstian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
+gilôvi    	gilôvian   <v>      <wk>      <class1>      <impv>      <sg>   
+gilôviad    	gilôvian   <v>      <wk>      <class1>      <impv>      <pl>   
+gilôvian    	gilôvian   <v>      <wk>      <class1>      <inf>   
+gilôviađ    	gilôvian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+gilôviađ    	gilôvian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+gilôviađ    	gilôvian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+gilôvid    	gilôvian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+gilôvida    	gilôvian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+gilôvida    	gilôvian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+gilôvidun    	gilôvian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+gilôvidun    	gilôvian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+gilôvidun    	gilôvian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+gilôvis    	gilôvian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+gilôviu    	gilôvian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 ginesan    	ginesan   <v>      <str>      <class5>      <pastpart>   
 ginim    	giniman   <v>      <str>      <class4>      <impv>      <sg>   
 ginim    	giniman   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <sg>   
@@ -2982,20 +2996,20 @@ giwinnađ    	giwinnan   <v>      <str>      <class3a>      <pres>      <indic> 
 giwinnis    	giwinnan   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <sg>   
 giwinniđ    	giwinnan   <v>      <str>      <class3a>      <pres>      <indic>      <3rd>      <sg>   
 giwinnu    	giwinnan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <sg>   
-giwirki    	giwirkian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-giwirkiad    	giwirkian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-giwirkian    	giwirkian   <v>      <wk>      <class1>      <wk>      <inf>   
-giwirkiađ    	giwirkian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-giwirkiađ    	giwirkian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-giwirkiađ    	giwirkian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-giwirkid    	giwirkian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-giwirkida    	giwirkian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-giwirkida    	giwirkian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-giwirkidun    	giwirkian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-giwirkidun    	giwirkian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-giwirkidun    	giwirkian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-giwirkis    	giwirkian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-giwirkiu    	giwirkian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+giwirki    	giwirkian   <v>      <wk>      <class1>      <impv>      <sg>   
+giwirkiad    	giwirkian   <v>      <wk>      <class1>      <impv>      <pl>   
+giwirkian    	giwirkian   <v>      <wk>      <class1>      <inf>   
+giwirkiađ    	giwirkian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+giwirkiađ    	giwirkian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+giwirkiađ    	giwirkian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+giwirkid    	giwirkian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+giwirkida    	giwirkian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+giwirkida    	giwirkian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+giwirkidun    	giwirkian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+giwirkidun    	giwirkian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+giwirkidun    	giwirkian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+giwirkis    	giwirkian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+giwirkiu    	giwirkian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 giwirris    	giwerran   <v>      <str>      <class3b>      <pres>      <indic>      <2nd>      <sg>   
 giwirriđ    	giwerran   <v>      <str>      <class3b>      <pres>      <indic>      <3rd>      <sg>   
 giwirru    	giwerran   <v>      <str>      <class3b>      <pres>      <indic>      <1st>      <sg>   
@@ -3116,20 +3130,20 @@ grêtun    	grâtan   <v>      <str>      <class7>      <pret>      <indic>     
 grêtun    	grâtan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <pl>   
 grôt    	griotan   <v>      <str>      <class2>      <pret>      <indic>      <1st>      <sg>   
 grôt    	griotan   <v>      <str>      <class2>      <pret>      <indic>      <3rd>      <sg>   
-grôti    	grôtian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-grôtiad    	grôtian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-grôtian    	grôtian   <v>      <wk>      <class1>      <wk>      <inf>   
-grôtiađ    	grôtian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-grôtiađ    	grôtian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-grôtiađ    	grôtian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-grôtid    	grôtian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-grôtida    	grôtian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-grôtida    	grôtian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-grôtidun    	grôtian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-grôtidun    	grôtian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-grôtidun    	grôtian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-grôtis    	grôtian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-grôtiu    	grôtian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+grôti    	grôtian   <v>      <wk>      <class1>      <impv>      <sg>   
+grôtiad    	grôtian   <v>      <wk>      <class1>      <impv>      <pl>   
+grôtian    	grôtian   <v>      <wk>      <class1>      <inf>   
+grôtiađ    	grôtian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+grôtiađ    	grôtian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+grôtiađ    	grôtian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+grôtid    	grôtian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+grôtida    	grôtian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+grôtida    	grôtian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+grôtidun    	grôtian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+grôtidun    	grôtian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+grôtidun    	grôtian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+grôtis    	grôtian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+grôtiu    	grôtian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 grôv    	gravan   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <sg>   
 grôv    	gravan   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <sg>   
 grôvi    	gravan   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <sg>   
@@ -3399,20 +3413,20 @@ hêtađ    	hêtan   <v>      <str>      <class7>      <pres>      <indic>      
 hêtis    	hêtan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <sg>   
 hêtiđ    	hêtan   <v>      <str>      <class7>      <pres>      <indic>      <3rd>      <sg>   
 hêtu    	hêtan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <sg>   
-hôri    	hôrian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-hôriad    	hôrian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-hôrian    	hôrian   <v>      <wk>      <class1>      <wk>      <inf>   
-hôriađ    	hôrian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-hôriađ    	hôrian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-hôriađ    	hôrian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-hôrid    	hôrian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-hôrida    	hôrian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-hôrida    	hôrian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-hôridun    	hôrian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-hôridun    	hôrian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-hôridun    	hôrian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-hôris    	hôrian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-hôriu    	hôrian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+hôri    	hôrian   <v>      <wk>      <class1>      <impv>      <sg>   
+hôriad    	hôrian   <v>      <wk>      <class1>      <impv>      <pl>   
+hôrian    	hôrian   <v>      <wk>      <class1>      <inf>   
+hôriađ    	hôrian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+hôriađ    	hôrian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+hôriađ    	hôrian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+hôrid    	hôrian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+hôrida    	hôrian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+hôrida    	hôrian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+hôridun    	hôrian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+hôridun    	hôrian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+hôridun    	hôrian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+hôris    	hôrian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+hôriu    	hôrian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 instokan    	instekan   <v>      <str>      <class4>      <pastpart>   
 instâki    	instekan   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <sg>   
 instâki    	instekan   <v>      <str>      <class4>      <pret>      <opt>      <1st>      <sg>   
@@ -3531,20 +3545,20 @@ kâmis    	kuman   <v>      <str>      <class4>      <pret>      <opt>      <2nd
 kâmun    	kuman   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <pl>   
 kâmun    	kuman   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <pl>   
 kâmun    	kuman   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <pl>   
-kūthi    	kūthian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-kūthiad    	kūthian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-kūthian    	kūthian   <v>      <wk>      <class1>      <wk>      <inf>   
-kūthiađ    	kūthian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-kūthiađ    	kūthian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-kūthiađ    	kūthian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-kūthid    	kūthian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-kūthida    	kūthian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-kūthida    	kūthian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-kūthidun    	kūthian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-kūthidun    	kūthian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-kūthidun    	kūthian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-kūthis    	kūthian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-kūthiu    	kūthian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+kūthi    	kūthian   <v>      <wk>      <class1>      <impv>      <sg>   
+kūthiad    	kūthian   <v>      <wk>      <class1>      <impv>      <pl>   
+kūthian    	kūthian   <v>      <wk>      <class1>      <inf>   
+kūthiađ    	kūthian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+kūthiađ    	kūthian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+kūthiađ    	kūthian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+kūthid    	kūthian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+kūthida    	kūthian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+kūthida    	kūthian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+kūthidun    	kūthian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+kūthidun    	kūthian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+kūthidun    	kūthian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+kūthis    	kūthian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+kūthiu    	kūthian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 lah    	lahan   <v>      <str>      <class6>      <impv>      <sg>   
 lahan    	lahan   <v>      <str>      <class6>      <inf>   
 lahan    	lahan   <v>      <str>      <class6>      <pastpart>   
@@ -3598,48 +3612,48 @@ lâtađ    	lâtan   <v>      <str>      <class7>      <pres>      <indic>      
 lâtis    	lâtan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <sg>   
 lâtiđ    	lâtan   <v>      <str>      <class7>      <pres>      <indic>      <3rd>      <sg>   
 lâtu    	lâtan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <sg>   
-lêdi    	lêdian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-lêdiad    	lêdian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-lêdian    	lêdian   <v>      <wk>      <class1>      <wk>      <inf>   
-lêdiađ    	lêdian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-lêdiađ    	lêdian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-lêdiađ    	lêdian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-lêdid    	lêdian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-lêdida    	lêdian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-lêdida    	lêdian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-lêdidun    	lêdian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-lêdidun    	lêdian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-lêdidun    	lêdian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-lêdis    	lêdian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-lêdiu    	lêdian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
-lêri    	lêrian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-lêriad    	lêrian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-lêrian    	lêrian   <v>      <wk>      <class1>      <wk>      <inf>   
-lêriađ    	lêrian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-lêriađ    	lêrian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-lêriađ    	lêrian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-lêrid    	lêrian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-lêrida    	lêrian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-lêrida    	lêrian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-lêridun    	lêrian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-lêridun    	lêrian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-lêridun    	lêrian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-lêris    	lêrian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-lêriu    	lêrian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
-lêsti    	lêstian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-lêstiad    	lêstian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-lêstian    	lêstian   <v>      <wk>      <class1>      <wk>      <inf>   
-lêstiađ    	lêstian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-lêstiađ    	lêstian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-lêstiađ    	lêstian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-lêstid    	lêstian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-lêstida    	lêstian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-lêstida    	lêstian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-lêstidun    	lêstian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-lêstidun    	lêstian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-lêstidun    	lêstian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-lêstis    	lêstian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-lêstiu    	lêstian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+lêdi    	lêdian   <v>      <wk>      <class1>      <impv>      <sg>   
+lêdiad    	lêdian   <v>      <wk>      <class1>      <impv>      <pl>   
+lêdian    	lêdian   <v>      <wk>      <class1>      <inf>   
+lêdiađ    	lêdian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+lêdiađ    	lêdian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+lêdiađ    	lêdian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+lêdid    	lêdian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+lêdida    	lêdian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+lêdida    	lêdian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+lêdidun    	lêdian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+lêdidun    	lêdian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+lêdidun    	lêdian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+lêdis    	lêdian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+lêdiu    	lêdian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
+lêri    	lêrian   <v>      <wk>      <class1>      <impv>      <sg>   
+lêriad    	lêrian   <v>      <wk>      <class1>      <impv>      <pl>   
+lêrian    	lêrian   <v>      <wk>      <class1>      <inf>   
+lêriađ    	lêrian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+lêriađ    	lêrian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+lêriađ    	lêrian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+lêrid    	lêrian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+lêrida    	lêrian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+lêrida    	lêrian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+lêridun    	lêrian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+lêridun    	lêrian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+lêridun    	lêrian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+lêris    	lêrian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+lêriu    	lêrian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
+lêsti    	lêstian   <v>      <wk>      <class1>      <impv>      <sg>   
+lêstiad    	lêstian   <v>      <wk>      <class1>      <impv>      <pl>   
+lêstian    	lêstian   <v>      <wk>      <class1>      <inf>   
+lêstiađ    	lêstian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+lêstiađ    	lêstian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+lêstiađ    	lêstian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+lêstid    	lêstian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+lêstida    	lêstian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+lêstida    	lêstian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+lêstidun    	lêstian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+lêstidun    	lêstian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+lêstidun    	lêstian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+lêstis    	lêstian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+lêstiu    	lêstian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 lêt    	lâtan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <sg>   
 lêt    	lâtan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <sg>   
 lêti    	lâtan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <sg>   
@@ -3686,20 +3700,20 @@ midun    	mîthan   <v>      <str>      <class1>      <pret>      <indic>      <
 midun    	mîthan   <v>      <str>      <class1>      <pret>      <indic>      <2nd>      <pl>   
 midun    	mîthan   <v>      <str>      <class1>      <pret>      <indic>      <3rd>      <pl>   
 mithan    	mîthan   <v>      <str>      <class1>      <pastpart>   
-mâri    	mârian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-mâriad    	mârian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-mârian    	mârian   <v>      <wk>      <class1>      <wk>      <inf>   
-mâriađ    	mârian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-mâriađ    	mârian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-mâriađ    	mârian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-mârid    	mârian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-mârida    	mârian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-mârida    	mârian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-mâridun    	mârian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-mâridun    	mârian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-mâridun    	mârian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-mâris    	mârian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-mâriu    	mârian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+mâri    	mârian   <v>      <wk>      <class1>      <impv>      <sg>   
+mâriad    	mârian   <v>      <wk>      <class1>      <impv>      <pl>   
+mârian    	mârian   <v>      <wk>      <class1>      <inf>   
+mâriađ    	mârian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+mâriađ    	mârian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+mâriađ    	mârian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+mârid    	mârian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+mârida    	mârian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+mârida    	mârian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+mâridun    	mârian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+mâridun    	mârian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+mâridun    	mârian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+mâris    	mârian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+mâriu    	mârian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 mâti    	metan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <sg>   
 mâti    	metan   <v>      <str>      <class5>      <pret>      <opt>      <1st>      <sg>   
 mâti    	metan   <v>      <str>      <class5>      <pret>      <opt>      <3rd>      <sg>   
@@ -3710,20 +3724,20 @@ mâtis    	metan   <v>      <str>      <class5>      <pret>      <opt>      <2nd
 mâtun    	metan   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <pl>   
 mâtun    	metan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <pl>   
 mâtun    	metan   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <pl>   
-mêni    	mênian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-mêniad    	mênian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-mênian    	mênian   <v>      <wk>      <class1>      <wk>      <inf>   
-mêniađ    	mênian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-mêniađ    	mênian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-mêniađ    	mênian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-mênid    	mênian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-mênida    	mênian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-mênida    	mênian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-mênidun    	mênian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-mênidun    	mênian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-mênidun    	mênian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-mênis    	mênian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-mêniu    	mênian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+mêni    	mênian   <v>      <wk>      <class1>      <impv>      <sg>   
+mêniad    	mênian   <v>      <wk>      <class1>      <impv>      <pl>   
+mênian    	mênian   <v>      <wk>      <class1>      <inf>   
+mêniađ    	mênian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+mêniađ    	mênian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+mêniađ    	mênian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+mênid    	mênian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+mênida    	mênian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+mênida    	mênian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+mênidun    	mênian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+mênidun    	mênian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+mênidun    	mênian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+mênis    	mênian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+mêniu    	mênian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 mêth    	mîthan   <v>      <str>      <class1>      <pret>      <indic>      <1st>      <sg>   
 mêth    	mîthan   <v>      <str>      <class1>      <pret>      <indic>      <3rd>      <sg>   
 mîth    	mîthan   <v>      <str>      <class1>      <impv>      <sg>   
@@ -3840,20 +3854,20 @@ nâmun    	neman   <v>      <str>      <class4>      <pret>      <indic>      <3
 nâmun    	niman   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <pl>   
 nâmun    	niman   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <pl>   
 nâmun    	niman   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <pl>   
-nêri    	nêrian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-nêriad    	nêrian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-nêrian    	nêrian   <v>      <wk>      <class1>      <wk>      <inf>   
-nêriađ    	nêrian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-nêriađ    	nêrian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-nêriađ    	nêrian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-nêrid    	nêrian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-nêrida    	nêrian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-nêrida    	nêrian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-nêridun    	nêrian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-nêridun    	nêrian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-nêridun    	nêrian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-nêris    	nêrian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-nêriu    	nêrian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+nêri    	nêrian   <v>      <wk>      <class1>      <impv>      <sg>   
+nêriad    	nêrian   <v>      <wk>      <class1>      <impv>      <pl>   
+nêrian    	nêrian   <v>      <wk>      <class1>      <inf>   
+nêriađ    	nêrian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+nêriađ    	nêrian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+nêriađ    	nêrian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+nêrid    	nêrian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+nêrida    	nêrian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+nêrida    	nêrian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+nêridun    	nêrian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+nêridun    	nêrian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+nêridun    	nêrian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+nêris    	nêrian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+nêriu    	nêrian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 plogan    	plegan   <v>      <str>      <class4>      <pastpart>   
 plâgi    	plegan   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <sg>   
 plâgi    	plegan   <v>      <str>      <class4>      <pret>      <opt>      <1st>      <sg>   
@@ -4604,41 +4618,41 @@ sôk    	sakan   <v>      <str>      <class6>      <pret>      <indic>      <3rd
 sôki    	sakan   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <sg>   
 sôki    	sakan   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <sg>   
 sôki    	sakan   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <sg>   
-sôki    	sôkian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-sôkiad    	sôkian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-sôkian    	sôkian   <v>      <wk>      <class1>      <wk>      <inf>   
-sôkiađ    	sôkian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-sôkiađ    	sôkian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-sôkiađ    	sôkian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-sôkid    	sôkian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-sôkida    	sôkian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-sôkida    	sôkian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-sôkidun    	sôkian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-sôkidun    	sôkian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-sôkidun    	sôkian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
+sôki    	sôkian   <v>      <wk>      <class1>      <impv>      <sg>   
+sôkiad    	sôkian   <v>      <wk>      <class1>      <impv>      <pl>   
+sôkian    	sôkian   <v>      <wk>      <class1>      <inf>   
+sôkiađ    	sôkian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+sôkiađ    	sôkian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+sôkiađ    	sôkian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+sôkid    	sôkian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+sôkida    	sôkian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+sôkida    	sôkian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+sôkidun    	sôkian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+sôkidun    	sôkian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+sôkidun    	sôkian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
 sôkin    	sakan   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <pl>   
 sôkin    	sakan   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <pl>   
 sôkin    	sakan   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <pl>   
 sôkis    	sakan   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <sg>   
-sôkis    	sôkian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-sôkiu    	sôkian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+sôkis    	sôkian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+sôkiu    	sôkian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 sôkun    	sakan   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
 sôkun    	sakan   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
 sôkun    	sakan   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
-sėndi    	sėndian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-sėndiad    	sėndian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-sėndian    	sėndian   <v>      <wk>      <class1>      <wk>      <inf>   
-sėndiađ    	sėndian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-sėndiađ    	sėndian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-sėndiađ    	sėndian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-sėndid    	sėndian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-sėndida    	sėndian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-sėndida    	sėndian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-sėndidun    	sėndian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-sėndidun    	sėndian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-sėndidun    	sėndian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-sėndis    	sėndian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-sėndiu    	sėndian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+sėndi    	sėndian   <v>      <wk>      <class1>      <impv>      <sg>   
+sėndiad    	sėndian   <v>      <wk>      <class1>      <impv>      <pl>   
+sėndian    	sėndian   <v>      <wk>      <class1>      <inf>   
+sėndiađ    	sėndian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+sėndiađ    	sėndian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+sėndiađ    	sėndian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+sėndid    	sėndian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+sėndida    	sėndian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+sėndida    	sėndian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+sėndidun    	sėndian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+sėndidun    	sėndian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+sėndidun    	sėndian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+sėndis    	sėndian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+sėndiu    	sėndian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 thananim    	thananiman   <v>      <str>      <class4>      <impv>      <sg>   
 thananim    	thananiman   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <sg>   
 thananim    	thananiman   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <sg>   
@@ -4661,20 +4675,20 @@ thananâmis    	thananiman   <v>      <str>      <class4>      <pret>      <opt>
 thananâmun    	thananiman   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <pl>   
 thananâmun    	thananiman   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <pl>   
 thananâmun    	thananiman   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <pl>   
-thegi    	thagian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-thegiad    	thagian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-thegian    	thagian   <v>      <wk>      <class1>      <wk>      <inf>   
-thegiađ    	thagian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-thegiađ    	thagian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-thegiađ    	thagian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-thegid    	thagian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-thegida    	thagian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-thegida    	thagian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-thegidun    	thagian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-thegidun    	thagian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-thegidun    	thagian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-thegis    	thagian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-thegiu    	thagian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+thegi    	thagian   <v>      <wk>      <class1>      <impv>      <sg>   
+thegiad    	thagian   <v>      <wk>      <class1>      <impv>      <pl>   
+thegian    	thagian   <v>      <wk>      <class1>      <inf>   
+thegiađ    	thagian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+thegiađ    	thagian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+thegiađ    	thagian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+thegid    	thagian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+thegida    	thagian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+thegida    	thagian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+thegidun    	thagian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+thegidun    	thagian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+thegidun    	thagian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+thegis    	thagian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+thegiu    	thagian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 thramm    	thrimman   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 thramm    	thrimman   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 thrang    	thringan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
@@ -4856,20 +4870,20 @@ tôstôtađ    	tôstôtan   <v>      <str>      <class7>      <pres>      <indi
 tôstôtis    	tôstôtan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <sg>   
 tôstôtiđ    	tôstôtan   <v>      <str>      <class7>      <pres>      <indic>      <3rd>      <sg>   
 tôstôtu    	tôstôtan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <sg>   
-tėlli    	tėllian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-tėlliad    	tėllian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-tėllian    	tėllian   <v>      <wk>      <class1>      <wk>      <inf>   
-tėlliađ    	tėllian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-tėlliađ    	tėllian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-tėlliađ    	tėllian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-tėllid    	tėllian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-tėllida    	tėllian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-tėllida    	tėllian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-tėllidun    	tėllian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-tėllidun    	tėllian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-tėllidun    	tėllian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-tėllis    	tėllian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-tėlliu    	tėllian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+tėlli    	tėllian   <v>      <wk>      <class1>      <impv>      <sg>   
+tėlliad    	tėllian   <v>      <wk>      <class1>      <impv>      <pl>   
+tėllian    	tėllian   <v>      <wk>      <class1>      <inf>   
+tėlliađ    	tėllian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+tėlliađ    	tėllian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+tėlliađ    	tėllian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+tėllid    	tėllian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+tėllida    	tėllian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+tėllida    	tėllian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+tėllidun    	tėllian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+tėllidun    	tėllian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+tėllidun    	tėllian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+tėllis    	tėllian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+tėlliu    	tėllian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 umbibigevan    	umbibigevan   <v>      <str>      <class5>      <pastpart>   
 umbibigâvi    	umbibigevan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <sg>   
 umbibigâvi    	umbibigevan   <v>      <str>      <class5>      <pret>      <opt>      <1st>      <sg>   
@@ -5234,20 +5248,20 @@ winnađ    	winnan   <v>      <str>      <class3a>      <pres>      <indic>     
 winnis    	winnan   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <sg>   
 winniđ    	winnan   <v>      <str>      <class3a>      <pres>      <indic>      <3rd>      <sg>   
 winnu    	winnan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <sg>   
-wirki    	wirkian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-wirkiad    	wirkian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-wirkian    	wirkian   <v>      <wk>      <class1>      <wk>      <inf>   
-wirkiađ    	wirkian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-wirkiađ    	wirkian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-wirkiađ    	wirkian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-wirkid    	wirkian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-wirkida    	wirkian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-wirkida    	wirkian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-wirkidun    	wirkian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-wirkidun    	wirkian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-wirkidun    	wirkian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-wirkis    	wirkian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-wirkiu    	wirkian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+wirki    	wirkian   <v>      <wk>      <class1>      <impv>      <sg>   
+wirkiad    	wirkian   <v>      <wk>      <class1>      <impv>      <pl>   
+wirkian    	wirkian   <v>      <wk>      <class1>      <inf>   
+wirkiađ    	wirkian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+wirkiađ    	wirkian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+wirkiađ    	wirkian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+wirkid    	wirkian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+wirkida    	wirkian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+wirkida    	wirkian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+wirkidun    	wirkian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+wirkidun    	wirkian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+wirkidun    	wirkian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+wirkis    	wirkian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+wirkiu    	wirkian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 wirpis    	werpan   <v>      <str>      <class3b>      <pres>      <indic>      <2nd>      <sg>   
 wirpiđ    	werpan   <v>      <str>      <class3b>      <pres>      <indic>      <3rd>      <sg>   
 wirpu    	werpan   <v>      <str>      <class3b>      <pres>      <indic>      <1st>      <sg>   
@@ -5476,20 +5490,20 @@ wâgis    	wegan   <v>      <str>      <class5>      <pret>      <opt>      <2nd
 wâgun    	wegan   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <pl>   
 wâgun    	wegan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <pl>   
 wâgun    	wegan   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <pl>   
-wâni    	wânian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-wâniad    	wânian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-wânian    	wânian   <v>      <wk>      <class1>      <wk>      <inf>   
-wâniađ    	wânian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-wâniađ    	wânian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-wâniađ    	wânian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-wânid    	wânian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-wânida    	wânian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-wânida    	wânian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-wânidun    	wânian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-wânidun    	wânian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-wânidun    	wânian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-wânis    	wânian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-wâniu    	wânian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+wâni    	wânian   <v>      <wk>      <class1>      <impv>      <sg>   
+wâniad    	wânian   <v>      <wk>      <class1>      <impv>      <pl>   
+wânian    	wânian   <v>      <wk>      <class1>      <inf>   
+wâniađ    	wânian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+wâniađ    	wânian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+wâniađ    	wânian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+wânid    	wânian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+wânida    	wânian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+wânida    	wânian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+wânidun    	wânian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+wânidun    	wânian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+wânidun    	wânian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+wânis    	wânian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+wâniu    	wânian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 wâri    	wesan   <v>      <irregular>      <pret>      <opt>      <1st>      <sg>   
 wâri    	wesan   <v>      <irregular>      <pret>      <opt>      <3rd>      <sg>   
 wârin    	wesan   <v>      <irregular>      <pret>      <opt>      <1st>      <pl>   
@@ -5554,20 +5568,20 @@ wôskis    	waskan   <v>      <str>      <class6>      <pret>      <opt>      <2
 wôskun    	waskan   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
 wôskun    	waskan   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
 wôskun    	waskan   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
-wėndi    	wėndian   <v>      <wk>      <class1>      <wk>      <impv>      <sg>   
-wėndiad    	wėndian   <v>      <wk>      <class1>      <wk>      <impv>      <pl>   
-wėndian    	wėndian   <v>      <wk>      <class1>      <wk>      <inf>   
-wėndiađ    	wėndian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <pl>   
-wėndiađ    	wėndian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <pl>   
-wėndiađ    	wėndian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <pl>   
-wėndid    	wėndian   <v>      <wk>      <class1>      <wk>      <pres>      <3rd>      <sg>   
-wėndida    	wėndian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <sg>   
-wėndida    	wėndian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <sg>   
-wėndidun    	wėndian   <v>      <wk>      <class1>      <wk>      <pret>      <1st>      <pl>   
-wėndidun    	wėndian   <v>      <wk>      <class1>      <wk>      <pret>      <2nd>      <pl>   
-wėndidun    	wėndian   <v>      <wk>      <class1>      <wk>      <pret>      <3rd>      <pl>   
-wėndis    	wėndian   <v>      <wk>      <class1>      <wk>      <pres>      <2nd>      <sg>   
-wėndiu    	wėndian   <v>      <wk>      <class1>      <wk>      <pres>      <1st>      <sg>   
+wėndi    	wėndian   <v>      <wk>      <class1>      <impv>      <sg>   
+wėndiad    	wėndian   <v>      <wk>      <class1>      <impv>      <pl>   
+wėndian    	wėndian   <v>      <wk>      <class1>      <inf>   
+wėndiađ    	wėndian   <v>      <wk>      <class1>      <pres>      <1st>      <pl>   
+wėndiađ    	wėndian   <v>      <wk>      <class1>      <pres>      <2nd>      <pl>   
+wėndiađ    	wėndian   <v>      <wk>      <class1>      <pres>      <3rd>      <pl>   
+wėndid    	wėndian   <v>      <wk>      <class1>      <pres>      <3rd>      <sg>   
+wėndida    	wėndian   <v>      <wk>      <class1>      <pret>      <1st>      <sg>   
+wėndida    	wėndian   <v>      <wk>      <class1>      <pret>      <3rd>      <sg>   
+wėndidun    	wėndian   <v>      <wk>      <class1>      <pret>      <1st>      <pl>   
+wėndidun    	wėndian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
+wėndidun    	wėndian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
+wėndis    	wėndian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+wėndiu    	wėndian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
 âbalg    	âbelgan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <sg>   
 âbalg    	âbelgan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <sg>   
 âbiddi    	âbiddian   <v>      <str>      <class5>      <impv>      <sg>   

@@ -214,8 +214,8 @@ LEXICON WESAN
 
 LEXICON WK1
 
-%<wk%>%<inf%>:%>ian		 	 # ;	
-%<wk%>:%>i Tempus-WK1                     ;
+%<inf%>:%>ian		 	 # ;	
+:%>i Tempus-WK1                     ;
 
 LEXICON WK2
 
@@ -239,6 +239,7 @@ LEXICON INFL-PRES-WK1
 %<1st%>%<sg%>:u 		# ;
 %<2nd%>%<sg%>:s			# ;
 %<3rd%>%<sg%>:d			# ;
+!%<3rd%>%<sg%>:đ                 # ; !accounts for some alternations
 %<1st%>%<pl%>:ađ		# ;
 %<2nd%>%<pl%>:ađ		# ;
 %<3rd%>%<pl%>:ađ		# ;
@@ -248,6 +249,7 @@ LEXICON INFL-PRES-WK2
 %<1st%>%<sg%>:n                 # ;
 %<2nd%>%<sg%>:s                 # ;
 %<3rd%>%<sg%>:d                 # ;
+!%<3rd%>%<sg%>:đ                 # ; !accounts for some alternations
 %<1st%>%<pl%>:đ                # ;
 %<2nd%>%<pl%>:đ                # ;
 %<3rd%>%<pl%>:đ                # ;
@@ -662,6 +664,7 @@ wesan%<v%>%<irregular%>: WESAN			;	!nhd. sein
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON WeakVerbs
+fremmian%<v%>%<wk%>%<class1%>:fremm WK1  ;        !
 adêlian%<v%>%<wk%>%<class1%>:adêl WK1  ;	!"zuerkennen"
 nêrian%<v%>%<wk%>%<class1%>:nêr WK1 ; 		!"retten"
 thagian%<v%>%<wk%>%<class1%>:thag WK1	;	! "schweigen"
