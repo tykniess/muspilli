@@ -2,7 +2,7 @@ Multichar_Symbols
 %>				! Morpheme boundary
 
 %<v%>				! Verb
-%<n%>				! Noun
+%<noun%>			! Noun
 
 
 !!!!!!!!!!!!!!!!!!NOMINAL CHARS!!!!!!!!!!!!!!!!!!!!!!!
@@ -21,6 +21,7 @@ Multichar_Symbols
 %{E%}				! Archiphoneme e/a in the dative and genitive cases
 %{O%}                           ! Archiphoneme o/a in the plural of a-stems
 %{M%}				! Archiphomene m/n in dative plural
+%{NAPL%}			! Neuter a-stem plural morpheme; u or zero depending on syllable weight
 !!!!!!!!!!!!!!!!!!VERBAL CHARS!!!!!!!!!!!!!!!!!!!!!!!!
 %<inf%>				! Infinitive
 %<act%>				! Active
@@ -71,17 +72,31 @@ LEXICON Masc-A-Stem
 %<gen%>%<sg%>:%{E%}s		#	;
 %<dat%>%<sg%>:%{E%}		#	;
 %<acc%>%<sg%>:0			#	;
-%<instr%>%<sg%>:u		#	;
+%<instr%>%<sg%>:u		#	; !extremely rare case remnant, consider removing
 !%<instr%>:o             	#       ; ! variant form of instrumental case
 
-%<nom%>%<pl%>:%{O%}s         	#       ;
-%<gen%>%<pl%>:o            	#       ;
+%<nom%>%<pl%>:os         	#       ; ! consider changing to %{O%}s to account for scribal variation
+%<gen%>%<pl%>:o            	#       ; 
 %<dat%>%<pl%>:u%{M%}            #       ;
 %<dat%>%<pl%>:on	        #       ;
-%<acc%>%<pl%>:%{O%}s         	#       ;
+%<acc%>%<pl%>:os         	#       ; ! consider changing to %{O%}s to account for scribal variation
 %<instr%>%<pl%>:u               #       ;
 !%<nom%>%<pl%>:a		#	; !extreme scribal variant, thus not included in compilation
 !%<acc%>%<pl%>:a		#	; !extreme scribal variant, thus not included in compilation
+
+LEXICON Neut-A-Stem
+%<nom%>%<sg%>:0                 #       ;
+%<gen%>%<sg%>:%{E%}s            #       ;
+%<dat%>%<sg%>:%{E%}             #       ;
+%<acc%>%<sg%>:0                 #       ;
+%<instr%>%<sg%>:u               #       ; !extremely rare case remnant, consider removing
+!%<instr%>:o                    #       ; ! variant form of instrumental case
+
+%<nom%>%<pl%>:%{NAPL%}        #       ; ! plural morpheme is either zero or u depending on syllable weight
+%<gen%>%<pl%>:o                 #       ;
+%<dat%>%<pl%>:u%{M%}            #       ;
+%<dat%>%<pl%>:on                #       ;
+%<acc%>%<pl%>:%{NAPL%}        #       ; ! ! plural morpheme is either zero or u depending on syllable weight
 
 LEXICON Verbs
 StrongVerbs                     ;
@@ -328,6 +343,12 @@ LEXICON IMPERATIV-WK2
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON A-Stem
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!Masc. a-stem!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
 dag%<noun%>%<masc%>%<a-stem%>:dag Masc-A-Stem ;	!nhd. Tag; !send it to masculine sublexicon for now to avoid dealing with tags.
 afgod%<noun%>%<masc%>%<a-stem%>:afgod Masc-A-Stem ;
 agalthorn%<noun%>%<masc%>%<a-stem%>:agalthorn Masc-A-Stem ;
@@ -832,17 +853,469 @@ wurgil%<noun%>%<masc%>%<a-stem%>:wurgil Masc-A-Stem ;
 wurpil%<noun%>%<masc%>%<a-stem%>:wurpil Masc-A-Stem ;
 wurthpėnning%<noun%>%<masc%>%<a-stem%>:wurthpėnning Masc-A-Stem ;
 
-
-
-
-
-
-
-
-
-
-
-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!Neut a-stem!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+afgodohūs%<noun%>%<neut%>%<a-stem%>:afgodohūs Neut-A-Stem ; ! afgodohūs* 1, af-god-o-hū-s*, as., st. N. (a): nhd. Götzentempel, Götzenhaus; ne. idol-temple (N.)
+aftarbior%<noun%>%<neut%>%<a-stem%>:aftarbior Neut-A-Stem ; ! aftarbior* 1, af-t-ar-bior*, as., st. N. (a): nhd. Nachbier, Halbbier; ne. afterbeer (N.)
+âgelp%<noun%>%<neut%>%<a-stem%>:âgelp Neut-A-Stem ; ! âgelp 1, â-gel-p, as., st. N. (a): nhd. Ruhmsucht, Prahlerei, Eitelkeit; ne. passion (N.) for glory, boasting (N.), vanity (N.)
+ahaspring%<noun%>%<neut%>%<a-stem%>:ahaspring Neut-A-Stem ; ! ahaspring 1, ah-a-s-pri-n-g, as., st. N. (a)?, st. M. (a?) (i?): nhd. Wasserquell, Wasserquelle; ne. spring (N.) of water
+aldar%<noun%>%<neut%>%<a-stem%>:aldar Neut-A-Stem ; ! aldar* 20, al-d-ar*, as., st. N. (a): nhd. Alter (N.), Leben; ne. age (N.), life (N.); W.: mnd. older, ôlder, (alder), N., M., Alter (N.)
+aldarlag%<noun%>%<neut%>%<a-stem%>:aldarlag Neut-A-Stem ; ! aldarlag* 2, al-d-ar-lag*, as., st. N. (a) (i): nhd. Lebenszeit, Leben; ne. lifetime (N.), life (N.)
+alofat%<noun%>%<neut%>%<a-stem%>:alofat Neut-A-Stem ; ! alofat* 1, al-o-fat*, as., st. N. (a): nhd. „Bierfass“, Bierkrug, Biergefäß, Gefäß; ne. beerjug (N.), beervessel (N.)
+alud%<noun%>%<neut%>%<a-stem%>:alud Neut-A-Stem ; ! alud?***, al-u-d?***, as., st. N. (a): nhd. Allod, freies Eigentum; ne. free possession (N.)
+amarkorn%<noun%>%<neut%>%<a-stem%>:amarkorn Neut-A-Stem ; ! amarkorn* 1, amar-kor-n*, as., st. N. (a): nhd. Dinkelkorn; ne. speltcorn (N.)
+ambaht%<noun%>%<neut%>%<a-stem%>:ambaht Neut-A-Stem ; ! ambaht* 20, amb-ah-t*, as., st. N. (a): nhd. Amt, Dienst; ne. office (N.), service (N.); W.: mnd. ambacht, N., Dienst, Handwerk
+ambahtlakan%<noun%>%<neut%>%<a-stem%>:ambahtlakan Neut-A-Stem ; ! ambahtlakan* 2, amb-ah-t-lak-an*, as., st. N. (a): nhd. Dienstlaken; ne. a sort of due (N.)
+anagin%<noun%>%<neut%>%<a-stem%>:anagin Neut-A-Stem ; ! anagin* 3, angin, an-a-gi-n*, an-gin*, as., st. N. (a): nhd. Anfang; ne. beginning (N.); W.: mnd. ânegin, âneginne, M., N., Anfang
+arvêdlôn%<noun%>%<neut%>%<a-stem%>:arvêdlôn Neut-A-Stem ; ! arvêdlôn* 1, arƀedlôn, arvidlôn, arƀidlôn, arvêd-lô-n*, arƀed-lô-n*, arvid-lôn*, arƀid-lô-n*, as., st. N. (a): nhd. Arbeitslohn; ne. wages (N. Pl.); W.: s. mnd. arbêdeslôn, arbeideslôn, N., Arbeitslohn
+arvêdwerk%<noun%>%<neut%>%<a-stem%>:arvêdwerk Neut-A-Stem ; ! arvêdwerk*, arƀêdwerk, arvidwerk, arƀidwerk, arvêd-werk*, arƀêd-werk*, arvid-werk*, arƀid-werk*, as., st. N. (a): nhd. mühsames Werk, mühevolle Arbeit; ne. exhausting work (N.)
+ât%<noun%>%<neut%>%<a-stem%>:ât Neut-A-Stem ; ! ât 2, as., st. N. (a): nhd. Speise, Essen (N.); ne. food (N.); W.: mnd. ât, N., Speise
+athaliknôsal%<noun%>%<neut%>%<a-stem%>:athaliknôsal Neut-A-Stem ; ! athaliknôsal* 2, athalknôsal, atha-l-i-knô-sal*, atha-l-knô-sal*, as., st. N. (a): nhd. edle Abkunft, edle Herkunft; ne. noble (Adj.) birth
+avuh%<noun%>%<neut%>%<a-stem%>:avuh Neut-A-Stem ; ! avuh* (2) 2, aƀuh* (1), as., st. N. (a): nhd. Übel; ne. evil (N.)
+bak%<noun%>%<neut%>%<a-stem%>:bak Neut-A-Stem ; ! bak* 7, as., st. N. (a)?: nhd. Rücken (M.); ne. back (N.); W.: vgl. mnd. bak, M., Rücken (M.), Schulter
+bakkîsarn%<noun%>%<neut%>%<a-stem%>:bakkîsarn Neut-A-Stem ; ! bakkîsarn* 1, bakkîseren, ba-k-k-îs-arn*, ba-k-k-îs-eren*, as., st. N. (a): nhd. Backeisen; ne. bakingiron (N.); W.: mnd. bakîsern, backîssern, N., eiserne Küchenform
+baluwerk%<noun%>%<neut%>%<a-stem%>:baluwerk Neut-A-Stem ; ! baluwerk* 3, bal-u-werk*, as., st. N. (a): nhd. Übeltat, Übel; ne. evil deed (N.)
+banut%<noun%>%<neut%>%<a-stem%>:banut Neut-A-Stem ; ! banut*? 1, ba-nut*?, as., st. N. (a): nhd. Zunder; ne. tinder (N.)
+barn%<noun%>%<neut%>%<a-stem%>:barn Neut-A-Stem ; ! barn 292, bar-n, as., st. N. (a): nhd. Kind, Sohn; ne. child (N.), son (M.)
+bath%<noun%>%<neut%>%<a-stem%>:bath Neut-A-Stem ; ! bath* 3, as., st. N. (a): nhd. Bad; ne. bath (N.); W.: mnd. bat, N., Bad
+bėddibred%<noun%>%<neut%>%<a-stem%>:bėddibred Neut-A-Stem ; ! bėddibred* 1, bėd-d-i-bred*, as., st. N. (a): nhd. „Bettbrett“, Bettstelle, Ruhebett; ne. bedstead (N.); W.: mnd. beddebret, N., „Bettbrett“, Bodenbrett der Bettstatt, Bettstatt; Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+bedehūs%<noun%>%<neut%>%<a-stem%>:bedehūs Neut-A-Stem ; ! bedehūs* 1, bed-e-hū-s*, as., st. N. (a): nhd. „Bitthaus“, Bethaus; ne. prayhouse (N.); W.: s. mnd. bêdehūs, N., Bethaus, Gotteshaus
+bėkkîn%<noun%>%<neut%>%<a-stem%>:bėkkîn Neut-A-Stem ; ! bėkkîn* 2, as., st. N. (a): nhd. Becken, Kanne, Krug (M.) (1); ne. basin (N.), jug (N.); W.: mnd. becken, N., Becken
+bên%<noun%>%<neut%>%<a-stem%>:bên Neut-A-Stem ; ! bên* 6, bê-n*, as., st. N. (a): nhd. Bein, Knochen; ne. bone (N.), leg (N.); W.: mnd. bên, bein, N., Bein
+berkhôn%<noun%>%<neut%>%<a-stem%>:berkhôn Neut-A-Stem ; ! berkhôn* 1, ber-k-hôn*, as., st. N. (a): nhd. Birkhuhn, Wachtel; ne. quail (N.)
+bêrswîn%<noun%>%<neut%>%<a-stem%>:bêrswîn Neut-A-Stem ; ! bêrswîn* 3, bierswîn, bê-r-sw-î-n*, bie-r-swîn*, as., st. N. (a): nhd. „Eberschwein“, Eber; ne. boar (N.); W.: mnd. bêrswîn, M., „Eberschwein“, Eber
+bîbrôd%<noun%>%<neut%>%<a-stem%>:bîbrôd Neut-A-Stem ; ! bîbrôd* 1, bî-br-ô-d*, as., st. N. (a): nhd. „Bienenbrot“, Honigwabe, Honigkuchen?, Wachsscheibe?; ne. honeycomb (N.), gingerbread (N.); W.: s. mnd. bîenbrôt, bêenbrôt, N., „Bienenbrot“, Honigwabe
+bîhêtword%<noun%>%<neut%>%<a-stem%>:bîhêtword Neut-A-Stem ; ! bîhêtword* 1, bî-hê-t-wor-d*, as., st. N. (a): nhd. „Verheißungswort“, Gelübde, Drohung; ne. vow (N.), threat (N.)
+bîkar%<noun%>%<neut%>%<a-stem%>:bîkar Neut-A-Stem ; ! bîkar* 1, bî-kar*, as., st. N. (a): nhd. Bienenkorb; ne. beehive (N.)
+bil%<noun%>%<neut%>%<a-stem%>:bil Neut-A-Stem ; ! bil (2) 1, bi-l, as., st. N. (a): nhd. Pflock, Nagel; ne. peg (N.), nail (N.)
+bilivan%<noun%>%<neut%>%<a-stem%>:bilivan Neut-A-Stem ; ! bilivan* 5, biliƀan, bi-li-v-an*, bi-li-ƀ-an*, as., st. N. (a): nhd. Speise, Nahrung, Zukost; ne. food (N.)
+bior%<noun%>%<neut%>%<a-stem%>:bior Neut-A-Stem ; ! bior* 1, biar, bi-o-r*, bi-a-r, as., st. N. (a): nhd. Bier; ne. beer (N.); W.: mnd. bêr, beir, bier, N., Bier
+biorgeld%<noun%>%<neut%>%<a-stem%>:biorgeld Neut-A-Stem ; ! biorgeld?***, bi-o-r-geld?***, as., st. N. (a): nhd. Freienabgabe; ne. tribute (N.) of a free man; W.: mnd. bêrgelt, N., Abgabe, Ablösung der Verpflegungspflicht
+bismer%<noun%>%<neut%>%<a-stem%>:bismer Neut-A-Stem ; ! bismer?***, bi-smer?***, as., st. N. (a): nhd. Spott; ne. mockery (N.)
+blad%<noun%>%<neut%>%<a-stem%>:blad Neut-A-Stem ; ! blad 3, bla-d, as., st. N. (a): nhd. Blatt; ne. leaf (N.); W.: mnd. blat, N., Blatt
+blak%<noun%>%<neut%>%<a-stem%>:blak Neut-A-Stem ; ! blak* (1) 1, bla-k*, as., st. N. (a): nhd. Tinte; ne. ink (N.); W.: mnd. black, N., Tinte, Schwärze
+blakhorn%<noun%>%<neut%>%<a-stem%>:blakhorn Neut-A-Stem ; ! blakhorn* 1, bla-k-hor-n*, as., st. N. (a): nhd. Tintenfass; ne. inkpot (N.); W.: mnd. blackhorn, N., Tintenhörnchen, Tintenfass
+blek%<noun%>%<neut%>%<a-stem%>:blek Neut-A-Stem ; ! blek?***, blekk?***, ble-k?***, ble-k-k?***, as., st. N. (a): nhd. Blech, Metallblättchen; ne. metal foil (N.); W.: mnd. blek, blik, N., Blech
+blôd%<noun%>%<neut%>%<a-stem%>:blôd Neut-A-Stem ; ! blôd 14, bl-ô-d, as., st. N. (a): nhd. Blut; ne. blood (N.); W.: mnd. blôt, blût, N., Blut, Blutsverwandtschaft, Blutspur, lebendes Wasser
+bôkan%<noun%>%<neut%>%<a-stem%>:bôkan Neut-A-Stem ; ! bôkan* 10, bô-k-an*, as., st. N. (a): nhd. Zeichen; ne. token (N.); W.: mnd. bâke, bâken, F., Zeichen im Wasser, Wegzeichen
+bred%<noun%>%<neut%>%<a-stem%>:bred Neut-A-Stem ; ! bred 1, bre-d, as., st. N. (a): nhd. Brett; ne. board (N.); W.: mnd. bret, N., Brett
+briost%<noun%>%<neut%>%<a-stem%>:briost Neut-A-Stem ; ! briost* 38, breost, brio-s-t*, breo-s-t*, as., st. N. (a): nhd. Brust; ne. breast (N.); W.: mnd. borst, F., Brust, Busen
+brôd%<noun%>%<neut%>%<a-stem%>:brôd Neut-A-Stem ; ! brôd* 13, brô-d*, as., st. N. (a): nhd. Brot; ne. bread (N.); W.: mnd. brôt, N., Brot
+broth%<noun%>%<neut%>%<a-stem%>:broth Neut-A-Stem ; ! broth 1, bro-th, as., st. N. (a): nhd. Brühe; ne. broth (N.); W.: mnd. brot, Sb., Brühe
+brouhūs%<noun%>%<neut%>%<a-stem%>:brouhūs Neut-A-Stem ; ! brouhūs* 2, brou-hū-s*, as., st. N. (a): nhd. Brauhaus; ne. brewery (N.); W.: mnd. brūwhūs, N., Brauhaus, Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+būland%<noun%>%<neut%>%<a-stem%>:būland Neut-A-Stem ; ! būland 1, bū-lan-d, as., st. N. (a): nhd. „Bauland“, Feld, bebautes Land; ne. field (N.); W.: mnd. būwlant, būwelant, N., Ackerland, Brachacker
+buld%<noun%>%<neut%>%<a-stem%>:buld Neut-A-Stem ; ! buld 12, as., st. N. (a): nhd. 1/16 Mark (F.) (2), ein Sechzehntel Mark (N.); W.: mnd. bult, N., F., kleine Geldsorte, Holthausen, Altsächsisches Wörterbuch
+bult%<noun%>%<neut%>%<a-stem%>:bult Neut-A-Stem ; ! bult? (1)***, as., st. N. (a): nhd. Haufe, Haufen, Hügel; ne. hill (N.)
+bundilîn%<noun%>%<neut%>%<a-stem%>:bundilîn Neut-A-Stem ; ! bundilîn* 1, bund-i-lîn*, as., st. N. (a): nhd. „Bündlein“, Bund, Bündel (N.); ne. bundle (N.); W.: s. mnd. bündel, N., Bund, Pack
+būr%<noun%>%<neut%>%<a-stem%>:būr Neut-A-Stem ; ! būr? (1)***, bū-r?***, as., st. N. (a): nhd. Bauer (M.) (2), Haus; ne. house (N.); W.: mnd. būr (1), N., Gehäuse, Werkstatt des Goldschmieds, Bauer (M.) (2), Käfig
+burggiset%<noun%>%<neut%>%<a-stem%>:burggiset Neut-A-Stem ; ! burggiset* 1, burugugiset, bur-g-gi-se-t*, buru-g-u-gi-se-t*, as., st. N. (a): nhd. Burgsitz; ne. castle residence (N.); W.: mnd. borchgesete, N., Burgsitz, Burgmann
+burgwerk%<noun%>%<neut%>%<a-stem%>:burgwerk Neut-A-Stem ; ! burgwerk* 2, bur-g-werk*, as., st. N. (a): nhd. „Burgwerk“, Kastell; ne. citadel (N.); W.: mnd. borchwerk, N., „Burgwerk“, Befestigung, Dienst zum Schutz der Burg
+būri%<noun%>%<neut%>%<a-stem%>:būri Neut-A-Stem ; ! būri?***, bū-r-i?***, as., st. N. (a): nhd. Bauerschaft; ne. peasantry (N.); W.: s. mnd. būr, N., Gehäuse, Werkstatt des Goldschmieds, Bauer (M.) (2), Käfig
+būrmal%<noun%>%<neut%>%<a-stem%>:būrmal Neut-A-Stem ; ! būrmal* 1, bū-r-mal*, as., st. N. (a): nhd. Bauerschaftsgericht, Ortsrecht; ne. peasant jurisdiction (N.); W.: vgl. mnd. būr (1), N., būr (2)
+būrskap%<noun%>%<neut%>%<a-stem%>:būrskap Neut-A-Stem ; ! būrskap* 1, būr-s-kap*, as., st. N. (a): nhd. Nachbarschaft, Bauerschaft; ne. neighbourhood (N.), peasantry (N.); W.: s. mnd. būrschap, būrschop, N., F., Bauerschaft, Gemeinde, Stadtbezirk
+dagathing%<noun%>%<neut%>%<a-stem%>:dagathing Neut-A-Stem ; ! dagathing* 1, d-ag-a-thing*, as., st. N. (a): nhd. Frist; ne. date (N.); W.: mnd. dachdinc, dagedinge, N., Termin, Frist
+dagthingi%<noun%>%<neut%>%<a-stem%>:dagthingi Neut-A-Stem ; ! dagthingi* 1, d-ag-thing-i*, as., st. N. (a): nhd. Termin, bestimmter Tag; ne. date (N.); W.: s. mnd. dachdinc, dagedinge, N., Termin, Frist
+dagwerk%<noun%>%<neut%>%<a-stem%>:dagwerk Neut-A-Stem ; ! dagwerk* 1, d-ag-werk*, as., st. N. (a): nhd. Tagewerk, Tagwerk; ne. daywork (N.); W.: mnd. dachwerk, N., Tagewerk
+dior%<noun%>%<neut%>%<a-stem%>:dior Neut-A-Stem ; ! dior?***, dio-r?***, as., st. N. (a): nhd. Tier; ne. beast (N.); W.: mnd. dêr, dêre, dêrt, deirt, N., Tier
+diskilîn%<noun%>%<neut%>%<a-stem%>:diskilîn Neut-A-Stem ; ! diskilîn 1, disk-i-lîn, as., st. N. (a): nhd. Tischlein; ne. small table (N.)
+dôk%<noun%>%<neut%>%<a-stem%>:dôk Neut-A-Stem ; ! dôk?***, as., st. N. (a)?: nhd. Tuch; ne. cloth (N.); W.: vgl. mnd. dôk, M., Tuch
+dor%<noun%>%<neut%>%<a-stem%>:dor Neut-A-Stem ; ! dor* 3, as., st. N. (a): nhd. Tor (N.); ne. gate (N.), door (N.); W.: vgl. mnd. dor, dore, F., Tor (N.)
+drugithing%<noun%>%<neut%>%<a-stem%>:drugithing Neut-A-Stem ; ! drugithing* 1, drug-i-thing*, as., st. N. (a): nhd. Trug, Trugbild; ne. delusion (N.)
+druhtfolk%<noun%>%<neut%>%<a-stem%>:druhtfolk Neut-A-Stem ; ! druhtfolk* 1, dru-ht-fol-k*, as., st. N. (a): nhd. Volksmenge; ne. crowd (N.)
+durth%<noun%>%<neut%>%<a-stem%>:durth Neut-A-Stem ; ! durth* 3, durd*, as., st. N. (a), st. M. (a)?: nhd. Unkraut; ne. weeds (N. Pl.); W.: mnd. dūrt, Sb., Trespe, Lolium
+ebreofolk%<noun%>%<neut%>%<a-stem%>:ebreofolk Neut-A-Stem ; ! Ebreofolk* 1, Ebreo-fol-k*, as., st. N. (a): nhd. Hebräer; ne. Hebrews (M. Pl.)
+êgan%<noun%>%<neut%>%<a-stem%>:êgan Neut-A-Stem ; ! êgan* (1) 3, êg-an*, as., st. N. (a): nhd. Eigen, Habe, Gut; ne. property (N.); W.: mnd. eigen, N., Eigen, Habe
+êkhorn%<noun%>%<neut%>%<a-stem%>:êkhorn Neut-A-Stem ; ! êkhorn?***, êk-hor-n?***, as., st. N. (a)?: nhd. Eichhorn; ne. squirrel (N.); W.: mnd. êkhorn, ekeren, eckeren êkerken, N., M., Eichhorn
+ėldibarn%<noun%>%<neut%>%<a-stem%>:ėldibarn Neut-A-Stem ; ! ėldibarn* 13, ėl-d-i-bar-n*, as., st. N. (a): nhd. Menschenkind; ne. human child (N.)
+ėllian%<noun%>%<neut%>%<a-stem%>:ėllian Neut-A-Stem ; ! ėllian* 2, ėl-li-an*, as., st. N. (a): nhd. Mut; ne. courage (N.); W.: mnd. ellen, N., Kraft, Kühnheit
+êmbar%<noun%>%<neut%>%<a-stem%>:êmbar Neut-A-Stem ; ! êmbar* 42, emmar, êm-b-ar*, em-m-ar*, as., st. N. (a): nhd. Eimer (M.); ne. bucket (N.); W.: mnd. emmer, M., Eimer (M.)
+eoridfolk%<noun%>%<neut%>%<a-stem%>:eoridfolk Neut-A-Stem ; ! eoridfolk* 1, ehuridfolk, eo-rid-fol-k*, ehu-rid-fol-k*, as., st. N. (a): nhd. „Pferdereitschar“, Reitergeschwader; ne. cavalry (N.)
+êr%<noun%>%<neut%>%<a-stem%>:êr Neut-A-Stem ; ! êr* (2) 1, as., st. N. (a): nhd. Erz; ne. ore (N.); W.: mnd. êr, N., Erz
+erdhôn%<noun%>%<neut%>%<a-stem%>:erdhôn Neut-A-Stem ; ! erdhôn* 1, erthhôn, er-d-hôn*, er-th-hôn*, as., st. N. (a): nhd. Erdhuhn, Ibis; ne. ibis (N.), partridge (N.)
+erthbath%<noun%>%<neut%>%<a-stem%>:erthbath Neut-A-Stem ; ! erthbath 1, er-th-bath, as., st. N. (a): nhd. „Erdbad“, Warmbad; ne. warmbath (N.)
+erthgraf%<noun%>%<neut%>%<a-stem%>:erthgraf Neut-A-Stem ; ! erthgraf* 1, er-th-graf*, as., st. N. (a): nhd. Erdgrab; ne. grave (N.)
+erthlîvigiskap%<noun%>%<neut%>%<a-stem%>:erthlîvigiskap Neut-A-Stem ; ! erthlîvigiskap* 1, erthlîƀigiskap, er-th-lîvi-gi-s-kap*, er-th-lîƀi-gi-s-kap*, as., st. N. (a): nhd. „Erdenlebensgeschick“, Erdenschicksal; ne. earthly fate (N.)
+ėtisk%<noun%>%<neut%>%<a-stem%>:ėtisk Neut-A-Stem ; ! ėtisk?***, ėzk?***, ėtis-k?***, ėz-k?***, as., st. N. (a): nhd. „Esch“, Saatfeld; ne. seedfield (N.); W.: mnd. êsch, M., „Esch“, Saatfeld
+ettar%<noun%>%<neut%>%<a-stem%>:ettar Neut-A-Stem ; ! ettar* 1, et-t-ar*, as., st. N. (a): nhd. Eiter; ne. pus (N.); W.: mnd. etter, M., Eiter
+ėthilifolk%<noun%>%<neut%>%<a-stem%>:ėthilifolk Neut-A-Stem ; ! ėthilifolk* 1, ėthi-l-i-fol-k*, as., st. N. (a): nhd. „Edelvolk“, edles Volk; ne. noble folks (N. Pl.)
+êthword%<noun%>%<neut%>%<a-stem%>:êthword Neut-A-Stem ; ! êthword* 1, ê-th-wor-d*, as., st. N. (a): nhd. „Eidwort“, Schwur; ne. oath (N.)
+fahs%<noun%>%<neut%>%<a-stem%>:fahs Neut-A-Stem ; ! fahs 1, fah-s, as., st. N. (a): nhd. Haupthaar, Haar (N.); ne. hair (N.)
+fat%<noun%>%<neut%>%<a-stem%>:fat Neut-A-Stem ; ! fat* 3, as., st. N. (a): nhd. Fass, Gefäß; ne. cask (N.), vat (N.), vessel (N.); W.: mnd. vat, N., Fass
+fehuhūs%<noun%>%<neut%>%<a-stem%>:fehuhūs Neut-A-Stem ; ! fehuhūs?***, feh-u-hū-s?***, as., st. N. (a): nhd. Viehhaus; ne. stable (N.); W.: mnd. vêhūs, N., Viehhaus, Stallgebäude
+fêkan%<noun%>%<neut%>%<a-stem%>:fêkan Neut-A-Stem ; ! fêkan* 4, fêk-an*, as., st. N. (a): nhd. Arglist; ne. craftiness (N.)
+fel%<noun%>%<neut%>%<a-stem%>:fel Neut-A-Stem ; ! fel 2, fell, fel-l, as., st. N. (a): nhd. Fell, Haut; ne. fur (N.), skin (N.); W.: mnd. vel, N., Fell
+feld%<noun%>%<neut%>%<a-stem%>:feld Neut-A-Stem ; ! feld* 11, fel-d*, as., st. N. (a): nhd. Feld; ne. field (N.); W.: mnd. velt, N., Feld
+feldhôn%<noun%>%<neut%>%<a-stem%>:feldhôn Neut-A-Stem ; ! feldhôn* 1, fel-d-hôn*, as., st. N. (a): nhd. Feldhuhn; ne. partridge (N.); W.: mnd. velthôn, N., Feldhuhn
+ferah%<noun%>%<neut%>%<a-stem%>:ferah Neut-A-Stem ; ! ferah (2) 53, ferh, fer-ah, fer-h, as., st. N. (a): nhd. Leben, Seele, Geist, Verstand; ne. life (N.), spirit (N.), mind (N.)
+fern%<noun%>%<neut%>%<a-stem%>:fern Neut-A-Stem ; ! fern* (2) 8, as., st. N. (a): nhd. Hölle; ne. hell (N.)
+ferndal%<noun%>%<neut%>%<a-stem%>:ferndal Neut-A-Stem ; ! ferndal* 1, fern-dal*, as., st. N. (a): nhd. Höllental, Höllengrund; ne. bottom (N.) of the hell
+fêver%<noun%>%<neut%>%<a-stem%>:fêver Neut-A-Stem ; ! fêver* 2, fêƀer*, as., st. N. (a): nhd. Fieber; ne. fever (N.); W.: mnd. vever, N., Fieber
+filtwerk%<noun%>%<neut%>%<a-stem%>:filtwerk Neut-A-Stem ; ! filtwerk*, fil-t-werk*, as., st. N. (a): nhd. Filz; ne. felt (N.), wool (N.); W.: mnd. viltwerk, N., Filz
+finistar%<noun%>%<neut%>%<a-stem%>:finistar Neut-A-Stem ; ! finistar* (1) 1, fin-i-st-ar*, as., st. N. (a): nhd. Finsternis; ne. darkness (N.); W.: mnd. vinster, N., Finsternis
+firinwerk%<noun%>%<neut%>%<a-stem%>:firinwerk Neut-A-Stem ; ! firinwerk* 16, fir-in-werk*, as., st. N. (a): nhd. „Frevelwerk“, Freveltat; ne. evil deed (N.)
+firinword%<noun%>%<neut%>%<a-stem%>:firinword Neut-A-Stem ; ! firinword* 2, fir-in-wor-d*, as., st. N. (a): nhd. Frevelwort; ne. evil word (N.)
+fiur%<noun%>%<neut%>%<a-stem%>:fiur Neut-A-Stem ; ! fiur 27, as., st. N. (a): nhd. Feuer; ne. fire (N.); W.: mnd. vūr, viur, N., Feuer
+flêsk%<noun%>%<neut%>%<a-stem%>:flêsk Neut-A-Stem ; ! flêsk 11, flê-sk, as., st. N. (a): nhd. Fleisch; ne. flesh (N.); W.: mnd. vlêsch, vlês, N., Fleisch
+flôtskip%<noun%>%<neut%>%<a-stem%>:flôtskip Neut-A-Stem ; ! flôtskip* 1, flô-t-ski-p*, as., st. N. (a): nhd. „Floßschiff“, Nachen; ne. skiff (N.)
+fluhthūs%<noun%>%<neut%>%<a-stem%>:fluhthūs Neut-A-Stem ; ! fluhthūs* 1, flu-h-t-hū-s*, as., st. N. (a): nhd. „Fluchthaus“, Zufluchtsort; ne. retreat (N.)
+folk%<noun%>%<neut%>%<a-stem%>:folk Neut-A-Stem ; ! folk 140, fol-k, as., st. N. (a): nhd. Volk, Schar (F.) (1), Menge; ne. people (N.), crowd (N.); W.: mnd. volk, N., Volk
+forawerk%<noun%>%<neut%>%<a-stem%>:forawerk Neut-A-Stem ; ! forawerk* 24, for-a-werk*, as., st. N. (a): nhd. Vorwerk; ne. outwork (N.); W.: mnd. vorwerk, N., Vorwerk
+ford%<noun%>%<neut%>%<a-stem%>:ford Neut-A-Stem ; ! ford* 2, furd, for-d*, fur-d*, as., st. N. (a)?, st. M. (i)?: nhd. Furt; ne. ford (N.); W.: mnd. vort, M., F., Furt
+forthgiskod%<noun%>%<neut%>%<a-stem%>:forthgiskod Neut-A-Stem ; ! forthgiskod*? 1, forthgeskod, for-th-gi-skod*?, for-th-ge-skod*, as., st. N. (a): nhd. „Fortgeschüttetes“, hervorgeschwemmter Schutt; ne. flotsam (N.)
+fôster%<noun%>%<neut%>%<a-stem%>:fôster Neut-A-Stem ; ! fôster?***, fô-st-er?***, as., st. N. (a): nhd. Kind; ne. child (N.); W.: s. mnd. vodester, F., Nährerin, Amme
+fôther%<noun%>%<neut%>%<a-stem%>:fôther Neut-A-Stem ; ! fôther* 1, as., st. N. (a): nhd. Fuder; ne. fudder (N.), load (N.); W.: mnd. vôder, voder, N., Fuder
+frêsland%<noun%>%<neut%>%<a-stem%>:frêsland Neut-A-Stem ; ! Frêsland?***, Frês-lan-d?***, as., st. N. (a): nhd. Friesland; ne. Frisia (N.); W.: mnd. Vrêslant, N., Friesland
+frithubarn%<noun%>%<neut%>%<a-stem%>:frithubarn Neut-A-Stem ; ! frithubarn 20, fri-thu-bar-n, as., st. N. (a): nhd. Friedenskind; ne. child (N.) of peace
+ful%<noun%>%<neut%>%<a-stem%>:ful Neut-A-Stem ; ! ful* (1) 2, full, ful-l*, as., st. N. (a): nhd. Becher, Krug (M.) (1); ne. mug (N.), jug (N.)
+fūstilîn%<noun%>%<neut%>%<a-stem%>:fūstilîn Neut-A-Stem ; ! fūstilîn* 1, fūst-i-lîn*, as., st. N. (a): nhd. „Fäustlein“, Fäustchen; ne. little fist (N.)
+galilealand%<noun%>%<neut%>%<a-stem%>:galilealand Neut-A-Stem ; ! Galilealand* 20, Galilea-lan-d*, as., st. N. (a): nhd. „Galiläaland“, Galiläa; ne. Galilee (Sb.)
+gaman%<noun%>%<neut%>%<a-stem%>:gaman Neut-A-Stem ; ! gaman 4, gam-an, as., st. N. (a): nhd. Lust, Lustbarkeit; ne. lust (N.), game (N.)
+garn%<noun%>%<neut%>%<a-stem%>:garn Neut-A-Stem ; ! garn?***, gar-n?***, as., st. N. (a): nhd. Garn; ne. yarn (N.); W.: mnd. garn, N., Garn, Strick, Netz
+gat%<noun%>%<neut%>%<a-stem%>:gat Neut-A-Stem ; ! gat* 1, as., st. N. (a): nhd. Loch, Öffnung; ne. hole (N.); W.: mnd. gat, N., Loch
+geder%<noun%>%<neut%>%<a-stem%>:geder Neut-A-Stem ; ! geder*, iedar, iodar, ged-er*, ied-ar*, iod-ar*, as., st. N. (a): nhd. Euter; ne. udder (N.); W.: mnd. jeder, N., Euter
+geld%<noun%>%<neut%>%<a-stem%>:geld Neut-A-Stem ; ! geld* 20, as., st. N. (a): nhd. Bezahlung, Lohn, Opfer; ne. reward (N.), pay (N.), sacrifice (N.); W.: mnd. gelt, N., Vergeltung, Bezahlung, Kaufpreis
+gelp%<noun%>%<neut%>%<a-stem%>:gelp Neut-A-Stem ; ! gelp* 8, gel-p*, as., st. N. (a): nhd. Hohn, Anmaßung, Prahlerei; ne. scorn (N.), boasting (N.); W.: mnd. gelp, M., Übermut
+gêr%<noun%>%<neut%>%<a-stem%>:gêr Neut-A-Stem ; ! gêr (1) 10, jâr, g-ê-r, j-â-r*, as., st. N. (a): nhd. Jahr; ne. year (N.); W.: mnd. jâr, N., Jahr
+gêrtal%<noun%>%<neut%>%<a-stem%>:gêrtal Neut-A-Stem ; ! gêrtal* 3, jârtal, g-ê-r-ta-l*, j-â-r-ta-l*, as., st. N. (a): nhd. Jahr; ne. year (N.); W.: mnd. jârtal, F., M., Jahr
+gibed%<noun%>%<neut%>%<a-stem%>:gibed Neut-A-Stem ; ! gibed* 5, gi-bed*, as., st. N. (a): nhd. Gebet; ne. prayer (N.); W.: mnd. gebet, N., Gebet
+giberg%<noun%>%<neut%>%<a-stem%>:giberg Neut-A-Stem ; ! giberg* 1, gi-ber-g*, as., st. N. (a): nhd. Hülle; ne. cover (N.)
+gibod%<noun%>%<neut%>%<a-stem%>:gibod Neut-A-Stem ; ! gibod 19, gi-bod, as., st. N. (a): nhd. Gebot; ne. order (N.); W.: mnd. gebot, gebode, N., Gebot
+gibodskėpi%<noun%>%<neut%>%<a-stem%>:gibodskėpi Neut-A-Stem ; ! gibodskėpi* 9, gi-bod-s-kėp-i*, as., st. N. (a): nhd. Botschaft, Befehl; ne. message (N.), order (N.)
+gibrak%<noun%>%<neut%>%<a-stem%>:gibrak Neut-A-Stem ; ! gibrak* 1, gi-bra-k*, as., st. N. (a): nhd. Gedränge; ne. crowd (N.)
+gibund%<noun%>%<neut%>%<a-stem%>:gibund Neut-A-Stem ; ! gibund* 2, gi-bund*, as., st. N. (a): nhd. Bund, Bündel (N.); ne. bunch (N.), bundle (N.); W.: mnd. gebunt, N., Bündel (N.) (Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T., Bd. 1, 1968f., S. 1491)
+gidêl%<noun%>%<neut%>%<a-stem%>:gidêl Neut-A-Stem ; ! gidêl* 1, gi-dê-l*, as., st. N. (a): nhd. Teil, Anteil; ne. part (N.)
+gidrog%<noun%>%<neut%>%<a-stem%>:gidrog Neut-A-Stem ; ! gidrog* 3, gi-drog*, as., st. N. (a): nhd. Erscheinung, Trugbild; ne. delusion (N.); W.: vgl. mnd. gedrôchnisse, Sb., Trugbild
+gidwerg%<noun%>%<neut%>%<a-stem%>:gidwerg Neut-A-Stem ; ! gidwerg* 1, gi-dwerg*, as., st. N. (a): nhd. Zwerg; ne. dwarf (N.)
+gihlun%<noun%>%<neut%>%<a-stem%>:gihlun Neut-A-Stem ; ! gihlun* 2, gihlunn, gi-hl-u-n*, gi-hl-u-n-n*, as., st. N. (a): nhd. Getöse; ne. noise (N.); W.: mnd. gelumme, N., Lärm, Tumult
+gilag%<noun%>%<neut%>%<a-stem%>:gilag Neut-A-Stem ; ! gilag* 1, gi-lag*, as., st. N. (a) (i): nhd. Schicksal; ne. fate (N.)
+gimak%<noun%>%<neut%>%<a-stem%>:gimak Neut-A-Stem ; ! gimak? (1)***, gi-mak?***, as., st. N. (a): nhd. Schicklichkeit; ne. decency (N.)
+gimang%<noun%>%<neut%>%<a-stem%>:gimang Neut-A-Stem ; ! gimang 16, gi-m-a-ng, as., st. N. (a): nhd. Menge, Schar (F.) (1), Gesellschaft; ne. crowd (N.), troop (N.)
+gimet%<noun%>%<neut%>%<a-stem%>:gimet Neut-A-Stem ; ! gimet* (1) 2, gi-me-t*, as., st. N. (a): nhd. Maß; ne. measure (N.)
+giset%<noun%>%<neut%>%<a-stem%>:giset Neut-A-Stem ; ! giset?***, gi-se-t?***, as., st. N. (a): nhd. Sitz; ne. seat (N.); W.: s. mnd. gesetze, N., Sitz
+giskap%<noun%>%<neut%>%<a-stem%>:giskap Neut-A-Stem ; ! giskap* 6, gi-s-kap*, as., st. N. (a): nhd. Geschick, Schöpfung, Aussehen; ne. destiny (N.), creation (N.)
+giskot%<noun%>%<neut%>%<a-stem%>:giskot Neut-A-Stem ; ! giskot* 2, gi-sko-t*, as., st. N. (a): nhd. Steuer (F.), Abgabe; ne. tax (N.); W.: mnd. geschot, N., Schoss, Steuer (F.)
+giskrif%<noun%>%<neut%>%<a-stem%>:giskrif Neut-A-Stem ; ! giskrif* 1, gi-s-kri-f*, as., st. N. (a): nhd. Schreiben; ne. scripture (N.); W.: mnd. geschrif, N., Schreiben, (Gallée, J., Vorstudien zu einem altniederdeutschen Wörterbuch, 1903, S. 107)
+gispil%<noun%>%<neut%>%<a-stem%>:gispil Neut-A-Stem ; ! gispil* 1, gespil, gi-spil*, ge-spil, as., st. N. (a): nhd. Spiel; ne. game (N.); W.: mnd. gespil, N., Spiel
+giswerk%<noun%>%<neut%>%<a-stem%>:giswerk Neut-A-Stem ; ! giswerk* 3, gi-swerk*, as., st. N. (a): nhd. Finsternis; ne. darkness (N.)
+gital%<noun%>%<neut%>%<a-stem%>:gital Neut-A-Stem ; ! gital (1) 2, gi-ta-l, as., st. N. (a): nhd. Zahl, Reihe; ne. number (N.), row (N.); W.: vgl. mnd. getal, N., M., Zahl
+gitiuh%<noun%>%<neut%>%<a-stem%>:gitiuh Neut-A-Stem ; ! gitiuh* 1, gitiuht, gi-tiu-h*, gi-tiu-h-t, as., st. N. (a)?, st. M. (a?) (i?): nhd. Aufwand; ne. expense (N.)
+gitrôst%<noun%>%<neut%>%<a-stem%>:gitrôst Neut-A-Stem ; ! gitrôst* 1, gi-trô-st*, as., st. N. (a): nhd. Schar (F.) (1), Gefolge; ne. troop (N.), followers (M. Pl.)
+githring%<noun%>%<neut%>%<a-stem%>:githring Neut-A-Stem ; ! githring* 3, gi-thri-ng*, as., st. N. (a): nhd. Gedränge; ne. crowd (N.); W.: s. mnd. gedrenge, N., Gedränge, Bedrängung
+githwing%<noun%>%<neut%>%<a-stem%>:githwing Neut-A-Stem ; ! githwing* 11, gi-thwing*, as., st. N. (a): nhd. Not, Zwang; ne. need (N.), force (N.); W.: vgl. mnd. gedwank, N., Zwang
+giwand%<noun%>%<neut%>%<a-stem%>:giwand Neut-A-Stem ; ! giwand* 12, gi-w-a-nd*, as., st. N. (a): nhd. Ende, Zweifel, Bewandtnis; ne. end (N.), doubt (N.), condition (N.)
+giwer%<noun%>%<neut%>%<a-stem%>:giwer Neut-A-Stem ; ! giwer* 2, giwerr, gi-wer*, gi-wer-r*, as., st. N. (a): nhd. Aufruhr; ne. uproar (N.); W.: mnd. gewer, N., Unruhe, Streit, Aufstand
+giwerk%<noun%>%<neut%>%<a-stem%>:giwerk Neut-A-Stem ; ! giwerk* 5, gi-werk*, as., st. N. (a): nhd. Werk, Handlung; ne. work (N.), act (N.)
+giwin%<noun%>%<neut%>%<a-stem%>:giwin Neut-A-Stem ; ! giwin* 12, giwinn, gi-w-i-n*, gi-w-i-n-n*, as., st. N. (a): nhd. Streit, Kampf; ne. fight (N.)
+glas%<noun%>%<neut%>%<a-stem%>:glas Neut-A-Stem ; ! glas 4, gles, gla-s, gle-s, as., st. N. (a): nhd. Glas; ne. glass (N.); W.: mnd. glas, N., Glas
+gôd%<noun%>%<neut%>%<a-stem%>:gôd Neut-A-Stem ; ! gôd (1) 29, as., st. N. (a): nhd. Gutes, Gut; ne. good (N.); W.: mnd. gôt, N., Gutes, Gut, Vermögen, Besitz
+gôdspel%<noun%>%<neut%>%<a-stem%>:gôdspel Neut-A-Stem ; ! gôdspel* 1, godspell, gôd-s-pel*, god-s-pel-l*, as., st. N. (a): nhd. „Gutrede“, Evangelium; ne. gospel (N.)
+gôdwerk%<noun%>%<neut%>%<a-stem%>:gôdwerk Neut-A-Stem ; ! gôdwerk?***, gôd-werk?***, as., st. N. (a): nhd. „Gutwerk“; ne. goodwork (N.)
+gold%<noun%>%<neut%>%<a-stem%>:gold Neut-A-Stem ; ! gold* 10, gol-d*, as., st. N. (a): nhd. Gold; ne. gold (N.); W.: mnd. golt, gôlt, N., Gold
+goldfat%<noun%>%<neut%>%<a-stem%>:goldfat Neut-A-Stem ; ! goldfat* 1, gol-d-fat*, as., st. N. (a): nhd. „Goldfass“, Goldgefäß; ne. golden vessel (N.)
+gornword%<noun%>%<neut%>%<a-stem%>:gornword Neut-A-Stem ; ! gornword* 2, gorn-wor-d*, as., st. N. (a): nhd. „Trauerwort“, Klage; ne. mourning (N.)
+graf%<noun%>%<neut%>%<a-stem%>:graf Neut-A-Stem ; ! graf 26, as., st. N. (a): nhd. Grab; ne. grave (N.); W.: mnd. graf, N., Grab
+grafîsarn%<noun%>%<neut%>%<a-stem%>:grafîsarn Neut-A-Stem ; ! grafîsarn* 4, graf-îs-arn*, as., st. N. (a): nhd. „Grabeisen“, Grabstichel, Lanzette; ne. carving-iron (N.); W.: mnd. grâfîsern, grâveîsern, N., Grabstichel
+gras%<noun%>%<neut%>%<a-stem%>:gras Neut-A-Stem ; ! gras* 1, gra-s*, as., st. N. (a): nhd. Gras; ne. grass (N.); W.: mnd. gras, grâs, gres, N., Gras, Weide (F.) (2)
+grimfolk%<noun%>%<neut%>%<a-stem%>:grimfolk Neut-A-Stem ; ! grimfolk* 1, grimmfolk, grim-fol-k*, grim-m-fol-k*, as., st. N. (a): nhd. feindliches Volk; ne. hostile people (N.)
+grimwerk%<noun%>%<neut%>%<a-stem%>:grimwerk Neut-A-Stem ; ! grimwerk* 3, grimmwerk, grim-werk*, grim-m-werk*, as., st. N. (a): nhd. böse Tat; ne. evil deed (N.)
+griot%<noun%>%<neut%>%<a-stem%>:griot Neut-A-Stem ; ! griot 8, gri-o-t, as., st. N. (a), st. M.? (a?) (i?): nhd. Grieß, Sand, Ufer, Boden; ne. grits (N. Pl.), sand (N.), shore (N.), ground (N.); W.: mnd. grêt (1), Sb., Korn, Sandkorn, Meeressand
+gund%<noun%>%<neut%>%<a-stem%>:gund Neut-A-Stem ; ! gund* 1, as., st. N. (a), st. M.? (a): nhd. Geschwür, Vereiterung, Eiter; ne. boil (N.), pus (N.)
+halsgold%<noun%>%<neut%>%<a-stem%>:halsgold Neut-A-Stem ; ! halsgold* 1, hal-s-gol-d*, as., st. N. (a): nhd. „Halsgold“, goldene Halskette; ne. golden neckchain (N.); W.: mnd. halsgolt, N., goldene Halskette
+handmahal%<noun%>%<neut%>%<a-stem%>:handmahal Neut-A-Stem ; ! handmahal 3, hand-mah-al, as., st. N. (a): nhd. Versammlungsstätte; ne. convention hall (N.); W.: mnd. hantmâl, hantgemâl, N., freies Stammgut, Erbsitz
+handmėgin%<noun%>%<neut%>%<a-stem%>:handmėgin Neut-A-Stem ; ! handmėgin* 5, handmagan, hand-mėg-in*, hand-mag-an*, as., st. N. (a): nhd. „Handkraft“, Kraft der Hände; ne. hand power (N.)
+harmwerk%<noun%>%<neut%>%<a-stem%>:harmwerk Neut-A-Stem ; ! harmwerk* 2, harm-werk*, as., st. N. (a): nhd. „Harmwerk“, Übeltat; ne. evil deed (N.)
+hart%<noun%>%<neut%>%<a-stem%>:hart Neut-A-Stem ; ! hart* 1, as., st. N. (a): nhd. Harz; ne. resin (N.); W.: mnd. hart, hars, N., Harz
+hasalhôn%<noun%>%<neut%>%<a-stem%>:hasalhôn Neut-A-Stem ; ! hasalhôn* 1, hasal-hôn*, as., st. N. (a): nhd. Haselhuhn; ne. hazelhen (N.); W.: mnd. hasselhôn, N., Haselhuhn
+hathilîn%<noun%>%<neut%>%<a-stem%>:hathilîn Neut-A-Stem ; ! hathilîn* 1, hathi-lîn*, as., st. N. (a): nhd. „Hadernlein“, Hadern (M.), Lumpen (M.); ne. rag (N.)
+havanskėrvin%<noun%>%<neut%>%<a-stem%>:havanskėrvin Neut-A-Stem ; ! havanskėrvin* 2, haƀanskėrvin, hav-an-skėrv-in*, haƀ-an-skėrv-in*, as., st. N. (a): nhd. Topfscherbe; ne. potsherd (N.)
+hêl%<noun%>%<neut%>%<a-stem%>:hêl Neut-A-Stem ; ! hêl* (1) 1, hê-l*, as., st. N. (a): nhd. Vorzeichen; ne. omen (N.); W.: mnd. hêil, M., seltener N., Heil, Segen, Glück
+hėldor%<noun%>%<neut%>%<a-stem%>:hėldor Neut-A-Stem ; ! hėldor* 1, hėlldor, hėl-dor*, hėl-l-dor*, as., st. N. (a): nhd. Höllentor; ne. hellgate (N.)
+hėllifiur%<noun%>%<neut%>%<a-stem%>:hėllifiur Neut-A-Stem ; ! hėllifiur* 1, hėl-l-i-fiur*, as., st. N. (a): nhd. Höllenfeuer; ne. hellfire (N.); W.: mnd. hellevür, N., Höllenfeuer
+hėlligithwing%<noun%>%<neut%>%<a-stem%>:hėlligithwing Neut-A-Stem ; ! hėlligithwing* 4, hėl-l-i-gi-thwing*, as., st. N. (a): nhd. „Höllenzwing“, Höllenzwang; ne. hellforce (N.)
+hêm%<noun%>%<neut%>%<a-stem%>:hêm Neut-A-Stem ; ! hêm 8, hê-m, as., st. N. (a): nhd. Heim, Heimat; ne. home (N.); W.: mnd. hême, hêime, hêm, hêim, N., Wohnstätte, Heimat
+hėribôkan%<noun%>%<neut%>%<a-stem%>:hėribôkan Neut-A-Stem ; ! hėribôkan* 1, hėr-i-bô-k-an*, as., st. N. (a): nhd. „Heerzeichen“, Feldzeichen; ne. military badge (N.)
+hėritiuh%<noun%>%<neut%>%<a-stem%>:hėritiuh Neut-A-Stem ; ! hėritiuh* 1, hėr-i-tiu-h*, as., st. N. (a): nhd. Heeresproviant; ne. provisions (N. Pl.)
+herusêl%<noun%>%<neut%>%<a-stem%>:herusêl Neut-A-Stem ; ! herusêl* 1, heru-sê-l*, as., st. N. (a): nhd. „Schwertseil“, verderbliches Seil; ne. fatal rope (N.)
+hêt%<noun%>%<neut%>%<a-stem%>:hêt Neut-A-Stem ; ! hêt? (1) 4, hê-t?, as., st. N. (a): nhd. Hitze; ne. heat (N.); W.: vgl. mnd. hitte, hette, hête, heite, F., Hitze
+hevan%<noun%>%<neut%>%<a-stem%>:hevan Neut-A-Stem ; ! hevan* 11, heƀan, he-v-an*, he-ƀ-an*, as., st. N. (a): nhd. Himmel; ne. heaven (N.); W.: mnd. hêven, M., Himmel
+hevantungal%<noun%>%<neut%>%<a-stem%>:hevantungal Neut-A-Stem ; ! hevantungal* 2, heƀantungal, he-v-an-tungal*, he-ƀ-an-tungal*, as., st. N. (a): nhd. Stern (M.) (1); ne. star (N.)
+hėvild%<noun%>%<neut%>%<a-stem%>:hėvild Neut-A-Stem ; ! hėvild* 1, hėƀild, hėv-ild*, hėƀ-ild*, as., st. N. (a): nhd. Einschlag, Zettel, Litze; ne. lace (N.)
+himiltungal%<noun%>%<neut%>%<a-stem%>:himiltungal Neut-A-Stem ; ! himiltungal 1, hi-mil-tungal, as., st. N. (a): nhd. Himmelsgestirn; ne. star (N.)
+himilwolkan%<noun%>%<neut%>%<a-stem%>:himilwolkan Neut-A-Stem ; ! himilwolkan* 1, hi-mil-wolk-an*, as., st. N. (a): nhd. Himmelswolke; ne. cloud (N.)
+hlid%<noun%>%<neut%>%<a-stem%>:hlid Neut-A-Stem ; ! hlid 2, h-li-d, as., st. N. (a): nhd. Lid, Deckel, Verschluss; ne. lid (N.), cover (N.); W.: mnd. lit, let, lêt, N., Deckel, Lid
+hlior%<noun%>%<neut%>%<a-stem%>:hlior Neut-A-Stem ; ! hlior* 2, hleor, hli-o-r*, hle-o-r*, as., st. N. (a): nhd. Wange; ne. cheek (N.)
+hlūdihorn%<noun%>%<neut%>%<a-stem%>:hlūdihorn Neut-A-Stem ; ! hlūdihorn* 2, hlū-d-i-hor-n*, as., st. N. (a): nhd. Blashorn; ne. horn (N.)
+hlus%<noun%>%<neut%>%<a-stem%>:hlus Neut-A-Stem ; ! hlus 1, as., st. N. (a): nhd. Schilf, Liesch; ne. reed (N.), sedge (N.); W.: mnd. lus, lüsch, Sb., Schilf, Binse, Liesch
+hnėppin%<noun%>%<neut%>%<a-stem%>:hnėppin Neut-A-Stem ; ! hnėppin* 4, hnėp-p-in*, as., st. N. (a): nhd. Näpfchen, Schüssel; ne. bowl (N.) (1)
+holt%<noun%>%<neut%>%<a-stem%>:holt Neut-A-Stem ; ! holt* 5, hol-t*, as., st. N. (a): nhd. Holz, Gehölz; ne. wood (N.); W.: mnd. holt, N., Holz, Gehölz
+hôn%<noun%>%<neut%>%<a-stem%>:hôn Neut-A-Stem ; ! hôn 9, as., st. N. (a): nhd. Huhn; ne. hen (N.); W.: mnd. hôn (1), hůn, N., Huhn
+hôr%<noun%>%<neut%>%<a-stem%>:hôr Neut-A-Stem ; ! hôr? (1)***, hô-r?***, as., st. N. (a), st. M. (a?): nhd. „Hurerei“, Unzucht, Ehebruch; ne. „whoredom“ (N.), adultery (N.); W.: mnd. hôre (2), N., Hurerei
+hôr%<noun%>%<neut%>%<a-stem%>:hôr Neut-A-Stem ; ! hôr? (2)***, hô-r?***, as., st. N. (a): nhd. Hure, Dirne; ne. whore (F.)
+hord%<noun%>%<neut%>%<a-stem%>:hord Neut-A-Stem ; ! hord 8, ho-r-d, as., st. N. (a): nhd. „Hort“, Schatz, Gedanke; ne. treasure (N.), thought (N.); W.: vgl. mnd. hort, M., Schutz, sicherer Grund
+hôrhūs%<noun%>%<neut%>%<a-stem%>:hôrhūs Neut-A-Stem ; ! hôrhūs* 1, hô-r-hū-s*, as., st. N. (a): nhd. Hurenhaus; ne. whorehouse (N.); W.: mnd. hôrhūs, N., Hurenhaus, Bordell
+horn%<noun%>%<neut%>%<a-stem%>:horn Neut-A-Stem ; ! horn 1, hor-n, as., st. N. (a): nhd. Horn; ne. horn (N.); W.: mnd. hôrn, N., Horn
+hoskword%<noun%>%<neut%>%<a-stem%>:hoskword Neut-A-Stem ; ! hoskword* 2, hosk-wor-d*, as., st. N. (a): nhd. Hohnwort; ne. mocking (N.)
+hôvid%<noun%>%<neut%>%<a-stem%>:hôvid Neut-A-Stem ; ! hôvid* 19, hôƀid, hôv-id*, hôƀ-id, as., st. N. (a): nhd. Haupt, Spitze; ne. head (N.), top (N.); W.: mnd. hovet, hövet, N., Haupt, Kopf, Spitze
+hôvidmâl%<noun%>%<neut%>%<a-stem%>:hôvidmâl Neut-A-Stem ; ! hôvidmâl* 1, hôƀidmâl, hôv-id-mâl*, hôƀ-id-mâl, as., st. N. (a): nhd. „Hauptmal“, Kopfbild; ne. image (N.) of the head
+hriod%<noun%>%<neut%>%<a-stem%>:hriod Neut-A-Stem ; ! hriod?***, as., st. N. (a): nhd. Ried (N.) (1), Reet; ne. reed (N.); W.: vgl. mnd. rêt, N. und M., Schilfrohr, Ried (N.) (1), Reet
+hriodgras%<noun%>%<neut%>%<a-stem%>:hriodgras Neut-A-Stem ; ! hriodgras* 3, hriod-gras*, as., st. N. (a): nhd. Riedgras; ne. reedgrass (N.)
+hrisli%<noun%>%<neut%>%<a-stem%>:hrisli Neut-A-Stem ; ! hrisli* 1, hri-s-li*, as., st. N. (a): nhd. Pflanzenreis (N.); ne. sprig (N.)
+hros%<noun%>%<neut%>%<a-stem%>:hros Neut-A-Stem ; ! hros 10, hross, hros-s, hors*, hers*, as., st. N. (a): nhd. Ross, Pferd; ne. horse (N.); W.: vgl. mnd. ros, N., Ross, Pferd
+hullidôk%<noun%>%<neut%>%<a-stem%>:hullidôk Neut-A-Stem ; ! hullidôk 1, hul-l-i-dôk, as., st. N. (a): nhd. „Hülltuch“, Schleier; ne. veil (N.)
+hūrland%<noun%>%<neut%>%<a-stem%>:hūrland Neut-A-Stem ; ! hūrland* 7, hūr-lan-d*, as., st. N. (a): nhd. „Heuerland“, Pachtland; ne. hired land (N.); W.: mnd. hürlant, N., Pachtland
+hurnidskip%<noun%>%<neut%>%<a-stem%>:hurnidskip Neut-A-Stem ; ! hurnidskip 2, hur-n-id-ski-p, as., st. N. (a): nhd. gehörntes Schiff; ne. prowed ship (N.)
+hūs%<noun%>%<neut%>%<a-stem%>:hūs Neut-A-Stem ; ! hūs 52, hū-s, as., st. N. (a): nhd. Haus; ne. house (N.); W.: mnd. hūs, N., Haus
+infern%<noun%>%<neut%>%<a-stem%>:infern Neut-A-Stem ; ! infern* 2, as., st. N. (a): nhd. „Inferno“, Hölle; ne. hell (N.)
+îs%<noun%>%<neut%>%<a-stem%>:îs Neut-A-Stem ; ! îs 1, as., st. N. (a): nhd. Eis, i-Rune; ne. i-rune (N.), ice (N.); W.: mnd. îs, N., Eis
+îsarn%<noun%>%<neut%>%<a-stem%>:îsarn Neut-A-Stem ; ! îsarn 2, îs-arn, as., st. N. (a): nhd. Eisen; ne. iron (N.); W.: mnd. îsern, îseren, îsen, N., Eisen
+îsbên%<noun%>%<neut%>%<a-stem%>:îsbên Neut-A-Stem ; ! îsbên 1, îs-bê-n, as., st. N. (a): nhd. Eisbein, Schenkelbein, Hinterbacke; ne. pig’s knuckle (N.); W.: mnd. îsbên, îsbein, N., Hüftbein
+jâr%<noun%>%<neut%>%<a-stem%>:jâr Neut-A-Stem ; ! jâr*, j-â-r*, as., st. N. (a): nhd. Jahr; ne. year (N.)
+judeofolk%<noun%>%<neut%>%<a-stem%>:judeofolk Neut-A-Stem ; ! Judeofolk* 1 und häufiger, Jude-o-fol-k*, as., st. N. (a): nhd. Judenfolk; ne. Jews (M. Pl.)
+juk%<noun%>%<neut%>%<a-stem%>:juk Neut-A-Stem ; ! juk* 4, ju-k*, as., st. N. (a): nhd. Joch; ne. yoke (N.); W.: mnd. jok, juk, N., M., Joch
+jukfak%<noun%>%<neut%>%<a-stem%>:jukfak Neut-A-Stem ; ! jukfak* 1, ju-k-fak*, as., st. N. (a): nhd. „Jochfach“, Umzäunung; ne. enclosure (N.)
+jukkorn%<noun%>%<neut%>%<a-stem%>:jukkorn Neut-A-Stem ; ! jukkorn* 2, iugkorn, ju-k-kor-n*, iu-g-korn*, as., st. N. (a): nhd. „Jochkorn“, Korn; ne. corn (N.)
+kapsilîn%<noun%>%<neut%>%<a-stem%>:kapsilîn Neut-A-Stem ; ! kapsilîn* 1, kaps-ilîn*, as., st. N. (a): nhd. „Kapsellein“, Kästchen; ne. casket (N.)
+kar%<noun%>%<neut%>%<a-stem%>:kar Neut-A-Stem ; ! kar?***, as., st. N. (a): nhd. Gefäß; ne. vessel (N.); W.: mnd. kâr (2), N., Gefäß
+kastel%<noun%>%<neut%>%<a-stem%>:kastel Neut-A-Stem ; ! kastel* 1, as., st. N. (a): nhd. Kastell, Burg; ne. castle (N.); W.: mnd. kastel, kastêl, kastelle, N., Kastell, Burg
+kêsifat%<noun%>%<neut%>%<a-stem%>:kêsifat Neut-A-Stem ; ! kêsifat* 1, kiesefat, k-ê-si-fat*, k-ie-se-fat*, as., st. N. (a): nhd. Käsefass, Käsegefäß; ne. cheesepot (N.); W.: mnd. kêsevat, N., Käsefass
+kêsikar%<noun%>%<neut%>%<a-stem%>:kêsikar Neut-A-Stem ; ! kêsikar* 1, k-ê-si-kar*, as., st. N. (a): nhd. Käsefass, Käsekorb, Käseform; ne. cheesevessel (N.)
+kêsikôkilîn%<noun%>%<neut%>%<a-stem%>:kêsikôkilîn Neut-A-Stem ; ! kêsikôkilîn* 1, kasikôkilîn, k-ê-si-kôk-il-în*, k-a-si-kôk-ilîn*, as., st. N. (a): nhd. „Käseküchlein“, Käsekuchen; ne. cheesecake (N.)
+kind%<noun%>%<neut%>%<a-stem%>:kind Neut-A-Stem ; ! kind 25, kin-d, as., st. N. (a): nhd. Kind, Jüngling; ne. child (N.), youth (M.); W.: mnd. kint, N., Kind
+kinnibên%<noun%>%<neut%>%<a-stem%>:kinnibên Neut-A-Stem ; ! kinnibên* 1, kin-n-i-bê-n*, as., st. N. (a): nhd. „Kinnbein“, Kinnlade, Kinn; ne. jawbone (N.), chin (N.)
+kirikland%<noun%>%<neut%>%<a-stem%>:kirikland Neut-A-Stem ; ! kirikland* 3, kirik-lan-d*, as., st. N. (a): nhd. Kirchenland; ne. church property (N.); W.: vgl. mnd. kerkenlant, N., Kirchenland
+kistilîn%<noun%>%<neut%>%<a-stem%>:kistilîn Neut-A-Stem ; ! kistilîn 1, kisti-lîn, as., st. N. (a): nhd. Kistlein, Kistchen; ne. casket (N.); W.: mnd. kistelîn, N., Kistlein, Kistchen, Kästchen
+kleuwîn%<noun%>%<neut%>%<a-stem%>:kleuwîn Neut-A-Stem ; ! kleuwîn* 1, kleu-w-în*, as., st. N. (a): nhd. Knäuel, Kugel; ne. clew (N.), ball (N.); W.: mnd. klûwen, klüwen, N., Knäuel
+klif%<noun%>%<neut%>%<a-stem%>:klif Neut-A-Stem ; ! klif* 1, kli-f*, as., st. N. (a): nhd. „Klippe“, Fels; ne. rock (N.); W.: mnd. klêif, klif, N., Klippe, Felsen
+klūstar%<noun%>%<neut%>%<a-stem%>:klūstar Neut-A-Stem ; ! klūstar* 1, klū-star*, as., st. N. (a): nhd. Verschluss, Schloss; ne. lock (N.); W.: vgl. mnd. klûsterslot, N., Schloss
+knôsal%<noun%>%<neut%>%<a-stem%>:knôsal Neut-A-Stem ; ! knôsal* 8, knô-s-al*, as., st. N. (a): nhd. Geschlecht; ne. descent (N.)
+korn%<noun%>%<neut%>%<a-stem%>:korn Neut-A-Stem ; ! korn* 8, kor-n*, as., st. N. (a): nhd. Korn, Roggen; ne. corn (N.), rye (N.); W.: mnd. korn, N., Korn, Edelstein in Kornform, Feingehalt der Münze
+kornhūs%<noun%>%<neut%>%<a-stem%>:kornhūs Neut-A-Stem ; ! kornhūs* 1, kor-n-hū-s*, as., st. N. (a): nhd. Kornhaus, Speicher, Getreidespeicher; ne. barn (N.); W.: mnd. kôrnhūs, N., Kornhaus, Getreidespeicher
+korvilîn%<noun%>%<neut%>%<a-stem%>:korvilîn Neut-A-Stem ; ! korvilîn* 1, kor-v-ilîn*, as., st. N. (a): nhd. Körbchen, Körblein; ne. small basket (N.)
+kôswîn%<noun%>%<neut%>%<a-stem%>:kôswîn Neut-A-Stem ; ! kôswîn* 7, kô-sw-î-n*, as., st. N. (a): nhd. „Kuhschwein“, Sau; ne. sow (N.)
+kotland%<noun%>%<neut%>%<a-stem%>:kotland Neut-A-Stem ; ! kotland* 1, kot-lan-d*, as., st. N. (a): nhd. Häuslerland; ne. small tenement (N.); W.: mnd. kô̆tlant, N., „Hausland“, Hüttenland, Häuserland
+kristînfolk%<noun%>%<neut%>%<a-stem%>:kristînfolk Neut-A-Stem ; ! kristînfolk* 1, kri-st-în-folk*, as., st. N. (a): nhd. „Christenvolk“, Christenheit; ne. Christendom (N.); W.: mnd. kristenvolk, M., christliche Gemeinschaft, Christenheit
+krūd%<noun%>%<neut%>%<a-stem%>:krūd Neut-A-Stem ; ! krūd* 5, krū-d*, as., st. N. (a): nhd. Unkraut, Kraut; ne. herb (N.); W.: mnd. krūt, N., Kraut
+kumbal%<noun%>%<neut%>%<a-stem%>:kumbal Neut-A-Stem ; ! kumbal* 3, as., st. N. (a): nhd. Zeichen; ne. sign (N.)
+kumin%<noun%>%<neut%>%<a-stem%>:kumin Neut-A-Stem ; ! kumin* 1, kum-in*, as., st. N. (a): nhd. Kümmel; ne. cumin (N.); W.: mnd. köme, kömen, kömel, M., Kümmel
+kwalm%<noun%>%<neut%>%<a-stem%>:kwalm Neut-A-Stem ; ! kwalm* 9, kwal-m*, lqualm, as., st. N. (a): nhd. Tod, Mord; ne. death (N.), murder (N.)
+lakan%<noun%>%<neut%>%<a-stem%>:lakan Neut-A-Stem ; ! lakan* 7, lak-an*, as., st. N. (a): nhd. Laken, Decke, Tuch; ne. sheet (N.), blanket (N.), curtain (N.), cloth (N.); W.: mnd. laken, N., „Laken“, Tuch, gewebtes Material, Stoff
+lamb%<noun%>%<neut%>%<a-stem%>:lamb Neut-A-Stem ; ! lamb 3, la-mb, as., st. N. (a): nhd. Lamm; ne. lamb (N.); W.: mnd. lamp, lam, N., Lamm
+land%<noun%>%<neut%>%<a-stem%>:land Neut-A-Stem ; ! land 103, lan-d, as., st. N. (a): nhd. Land, Gebiet; ne. land (N.); W.: mnd. lant, N., Land, Acker, Boden
+landreht%<noun%>%<neut%>%<a-stem%>:landreht Neut-A-Stem ; ! landreht* 2, lan-d-reh-t*, as., st. N. (a): nhd. „Landrecht“, Recht; ne. right (N.); W.: mnd. lantrecht, N., „Landrecht“, Gesamtheit von Rechtssätzen für ein Land
+lastar%<noun%>%<neut%>%<a-stem%>:lastar Neut-A-Stem ; ! lastar* 7, la-star*, as., st. N. (a): nhd. Sünde, Schuld, Lästerung, Spott; ne. sin (N.), guilt (N.), mockery (N.); W.: mnd. laster, N., M., Tadel, Vorwurf, Lästern
+legar%<noun%>%<neut%>%<a-stem%>:legar Neut-A-Stem ; ! legar 6, leg-ar, as., st. N. (a): nhd. Lager, Krankheit, Bordell?; ne. sickbed (N.); W.: mnd. leger, legger, lager, N., Lager, Liegestatt, Bettstatt
+lêhan%<noun%>%<neut%>%<a-stem%>:lêhan Neut-A-Stem ; ! lêhan 2, lêh-an, as., st. N. (a): nhd. Lehen; ne. fief (N.); W.: mnd. lehen, lên, leen, lehn, lein, N., Lehen
+lektor%<noun%>%<neut%>%<a-stem%>:lektor Neut-A-Stem ; ! lektor* 2, lek-t-or*, as., st. N. (a)?: nhd. Lesepult; ne. readingdesk (N.); W.: mnd. lector, lecter, N., Lesepult
+lêth%<noun%>%<neut%>%<a-stem%>:lêth Neut-A-Stem ; ! lêth (1) 28, as., st. N. (a): nhd. Leid, Schmerz, Feindschaft, Sünde, Böses; ne. suffering (N.), sin (N.), badness (N.); W.: mnd. lêd, leid, F., M.?, Leid, Schmerz, Trauer
+lethar%<noun%>%<neut%>%<a-stem%>:lethar Neut-A-Stem ; ! lethar?***, as., st. N. (a): nhd. Leder; ne. leather (N.); W.: mnd. leder, ledder, N., Leder
+lêthwerk%<noun%>%<neut%>%<a-stem%>:lêthwerk Neut-A-Stem ; ! lêthwerk* 3, lêth-werk*, as., st. N. (a): nhd. „Leidwerk“, Übeltat; ne. evil deed (N.)
+lîf%<noun%>%<neut%>%<a-stem%>:lîf Neut-A-Stem ; ! lîf 71, lî-f, as., st. N. (a): nhd. Leben; ne. life (N.); W.: mnd. lîv, N., M., Leben, Lebenskraft
+lîk%<noun%>%<neut%>%<a-stem%>:lîk Neut-A-Stem ; ! lîk* (1) 5, as., st. N. (a): nhd. Leib, Leichnam, Körper; ne. body (N.), corpse (N.); W.: mnd. lîk, N., M., Leiche, toter Körper
+lint%<noun%>%<neut%>%<a-stem%>:lint Neut-A-Stem ; ! lint* 1, as., st. N. (a): nhd. Schleiertuch, Sommerkleid, Gewand; ne. dress (N.), veil (N.); W.: s. mnd. lint, Sb., Band (N.), Stoffstreifen als Einfassung für die Kleidung
+liof%<noun%>%<neut%>%<a-stem%>:liof Neut-A-Stem ; ! liof* (2) 7, liab* (2), as., st. N. (a): nhd. Liebe, Liebes, Gutes, Erfreuliches, Vorteil; ne. love (N.); W.: mnd. lêve, leeve, F., Freundlichkeit, freundliches Verhalten
+lioht%<noun%>%<neut%>%<a-stem%>:lioht Neut-A-Stem ; ! lioht (1) 118, lioh-t, as., st. N. (a): nhd. Licht, Glanz, Leben, Erde, Welt; ne. light (N.), shine (N.); W.: mnd. licht, lecht, lücht, N., Licht, Helligkeit
+liohtfat%<noun%>%<neut%>%<a-stem%>:liohtfat Neut-A-Stem ; ! liohtfat* 1, lioh-t-fat*, as., st. N. (a): nhd. „Lichtgefäß“, Leuchter; ne. lantern (N.)
+lioth%<noun%>%<neut%>%<a-stem%>:lioth Neut-A-Stem ; ! lioth?***, lio-th?***, as., st. N. (a): nhd. Lied; ne. song (N.)
+lîth%<noun%>%<neut%>%<a-stem%>:lîth Neut-A-Stem ; ! lîth* 8, lî-th*, as., st. N. (a) (u): nhd. Obstwein, Wein; ne. wine (N.), cider (N.)
+liudfolk%<noun%>%<neut%>%<a-stem%>:liudfolk Neut-A-Stem ; ! liudfolk* 1, liud-fol-k*, as., st. N. (a): nhd. Volk; ne. people (N.)
+liudibarn%<noun%>%<neut%>%<a-stem%>:liudibarn Neut-A-Stem ; ! liudibarn* 2, liud-i-bar-n*, as., st. N. (a): nhd. Menschenkind; ne. human (M. bzw. F.)
+liudwerod%<noun%>%<neut%>%<a-stem%>:liudwerod Neut-A-Stem ; ! liudwerod* 2, liud-we-r-od*, as., st. N. (a): nhd. Volk; ne. people (N.)
+lof%<noun%>%<neut%>%<a-stem%>:lof Neut-A-Stem ; ! lof 20, as., st. N. (a): nhd. Lob; ne. praise (N.); W.: mnd. lof, N., M., Lob
+lôf%<noun%>%<neut%>%<a-stem%>:lôf Neut-A-Stem ; ! lôf* (2) 1, lô-f*, as., st. N. (a): nhd. Laub; ne. leaf (N.); W.: mnd. lôf, N., Laub
+lofword%<noun%>%<neut%>%<a-stem%>:lofword Neut-A-Stem ; ! lofword* 1, lof-wor-d*, as., st. N. (a): nhd. „Lobeswort“, Lob; ne. praise (N.)
+lôn%<noun%>%<neut%>%<a-stem%>:lôn Neut-A-Stem ; ! lôn (2) 39, lô-n, as., st. N. (a): nhd. Lohn; ne. reward (N.); W.: mnd. lôn, N., Lohn, Heuer, Bezahlung
+lôngeld%<noun%>%<neut%>%<a-stem%>:lôngeld Neut-A-Stem ; ! lôngeld* 2, lô-n-geld*, as., st. N. (a): nhd. „Lohngeld“, Vergeltung; ne. reward (N.); W.: mnd. lôngelt, N., „Lohngeld“, Lohnzahlung, Löhnung
+lôswerk%<noun%>%<neut%>%<a-stem%>:lôswerk Neut-A-Stem ; ! lôswerk* 1, lô-s-werk*, as., st. N. (a): nhd. „loses Werk“, böses Werk, Übeltat; ne. evil deed (N.)
+lôsword%<noun%>%<neut%>%<a-stem%>:lôsword Neut-A-Stem ; ! lôsword* 1, lô-s-wor-d*, as., st. N. (a): nhd. „loses Wort“, böse Rede; ne. bad speech (N.)
+lôthar%<noun%>%<neut%>%<a-stem%>:lôthar Neut-A-Stem ; ! lôthar 1, lô-thar, as., st. N. (a): nhd. Seifenschaum; ne. lather (N.)
+mâgonhôvid%<noun%>%<neut%>%<a-stem%>:mâgonhôvid Neut-A-Stem ; ! mâgonhôvid* 1, mâgo-n-hôv-id*, as., st. N. (a): nhd. „Mohnhaupt“, Mohn; ne. poppy (N.)
+mahal%<noun%>%<neut%>%<a-stem%>:mahal Neut-A-Stem ; ! mahal (2) 6, mah-al, as., st. N. (a): nhd. Gericht (N.) (1), Gerichtsstätte, Versammlung, Rede; ne. court (N.), meeting (N.), speech (N.); W.: mnd. mal, N., Gerichtsversammlung
+mâl%<noun%>%<neut%>%<a-stem%>:mâl Neut-A-Stem ; ! mâl? (1)***, as., st. N. (a): nhd. Zeichen (N.), Bild, Mal (N.) (2); ne. token (N.), mark (N.); W.: mnd. mâl, N., Fleck, Zeichen
+malt%<noun%>%<neut%>%<a-stem%>:malt Neut-A-Stem ; ! malt (1) 6, mal-t, as., st. N. (a): nhd. Malz; ne. malt (N.); W.: mnd. molt, malt, N., Malz
+malt%<noun%>%<neut%>%<a-stem%>:malt Neut-A-Stem ; ! malt* (2) 270 und häufiger, mal-t*, as., st. N. (a): nhd. „Malz“, Malter; ne. a dry measure (N.)
+manwerod%<noun%>%<neut%>%<a-stem%>:manwerod Neut-A-Stem ; ! manwerod* 1, mannwerod, man-we-r-od*, man-n-we-r-od*, as., st. N. (a): nhd. Menschen; ne. humans (M. Pl.)
+marg%<noun%>%<neut%>%<a-stem%>:marg Neut-A-Stem ; ! marg* 1, as., st. N. (a): nhd. Mark (N.); ne. mark (N.); W.: mnd. march, mark, margh, N., Mark (N.), Knochenmark
+markâtthing%<noun%>%<neut%>%<a-stem%>:markâtthing Neut-A-Stem ; ! markâtthing* 1, markthing, mark-ât-thing*, mark-thing*, as., st. N. (a): nhd. Marktgericht; ne. court (N.); W.: mnd. markdinc, N., „Markding“, jährliche Gerichtssitzung in der Allmende Märkerding
+mat%<noun%>%<neut%>%<a-stem%>:mat Neut-A-Stem ; ! mat* 2, as., st. N. (a): nhd. Speise; ne. food (N.)
+mathal%<noun%>%<neut%>%<a-stem%>:mathal Neut-A-Stem ; ! mathal?***, math-al?***, as., st. N. (a): nhd. Rede; ne. speech (N.)
+mėgin%<noun%>%<neut%>%<a-stem%>:mėgin Neut-A-Stem ; ! mėgin 12, magan, mėg-in, mag-an*, as., st. N. (a): nhd. Kraft, Macht, Haufe, Haufen; ne. power (N.), crowd (N.)
+mėginfolk%<noun%>%<neut%>%<a-stem%>:mėginfolk Neut-A-Stem ; ! mėginfolk* 2, mėg-in-fol-k*, as., st. N. (a): nhd. Schar (F.) (1); ne. troop (N.)
+mehs%<noun%>%<neut%>%<a-stem%>:mehs Neut-A-Stem ; ! mehs* 1, as., st. N. (a): nhd. Mist; ne. manure (N.)
+mên%<noun%>%<neut%>%<a-stem%>:mên Neut-A-Stem ; ! mên* 26, mê-n*, as., st. N. (a): nhd. Frevel, Verbrechen; ne. crime (N.)
+mêngiwerk%<noun%>%<neut%>%<a-stem%>:mêngiwerk Neut-A-Stem ; ! mêngiwerk* 1, mê-n-gi-werk*, as., st. N. (a): nhd. „Meinwerk“, Frevel; ne. crime (N.)
+mênwerk%<noun%>%<neut%>%<a-stem%>:mênwerk Neut-A-Stem ; ! mênwerk* 5, mê-n-werk*, as., st. N. (a): nhd. „Meinwerk“, Frevel; ne. crime (N.)
+mėridior%<noun%>%<neut%>%<a-stem%>:mėridior Neut-A-Stem ; ! mėridior* 1, mėr-i-dio-r*, as., st. N. (a): nhd. Meertier; ne. sea animal (N.)
+mėrigras%<noun%>%<neut%>%<a-stem%>:mėrigras Neut-A-Stem ; ! mėrigras* 1, mėr-i-gra-s*, as., st. N. (a): nhd. „Meergras“, Seegras; ne. seaweed (N.)
+mėriswîn%<noun%>%<neut%>%<a-stem%>:mėriswîn Neut-A-Stem ; ! mėriswîn* 2, mėr-i-sw-î-n*, as., st. N. (a): nhd. Meerschwein, Delphin; ne. porpoise (N.), dolphin (N.)
+met%<noun%>%<neut%>%<a-stem%>:met Neut-A-Stem ; ! met* (1) 2, me-t*, as., st. N. (a): nhd. Maß; ne. measure (N.); W.: mnd. s. mate, F., Maß, Abmessung
+metodogiskap%<noun%>%<neut%>%<a-stem%>:metodogiskap Neut-A-Stem ; ! metodogiskap* 2, metodgiskap, me-t-od-o-gi-s-kap*, me-t-od-gi-s-kap*, as., st. N. (a): nhd. Schicksal; ne. destiny (N.)
+mêthomhord%<noun%>%<neut%>%<a-stem%>:mêthomhord Neut-A-Stem ; ! mêthomhord* 4, mê-th-om-ho-r-d*, as., st. N. (a): nhd. kostbarer Schatz; ne. treasure (N.)
+middil%<noun%>%<neut%>%<a-stem%>:middil Neut-A-Stem ; ! middil* (2) 1, mid-d-il*, as., st. N. (a): nhd. Weberbaum, Verbindung der Fäden des alten und des neuen Aufzugs; ne. weaver’s beam (N.)
+morthwerk%<noun%>%<neut%>%<a-stem%>:morthwerk Neut-A-Stem ; ! morthwerk* 1, mor-th-werk*, as., st. N. (a): nhd. „Mordwerk“, Mordtat; ne. murder (N.)
+môs%<noun%>%<neut%>%<a-stem%>:môs Neut-A-Stem ; ! môs* 11, as., st. N. (a): nhd. „Mus“, Speise; ne. meal (N.) (2); W.: mnd. môs, N., Speise, Essen (N.)
+nėglidskip%<noun%>%<neut%>%<a-stem%>:nėglidskip Neut-A-Stem ; ! nėglidskip* 1, nėgl-id-ski-p*, as., st. N. (a): nhd. „Nagelschiff“, mit Nägeln versehenes Schiff; ne. ship (N.) with nails
+nėst%<noun%>%<neut%>%<a-stem%>:nėst Neut-A-Stem ; ! nėst?***, as., st. N. (a): nhd. Nest; ne. nest (N.); W.: mnd. nest, N., Nest
+nîthfolk%<noun%>%<neut%>%<a-stem%>:nîthfolk Neut-A-Stem ; ! nîthfolk* 1, nî-th-fol-k*, as., st. N. (a): nhd. feindliche Schar (F.) (1); ne. hostile troop (N.)
+nôdfiur%<noun%>%<neut%>%<a-stem%>:nôdfiur Neut-A-Stem ; ! nôdfiur* 1, nô-d-fiur*, as., st. N. (a): nhd. Notfeuer; ne. needfire (N.)
+ôd%<noun%>%<neut%>%<a-stem%>:ôd Neut-A-Stem ; ! ôd* 3, ô-d*, as., st. N. (a): nhd. Gut, Besitz, Grundbesitz, Glück; ne. wealth (N.)
+offar%<noun%>%<neut%>%<a-stem%>:offar Neut-A-Stem ; ! offar* 1, of-f-ar*, as., st. N. (a): nhd. Opfer; ne. sacrifice (N.); W.: mnd. offer, N., M., Opfer, Opfergabe
+ofliges%<noun%>%<neut%>%<a-stem%>:ofliges Neut-A-Stem ; ! ofliges* 2, of-liges*, as., st. N. (a): nhd. Obliegenheit, Abgabe; ne. due (N.)
+ôl%<noun%>%<neut%>%<a-stem%>:ôl Neut-A-Stem ; ! ôl?***, as., st. N. (a): nhd. Flur (F.), Wiese; ne. meadow (N.)
+ôlât%<noun%>%<neut%>%<a-stem%>:ôlât Neut-A-Stem ; ! ôlât* 3, âlât, ô-lâ-t*, â-lâ-t*, as., st. N. (a)?, st. M. (a)?: nhd. Dank; ne. thank (N.)
+opper%<noun%>%<neut%>%<a-stem%>:opper Neut-A-Stem ; ! opper* 1, op-p-er*, as., st. N. (a): nhd. Opfer; ne. sacrifice (N.); W.: mnd. opper, N., Opfer, Opfergabe
+ôrâl%<noun%>%<neut%>%<a-stem%>:ôrâl Neut-A-Stem ; ! ôrâl 2, as., st. N. (a)?: nhd. Oberkleid; ne. wrapper (N.)
+orlag%<noun%>%<neut%>%<a-stem%>:orlag Neut-A-Stem ; ! orlag* 1, orlagi, orleg, or-lag*, or-lag-i*, or-leg*, as., st. N. (a) (i): nhd. Krieg; ne. war (N.); W.: mnd. oge, orlege, orlage, N., Auseinandersetzung, Streit, Unfriede
+ovarât%<noun%>%<neut%>%<a-stem%>:ovarât Neut-A-Stem ; ! ovarât* 1, oƀarât, ov-a-r-ât*, oƀ-a-r-ât*, as., st. N. (a): nhd. „Überessen“, Schwelgerei; ne. overeating (N.); W.: mnd. overât, N., Übermäßigkeit beim Essen
+pand%<noun%>%<neut%>%<a-stem%>:pand Neut-A-Stem ; ! pand* 1, pant, pan-d*, pan-t, as., st. N. (a): nhd. Pfand; ne. pledge (N.); W.: mnd. pant, N., Pfand
+pannakôkilîn%<noun%>%<neut%>%<a-stem%>:pannakôkilîn Neut-A-Stem ; ! pannakôkilîn* 1, pan-n-a-kôk-il-în*, as., st. N. (a): nhd. „Pfanneküchlein“, Pfannkuchen; ne. pancake (N.); W.: vgl. mnd. pannekoke
+paradîs%<noun%>%<neut%>%<a-stem%>:paradîs Neut-A-Stem ; ! paradîs* 2, as., st. N. (a): nhd. Paradies; ne. paradise (N.); W.: mnd. paradîs, pardîs, N., Paradies
+pâska%<noun%>%<neut%>%<a-stem%>:pâska Neut-A-Stem ; ! pâska* 6, pâscha*, pascho*, as., st. N. (a): nhd. Passah, Ostern; ne. Passover (N.); W.: mnd. pâschen, M., N., Passah, Ostern
+pėnik%<noun%>%<neut%>%<a-stem%>:pėnik Neut-A-Stem ; ! pėnik 4, as., st. N. (a): nhd. Hirse; ne. millet (N.); W.: mnd. pennek, N., hirseartiges Getreide
+pik%<noun%>%<neut%>%<a-stem%>:pik Neut-A-Stem ; ! pik* 1, pi-k*, as., st. N. (a): nhd. Pech; ne. pitch (N.); W.: mnd. pik, pek, N., Pech
+plâstar%<noun%>%<neut%>%<a-stem%>:plâstar Neut-A-Stem ; ! plâstar 3, plâst-ar, as., st. N. (a): nhd. Pflaster, Heilpflaster; ne. plaster (N.); W.: mnd. plaster, N., Pflaster
+plôgishôvid%<noun%>%<neut%>%<a-stem%>:plôgishôvid Neut-A-Stem ; ! plôgishôvid* 1, plô-g-is-hôv-id*, as., st. N. (a): nhd. Pflughaupt; ne. ploughhead (N.); W.: mnd. plôchhovet, plochhövet, N., Pflughaupt
+ponteoland%<noun%>%<neut%>%<a-stem%>:ponteoland Neut-A-Stem ; ! Ponteoland* 1, Ponteo-lan-d*, as., st. N. (a): nhd. Pontiusland; ne. land (N.) of Pontius
+pund%<noun%>%<neut%>%<a-stem%>:pund Neut-A-Stem ; ! pund* 8, pun-d*, as., st. N. (a): nhd. Pfund; ne. pound (N.); W.: mnd. punt, N., Pfund, Gewichtsstück
+pūsilîn%<noun%>%<neut%>%<a-stem%>:pūsilîn Neut-A-Stem ; ! pūsilîn 1, pū-silîn, as., st. N. (a): nhd. Knäbchen, Knäblein; ne. little boy (M.)
+rath%<noun%>%<neut%>%<a-stem%>:rath Neut-A-Stem ; ! rath* 2, as., st. N. (a): nhd. Rad; ne. wheel (N.); W.: mnd. rat, N., Rad
+rėgangiskap%<noun%>%<neut%>%<a-stem%>:rėgangiskap Neut-A-Stem ; ! rėgangiskap*, rėganogiskap* 2, rėg-an-gi-s-kap*, rėg-an-o-gi-s-kap* 2, as., st. N. (a): nhd. Geschick; ne. destiny (N.)
+reht%<noun%>%<neut%>%<a-stem%>:reht Neut-A-Stem ; ! reht (1) 20, reh-t, as., st. N. (a): nhd. Recht, Gesetz, Gerechtigkeit, Pflicht (F.) (1), Nutzen; ne. right (N.), justice (N.), duty (N.), profit (N.); W.: mnd. recht, N., richtige Ordnung, allgemeine Rechtsnorm, Gesetz, Gericht
+revahôn%<noun%>%<neut%>%<a-stem%>:revahôn Neut-A-Stem ; ! revahôn* 1, reƀahôn, rev-a-hôn*, reƀ-a-hôn*, as., st. N. (a): nhd. Rebhuhn; ne. partridge (N.)
+rinblôd%<noun%>%<neut%>%<a-stem%>:rinblôd Neut-A-Stem ; ! rinblôd* 1, ri-n-bl-ô-d*, as., st. N. (a): nhd. geronnenes Blut; ne. clotted blood (N.)
+rîsil%<noun%>%<neut%>%<a-stem%>:rîsil Neut-A-Stem ; ! rîsil 2, as., st. N. (a)?: nhd. Schleier; ne. veil (N.); W.: s. mnd. rise, F., Schleier um Wangen und Kinn
+rod%<noun%>%<neut%>%<a-stem%>:rod Neut-A-Stem ; ! rod? (1)***, ro-d?***, as., st. N. (a), st. F. (i)?: nhd. Rodung; ne. cleared woodland (N.); W.: mnd. rot, N., Rodung
+rod%<noun%>%<neut%>%<a-stem%>:rod Neut-A-Stem ; ! rod? (2)***, as., st. N. (a): nhd. Zahl; ne. number (N.)
+rôkfat%<noun%>%<neut%>%<a-stem%>:rôkfat Neut-A-Stem ; ! rôkfat* 2, rô-k-fat*, as., st. N. (a): nhd. „Rauchfass“, Räuchergefäß; ne. censer (N.)
+rôkhūs%<noun%>%<neut%>%<a-stem%>:rôkhūs Neut-A-Stem ; ! rôkhūs 1, rô-k-hū-s, as., st. N. (a): nhd. „Rauchhaus“, Räucherhaus; ne. smokehouse (N.)
+rôstîsarn%<noun%>%<neut%>%<a-stem%>:rôstîsarn Neut-A-Stem ; ! rôstîsarn 1, rô-s-t-îs-arn, as., st. N. (a): nhd. „Rosteisen“, Bratrost; ne. roaster (N.)
+roth%<noun%>%<neut%>%<a-stem%>:roth Neut-A-Stem ; ! roth 1, ro-th, as., st. N. (a): nhd. Rodung; ne. cleared woodland (N.); W.: mnd. rôd, rôt, N., Rodung
+rotheland%<noun%>%<neut%>%<a-stem%>:rotheland Neut-A-Stem ; ! rotheland* 6, ro-th-e-lan-d*, as., st. N. (a): nhd. Rodeland; ne. cleared woodland (N.); W.: mnd. rodelant, N., gerodetes Land, Neubruch
+rusk%<noun%>%<neut%>%<a-stem%>:rusk Neut-A-Stem ; ! rusk?***, ru-s-k?***, as., st. N. (a)?, st. M. (a)?: nhd. Binse; ne. rush (N.); W.: mnd. rusch, M., Binse, Schilfrohr
+sadulhros%<noun%>%<neut%>%<a-stem%>:sadulhros Neut-A-Stem ; ! sadulhros* 1, sadulhross, sad-ul-hros*, sad-ul-hros-s*, as., st. N. (a): nhd. „Sattelross“, Sattelpferd; ne. saddlehorse (N.)
+sahs%<noun%>%<neut%>%<a-stem%>:sahs Neut-A-Stem ; ! sahs* 3, sah-s*, as., st. N. (a): nhd. Messer (N.), Schwert, Kurzschwert, Sax; ne. knife (N.); W.: mnd. sach, sachs, N., Messer (N.), Kurzschwert, Sax
+salt%<noun%>%<neut%>%<a-stem%>:salt Neut-A-Stem ; ! salt 6, sa-l-t, as., st. N. (a): nhd. Salz; ne. salt (N.); W.: mnd. solt, salt, N., Salz
+segal%<noun%>%<neut%>%<a-stem%>:segal Neut-A-Stem ; ! segal 3, seg-al, as., st. N. (a)?: nhd. Segel (N.); ne. sail (N.); W.: mnd. segel, N., Segel
+segallakan%<noun%>%<neut%>%<a-stem%>:segallakan Neut-A-Stem ; ! segallakan* 1, seg-al-lak-an*, as., st. N. (a): nhd. „Segellaken“, Segeltuch; ne. sailcloth (N.); W.: mnd. segellaken, N., „Segellaken“, Segeltuch
+segalsêl%<noun%>%<neut%>%<a-stem%>:segalsêl Neut-A-Stem ; ! segalsêl* 1, seg-al-sê-l*, as., st. N. (a): nhd. „Segelseil“, Segeltau; ne. sailrope (N.); W.: mnd. segelsêl, segelseil, N., „Segelseil“, Segeltau
+sêl%<noun%>%<neut%>%<a-stem%>:sêl Neut-A-Stem ; ! sêl* 2, sê-l*, as., st. N. (a): nhd. Seil, Strick (M.) (1), Zügel (M.); ne. rope (N.), bridle (N.); W.: mnd. sêl, seil, N., Seil, Strick (M.) (1)
+selfskot%<noun%>%<neut%>%<a-stem%>:selfskot Neut-A-Stem ; ! selfskot* 2, se-lf-s-ko-t*, as., st. N. (a): nhd. „Selbstgeschoss“, Geschütz; ne. catapult (N.); W.: mnd. sulfschot, N., „Selbstschuss“, Schleudermaschine
+sėlihūs%<noun%>%<neut%>%<a-stem%>:sėlihūs Neut-A-Stem ; ! sėlihūs* 1, sėl-i-hū-s*, as., st. N. (a): nhd. Salhaus; ne. manorhouse (N.)
+sėliland%<noun%>%<neut%>%<a-stem%>:sėliland Neut-A-Stem ; ! sėliland 7, sėl-i-lan-d, as., st. N. (a): nhd. Land zum Herrenhof, Salland; ne. estate (N.); W.: mnd. selelant, N., Sattelland
+sêr%<noun%>%<neut%>%<a-stem%>:sêr Neut-A-Stem ; ! sêr (1) 3, sê-r, as., st. N. (a): nhd. Schmerz, Kummer; ne. pain (N.); W.: mnd. sêre, N., Verwundung, Verletzung, Wunde
+set%<noun%>%<neut%>%<a-stem%>:set Neut-A-Stem ; ! set?***, se-t?***, as., st. N. (a): nhd. Sitz; ne. seat (N.)
+sif%<noun%>%<neut%>%<a-stem%>:sif Neut-A-Stem ; ! sif* 2, si-f*, as., st. N. (a): nhd. Sieb; ne. sieve (N.); W.: mnd. seve, N. Sieb
+sigil%<noun%>%<neut%>%<a-stem%>:sigil Neut-A-Stem ; ! sigil?***, sig-il?***, as., st. N. (a): nhd. Siegel (N.); ne. seal (N.) (2); W.: mnd. segel, N. Siegel
+sîk%<noun%>%<neut%>%<a-stem%>:sîk Neut-A-Stem ; ! sîk?***, as., st. N. (a): nhd. Wasserlauf, Sumpf; ne. river (N.), swamp (N.); W.: mnd. sîk, M., N., wasserhaltiger Grund, Tümpel
+siluvar%<noun%>%<neut%>%<a-stem%>:siluvar Neut-A-Stem ; ! siluvar* 10, siluƀar*, as., st. N. (a): nhd. Silber; ne. silver (N.); W.: mnd. sulver, sülver, N., Silber
+sinlîf%<noun%>%<neut%>%<a-stem%>:sinlîf Neut-A-Stem ; ! sinlîf 6, sin-lî-f, as., st. N. (a): nhd. ewiges Leben; ne. eternal life (N.)
+skap%<noun%>%<neut%>%<a-stem%>:skap Neut-A-Stem ; ! skap* (1) 1, s-kap*, as., st. N. (a): nhd. „Schaff“, Gefäß; ne. vessel (N.); W.: mnd. schape, M., flacher Tiegel
+skâp%<noun%>%<neut%>%<a-stem%>:skâp Neut-A-Stem ; ! skâp* 7, as., st. N. (a): nhd. Schaf; ne. sheep (N.); W.: mnd. schâp, N., Schaf
+skėnkifat%<noun%>%<neut%>%<a-stem%>:skėnkifat Neut-A-Stem ; ! skėnkifat* 1, s-kėnk-i-fat*, as., st. N. (a): nhd. Schenkgefäß; ne. decanter (N.)
+skersahs%<noun%>%<neut%>%<a-stem%>:skersahs Neut-A-Stem ; ! skersahs* 1, sker-sah-s*, as., st. N. (a): nhd. Schermesser (N.); ne. shearing knife (N.)
+skėrvin%<noun%>%<neut%>%<a-stem%>:skėrvin Neut-A-Stem ; ! skėrvin?***, skėrƀin?***, s-kėr-v-in?***, s-kėr-ƀ-in?***, as., st. N. (a): nhd. Scherbe; ne. potsherd (N.)
+skinakar%<noun%>%<neut%>%<a-stem%>:skinakar Neut-A-Stem ; ! skinakar* 1, ski-n-a-kar*, as., st. N. (a): nhd. Korb; ne. basket (N.)
+skip%<noun%>%<neut%>%<a-stem%>:skip Neut-A-Stem ; ! skip* 7, ski-p*, as., st. N. (a): nhd. Schiff; ne. ship (N.); W.: mnd. schip, N., Schiff
+skipikîn%<noun%>%<neut%>%<a-stem%>:skipikîn Neut-A-Stem ; ! skipikîn* 1, ski-p-i-kîn*, as., st. N. (a): nhd. Schiffchen, Schifflein; ne. little ship (N.); W.: mnd. schepeken
+skipilîn%<noun%>%<neut%>%<a-stem%>:skipilîn Neut-A-Stem ; ! skipilîn* 1, ski-p-i-lîn*, as., st. N. (a): nhd. Schiffchen, Schifflein; ne. little ship (N.)
+skod%<noun%>%<neut%>%<a-stem%>:skod Neut-A-Stem ; ! skod?***, s-kod?***, as., st. N. (a)?: nhd. Schutt; ne. rubble (N.)
+skok%<noun%>%<neut%>%<a-stem%>:skok Neut-A-Stem ; ! skok* 2, skokk, s-kok*, s-kok-k*, as., st. N. (a): nhd. Schock (N.), sechzig Stück; ne. threescore (N.); W.: mnd. schok, N., Schock (N.), Garbenstand des Getreides
+skot%<noun%>%<neut%>%<a-stem%>:skot Neut-A-Stem ; ! skot* (2) 2, s-ko-t*, as., st. N. (a): nhd. Abgabe, Steuer (F.); ne. scot (N.), tax (N.); W.: mnd. schot, N., Abgabe, Beitrag zur Bestreitung gemeinsamer Ausgaben
+skrôdîsarn%<noun%>%<neut%>%<a-stem%>:skrôdîsarn Neut-A-Stem ; ! skrôdîsarn* 1, s-krô-d-îs-arn*, as., st. N. (a): nhd. Schroteisen, Meißel (M.), Skalpell, scharfes Schneidinstrument; ne. scrap (N.), chisel (N.); W.: s. mnd. schrôtîsen, N., scharfes Eisen
+skrôhîsarn%<noun%>%<neut%>%<a-stem%>:skrôhîsarn Neut-A-Stem ; ! skrôhîsarn* 1, s-krô-h-îs-arn*, as., st. N. (a): nhd. scharfes Eisen; ne. sharp iron (N.)
+skuldlakan%<noun%>%<neut%>%<a-stem%>:skuldlakan Neut-A-Stem ; ! skuldlakan* 8, s-kul-d-lak-an*, as., st. N. (a): nhd. „Schuldlaken“, Abgabelaken; ne. tribute (N.) of cloth
+slaht%<noun%>%<neut%>%<a-stem%>:slaht Neut-A-Stem ; ! slaht* (1) 1, slah-t*, as., st. N. (a): nhd. Schlag, Geschlecht; ne. descent (N.)
+sodomaland%<noun%>%<neut%>%<a-stem%>:sodomaland Neut-A-Stem ; ! Sodomaland* 3, Sodom-a-lan-d*, as., st. N. (a): nhd. „Sodomland“, Sodom; ne. Sodom (N.)
+sorgspel%<noun%>%<neut%>%<a-stem%>:sorgspel Neut-A-Stem ; ! sorgspel* 1, sorgspell, sorg-s-pel*, sorg-spel-l, as., st. N. (a): nhd. schmerzliche Kunde (F.); ne. sad news (N. Pl.)
+sôthspel%<noun%>%<neut%>%<a-stem%>:sôthspel Neut-A-Stem ; ! sôthspel* 1, sôthspell, sô-th-s-pel*, sô-th-s-pel-l*, as., st. N. (a): nhd. wahre Rede; ne. truthful speech (N.)
+sôthword%<noun%>%<neut%>%<a-stem%>:sôthword Neut-A-Stem ; ! sôthword* 1, sô-th-wor-d*, as., st. N. (a): nhd. wahres Wort; ne. truthful word (N.)
+spâhword%<noun%>%<neut%>%<a-stem%>:spâhword Neut-A-Stem ; ! spâhword* 1, spâh-wor-d*, as., st. N. (a): nhd. kluges Wort; ne. wise word (N.)
+spekswîn%<noun%>%<neut%>%<a-stem%>:spekswîn Neut-A-Stem ; ! spekswîn* 16, spekkswîn, s-pe-k-sw-î-n*, s-pe-k-k-sw-î-n, as., st. N. (a): nhd. Speckschwein; ne. fattened hog (N.); W.: mnd. spekswîn, N., Mastschwein
+spel%<noun%>%<neut%>%<a-stem%>:spel Neut-A-Stem ; ! spel* 9, spell, s-pel*, s-pel-l, as., st. N. (a): nhd. Rede; ne. speech (N.)
+sper%<noun%>%<neut%>%<a-stem%>:sper Neut-A-Stem ; ! sper 4, s-per, as., st. N. (a): nhd. Speer; ne. spear (N.); W.: mnd. sper, spere, N., Speer, Lanze
+spil%<noun%>%<neut%>%<a-stem%>:spil Neut-A-Stem ; ! spil* 4, as., st. N. (a): nhd. Spiel, Bewegung, Musik; ne. play (N.), movement (N.); W.: mnd. spil, spel, N., Spiel, Kurzweil, Vergnügen
+spilehūs%<noun%>%<neut%>%<a-stem%>:spilehūs Neut-A-Stem ; ! spilehūs 1, spil-e-hū-s, as., st. N. (a): nhd. „Spielehaus“, Schauspielhaus; ne. theater (N.); W.: mnd. spelhūs, spilhūs, N., antike Anlage für athletische und circensische Spiele
+spotword%<noun%>%<neut%>%<a-stem%>:spotword Neut-A-Stem ; ! spotword* 1, spottword, s-po-t-wor-d*, s-po-t-t-wor-d*, as., st. N. (a): nhd. „Spottwort“, Hohnwort; ne. mockery (N.); W.: mnd. spotwort, N., Spottwort, Hohnrede
+sprâkhūs%<noun%>%<neut%>%<a-stem%>:sprâkhūs Neut-A-Stem ; ! sprâkhūs* 3, s-prâ-k-hū-s*, as., st. N. (a): nhd. „Sprachhaus“, Rathaus; ne. townhall (N.); W.: mnd. sprâkhūs, N., Sprechzimmer im Kloster, Abtritt
+sprekhūs%<noun%>%<neut%>%<a-stem%>:sprekhūs Neut-A-Stem ; ! sprekhūs 1, s-pre-k-hū-s, as., st. N. (a): nhd. „Sprechhaus“, Rathaus; ne. townhall (N.); W.: mnd. sprâkhūs, N., Sprechzimmer im Kloster, Abtritt
+stathalhūs%<noun%>%<neut%>%<a-stem%>:stathalhūs Neut-A-Stem ; ! stathalhūs 1, sta-th-al-hū-s, as., st. N. (a): nhd. Rathaus; ne. townhall (N.)
+staviklîn%<noun%>%<neut%>%<a-stem%>:staviklîn Neut-A-Stem ; ! staviklîn* 1, staƀiklîn, sta-v-ik-lîn*, sta-ƀ-ik-lîn*, as., st. N. (a): nhd. Stäblein, Stäbchen; ne. little staff (N.)
+stênfat%<noun%>%<neut%>%<a-stem%>:stênfat Neut-A-Stem ; ! stênfat* 1, stê-n-fat*, as., st. N. (a): nhd. „Steinfass“, irdenes Gefäß; ne. earthen vessel (N.); W.: mnd. stênvat, steinvat, N., „Steinfass“, Gefäß aus hartgebranntem Ton
+stêngraf%<noun%>%<neut%>%<a-stem%>:stêngraf Neut-A-Stem ; ! stêngraf* 1, stê-n-graf*, as., st. N. (a): nhd. „Steingrab“, Felsgrab; ne. sepulchre (N.); W.: mnd. stêngraf, steingraf, N., Steingrab, Hünengrab
+stênwerk%<noun%>%<neut%>%<a-stem%>:stênwerk Neut-A-Stem ; ! stênwerk* 1, stên-werk*, as., st. N. (a): nhd. „Steinwerk“, Bauwerk; ne. building (N.); W.: mnd. stênwerk, steinwerk, N., „Steinwerk“, Steinmetzarbeit, steinernes Baumaterial
+stip%<noun%>%<neut%>%<a-stem%>:stip Neut-A-Stem ; ! stip 1, as., st. N. (a): nhd. Punkt; ne. point (N.); W.: mnd. stip, stippe, N., Punkt
+stukkilîn%<noun%>%<neut%>%<a-stem%>:stukkilîn Neut-A-Stem ; ! stukkilîn 1, s-tu-k-k-i-lîn, as., st. N. (a): nhd. Stücklein, Stückchen; ne. bit (N.)
+suli%<noun%>%<neut%>%<a-stem%>:suli Neut-A-Stem ; ! suli?***, as., st. N. (a)?: nhd. Schleppe; ne. trail (N.)
+sumbal%<noun%>%<neut%>%<a-stem%>:sumbal Neut-A-Stem ; ! sumbal* 1, as., st. N. (a): nhd. Mahl; ne. meal (N.) (2)
+sunnunfeld%<noun%>%<neut%>%<a-stem%>:sunnunfeld Neut-A-Stem ; ! sunnunfeld* 1, sun-n-un-feld*, as., st. N. (a): nhd. „Sonnenfeld“, Elysium; ne. Elysium (N.)
+sūval%<noun%>%<neut%>%<a-stem%>:sūval Neut-A-Stem ; ! sūval* 1, sūƀal, sū-v-al*, sū-ƀ-al*, as., st. N. (a): nhd. Zukost; ne. supplement (N.); W.: mnd. suvel, süvel, Sb., Zukost
+swart%<noun%>%<neut%>%<a-stem%>:swart Neut-A-Stem ; ! swart* (1) 2, as., st. N. (a): nhd. „Schwärze“, Finsternis; ne. darkness (N.); W.: mnd. swerte, swarte, Sb., Schwärze
+swerd%<noun%>%<neut%>%<a-stem%>:swerd Neut-A-Stem ; ! swerd* 7, swer-d*, as., st. N. (a): nhd. Schwert; ne. sword (N.); W.: mnd. swert, N., Schwert
+swil%<noun%>%<neut%>%<a-stem%>:swil Neut-A-Stem ; ! swil* 3, as., st. N. (a): nhd. Schwiele; ne. weal (N.); W.: s. mnd. swil, swel, M., Geschwulst
+swîn%<noun%>%<neut%>%<a-stem%>:swîn Neut-A-Stem ; ! swîn* 31, sw-î-n*, as., st. N. (a): nhd. Schwein; ne. swine (N.); W.: mnd. swîn, N., Schwein
+tâfal%<noun%>%<neut%>%<a-stem%>:tâfal Neut-A-Stem ; ! tâfal?***, tâ-fal?***, as., st. N. (a): nhd. Würfelspiel, Brettspiel; ne. board (N.), playing-board (N.)
+tal%<noun%>%<neut%>%<a-stem%>:tal Neut-A-Stem ; ! tal? (1)***, ta-l?***, as., st. N. (a): nhd. Zahl, Reihe; ne. number (N.), row (N.); W.: mnd. tal, M., F., Zahl
+têkan%<noun%>%<neut%>%<a-stem%>:têkan Neut-A-Stem ; ! têkan* 25, tê-k-an*, as., st. N. (a): nhd. Zeichen (N.); ne. token (N.); W.: mnd. têken, N., Zeichen, Marke
+timbar%<noun%>%<neut%>%<a-stem%>:timbar Neut-A-Stem ; ! timbar 1, tim-b-ar, as., st. N. (a): nhd. Zimmerwerk; ne. carpenter’s work (N.); W.: mnd. timber, timmer, N., Bauholz
+tin%<noun%>%<neut%>%<a-stem%>:tin Neut-A-Stem ; ! tin* 1, tinn, tin-n*, as., st. N. (a): nhd. Zinn; ne. tin (N.); W.: mnd. tin, N., Zinn
+tiuh%<noun%>%<neut%>%<a-stem%>:tiuh Neut-A-Stem ; ! tiuh?***, tiuht?***, tiu-h?***, tiu-h-t?***, as., st. N. (a)?: nhd. Zeug; ne. things (N. Pl.), equipment (N.)
+torn%<noun%>%<neut%>%<a-stem%>:torn Neut-A-Stem ; ! torn (1) 2, tor-n, as., st. N. (a): nhd. Zorn; ne. anger (N.); W.: mnd. torn, tarn, M., Zorn, Unwille
+tresahūs%<noun%>%<neut%>%<a-stem%>:tresahūs Neut-A-Stem ; ! tresahūs* 1, tres-a-hū-s*, as., st. N. (a): nhd. Schatzhaus; ne. treasury (N.)
+tresūrhūs%<noun%>%<neut%>%<a-stem%>:tresūrhūs Neut-A-Stem ; ! tresūrhūs* 1, tres-ūr-hū-s*, as., st. N. (a): nhd. Schatzhaus; ne. treasury (N.)
+trôst%<noun%>%<neut%>%<a-stem%>:trôst Neut-A-Stem ; ! trôst? (2)***, trô-st?***, as., st. N. (a): nhd. Schar (F.) (1), Gefolge; ne. troop (N.), followers (Pl.)
+tungal%<noun%>%<neut%>%<a-stem%>:tungal Neut-A-Stem ; ! tungal* 2, as., st. N. (a): nhd. Gestirn; ne. star (N.)
+tunnamet%<noun%>%<neut%>%<a-stem%>:tunnamet Neut-A-Stem ; ! tunnamet* 1, tun-n-a-met*, as., st. N. (a)?: nhd. Tonnenmaß; ne. ton (N.)
+thing%<noun%>%<neut%>%<a-stem%>:thing Neut-A-Stem ; ! thing 50, as., st. N. (a): nhd. Ding, Sache, Gericht (N.) (1), Versammlung, Gerichtsverhandlung; ne. thing (N.), court (N.), meeting (N.); W.: mnd. dink, N., Ding, Dache, Geschäft, Gericht (N.) (1)
+thinghūs%<noun%>%<neut%>%<a-stem%>:thinghūs Neut-A-Stem ; ! thinghūs 4, thing-hū-s, as., st. N. (a): nhd. „Dinghaus“, Gerichtshaus; ne. court (N.); W.: mnd. dinkhūs, N., Gerichtshaus
+thionost%<noun%>%<neut%>%<a-stem%>:thionost Neut-A-Stem ; ! thionost 7, thion-ost, as., st. N. (a): nhd. Dienst; ne. service (N.); W.: mnd. dênst, dênest, N., M., Dienst, Gottesdienst, Gefälligkeit, Leistung
+thorp%<noun%>%<neut%>%<a-stem%>:thorp Neut-A-Stem ; ! thorp* 114, tharp, throp, thor-p*, thar-p*, thro-p*, as., st. N. (a): nhd. Dorf; ne. village (N.); W.: mnd. dorp, N., Dorf
+thrâwerk%<noun%>%<neut%>%<a-stem%>:thrâwerk Neut-A-Stem ; ! thrâwerk* 2, thrâ-werk*, as., st. N. (a): nhd. „Leidwerk“, Leiden (N.), Pein; ne. pain (N.)
+thref%<noun%>%<neut%>%<a-stem%>:thref Neut-A-Stem ; ! thref?***, as., st. N. (a)?: nhd. Leuchtturm; ne. beacon (N.)
+thrîstword%<noun%>%<neut%>%<a-stem%>:thrîstword Neut-A-Stem ; ! thrîstword* 1, thrî-st-wor-d*, as., st. N. (a): nhd. „Dreistwort“, kühne Rede; ne. bold speech (N.)
+thriuland%<noun%>%<neut%>%<a-stem%>:thriuland Neut-A-Stem ; ! thriuland 1, thriu-lan-d, as., st. N. (a): nhd. Dreiland; ne. land (N.) consisting of three parts
+thwerhhūs%<noun%>%<neut%>%<a-stem%>:thwerhhūs Neut-A-Stem ; ! thwerhhūs*, thwerh-hū-s*, as., st. N. (a): nhd. „Zwerchhaus„, Querhaus, Apsis; ne. apsis (N.); W.: s. mnd. dwershūs, N., Querhaus
+thwing%<noun%>%<neut%>%<a-stem%>:thwing Neut-A-Stem ; ! thwing?***, as., st. N. (a): nhd. „Zwing“, Gebiet; ne. watched area (N.)
+ungimak%<noun%>%<neut%>%<a-stem%>:ungimak Neut-A-Stem ; ! ungimak* (1) 1, un-gi-mak*, as., st. N. (a): nhd. Ungemach, Unschicklichkeit, Schroffheit; ne. discomfort (N.); W.: mnd. ungemak, N., Unannehmlichkeit, Leid
+unreht%<noun%>%<neut%>%<a-stem%>:unreht Neut-A-Stem ; ! unreht* (1) 9, un-reh-t*, as., st. N. (a): nhd. Unrecht; ne. injustice (N.); W.: mnd. unrecht, N., Unrecht, Ungebühr
+upspring%<noun%>%<neut%>%<a-stem%>:upspring Neut-A-Stem ; ! upspring?***, uppspring?***, up-s-pri-n-g?***, up-p-s-pri-n-g?***, as., st. N. (a)?, st. M. (a?) (i?): nhd. Quelle; ne. spring (N.)
+urlagi%<noun%>%<neut%>%<a-stem%>:urlagi Neut-A-Stem ; ! urlagi 1, ur-lag-i, as., st. N. (a) (i): nhd. Krieg; ne. war (N.)
+uvil%<noun%>%<neut%>%<a-stem%>:uvil Neut-A-Stem ; ! uvil* (1) 8, uƀil, uvi-l*, uƀi-l, as., st. N. (a): nhd. Böses, Übel; ne. evil (N.); W.: mnd. ovel, uvel, N., Übel
+wâh%<noun%>%<neut%>%<a-stem%>:wâh Neut-A-Stem ; ! wâh* 1, wâ-h*, as., st. N. (a): nhd. Böses; ne. evil (N.)
+wahs%<noun%>%<neut%>%<a-stem%>:wahs Neut-A-Stem ; ! wahs* 1, wah-s*, as., st. N. (a): nhd. Wachs; ne. wax (N.) (2); W.: mnd. was, N., Wachs
+wam%<noun%>%<neut%>%<a-stem%>:wam Neut-A-Stem ; ! wam* (1) 10, wamm, wam-m*, as., st. N. (a): nhd. Frevel, Fleck; ne. crime (N.), stain (N.)
+wand%<noun%>%<neut%>%<a-stem%>:wand Neut-A-Stem ; ! wand? (2)***, w-a-nd?***, as., st. N. (a): nhd. Ende, Zweifel, Bewandtnis; ne. end (N.), doubt (N.), condition (N.)
+wâpan%<noun%>%<neut%>%<a-stem%>:wâpan Neut-A-Stem ; ! wâpan* 16, wêpan, wâp-an*, wêp-an*, as., st. N. (a): nhd. Waffe; ne. weapon (N.); W.: mnd. wapen, N., Waffe
+warmmôs%<noun%>%<neut%>%<a-stem%>:warmmôs Neut-A-Stem ; ! warmmôs* 1, war-m-môs*, as., st. N. (a): nhd. „Warmmus“, gekochtes Gemüse; ne. cooked vegetables (N.)
+warp%<noun%>%<neut%>%<a-stem%>:warp Neut-A-Stem ; ! warp* 1, war-p*, as., st. N. (a): nhd. Aufzug des Gewebes, Zettel; ne. warp (N.); W.: mnd. werpe, Sb., Aufzug des Gewebes, Zettel
+watar%<noun%>%<neut%>%<a-stem%>:watar Neut-A-Stem ; ! watar* 41, w-a-tar*, as., st. N. (a): nhd. Wasser; ne. water (N.); W.: mnd. water, N., Wasser, Gewässer, Strom
+watarhôn%<noun%>%<neut%>%<a-stem%>:watarhôn Neut-A-Stem ; ! watarhôn* 1, w-a-tar-hôn*, as., st. N. (a): nhd. Wasserhuhn; ne. coot (N.); W.: mnd. waterhôn, N., Wasserhuhn
+wê%<noun%>%<neut%>%<a-stem%>:wê Neut-A-Stem ; ! wê* 3, as., st. N. (a): nhd. Wehe, Leid; ne. woe (N.), misery (N.); W.: mnd. wê, M., Weh, Schmerz, Leid
+wedar%<noun%>%<neut%>%<a-stem%>:wedar Neut-A-Stem ; ! wedar* 11, w-e-dar*, as., st. N. (a): nhd. Wetter, Sturm; ne. weather (N.), storm (N.); W.: mnd. weder, wedder, N., Wetter, Witterung
+wegeskêth%<noun%>%<neut%>%<a-stem%>:wegeskêth Neut-A-Stem ; ! wegeskêth* 2, weg-e-skê-th*, as., st. N. (a)?: nhd. Wegscheide; ne. fork road (N.)
+wekewerk%<noun%>%<neut%>%<a-stem%>:wekewerk Neut-A-Stem ; ! wekewerk* 2, wek-e-werk*, as., st. N. (a): nhd. Wochenwerk; ne. work (N.) of a week
+wellîf%<noun%>%<neut%>%<a-stem%>:wellîf Neut-A-Stem ; ! wellîf* 1, wel-lî-f*, as., st. N. (a): nhd. Wohlleben; ne. wellbeing (N.)
+wer%<noun%>%<neut%>%<a-stem%>:wer Neut-A-Stem ; ! wer* (2) 1, werr, wer-r*, as., st. N. (a): nhd. Wehr (N.) (2), Hofstätte?; ne. weir (N.), farm? (N.); W.: mnd. war, N., Wehr (N.)
+werk%<noun%>%<neut%>%<a-stem%>:werk Neut-A-Stem ; ! werk* 75, as., st. N. (a): nhd. Werk, Arbeit, Geschehnis, Mühsal, Schmerz; ne. work (N.); W.: mnd. werk, wark, N., Werk
+werod%<noun%>%<neut%>%<a-stem%>:werod Neut-A-Stem ; ! werod* 150, we-r-od*, as., st. N. (a): nhd. Volk, Leute, Leben, Dasein; ne. people (N.), people (N.), existence
+weroldaldar%<noun%>%<neut%>%<a-stem%>:weroldaldar Neut-A-Stem ; ! weroldaldar* 1, wer-o-l-d-al-d-ar*, as., st. N. (a): nhd. Weltalter; ne. age (N.)
+werth%<noun%>%<neut%>%<a-stem%>:werth Neut-A-Stem ; ! werth* (1) 4, wer-th*, as., st. N. (a): nhd. Wert, Geld, Lohn; ne. worth (N.), money (N.); W.: mnd. wert, N., Kaufpreis, Wert
+weval%<noun%>%<neut%>%<a-stem%>:weval Neut-A-Stem ; ! weval* 1, weƀal, w-e-v-al*, w-e-ƀ-al*, as., st. N. (a): nhd. Einschlag; ne. weft (N.); W.: mnd. wevel, weffel, N., Einschlag
+wîf%<noun%>%<neut%>%<a-stem%>:wîf Neut-A-Stem ; ! wîf* 76, as., st. N. (a): nhd. Weib, Frau; ne. wife (F.), woman (F.); W.: mnd. wîf, N., Weib
+wîffahs%<noun%>%<neut%>%<a-stem%>:wîffahs Neut-A-Stem ; ! wîffahs* 1, wîf-fah-s*, as., st. N. (a): nhd. Frauenhaar; ne. woman’s hair (N.)
+wîghros%<noun%>%<neut%>%<a-stem%>:wîghros Neut-A-Stem ; ! wîghros* 1, wîghross, wîghors, wîghars, wîghers, wîg-hros*, wîg-hros-s*, wîg-hors*, wîg-hars*, wîg-hers*, as., st. N. (a): nhd. „Kampfross“, Streitross; ne. battlehorse (N.)
+wîghūs%<noun%>%<neut%>%<a-stem%>:wîghūs Neut-A-Stem ; ! wîghūs* 1, wîg-hū-s*, as., st. N. (a): nhd. „Kampfhaus“, Festungsturm; ne. tower (N.); W.: mnd. wîchhūs, N., Gebäude zu Kriegszwecken, Festungsturm
+wilspel%<noun%>%<neut%>%<a-stem%>:wilspel Neut-A-Stem ; ! wilspel* 6, willspel, willspell, w-i-l-s-pel*, w-i-l-l-s-pel*, w-i-l-l-s-pel-l*, as., st. N. (a): nhd. willkommene Kunde (F.); ne. welcome message (N.)
+winilioth%<noun%>%<neut%>%<a-stem%>:winilioth Neut-A-Stem ; ! winilioth* 1, win-i-lio-th*, as., st. N. (a): nhd. weltliches Lied; ne. profane song (N.)
+wînmalt%<noun%>%<neut%>%<a-stem%>:wînmalt Neut-A-Stem ; ! wînmalt 3, wî-n-mal-t, as., st. N. (a): nhd. „Weinmalz“, Weinmost; ne. must (N.)
+wintargital%<noun%>%<neut%>%<a-stem%>:wintargital Neut-A-Stem ; ! wintargital* 1, wintar-gi-ta-l*, as., st. N. (a): nhd. „Winterzahl“, Zahl der Jahre; ne. number (N.) of years
+wiod%<noun%>%<neut%>%<a-stem%>:wiod Neut-A-Stem ; ! wiod* 3, as., st. N. (a): nhd. Unkraut; ne. weed (N.)
+wlitiwam%<noun%>%<neut%>%<a-stem%>:wlitiwam Neut-A-Stem ; ! wlitiwam* 1, wlitiwamm, wli-t-i-wam*, wli-t-i-wam-m*, as., st. N. (a): nhd. Gesichtsverletzung; ne. injury (N.) of the face
+wolkan%<noun%>%<neut%>%<a-stem%>:wolkan Neut-A-Stem ; ! wolkan* 8, wolk-an*, as., st. N. (a): nhd. Wolke; ne. cloud (N.); W.: mnd. wolken, N., Wolke
+word%<noun%>%<neut%>%<a-stem%>:word Neut-A-Stem ; ! word* (1) 389, wor-d*, as., st. N. (a): nhd. Wort; ne. word (N.); W.: mnd. wort, N., Wort, Ausdruck, Bezeichnung
+wordtêkan%<noun%>%<neut%>%<a-stem%>:wordtêkan Neut-A-Stem ; ! wordtêkan* 1, wor-d-tê-k-an*, as., st. N. (a): nhd. „Wortzeichen“, Zeichen; ne. token (N.)
+wundar%<noun%>%<neut%>%<a-stem%>:wundar Neut-A-Stem ; ! wundar* 28, wun-d-ar*, as., st. N. (a): nhd. Wunder, Verwunderung; ne. miracle (N.), wonder (N.)
+wundartêkan%<noun%>%<neut%>%<a-stem%>:wundartêkan Neut-A-Stem ; ! wundartêkan* 1, wun-d-ar-têk-an*, as., st. N. (a): nhd. Wunderzeichen; ne. token (N.); W.: mnd. wundertêken, N., Wunderzeichen, Wunderwerk
+wurdigiskap%<noun%>%<neut%>%<a-stem%>:wurdigiskap Neut-A-Stem ; ! wurdigiskap* 5, wurdgiskap, wur-d-i-gi-s-kap*, wur-d-gi-s-kap*, as., st. N. (a): nhd. Schicksal, Tod; ne. fate (N.), death (N.)
 
 
 LEXICON StrongVerbs

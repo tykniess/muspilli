@@ -7,10 +7,12 @@ Alphabet
 	%{E%}:e %{E%}:a		!e/a alternations in dative and genitive
 	%{O%}:o %{O%}:a		!o/a alternations in nominative/accusative plural
 	%{M%}:m %{M%}:n		!m/n alternation in dative plural
+	%{NAPL%}:0 %{NAPL%}:u	!neuter a-stem plural morpheme; either u (after short stem) or 0 (after heavy stem)
 	;
 
 Sets
 V = a e i o u %{I%}			;
+ShortV = a e i o u                     ;
 FrontV = a e i %{I%}			;
 BackV = o u			;
 Cns = b d f g h j k l m n p w r s t v w x y z đ ƀ th ; 
@@ -101,3 +103,6 @@ Vx:Vy <=> _ Cns+ ₇: Vw: (%>:) ;
            Vy in ( e e ê ê ie ie  io io )
            Vw in ( ¹ ² ¹ ² ¹  ²   ¹  ²  ) !Don't need #3 because pastpart is same as inf stem vowel
      matched ;
+
+"Neuter a-stem plural is -u after short stem, zero elsewhere"
+%{NAPL%}:u <=> ShortV: (Cns: )(ShortV+: ) _ ; !not working
