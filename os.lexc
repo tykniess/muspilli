@@ -3,7 +3,9 @@ Multichar_Symbols
 
 %<v%>				! Verb
 %<noun%>			! Noun
-
+%<a-stem%>			! a-stem noun
+%<ja-stem%>			! ja-stem noun
+%<wa-stem%>			! wa-stem noun
 
 !!!!!!!!!!!!!!!!!!NOMINAL CHARS!!!!!!!!!!!!!!!!!!!!!!!
 %<masc%>			! masculine noun
@@ -1827,10 +1829,9 @@ undgeldan%<v%>%<str%>%<class3b%>:undgeld STR3    ;	! nhd. entgelten, büßen
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!Class 4!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!need to account for kuman
-!nëman%<v%>%<str%>%<class4%>:nem STR4 ; 		! nhd. nehmen
+
 neman%<v%>%<str%>%<class4%>:nem STR4 ;          ! nhd. nehmen
-!niman%<v%>%<str%>%<class4%>:nim STR4 ;          ! nhd. nehmen
+niman%<v%>%<str%>%<class4%>:nim STR4 ;          ! nhd. nehmen
 kuman%<v%>%<str%>%<class4%>:kum STR4    ;	! nhd. kommen
 sprekan%<v%>%<str%>%<class4%>:sprek STR4    ;	! nhd. sprechen
 gisprekan%<v%>%<str%>%<class4%>:gisprek STR4    ;	! nhd. sprechen

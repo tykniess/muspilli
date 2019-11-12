@@ -39,4 +39,4 @@ with open('README.md', 'a') as README:
 with open('README.md', 'a') as README:
     README.write("There are "+str(len(heliand_words))+" unique tokens in the Hêliand.\nMuspilli currently contains "+str(len(muspilli_words))+" synthetically-generated forms.\n")
     README.write("Of the "+str(len(heliand_words))+" unique tokens in the Hêliand, Muspilli contains " + str(len(covered_words)) + " forms, or ")
-    README.write(str(coverage)+"%. Wow!\n")
+    README.write(str(coverage)+"%.\n")

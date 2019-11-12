@@ -88,8 +88,8 @@ with open('st. N. (ja)_ready-for-import','w+') as to_write:
 ##        to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<masc%>%<wa-stem%>:'+lemmas_cleaned[i][:-2]+' Masc-Wa-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    #note the -2, this is to remove the i ending
 ##        i=i+1
 
-with open('st. N. (wa)_ready-for-import','w+') as to_write:
-    i=0
-    while i < len(lemmas):
-        to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<neut%>%<wa-stem%>:'+lemmas_cleaned[i][:-2]+' Neut-Wa-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    #note the -2, this is to remove the i ending
-        i=i+1
+##with open('st. N. (wa)_ready-for-import','w+') as to_write:
+##    i=0
+##    while i < len(lemmas):
+##        to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<neut%>%<wa-stem%>:'+lemmas_cleaned[i][:-2]+' Neut-Wa-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    #note the -2, this is to remove the i ending
+##        i=i+1
