@@ -119,6 +119,22 @@ LEXICON Masc-Ja-Stem
 LEXICON Neut-Ja-Stem
 Masc-Ja-Stem				;
 
+LEXICON Masc-Wa-Stem
+%<nom%>%<sg%>:u                 #       ;
+%<nom%>%<sg%>:o                 #       ;
+%<gen%>%<sg%>:wes               #       ;
+%<dat%>%<sg%>:we                #       ;
+%<dat%>%<sg%>:wa                #       ;
+%<acc%>%<sg%>:u                 #       ;
+%<acc%>%<sg%>:o                 #       ;
+
+LEXICON Neut-Wa-Stem
+%<nom%>%<sg%>:u                 #       ;
+%<gen%>%<sg%>:uwes               #       ; 
+%<gen%>%<sg%>:owes               #       ;
+%<dat%>%<sg%>:uwe                #       ;
+%<acc%>%<sg%>:u                 #       ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -1651,7 +1667,41 @@ wîkbilithi%<noun%>%<neut%>%<ja-stem%>:wîkbilith Neut-Ja-Stem 		; ! wîkbilithi
 wînbėri%<noun%>%<neut%>%<ja-stem%>:wînbėr Neut-Ja-Stem 		; ! wînbėri* 2, wî-n-bė-r-i*, as., st. N. (ja): nhd. Weinbeere; ne. grape (N.); W.: mnd. wînbere, N., Weinbeere, Weintraube
 wîti%<noun%>%<neut%>%<ja-stem%>:wît Neut-Ja-Stem 		; ! wîti* 43, wî-t-i*, as., st. N. (ja): nhd. Strafe, Böses, Qual; ne. punishment (N.), torment (N.); W.: s. mnd. wîte, F., Strafe, Buße
 wordgimėrki%<noun%>%<neut%>%<ja-stem%>:wordgimėrk Neut-Ja-Stem 		; ! wordgimėrki* 1, wor-d-gi-mėrk-i*, as., st. N. (ja): nhd. Schriftzeichen; ne. letter (N.)
-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!Masc wa-stems!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+balu%<noun%>%<masc%>%<wa-stem%>:bal Masc-Wa-Stem 		; ! balu* 2, bal-u*, as., st. M. (wa), st. N. (wa): nhd. Übel, Verderben; ne. evil (N.), ruin (N.); W.: vgl. mnd. bâle, Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+dôthsêo%<noun%>%<masc%>%<wa-stem%>:dôthsê Masc-Wa-Stem 		; ! dôthsêo* 1, dô-th-sêo*, as., st. M. (wa): nhd. Totes Meer; ne. Dead Sea (N.)
+dou%<noun%>%<masc%>%<wa-stem%>:do Masc-Wa-Stem 		; ! dou?***, as., st. M. (wa), st. N. (wa): nhd. Tau (N.); ne. dew (N.); W.: mnd. dow, douwe, dawe, dau, M., Tau (N.)
+êo%<noun%>%<masc%>%<wa-stem%>:ê Masc-Wa-Stem 		; ! êo 22, êu, ê*, gêo, gio, g-êo*, g-io*, as., st. M. (wa): nhd. Recht, Gesetz; ne. law (N.); W.: s. mnd. ê, ee, eje, ewe, F., Gesetz, Satzung
+hlêo%<noun%>%<masc%>%<wa-stem%>:hlê Masc-Wa-Stem 		; ! hlêo* 1, hlê-o*, as., st. M. (wa): nhd. Grab, Grabhügel, Hügel; ne. grave (N.)
+horu%<noun%>%<masc%>%<wa-stem%>:hor Masc-Wa-Stem 		; ! horu* 2, horo, hor-u*, hor-o, as., st. M. (wa)?, st. N. (wa)?: nhd. Kot, Schmutz; ne. mud (N.); W.: mnd. hôr, hôre, hâr, hâre, N., Kot, Schmutz, Unrat
+klê%<noun%>%<masc%>%<wa-stem%>:kl Masc-Wa-Stem 		; ! klê* 1, as., st. M. (wa): nhd. Klee; ne. clover (N.); W.: mnd. klêver, klêiver, klê, M., Klee
+sêo%<noun%>%<masc%>%<wa-stem%>:sê Masc-Wa-Stem 		; ! sêo (2) 19, sê-o, sêu (2), as., st. M. (wa): nhd. See (M.), Meer; ne. sea (N.); W.: mnd. sê, M., F., See (M.), Landsee, Binnensee
+skado%<noun%>%<masc%>%<wa-stem%>:skad Masc-Wa-Stem 		; ! skado* 2, skad-o*, as., st. M. (wa): nhd. Schatten (M.); ne. shadow (N.); W.: mnd. schade, M., N., Schatten, Dunkel
+snêo%<noun%>%<masc%>%<wa-stem%>:snê Masc-Wa-Stem 		; ! snêo 2, snê-o, as., st. M. (wa): nhd. Schnee; ne. snow (N.); W.: mnd. snê, M., Schnee
+thau%<noun%>%<masc%>%<wa-stem%>:tha Masc-Wa-Stem 		; ! thau 4, as., st. M. (wa): nhd. Sitte; ne. custom (N.)
+thio%<noun%>%<masc%>%<wa-stem%>:thi Masc-Wa-Stem 		; ! thio?***, as., st. M. (wa): nhd. Diener; ne. servant (M.)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!Neut wa-stems!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+beo%<noun%>%<neut%>%<wa-stem%>:be Neut-Wa-Stem 		; ! beo* 1, as., st. N. (wa): nhd. Ernte; ne. harvest (N.)
+blî%<noun%>%<neut%>%<wa-stem%>:bl Neut-Wa-Stem 		; ! blî* (3) 1, blîo, blî-o*, as., st. N. (wa): nhd. Blei (N.); ne. lead (N.) (1); W.: mnd. blî, blig, N., Blei (N.)
+bū%<noun%>%<neut%>%<wa-stem%>:b Neut-Wa-Stem 		; ! bū* 4, as., st. N. (wa): nhd. Bau, Wohnung, Haus, Gut; ne. building (N.); W.: vgl. mnd. būw, būwe, N., F., Bau, Bauwerk, Gebäude (N.)
+gitou%<noun%>%<neut%>%<wa-stem%>:gito Neut-Wa-Stem 		; ! gitou* 1, gitô, gi-tou*, gi-tô*, as., st. N. (wa): nhd. Gerät; ne. tool (N.); W.: mnd. getouwe, N., Werkzeug, Gerät
+hrêo%<noun%>%<neut%>%<wa-stem%>:hrê Neut-Wa-Stem 		; ! hrêo* 7, h-rê-o*, as., st. N. (wa): nhd. Leiche; ne. corpse (N.)
+knio%<noun%>%<neut%>%<wa-stem%>:kni Neut-Wa-Stem 		; ! knio* 5, kni-o*, as., st. N. (wa): nhd. Knie; ne. knee (N.); W.: mnd. knê, N., Knie
+melo%<noun%>%<neut%>%<wa-stem%>:mel Neut-Wa-Stem 		; ! melo* 22, mel-o*, as., st. N. (wa): nhd. Mehl; ne. meal (N.) (1), flour (N.); W.: mnd. mel, mele, N., Mehl
+offarmelo%<noun%>%<neut%>%<wa-stem%>:offarmel Neut-Wa-Stem 		; ! offarmelo* 1, of-f-ar-mel-o*, as., st. N. (wa): nhd. Opfermehl; ne. offering flour (N.)
+saro%<noun%>%<neut%>%<wa-stem%>:sar Neut-Wa-Stem 		; ! saro?***, as., st. N. (wa): nhd. Rüstung; ne. armour (N.)
+smero%<noun%>%<neut%>%<wa-stem%>:smer Neut-Wa-Stem 		; ! smero 7, as., st. N. (wa): nhd. Schmer, Fett; ne. „smear“ (N.), fat (N.); W.: mnd. smêr, N., Schmer, Fett, Tierfett
+sô%<noun%>%<neut%>%<wa-stem%>:s Neut-Wa-Stem 		; ! sô*? (2) 1, as., st. N. (wa): nhd. Saft; ne. juice (N.)
+spriu%<noun%>%<neut%>%<wa-stem%>:spri Neut-Wa-Stem 		; ! spriu* 1, s-pri-u*, as., st. N. (wa): nhd. Spreu; ne. chaff (N.)
+tou%<noun%>%<neut%>%<wa-stem%>:to Neut-Wa-Stem 		; ! tou 1, tô*, as., st. N. (wa)?: nhd. Werg; ne. tow (N.); W.: mnd. touw, N., Gerät, Werkzeug, Geschirr
+trio%<noun%>%<neut%>%<wa-stem%>:tri Neut-Wa-Stem 		; ! trio* 2, treo*, as., st. N. (wa): nhd. Baum, Balken (M.); ne. tree (N.)
+wargtrio%<noun%>%<neut%>%<wa-stem%>:wargtri Neut-Wa-Stem 		; ! wargtrio* 1, waragtreo, war-g-trio*, war-ag-treo*, as., st. N. (wa): nhd. „Würgbaum“, Galgen; ne. gallows (N. Pl.)
+wormmelo%<noun%>%<neut%>%<wa-stem%>:wormmel Neut-Wa-Stem 		; ! wormmelo* 1, wor-m-mel-o*, as., st. N. (wa): nhd. Wurmmehl; ne. wormdust (N.)
+wurmmelo%<noun%>%<neut%>%<wa-stem%>:wurmmel Neut-Wa-Stem 		; ! wurmmelo* 2, wur-m-mel-o*, as., st. N. (wa): nhd. Wurmmehl; ne. wormdust (N.)
 
 LEXICON StrongVerbs
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

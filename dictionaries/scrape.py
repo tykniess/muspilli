@@ -19,7 +19,7 @@ neut_a_light = ['agu','alu','adu','oru','uru','atu','ibu','iƀu','etu','apu','ep
 POS_tags = ['as., st. V. (1)', 'as., st. V. (2)', 'as., st. V. (3a)', 'as., st. V. (3b)', 'as., st. V. (4)', 'as., st. V. (5)', 'as., st. V. (6)', 'as., st. V. (7)', \
 'as., sw. V. (1a)', 'as., sw. V. (1b)', 'as., sw. V. (2)', \
 'as., red. V.',\
-            'as., st. M. (a)', 'as., st. N. (a)', 'as., st. M. (ja)', 'as., st. N. (ja)']
+            'as., st. M. (a)', 'as., st. N. (a)', 'as., st. M. (ja)', 'as., st. N. (ja)', 'as., st. M. (wa)', 'as., st. N. (wa)']
 
 def dict_scrape(POS, dictionaryfile='as_kurzform.txt'):
     """Scrapes a dictionary for a given part of speech. POS tags in POS_tags.
@@ -78,4 +78,18 @@ with open('st. N. (ja)_ready-for-import','w+') as to_write:
         else:
             to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<neut%>%<ja-stem%>:'+lemmas_cleaned[i][:-1]+' Neut-Ja-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    #note the -1, this is to not remove the ending
 
+        i=i+1
+
+
+###encode 'as., st. M. (wa)'
+##with open('st. M. (wa)_ready-for-import','w+') as to_write:
+##    i=0
+##    while i < len(lemmas):
+##        to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<masc%>%<wa-stem%>:'+lemmas_cleaned[i][:-2]+' Masc-Wa-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    #note the -2, this is to remove the i ending
+##        i=i+1
+
+with open('st. N. (wa)_ready-for-import','w+') as to_write:
+    i=0
+    while i < len(lemmas):
+        to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<neut%>%<wa-stem%>:'+lemmas_cleaned[i][:-2]+' Neut-Wa-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    #note the -2, this is to remove the i ending
         i=i+1
