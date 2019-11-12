@@ -24,6 +24,10 @@ afbrâkun    	afbrekan   <v>      <str>      <class4>      <pret>      <indic>  
 afbrâkun    	afbrekan   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <pl>   
 afbrâkun    	afbrekan   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <pl>   
 afgevan    	afgevan   <v>      <str>      <class5>      <pastpart>   
+afgrundi    	afgrundi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+afgrundi    	afgrundi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+afgrundiu    	afgrundi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+afgrundiun    	afgrundi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 afgâvi    	afgevan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <sg>   
 afgâvi    	afgevan   <v>      <str>      <class5>      <pret>      <opt>      <1st>      <sg>   
 afgâvi    	afgevan   <v>      <str>      <class5>      <pret>      <opt>      <3rd>      <sg>   
@@ -261,6 +265,10 @@ anaginimađ    	anaginiman   <v>      <str>      <class4>      <pres>      <indi
 anaginimis    	anaginiman   <v>      <str>      <class4>      <pres>      <indic>      <2nd>      <sg>   
 anaginimiđ    	anaginiman   <v>      <str>      <class4>      <pres>      <indic>      <3rd>      <sg>   
 anaginimu    	anaginiman   <v>      <str>      <class4>      <pres>      <indic>      <1st>      <sg>   
+anaginni    	anaginni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+anaginni    	anaginni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+anaginniu    	anaginni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+anaginniun    	anaginni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 anaginoman    	anaginiman   <v>      <str>      <class4>      <pastpart>   
 anaginu    	anagin   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 anaginu    	anagin   <noun>      <neut>      <a-stem>      <instr>      <sg>   
@@ -315,6 +323,10 @@ anawurpis    	anawerpan   <v>      <str>      <class3b>      <pret>      <opt>  
 anawurpun    	anawerpan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <pl>   
 anawurpun    	anawerpan   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <pl>   
 anawurpun    	anawerpan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <pl>   
+anawâni    	anawâni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+anawâni    	anawâni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+anawâniu    	anawâni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+anawâniun    	anawâni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 anbū    	anbūan   <v>      <str>      <class7>      <impv>      <sg>   
 anbū    	anbūan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <sg>   
 anbū    	anbūan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <sg>   
@@ -359,6 +371,10 @@ andbundis    	andbindan   <v>      <str>      <class3a>      <pret>      <opt>  
 andbundun    	andbindan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <pl>   
 andbundun    	andbindan   <v>      <str>      <class3a>      <pret>      <indic>      <2nd>      <pl>   
 andbundun    	andbindan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <pl>   
+andbâri    	andbâri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+andbâri    	andbâri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+andbâriu    	andbâri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+andbâriun    	andbâri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 andfall    	andfallan   <v>      <str>      <class7>      <impv>      <sg>   
 andfallan    	andfallan   <v>      <str>      <class7>      <inf>   
 andfallan    	andfallan   <v>      <str>      <class7>      <pastpart>   
@@ -650,6 +666,10 @@ angaru    	angar   <noun>      <masc>      <a-stem>      <instr>      <pl>
 angaru    	angar   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 angarum    	angar   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 angarun    	angar   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+angimâli    	angimâli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+angimâli    	angimâli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+angimâliu    	angimâli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+angimâliun    	angimâli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 angul    	angul   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 angul    	angul   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 angula    	angul   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -704,6 +724,10 @@ ankâmis    	ankuman   <v>      <str>      <class4>      <pret>      <opt>      
 ankâmun    	ankuman   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <pl>   
 ankâmun    	ankuman   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <pl>   
 ankâmun    	ankuman   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <pl>   
+ansiuni    	ansiuni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+ansiuni    	ansiuni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+ansiuniu    	ansiuni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+ansiuniun    	ansiuni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 anstand    	anstandan   <v>      <str>      <class6>      <impv>      <sg>   
 anstandan    	anstandan   <v>      <str>      <class6>      <inf>   
 anstandan    	anstandan   <v>      <str>      <class6>      <pastpart>   
@@ -736,6 +760,10 @@ antikristu    	antikrist   <noun>      <masc>      <a-stem>      <instr>      <p
 antikristu    	antikrist   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 antikristum    	antikrist   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 antikristun    	antikrist   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+anudkunni    	anudkunni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+anudkunni    	anudkunni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+anudkunniu    	anudkunni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+anudkunniun    	anudkunni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 arm    	arm   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 arm    	arm   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 arma    	arm   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -756,6 +784,10 @@ armu    	arm   <noun>      <masc>      <a-stem>      <instr>      <pl>
 armu    	arm   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 armum    	arm   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 armun    	arm   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+armôdi    	armôdi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+armôdi    	armôdi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+armôdiu    	armôdi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+armôdiun    	armôdi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 ars    	ars   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 ars    	ars   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 arsa    	ars   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -766,6 +798,10 @@ arsu    	ars   <noun>      <masc>      <a-stem>      <instr>      <pl>
 arsu    	ars   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 arsum    	ars   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 arsun    	ars   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+arvêdi    	arvêdi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+arvêdi    	arvêdi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+arvêdiu    	arvêdi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+arvêdiun    	arvêdi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 arvêdlôn    	arvêdlôn   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 arvêdlôn    	arvêdlôn   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 arvêdlôn    	arvêdlôn   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -777,6 +813,12 @@ arvêdlônes    	arvêdlôn   <noun>      <neut>      <a-stem>      <gen>      <
 arvêdlônu    	arvêdlôn   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 arvêdlônum    	arvêdlôn   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 arvêdlônun    	arvêdlôn   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+askithi    	askithi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+askithi    	askithi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+askithiu    	askithi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+askithiun    	askithi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+athali    	athali   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+athali    	athali   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 athaliknôsal    	athaliknôsal   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 athaliknôsal    	athaliknôsal   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 athaliknôsala    	athaliknôsal   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -788,6 +830,8 @@ athaliknôsalu    	athaliknôsal   <noun>      <neut>      <a-stem>      <instr>
 athaliknôsalu    	athaliknôsal   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 athaliknôsalum    	athaliknôsal   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 athaliknôsalun    	athaliknôsal   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+athaliu    	athali   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+athaliun    	athali   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 athalkuning    	athalkuning   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 athalkuning    	athalkuning   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 athalkuninga    	athalkuning   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -798,6 +842,10 @@ athalkuningu    	athalkuning   <noun>      <masc>      <a-stem>      <instr>    
 athalkuningu    	athalkuning   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 athalkuningum    	athalkuning   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 athalkuningun    	athalkuning   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+athalkunni    	athalkunni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+athalkunni    	athalkunni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+athalkunniu    	athalkunni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+athalkunniun    	athalkunni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 athalkêsur    	athalkêsur   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 athalkêsur    	athalkêsur   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 athalkêsura    	athalkêsur   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -855,8 +903,16 @@ baku    	bak   <noun>      <neut>      <a-stem>      <instr>      <sg>
 baku    	bak   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 bakum    	bak   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 bakun    	bak   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+bakwêgi    	bakwêgi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+bakwêgi    	bakwêgi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+bakwêgiu    	bakwêgi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+bakwêgiun    	bakwêgi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 balg    	belgan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <sg>   
 balg    	belgan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <sg>   
+baluwîti    	baluwîti   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+baluwîti    	baluwîti   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+baluwîtiu    	baluwîti   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+baluwîtiun    	baluwîti   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 band    	band   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 band    	band   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 band    	bindan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
@@ -1354,10 +1410,18 @@ biles    	bil   <noun>      <neut>      <a-stem>      <gen>      <sg>
 bilgis    	belgan   <v>      <str>      <class3b>      <pres>      <indic>      <2nd>      <sg>   
 bilgiđ    	belgan   <v>      <str>      <class3b>      <pres>      <indic>      <3rd>      <sg>   
 bilgu    	belgan   <v>      <str>      <class3b>      <pres>      <indic>      <1st>      <sg>   
+bili    	bil   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+bili    	bil   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+bilithi    	bilithi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+bilithi    	bilithi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+bilithiu    	bilithi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+bilithiun    	bilithi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 bilithâri    	bilithâri   <noun>      <masc>      <ja-stem>      <acc>      <sg>   
 bilithâri    	bilithâri   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 bilithâriu    	bilithâri   <noun>      <masc>      <ja-stem>      <instr>      <sg>   
 bilithâriun    	bilithâri   <noun>      <masc>      <ja-stem>      <dat>      <pl>   
+biliu    	bil   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+biliun    	bil   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 bilivan    	bilivan   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 bilivan    	bilivan   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 bilivana    	bilivan   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -1425,6 +1489,10 @@ birilu    	biril   <noun>      <masc>      <a-stem>      <instr>      <pl>
 birilu    	biril   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 birilum    	biril   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 birilun    	biril   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+birkithi    	birkithi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+birkithi    	birkithi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+birkithiu    	birkithi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+birkithiun    	birkithi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 birubôm    	birubôm   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 birubôm    	birubôm   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 birubôma    	birubôm   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -1716,6 +1784,10 @@ blendis    	blandan   <v>      <str>      <class7>      <pret>      <opt>      <
 blendun    	blandan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <pl>   
 blendun    	blandan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <pl>   
 blendun    	blandan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <pl>   
+blîi    	blî   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+blîi    	blî   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+blîiu    	blî   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+blîiun    	blî   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 blôd    	blôd   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 blôd    	blôd   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 blôd    	blôd   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -1845,6 +1917,10 @@ brâkmânuthun    	brâkmânuth   <noun>      <masc>      <a-stem>      <dat>   
 brâkun    	brekan   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <pl>   
 brâkun    	brekan   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <pl>   
 brâkun    	brekan   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <pl>   
+brâmbėri    	brâmbėri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+brâmbėri    	brâmbėri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+brâmbėriu    	brâmbėri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+brâmbėriun    	brâmbėri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 brêd    	brâdan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <sg>   
 brêd    	brâdan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <sg>   
 brêdi    	brâdan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <sg>   
@@ -2012,6 +2088,10 @@ bundis    	bindan   <v>      <str>      <class3a>      <pret>      <opt>      <2
 bundun    	bindan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <pl>   
 bundun    	bindan   <v>      <str>      <class3a>      <pret>      <indic>      <2nd>      <pl>   
 bundun    	bindan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <pl>   
+burgwardi    	burgwardi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+burgwardi    	burgwardi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+burgwardiu    	burgwardi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+burgwardiun    	burgwardi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 busk    	busk   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 busk    	busk   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 buska    	busk   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -2035,10 +2115,14 @@ bâgun    	bâg   <noun>      <masc>      <a-stem>      <dat>      <pl>
 bâri    	beran   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <sg>   
 bâri    	beran   <v>      <str>      <class4>      <pret>      <opt>      <1st>      <sg>   
 bâri    	beran   <v>      <str>      <class4>      <pret>      <opt>      <3rd>      <sg>   
+bâri    	bâri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+bâri    	bâri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 bârin    	beran   <v>      <str>      <class4>      <pret>      <opt>      <1st>      <pl>   
 bârin    	beran   <v>      <str>      <class4>      <pret>      <opt>      <2nd>      <pl>   
 bârin    	beran   <v>      <str>      <class4>      <pret>      <opt>      <3rd>      <pl>   
 bâris    	beran   <v>      <str>      <class4>      <pret>      <opt>      <2nd>      <sg>   
+bâriu    	bâri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+bâriun    	bâri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 bârun    	beran   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <pl>   
 bârun    	beran   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <pl>   
 bârun    	beran   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <pl>   
@@ -2159,6 +2243,20 @@ bôsâri    	bôsâri   <noun>      <masc>      <ja-stem>      <acc>      <sg>
 bôsâri    	bôsâri   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 bôsâriu    	bôsâri   <noun>      <masc>      <ja-stem>      <instr>      <sg>   
 bôsâriun    	bôsâri   <noun>      <masc>      <ja-stem>      <dat>      <pl>   
+bėddi    	bėddi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+bėddi    	bėddi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+bėddigiwâdi    	bėddigiwâdi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+bėddigiwâdi    	bėddigiwâdi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+bėddigiwâdiu    	bėddigiwâdi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+bėddigiwâdiun    	bėddigiwâdi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+bėddiu    	bėddi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+bėddiun    	bėddi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+bėddiwâdi    	bėddiwâdi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+bėddiwâdi    	bėddiwâdi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+bėddiwâdiu    	bėddiwâdi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+bėddiwâdiun    	bėddiwâdi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+bėdi    	bėd   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+bėdi    	bėd   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 būdil    	būdil   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 būdil    	būdil   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 būdila    	būdil   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -2169,6 +2267,8 @@ būdilu    	būdil   <noun>      <masc>      <a-stem>      <instr>      <pl>
 būdilu    	būdil   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 būdilum    	būdil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 būdilun    	būdil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+bėdiu    	bėd   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+bėdiun    	bėd   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 bėkkîn    	bėkkîn   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 bėkkîn    	bėkkîn   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 bėkkîn    	bėkkîn   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -2207,6 +2307,8 @@ būres    	būr   <noun>      <masc>      <a-stem>      <gen>      <sg>
 būres    	būr   <noun>      <neut>      <a-stem>      <gen>      <sg>   
 būri    	būri   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 būri    	būri   <noun>      <neut>      <a-stem>      <nom>      <sg>   
+bėri    	bėri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+bėri    	bėri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 būria    	būri   <noun>      <neut>      <a-stem>      <dat>      <sg>   
 būrias    	būri   <noun>      <neut>      <a-stem>      <gen>      <sg>   
 būrie    	būri   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -2214,8 +2316,10 @@ būries    	būri   <noun>      <neut>      <a-stem>      <gen>      <sg>
 būriu    	būri   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 būriu    	būri   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 būriu    	būri   <noun>      <neut>      <a-stem>      <nom>      <pl>   
+bėriu    	bėri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
 būrium    	būri   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 būriun    	būri   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+bėriun    	bėri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 būrmal    	būrmal   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 būrmal    	būrmal   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 būrmala    	būrmal   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -2481,6 +2585,10 @@ dômu    	dôm   <noun>      <masc>      <a-stem>      <instr>      <pl>
 dômu    	dôm   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 dômum    	dôm   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 dômun    	dôm   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+dôpisli    	dôpisli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+dôpisli    	dôpisli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+dôpisliu    	dôpisli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+dôpisliun    	dôpisli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 dôpâri    	dôpâri   <noun>      <masc>      <ja-stem>      <acc>      <sg>   
 dôpâri    	dôpâri   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 dôpâriu    	dôpâri   <noun>      <masc>      <ja-stem>      <instr>      <sg>   
@@ -2495,6 +2603,10 @@ dôthu    	dôth   <noun>      <masc>      <a-stem>      <instr>      <pl>
 dôthu    	dôth   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 dôthum    	dôth   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 dôthun    	dôth   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+dūfbėri    	dūfbėri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+dūfbėri    	dūfbėri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+dūfbėriu    	dūfbėri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+dūfbėriun    	dūfbėri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 dūkâri    	dūkâri   <noun>      <masc>      <ja-stem>      <acc>      <sg>   
 dūkâri    	dūkâri   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 dūkâriu    	dūkâri   <noun>      <masc>      <ja-stem>      <instr>      <sg>   
@@ -3198,6 +3310,10 @@ finistaru    	finistar   <noun>      <neut>      <a-stem>      <instr>      <sg>
 finistaru    	finistar   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 finistarum    	finistar   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 finistarun    	finistar   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+firiwiti    	firiwit   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+firiwiti    	firiwit   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+firiwitiu    	firiwit   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+firiwitiun    	firiwit   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 fisk    	fisk   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 fisk    	fisk   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 fiska    	fisk   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -3214,6 +3330,10 @@ fiskkôpu    	fiskkôp   <noun>      <masc>      <a-stem>      <instr>      <pl>
 fiskkôpu    	fiskkôp   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 fiskkôpum    	fiskkôp   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 fiskkôpun    	fiskkôp   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+fisknėti    	fisknėt   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+fisknėti    	fisknėt   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+fisknėtiu    	fisknėt   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+fisknėtiun    	fisknėt   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 fisku    	fisk   <noun>      <masc>      <a-stem>      <instr>      <pl>   
 fisku    	fisk   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 fiskum    	fisk   <noun>      <masc>      <a-stem>      <dat>      <pl>   
@@ -3324,6 +3444,14 @@ flėgilu    	flėgil   <noun>      <masc>      <a-stem>      <instr>      <pl>
 flėgilu    	flėgil   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 flėgilum    	flėgil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 flėgilun    	flėgil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+flėti    	flėt   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+flėti    	flėt   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+flėtiu    	flėt   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+flėtiun    	flėt   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+flėtti    	flėtti   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+flėtti    	flėtti   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+flėttiu    	flėtti   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+flėttiun    	flėtti   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 fragn    	fregnan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <sg>   
 fragn    	fregnan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <sg>   
 fretan    	fretan   <v>      <str>      <class5>      <pastpart>   
@@ -3505,6 +3633,10 @@ fâru    	fâr   <noun>      <masc>      <a-stem>      <instr>      <pl>
 fâru    	fâr   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 fârum    	fâr   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 fârun    	fâr   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+fâthi    	fâthi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+fâthi    	fâthi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+fâthiu    	fâthi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+fâthiun    	fâthi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 fêh    	fâhan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <sg>   
 fêh    	fâhan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <sg>   
 fêhi    	fâhan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <sg>   
@@ -3550,6 +3682,14 @@ fėlisu    	fėlis   <noun>      <masc>      <a-stem>      <instr>      <pl>
 fėlisu    	fėlis   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 fėlisum    	fėlis   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 fėlisun    	fėlis   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+fėni    	fėni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+fėni    	fėni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+fėniu    	fėni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+fėniun    	fėni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+fėrnithi    	fėrnithi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+fėrnithi    	fėrnithi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+fėrnithiu    	fėrnithi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+fėrnithiun    	fėrnithi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 fūstilîn    	fūstilîn   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 fūstilîn    	fūstilîn   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 fūstilîn    	fūstilîn   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -3626,9 +3766,17 @@ garna    	garn   <noun>      <neut>      <a-stem>      <dat>      <sg>
 garnas    	garn   <noun>      <neut>      <a-stem>      <gen>      <sg>   
 garne    	garn   <noun>      <neut>      <a-stem>      <dat>      <sg>   
 garnes    	garn   <noun>      <neut>      <a-stem>      <gen>      <sg>   
+garni    	garni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+garni    	garni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+garniu    	garni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+garniun    	garni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 garnu    	garn   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 garnum    	garn   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 garnun    	garn   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+garwi    	garwi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+garwi    	garwi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+garwiu    	garwi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+garwiun    	garwi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gat    	gat   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 gat    	gat   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 gata    	gat   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -3690,7 +3838,11 @@ gibindađ    	gibindan   <v>      <str>      <class3a>      <pres>      <indic> 
 gibindis    	gibindan   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <sg>   
 gibindiđ    	gibindan   <v>      <str>      <class3a>      <pres>      <indic>      <3rd>      <sg>   
 gibindu    	gibindan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <sg>   
+gibirgi    	gibirgi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gibirgi    	gibirgi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 gibirgis    	gibergan   <v>      <str>      <class3b>      <pres>      <indic>      <2nd>      <sg>   
+gibirgiu    	gibirgi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gibirgiun    	gibirgi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gibirgiđ    	gibergan   <v>      <str>      <class3b>      <pres>      <indic>      <3rd>      <sg>   
 gibirgu    	gibergan   <v>      <str>      <class3b>      <pres>      <indic>      <1st>      <sg>   
 giboran    	giberan   <v>      <str>      <class4>      <pastpart>   
@@ -3706,6 +3858,10 @@ gibraku    	gibrak   <noun>      <neut>      <a-stem>      <instr>      <sg>
 gibraku    	gibrak   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 gibrakum    	gibrak   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 gibrakun    	gibrak   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+gibudli    	gibudli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gibudli    	gibudli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gibudliu    	gibudli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gibudliun    	gibudli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gibund    	gibund   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 gibund    	gibund   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 gibund    	gibund   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -3741,13 +3897,21 @@ giburgun    	gibergan   <v>      <str>      <class3b>      <pret>      <indic>  
 gibâri    	giberan   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <sg>   
 gibâri    	giberan   <v>      <str>      <class4>      <pret>      <opt>      <1st>      <sg>   
 gibâri    	giberan   <v>      <str>      <class4>      <pret>      <opt>      <3rd>      <sg>   
+gibâri    	gibâri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gibâri    	gibâri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 gibârin    	giberan   <v>      <str>      <class4>      <pret>      <opt>      <1st>      <pl>   
 gibârin    	giberan   <v>      <str>      <class4>      <pret>      <opt>      <2nd>      <pl>   
 gibârin    	giberan   <v>      <str>      <class4>      <pret>      <opt>      <3rd>      <pl>   
 gibâris    	giberan   <v>      <str>      <class4>      <pret>      <opt>      <2nd>      <sg>   
+gibâriu    	gibâri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gibâriun    	gibâri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gibârun    	giberan   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <pl>   
 gibârun    	giberan   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <pl>   
 gibârun    	giberan   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <pl>   
+gibôsi    	gibôsi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gibôsi    	gibôsi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gibôsiu    	gibôsi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gibôsiun    	gibôsi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gibūr    	gibūr   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 gibūr    	gibūr   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 gibūra    	gibūr   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -3810,6 +3974,10 @@ gidêla    	gidêl   <noun>      <neut>      <a-stem>      <dat>      <sg>
 gidêlas    	gidêl   <noun>      <neut>      <a-stem>      <gen>      <sg>   
 gidêle    	gidêl   <noun>      <neut>      <a-stem>      <dat>      <sg>   
 gidêles    	gidêl   <noun>      <neut>      <a-stem>      <gen>      <sg>   
+gidêli    	gidêli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gidêli    	gidêli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gidêliu    	gidêli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gidêliun    	gidêli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gidêlu    	gidêl   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 gidêlum    	gidêl   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 gidêlun    	gidêl   <noun>      <neut>      <a-stem>      <dat>      <pl>   
@@ -3823,6 +3991,10 @@ gifarađ    	gifaran   <v>      <str>      <class6>      <pres>      <indic>    
 gifaru    	gifaran   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <sg>   
 giferis    	gifaran   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <sg>   
 giferiđ    	gifaran   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <sg>   
+gifildi    	gifildi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gifildi    	gifildi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gifildiu    	gifildi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gifildiun    	gifildi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gifragn    	gifregnan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <sg>   
 gifragn    	gifregnan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <sg>   
 gifrignis    	gifregnan   <v>      <str>      <class3b>      <pres>      <indic>      <2nd>      <sg>   
@@ -3866,10 +4038,14 @@ gifôr    	gifaran   <v>      <str>      <class6>      <pret>      <indic>      
 gifôri    	gifaran   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <sg>   
 gifôri    	gifaran   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <sg>   
 gifôri    	gifaran   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <sg>   
+gifôri    	gifôri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gifôri    	gifôri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 gifôrin    	gifaran   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <pl>   
 gifôrin    	gifaran   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <pl>   
 gifôrin    	gifaran   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <pl>   
 gifôris    	gifaran   <v>      <str>      <class6>      <pret>      <opt>      <2nd>      <sg>   
+gifôriu    	gifôri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gifôriun    	gifôri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gifôrun    	gifaran   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
 gifôrun    	gifaran   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
 gifôrun    	gifaran   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
@@ -3883,6 +4059,14 @@ gigangađ    	gigangan   <v>      <str>      <class7>      <pres>      <indic>  
 gigangis    	gigangan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <sg>   
 gigangiđ    	gigangan   <v>      <str>      <class7>      <pres>      <indic>      <3rd>      <sg>   
 gigangu    	gigangan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <sg>   
+gigarwi    	gigarwi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gigarwi    	gigarwi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gigarwidi    	gigarwidi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gigarwidi    	gigarwidi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gigarwidiu    	gigarwidi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gigarwidiun    	gigarwidi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+gigarwiu    	gigarwi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gigarwiun    	gigarwi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gigeng    	gigangan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <sg>   
 gigeng    	gigangan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <sg>   
 gigengi    	gigangan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <sg>   
@@ -3895,6 +4079,10 @@ gigengis    	gigangan   <v>      <str>      <class7>      <pret>      <opt>     
 gigengun    	gigangan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <pl>   
 gigengun    	gigangan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <pl>   
 gigengun    	gigangan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <pl>   
+gigėngi    	gigėngi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gigėngi    	gigėngi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gigėngiu    	gigėngi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gigėngiun    	gigėngi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gihald    	gihaldan   <v>      <str>      <class7>      <impv>      <sg>   
 gihaldan    	gihaldan   <v>      <str>      <class7>      <inf>   
 gihaldan    	gihaldan   <v>      <str>      <class7>      <pastpart>   
@@ -4082,6 +4270,8 @@ gilâsis    	gilesan   <v>      <str>      <class5>      <pret>      <opt>      
 gilâsun    	gilesan   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <pl>   
 gilâsun    	gilesan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <pl>   
 gilâsun    	gilesan   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <pl>   
+gilêsti    	gilêsti   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gilêsti    	gilêsti   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 gilêsti    	gilêstian   <v>      <wk>      <class1>      <impv>      <sg>   
 gilêstiad    	gilêstian   <v>      <wk>      <class1>      <impv>      <pl>   
 gilêstian    	gilêstian   <v>      <wk>      <class1>      <inf>   
@@ -4095,7 +4285,9 @@ gilêstidun    	gilêstian   <v>      <wk>      <class1>      <pret>      <1st> 
 gilêstidun    	gilêstian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
 gilêstidun    	gilêstian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
 gilêstis    	gilêstian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+gilêstiu    	gilêsti   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
 gilêstiu    	gilêstian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
+gilêstiun    	gilêsti   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gilôvi    	gilôvian   <v>      <wk>      <class1>      <impv>      <sg>   
 gilôviad    	gilôvian   <v>      <wk>      <class1>      <impv>      <pl>   
 gilôvian    	gilôvian   <v>      <wk>      <class1>      <inf>   
@@ -4110,6 +4302,10 @@ gilôvidun    	gilôvian   <v>      <wk>      <class1>      <pret>      <2nd>   
 gilôvidun    	gilôvian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
 gilôvis    	gilôvian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
 gilôviu    	gilôvian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
+gilėndi    	gilėndi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gilėndi    	gilėndi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gilėndiu    	gilėndi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gilėndiun    	gilėndi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gimak    	gimak   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 gimak    	gimak   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 gimaka    	gimak   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -4132,6 +4328,18 @@ gimanges    	gimang   <noun>      <neut>      <a-stem>      <gen>      <sg>
 gimangu    	gimang   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 gimangum    	gimang   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 gimangun    	gimang   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+gimarki    	gimarki   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gimarki    	gimarki   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gimarkiu    	gimarki   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gimarkiun    	gimarki   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+gimôdi    	gimôdi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gimôdi    	gimôdi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gimôdiu    	gimôdi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gimôdiun    	gimôdi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+gimūthi    	gimūthi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gimūthi    	gimūthi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gimūthiu    	gimūthi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gimūthiun    	gimūthi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 ginesan    	ginesan   <v>      <str>      <class5>      <pastpart>   
 ginim    	giniman   <v>      <str>      <class4>      <impv>      <sg>   
 ginim    	giniman   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <sg>   
@@ -4198,7 +4406,11 @@ girâdađ    	girâdan   <v>      <str>      <class7>      <impv>      <pl>
 girâdađ    	girâdan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
 girâdađ    	girâdan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <pl>   
 girâdađ    	girâdan   <v>      <str>      <class7>      <pres>      <indic>      <3rd>      <pl>   
+girâdi    	girâdi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+girâdi    	girâdi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 girâdis    	girâdan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <sg>   
+girâdiu    	girâdi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+girâdiun    	girâdi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 girâdiđ    	girâdan   <v>      <str>      <class7>      <pres>      <indic>      <3rd>      <sg>   
 girâdu    	girâdan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <sg>   
 girêd    	girâdan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <sg>   
@@ -4206,14 +4418,30 @@ girêd    	girâdan   <v>      <str>      <class7>      <pret>      <indic>     
 girêdi    	girâdan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <sg>   
 girêdi    	girâdan   <v>      <str>      <class7>      <pret>      <opt>      <1st>      <sg>   
 girêdi    	girâdan   <v>      <str>      <class7>      <pret>      <opt>      <3rd>      <sg>   
+girêdi    	girêdi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+girêdi    	girêdi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 girêdin    	girâdan   <v>      <str>      <class7>      <pret>      <opt>      <1st>      <pl>   
 girêdin    	girâdan   <v>      <str>      <class7>      <pret>      <opt>      <2nd>      <pl>   
 girêdin    	girâdan   <v>      <str>      <class7>      <pret>      <opt>      <3rd>      <pl>   
 girêdis    	girâdan   <v>      <str>      <class7>      <pret>      <opt>      <2nd>      <sg>   
+girêdiu    	girêdi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+girêdiun    	girêdi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 girêdun    	girâdan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <pl>   
 girêdun    	girâdan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <pl>   
 girêdun    	girâdan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <pl>   
+girôvi    	girôvi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+girôvi    	girôvi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+girôviu    	girôvi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+girôviun    	girôvi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+girūni    	girūni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+girūni    	girūni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+girūniu    	girūni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+girūniun    	girūni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gisehan    	gisehan   <v>      <str>      <class5>      <pastpart>   
+gisidli    	gisidli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gisidli    	gisidli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gisidliu    	gisidli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gisidliun    	gisidli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gisitti    	gisittian   <v>      <str>      <class5>      <impv>      <sg>   
 gisitti    	gisittian   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <sg>   
 gisitti    	gisittian   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <sg>   
@@ -4236,6 +4464,10 @@ gisittiu    	gisittian   <v>      <str>      <class5>      <pres>      <indic>  
 gisittiun    	gisittian   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <pl>   
 gisittiun    	gisittian   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <pl>   
 gisittiun    	gisittian   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <pl>   
+gisiuni    	gisiuni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gisiuni    	gisiuni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gisiuniu    	gisiuni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gisiuniun    	gisiuni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 giskap    	giskap   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 giskap    	giskap   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 giskapa    	giskap   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -4268,6 +4500,10 @@ giskêthu    	giskêth   <noun>      <masc>      <a-stem>      <instr>      <pl>
 giskêthu    	giskêth   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 giskêthum    	giskêth   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 giskêthun    	giskêth   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+giskôhi    	giskôhi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+giskôhi    	giskôhi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+giskôhiu    	giskôhi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+giskôhiun    	giskôhi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 giskėppi    	giskėppian   <v>      <str>      <class6>      <impv>      <sg>   
 giskėppi    	giskėppian   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <sg>   
 giskėppi    	giskėppian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <sg>   
@@ -4312,6 +4548,10 @@ gislôgis    	gislahan   <v>      <str>      <class6>      <pret>      <opt>    
 gislôgun    	gislahan   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
 gislôgun    	gislahan   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
 gislôgun    	gislahan   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
+gisnidi    	gisnidi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gisnidi    	gisnidi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gisnidiu    	gisnidi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gisnidiun    	gisnidi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gispan    	gispanan   <v>      <str>      <class6>      <impv>      <sg>   
 gispanan    	gispanan   <v>      <str>      <class6>      <inf>   
 gispanan    	gispanan   <v>      <str>      <class6>      <pastpart>   
@@ -4333,6 +4573,10 @@ gispilu    	gispil   <noun>      <neut>      <a-stem>      <instr>      <sg>
 gispilu    	gispil   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 gispilum    	gispil   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 gispilun    	gispil   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+gispringi    	gispringi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gispringi    	gispringi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gispringiu    	gispringi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gispringiun    	gispringi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gisprokan    	gisprekan   <v>      <str>      <class4>      <pastpart>   
 gisprâki    	gisprekan   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <sg>   
 gisprâki    	gisprekan   <v>      <str>      <class4>      <pret>      <opt>      <1st>      <sg>   
@@ -4356,6 +4600,10 @@ gispônis    	gispanan   <v>      <str>      <class6>      <pret>      <opt>    
 gispônun    	gispanan   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
 gispônun    	gispanan   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
 gispônun    	gispanan   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
+gispėnsti    	gispėnsti   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gispėnsti    	gispėnsti   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gispėnstiu    	gispėnsti   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gispėnstiun    	gispėnsti   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gistand    	gistandan   <v>      <str>      <class6>      <impv>      <sg>   
 gistandan    	gistandan   <v>      <str>      <class6>      <inf>   
 gistandan    	gistandan   <v>      <str>      <class6>      <pastpart>   
@@ -4366,6 +4614,14 @@ gistandađ    	gistandan   <v>      <str>      <class6>      <pres>      <indic>
 gistandis    	gistandan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <sg>   
 gistandiđ    	gistandan   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <sg>   
 gistandu    	gistandan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <sg>   
+gistriuni    	gistriuni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gistriuni    	gistriuni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gistriuniu    	gistriuni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gistriuniun    	gistriuni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+gistrîdi    	gistrîdi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gistrîdi    	gistrîdi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gistrîdiu    	gistrîdi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gistrîdiun    	gistrîdi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gistônd    	gistandan   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <sg>   
 gistônd    	gistandan   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <sg>   
 gistôndi    	gistandan   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <sg>   
@@ -4378,6 +4634,14 @@ gistôndis    	gistandan   <v>      <str>      <class6>      <pret>      <opt>  
 gistôndun    	gistandan   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
 gistôndun    	gistandan   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
 gistôndun    	gistandan   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
+gisustrithi    	gisustrithi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gisustrithi    	gisustrithi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gisustrithiu    	gisustrithi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gisustrithiun    	gisustrithi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+gisustrôni    	gisustrôni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gisustrôni    	gisustrôni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gisustrôniu    	gisustrôni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gisustrôniun    	gisustrôni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 giswark    	giswerkan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <sg>   
 giswark    	giswerkan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <sg>   
 giswirkis    	giswerkan   <v>      <str>      <class3b>      <pres>      <indic>      <2nd>      <sg>   
@@ -4432,6 +4696,10 @@ gisîtha    	gisîth   <noun>      <masc>      <a-stem>      <dat>      <sg>
 gisîthas    	gisîth   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 gisîthe    	gisîth   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 gisîthes    	gisîth   <noun>      <masc>      <a-stem>      <gen>      <sg>   
+gisîthi    	gisîthi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gisîthi    	gisîthi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gisîthiu    	gisîthi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gisîthiun    	gisîthi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gisîthu    	gisîth   <noun>      <masc>      <a-stem>      <instr>      <pl>   
 gisîthu    	gisîth   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 gisîthum    	gisîth   <noun>      <masc>      <a-stem>      <dat>      <pl>   
@@ -4447,6 +4715,14 @@ gitalu    	gital   <noun>      <neut>      <a-stem>      <instr>      <sg>
 gitalu    	gital   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 gitalum    	gital   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 gitalun    	gital   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+githigni    	githigni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+githigni    	githigni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+githigniu    	githigni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+githigniun    	githigni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+githingi    	githingi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+githingi    	githingi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+githingiu    	githingi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+githingiun    	githingi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 githrang    	githringan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 githrang    	githringan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 githring    	githring   <noun>      <neut>      <a-stem>      <acc>      <pl>   
@@ -4575,6 +4851,18 @@ giweldis    	giwaldan   <v>      <str>      <class7>      <pret>      <opt>     
 giweldun    	giwaldan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <pl>   
 giweldun    	giwaldan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <pl>   
 giweldun    	giwaldan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <pl>   
+giwidėri    	giwidėri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+giwidėri    	giwidėri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+giwidėriu    	giwidėri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+giwidėriun    	giwidėri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+giwiggi    	giwiggi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+giwiggi    	giwiggi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+giwiggiu    	giwiggi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+giwiggiun    	giwiggi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+giwihti    	giwihti   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+giwihti    	giwihti   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+giwihtiu    	giwihti   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+giwihtiun    	giwihti   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 giwin    	giwin   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 giwin    	giwin   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 giwina    	giwin   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -4615,6 +4903,14 @@ giwirru    	giwerran   <v>      <str>      <class3b>      <pres>      <indic>   
 giwirthis    	giwerthan   <v>      <str>      <class3b>      <pres>      <indic>      <2nd>      <sg>   
 giwirthiđ    	giwerthan   <v>      <str>      <class3b>      <pres>      <indic>      <3rd>      <sg>   
 giwirthu    	giwerthan   <v>      <str>      <class3b>      <pres>      <indic>      <1st>      <sg>   
+giwiti    	giwit   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+giwiti    	giwit   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+giwitiu    	giwit   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+giwitiun    	giwit   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+giwitti    	giwitti   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+giwitti    	giwitti   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+giwittiu    	giwitti   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+giwittiun    	giwitti   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 giworran    	giwerran   <v>      <str>      <class3b>      <pastpart>   
 giworthan    	giwerthan   <v>      <str>      <class3b>      <pastpart>   
 giwunnan    	giwinnan   <v>      <str>      <class3a>      <pastpart>   
@@ -4648,6 +4944,10 @@ giwurris    	giwerran   <v>      <str>      <class3b>      <pret>      <opt>    
 giwurrun    	giwerran   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <pl>   
 giwurrun    	giwerran   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <pl>   
 giwurrun    	giwerran   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <pl>   
+giwâdi    	giwâdi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+giwâdi    	giwâdi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+giwâdiu    	giwâdi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+giwâdiun    	giwâdi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 giwâgi    	giwegan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <sg>   
 giwâgi    	giwegan   <v>      <str>      <class5>      <pret>      <opt>      <1st>      <sg>   
 giwâgi    	giwegan   <v>      <str>      <class5>      <pret>      <opt>      <3rd>      <sg>   
@@ -4658,6 +4958,22 @@ giwâgis    	giwegan   <v>      <str>      <class5>      <pret>      <opt>      
 giwâgun    	giwegan   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <pl>   
 giwâgun    	giwegan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <pl>   
 giwâgun    	giwegan   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <pl>   
+giwâpni    	giwâpni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+giwâpni    	giwâpni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+giwâpnithi    	giwâpnithi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+giwâpnithi    	giwâpnithi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+giwâpnithiu    	giwâpnithi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+giwâpnithiun    	giwâpnithi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+giwâpniu    	giwâpni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+giwâpniun    	giwâpni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+giwêgi    	giwêgi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+giwêgi    	giwêgi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+giwêgiu    	giwêgi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+giwêgiun    	giwêgi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+giwėldithi    	giwėldithi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+giwėldithi    	giwėldithi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+giwėldithiu    	giwėldithi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+giwėldithiun    	giwėldithi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 glas    	glas   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 glas    	glas   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 glasa    	glas   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -4759,6 +5075,10 @@ grunda    	grund   <noun>      <masc>      <a-stem>      <dat>      <sg>
 grundas    	grund   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 grunde    	grund   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 grundes    	grund   <noun>      <masc>      <a-stem>      <gen>      <sg>   
+grundi    	grundi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+grundi    	grundi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+grundiu    	grundi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+grundiun    	grundi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 grundu    	grund   <noun>      <masc>      <a-stem>      <instr>      <pl>   
 grundu    	grund   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 grundum    	grund   <noun>      <masc>      <a-stem>      <dat>      <pl>   
@@ -4843,6 +5163,14 @@ guldis    	geldan   <v>      <str>      <class3b>      <pret>      <opt>      <2
 guldun    	geldan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <pl>   
 guldun    	geldan   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <pl>   
 guldun    	geldan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <pl>   
+gumiski    	gumiski   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gumiski    	gumiski   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gumiskiu    	gumiski   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gumiskiun    	gumiski   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+gumkunni    	gumkunni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gumkunni    	gumkunni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gumkunniu    	gumkunni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gumkunniun    	gumkunni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gund    	gund   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 gund    	gund   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 gund    	gund   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -4864,6 +5192,10 @@ gurdilu    	gurdil   <noun>      <masc>      <a-stem>      <instr>      <pl>
 gurdilu    	gurdil   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 gurdilum    	gurdil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 gurdilun    	gurdil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+gurdisli    	gurdisli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gurdisli    	gurdisli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gurdisliu    	gurdisli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gurdisliun    	gurdisli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gâdi    	gedan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <sg>   
 gâdi    	gedan   <v>      <str>      <class5>      <pret>      <opt>      <1st>      <sg>   
 gâdi    	gedan   <v>      <str>      <class5>      <pret>      <opt>      <3rd>      <sg>   
@@ -4957,6 +5289,10 @@ gôdes    	gôd   <noun>      <neut>      <a-stem>      <gen>      <sg>
 gôdu    	gôd   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 gôdum    	gôd   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 gôdun    	gôd   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+gôi    	gô   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+gôi    	gô   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+gôiu    	gô   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+gôiun    	gô   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 gôk    	gôk   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 gôk    	gôk   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 gôka    	gôk   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -5064,6 +5400,10 @@ handmahalu    	handmahal   <noun>      <neut>      <a-stem>      <instr>      <s
 handmahalu    	handmahal   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 handmahalum    	handmahal   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 handmahalun    	handmahal   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+handmâli    	handmâli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+handmâli    	handmâli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+handmâliu    	handmâli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+handmâliun    	handmâli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 handmėgin    	handmėgin   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 handmėgin    	handmėgin   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 handmėgina    	handmėgin   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -5250,6 +5590,10 @@ himila    	himil   <noun>      <masc>      <a-stem>      <dat>      <sg>
 himilas    	himil   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 himile    	himil   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 himiles    	himil   <noun>      <masc>      <a-stem>      <gen>      <sg>   
+himiliki    	himilik   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+himiliki    	himilik   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+himilikiu    	himilik   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+himilikiun    	himilik   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 himilkraft    	himilkraft   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 himilkraft    	himilkraft   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 himilkrafta    	himilkraft   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -5270,6 +5614,10 @@ himilkuningu    	himilkuning   <noun>      <masc>      <a-stem>      <instr>    
 himilkuningu    	himilkuning   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 himilkuningum    	himilkuning   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 himilkuningun    	himilkuning   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+himilrîki    	himilrîki   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+himilrîki    	himilrîki   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+himilrîkiu    	himilrîki   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+himilrîkiun    	himilrîki   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 himiltungal    	himiltungal   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 himiltungal    	himiltungal   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 himiltungala    	himiltungal   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -5285,6 +5633,10 @@ himilu    	himil   <noun>      <masc>      <a-stem>      <instr>      <pl>
 himilu    	himil   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 himilum    	himil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 himilun    	himil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+hindbėri    	hindbėri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+hindbėri    	hindbėri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+hindbėriu    	hindbėri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+hindbėriun    	hindbėri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 hirdi    	hirdi   <noun>      <masc>      <ja-stem>      <acc>      <sg>   
 hirdi    	hirdi   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 hirdiu    	hirdi   <noun>      <masc>      <ja-stem>      <instr>      <sg>   
@@ -5456,6 +5808,10 @@ hrisliu    	hrisli   <noun>      <neut>      <a-stem>      <instr>      <sg>
 hrisliu    	hrisli   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 hrislium    	hrisli   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 hrisliun    	hrisli   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+hrênkurni    	hrênkurni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+hrênkurni    	hrênkurni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+hrênkurniu    	hrênkurni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+hrênkurniun    	hrênkurni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 hrôht    	hrôht   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 hrôht    	hrôht   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 hrôhta    	hrôht   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -5716,10 +6072,18 @@ hêtum    	hêt   <noun>      <masc>      <a-stem>      <dat>      <pl>
 hêtum    	hêt   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 hêtun    	hêt   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 hêtun    	hêt   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+hîwiski    	hîwiski   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+hîwiski    	hîwiski   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+hîwiskiu    	hîwiski   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+hîwiskiun    	hîwiski   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 hôdâri    	hôdâri   <noun>      <masc>      <ja-stem>      <acc>      <sg>   
 hôdâri    	hôdâri   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 hôdâriu    	hôdâri   <noun>      <masc>      <ja-stem>      <instr>      <sg>   
 hôdâriun    	hôdâri   <noun>      <masc>      <ja-stem>      <dat>      <pl>   
+hôgi    	hôgi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+hôgi    	hôgi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+hôgiu    	hôgi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+hôgiun    	hôgi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 hôhstôl    	hôhstôl   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 hôhstôl    	hôhstôl   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 hôhstôla    	hôhstôl   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -5730,6 +6094,10 @@ hôhstôlu    	hôhstôl   <noun>      <masc>      <a-stem>      <instr>      <p
 hôhstôlu    	hôhstôl   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 hôhstôlum    	hôhstôl   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 hôhstôlun    	hôhstôl   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+hôi    	hôi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+hôi    	hôi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+hôiu    	hôi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+hôiun    	hôi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 hôn    	hôn   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 hôn    	hôn   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 hôn    	hôn   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -5824,6 +6192,10 @@ hôvidmâles    	hôvidmâl   <noun>      <neut>      <a-stem>      <gen>      <
 hôvidmâlu    	hôvidmâl   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 hôvidmâlum    	hôvidmâl   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 hôvidmâlun    	hôvidmâl   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+hôvidpuli    	hôvidpuli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+hôvidpuli    	hôvidpuli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+hôvidpuliu    	hôvidpuli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+hôvidpuliun    	hôvidpuli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 hôvidskat    	hôvidskat   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 hôvidskat    	hôvidskat   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 hôvidskata    	hôvidskat   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -5845,6 +6217,10 @@ hėlitha    	hėlith   <noun>      <masc>      <a-stem>      <dat>      <sg>
 hėlithas    	hėlith   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 hėlithe    	hėlith   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 hėlithes    	hėlith   <noun>      <masc>      <a-stem>      <gen>      <sg>   
+hėlithkunni    	hėlithkunni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+hėlithkunni    	hėlithkunni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+hėlithkunniu    	hėlithkunni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+hėlithkunniun    	hėlithkunni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 hėlithu    	hėlith   <noun>      <masc>      <a-stem>      <instr>      <pl>   
 hėlithu    	hėlith   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 hėlithum    	hėlith   <noun>      <masc>      <a-stem>      <dat>      <pl>   
@@ -5871,6 +6247,10 @@ hėlligithwinges    	hėlligithwing   <noun>      <neut>      <a-stem>      <gen
 hėlligithwingu    	hėlligithwing   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 hėlligithwingum    	hėlligithwing   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 hėlligithwingun    	hėlligithwing   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+hėlliwîti    	hėlliwîti   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+hėlliwîti    	hėlliwîti   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+hėlliwîtiu    	hėlliwîti   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+hėlliwîtiun    	hėlliwîti   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 hėlsîth    	hėlsîth   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 hėlsîth    	hėlsîth   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 hėlsîtha    	hėlsîth   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -5881,6 +6261,10 @@ hėlsîthu    	hėlsîth   <noun>      <masc>      <a-stem>      <instr>      <p
 hėlsîthu    	hėlsîth   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 hėlsîthum    	hėlsîth   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 hėlsîthun    	hėlsîth   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+hėmithi    	hėmithi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+hėmithi    	hėmithi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+hėmithiu    	hėmithi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+hėmithiun    	hėmithi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 hėngist    	hėngist   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 hėngist    	hėngist   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 hėngista    	hėngist   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -5996,6 +6380,10 @@ hūsa    	hūs   <noun>      <neut>      <a-stem>      <dat>      <sg>
 hūsas    	hūs   <noun>      <neut>      <a-stem>      <gen>      <sg>   
 hūse    	hūs   <noun>      <neut>      <a-stem>      <dat>      <sg>   
 hūses    	hūs   <noun>      <neut>      <a-stem>      <gen>      <sg>   
+hėslithi    	hėslithi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+hėslithi    	hėslithi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+hėslithiu    	hėslithi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+hėslithiun    	hėslithi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 hūsu    	hūs   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 hūsum    	hūs   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 hūsun    	hūs   <noun>      <neut>      <a-stem>      <dat>      <pl>   
@@ -6030,6 +6418,10 @@ ingangu    	ingang   <noun>      <masc>      <a-stem>      <instr>      <pl>
 ingangu    	ingang   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 ingangum    	ingang   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 ingangun    	ingang   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+ingisnidi    	ingisnidi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+ingisnidi    	ingisnidi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+ingisnidiu    	ingisnidi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+ingisnidiun    	ingisnidi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 inlât    	inlât   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 inlât    	inlât   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 inlâta    	inlât   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -6051,6 +6443,10 @@ instâkis    	instekan   <v>      <str>      <class4>      <pret>      <opt>    
 instâkun    	instekan   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <pl>   
 instâkun    	instekan   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <pl>   
 instâkun    	instekan   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <pl>   
+inwidi    	inwid   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+inwidi    	inwid   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+inwidiu    	inwid   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+inwidiun    	inwid   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 inwidnîth    	inwidnîth   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 inwidnîth    	inwidnîth   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 inwidnîtha    	inwidnîth   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -6071,6 +6467,10 @@ inwidrâdu    	inwidrâd   <noun>      <masc>      <a-stem>      <instr>      <p
 inwidrâdu    	inwidrâd   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 inwidrâdum    	inwidrâd   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 inwidrâdun    	inwidrâd   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+inâthiri    	inâthiri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+inâthiri    	inâthiri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+inâthiriu    	inâthiri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+inâthiriun    	inâthiri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 iok    	ôkan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <sg>   
 iok    	ôkan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <sg>   
 ioki    	ôkan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <sg>   
@@ -6233,6 +6633,8 @@ kindes    	kind   <noun>      <neut>      <a-stem>      <gen>      <sg>
 kindu    	kind   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 kindum    	kind   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 kindun    	kind   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+kinni    	kinni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+kinni    	kinni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 kinnibên    	kinnibên   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 kinnibên    	kinnibên   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 kinnibên    	kinnibên   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -6244,6 +6646,8 @@ kinnibênes    	kinnibên   <noun>      <neut>      <a-stem>      <gen>      <sg
 kinnibênu    	kinnibên   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 kinnibênum    	kinnibên   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 kinnibênun    	kinnibên   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+kinniu    	kinni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+kinniun    	kinni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 kirikland    	kirikland   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 kirikland    	kirikland   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 kirikland    	kirikland   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -6265,6 +6669,10 @@ kirsikbômu    	kirsikbôm   <noun>      <masc>      <a-stem>      <instr>      
 kirsikbômu    	kirsikbôm   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 kirsikbômum    	kirsikbôm   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 kirsikbômun    	kirsikbôm   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+kirsikbėri    	kirsikbėri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+kirsikbėri    	kirsikbėri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+kirsikbėriu    	kirsikbėri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+kirsikbėriun    	kirsikbėri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 kistilîn    	kistilîn   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 kistilîn    	kistilîn   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 kistilîn    	kistilîn   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -6407,6 +6815,10 @@ kristu    	krist   <noun>      <masc>      <a-stem>      <instr>      <pl>
 kristu    	krist   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 kristum    	krist   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 kristun    	krist   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+krūci    	krūci   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+krūci    	krūci   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+krūciu    	krūci   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+krūciun    	krūci   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 krūd    	krūd   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 krūd    	krūd   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 krūd    	krūd   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -6487,6 +6899,10 @@ kuningdômum    	kuningdôm   <noun>      <masc>      <a-stem>      <dat>      <
 kuningdômun    	kuningdôm   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 kuninge    	kuning   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 kuninges    	kuning   <noun>      <masc>      <a-stem>      <gen>      <sg>   
+kuningrîki    	kuningrîki   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+kuningrîki    	kuningrîki   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+kuningrîkiu    	kuningrîki   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+kuningrîkiun    	kuningrîki   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 kuningstôl    	kuningstôl   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 kuningstôl    	kuningstôl   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 kuningstôla    	kuningstôl   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -6501,6 +6917,12 @@ kuningu    	kuning   <noun>      <masc>      <a-stem>      <instr>      <pl>
 kuningu    	kuning   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 kuningum    	kuning   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 kuningun    	kuning   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+kunni    	kunni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+kunni    	kunni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+kunniu    	kunni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+kunniun    	kunni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+kurni    	kurni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+kurni    	kurni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 kurnilbôm    	kurnilbôm   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 kurnilbôm    	kurnilbôm   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 kurnilbôma    	kurnilbôm   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -6511,6 +6933,8 @@ kurnilbômu    	kurnilbôm   <noun>      <masc>      <a-stem>      <instr>      
 kurnilbômu    	kurnilbôm   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 kurnilbômum    	kurnilbôm   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 kurnilbômun    	kurnilbôm   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+kurniu    	kurni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+kurniun    	kurni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 kwall    	kwellan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 kwall    	kwellan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 kwalm    	kwalm   <noun>      <neut>      <a-stem>      <acc>      <pl>   
@@ -6841,6 +7265,10 @@ liudibarnes    	liudibarn   <noun>      <neut>      <a-stem>      <gen>      <sg
 liudibarnu    	liudibarn   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 liudibarnum    	liudibarn   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 liudibarnun    	liudibarn   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+liudkunni    	liudkunni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+liudkunni    	liudkunni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+liudkunniu    	liudkunni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+liudkunniun    	liudkunni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 liudstamn    	liudstamn   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 liudstamn    	liudstamn   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 liudstamna    	liudstamn   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -6851,10 +7279,18 @@ liudstamnu    	liudstamn   <noun>      <masc>      <a-stem>      <instr>      <p
 liudstamnu    	liudstamn   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 liudstamnum    	liudstamn   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 liudstamnun    	liudstamn   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+lubbi    	lubbi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+lubbi    	lubbi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+lubbiu    	lubbi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+lubbiun    	lubbi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 luginâri    	luginâri   <noun>      <masc>      <ja-stem>      <acc>      <sg>   
 luginâri    	luginâri   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 luginâriu    	luginâri   <noun>      <masc>      <ja-stem>      <instr>      <sg>   
 luginâriun    	luginâri   <noun>      <masc>      <ja-stem>      <dat>      <pl>   
+lâri    	lâri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+lâri    	lâri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+lâriu    	lâri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+lâriun    	lâri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 lâsi    	lesan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <sg>   
 lâsi    	lesan   <v>      <str>      <class5>      <pret>      <opt>      <1st>      <sg>   
 lâsi    	lesan   <v>      <str>      <class5>      <pret>      <opt>      <3rd>      <sg>   
@@ -7093,6 +7529,10 @@ lôtharu    	lôthar   <noun>      <neut>      <a-stem>      <instr>      <sg>
 lôtharu    	lôthar   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 lôtharum    	lôthar   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 lôtharun    	lôthar   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+lėndi    	lėndi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+lėndi    	lėndi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+lėndiu    	lėndi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+lėndiun    	lėndi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 lėntînmânuth    	lėntînmânuth   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 lėntînmânuth    	lėntînmânuth   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 lėntînmânutha    	lėntînmânuth   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -7161,6 +7601,14 @@ malâri    	malâri   <noun>      <masc>      <ja-stem>      <acc>      <sg>
 malâri    	malâri   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 malâriu    	malâri   <noun>      <masc>      <ja-stem>      <instr>      <sg>   
 malâriun    	malâri   <noun>      <masc>      <ja-stem>      <dat>      <pl>   
+manarvêdi    	manarvêdi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+manarvêdi    	manarvêdi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+manarvêdiu    	manarvêdi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+manarvêdiun    	manarvêdi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+mankunni    	mankunni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+mankunni    	mankunni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+mankunniu    	mankunni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+mankunniun    	mankunni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 mankus    	mankus   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 mankus    	mankus   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 mankusa    	mankus   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -7258,6 +7706,8 @@ matun    	mat   <noun>      <neut>      <a-stem>      <dat>      <pl>
 melis    	malan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <sg>   
 meliđ    	malan   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <sg>   
 metan    	metan   <v>      <str>      <class5>      <pastpart>   
+middi    	middi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+middi    	middi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 middil    	middil   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 middil    	middil   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 middila    	middil   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -7269,6 +7719,12 @@ middilu    	middil   <noun>      <neut>      <a-stem>      <instr>      <sg>
 middilu    	middil   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 middilum    	middil   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 middilun    	middil   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+middiu    	middi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+middiun    	middi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+midgarni    	midgarni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+midgarni    	midgarni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+midgarniu    	midgarni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+midgarniun    	midgarni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 midi    	mîthan   <v>      <str>      <class1>      <pret>      <indic>      <2nd>      <sg>   
 midi    	mîthan   <v>      <str>      <class1>      <pret>      <opt>      <1st>      <sg>   
 midi    	mîthan   <v>      <str>      <class1>      <pret>      <opt>      <3rd>      <sg>   
@@ -7279,7 +7735,15 @@ midis    	mîthan   <v>      <str>      <class1>      <pret>      <opt>      <2n
 midun    	mîthan   <v>      <str>      <class1>      <pret>      <indic>      <1st>      <pl>   
 midun    	mîthan   <v>      <str>      <class1>      <pret>      <indic>      <2nd>      <pl>   
 midun    	mîthan   <v>      <str>      <class1>      <pret>      <indic>      <3rd>      <pl>   
+milli    	milli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+milli    	milli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+milliu    	milli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+milliun    	milli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 mithan    	mîthan   <v>      <str>      <class1>      <pastpart>   
+muddi    	muddi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+muddi    	muddi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+muddiu    	muddi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+muddiun    	muddi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 mulinstên    	mulinstên   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 mulinstên    	mulinstên   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 mulinstêna    	mulinstên   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -7294,6 +7758,10 @@ mulinâri    	mulinâri   <noun>      <masc>      <ja-stem>      <acc>      <sg>
 mulinâri    	mulinâri   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 mulinâriu    	mulinâri   <noun>      <masc>      <ja-stem>      <instr>      <sg>   
 mulinâriun    	mulinâri   <noun>      <masc>      <ja-stem>      <dat>      <pl>   
+mundmâli    	mundmâli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+mundmâli    	mundmâli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+mundmâliu    	mundmâli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+mundmâliun    	mundmâli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 mundskat    	mundskat   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 mundskat    	mundskat   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 mundskata    	mundskat   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -7328,6 +7796,10 @@ mâgu    	mâg   <noun>      <masc>      <a-stem>      <instr>      <pl>
 mâgu    	mâg   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 mâgum    	mâg   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 mâgun    	mâg   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+mâki    	mâki   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+mâki    	mâki   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+mâkiu    	mâki   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+mâkiun    	mâki   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 mâl    	mâl   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 mâl    	mâl   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 mâl    	mâl   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -7336,6 +7808,10 @@ mâla    	mâl   <noun>      <neut>      <a-stem>      <dat>      <sg>
 mâlas    	mâl   <noun>      <neut>      <a-stem>      <gen>      <sg>   
 mâle    	mâl   <noun>      <neut>      <a-stem>      <dat>      <sg>   
 mâles    	mâl   <noun>      <neut>      <a-stem>      <gen>      <sg>   
+mâli    	mâli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+mâli    	mâli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+mâliu    	mâli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+mâliun    	mâli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 mâlu    	mâl   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 mâlum    	mâl   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 mâlun    	mâl   <noun>      <neut>      <a-stem>      <dat>      <pl>   
@@ -7439,6 +7915,10 @@ môdarmâgun    	môdarmâg   <noun>      <masc>      <a-stem>      <dat>      <
 môdas    	môd   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 môde    	môd   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 môdes    	môd   <noun>      <masc>      <a-stem>      <gen>      <sg>   
+môdi    	môdi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+môdi    	môdi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+môdiu    	môdi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+môdiun    	môdi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 môdu    	môd   <noun>      <masc>      <a-stem>      <instr>      <pl>   
 môdu    	môd   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 môdum    	môd   <noun>      <masc>      <a-stem>      <dat>      <pl>   
@@ -7466,6 +7946,14 @@ môses    	môs   <noun>      <neut>      <a-stem>      <gen>      <sg>
 môsu    	môs   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 môsum    	môs   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 môsun    	môs   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+môtfandi    	môtfandi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+môtfandi    	môtfandi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+môtfandiu    	môtfandi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+môtfandiun    	môtfandi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+mūdspėlli    	mūdspėlli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+mūdspėlli    	mūdspėlli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+mūdspėlliu    	mūdspėlli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+mūdspėlliun    	mūdspėlli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 mėgin    	mėgin   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 mėgin    	mėgin   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 mėgina    	mėgin   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -7487,6 +7975,10 @@ mūlbômu    	mūlbôm   <noun>      <masc>      <a-stem>      <instr>      <pl>
 mūlbômu    	mūlbôm   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 mūlbômum    	mūlbôm   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 mūlbômun    	mūlbôm   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+mėlli    	mėlli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+mėlli    	mėlli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+mėlliu    	mėlli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+mėlliun    	mėlli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 mėrigras    	mėrigras   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 mėrigras    	mėrigras   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 mėrigrasa    	mėrigras   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -7519,6 +8011,10 @@ mėriswînes    	mėriswîn   <noun>      <neut>      <a-stem>      <gen>      <
 mėriswînu    	mėriswîn   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 mėriswînum    	mėriswîn   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 mėriswînun    	mėriswîn   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+mėrki    	mėrki   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+mėrki    	mėrki   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+mėrkiu    	mėrki   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+mėrkiun    	mėrki   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 mūth    	mūth   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 mūth    	mūth   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 mūtha    	mūth   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -7680,6 +8176,10 @@ niuwilingu    	niuwiling   <noun>      <masc>      <a-stem>      <instr>      <p
 niuwilingu    	niuwiling   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 niuwilingum    	niuwiling   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 niuwilingun    	niuwiling   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+niuwilėndi    	niuwilėndi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+niuwilėndi    	niuwilėndi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+niuwilėndiu    	niuwilėndi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+niuwilėndiun    	niuwilėndi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 noman    	neman   <v>      <str>      <class4>      <pastpart>   
 noman    	niman   <v>      <str>      <class4>      <pastpart>   
 nuskil    	nuskil   <noun>      <masc>      <a-stem>      <acc>      <sg>   
@@ -7803,6 +8303,14 @@ nėstes    	nėst   <noun>      <neut>      <a-stem>      <gen>      <sg>
 nėstu    	nėst   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 nėstum    	nėst   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 nėstun    	nėst   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+nėtili    	nėtili   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+nėtili    	nėtili   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+nėtiliu    	nėtili   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+nėtiliun    	nėtili   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+nėtti    	nėtti   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+nėtti    	nėtti   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+nėttiu    	nėtti   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+nėttiun    	nėtti   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 pand    	pand   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 pand    	pand   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 pand    	pand   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -7880,6 +8388,10 @@ plôgishôvidu    	plôgishôvid   <noun>      <neut>      <a-stem>      <instr>
 plôgishôvidu    	plôgishôvid   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 plôgishôvidum    	plôgishôvid   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 plôgishôvidun    	plôgishôvid   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+puli    	puli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+puli    	puli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+puliu    	puli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+puliun    	puli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 pund    	pund   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 pund    	pund   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 pund    	pund   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -7922,6 +8434,10 @@ pâskau    	pâska   <noun>      <neut>      <a-stem>      <instr>      <sg>
 pâskau    	pâska   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 pâskaum    	pâska   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 pâskaun    	pâska   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+pêtithi    	pêtithi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+pêtithi    	pêtithi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+pêtithiu    	pêtithi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+pêtithiun    	pêtithi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 pîliri    	pîliri   <noun>      <masc>      <ja-stem>      <acc>      <sg>   
 pîliri    	pîliri   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 pîliriu    	pîliri   <noun>      <masc>      <ja-stem>      <instr>      <sg>   
@@ -8001,6 +8517,10 @@ rathu    	rath   <noun>      <neut>      <a-stem>      <instr>      <sg>
 rathu    	rath   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 rathum    	rath   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 rathun    	rath   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+ribbi    	ribbi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+ribbi    	ribbi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+ribbiu    	ribbi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+ribbiun    	ribbi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 ridan    	rîdan   <v>      <str>      <class1>      <pastpart>   
 ridi    	rîdan   <v>      <str>      <class1>      <pret>      <indic>      <2nd>      <sg>   
 ridi    	rîdan   <v>      <str>      <class1>      <pret>      <opt>      <1st>      <sg>   
@@ -8042,6 +8562,10 @@ rinnađ    	rinnan   <v>      <str>      <class3a>      <pres>      <indic>     
 rinnis    	rinnan   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <sg>   
 rinniđ    	rinnan   <v>      <str>      <class3a>      <pres>      <indic>      <3rd>      <sg>   
 rinnu    	rinnan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <sg>   
+riudi    	riudi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+riudi    	riudi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+riudiu    	riudi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+riudiun    	riudi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 runnan    	rinnan   <v>      <str>      <class3a>      <pastpart>   
 runni    	rinnan   <v>      <str>      <class3a>      <pret>      <indic>      <2nd>      <sg>   
 runni    	rinnan   <v>      <str>      <class3a>      <pret>      <opt>      <1st>      <sg>   
@@ -8074,6 +8598,10 @@ ruskes    	rusk   <noun>      <neut>      <a-stem>      <gen>      <sg>
 rusku    	rusk   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 ruskum    	rusk   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 ruskun    	rusk   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+rusli    	rusli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+rusli    	rusli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+rusliu    	rusli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+rusliun    	rusli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 râd    	râd   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 râd    	râd   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 râd    	râdan   <v>      <str>      <class7>      <impv>      <sg>   
@@ -8088,6 +8616,10 @@ râdađ    	râdan   <v>      <str>      <class7>      <pres>      <indic>      
 râde    	râd   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 râdes    	râd   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 râdis    	râdan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <sg>   
+râdisli    	râdisli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+râdisli    	râdisli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+râdisliu    	râdisli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+râdisliun    	râdisli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 râdiđ    	râdan   <v>      <str>      <class7>      <pres>      <indic>      <3rd>      <sg>   
 râdu    	râd   <noun>      <masc>      <a-stem>      <instr>      <pl>   
 râdu    	râd   <noun>      <masc>      <a-stem>      <instr>      <sg>   
@@ -8108,6 +8640,10 @@ rêdis    	râdan   <v>      <str>      <class7>      <pret>      <opt>      <2n
 rêdun    	râdan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <pl>   
 rêdun    	râdan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <pl>   
 rêdun    	râdan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <pl>   
+rêni    	rêni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+rêni    	rêni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+rêniu    	rêni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+rêniun    	rêni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 rîd    	rîdan   <v>      <str>      <class1>      <impv>      <sg>   
 rîdan    	rîdan   <v>      <str>      <class1>      <inf>   
 rîdađ    	rîdan   <v>      <str>      <class1>      <impv>      <pl>   
@@ -8127,6 +8663,10 @@ rîkdômu    	rîkdôm   <noun>      <masc>      <a-stem>      <instr>      <pl>
 rîkdômu    	rîkdôm   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 rîkdômum    	rîkdôm   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 rîkdômun    	rîkdôm   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+rîki    	rîki   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+rîki    	rîki   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+rîkiu    	rîki   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+rîkiun    	rîki   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 rîsil    	rîsil   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 rîsil    	rîsil   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 rîsila    	rîsil   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -8202,10 +8742,18 @@ rėginu    	rėgin   <noun>      <masc>      <a-stem>      <instr>      <pl>
 rėginu    	rėgin   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 rėginum    	rėgin   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 rėginun    	rėgin   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+sadulgirêdi    	sadulgirêdi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+sadulgirêdi    	sadulgirêdi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+sadulgirêdiu    	sadulgirêdi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+sadulgirêdiun    	sadulgirêdi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 sadulâri    	sadulâri   <noun>      <masc>      <ja-stem>      <acc>      <sg>   
 sadulâri    	sadulâri   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 sadulâriu    	sadulâri   <noun>      <masc>      <ja-stem>      <instr>      <sg>   
 sadulâriun    	sadulâri   <noun>      <masc>      <ja-stem>      <dat>      <pl>   
+saharai    	saharai   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+saharai    	saharai   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+saharaiu    	saharai   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+saharaiun    	saharai   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 sahs    	sahs   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 sahs    	sahs   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 sahs    	sahs   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -8243,6 +8791,10 @@ salta    	salt   <noun>      <neut>      <a-stem>      <dat>      <sg>
 saltas    	salt   <noun>      <neut>      <a-stem>      <gen>      <sg>   
 salte    	salt   <noun>      <neut>      <a-stem>      <dat>      <sg>   
 saltes    	salt   <noun>      <neut>      <a-stem>      <gen>      <sg>   
+saltgiwėrki    	saltgiwėrki   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+saltgiwėrki    	saltgiwėrki   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+saltgiwėrkiu    	saltgiwėrki   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+saltgiwėrkiun    	saltgiwėrki   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 saltu    	salt   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 saltum    	salt   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 saltun    	salt   <noun>      <neut>      <a-stem>      <dat>      <pl>   
@@ -8351,6 +8903,14 @@ sinlîfes    	sinlîf   <noun>      <neut>      <a-stem>      <gen>      <sg>
 sinlîfu    	sinlîf   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 sinlîfum    	sinlîf   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 sinlîfun    	sinlîf   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+sinnahti    	sinnahti   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+sinnahti    	sinnahti   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+sinnahtiu    	sinnahti   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+sinnahtiun    	sinnahti   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+sinwėldi    	sinwėldi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+sinwėldi    	sinwėldi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+sinwėldiu    	sinwėldi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+sinwėldiun    	sinwėldi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 sitti    	sittian   <v>      <str>      <class5>      <impv>      <sg>   
 sitti    	sittian   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <sg>   
 sitti    	sittian   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <sg>   
@@ -8951,7 +9511,11 @@ springađ    	springan   <v>      <str>      <class3a>      <impv>      <pl>
 springađ    	springan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <pl>   
 springađ    	springan   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <pl>   
 springađ    	springan   <v>      <str>      <class3a>      <pres>      <indic>      <3rd>      <pl>   
+springi    	springi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+springi    	springi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 springis    	springan   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <sg>   
+springiu    	springi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+springiun    	springi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 springiđ    	springan   <v>      <str>      <class3a>      <pres>      <indic>      <3rd>      <sg>   
 springu    	springan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <sg>   
 sprokan    	sprekan   <v>      <str>      <class4>      <pastpart>   
@@ -8980,10 +9544,14 @@ sprâkhūsun    	sprâkhūs   <noun>      <neut>      <a-stem>      <dat>      <
 sprâki    	sprekan   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <sg>   
 sprâki    	sprekan   <v>      <str>      <class4>      <pret>      <opt>      <1st>      <sg>   
 sprâki    	sprekan   <v>      <str>      <class4>      <pret>      <opt>      <3rd>      <sg>   
+sprâki    	sprâki   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+sprâki    	sprâki   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 sprâkin    	sprekan   <v>      <str>      <class4>      <pret>      <opt>      <1st>      <pl>   
 sprâkin    	sprekan   <v>      <str>      <class4>      <pret>      <opt>      <2nd>      <pl>   
 sprâkin    	sprekan   <v>      <str>      <class4>      <pret>      <opt>      <3rd>      <pl>   
 sprâkis    	sprekan   <v>      <str>      <class4>      <pret>      <opt>      <2nd>      <sg>   
+sprâkiu    	sprâki   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+sprâkiun    	sprâki   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 sprâkun    	sprekan   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <pl>   
 sprâkun    	sprekan   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <pl>   
 sprâkun    	sprekan   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <pl>   
@@ -9090,6 +9658,10 @@ standađ    	standan   <v>      <str>      <class6>      <pres>      <indic>    
 standis    	standan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <sg>   
 standiđ    	standan   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <sg>   
 standu    	standan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <sg>   
+stanknussi    	stanknussi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+stanknussi    	stanknussi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+stanknussiu    	stanknussi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+stanknussiun    	stanknussi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 stapal    	stapal   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 stapal    	stapal   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 stapala    	stapal   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -9204,6 +9776,8 @@ strūtu    	strūt   <noun>      <masc>      <a-stem>      <instr>      <pl>
 strūtu    	strūt   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 strūtum    	strūt   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 strūtun    	strūt   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+stukki    	stukki   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+stukki    	stukki   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 stukkilîn    	stukkilîn   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 stukkilîn    	stukkilîn   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 stukkilîn    	stukkilîn   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -9215,6 +9789,8 @@ stukkilînes    	stukkilîn   <noun>      <neut>      <a-stem>      <gen>      <
 stukkilînu    	stukkilîn   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 stukkilînum    	stukkilîn   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 stukkilînun    	stukkilîn   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+stukkiu    	stukki   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+stukkiun    	stukki   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 sturvi    	stervan   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <sg>   
 sturvi    	stervan   <v>      <str>      <class3b>      <pret>      <opt>      <1st>      <sg>   
 sturvi    	stervan   <v>      <str>      <class3b>      <pret>      <opt>      <3rd>      <sg>   
@@ -9225,6 +9801,10 @@ sturvis    	stervan   <v>      <str>      <class3b>      <pret>      <opt>      
 sturvun    	stervan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <pl>   
 sturvun    	stervan   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <pl>   
 sturvun    	stervan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <pl>   
+stuthli    	stuthli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+stuthli    	stuthli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+stuthliu    	stuthli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+stuthliun    	stuthli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 stâki    	stekan   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <sg>   
 stâki    	stekan   <v>      <str>      <class4>      <pret>      <opt>      <1st>      <sg>   
 stâki    	stekan   <v>      <str>      <class4>      <pret>      <opt>      <3rd>      <sg>   
@@ -9374,6 +9954,10 @@ stôtađ    	stôtan   <v>      <str>      <class7>      <pres>      <indic>    
 stôtis    	stôtan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <sg>   
 stôtiđ    	stôtan   <v>      <str>      <class7>      <pres>      <indic>      <3rd>      <sg>   
 stôtu    	stôtan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <sg>   
+stėlli    	stėlli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+stėlli    	stėlli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+stėlliu    	stėlli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+stėlliun    	stėlli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 stėngil    	stėngil   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 stėngil    	stėngil   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 stėngila    	stėngil   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -9406,6 +9990,10 @@ stėppiun    	stėppian   <v>      <str>      <class6>      <pret>      <indic> 
 stėppiun    	stėppian   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
 stėppiun    	stėppian   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
 stėppiđ    	stėppian   <v>      <str>      <class6>      <pres>      <indic>      <3rd>      <sg>   
+suhtbėddi    	suhtbėddi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+suhtbėddi    	suhtbėddi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+suhtbėddiu    	suhtbėddi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+suhtbėddiun    	suhtbėddi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 suli    	suli   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 suli    	suli   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 sulia    	suli   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -9854,6 +10442,10 @@ sėlilandes    	sėliland   <noun>      <neut>      <a-stem>      <gen>      <sg
 sėlilandu    	sėliland   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 sėlilandum    	sėliland   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 sėlilandun    	sėliland   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+sėmithai    	sėmithai   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+sėmithai    	sėmithai   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+sėmithaiu    	sėmithai   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+sėmithaiun    	sėmithai   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 sėndi    	sėndian   <v>      <wk>      <class1>      <impv>      <sg>   
 sėndiad    	sėndian   <v>      <wk>      <class1>      <impv>      <pl>   
 sėndian    	sėndian   <v>      <wk>      <class1>      <inf>   
@@ -9890,6 +10482,10 @@ talu    	tal   <noun>      <neut>      <a-stem>      <instr>      <sg>
 talu    	tal   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 talum    	tal   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 talun    	tal   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+tandstuthli    	tandstuthli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+tandstuthli    	tandstuthli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+tandstuthliu    	tandstuthli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+tandstuthliun    	tandstuthli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 thananim    	thananiman   <v>      <str>      <class4>      <impv>      <sg>   
 thananim    	thananiman   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <sg>   
 thananim    	thananiman   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <sg>   
@@ -9955,9 +10551,17 @@ thinghūses    	thinghūs   <noun>      <neut>      <a-stem>      <gen>      <sg
 thinghūsu    	thinghūs   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 thinghūsum    	thinghūs   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 thinghūsun    	thinghūs   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+thingithi    	thingithi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+thingithi    	thingithi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+thingithiu    	thingithi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+thingithiun    	thingithi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 thingu    	thing   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 thingum    	thing   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 thingun    	thing   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+thiustri    	thiustri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+thiustri    	thiustri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+thiustriu    	thiustri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+thiustriun    	thiustri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 thragil    	thragil   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 thragil    	thragil   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 thragila    	thragil   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -10100,6 +10704,10 @@ thurisu    	thuris   <noun>      <masc>      <a-stem>      <instr>      <pl>
 thurisu    	thuris   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 thurisum    	thuris   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 thurisun    	thuris   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+thurnithi    	thurnithi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+thurnithi    	thurnithi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+thurnithiu    	thurnithi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+thurnithiun    	thurnithi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 thwah    	thwahan   <v>      <str>      <class6>      <impv>      <sg>   
 thwahan    	thwahan   <v>      <str>      <class6>      <inf>   
 thwahan    	thwahan   <v>      <str>      <class6>      <pastpart>   
@@ -10165,6 +10773,10 @@ thîstilu    	thîstil   <noun>      <masc>      <a-stem>      <instr>      <pl>
 thîstilu    	thîstil   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 thîstilum    	thîstil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 thîstilun    	thîstil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+thėrmi    	thėrmi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+thėrmi    	thėrmi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+thėrmiu    	thėrmi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+thėrmiun    	thėrmi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 timbar    	timbar   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 timbar    	timbar   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 timbara    	timbar   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -10176,6 +10788,10 @@ timbaru    	timbar   <noun>      <neut>      <a-stem>      <instr>      <sg>
 timbaru    	timbar   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 timbarum    	timbar   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 timbarun    	timbar   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+timbri    	timbri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+timbri    	timbri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+timbriu    	timbri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+timbriun    	timbri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 tin    	tin   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 tin    	tin   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 tina    	tin   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -10279,6 +10895,10 @@ tungalu    	tungal   <noun>      <neut>      <a-stem>      <instr>      <sg>
 tungalu    	tungal   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 tungalum    	tungal   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 tungalun    	tungal   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+tuttili    	tuttili   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+tuttili    	tuttili   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+tuttiliu    	tuttili   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+tuttiliun    	tuttili   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 tâfal    	tâfal   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 tâfal    	tâfal   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 tâfala    	tâfal   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -10578,6 +11198,10 @@ ungaru    	ungar   <noun>      <masc>      <a-stem>      <instr>      <pl>
 ungaru    	ungar   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 ungarum    	ungar   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 ungarun    	ungar   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+ungifôri    	ungifôri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+ungifôri    	ungifôri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+ungifôriu    	ungifôri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+ungifôriun    	ungifôri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 ungimak    	ungimak   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 ungimak    	ungimak   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 ungimaka    	ungimak   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -10589,6 +11213,10 @@ ungimaku    	ungimak   <noun>      <neut>      <a-stem>      <instr>      <sg>
 ungimaku    	ungimak   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 ungimakum    	ungimak   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 ungimakun    	ungimak   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+ungiwidėri    	ungiwidėri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+ungiwidėri    	ungiwidėri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+ungiwidėriu    	ungiwidėri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+ungiwidėriun    	ungiwidėri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 uphimil    	uphimil   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 uphimil    	uphimil   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 uphimila    	uphimil   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -10708,6 +11336,10 @@ upôdu    	upôd   <noun>      <masc>      <a-stem>      <instr>      <pl>
 upôdu    	upôd   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 upôdum    	upôd   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 upôdun    	upôd   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+urdêli    	urdêli   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+urdêli    	urdêli   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+urdêliu    	urdêli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+urdêliun    	urdêli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 urlagi    	urlagi   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 urlagi    	urlagi   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 urlagia    	urlagi   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -10729,6 +11361,10 @@ urthanku    	urthank   <noun>      <masc>      <a-stem>      <instr>      <pl>
 urthanku    	urthank   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 urthankum    	urthank   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 urthankun    	urthank   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+uvartimbri    	uvartimbri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+uvartimbri    	uvartimbri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+uvartimbriu    	uvartimbri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+uvartimbriun    	uvartimbri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 uvil    	uvil   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 uvil    	uvil   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 uvila    	uvil   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -11017,6 +11653,10 @@ widâri    	widâri   <noun>      <masc>      <ja-stem>      <acc>      <sg>
 widâri    	widâri   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 widâriu    	widâri   <noun>      <masc>      <ja-stem>      <instr>      <sg>   
 widâriun    	widâri   <noun>      <masc>      <ja-stem>      <dat>      <pl>   
+wigi    	wig   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+wigi    	wig   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+wigiu    	wig   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+wigiun    	wig   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 wiht    	wiht   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 wiht    	wiht   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 wihta    	wiht   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -11462,6 +12102,10 @@ wurthpėnningu    	wurthpėnning   <noun>      <masc>      <a-stem>      <instr>
 wurthpėnningu    	wurthpėnning   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 wurthpėnningum    	wurthpėnning   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 wurthpėnningun    	wurthpėnning   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+wâdi    	wâd   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+wâdi    	wâd   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+wâdiu    	wâd   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+wâdiun    	wâd   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 wâg    	wâg   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 wâg    	wâg   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 wâga    	wâg   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -11499,6 +12143,8 @@ wâna    	wân   <noun>      <masc>      <a-stem>      <dat>      <sg>
 wânas    	wân   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 wâne    	wân   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 wânes    	wân   <noun>      <masc>      <a-stem>      <gen>      <sg>   
+wâni    	wâni   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+wâni    	wâni   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 wâni    	wânian   <v>      <wk>      <class1>      <impv>      <sg>   
 wâniad    	wânian   <v>      <wk>      <class1>      <impv>      <pl>   
 wânian    	wânian   <v>      <wk>      <class1>      <inf>   
@@ -11512,7 +12158,9 @@ wânidun    	wânian   <v>      <wk>      <class1>      <pret>      <1st>      <
 wânidun    	wânian   <v>      <wk>      <class1>      <pret>      <2nd>      <pl>   
 wânidun    	wânian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
 wânis    	wânian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
+wâniu    	wâni   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
 wâniu    	wânian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
+wâniun    	wâni   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 wânu    	wân   <noun>      <masc>      <a-stem>      <instr>      <pl>   
 wânu    	wân   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 wânum    	wân   <noun>      <masc>      <a-stem>      <dat>      <pl>   
@@ -11570,6 +12218,10 @@ wêga    	wêg   <noun>      <masc>      <a-stem>      <dat>      <sg>
 wêgas    	wêg   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 wêge    	wêg   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 wêges    	wêg   <noun>      <masc>      <a-stem>      <gen>      <sg>   
+wêgi    	wêgi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+wêgi    	wêgi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+wêgiu    	wêgi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+wêgiun    	wêgi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 wêgu    	wêg   <noun>      <masc>      <a-stem>      <instr>      <pl>   
 wêgu    	wêg   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 wêgum    	wêg   <noun>      <masc>      <a-stem>      <dat>      <pl>   
@@ -11596,6 +12248,10 @@ wîffahses    	wîffahs   <noun>      <neut>      <a-stem>      <gen>      <sg>
 wîffahsu    	wîffahs   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 wîffahsum    	wîffahs   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 wîffahsun    	wîffahs   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+wîfgigarwidi    	wîfgigarwidi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+wîfgigarwidi    	wîfgigarwidi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+wîfgigarwidiu    	wîfgigarwidi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+wîfgigarwidiun    	wîfgigarwidi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 wîfu    	wîf   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 wîfum    	wîf   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 wîfun    	wîf   <noun>      <neut>      <a-stem>      <dat>      <pl>   
@@ -11605,6 +12261,10 @@ wîga    	wîg   <noun>      <masc>      <a-stem>      <dat>      <sg>
 wîgas    	wîg   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 wîge    	wîg   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 wîges    	wîg   <noun>      <masc>      <a-stem>      <gen>      <sg>   
+wîggigarwi    	wîggigarwi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+wîggigarwi    	wîggigarwi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+wîggigarwiu    	wîggigarwi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+wîggigarwiun    	wîggigarwi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 wîghūs    	wîghūs   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 wîghūs    	wîghūs   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 wîghūs    	wîghūs   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -11650,10 +12310,18 @@ wîhu    	wîh   <noun>      <masc>      <a-stem>      <instr>      <pl>
 wîhu    	wîh   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 wîhum    	wîh   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 wîhun    	wîh   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+wîkbilithi    	wîkbilithi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+wîkbilithi    	wîkbilithi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+wîkbilithiu    	wîkbilithi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+wîkbilithiun    	wîkbilithi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 wîn    	wîn   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 wîn    	wîn   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 wîna    	wîn   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 wînas    	wîn   <noun>      <masc>      <a-stem>      <gen>      <sg>   
+wînbėri    	wînbėri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+wînbėri    	wînbėri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+wînbėriu    	wînbėri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+wînbėriun    	wînbėri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 wîne    	wîn   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 wînes    	wîn   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 wînmalt    	wînmalt   <noun>      <neut>      <a-stem>      <acc>      <pl>   
@@ -11701,6 +12369,10 @@ wîskuningu    	wîskuning   <noun>      <masc>      <a-stem>      <instr>      
 wîskuningu    	wîskuning   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 wîskuningum    	wîskuning   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 wîskuningun    	wîskuning   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+wîti    	wîti   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+wîti    	wîti   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+wîtiu    	wîti   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+wîtiun    	wîti   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 wîtnâri    	wîtnâri   <noun>      <masc>      <ja-stem>      <acc>      <sg>   
 wîtnâri    	wîtnâri   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 wîtnâriu    	wîtnâri   <noun>      <masc>      <ja-stem>      <instr>      <sg>   
@@ -11761,6 +12433,18 @@ wôskis    	waskan   <v>      <str>      <class6>      <pret>      <opt>      <2
 wôskun    	waskan   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
 wôskun    	waskan   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
 wôskun    	waskan   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
+wėbbi    	wėbbi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+wėbbi    	wėbbi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+wėbbiu    	wėbbi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+wėbbiun    	wėbbi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+wėddi    	wėddi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+wėddi    	wėddi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+wėddiu    	wėddi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+wėddiun    	wėddi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+wėldi    	wėldi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+wėldi    	wėldi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+wėldiu    	wėldi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+wėldiun    	wėldi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 wėndi    	wėndian   <v>      <wk>      <class1>      <impv>      <sg>   
 wėndiad    	wėndian   <v>      <wk>      <class1>      <impv>      <pl>   
 wėndian    	wėndian   <v>      <wk>      <class1>      <inf>   
@@ -11779,6 +12463,10 @@ wėnâri    	wėnâri   <noun>      <masc>      <ja-stem>      <acc>      <sg>
 wėnâri    	wėnâri   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 wėnâriu    	wėnâri   <noun>      <masc>      <ja-stem>      <instr>      <sg>   
 wėnâriun    	wėnâri   <noun>      <masc>      <ja-stem>      <dat>      <pl>   
+wėplithi    	wėplithi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+wėplithi    	wėplithi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+wėplithiu    	wėplithi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+wėplithiun    	wėplithi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 wėthil    	wėthil   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 wėthil    	wėthil   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 wėthila    	wėthil   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -11820,10 +12508,14 @@ wėthilun    	wėthil   <noun>      <masc>      <a-stem>      <dat>      <pl>
 âbulgi    	âbelgan   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <sg>   
 âbulgi    	âbelgan   <v>      <str>      <class3b>      <pret>      <opt>      <1st>      <sg>   
 âbulgi    	âbelgan   <v>      <str>      <class3b>      <pret>      <opt>      <3rd>      <sg>   
+âbulgi    	âbulgi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+âbulgi    	âbulgi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 âbulgin    	âbelgan   <v>      <str>      <class3b>      <pret>      <opt>      <1st>      <pl>   
 âbulgin    	âbelgan   <v>      <str>      <class3b>      <pret>      <opt>      <2nd>      <pl>   
 âbulgin    	âbelgan   <v>      <str>      <class3b>      <pret>      <opt>      <3rd>      <pl>   
 âbulgis    	âbelgan   <v>      <str>      <class3b>      <pret>      <opt>      <2nd>      <sg>   
+âbulgiu    	âbulgi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+âbulgiun    	âbulgi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 âbulgun    	âbelgan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <pl>   
 âbulgun    	âbelgan   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <pl>   
 âbulgun    	âbelgan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <pl>   
@@ -11985,6 +12677,10 @@ wėthilun    	wėthil   <noun>      <masc>      <a-stem>      <dat>      <pl>
 âlêtun    	âlâtan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <pl>   
 âlêtun    	âlâtan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <pl>   
 âlêtun    	âlâtan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <pl>   
+ârundi    	ârundi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+ârundi    	ârundi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+ârundiu    	ârundi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+ârundiun    	ârundi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 âsitti    	âsittian   <v>      <str>      <class5>      <impv>      <sg>   
 âsitti    	âsittian   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <sg>   
 âsitti    	âsittian   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <sg>   
@@ -12097,6 +12793,10 @@ wėthilun    	wėthil   <noun>      <masc>      <a-stem>      <dat>      <pl>
 âtas    	ât   <noun>      <neut>      <a-stem>      <gen>      <sg>   
 âte    	ât   <noun>      <neut>      <a-stem>      <dat>      <sg>   
 âtes    	ât   <noun>      <neut>      <a-stem>      <gen>      <sg>   
+âthiri    	âthiri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+âthiri    	âthiri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+âthiriu    	âthiri   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+âthiriun    	âthiri   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 âti    	etan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <sg>   
 âti    	etan   <v>      <str>      <class5>      <pret>      <opt>      <1st>      <sg>   
 âti    	etan   <v>      <str>      <class5>      <pret>      <opt>      <3rd>      <sg>   
@@ -12239,6 +12939,10 @@ wėthilun    	wėthil   <noun>      <masc>      <a-stem>      <dat>      <pl>
 êganu    	êgan   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 êganum    	êgan   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 êganun    	êgan   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+êkithi    	êkithi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+êkithi    	êkithi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+êkithiu    	êkithi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+êkithiun    	êkithi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 êmbar    	êmbar   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 êmbar    	êmbar   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 êmbara    	êmbar   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -12313,6 +13017,10 @@ wėthilun    	wėthil   <noun>      <masc>      <a-stem>      <dat>      <pl>
 êwandagu    	êwandag   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 êwandagum    	êwandag   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 êwandagun    	êwandag   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+êwanrîki    	êwanrîki   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+êwanrîki    	êwanrîki   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+êwanrîkiu    	êwanrîki   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+êwanrîkiun    	êwanrîki   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 îh    	îh   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 îh    	îh   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 îha    	îh   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -12440,6 +13148,10 @@ wėthilun    	wėthil   <noun>      <masc>      <a-stem>      <dat>      <pl>
 ôthilu    	ôthil   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 ôthilum    	ôthil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 ôthilun    	ôthil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+ôthmôdi    	ôthmôdi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+ôthmôdi    	ôthmôdi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+ôthmôdiu    	ôthmôdi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+ôthmôdiun    	ôthmôdi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 ėgithâri    	ėgithâri   <noun>      <masc>      <ja-stem>      <acc>      <sg>   
 ėgithâri    	ėgithâri   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 ėgithâriu    	ėgithâri   <noun>      <masc>      <ja-stem>      <instr>      <sg>   
@@ -12454,6 +13166,10 @@ wėthilun    	wėthil   <noun>      <masc>      <a-stem>      <dat>      <pl>
 ūhtfugalu    	ūhtfugal   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 ūhtfugalum    	ūhtfugal   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 ūhtfugalun    	ūhtfugal   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+ėi    	ėi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+ėi    	ėi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+ėiu    	ėi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+ėiun    	ėi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 ėldibarn    	ėldibarn   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 ėldibarn    	ėldibarn   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 ėldibarn    	ėldibarn   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -12465,6 +13181,10 @@ wėthilun    	wėthil   <noun>      <masc>      <a-stem>      <dat>      <pl>
 ėldibarnu    	ėldibarn   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 ėldibarnum    	ėldibarn   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 ėldibarnun    	ėldibarn   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+ėlilėndi    	ėlilėndi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+ėlilėndi    	ėlilėndi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+ėlilėndiu    	ėlilėndi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+ėlilėndiun    	ėlilėndi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 ėllian    	ėllian   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 ėllian    	ėllian   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 ėlliana    	ėllian   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -12490,6 +13210,10 @@ wėthilun    	wėthil   <noun>      <masc>      <a-stem>      <dat>      <pl>
 ėngilu    	ėngil   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 ėngilum    	ėngil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 ėngilun    	ėngil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+ėrvi    	ėrvi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
+ėrvi    	ėrvi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
+ėrviu    	ėrvi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
+ėrviun    	ėrvi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
 ėrviward    	ėrviward   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 ėrviward    	ėrviward   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 ėrviwarda    	ėrviward   <noun>      <masc>      <a-stem>      <dat>      <sg>   

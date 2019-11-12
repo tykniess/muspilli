@@ -116,6 +116,12 @@ LEXICON Masc-Ja-Stem
 %<dat%>%<pl%>:ion                #       ;
 %<acc%>%<pl%>:ios                #       ; ! consider changing to %{O%}s to account for scribal variation
 
+LEXICON Neut-Ja-Stem
+Masc-Ja-Stem				;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 LEXICON Verbs
 StrongVerbs                     ;
 WeakVerbs 			;
@@ -1429,6 +1435,222 @@ weggi%<noun%>%<masc%>%<ja-stem%>:wegg Masc-Ja-Stem 		; ! weggi* 2, weg-g-i*, as.
 wėnâri%<noun%>%<masc%>%<ja-stem%>:wėnâr Masc-Ja-Stem 		; ! wėnâri* 1, wėnėri, wėn-âr-i*, wėn-ėr-i*, as., st. M. (ja): nhd. Hofknecht; ne. farmhand (M.)
 widâri%<noun%>%<masc%>%<ja-stem%>:widâr Masc-Ja-Stem 		; ! widâri* 2, widėri* (1), wid-âr-i*, wid-ėr-i* (1), as., st. M. (ja): nhd. „Waldarbeiter“, Holzarbeiter, Holzhauer; ne. woodworker (M.)
 wîtnâri%<noun%>%<masc%>%<ja-stem%>:wîtnâr Masc-Ja-Stem 		; ! wîtnâri* 1, wîtnėri, wî-t-n-âr-i*, wî-t-n-ėr-i*, as., st. M. (ja): nhd. Peiniger; ne. tormentor (M.)
+
+!!!!!!!!!!!!!!!!!! Neut-Ja-Stem!!!!!!!!!!!!!!!!!!!!!!!!!!!
+âbulgi%<noun%>%<neut%>%<ja-stem%>:âbulg Neut-Ja-Stem 		; ! âbulgi 1, â-bul-g-i, as., st. N. (ja): nhd. Zorn; ne. fury (N.)
+afgrundi%<noun%>%<neut%>%<ja-stem%>:afgrund Neut-Ja-Stem 		; ! afgrundi* 2, af-gru-n-d-i*, as., st. N. (ja): nhd. Abgrund; ne. abyss (N.); W.: mnd. afgrunt, afgrunde (Genus wechselnd), afgründ, afgründe, M., Abgrund
+anaginni%<noun%>%<neut%>%<ja-stem%>:anaginn Neut-Ja-Stem 		; ! anaginni* 3, anginni, an-a-gi-nn-i*, an-gi-nn-i*, as., st. N. (ja): nhd. Anfang, Beginn; ne. beginning (N.); W.: mnd. ânegin, âneginne, M., N., Anfang
+anawâni%<noun%>%<neut%>%<ja-stem%>:anawân Neut-Ja-Stem 		; ! anawâni* (1) 1, an-a-wân-i*, as., st. N. (ja): nhd. Trieb, Anlage; ne. drive (N.), disposition (N.)
+andbâri%<noun%>%<neut%>%<ja-stem%>:andbâr Neut-Ja-Stem 		; ! andbâri* 1, and-bâr-i*, as., st. N. (ja): nhd. Aussehen; ne. appearence (N.)
+andwordi%<noun%>%<neut%>%<ja-stem%>:andword Neut-Ja-Stem 		; ! andwordi* 11, andwurdi, and-wor-d-i*, and-wur-d-i*, as., st. N. (ja): nhd. Antwort; ne. answer (N.); W.: mnd. antworde, antwôrde, N., (F.), Antwort
+angimâli%<noun%>%<neut%>%<ja-stem%>:angimâl Neut-Ja-Stem 		; ! angimâli* 1, animâli, anamâli, an-gi-mâli*, an-i-mâli, an-a-mâli*, as., st. N. (ja): nhd. Narbe; ne. scar (N.)
+ansiuni%<noun%>%<neut%>%<ja-stem%>:ansiun Neut-Ja-Stem 		; ! ansiuni* 1, an-siun-i*, as., st. N. (ja): nhd. Angesicht; ne. countenance (N.); W.: s. mnd. ansūne, F., Angesicht
+anudkunni%<noun%>%<neut%>%<ja-stem%>:anudkunn Neut-Ja-Stem 		; ! anudkunni* 1, anud-kun-n-i*, as., st. N. (ja): nhd. Entenart; ne. kind (N.) of duck
+armôdi%<noun%>%<neut%>%<ja-stem%>:armôd Neut-Ja-Stem 		; ! armôdi* 1, arm-ôdi*, as., st. N. (ja): nhd. Armut; ne. poverty (N.); W.: mnd. armôde, N., F., Armut
+ârundi%<noun%>%<neut%>%<ja-stem%>:ârund Neut-Ja-Stem 		; ! ârundi 15, ârund-i, as., st. N. (ja): nhd. Botschaft; ne. message (N.)
+arvêdi%<noun%>%<neut%>%<ja-stem%>:arvêd Neut-Ja-Stem 		; ! arvêdi* 13, arƀêdi, arvidi, ėrvidi, ėrƀidi, arvêd-i*, arƀêd-i, arvid-i*, arƀidi, ėrvid-i*, ėrƀid-i*, as., st. N. (ja): nhd. „Arbeit“, Mühsal, Beschwerde, Leid, Not, Mühe; ne. labour (N.), need (N.), suffering (N.); W.: mnd. arbêt, arbeit, M., N., F.?, Arbeit, Mühe
+askithi%<noun%>%<neut%>%<ja-stem%>:askith Neut-Ja-Stem 		; ! askithi?***, as-k-ith-i?***, as., st. N. (ja): nhd. Eschenwald; ne. ashforest (N.)
+athali%<noun%>%<neut%>%<ja-stem%>:athal Neut-Ja-Stem 		; ! athali* 5, atha-l-i*, as., st. N. (ja): nhd. edles Geschlecht, Adel (M.) (1), Edle (M. Pl.), Edelleute; ne. nobility (N.), noblemen (M. Pl.); W.: mnd. âdel, M., N., edle Abstammung, Adel (M.) (1)
+athalkunni%<noun%>%<neut%>%<ja-stem%>:athalkunn Neut-Ja-Stem 		; ! athalkunni* 2, atha-l-kun-n-i*, as., st. N. (ja): nhd. edle Art, edles Geschlecht; ne. noble kind (N.)
+âthiri%<noun%>%<neut%>%<ja-stem%>:âthir Neut-Ja-Stem 		; ! âthiri?***, âth-iri?***, as., st. N. (ja): nhd. Eingeweide, Ader; ne. guts (N. Pl.), vein (N.); W.: s. mnd. âder, âdere, F.
+bakwêgi%<noun%>%<neut%>%<ja-stem%>:bakwêg Neut-Ja-Stem 		; ! bakwêgi*, ba-k-wêgi*, as., st. N. (ja): nhd. Schüssel, Schale (F.) (2); ne. dish (N.), bowl (N.) (1)
+baluwîti%<noun%>%<neut%>%<ja-stem%>:baluwît Neut-Ja-Stem 		; ! baluwîti* 1, bal-u-wî-t-i*, as., st. N. (ja): nhd. verderbliche Strafe, Höllenpein; ne. eternal punishment (N.)
+bâri%<noun%>%<neut%>%<ja-stem%>:bâr Neut-Ja-Stem 		; ! bâri?***, bâr-i?***, as., st. N. (ja): nhd. Aussehen; ne. sight (N.)
+bėd%<noun%>%<neut%>%<ja-stem%>:bėd Neut-Ja-Stem 		; ! bėd* (2) 2, bėdd, bėd-d, as., st. N. (ja)?: nhd. Bett; ne. bed (N.); W.: s. mnd. bedde, N., Bett
+bėddi%<noun%>%<neut%>%<ja-stem%>:bėdd Neut-Ja-Stem 		; ! bėddi* 1, bėdi, bėd-d-i*, bėd-i, as., st. N. (ja): nhd. Bett; ne. bed (N.); W.: mnd. bedde, N., Bett
+bėddigiwâdi%<noun%>%<neut%>%<ja-stem%>:bėddigiwâd Neut-Ja-Stem 		; ! bėddigiwâdi* 1, bėd-d-i-gi-w-â-d-i*, as., st. N. (ja): nhd. „Bettgewand“, Bettzeug; ne. bedding (N.)
+bėddiwâdi%<noun%>%<neut%>%<ja-stem%>:bėddiwâd Neut-Ja-Stem 		; ! bėddiwâdi* 2, bėd-d-i-wâd-i*, as., st. N. (ja): nhd. „Bettgewand“, Bettzeug; ne. bedding (N.); W.: vgl. mnd. wêde, N., Kleidung
+bėri%<noun%>%<neut%>%<ja-stem%>:bėr Neut-Ja-Stem 		; ! bėri* 1, bė-r-i*, as., st. N. (ja): nhd. Beere; ne. berry (N.); W.: vgl. mnd. bere, F., Beere
+bil%<noun%>%<neut%>%<ja-stem%>:bil Neut-Ja-Stem 		; ! bil* (1) 3, bi-l*, as., st. N. (ja): nhd. „Beil“, Schwert, Streitaxt; ne. sword (N.), battleax (N.); W.: mnd. bîl, N., Beil, Axt
+bilithi%<noun%>%<neut%>%<ja-stem%>:bilith Neut-Ja-Stem 		; ! bilithi 21, bil-ith-i, as., st. N. (ja): nhd. Bild, Abbild, Gleichnis, Zeichen; ne. image (N.), example (N.); W.: mnd. belede, belde, bilede, bilde, N., Bild, Abbild
+birkithi%<noun%>%<neut%>%<ja-stem%>:birkith Neut-Ja-Stem 		; ! birkithi?***, bir-k-ith-i?***, as., st. N. (ja): nhd. „Birkicht“, Birkenwald; ne. birchwood (N.)
+blî%<noun%>%<neut%>%<ja-stem%>:blî Neut-Ja-Stem 		; ! blî* (1) 1, as., st. N. (ja): nhd. Farbe; ne. colour (N.)
+brâmbėri%<noun%>%<neut%>%<ja-stem%>:brâmbėr Neut-Ja-Stem 		; ! brâmbėri?***, brâm-bėri?***, as., st. N. (ja): nhd. Brombeere; ne. brambleberry (N.); W.: s. mnd. brambêre, F., Brombeere (Gallée) brâmbêre, F., Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+burgwardi%<noun%>%<neut%>%<ja-stem%>:burgward Neut-Ja-Stem 		; ! burgwardi?***, bur-g-war-d-i?***, as., st. N. (ja): nhd. Kastell; ne. citadel (N.); W.: vgl. mnd. borchwart, F., Burgwarte
+dôpisli%<noun%>%<neut%>%<ja-stem%>:dôpisl Neut-Ja-Stem 		; ! dôpisli* 2, dôp-isli*, as., st. N. (ja): nhd. Taufe; ne. baptism (N.); W.: vgl. mnd. dopen, sw. V., taufen
+dūfbėri%<noun%>%<neut%>%<ja-stem%>:dūfbėr Neut-Ja-Stem 		; ! dūfbėri 1, dū-f-bė-r-i, as., st. N. (ja): nhd. Brombeere; ne. blackberry (N.)
+ėi%<noun%>%<neut%>%<ja-stem%>:ė Neut-Ja-Stem 		; ! ėi* 9, as., st. N. (ja): nhd. Ei; ne. egg (N.); W.: mnd. ey, ei, N., Ei
+êkithi%<noun%>%<neut%>%<ja-stem%>:êkith Neut-Ja-Stem 		; ! êkithi?***, êk-ith-i?***, as., st. N. (ja): nhd. Eichenwald; ne. oakforest (N.)
+ėlilėndi%<noun%>%<neut%>%<ja-stem%>:ėlilėnd Neut-Ja-Stem 		; ! ėlilėndi* (1) 1, ėl-i-lėn-d-i*, as., st. N. (ja): nhd. Ausland, Fremde (F.) (1); ne. foreign country (N.); W.: mnd. ellende, elende, N., Fremde (F.) (1), Verbannung
+ėrelithi%<noun%>%<neut%>%<ja-stem%>:ėrelith Neut-Ja-Stem 		; ! ėrelithi?***, ėrel-ith-i?***, as., st. N. (ja): nhd. Erlengebüsch; ne. alderbushes (N. Pl.)
+erthbėri%<noun%>%<neut%>%<ja-stem%>:erthbėr Neut-Ja-Stem 		; ! erthbėri* 2, er-th-bė-r-i*, as., st. N. (ja): nhd. Erdbeere; ne. strawberry (N.); W.: s. mnd. êrtbêre, F., Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+erthrîki%<noun%>%<neut%>%<ja-stem%>:erthrîk Neut-Ja-Stem 		; ! erthrîki* 1, er-th-rîk-i*, as., st. N. (ja): nhd. Erdreich, Erde; ne. earth (N.); W.: mnd. erdrîke, N., Erdreich, Erde
+ėrvi%<noun%>%<neut%>%<ja-stem%>:ėrv Neut-Ja-Stem 		; ! ėrvi* 4, ėrv-i*, ėrƀi, as., st. N. (ja): nhd. Erbe (N.); ne. heritage (N.); W.: mnd. erve, M., Erbe (N.)
+êwanrîki%<noun%>%<neut%>%<ja-stem%>:êwanrîk Neut-Ja-Stem 		; ! êwanrîki*? 1, êw-an-rîk-i*?, as., st. N. (ja): nhd. „Ewigreich“, ewiges Reich; ne. eternal reign (N.)
+fâthi%<noun%>%<neut%>%<ja-stem%>:fâth Neut-Ja-Stem 		; ! fâthi* 3, fôthi, fâth-i*, fôth-i*, as., st. N. (ja): nhd. Gang (M.) (1), Gehen, Schritt; ne. pace (N.)
+fėni%<noun%>%<neut%>%<ja-stem%>:fėn Neut-Ja-Stem 		; ! fėni 2, fėnni, fėn-i, fėn-n-i*, as., st. N. (ja): nhd. Fenn, Fehn, Sumpf, Sumpfland; ne. fen (N.); W.: mnd. venne, F., Fenn, Fehn, Sumpf
+fėrnithi%<noun%>%<neut%>%<ja-stem%>:fėrnith Neut-Ja-Stem 		; ! fėrnithi?***, fėr-n-ith-i?***, as., st. N. (ja): nhd. „Farnicht“, Farngestrüpp; ne. thicket (N.) of fern
+firiwit%<noun%>%<neut%>%<ja-stem%>:firiwit Neut-Ja-Stem 		; ! firiwit* 4, firiwitt, fir-i-wi-t*, firi-wi-t-t*, as., st. N. (ja): nhd. Fürwitz, Neugierde, Wissbegierde; ne. curiosity (N.); W.: mnd. vorwitte, Sb., Fürwitz
+fisknėt%<noun%>%<neut%>%<ja-stem%>:fisknėt Neut-Ja-Stem 		; ! fisknėt* 1, fisknėtt, fisk-nėt*, fisk-nėt-t*, as., st. N. (ja): nhd. Fischnetz; ne. fishingnet (N.); W.: s. mnd. vischnette, N., Fischnetz
+flėt%<noun%>%<neut%>%<ja-stem%>:flėt Neut-Ja-Stem 		; ! flėt* 1, flėtt, flė-t*, flė-t-t*, as., st. N. (ja): nhd. „Fletz“, Halle, Haus; ne. hall (N.), house (N.); W.: mnd. vlêt, N., ebene Fläche, Fußboden, Diele
+flėtti%<noun%>%<neut%>%<ja-stem%>:flėtt Neut-Ja-Stem 		; ! flėtti* 4, flė-t-t-i*, as., st. N. (ja): nhd. „Fletz“, Halle, Haus; ne. hall (N.), house (N.); W.: mnd. vlette, N., ebene Fläche
+foraburgi%<noun%>%<neut%>%<ja-stem%>:foraburg Neut-Ja-Stem 		; ! foraburgi* 2, for-a-bur-g-i*, as., st. N. (ja): nhd. Vorburg, Vorgebäude; ne. front structure (N.); W.: mnd. vorborge, vorborch, N., Vorburg
+forastėlli%<noun%>%<neut%>%<ja-stem%>:forastėll Neut-Ja-Stem 		; ! forastėlli 1, for-a-stėl-l-i, as., st. N. (ja): nhd. Verstopfung; ne. constipation (N.); W.: mnd. vorstel, N., Verstopfung?
+garni%<noun%>%<neut%>%<ja-stem%>:garn Neut-Ja-Stem 		; ! garni?***, gar-n-i?***, as., st. N. (ja): nhd. Eingeweide; ne. guts (N. Pl.)
+garwi%<noun%>%<neut%>%<ja-stem%>:garw Neut-Ja-Stem 		; ! garwi* 1, gėrwi, garw-i*, gėrw-i*, as., st. N. (ja): nhd. Kleidung; ne. clothing (N.); W.: mnd. gerwe, garwe, N., Kleidung, Rock
+gibâri%<noun%>%<neut%>%<ja-stem%>:gibâr Neut-Ja-Stem 		; ! gibâri* 2, gi-bâr-i*, as., st. N. (ja): nhd. „Gebaren“, Benehmen, Aussehen; ne. behaviour (N.), look (N.); W.: vgl. mnd. gebere, gebare, F., Gebaren, Benehmen
+gibirgi%<noun%>%<neut%>%<ja-stem%>:gibirg Neut-Ja-Stem 		; ! gibirgi* 2, gi-bir-g-i*, as., st. N. (ja): nhd. Gebirge; ne. mountains (N. Pl.); W.: vgl. mnd. geberchte, N., Gebirge
+gibôsi%<noun%>%<neut%>%<ja-stem%>:gibôs Neut-Ja-Stem 		; ! gibôsi* 4, gi-bôs-i*, as., st. N. (ja): nhd. Possen; ne. antics (N. Pl.)
+gibudli%<noun%>%<neut%>%<ja-stem%>:gibudl Neut-Ja-Stem 		; ! gibudli?***, gi-bu-d-li?***, as., st. N. (ja): nhd. Wohnung; ne. dwelling (N.)
+gidêli%<noun%>%<neut%>%<ja-stem%>:gidêl Neut-Ja-Stem 		; ! gidêli 1, gi-dê-l-i, as., st. N. (ja): nhd. Teil, Anteil; ne. part (N.)
+gifildi%<noun%>%<neut%>%<ja-stem%>:gifild Neut-Ja-Stem 		; ! gifildi* 2, gi-fil-d-i*, as., st. N. (ja): nhd. Gefilde; ne. area (N.)
+gifôri%<noun%>%<neut%>%<ja-stem%>:gifôr Neut-Ja-Stem 		; ! gifôri* 3, gi-fôr-i*, as., st. N. (ja): nhd. Bequemlichkeit, Nutzen; ne. convenience (N.), usefulness (N.)
+gigarwi%<noun%>%<neut%>%<ja-stem%>:gigarw Neut-Ja-Stem 		; ! gigarwi* 4, gigėrwi, gi-garw-i*, gi-gėrw-i*, as., st. N. (ja): nhd. Kleidung; ne. garment (N.); W.: mnd. gegerwe, gegêr, N., Messgewand
+gigarwidi%<noun%>%<neut%>%<ja-stem%>:gigarwid Neut-Ja-Stem 		; ! gigarwidi?***, gi-garw-i-di?***, as., st. N. (ja): nhd. Kleidung, Schmuck; ne. garment (N.)
+gigėngi%<noun%>%<neut%>%<ja-stem%>:gigėng Neut-Ja-Stem 		; ! gigėngi 2, gi-gėng-i, as., st. N. (ja): nhd. Reihe, Termin; ne. row (N.), date (N.)
+gilėndi%<noun%>%<neut%>%<ja-stem%>:gilėnd Neut-Ja-Stem 		; ! gilėndi 2, gi-lėnd-i, as., st. N. (ja): nhd. Gelände; ne. area (N.)
+gilêsti%<noun%>%<neut%>%<ja-stem%>:gilêst Neut-Ja-Stem 		; ! gilêsti* 3, gi-lês-t-i*, as., st. N. (ja): nhd. Tat; ne. deed (N.)
+gimarki%<noun%>%<neut%>%<ja-stem%>:gimark Neut-Ja-Stem 		; ! gimarki* 1, gi-mark-i*, as., st. N. (ja): nhd. Gemarkung, Gebiet; ne. boundary (N.), region (N.); W.: vgl. mnd. gemerk, F., Mark
+gimerki%<noun%>%<neut%>%<ja-stem%>:gimerk Neut-Ja-Stem 		; ! gimerki?***, gi-merk-i?***, as., st. N. (ja): nhd. Zeichen; ne. mark (N.)
+gimôdi%<noun%>%<neut%>%<ja-stem%>:gimôd Neut-Ja-Stem 		; ! gimôdi* 2, gi-mô-d-i*, as., st. N. (ja): nhd. Versöhnung, Befriedigung; ne. reconciliation (N.); W.: mnd. gemote, gemode, N., Gemüt
+gimūthi%<noun%>%<neut%>%<ja-stem%>:gimūth Neut-Ja-Stem 		; ! gimūthi* 1, gi-mūth-i*, as., st. N. (ja): nhd. Mündung; ne. mouth (N.) of a river
+girâdi%<noun%>%<neut%>%<ja-stem%>:girâd Neut-Ja-Stem 		; ! girâdi 1, gi-râ-d-i, as., st. N. (ja): nhd. Vorteil; ne. advantage (N.)
+girêdi%<noun%>%<neut%>%<ja-stem%>:girêd Neut-Ja-Stem 		; ! girêdi?***, gi-rêd-i?***, as., st. N. (ja): nhd. Gerät; ne. apparatus (N.); W.: mnd. gerêde, gereide, N., Gerät, Zurüstung
+girôvi%<noun%>%<neut%>%<ja-stem%>:girôv Neut-Ja-Stem 		; ! girôvi* 1, gi-rô-v-i*, as., st. N. (ja): nhd. Kleidung; ne. clothing (N.)
+girūni%<noun%>%<neut%>%<ja-stem%>:girūn Neut-Ja-Stem 		; ! girūni* 4, gi-rū-n-i*, as., st. N. (ja): nhd. Geheimnis; ne. secret (N.)
+gisidli%<noun%>%<neut%>%<ja-stem%>:gisidl Neut-Ja-Stem 		; ! gisidli* 1, gi-sid-l-i*, as., st. N. (ja): nhd. Sitz, Gut; ne. seat (N.), estate (N.)
+gisîthi%<noun%>%<neut%>%<ja-stem%>:gisîth Neut-Ja-Stem 		; ! gisîthi 32, gi-sîth-i, as., st. N. (ja): nhd. Gesinde, Schar (F.) (1), Gefolge; ne. servants (M. Pl.), followers (M. Pl.); W.: vgl. mnd. gesinde, N., Gesinde
+gisiuni%<noun%>%<neut%>%<ja-stem%>:gisiun Neut-Ja-Stem 		; ! gisiuni*, gi-siun-i*, as., st. N. (ja): nhd. Gesicht, Erscheinung; ne. sight (N.), appearance (N.)
+giskôhi%<noun%>%<neut%>%<ja-stem%>:giskôh Neut-Ja-Stem 		; ! giskôhi* 2, gi-skôh-i*, as., st. N. (ja): nhd. Schuhwerk; ne. footwear (N.)
+gisnidi%<noun%>%<neut%>%<ja-stem%>:gisnid Neut-Ja-Stem 		; ! gisnidi?***, gi-snid-i?***, as., st. N. (ja): nhd. Gehacktes; ne. minced food (N.)
+gispėnsti%<noun%>%<neut%>%<ja-stem%>:gispėnst Neut-Ja-Stem 		; ! gispėnsti* 1, gi-s-pėn-s-t-i*, as., st. N. (ja): nhd. Verlockung; ne. temptation (N.); W.: mnd. gespenst, N., Verlockung, Trugbild
+gispringi%<noun%>%<neut%>%<ja-stem%>:gispring Neut-Ja-Stem 		; ! gispringi?***, gi-s-pri-n-g-i?***, as., st. N. (ja): nhd. Quelle; ne. spring (N.)
+gistrîdi%<noun%>%<neut%>%<ja-stem%>:gistrîd Neut-Ja-Stem 		; ! gistrîdi* 1, gi-s-trî-d-i*, as., st. N. (ja): nhd. Streiterei; ne. quarrel (N.)
+gistriuni%<noun%>%<neut%>%<ja-stem%>:gistriun Neut-Ja-Stem 		; ! gistriuni* 1, gi-stri-un-i*, as., st. N. (ja): nhd. Schatz; ne. treasure (N.)
+gisustrithi%<noun%>%<neut%>%<ja-stem%>:gisustrith Neut-Ja-Stem 		; ! gisustrithi* 1, giswistrithi, gi-su-s-t-r-ith-i*, gi-sw-istr-ith-i*, as., st. N. (ja): nhd. Geschwister (N.); ne. sibling (M. bzw. F.), brother or sister; W.: mnd. gesusterede, gesusterde, N., Geschwister (N.)
+gisustrôni%<noun%>%<neut%>%<ja-stem%>:gisustrôn Neut-Ja-Stem 		; ! gisustrôni* 1, gi-su-s-t-r-ôni*, as., st. N. (ja): nhd. Geschwister (N.); ne. sibling (M. bzw. F.), brother or sister
+githigni%<noun%>%<neut%>%<ja-stem%>:githign Neut-Ja-Stem 		; ! githigni* 2, gi-thig-n-i*, as., st. N. (ja): nhd. Kriegertruppe; ne. troop (N.)
+githingi%<noun%>%<neut%>%<ja-stem%>:githing Neut-Ja-Stem 		; ! githingi 2, gi-thing-i, as., st. N. (ja): nhd. Fürsprache; ne. supplication (N.); W.: mnd. gedinge, M., Zuversicht, Hoffnung, N., Vertrag, Übereinkunft, Gericht
+giwâdi%<noun%>%<neut%>%<ja-stem%>:giwâd Neut-Ja-Stem 		; ! giwâdi* 25, giwêdi, gi-w-â-d-i*, gi-w-ê-d-i*, as., st. N. (ja): nhd. Gewand, Kleid; ne. garment (N.), dress (N.); W.: mnd. gewant, N., Zeug, Stoff, Gewand
+giwâpni%<noun%>%<neut%>%<ja-stem%>:giwâpn Neut-Ja-Stem 		; ! giwâpni* 1, gi-wâp-n-i*, as., st. N. (ja): nhd. Waffenrüstung, Bewaffnung; ne. weapons (N. Pl.); W.: mnd. gewâpen, N., Waffe
+giwâpnithi%<noun%>%<neut%>%<ja-stem%>:giwâpnith Neut-Ja-Stem 		; ! giwâpnithi* 1, gewâpnithi, gi-wâp-n-i-thi*, ge-wâpn-i-thi*, as., st. N. (ja): nhd. Waffenrüstung, Bewaffnung; ne. weapons (N. Pl.)
+giwêgi%<noun%>%<neut%>%<ja-stem%>:giwêg Neut-Ja-Stem 		; ! giwêgi*, giweigi, gi-wêgi*, gi-weigi*, as., st. N. (ja): nhd. Becher, Schüssel, Schale (F.) (2); ne. cup (N.), dish (N.)
+giwėldithi%<noun%>%<neut%>%<ja-stem%>:giwėldith Neut-Ja-Stem 		; ! giwėldithi?***, gi-wėl-d-i-thi?***, as., st. N. (ja): nhd. Gewalt; ne. power (N.)
+giwerki%<noun%>%<neut%>%<ja-stem%>:giwerk Neut-Ja-Stem 		; ! giwerki* 3, giwarki, giwirki, gi-werk-i*, gi-wark-i*, gi-wirk-i*, as., st. N. (ja): nhd. Werk, Handlung; ne. work (N.), act (N.); W.: mnd. gewerke, N., Gewerk, Handwerksverbindung
+giwidėri%<noun%>%<neut%>%<ja-stem%>:giwidėr Neut-Ja-Stem 		; ! giwidėri?***, gi-w-i-d-ėr-i?***, as., st. N. (ja): nhd. Gewitter; ne. thunderstorm (N.)
+giwiggi%<noun%>%<neut%>%<ja-stem%>:giwigg Neut-Ja-Stem 		; ! giwiggi* 1, gi-wig-g-i*, as., st. N. (ja): nhd. „Gewege“, Dreiweg; ne. crossway (N.)
+giwihti%<noun%>%<neut%>%<ja-stem%>:giwiht Neut-Ja-Stem 		; ! giwihti* 1, gi-wih-ti*, as., st. N. (ja): nhd. Gewicht (N.) (1); ne. weight (N.); W.: mnd. gewichte, N., Gewicht, Beschwernis, Last
+giwit%<noun%>%<neut%>%<ja-stem%>:giwit Neut-Ja-Stem 		; ! giwit* 26, giwitt, gi-wi-t*, gi-wi-t-t*, as., st. N. (ja): nhd. Verstand, Klugheit; ne. wits (N. Pl.)
+giwitti%<noun%>%<neut%>%<ja-stem%>:giwitt Neut-Ja-Stem 		; ! giwitti* 1, gi-wi-t-t-i*, as., st. N. (ja): nhd. Verstand, Klugheit; ne. wits (N. Pl.)
+giworki%<noun%>%<neut%>%<ja-stem%>:giwork Neut-Ja-Stem 		; ! giworki?***, gi-work-i?***, as., st. N. (ja): nhd. Bau; ne. building (N.)
+gô%<noun%>%<neut%>%<ja-stem%>:gô Neut-Ja-Stem 		; ! gô? 1***, gâ?***, ja?***, as., st. N. (ja), st. M.? (ja)?: nhd. Gau; ne. district (N.); W.: mnd. gô, goe, N., F., Landschaft, Gau, Gaugericht
+godobėddi%<noun%>%<neut%>%<ja-stem%>:godobėdd Neut-Ja-Stem 		; ! godobėddi* 1, go-d-o-bėd-d-i*, as., st. N. (ja): nhd. „Götterbett“, Götterlager; ne. bed (N.) of a god
+godowėb%<noun%>%<neut%>%<ja-stem%>:godowėb Neut-Ja-Stem 		; ! godowėb* 4, godowėbbi, god-o-wė-b*, god-o-wė-b-b-i*, as., st. N. (ja): nhd. kostbares Gewebe, Seidenzeug, Scharlachtuch; ne. precious tissue (N.), silk (N.)
+grundi%<noun%>%<neut%>%<ja-stem%>:grund Neut-Ja-Stem 		; ! grundi?***, gru-n-d-i?***, as., st. N. (ja): nhd. Grund; ne. ground (N.)
+gumiski%<noun%>%<neut%>%<ja-stem%>:gumisk Neut-Ja-Stem 		; ! gumiski* 3, gum-isk-i*, as., st. N. (ja): nhd. Senat; ne. senate (N.)
+gumkunni%<noun%>%<neut%>%<ja-stem%>:gumkunn Neut-Ja-Stem 		; ! gumkunni* 1, gum-kun-n-i*, as., st. N. (ja): nhd. edles Geschlecht; ne. noble birth (N.)
+gurdisli%<noun%>%<neut%>%<ja-stem%>:gurdisl Neut-Ja-Stem 		; ! gurdisli* 1, gur-d-is-li*, as., st. N. (ja): nhd. Gürtel; ne. girdle (N.)
+handmâli%<noun%>%<neut%>%<ja-stem%>:handmâl Neut-Ja-Stem 		; ! handmâli* 1, hand-mâl-i*, as., st. N. (ja): nhd. „Handmal“, Handwunde, Handmal, Brandmal; ne. stigma (N.)
+hanobėri%<noun%>%<neut%>%<ja-stem%>:hanobėr Neut-Ja-Stem 		; ! hanobėri* 1, han-o-bėr-i*, as., st. N. (ja): nhd. „Hahnbeere“, wilde Rebe; ne. wild vine (N.)
+hardenhôi%<noun%>%<neut%>%<ja-stem%>:hardenhô Neut-Ja-Stem 		; ! hardenhôi 1, har-d-en-hôi, as., st. N. (ja): nhd. Hartheu, Johanniskraut; ne. St. John’s wort (N.); W.: mnd. harthouw, harthew, harthoi, N., Johanniskraut
+hėlithkunni%<noun%>%<neut%>%<ja-stem%>:hėlithkunn Neut-Ja-Stem 		; ! hėlithkunni* 2, hėl-ith-kun-n-i*, as., st. N. (ja): nhd. „Heldengeschlecht“, Menschengeschlecht; ne. mankind (N.)
+hėlliwîti%<noun%>%<neut%>%<ja-stem%>:hėlliwît Neut-Ja-Stem 		; ! hėlliwîti* 1, hėl-l-i-wî-t-i*, as., st. N. (ja): nhd. Höllenstrafe; ne. eternal punishment (N.)
+helvi%<noun%>%<neut%>%<ja-stem%>:helv Neut-Ja-Stem 		; ! helvi* 2, helƀi, hel-v-i*, hel-ƀ-i*, as., st. N. (ja): nhd. Griff, Stiel; ne. handle (N.); W.: mnd. helve, helf, N., Stiel
+hėmithi%<noun%>%<neut%>%<ja-stem%>:hėmith Neut-Ja-Stem 		; ! hėmithi 3, hėm-ith-i, as., st. N. (ja): nhd. Hemd; ne. shirt (N.); W.: mnd. hêmede, hemmede, hemde, hêmet, hemmet, hemt, himmede, himmet, N., Unterkleid, Hemd
+hertinâthiri%<noun%>%<neut%>%<ja-stem%>:hertinâthir Neut-Ja-Stem 		; ! hertinâthiri* 2, hert-in-â-th-ir-i*, as., st. N. (ja): nhd. „Herzader“, Eingeweide; ne. guts (N. Pl.)
+hėslithi%<noun%>%<neut%>%<ja-stem%>:hėslith Neut-Ja-Stem 		; ! hėslithi?***, hėsl-ith-i?***, as., st. N. (ja): nhd. Haselbusch, Haseldickicht, Haselgestrüpp; ne. hazelbush (N.)
+hevanrîki%<noun%>%<neut%>%<ja-stem%>:hevanrîk Neut-Ja-Stem 		; ! hevanrîki* (1) 30, heƀanrîki* (1), he-v-an-rîk-i*, he-ƀ-an-rîk-i* (1), as., st. N. (ja): nhd. Himmelreich; ne. kingdom (N.) of heaven
+himilik%<noun%>%<neut%>%<ja-stem%>:himilik Neut-Ja-Stem 		; ! himilik* 1, hi-mil-ik*, as., st. N. (ja): nhd. Decke; ne. cover (N.); W.: s. mnd. hêmelete, hêmelte, hemmelete, hemmelte, Sb., Zimmerdecke, Gewölbe
+himilrîki%<noun%>%<neut%>%<ja-stem%>:himilrîk Neut-Ja-Stem 		; ! himilrîki 24, hi-mil-rîk-i, as., st. N. (ja): nhd. Himmelreich; ne. kingdom (N.) of heaven; W.: mnd. hemmelrîke, hemmelrîk, hêmelrîke, hêmelrîk, himmelrîke, himmelrîk, himelrîke, himelrîk, N., Himmelreich
+hindbėri%<noun%>%<neut%>%<ja-stem%>:hindbėr Neut-Ja-Stem 		; ! hindbėri* 2, hin-d-bė-r-i*, as., st. N. (ja): nhd. Himbeere; ne. raspberry (N.); W.: vgl. mnd. hintbêre, F.?, Himbeere
+hîwiski%<noun%>%<neut%>%<ja-stem%>:hîwisk Neut-Ja-Stem 		; ! hîwiski* 13, hî-w-isk-i*, as., st. N. (ja): nhd. Familie; ne. family (N.)
+hôgi%<noun%>%<neut%>%<ja-stem%>:hôg Neut-Ja-Stem 		; ! hôgi?***, hô-g-i?***, as., st. N. (ja): nhd. Heu; ne. hay (N.); W.: mnd. höü, hoy, hey, hou, höuwe, hoye, houwe, hog, hůg, hugg, hoyg, N., Heu
+hôi%<noun%>%<neut%>%<ja-stem%>:hô Neut-Ja-Stem 		; ! hôi* 1, as., st. N. (ja): nhd. Heu; ne. hay (N.); W.: mnd. höü, hoy, hey, hou, höuwe, hoye, houwe, hog, hůg, hugg, hoyg, N., Heu
+holtgiwėldithi%<noun%>%<neut%>%<ja-stem%>:holtgiwėldith Neut-Ja-Stem 		; ! holtgiwėldithi* 1, hol-t-gi-wėl-d-i-thi*, as., st. N. (ja): nhd. „Holzgewalt“, Holzgerechtsamkeit; ne. right (N.) of cutting wood in a forest
+hôvidpuli%<noun%>%<neut%>%<ja-stem%>:hôvidpul Neut-Ja-Stem 		; ! hôvidpuli* 1, hôƀidpuli, hôv-id-pul-i*, hôƀ-id-pul-i*, as., st. N. (ja): nhd. „Hauptpfühl“, Kopfkissen; ne. pillow (N.); W.: mnd. hövetpöl, hövetpöle, M., Kopfkissen, Kopfunterlage
+hrênkurni%<noun%>%<neut%>%<ja-stem%>:hrênkurn Neut-Ja-Stem 		; ! hrênkurni* 5, h-rê-n-kur-n-i*, as., st. N. (ja): nhd. „Reinkorn“, Weizen; ne. wheat (N.)
+hrêobėd%<noun%>%<neut%>%<ja-stem%>:hrêobėd Neut-Ja-Stem 		; ! hrêobėd* 1, hrêobedd, h-rê-o-bėd*, h-rê-o-bed-d*, as., st. N. (ja): nhd. Leichenbett; ne. shroud (N.)
+hrêogiwâdi%<noun%>%<neut%>%<ja-stem%>:hrêogiwâd Neut-Ja-Stem 		; ! hrêogiwâdi* 2, h-rê-o-gi-w-â-d-i*, as., st. N. (ja): nhd. „Leichengewand“, Leichenkleid; ne. shroud (N.)
+inâthiri%<noun%>%<neut%>%<ja-stem%>:inâthir Neut-Ja-Stem 		; ! inâthiri 1, in-âth-iri, as., st. N. (ja): nhd. Eingeweide, innere Organe; ne. guts (N. Pl.); W.: mnd. inâdere, inâderen, inêdere, Sb., Eingeweide, Inneres, das Innere
+ingisnidi%<noun%>%<neut%>%<ja-stem%>:ingisnid Neut-Ja-Stem 		; ! ingisnidi* 1, in-gi-snid-i*, as., st. N. (ja): nhd. Kleingehacktes; ne. minced food (N.)
+inwid%<noun%>%<neut%>%<ja-stem%>:inwid Neut-Ja-Stem 		; ! inwid* 9, inwidd, in-wid*, in-wid-d*, as., st. N. (ja): nhd. Bosheit; ne. wickedness (N.)
+kinni%<noun%>%<neut%>%<ja-stem%>:kinn Neut-Ja-Stem 		; ! kinni* 8, kin-n-i*, kin*, as., st. N. (ja): nhd. Kinn, Kinnbacken; ne. jaw (N.), chin (N.); W.: mnd. kin, M., kinne, N., selten F., Kinn, Kinnbacke
+kirsikbėri%<noun%>%<neut%>%<ja-stem%>:kirsikbėr Neut-Ja-Stem 		; ! kirsikbėri* 1, kirsik-bė-r-i*, as., st. N. (ja): nhd. „Kirschbeere“, Kirsche; ne. cherry (N.)
+krūci%<noun%>%<neut%>%<ja-stem%>:krūc Neut-Ja-Stem 		; ! krūci* 18, krūzi, krū-c-i*, krūz-i*, as., st. N. (ja): nhd. Kreuz; ne. cross (N.); W.: mnd. krüze, kruse, krutze, cruese, krüz, N., Kreuz
+kuningrîki%<noun%>%<neut%>%<ja-stem%>:kuningrîk Neut-Ja-Stem 		; ! kuningrîki* 1, kun-ing-rîk-i*, as., st. N. (ja): nhd. Königreich; ne. kingdom (N.), reign (N.); W.: mnd. köninkrîke, köninkrîk, N., Königreich
+kunni%<noun%>%<neut%>%<ja-stem%>:kunn Neut-Ja-Stem 		; ! kunni 45, kun-n-i, as., st. N. (ja): nhd. Geschlecht, Stamm, Volk; ne. descent (N.), tribe (N.), people (N.); W.: mnd. kunne, N., F., Geschlecht
+kurni%<noun%>%<neut%>%<ja-stem%>:kurn Neut-Ja-Stem 		; ! kurni?***, korni?***, kur-n-i?***, kor-n-i?***, as., st. N. (ja): nhd. Korn; ne. corn (N.); W.: mnd. korn, korne, koren, N., Korn, Samenkorn
+lâri%<noun%>%<neut%>%<ja-stem%>:lâr Neut-Ja-Stem 		; ! lâri? (1)***, lâr-i?***, as., st. N. (ja): nhd. Wohnung?; ne. dwelling (N.)?
+legarbėd%<noun%>%<neut%>%<ja-stem%>:legarbėd Neut-Ja-Stem 		; ! legarbėd* 2, legarbėdd, leg-ar-bėd*, leg-ar-bėd-d*, as., st. N. (ja): nhd. Krankheit, Krankenlager; ne. sickbed (N.)
+lekturi%<noun%>%<neut%>%<ja-stem%>:lektur Neut-Ja-Stem 		; ! lekturi* 2, lek-t-ur-i*, as., st. N. (ja): nhd. Lesepult; ne. readingdesk (N.)
+lėndi%<noun%>%<neut%>%<ja-stem%>:lėnd Neut-Ja-Stem 		; ! lėndi? (1)***, lėn-d-i?***, as., st. N. (ja): nhd. Land; ne. land (N.); W.: vgl. mnd. *lende?, N.
+liudkunni%<noun%>%<neut%>%<ja-stem%>:liudkunn Neut-Ja-Stem 		; ! liudkunni* 1, liud-kun-n-i*, as., st. N. (ja): nhd. Menschheit; ne. mankind (N.)
+loski%<noun%>%<neut%>%<ja-stem%>:losk Neut-Ja-Stem 		; ! loski* 1, as., st. N. (ja): nhd. rotes Leder; ne. red leather (N.)
+lubbi%<noun%>%<neut%>%<ja-stem%>:lubb Neut-Ja-Stem 		; ! lubbi* 1, lub-b-i*, as., st. N. (ja): nhd. Saft, Gift; ne. juice (N.), poison (N.); W.: s. mnd. lübben, sw. V., vergiften
+mâki%<noun%>%<neut%>%<ja-stem%>:mâk Neut-Ja-Stem 		; ! mâki* 3, mâk-i*, as., st. N. (ja), st. M. (ja): nhd. Schwert; ne. sword (N.)
+mâli%<noun%>%<neut%>%<ja-stem%>:mâl Neut-Ja-Stem 		; ! mâli?***, mâl-i?***, as., st. N. (ja): nhd. Mal (N.) (2)
+manarvêdi%<noun%>%<neut%>%<ja-stem%>:manarvêd Neut-Ja-Stem 		; ! manarvêdi* 1, manarƀêdi, mannarvêdi, mannarƀêdi, man-arvêd-i*, man-arƀêd-i*, man-n-arvêd-i*, man-n-arƀêd-i*, as., st. N. (ja): nhd. „Mannarbeit“, große Not; ne. distress (N.)
+mankunni%<noun%>%<neut%>%<ja-stem%>:mankunn Neut-Ja-Stem 		; ! mankunni* 34, mannkunni, man-kun-n-i*, man-n-kun-n-i, as., st. N. (ja): nhd. Menschheit, menschliche Art; ne. mankind (N.), human nature (N.)
+mėlli%<noun%>%<neut%>%<ja-stem%>:mėll Neut-Ja-Stem 		; ! mėlli?***, mėl-li?***, as., st. N. (ja): nhd. Versammlungsort; ne. meeting-place (N.)
+mėrki%<noun%>%<neut%>%<ja-stem%>:mėrk Neut-Ja-Stem 		; ! mėrki? (1)***, mėrk-i?***, as., st. N. (ja)?, Adj.?: nhd. Mark (F.) (1); ne. mark (N.)
+middi%<noun%>%<neut%>%<ja-stem%>:midd Neut-Ja-Stem 		; ! middi* (2) 1, mi-d-d-i*, as., st. N. (ja)?: nhd. Mitte; ne. middle (N.)
+midgarni%<noun%>%<neut%>%<ja-stem%>:midgarn Neut-Ja-Stem 		; ! midgarni* 1, mi-d-gar-n-i*, as., st. N. (ja): nhd. Nierenfett; ne. fat (N.) from the waist
+milli%<noun%>%<neut%>%<ja-stem%>:mill Neut-Ja-Stem 		; ! milli 1, mil-l-i, as., st. N. (ja): nhd. Hirse; ne. millet (N.)
+môdi%<noun%>%<neut%>%<ja-stem%>:môd Neut-Ja-Stem 		; ! môdi? (1)***, mô-d-i?***, as., st. N. (ja): nhd. Gemüt; ne. mood (N.)
+môtfandi%<noun%>%<neut%>%<ja-stem%>:môtfand Neut-Ja-Stem 		; ! môtfandi* 1, môtsandi*?, môt-fand-i*, môt-sand-i*?, as., st. N. (ja): nhd. Kontertanz; ne. quadrille? (N.)
+muddi%<noun%>%<neut%>%<ja-stem%>:mudd Neut-Ja-Stem 		; ! muddi* 394, mud-d-i*, as., st. N. (ja): nhd. Mütt, Maß; ne. a dry measure (N.); W.: mnd. müdde, N., F., Mütt, Maß
+mūdspėlli%<noun%>%<neut%>%<ja-stem%>:mūdspėll Neut-Ja-Stem 		; ! mūdspėlli* 2, mūtspėlli, mūd-spėl-l-i*, mūt-spėl-l-i, as., st. N. (ja): nhd. Weltuntergang; ne. end (N.) of the world
+mundmâli%<noun%>%<neut%>%<ja-stem%>:mundmâl Neut-Ja-Stem 		; ! mundmâli* 1, mun-d-mâl-i*, as., st. N. (ja): nhd. „Handmal“, Handlänge, Elle; ne. ell (N.)
+nėtili%<noun%>%<neut%>%<ja-stem%>:nėtil Neut-Ja-Stem 		; ! nėtili* 1, nėt-i-li*, as., st. N. (ja): nhd. Netzlein; ne. little net (N.)
+nėtti%<noun%>%<neut%>%<ja-stem%>:nėtt Neut-Ja-Stem 		; ! nėtti 4, nėt-t-i, as., st. N. (ja): nhd. Netz; ne. net (N.); W.: mnd. nette, net, N., Netz, Fischernetz
+niuwilėndi%<noun%>%<neut%>%<ja-stem%>:niuwilėnd Neut-Ja-Stem 		; ! niuwilėndi* 1, nuwilėndi, n-i-u-w-i-lėn-d-i*, n-u-w-i-lėn-d-i*, as., st. N. (ja): nhd. Neuland; ne. new land (N.); W.: s. mnd. nîelant, N., „Neuland“, Landmaß im Oldenburgischen
+ôthmôdi%<noun%>%<neut%>%<ja-stem%>:ôthmôd Neut-Ja-Stem 		; ! ôthmôdi* (1) 10, ô-th-mô-d-i*, as., st. N. (ja): nhd. Demut; ne. humbleness (N.)
+ovarlėndi%<noun%>%<neut%>%<ja-stem%>:ovarlėnd Neut-Ja-Stem 		; ! ovarlėndi* 2, oƀarlėndi, ov-a-r-lėn-d-i*, oƀ-a-r-lėn-d-i*, as., st. N. (ja): nhd. „Überland“, unbebautes Land; ne. fallow land (N.); W.: s. mnd. overlant, N., „Überland“, Ackerland das neben dem Besitzer auch zu einer Hufe gehörte
+ovarmôdi%<noun%>%<neut%>%<ja-stem%>:ovarmôd Neut-Ja-Stem 		; ! ovarmôdi* 1, oƀarmôdi, ov-a-r-mô-d-i*, oƀ-a-r-mô-d-i*, as., st. N. (ja): nhd. Übermut; ne. wantonness (N.); W.: mnd. overmôt, M., F., Stolz, Hochmut
+ovarskôthi%<noun%>%<neut%>%<ja-stem%>:ovarskôth Neut-Ja-Stem 		; ! ovarskôthi* 1, oƀarskôthi, ov-a-r-skôthi*, oƀ-a-r-skôthi*, as., st. N. (ja): nhd. Oberkleid; ne. overcoat (N.)
+pêtithi%<noun%>%<neut%>%<ja-stem%>:pêtith Neut-Ja-Stem 		; ! pêtithi 1, pêti-th-i, as., st. N. (ja): nhd. „Pfeit“, Hemd, Rock; ne. shirt (N.), jacket (N.)
+puli%<noun%>%<neut%>%<ja-stem%>:pul Neut-Ja-Stem 		; ! puli?***, as., st. N. (ja): nhd. Kissen (N.) (Sg.), Pfühl; ne. pillow (N.); W.: mnd. pôl, pöle
+râdisli%<noun%>%<neut%>%<ja-stem%>:râdisl Neut-Ja-Stem 		; ! râdisli 1, râ-d-isli, as., st. N. (ja): nhd. Rätsel (N.); ne. riddle (N.)
+rêni%<noun%>%<neut%>%<ja-stem%>:rên Neut-Ja-Stem 		; ! rêni?***, rê-ni?***, as., st. N. (ja)?: nhd. Rain; ne. ridge (N.); W.: mnd. rên, rein, N., Rain, Grenze, Erhöhung
+ribbi%<noun%>%<neut%>%<ja-stem%>:ribb Neut-Ja-Stem 		; ! ribbi* 1, rib-b-i*, as., st. N. (ja): nhd. Rippe; ne. rib (N.); W.: mnd. ribbe, N., M., Ribbe
+rîki%<noun%>%<neut%>%<ja-stem%>:rîk Neut-Ja-Stem 		; ! rîki (1) 76, rîk-i, as., st. N. (ja): nhd. Reich, Land, Herrschaft, Gewalt, Volk; ne. reign (N.), power (N.), people (N.); W.: mnd. rîke, N., Reich, Herrschaft, Kaiser, Reichsgewalt
+riod%<noun%>%<neut%>%<ja-stem%>:riod Neut-Ja-Stem 		; ! riod?***, rio-d?***, as., st. N. (ja): nhd. Rodung; ne. cleared woodland (N.)
+riudenithi%<noun%>%<neut%>%<ja-stem%>:riudenith Neut-Ja-Stem 		; ! riudenithi?***, riu-d-en-ith-i?***, as., st. N. (ja)?: nhd. Rodung; ne. cleared woodland (N.)
+riudi%<noun%>%<neut%>%<ja-stem%>:riud Neut-Ja-Stem 		; ! riudi?***, riu-d-i?***, as., st. N. (ja)?: nhd. Rodung; ne. cleared woodland (N.)
+rusli%<noun%>%<neut%>%<ja-stem%>:rusl Neut-Ja-Stem 		; ! rusli* 1, hrusli, ru-s-li*, h-ru-s-li*, as., st. N. (ja): nhd. Schmer, Fett; ne. fat (N.); W.: mnd. rosel, rusel, M.?, Schmer, Fett
+sadulgirêdi%<noun%>%<neut%>%<ja-stem%>:sadulgirêd Neut-Ja-Stem 		; ! sadulgirêdi* 1, sad-ul-gi-rêd-i*, as., st. N. (ja): nhd. Sattelgerät; ne. harness (N.); W.: mnd. sadelgerêde, sadelgereide, N., Sattelgerät
+saharai%<noun%>%<neut%>%<ja-stem%>:sahara Neut-Ja-Stem 		; ! saharai* 1, saharahi, sah-ar-ai*, sah-ar-ahi*, as., st. N. (ja): nhd. Riedgras; ne. reedgrass (N.)
+saltgiwėrki%<noun%>%<neut%>%<ja-stem%>:saltgiwėrk Neut-Ja-Stem 		; ! saltgiwėrki?* 1, saltgiwirki?, sa-l-t-gi-wėrk-i?*, sa-l-t-gi-wirk-i?*, as., st. N. (ja): nhd. Salzwerk; ne. saltery (N.)
+samwordi%<noun%>%<neut%>%<ja-stem%>:samword Neut-Ja-Stem 		; ! samwordi* 1, samwurdi, sam-wor-d-i*, sam-wur-d-i*, as., st. N. (ja): nhd. Übereinstimmung, Einwilligung; ne. agreement (N.)
+sėmithai%<noun%>%<neut%>%<ja-stem%>:sėmitha Neut-Ja-Stem 		; ! sėmithai 1, sėmithahi, sėmitha-i, sėmitha-hi*, as., st. N. (ja): nhd. Riedgras; ne. reed (N.); W.: vgl. mnd. semede, F., Binse, Riedgras
+sinnahti%<noun%>%<neut%>%<ja-stem%>:sinnaht Neut-Ja-Stem 		; ! sinnahti 1, sin-naht-i, as., st. N. (ja): nhd. „beständige Nacht“, ewige Nacht; ne. eternal night (N.)
+sinwėldi%<noun%>%<neut%>%<ja-stem%>:sinwėld Neut-Ja-Stem 		; ! sinwėldi* 1, sin-wėl-d-i*, as., st. N. (ja): nhd. großer Wald; ne. woodland (N.)
+skefti%<noun%>%<neut%>%<ja-stem%>:skeft Neut-Ja-Stem 		; ! skefti* (1) 1, s-kef-t-i*, as., st. N. (ja): nhd. Schaft; ne. shaft (N.)
+sodomarîki%<noun%>%<neut%>%<ja-stem%>:sodomarîk Neut-Ja-Stem 		; ! Sodomarîki 1, Sodoma-rîk-i, as., st. N. (ja): nhd. „Sodomreich“, Sodom; ne. Sodom (N.)
+sprâki%<noun%>%<neut%>%<ja-stem%>:sprâk Neut-Ja-Stem 		; ! sprâki? (1)***, s-prâ-k-i?***, as., st. N. (ja), st. F. (i)?: nhd. Sprechen, Sprache; ne. speech (N.); W.: mnd. spreke
+springi%<noun%>%<neut%>%<ja-stem%>:spring Neut-Ja-Stem 		; ! springi?***, s-pri-n-g-i?***, as., st. N. (ja): nhd. Quelle; ne. spring (N.), well (N.)
+stanknussi%<noun%>%<neut%>%<ja-stem%>:stanknuss Neut-Ja-Stem 		; ! stanknussi? 1, s-ta-n-k-n-us-s-i?, as., st. N. (ja): nhd. starker Geruch; ne. stink (N.)
+stėlli%<noun%>%<neut%>%<ja-stem%>:stėll Neut-Ja-Stem 		; ! stėlli?***, s-tėl-l-i?***, as., st. N. (ja): nhd. „Gestell“; ne. frame (N.); W.: s. mnd. stel, stelle, M., „Gestell“, Wagengestell
+stukki%<noun%>%<neut%>%<ja-stem%>:stukk Neut-Ja-Stem 		; ! stukki* 2, s-tu-k-k-i*, as., st. N. (ja): nhd. Stück; ne. piece (N.); W.: mnd. stucke, N., Stück
+stuthli%<noun%>%<neut%>%<ja-stem%>:stuthl Neut-Ja-Stem 		; ! stuthli?***, stu-thli?***, as., st. N. (ja): nhd. Reihe; ne. row (N.)
+suhtbėddi%<noun%>%<neut%>%<ja-stem%>:suhtbėdd Neut-Ja-Stem 		; ! suhtbėddi* 1, suhtbėdi, suh-t-bėd-d-i*, suh-t-bėd-i*, as., st. N. (ja): nhd. „Suchtbett“, Sucht, Krankheit, Krankenlager; W.: mnd. suchtbedde, N., Krankenbett
+tandstuthli%<noun%>%<neut%>%<ja-stem%>:tandstuthl Neut-Ja-Stem 		; ! tandstuthli* 1, t-and-stu-thli*, as., st. N. (ja): nhd. Zahnreihe; ne. row (N.) of teeth
+timbri%<noun%>%<neut%>%<ja-stem%>:timbr Neut-Ja-Stem 		; ! timbri?***, tim-b-ri?***, as., st. N. (ja): nhd. Zimmerwerk; ne. carpenter’s work
+tuttili%<noun%>%<neut%>%<ja-stem%>:tuttil Neut-Ja-Stem 		; ! tuttili 1, tut-t-i-li, as., st. N. (ja): nhd. „Tuttlein“, Brustwarze; ne. teat (N.); W.: mnd. tuttel, Sb., Tüttel
+thėrmi%<noun%>%<neut%>%<ja-stem%>:thėrm Neut-Ja-Stem 		; ! thėrmi* 2, thėr-m-i*, as., st. N. (ja): nhd. Darm; ne. gut (N.)
+thingithi%<noun%>%<neut%>%<ja-stem%>:thingith Neut-Ja-Stem 		; ! thingithi*? 2, thingitti?, thing-ithi*?, thing-it-t-i?, as., st. N. (ja)?: nhd. bedungene Summe?; ne. appointed payment (N.); W.: mnd. dingede, N., bedungene Summe für Schonung
+thiodarvêdi%<noun%>%<neut%>%<ja-stem%>:thiodarvêd Neut-Ja-Stem 		; ! thiodarvêdi* 3, thiodarƀêdi, thi-o-d-arvêd-i*, thi-o-d-arƀêd-i*, as., st. N. (ja): nhd. „Volksarbeit“, großes Leid, Übel, Böses
+thiustri%<noun%>%<neut%>%<ja-stem%>:thiustr Neut-Ja-Stem 		; ! thiustri? (2) 4, thi-u-stri?, as., st. N. (ja): nhd. Finsternis; ne. darkness (N.)
+thurnithi%<noun%>%<neut%>%<ja-stem%>:thurnith Neut-Ja-Stem 		; ! thurnithi?***, thur-n-ithi?***, as., st. N. (ja): nhd. Dorngebüsch; ne. thorn-bush (N.)
+ungifôri%<noun%>%<neut%>%<ja-stem%>:ungifôr Neut-Ja-Stem 		; ! ungifôri* 1, un-gi-fôr-i*, as., st. N. (ja): nhd. Beschwerlichkeit; ne. difficulty (N.)
+ungiwidėri%<noun%>%<neut%>%<ja-stem%>:ungiwidėr Neut-Ja-Stem 		; ! ungiwidėri* 1, un-gi-w-i-dėr-i*, as., st. N. (ja): nhd. „Ungewitter“, Unwetter; ne. thunderstorm (N.)
+urdêli%<noun%>%<neut%>%<ja-stem%>:urdêl Neut-Ja-Stem 		; ! urdêli* 2, ur-dê-l-i*, as., st. N. (ja): nhd. Urteil, Gericht (N.) (1); ne. judgement (N.)
+uvartimbri%<noun%>%<neut%>%<ja-stem%>:uvartimbr Neut-Ja-Stem 		; ! uvartimbri* 1, uv-ar-tim-b-ri*, uƀartimbri, as., st. N. (ja): nhd. Gebälk; ne. timbers (N.)
+wâd%<noun%>%<neut%>%<ja-stem%>:wâd Neut-Ja-Stem 		; ! wâd? 2***, wâ-d?***, as., st. N. (ja)?, st. F. (i)?: nhd. „Wat“, Gewand, Kleidung; ne. garment (N.); W.: mnd. wât, N., Gewand, Kleidung
+wâni%<noun%>%<neut%>%<ja-stem%>:wân Neut-Ja-Stem 		; ! wâni? (1)***, wân-i?***, as., st. N. (ja): nhd. Trieb, Anlage; ne. drive (N.), disposition (N.)
+wėbbi%<noun%>%<neut%>%<ja-stem%>:wėbb Neut-Ja-Stem 		; ! wėbbi?***, wė-b-b-i?***, as., st. N. (ja): nhd. Gewebe; ne. web (N.); W.: mnd. webbe, N., Gewebe
+wėddi%<noun%>%<neut%>%<ja-stem%>:wėdd Neut-Ja-Stem 		; ! wėddi* 4, wėd-d-i*, as., st. N. (ja): nhd. Pfand; ne. pledge (N.); W.: mnd. wedde, N., Pfand
+wêgi%<noun%>%<neut%>%<ja-stem%>:wêg Neut-Ja-Stem 		; ! wêgi* 2, wâgi, weigi, wêg-i*, wâg-i*, weig-i*, as., st. N. (ja): nhd. Gefäß, Schale (F.) (2); ne. bowl (N.) (1); W.: mnd. wêge, F., Schüssel
+wėldi%<noun%>%<neut%>%<ja-stem%>:wėld Neut-Ja-Stem 		; ! wėldi?***, waldi?***, wėl-d-i?***, wal-d-i?***, as., st. N. (ja)?: nhd. Wald; ne. forest (N.)
+wėplithi%<noun%>%<neut%>%<ja-stem%>:wėplith Neut-Ja-Stem 		; ! wėplithi?***, wėpl-ithi?***, as., st. N. (ja): nhd. Sumpfland; ne. swamp (N.)
+weroldrîki%<noun%>%<neut%>%<ja-stem%>:weroldrîk Neut-Ja-Stem 		; ! weroldrîki* 7, wer-o-l-d-rîk-i*, as., st. N. (ja): nhd. „Weltreich“, Welt; ne. world (N.)
+wîfgigarwidi%<noun%>%<neut%>%<ja-stem%>:wîfgigarwid Neut-Ja-Stem 		; ! wîfgigarwidi* 1, wîf-gi-garw-idi*, as., st. N. (ja): nhd. Frauenschmuck; ne. finery (N.)
+wig%<noun%>%<neut%>%<ja-stem%>:wig Neut-Ja-Stem 		; ! wig* 1, wigg, wiggi, wig-g*, wig-g-i*, as., st. N. (ja): nhd. Ross; ne. horse (N.)
+wîggigarwi%<noun%>%<neut%>%<ja-stem%>:wîggigarw Neut-Ja-Stem 		; ! wîggigarwi* 1, wîggigėrwi, wîg-gi-garw-i*, wîg-gi-gėrw-i*, as., st. N. (ja): nhd. Kampfrüstung; ne. armament (N.)
+wîkbilithi%<noun%>%<neut%>%<ja-stem%>:wîkbilith Neut-Ja-Stem 		; ! wîkbilithi* 6, wîk-bil-ith-i*, as., st. N. (ja): nhd. Weichbild, Bezirk, Stadtgebiet, Ortsart, Ortsrecht; ne. precincts (N. Pl.); W.: mnd. wîkbelde, N., Weichbild
+wînbėri%<noun%>%<neut%>%<ja-stem%>:wînbėr Neut-Ja-Stem 		; ! wînbėri* 2, wî-n-bė-r-i*, as., st. N. (ja): nhd. Weinbeere; ne. grape (N.); W.: mnd. wînbere, N., Weinbeere, Weintraube
+wîti%<noun%>%<neut%>%<ja-stem%>:wît Neut-Ja-Stem 		; ! wîti* 43, wî-t-i*, as., st. N. (ja): nhd. Strafe, Böses, Qual; ne. punishment (N.), torment (N.); W.: s. mnd. wîte, F., Strafe, Buße
+wordgimėrki%<noun%>%<neut%>%<ja-stem%>:wordgimėrk Neut-Ja-Stem 		; ! wordgimėrki* 1, wor-d-gi-mėrk-i*, as., st. N. (ja): nhd. Schriftzeichen; ne. letter (N.)
 
 
 LEXICON StrongVerbs

@@ -19,7 +19,7 @@ neut_a_light = ['agu','alu','adu','oru','uru','atu','ibu','iƀu','etu','apu','ep
 POS_tags = ['as., st. V. (1)', 'as., st. V. (2)', 'as., st. V. (3a)', 'as., st. V. (3b)', 'as., st. V. (4)', 'as., st. V. (5)', 'as., st. V. (6)', 'as., st. V. (7)', \
 'as., sw. V. (1a)', 'as., sw. V. (1b)', 'as., sw. V. (2)', \
 'as., red. V.',\
-            'as., st. M. (a)', 'as., st. N. (a)', 'as., st. M. (ja)']
+            'as., st. M. (a)', 'as., st. N. (a)', 'as., st. M. (ja)', 'as., st. N. (ja)']
 
 def dict_scrape(POS, dictionaryfile='as_kurzform.txt'):
     """Scrapes a dictionary for a given part of speech. POS tags in POS_tags.
@@ -60,8 +60,22 @@ dict_scrape(sys.argv[1])
 ##        i=i+1
 
 #encode masc ja-stem nouns for LEXICON, accounting for syllable weight:
-with open('st. M. (ja)_ready-for-import','w+') as to_write:
+##with open('st. M. (ja)_ready-for-import','w+') as to_write:
+##    i=0
+##    while i < len(lemmas):
+##        to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<masc%>%<ja-stem%>:'+lemmas_cleaned[i][:-2]+' Masc-Ja-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    #note the -2, this is to remove the i ending
+##        i=i+1
+
+
+#encode 'as., st. M. (ja)', account for syllable weight
+##for lemma in lemmas_cleaned:
+##    print (lemma[-2])
+with open('st. N. (ja)_ready-for-import','w+') as to_write:
     i=0
     while i < len(lemmas):
-        to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<masc%>%<ja-stem%>:'+lemmas_cleaned[i][:-2]+' Masc-Ja-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    #note the -2, this is to remove the i ending
+        if lemmas_cleaned[i][-2] == 'i': #some (e.g. "net") end in something else, so check these first
+            to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<neut%>%<ja-stem%>:'+lemmas_cleaned[i][:-2]+' Neut-Ja-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    #note the -2, this is to remove the i ending
+        else:
+            to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<neut%>%<ja-stem%>:'+lemmas_cleaned[i][:-1]+' Neut-Ja-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    #note the -1, this is to not remove the ending
+
         i=i+1
