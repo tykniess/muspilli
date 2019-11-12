@@ -9173,6 +9173,7 @@ hėvildes    	hėvild   <noun>      <neut>      <a-stem>      <gen>      <sg>
 hėvildu    	hėvild   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 hėvildum    	hėvild   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 hėvildun    	hėvild   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+ic    	   <prn>      <pers>      <1st>      <sg>      <nom>   
 idir    	eder   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 idir    	eder   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 idira    	eder   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -9231,6 +9232,7 @@ ihuskalku    	ehuskalk   <noun>      <masc>      <a-stem>      <instr>      <pl>
 ihuskalku    	ehuskalk   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 ihuskalkum    	ehuskalk   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 ihuskalkun    	ehuskalk   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+ik    	   <prn>      <pers>      <1st>      <sg>      <nom>   
 infirn    	infern   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 infirn    	infern   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 infirn    	infern   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -11210,6 +11212,7 @@ miiiru    	meier   <noun>      <masc>      <a-stem>      <instr>      <pl>
 miiiru    	meier   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 miiirum    	meier   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 miiirun    	meier   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+mik    	   <prn>      <pers>      <1st>      <sg>      <acc>   
 mildâri    	meldâri   <noun>      <masc>      <ja-stem>      <acc>      <sg>   
 mildâri    	meldâri   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 mildâria    	meldâri   <noun>      <masc>      <ja-stem>      <dat>      <sg>   
@@ -11411,6 +11414,7 @@ mâtis    	metan   <v>      <str>      <class5>      <pret>      <opt>      <2nd
 mâtun    	metan   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <pl>   
 mâtun    	metan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <pl>   
 mâtun    	metan   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <pl>   
+mê    	   <prn>      <pers>      <1st>      <sg>      <acc>   
 mên    	mên   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 mên    	mên   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 mên    	mên   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -11471,6 +11475,9 @@ mênêthum    	mênêth   <noun>      <masc>      <a-stem>      <dat>      <pl>
 mênêthun    	mênêth   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 mêth    	mîthan   <v>      <str>      <class1>      <pret>      <indic>      <1st>      <sg>   
 mêth    	mîthan   <v>      <str>      <class1>      <pret>      <indic>      <3rd>      <sg>   
+mî    	   <prn>      <pers>      <1st>      <sg>      <acc>   
+mî    	   <prn>      <pers>      <1st>      <sg>      <dat>   
+mîn    	   <prn>      <pers>      <1st>      <sg>      <gen>   
 mîth    	mîthan   <v>      <str>      <class1>      <impv>      <sg>   
 mîthan    	mîthan   <v>      <str>      <class1>      <inf>   
 mîthađ    	mîthan   <v>      <str>      <class1>      <impv>      <pl>   
@@ -16218,6 +16225,8 @@ umbihwurvis    	umbihwervan   <v>      <str>      <class3b>      <pret>      <op
 umbihwurvun    	umbihwervan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <pl>   
 umbihwurvun    	umbihwervan   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <pl>   
 umbihwurvun    	umbihwervan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <pl>   
+unc    	   <prn>      <pers>      <1st>      <du>      <acc>   
+unc    	   <prn>      <pers>      <1st>      <du>      <dat>   
 undarfand    	undarfindan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 undarfand    	undarfindan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 undarfar    	undarfaran   <v>      <str>      <class6>      <impv>      <sg>   
@@ -17390,6 +17399,7 @@ wisan    	wesan   <v>      <irregular>      <inf>
 wisat    	wesan   <v>      <irregular>      <imper>      <pl>   
 wisađ    	wesan   <v>      <irregular>      <imper>      <pl>   
 wisi    	wesan   <v>      <irregular>      <pres>      <opt>      <3rd>      <sg>   
+wit    	   <prn>      <pers>      <1st>      <du>      <nom>   
 withar    	wethar   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 withar    	wethar   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 withara    	wethar   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -17959,6 +17969,7 @@ wâvis    	wevan   <v>      <str>      <class5>      <pret>      <opt>      <2nd
 wâvun    	wevan   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <pl>   
 wâvun    	wevan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <pl>   
 wâvun    	wevan   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <pl>   
+wê    	   <prn>      <pers>      <1st>      <pl>      <nom>   
 wê    	wê   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 wê    	wê   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 wê    	wê   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -17988,6 +17999,7 @@ wêgun    	wêg   <noun>      <masc>      <a-stem>      <dat>      <pl>
 wêu    	wê   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 wêum    	wê   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 wêun    	wê   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+wî    	   <prn>      <pers>      <1st>      <pl>      <nom>   
 wîf    	wîf   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 wîf    	wîf   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 wîf    	wîf   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -19194,6 +19206,9 @@ wėthilun    	wėthil   <noun>      <masc>      <a-stem>      <dat>      <pl>
 ôthmôdiis    	ôthmôdi   <noun>      <neut>      <ja-stem>      <gen>      <sg>   
 ôthmôdiu    	ôthmôdi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
 ôthmôdiun    	ôthmôdi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+ûs    	   <prn>      <pers>      <1st>      <pl>      <acc>   
+ûs    	   <prn>      <pers>      <1st>      <pl>      <dat>   
+ûsir    	   <prn>      <pers>      <1st>      <pl>      <gen>   
 ėgithâri    	ėgithâri   <noun>      <masc>      <ja-stem>      <acc>      <sg>   
 ėgithâri    	ėgithâri   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 ėgithâria    	ėgithâri   <noun>      <masc>      <ja-stem>      <dat>      <sg>   

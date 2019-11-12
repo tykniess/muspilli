@@ -43,9 +43,9 @@ print("Of the "+str(len(heliand_total_words))+" total tokens in the Hêliand, Mu
       str(len(covered_total_words)) + " forms, or "+str(total_coverage)+"%\n")
 
 with open('coverage.txt', 'w') as to_write:
-    to_write.write("The Hêliand contains a total of " + str(len(heliand_total_words)) + " forms, "+str(len(heliand_unique_words))+" of which are unique.")
-    to_write.write("Muspilli currently contains "+str(len(muspilli_total_words))+" synthetically-generated forms.")
+    to_write.write("The Hêliand contains a total of " + str(len(heliand_total_words)) + " forms, "+str(len(heliand_unique_words))+" of which are unique.\n\n")
+    to_write.write("Muspilli currently contains "+str(len(muspilli_total_words))+" synthetically-generated forms.\n\n")
     to_write.write("Of the "+str(len(heliand_unique_words))+" unique tokens in the Hêliand, Muspilli contains " +\
-      str(len(covered_unique_words)) + " forms, or "+str(unique_coverage)+"%\n") 
+      str(len(covered_unique_words)) + " forms, or "+str(unique_coverage)+"%\n\n") 
     to_write.write("Of the "+str(len(heliand_total_words))+" total tokens in the Hêliand, Muspilli contains " +\
-      str(len(covered_total_words)) + " forms, or "+str(total_coverage)+"%\n")
+      str(len(covered_total_words)) + " forms, or "+str(total_coverage)+"%\n\n")

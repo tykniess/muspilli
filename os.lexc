@@ -24,6 +24,11 @@ Multichar_Symbols
 %{O%}                           ! Archiphoneme o/a in the plural of a-stems
 %{M%}				! Archiphomene m/n in dative plural
 %{NAPL%}			! Neuter a-stem plural morpheme; u or zero depending on syllable weight
+
+%<prn%>				! Pronoun
+
+%<pers%>			! Personal Pronoun
+
 !!!!!!!!!!!!!!!!!!VERBAL CHARS!!!!!!!!!!!!!!!!!!!!!!!!
 %<inf%>				! Infinitive
 %<act%>				! Active
@@ -39,7 +44,8 @@ Multichar_Symbols
 %<3rd%>				! Third Person
 
 %<sg%>				! Singular
-%<pl%>				! Pl
+%<du%>				! Dual
+%<pl%>				! Plural
 
 %<pastpart%>			! Past Participle
 
@@ -64,10 +70,32 @@ th				! th phoneme which is actually one sound
 LEXICON Root
 Nouns 				; 
 Verbs 				; 
+Pronouns			;
+
+LEXICON Pronouns		
+Personal-Pronouns			;
+
+LEXICON Personal-Pronouns
+%<prn%>%<pers%>%<1st%>%<sg%>%<nom%>:ic	#	;
+!%<prn%>%<pers%>%<1st%>%<sg%>%<nom%>:ec  #       ;
+%<prn%>%<pers%>%<1st%>%<sg%>%<nom%>:ik  #       ;
+%<prn%>%<pers%>%<1st%>%<sg%>%<gen%>:mîn  #       ;
+%<prn%>%<pers%>%<1st%>%<sg%>%<dat%>:mî  #       ;
+%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mî  #       ;
+%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mê  #       ;
+%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mik  #       ;
+%<prn%>%<pers%>%<1st%>%<pl%>%<nom%>:wî  #       ;
+%<prn%>%<pers%>%<1st%>%<pl%>%<nom%>:wê  #       ;
+%<prn%>%<pers%>%<1st%>%<pl%>%<gen%>:ûser  #       ;
+%<prn%>%<pers%>%<1st%>%<pl%>%<dat%>:ûs  #       ;
+%<prn%>%<pers%>%<1st%>%<pl%>%<acc%>:ûs  #       ;
+%<prn%>%<pers%>%<1st%>%<du%>%<nom%>:wit  #       ;
+%<prn%>%<pers%>%<1st%>%<du%>%<gen%>:uncero  #       ;
+%<prn%>%<pers%>%<1st%>%<du%>%<dat%>:unc  #       ;
+%<prn%>%<pers%>%<1st%>%<du%>%<acc%>:unc  #       ;
 
 LEXICON Nouns
 A-Stem				;
-
 
 LEXICON Masc-A-Stem
 %<nom%>%<sg%>:0			#	;
