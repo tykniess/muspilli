@@ -96,7 +96,25 @@ LEXICON Neut-A-Stem
 %<gen%>%<pl%>:o                 #       ;
 %<dat%>%<pl%>:u%{M%}            #       ;
 %<dat%>%<pl%>:on                #       ;
-%<acc%>%<pl%>:%{NAPL%}        #       ; ! ! plural morpheme is either zero or u depending on syllable weight
+%<acc%>%<pl%>:%{NAPL%}        	#       ; ! ! plural morpheme is either zero or u depending on syllable weight
+
+LEXICON Masc-Ja-Stem
+%<nom%>%<sg%>:i                 #       ;
+%<gen%>%<sg%>:ies            	#       ;
+%<gen%>%<sg%>:eas               #       ;
+!%<gen%>%<sg%>:es               #       ; !rare, thus not included in compilation
+%<dat%>%<sg%>:ie             	#       ;
+%<dat%>%<sg%>:ea                # 	;
+%<acc%>%<sg%>:i                 #       ;
+%<instr%>%<sg%>:iu               #       ; !extremely rare case remnant, consider removing
+!%<instr%>:o                    #       ; ! variant form of instrumental case
+
+%<nom%>%<pl%>:ios                #       ; ! consider changing to %{O%}s to account for scribal variation
+%<gen%>%<pl%>:io                 #       ;
+%<gen%>%<pl%>:eo                 #       ;
+%<dat%>%<pl%>:iun            #       ;
+%<dat%>%<pl%>:ion                #       ;
+%<acc%>%<pl%>:ios                #       ; ! consider changing to %{O%}s to account for scribal variation
 
 LEXICON Verbs
 StrongVerbs                     ;
@@ -1316,6 +1334,101 @@ wordtêkan%<noun%>%<neut%>%<a-stem%>:wordtêkan Neut-A-Stem ; ! wordtêkan* 1, w
 wundar%<noun%>%<neut%>%<a-stem%>:wundar Neut-A-Stem ; ! wundar* 28, wun-d-ar*, as., st. N. (a): nhd. Wunder, Verwunderung; ne. miracle (N.), wonder (N.)
 wundartêkan%<noun%>%<neut%>%<a-stem%>:wundartêkan Neut-A-Stem ; ! wundartêkan* 1, wun-d-ar-têk-an*, as., st. N. (a): nhd. Wunderzeichen; ne. token (N.); W.: mnd. wundertêken, N., Wunderzeichen, Wunderwerk
 wurdigiskap%<noun%>%<neut%>%<a-stem%>:wurdigiskap Neut-A-Stem ; ! wurdigiskap* 5, wurdgiskap, wur-d-i-gi-s-kap*, wur-d-gi-s-kap*, as., st. N. (a): nhd. Schicksal, Tod; ne. fate (N.), death (N.)
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!Masc-Ja-Stem!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+altari%<noun%>%<masc%>%<ja-stem%>:altar Masc-Ja-Stem 		; ! altari 5, altæri, alt-ar-i, alt-ær-i*, as., st. M. (ja): nhd. Altar; ne. altar (N.); W.: mnd. altâr, N., selten M., Altar
+bakkâri%<noun%>%<masc%>%<ja-stem%>:bakkâr Masc-Ja-Stem 		; ! bakkâri* 3, bakkėri, bekkėre, ba-k-k-âr-i*, ba-k-k-ėr-i*, be-k-k-ėr-e*, as., st. M. (ja): nhd. Bäcker; ne. baker (M.); W.: mnd. beckere, becker, M., Bäcker
+bathâri%<noun%>%<masc%>%<ja-stem%>:bathâr Masc-Ja-Stem 		; ! bathâri* 4, bathėri, bath-âr-i*, bath-ėr-i*, as., st. M. (ja): nhd. Bader; ne. barber (M.); W.: mnd. badere, bader, M., Bader, Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+bedâri%<noun%>%<masc%>%<ja-stem%>:bedâr Masc-Ja-Stem 		; ! bedâri 1, bed-âri, as., st. M. (ja): nhd. „Bitter“, Beter, Fürsprecher; ne. worshipper (M.), intercessor (M.); W.: mnd. bêdere, bêder, M., Beter, Geistlicher
+bikėri%<noun%>%<masc%>%<ja-stem%>:bikėr Masc-Ja-Stem 		; ! bikėri* 5, as., st. M. (ja): nhd. Becher; ne. beaker (N.); W.: mnd. bekere, beker, M., Becher, Gefäß
+bilithâri%<noun%>%<masc%>%<ja-stem%>:bilithâr Masc-Ja-Stem 		; ! bilithâri* 1, bilithėri, bil-ith-âr-i*, bil-ith-ėr-i, as., st. M. (ja): nhd. Bildner, Erfinder; ne. sculptor (N.), inventor (N.); W.: mnd. bildere, bilder, M., Bildner, Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+biskermâri%<noun%>%<masc%>%<ja-stem%>:biskermâr Masc-Ja-Stem 		; ! biskermâri* 2, biskermiri, biskirmâri, biskirmiri, bi-s-ker-m-âr-i*, bi-s-ker-m-ir-i*, bi-s-kir-m-âr-i*, bi-s-kir-m-ir-i*, as., st. M. (ja): nhd. Beschirmer; ne. patron (M.); W.: mnd. beschermere, beschermer, M., Beschirmer, Beschützer (Gallée)
+bôkâri%<noun%>%<masc%>%<ja-stem%>:bôkâr Masc-Ja-Stem 		; ! bôkâri* 1, bôkeri, bôk-âr-i*, bôk-er-i*, as., st. M. (ja): nhd. Schreiber; ne. scribe (M.)
+bôsâri%<noun%>%<masc%>%<ja-stem%>:bôsâr Masc-Ja-Stem 		; ! bôsâri* 1, bôsėri, bô-s-âr-i*, bô-s-ėr-i, as., st. M. (ja): nhd. Possenreißer, Nichtswürdiger?, schlechter Mensch?; ne. buffoon (M.), fool? (M.), villain? (M.); W.: s. mnd. bosserie, boetzerie, F., Possenspiel
+briosthugi%<noun%>%<masc%>%<ja-stem%>:briosthug Masc-Ja-Stem 		; ! briosthugi* 5, brio-s-t-hug-i*, as., st. M. (ja): nhd. Denken des Herzens, Gemüt; ne. mind (N.); W.: vgl. mnd. borst, F., Brust, Busen
+brôdbakkâri%<noun%>%<masc%>%<ja-stem%>:brôdbakkâr Masc-Ja-Stem 		; ! brôdbakkâri* 1, brôdbakkėri, brô-d-bak-k-âr-i*, brô-d-bak-k-ėr-i*, as., st. M. (ja): nhd. Brotbäcker; ne. breadbaker (M.)
+dilli%<noun%>%<masc%>%<ja-stem%>:dill Masc-Ja-Stem 		; ! dilli 2, dil-l-i, as., st. M. (ja): nhd. Dill; ne. dill (N.); W.: mnd. dille, M., Dill (Gallée)
+dôpâri%<noun%>%<masc%>%<ja-stem%>:dôpâr Masc-Ja-Stem 		; ! dôpâri* 1, dôperi, dôp-âr-i*, dôp-er-i, as., st. M. (ja): nhd. Täufer; ne. baptizer (M.), Baptist (M.); W.: mnd. dopere, doper, M., Täufer
+dragâri%<noun%>%<masc%>%<ja-stem%>:dragâr Masc-Ja-Stem 		; ! dragâri 1, dra-g-âri, as., st. M. (ja): nhd. Träger; ne. carrier (M.); W.: mnd. dregere, dreger, dragere, drager, M., Träger
+driogâri%<noun%>%<masc%>%<ja-stem%>:driogâr Masc-Ja-Stem 		; ! driogâri* 1, driogėri, driog-âr-i*, driog-ėr-i*, as., st. M. (ja): nhd. Betrüger; ne. deceiver (M.); W.: s. mnd. drogenere, drogener, M., Betrüger
+druginâri%<noun%>%<masc%>%<ja-stem%>:druginâr Masc-Ja-Stem 		; ! druginâri 1, drug-in-âr-i, as., st. M. (ja): nhd. Betrüger; ne. deceiver (M.); W.: mnd. drogenere, drogener, M., Betrüger
+dūkâri%<noun%>%<masc%>%<ja-stem%>:dūkâr Masc-Ja-Stem 		; ! dūkâri* 4, dūk-âr-i*, as., st. M. (ja): nhd. Taucher; ne. diver (N.); W.: mnd. dukere, duker, M., Taucher (Gallée)
+duruwardâri%<noun%>%<masc%>%<ja-stem%>:duruwardâr Masc-Ja-Stem 		; ! duruwardâri* 1, duruwardėri, dur-u-war-d-âr-i*, dur-u-war-d-ėr-i*, as., st. M. (ja): nhd. „Türwart“, Türhüter; ne. doorkeeper (M.); W.: mnd. dôrwardere, dôrwarder, M., Torwärter, Türhüter
+ėgithâri%<noun%>%<masc%>%<ja-stem%>:ėgithâr Masc-Ja-Stem 		; ! ėgithâri 1, ėg-ith-âr-i, as., st. M. (ja): nhd. Egger, Eggender; ne. harrower (M.); W.: mnd. egedere, egeder, M., Egger
+ėndi%<noun%>%<masc%>%<ja-stem%>:ėnd Masc-Ja-Stem 		; ! ėndi (1) 15, as., st. M. (ja): nhd. Ende, Anfang, Zweck, Bedeutung, Inhalt; ne. end (N.), beginning (N.), aim (N.), meaning (N.); W.: mnd. ende, M., seltener N., Ende
+erthbūandi%<noun%>%<masc%>%<ja-stem%>:erthbūand Masc-Ja-Stem 		; ! erthbūandi* 1, er-th-bū-an-d-i*, as., st. M. (ja): nhd. „Erdbauender“, Erdbewohner; ne. terrestrian (M.)
+evanhlôtâri%<noun%>%<masc%>%<ja-stem%>:evanhlôtâr Masc-Ja-Stem 		; ! evanhlôtâri* 1, evanhlôtėri, eƀanhlôtâri, eƀanhlôtėri, evan-hlô-t-âr-i*, evan-hlô-t-ėr-i*, eƀan-hlô-t-âr-i*, eƀan-hlô-t-ėr-i*, as., st. M. (ja): nhd. „Gleichloser“, Genosse; ne. comrade (M.)
+farlîhâri%<noun%>%<masc%>%<ja-stem%>:farlîhâr Masc-Ja-Stem 		; ! farlîhâri?***, forlîhâri?***, far-lîh-âr-i?***, for-lîh-âr-i?***, as., st. M. (ja): nhd. Verleiher; ne. bestower (M.)
+fiskâri%<noun%>%<masc%>%<ja-stem%>:fiskâr Masc-Ja-Stem 		; ! fiskâri* 1, fisk-âr-i*, as., st. M. (ja): nhd. Fischer; ne. fisherman (M.); W.: mnd. vischere, vischer, M., Fischer
+fiteri%<noun%>%<masc%>%<ja-stem%>:fiter Masc-Ja-Stem 		; ! fiteri* (1) 1, as., st. M. (ja): nhd. Franse; ne. fring (N.)
+fiteri%<noun%>%<masc%>%<ja-stem%>:fiter Masc-Ja-Stem 		; ! fiteri* (2), fit-er-i*, as., st. M. (ja): nhd. Fessel (F.) (2), Fußfessel; ne. fetter (N.); W.: mnd. veter, st. M.
+forestâri%<noun%>%<masc%>%<ja-stem%>:forestâr Masc-Ja-Stem 		; ! forestâri?***, forest-âri?***, as., st. M. (ja): nhd. Förster; ne. forester (M.); W.: mnd. vorstere, vorstere, M., Förster
+frėmmâri%<noun%>%<masc%>%<ja-stem%>:frėmmâr Masc-Ja-Stem 		; ! frėmmâri* 1, frėmmėri, frė-m-m-âr-i*, frė-m-m-ėr-i, as., st. M. (ja): nhd. Förderer; ne. promoter (M.); W.: mnd. vromere, vromer, M.?, Held, ausgezeichneter Mann
+gardâri%<noun%>%<masc%>%<ja-stem%>:gardâr Masc-Ja-Stem 		; ! gardâri 1, gar-d-âr-i, as., st. M. (ja): nhd. Gärtner; ne. gardener (M.); W.: s. mnd. gerdenere, gerdener, gardenere, gardener, M., Gärtner
+ginâthâri%<noun%>%<masc%>%<ja-stem%>:ginâthâr Masc-Ja-Stem 		; ! ginâthâri* 1, ginâthėri, gi-nâ-th-âr-i*, gi-nâ-th-ėr-i, as., st. M. (ja): nhd. Erbarmer; ne. merciful (M.)
+gravâri%<noun%>%<masc%>%<ja-stem%>:gravâr Masc-Ja-Stem 		; ! gravâri?***, graƀâri?***, gravere?, graƀere?, grav-âr-i?***, graƀ-âr-i?***, grav-er-e?***, graƀ-er-e?***, as., st. M. (ja): nhd. Gräber (M.), Grabender; ne. digger (M.); W.: mnd. grâvere, grâver, grêvere, grêver, M., Gräber, Grabender
+hêlâri%<noun%>%<masc%>%<ja-stem%>:hêlâr Masc-Ja-Stem 		; ! hêlâri* 1, hêlėri, hê-l-âr-i*, hê-l-ėr-i*, as., st. M. (ja): nhd. Heiler, Erlöser; ne. Saviour (M.); W.: mnd. hêlere, heilere, hêler, heiler, M., Erretter, Erlöser
+helpâri%<noun%>%<masc%>%<ja-stem%>:helpâr Masc-Ja-Stem 		; ! helpâri* 1, helpėri, help-âr-i*, help-ėr-i*, as., st. M. (ja): nhd. Helfer, Förderer, Unterstützer; ne. helper (M.), supporter (M.); W.: mnd. helpere, helper, M., Helfer, Retter
+hêretikâri%<noun%>%<masc%>%<ja-stem%>:hêretikâr Masc-Ja-Stem 		; ! hêretikâri* 3, hêretikeri, hêr-etik-âr-i*, hêr-etik-er-i, as., st. M. (ja): nhd. „Häretiker“, Ketzer; ne. heretic (M.)
+hėri%<noun%>%<masc%>%<ja-stem%>:hėr Masc-Ja-Stem 		; ! hėri 11, hėr-i, as., st. M. (ja): nhd. Heer, Menge, Volk; ne. army (N.), crowd (N.), people (N.); W.: vgl. mnd. hêr, hêre, N., Heer
+hirdi%<noun%>%<masc%>%<ja-stem%>:hird Masc-Ja-Stem 		; ! hirdi 6, hird-i, as., st. M. (ja): nhd. Hirt, Hirte, Hüter, Viehhüter, Herr; ne. herdsman (M.), lord (M.); W.: mnd. hêrde (1), hirde, M., Hirt, Hirte, Hüter, Viehhüter
+hlôtâri%<noun%>%<masc%>%<ja-stem%>:hlôtâr Masc-Ja-Stem 		; ! hlôtâri?***, hlôtėri?***, hlô-t-âr-i?***, hlô-t-ėr-i?***, as., st. M. (ja): nhd. Loser, Losender; ne. lotdrawer (M.)
+hôdâri%<noun%>%<masc%>%<ja-stem%>:hôdâr Masc-Ja-Stem 		; ! hôdâri* 1, hôdėri, hūdâri, hūdėri, hôd-âr-i*, hôd-ėr-i*, hūd-âr-i*, hūd-ėr-i*, as., st. M. (ja): nhd. Hüter; ne. guard (M.); W.: mnd. hodere, hoder, M., Hüter, Hirt, Hirte
+hwêti%<noun%>%<masc%>%<ja-stem%>:hwêt Masc-Ja-Stem 		; ! hwêti* 45, hwê-t-i*, as., st. M. (ja): nhd. Weizen; ne. wheat (N.); W.: mnd. wête, weite, st. M., sw.? M., Weizen
+irrâri%<noun%>%<masc%>%<ja-stem%>:irrâr Masc-Ja-Stem 		; ! irrâri 2, ir-r-âr-i, as., st. M. (ja): nhd. Irrlehrer, Verwirrer; ne. confuser (M.) of the doctrine
+kamerâri%<noun%>%<masc%>%<ja-stem%>:kamerâr Masc-Ja-Stem 		; ! kamerâri* 1, kamer-âr-i*, as., st. M. (ja): nhd. Kämmerer; ne. chamberlain (M.); W.: mnd. kemerere, kemerer, kamerere, kamerer, M., Kämmerer
+kantêri%<noun%>%<masc%>%<ja-stem%>:kantêr Masc-Ja-Stem 		; ! kantêri*, kentêri, kantêr-i*, kentêr-i, as., st. M. (ja), st. N.?: nhd. Kauterium (= Brenneisen?), Wallach, Jochgeländer, Sparrenwerk; ne. gelding (N.), rafters (N. Pl.)
+karkâri%<noun%>%<masc%>%<ja-stem%>:karkâr Masc-Ja-Stem 		; ! karkâri* 3, kark-âr-i*, as., st. M. (ja): nhd. Kerker; ne. dungeon (N.); W.: mnd. kerkenêr (2), kerkenêre, karker, kerkner, kerker, M., Kerker
+kêsi%<noun%>%<masc%>%<ja-stem%>:kês Masc-Ja-Stem 		; ! kêsi* 6, kâsi, k-ê-si*, k-â-si*, as., st. M. (ja): nhd. Käse; ne. cheese (N.); W.: mnd. kêse, M., Käse
+kėtilâri%<noun%>%<masc%>%<ja-stem%>:kėtilâr Masc-Ja-Stem 		; ! kėtilâri* 1, kėt-il-âr-i*, as., st. M. (ja): nhd. Kessler, Kesselmacher; ne. kettlemaker (M.); W.: mnd. ketelere, keteler, ketelare, M., Kessler, Kesselmacher
+kîth%<noun%>%<masc%>%<ja-stem%>:kît Masc-Ja-Stem 		; ! kîth* 3, kî-th*, as., st. M. (ja): nhd. Spross, Keim; ne. sprout (N.)
+klėi%<noun%>%<masc%>%<ja-stem%>:klė Masc-Ja-Stem 		; ! klėi?***, as., st. M. (ja): nhd. Klei, Ton (M.) (1); ne. clay (N.); W.: mnd. klei, kley, kleye, M., Lehmboden
+kôklâri%<noun%>%<masc%>%<ja-stem%>:kôklâr Masc-Ja-Stem 		; ! kôklâri*? 2, kaklereri, kôkl-âr-i*?, kakler-er-i*, as., st. M. (ja): nhd. Gaukler, Zauberer; ne. magician (M.); W.: mnd. kâkelere, kâkeler, kôkelere, kôkeler, M., Gaukler
+kostarâri%<noun%>%<masc%>%<ja-stem%>:kostarâr Masc-Ja-Stem 		; ! kostarâri* 1, kostar-âr-i*, as., st. M. (ja): nhd. Küster, Tempelhüter; ne. sacristan (M.); W.: mnd. köstere, köster, küstere, küster, M., Küster
+lavandâri%<noun%>%<masc%>%<ja-stem%>:lavandâr Masc-Ja-Stem 		; ! lavandâri* 1, lavand-âr-i*, as., st. M. (ja): nhd. Wäscher, Walker; ne. washer (M.)
+lîhâri%<noun%>%<masc%>%<ja-stem%>:lîhâr Masc-Ja-Stem 		; ! lîhâri?***, lîh-âr-i?***, as., st. M. (ja): nhd. Leiher; ne. lender (M.)
+lilli%<noun%>%<masc%>%<ja-stem%>:lill Masc-Ja-Stem 		; ! lilli 1, lil-l-i, as., st. M. (ja): nhd. Lilie; ne. lily (N.)
+luginâri%<noun%>%<masc%>%<ja-stem%>:luginâr Masc-Ja-Stem 		; ! luginâri* 1, lug-in-âr-i*, as., st. M. (ja): nhd. Lügner; ne. liar (M.)
+malâri%<noun%>%<masc%>%<ja-stem%>:malâr Masc-Ja-Stem 		; ! malâri* 1, malėri, mal-âr-i*, mal-ėr-i*, as., st. M. (ja): nhd. „Mahler“, Müller; ne. miller (M.)
+mâlâri%<noun%>%<masc%>%<ja-stem%>:mâlâr Masc-Ja-Stem 		; ! mâlâri* 1, mâlėri, mâl-âr-i*, mâl-ėr-i, as., st. M. (ja): nhd. Maler; ne. painter (M.); W.: mnd. mâlere, mâler, M., Maler
+maltâri%<noun%>%<masc%>%<ja-stem%>:maltâr Masc-Ja-Stem 		; ! maltâri* 1, maltėri, mal-t-âr-i*, mal-t-ėr-i*, as., st. M. (ja): nhd. Mälzer; ne. maltman (M.)
+meldâri%<noun%>%<masc%>%<ja-stem%>:meldâr Masc-Ja-Stem 		; ! meldâri 1, meld-âr-i, as., st. M. (ja): nhd. Melder; ne. messenger (M.)
+mulinâri%<noun%>%<masc%>%<ja-stem%>:mulinâr Masc-Ja-Stem 		; ! mulinâri* 1, mulinėri, mul-in-âr-i*, mul-in-ėr-i*, as., st. M. (ja): nhd. „Müllner“, Müller; ne. miller (M.); W.: s. mnd. möllere, möller, mölnere, mölner, M., Müller, Mühlenbesitzer
+munitâri%<noun%>%<masc%>%<ja-stem%>:munitâr Masc-Ja-Stem 		; ! munitâri* 1, munitėri, munit-âr-i*, munit-ėr-i*, as., st. M. (ja): nhd. „Münzer“, Wechsler; ne. money-changer (M.); W.: mnd. müntere, münter, M., Münzer
+nâthâri%<noun%>%<masc%>%<ja-stem%>:nâthâr Masc-Ja-Stem 		; ! nâthâri?***, nâthėri?***, nâ-th-âr-i?***, nâ-th-ėr-i?***, as., st. M. (ja)?: nhd. Erbarmer; ne. merciful (M.)
+ohsenâri%<noun%>%<masc%>%<ja-stem%>:ohsenâr Masc-Ja-Stem 		; ! ohsenâri* 1, ohsenėri, ohse-n-âr-i*, ohse-n-ėr-i*, as., st. M. (ja): nhd. „Ochsner“, Ochsenhirt; ne. oxherdsman (M.)
+peterâri%<noun%>%<masc%>%<ja-stem%>:peterâr Masc-Ja-Stem 		; ! peterâri 2, pet-e-r-âr-i, as., st. M. (ja): nhd. Petarde, Wurfmaschine; ne. catapult (N.)
+pîliri%<noun%>%<masc%>%<ja-stem%>:pîlir Masc-Ja-Stem 		; ! pîliri 1, pîli-ri, as., st. M. (ja): nhd. Pfeiler, Gitter; ne. pillar (N.), bars (N. Pl.); W.: mnd. pilere, M., Pfeiler
+pressėri%<noun%>%<masc%>%<ja-stem%>:pressėr Masc-Ja-Stem 		; ! pressėri* 1, press-ėri*, as., st. M. (ja): nhd. Kelter; ne. winepress (M.)
+revolâri%<noun%>%<masc%>%<ja-stem%>:revolâr Masc-Ja-Stem 		; ! revolâri* 1, reƀolâri, revol-âr-i*, reƀol-âr-i*, as., st. M. (ja): nhd. Flickschneider; ne. jobbingtailor (M.)
+sadulâri%<noun%>%<masc%>%<ja-stem%>:sadulâr Masc-Ja-Stem 		; ! sadulâri* 1, sadulėri, sad-ul-âr-i*, sad-ul-ėr-i*, as., st. M. (ja): nhd. Sattler, Sattelmacher; ne. saddler (M.); W.: mnd. sadelere, sadeler, M., Sattler, Sattelmacher
+sakeri%<noun%>%<masc%>%<ja-stem%>:saker Masc-Ja-Stem 		; ! sakeri* 1, sakkeri, sak-k-eri*, as., st. M. (ja): nhd. Scheiterhaufe, Scheiterhaufen; ne. pyre (N.)
+skeldâri%<noun%>%<masc%>%<ja-stem%>:skeldâr Masc-Ja-Stem 		; ! skeldâri* 1, s-kel-d-âr-i*, as., st. M. (ja): nhd. Schelter, Schmäher; ne. scolder (M.); W.: mnd. scheldere, schelder, M., „Schelter“, Urteilsschelter
+slėngėri%<noun%>%<masc%>%<ja-stem%>:slėngėr Masc-Ja-Stem 		; ! slėngėri?***, slė-ng-ėri?***, as., st. M. (ja): nhd. Schleuder; ne. catapult (N.)
+slindâri%<noun%>%<masc%>%<ja-stem%>:slindâr Masc-Ja-Stem 		; ! slindâri* 1, slindėri***, sli-n-d-âr-i*, sli-n-d-ėr-i*** *, as., st. M. (ja): nhd. Schlinger; ne. devourer (M.); W.: mnd. slindere, slinder, M. Schlinger
+sôknâri%<noun%>%<masc%>%<ja-stem%>:sôknâr Masc-Ja-Stem 		; ! sôknâri* 2, sôknėri, sôk-n-âr-i*, sôk-n-ėr-i*, as., st. M. (ja): nhd. Untersucher, Einforderer; ne. investigator (M.)
+sôlari%<noun%>%<masc%>%<ja-stem%>:sôlar Masc-Ja-Stem 		; ! sôlari 2, sôl-ari, as., st. M. (ja): nhd. Söller, Obergemach; ne. loft (N.), upper storey (N.); W.: mnd. sollere, soller, söllere, söller, M., Söller, der Sonne ausgesetztes Dach, offener Ausbau am Gebäude
+sômâri%<noun%>%<masc%>%<ja-stem%>:sômâr Masc-Ja-Stem 		; ! sômâri 2, sôm-âr-i, as., st. M. (ja): nhd. Saumtier; ne. beast (N.) of burden; W.: mnd. somere, M., Saumtier
+sparwari%<noun%>%<masc%>%<ja-stem%>:sparwar Masc-Ja-Stem 		; ! sparwari* 1, spar-w-ari*, as., st. M. (ja): nhd. Sperber (M.); ne. sparrowhawk (N.); W.: mnd. sperwere, sperwer, sparwere, sparwer, M., Sperber
+spîkari%<noun%>%<masc%>%<ja-stem%>:spîkar Masc-Ja-Stem 		; ! spîkari* 11, s-pî-k-ari*, as., st. M. (ja): nhd. Speicher; ne. store (N.); W.: mnd. spîkere, spîker, M., N., Kornspeicher
+stafslėngėri%<noun%>%<masc%>%<ja-stem%>:stafslėngėr Masc-Ja-Stem 		; ! stafslėngėri* 2, sta-f-slė-ng-ėri*, as., st. M. (ja): nhd. „Stabschleuder“, Wurfmaschine; ne. catapult (N.); W.: s. mnd. stafslenge, F., Stabschleuder
+stôdâri%<noun%>%<masc%>%<ja-stem%>:stôdâr Masc-Ja-Stem 		; ! stôdâri* 1, stôdėri, stô-d-âr-i*, stô-d-ėr-i*, as., st. M. (ja): nhd. Maultiertreiber; ne. muleteer (M.)
+swêgâri%<noun%>%<masc%>%<ja-stem%>:swêgâr Masc-Ja-Stem 		; ! swêgâri* 1, swêgėri, s-w-ê-g-âr-i*, s-w-ê-g-ėr-i*, as., st. M. (ja): nhd. Rinderhirt; ne. cowboy (M.)
+swêgkêsi%<noun%>%<masc%>%<ja-stem%>:swêgkês Masc-Ja-Stem 		; ! swêgkêsi* 1, sw-ê-g-k-ê-si*, as., st. M. (ja): nhd. „Herdenkäse“, Käse; ne. cheese (N.)
+swiri%<noun%>%<masc%>%<ja-stem%>:swir Masc-Ja-Stem 		; ! swiri* 1, swir-i*, as., st. M. (ja): nhd. Vetter; ne. cousin (M.)
+tâflâri%<noun%>%<masc%>%<ja-stem%>:tâflâr Masc-Ja-Stem 		; ! tâflâri* 2, tâflėri, tâf-l-âr-i*, tâf-l-ėr-i, as., st. M. (ja): nhd. Würfelspieler; ne. diceplayer (M.)
+teldâri%<noun%>%<masc%>%<ja-stem%>:teldâr Masc-Ja-Stem 		; ! teldâri* 1, teldėri, tel-d-âr-i*, tel-d-ėr-i*, as., st. M. (ja): nhd. Zelter (M.); ne. palfrey (N.); W.: mnd. teldere, telder, M., Zelter (M.)
+trahtari%<noun%>%<masc%>%<ja-stem%>:trahtar Masc-Ja-Stem 		; ! trahtari* 1, traht-ari*, as., st. M. (ja): nhd. Trichter (M.); ne. funnel (N.); W.: mnd. trechtere, trechter, M., Trichter
+thrâslâri%<noun%>%<masc%>%<ja-stem%>:thrâslâr Masc-Ja-Stem 		; ! thrâslâri 1, thrâs-l-âr-i, as., st. M. (ja): nhd. Drechsler; ne. turner (M.); W.: vgl. mnd. dreiere, dreier, M., „Dreher“, Drechsler
+undargravâri%<noun%>%<masc%>%<ja-stem%>:undargravâr Masc-Ja-Stem 		; ! undargravâri* 1, undargraƀâri, undargravere, undar-grav-âr-i*, undar-graƀ-âr-i*, undar-grav-er-e*, as., st. M. (ja): nhd. „Untergraber“, Betrüger?; ne. treacherer? (M.)
+wagnâri%<noun%>%<masc%>%<ja-stem%>:wagnâr Masc-Ja-Stem 		; ! wagnâri* 1, wagneri, waganâri, wag-n-âr-i*, wag-n-er-i*, wag-an-âr-i*, as., st. M. (ja): nhd. Wagner, Wagenmacher; ne. cartwright (M.); W.: mnd. wagenere, wagener, wegenere, wegener, M., Wagner
+wardâri%<noun%>%<masc%>%<ja-stem%>:wardâr Masc-Ja-Stem 		; ! wardâri?***, wardėri?***, war-d-âr-i?***, war-d-ėr-i?***, as., st. M. (ja): nhd. Wärter; ne. guard (M.)
+weggi%<noun%>%<masc%>%<ja-stem%>:wegg Masc-Ja-Stem 		; ! weggi* 2, weg-g-i*, as., st. M. (ja): nhd. Keil; ne. wedge (N.); W.: mnd. wegge, M., Keil
+wėnâri%<noun%>%<masc%>%<ja-stem%>:wėnâr Masc-Ja-Stem 		; ! wėnâri* 1, wėnėri, wėn-âr-i*, wėn-ėr-i*, as., st. M. (ja): nhd. Hofknecht; ne. farmhand (M.)
+widâri%<noun%>%<masc%>%<ja-stem%>:widâr Masc-Ja-Stem 		; ! widâri* 2, widėri* (1), wid-âr-i*, wid-ėr-i* (1), as., st. M. (ja): nhd. „Waldarbeiter“, Holzarbeiter, Holzhauer; ne. woodworker (M.)
+wîtnâri%<noun%>%<masc%>%<ja-stem%>:wîtnâr Masc-Ja-Stem 		; ! wîtnâri* 1, wîtnėri, wî-t-n-âr-i*, wî-t-n-ėr-i*, as., st. M. (ja): nhd. Peiniger; ne. tormentor (M.)
 
 
 LEXICON StrongVerbs

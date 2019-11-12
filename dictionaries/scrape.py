@@ -63,5 +63,5 @@ dict_scrape(sys.argv[1])
 with open('st. M. (ja)_ready-for-import','w+') as to_write:
     i=0
     while i < len(lemmas):
-        to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<masc%>%<ja-stem%>:'+lemmas_cleaned[i][:-1]+' Masc-Ja-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    
+        to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<masc%>%<ja-stem%>:'+lemmas_cleaned[i][:-2]+' Masc-Ja-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    #note the -2, this is to remove the i ending
         i=i+1

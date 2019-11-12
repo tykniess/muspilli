@@ -25,18 +25,18 @@ for token in heliand_words:
 coverage = str(round((len(covered_words)/len(heliand_words)*100),3))
 
 print("\nThere are "+str(len(heliand_words))+" unique tokens in the Hêliand.")
-print("Project Muspilli currently contains "+str(len(muspilli_words))+" synthetically-generated forms.")
-print("Of the "+str(len(heliand_words))+" unique tokens in the Hêliand, Project Muspilli contains " +\
+print("Muspilli currently contains "+str(len(muspilli_words))+" synthetically-generated forms.")
+print("Of the "+str(len(heliand_words))+" unique tokens in the Hêliand, Muspilli contains " +\
       str(len(covered_words)) + " forms, or "+str(coverage)+"%. Wow!\n") 
 
 with open('README.md', 'w') as README:
 	README.write("")
 
 with open('README.md', 'a') as README:
-        README.write("""Introducing Muspilli, a Finite-State Transducer for the Old Saxon language.\nBuilt on the framework of Helsinki Finite-State Technologies (HFST) using Köbler's Old Saxon Dictionary.\nCurrent output forms are in forms.txt\n\n
+        README.write("""Muspilli is a finite-state transducer for the Old Saxon language, built on the framework of Helsinki Finite-State Technologies (HFST) using Köbler's Old Saxon Dictionary.\nCurrent output forms are in forms.txt\n\n
 """)
 
 with open('README.md', 'a') as README:
-    README.write("There are "+str(len(heliand_words))+" unique tokens in the Hêliand.\nProject Muspilli currently contains "+str(len(muspilli_words))+" synthetically-generated forms.\n'")
-    README.write("Of the "+str(len(heliand_words))+" unique tokens in the Hêliand, Project Muspilli contains " + str(len(covered_words)) + " forms, or ")
+    README.write("There are "+str(len(heliand_words))+" unique tokens in the Hêliand.\nMuspilli currently contains "+str(len(muspilli_words))+" synthetically-generated forms.\n")
+    README.write("Of the "+str(len(heliand_words))+" unique tokens in the Hêliand, Muspilli contains " + str(len(covered_words)) + " forms, or ")
     README.write(str(coverage)+"%. Wow!\n")
