@@ -28,13 +28,13 @@ Rules
 "Umlaut in second and third class strong verbs"
 !biod>u becomes biudu
 !werth>u becomes wirthu
-Vx:Vy <=> _  Cns+ %>:  HighV ;
+Vx:Vy <= _  Cns+ %>:  HighV ;
      where Vx in ( o e )
            Vy in ( u i )
      matched ;
 
 "Umlaut in sixth class strong verbs"
-a:e <=> _ Cns: %>: i ; !note that this umlaut doesn't apply before [u]
+a:e <= _ Cns: %>: i ; !note that this umlaut doesn't apply before [u]
 
 "STR2 Deletion of the i in the diphtong io in ablaut grades 1 2 3 "
 Vx:Vy <=> _ o: Cns+ Vz: ;
@@ -51,36 +51,33 @@ Vx:Vy <=> _ Vz: ;
 	matched ; 
 
 "Ablaut in preterite 1sg 3sg of strong verbs (context 1)"
-Vx:Vy <=> _ Cns+ Vz: ;
+Vx:Vy <=> _ Cns+ ¹: ;
      except
             ₄: _ ;
             ₅: _ ;
             ₇: _ ;
      where Vx in ( î ī o i e ê ē a )
            Vy in ( ê ê ô a a a a ô ) 
-           Vz in ( ¹ ¹ ¹ ¹ ¹ ¹ ¹ ¹ ) 
      matched ;
 
 "Ablaut in preterite pl of strong verbs (context 2)"
-Vx:Vy <=> _ Cns+ Vz: ; 
+Vx:Vy <=> _ Cns+ ²: ; 
      except
             ₄: _ ;
             ₅: _ ;
 	    ₇: _ ;
      where Vx in ( î ī o i e ê ē a )
            Vy in ( i i u u u â ā ô )
-           Vz in ( ² ² ² ² ² ² ² ² )
      matched ;
 
 "Ablaut in participle of strong verbs (context 3)"
-Vx:Vy <=> _ Cns+ Vz: ;
+Vx:Vy <=> _ Cns+ ³: ;
      except
             ₄: _ ;
             ₅: _ ;
             ₇: _ ;
      where Vx in ( î ī o i e ê ē )
            Vy in ( i i o u o o o )
-           Vz in ( ³ ³ ³ ³ ³ ³ ³ )
      matched ;
 
 "Ablaut in Strong Verbs Classes 4 and 5"

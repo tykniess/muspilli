@@ -2,41 +2,50 @@ import csv
 import sys
 import random
 
-heliand_words  = []
-muspilli_words = []
-covered_words  = []
+heliand_unique_words  = []
+muspilli_total_words = []
+covered_unique_words  = []
+covered_total_words = []
+heliand_total_words = []
 
-heliand = 'heliand/hel-tokens.txt'
+heliand = 'heliand/hel-unique-tokens.txt'
+heliand_total = 'heliand/hel-tokenized.txt'
 muspilli= 'forms.txt'
 
 with open(muspilli, 'r', newline='\n') as mfile:
     reader=csv.reader(mfile, delimiter='\t')
     for row in reader:
-        muspilli_words.append(row[0].strip())
+        muspilli_total_words.append(row[0].strip())
 
 with open(heliand, 'r', newline='\n') as hfile:
     for row in hfile:
-        heliand_words.append(row.strip())
+        heliand_unique_words.append(row.strip())
 
-for token in heliand_words:
-    if token.lower() in muspilli_words:
-        covered_words.append(token)
+for token in heliand_unique_words:
+    if token.lower() in muspilli_total_words:
+        covered_unique_words.append(token)
 
-coverage = str(round((len(covered_words)/len(heliand_words)*100),3))
+with open(heliand_total, 'r', newline='\n') as tfile:
+    for row in tfile:
+        heliand_total_words.append(row.lower().strip())
+        if row.lower().strip() in muspilli_total_words:
+            covered_total_words.append(row.lower().strip())
 
-print("\nThere are "+str(len(heliand_words))+" unique tokens in the Hêliand.")
-print("Muspilli currently contains "+str(len(muspilli_words))+" synthetically-generated forms.")
-print("Of the "+str(len(heliand_words))+" unique tokens in the Hêliand, Muspilli contains " +\
-      str(len(covered_words)) + " forms, or "+str(coverage)+"%. Wow!\n") 
+unique_coverage = str(round((len(covered_unique_words)/len(heliand_unique_words)*100),3))
+total_coverage = str(round((len(covered_total_words)/len(heliand_total_words)*100),3))
 
-with open('README.md', 'w') as README:
-	README.write("")
 
-with open('README.md', 'a') as README:
-        README.write("""Muspilli is a finite-state transducer for the Old Saxon language, built on the framework of Helsinki Finite-State Technologies (HFST) using Köbler's Old Saxon Dictionary.\nCurrent output forms are in forms.txt\n\n
-""")
+print("The Hêliand contains a total of " + str(len(heliand_total_words)) + " forms, "+str(len(heliand_unique_words))+" of which are unique.")
+print("Muspilli currently contains "+str(len(muspilli_total_words))+" synthetically-generated forms.")
+print("Of the "+str(len(heliand_unique_words))+" unique tokens in the Hêliand, Muspilli contains " +\
+      str(len(covered_unique_words)) + " forms, or "+str(unique_coverage)+"%\n") 
+print("Of the "+str(len(heliand_total_words))+" total tokens in the Hêliand, Muspilli contains " +\
+      str(len(covered_total_words)) + " forms, or "+str(total_coverage)+"%\n")
 
-with open('README.md', 'a') as README:
-    README.write("There are "+str(len(heliand_words))+" unique tokens in the Hêliand.\nMuspilli currently contains "+str(len(muspilli_words))+" synthetically-generated forms.\n")
-    README.write("Of the "+str(len(heliand_words))+" unique tokens in the Hêliand, Muspilli contains " + str(len(covered_words)) + " forms, or ")
-    README.write(str(coverage)+"%.\n")
+with open('coverage.txt', 'w') as to_write:
+    to_write.write("The Hêliand contains a total of " + str(len(heliand_total_words)) + " forms, "+str(len(heliand_unique_words))+" of which are unique.")
+    to_write.write("Muspilli currently contains "+str(len(muspilli_total_words))+" synthetically-generated forms.")
+    to_write.write("Of the "+str(len(heliand_unique_words))+" unique tokens in the Hêliand, Muspilli contains " +\
+      str(len(covered_unique_words)) + " forms, or "+str(unique_coverage)+"%\n") 
+    to_write.write("Of the "+str(len(heliand_total_words))+" total tokens in the Hêliand, Muspilli contains " +\
+      str(len(covered_total_words)) + " forms, or "+str(total_coverage)+"%\n")
