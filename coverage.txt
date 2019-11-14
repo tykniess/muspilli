@@ -2,7 +2,7 @@ The Hêliand contains a total of 47173 forms, 7966 of which are unique.
 
 Muspilli currently contains 27505 synthetically-generated forms.
 
-Of the 7966 unique tokens in the Hêliand, Muspilli contains 1142 forms, or 14.336%
+Of the 7966 unique tokens in the Hêliand, Muspilli contains 1196 forms, or 15.014%
 
-Of the 47173 total tokens in the Hêliand, Muspilli contains 14421 forms, or 30.57%
+Of the 47173 total tokens in the Hêliand, Muspilli contains 15433 forms, or 32.716%
 
