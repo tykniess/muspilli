@@ -30,6 +30,7 @@ Multichar_Symbols
 %<pers%>			! Personal Pronoun
 %<poss%>			! Possessive Pronoun
 %<demo%>			! Demonstrative Pronoun
+%<comp%>			! Compound Pronoun "this"
 
 !!!!!!!!!!!!!!!!!!VERBAL CHARS!!!!!!!!!!!!!!!!!!!!!!!!
 %<inf%>				! Infinitive
@@ -78,6 +79,7 @@ LEXICON Pronouns
 Personal-Pronouns			;
 Possessive-Pronouns			;
 Demonstrative-Pronouns			;
+Compound-Pronouns			;
 
 LEXICON Nouns
 A-Stem				;
@@ -501,6 +503,61 @@ LEXICON Demonstrative-Pronouns
 %<prn%>%<demo%>%<fem%>%<dat%>%<pl%>:thân	#	;
 %<prn%>%<demo%>%<fem%>%<acc%>%<pl%>:thê		#	;
 %<prn%>%<demo%>%<fem%>%<acc%>%<pl%>:tha		#	;
+
+LEXICON Compound-Pronouns
+
+%<prn%>%<comp%>%<masc%>%<nom%>%<sg%>:these         #       ;
+%<prn%>%<comp%>%<neut%>%<nom%>%<sg%>:thit         #       ;
+%<prn%>%<comp%>%<fem%>%<nom%>%<sg%>:thius         #       ;
+%<prn%>%<comp%>%<fem%>%<nom%>%<sg%>:thesu         #       ;
+%<prn%>%<comp%>%<masc%>%<gen%>%<sg%>:theses         #       ;
+%<prn%>%<comp%>%<masc%>%<gen%>%<sg%>:thesas         #       ;
+%<prn%>%<comp%>%<neut%>%<gen%>%<sg%>:theses         #       ;
+%<prn%>%<comp%>%<neut%>%<gen%>%<sg%>:thieses         #       ;
+%<prn%>%<comp%>%<fem%>%<gen%>%<sg%>:thesero         #       ;
+%<prn%>%<comp%>%<fem%>%<gen%>%<sg%>:thesaro         #       ;
+%<prn%>%<comp%>%<fem%>%<gen%>%<sg%>:thesoro         #       ;
+%<prn%>%<comp%>%<fem%>%<gen%>%<sg%>:thesara         #       ;
+%<prn%>%<comp%>%<masc%>%<dat%>%<sg%>:thesemu         #       ;
+%<prn%>%<comp%>%<neut%>%<dat%>%<sg%>:thesumu         #       ;
+%<prn%>%<comp%>%<neut%>%<dat%>%<sg%>:thesumo         #       ;
+%<prn%>%<comp%>%<neut%>%<dat%>%<sg%>:thesum         #       ;
+%<prn%>%<comp%>%<neut%>%<dat%>%<sg%>:thesun         #       ;
+%<prn%>%<comp%>%<neut%>%<dat%>%<sg%>:thieson         #       ;
+%<prn%>%<comp%>%<fem%>%<dat%>%<sg%>:thesero         #       ;
+%<prn%>%<comp%>%<fem%>%<dat%>%<sg%>:thesaro         #       ;
+%<prn%>%<comp%>%<fem%>%<dat%>%<sg%>:thesaru         #       ;
+%<prn%>%<comp%>%<masc%>%<acc%>%<sg%>:thesan         #       ;
+%<prn%>%<comp%>%<masc%>%<acc%>%<sg%>:theson         #       ;
+%<prn%>%<comp%>%<neut%>%<acc%>%<sg%>:thit         #       ;
+%<prn%>%<comp%>%<fem%>%<acc%>%<sg%>:thesa         #       ;
+%<prn%>%<comp%>%<fem%>%<acc%>%<sg%>:thessa         #       ;
+%<prn%>%<comp%>%<neut%>%<instr%>%<sg%>:thius         #       ;
+
+%<prn%>%<comp%>%<masc%>%<nom%>%<pl%>:these         #       ;
+%<prn%>%<comp%>%<masc%>%<nom%>%<pl%>:thesa         #       ;
+%<prn%>%<comp%>%<masc%>%<acc%>%<pl%>:these         #       ;
+%<prn%>%<comp%>%<masc%>%<acc%>%<pl%>:thesa         #       ;
+%<prn%>%<comp%>%<masc%>%<gen%>%<pl%>:thesaro         #       ;
+%<prn%>%<comp%>%<masc%>%<gen%>%<pl%>:thesoro         #       ;
+%<prn%>%<comp%>%<masc%>%<dat%>%<pl%>:thesun         #       ;
+%<prn%>%<comp%>%<masc%>%<dat%>%<pl%>:theson         #       ;
+%<prn%>%<comp%>%<neut%>%<nom%>%<pl%>:thius         #       ;
+%<prn%>%<comp%>%<neut%>%<nom%>%<pl%>:thesa         #       ;
+%<prn%>%<comp%>%<neut%>%<acc%>%<pl%>:thius         #       ;
+%<prn%>%<comp%>%<neut%>%<acc%>%<pl%>:thesa         #       ;
+%<prn%>%<comp%>%<neut%>%<gen%>%<pl%>:thesaro         #       ;
+%<prn%>%<comp%>%<neut%>%<gen%>%<pl%>:thesoro         #       ;
+%<prn%>%<comp%>%<neut%>%<dat%>%<pl%>:thesun         #       ;
+%<prn%>%<comp%>%<neut%>%<dat%>%<pl%>:theson         #       ;
+%<prn%>%<comp%>%<fem%>%<nom%>%<pl%>:these         #       ;
+%<prn%>%<comp%>%<fem%>%<nom%>%<pl%>:thesa         #       ;
+%<prn%>%<comp%>%<fem%>%<acc%>%<pl%>:these         #       ;
+%<prn%>%<comp%>%<fem%>%<acc%>%<pl%>:thesa         #       ;
+%<prn%>%<comp%>%<fem%>%<gen%>%<pl%>:thesaro         #       ;
+%<prn%>%<comp%>%<fem%>%<gen%>%<pl%>:thesoro         #       ;
+%<prn%>%<comp%>%<fem%>%<dat%>%<pl%>:thesun         #       ;
+%<prn%>%<comp%>%<fem%>%<dat%>%<pl%>:theson         #       ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

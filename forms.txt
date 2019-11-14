@@ -15185,6 +15185,7 @@ thii    	   <prn>      <demo>      <masc>      <acc>      <pl>
 thii    	   <prn>      <demo>      <masc>      <nom>      <pl>   
 thii    	   <prn>      <demo>      <neut>      <acc>      <pl>   
 thii    	   <prn>      <demo>      <neut>      <nom>      <pl>   
+thiisis    	   <prn>      <comp>      <neut>      <gen>      <sg>   
 thim    	   <prn>      <demo>      <masc>      <dat>      <sg>   
 thim    	   <prn>      <demo>      <neut>      <dat>      <sg>   
 thimu    	   <prn>      <demo>      <masc>      <dat>      <sg>   
@@ -15227,6 +15228,35 @@ thira    	   <prn>      <demo>      <fem>      <gen>      <sg>
 thiru    	   <prn>      <demo>      <fem>      <dat>      <sg>   
 this    	   <prn>      <demo>      <masc>      <gen>      <sg>   
 this    	   <prn>      <demo>      <neut>      <gen>      <sg>   
+thisa    	   <prn>      <comp>      <fem>      <acc>      <pl>   
+thisa    	   <prn>      <comp>      <fem>      <acc>      <sg>   
+thisa    	   <prn>      <comp>      <fem>      <nom>      <pl>   
+thisa    	   <prn>      <comp>      <masc>      <acc>      <pl>   
+thisa    	   <prn>      <comp>      <masc>      <nom>      <pl>   
+thisa    	   <prn>      <comp>      <neut>      <acc>      <pl>   
+thisa    	   <prn>      <comp>      <neut>      <nom>      <pl>   
+thisan    	   <prn>      <comp>      <masc>      <acc>      <sg>   
+thisara    	   <prn>      <comp>      <fem>      <gen>      <sg>   
+thisaru    	   <prn>      <comp>      <fem>      <dat>      <sg>   
+thisas    	   <prn>      <comp>      <masc>      <gen>      <sg>   
+thisi    	   <prn>      <comp>      <fem>      <acc>      <pl>   
+thisi    	   <prn>      <comp>      <fem>      <nom>      <pl>   
+thisi    	   <prn>      <comp>      <masc>      <acc>      <pl>   
+thisi    	   <prn>      <comp>      <masc>      <nom>      <pl>   
+thisi    	   <prn>      <comp>      <masc>      <nom>      <sg>   
+thisimu    	   <prn>      <comp>      <masc>      <dat>      <sg>   
+thisis    	   <prn>      <comp>      <masc>      <gen>      <sg>   
+thisis    	   <prn>      <comp>      <neut>      <gen>      <sg>   
+thissa    	   <prn>      <comp>      <fem>      <acc>      <sg>   
+thisu    	   <prn>      <comp>      <fem>      <nom>      <sg>   
+thisum    	   <prn>      <comp>      <neut>      <dat>      <sg>   
+thisumu    	   <prn>      <comp>      <neut>      <dat>      <sg>   
+thisun    	   <prn>      <comp>      <fem>      <dat>      <pl>   
+thisun    	   <prn>      <comp>      <masc>      <dat>      <pl>   
+thisun    	   <prn>      <comp>      <neut>      <dat>      <pl>   
+thisun    	   <prn>      <comp>      <neut>      <dat>      <sg>   
+thit    	   <prn>      <comp>      <neut>      <acc>      <sg>   
+thit    	   <prn>      <comp>      <neut>      <nom>      <sg>   
 thiu    	   <prn>      <demo>      <fem>      <nom>      <sg>   
 thiu    	   <prn>      <demo>      <masc>      <instr>      <sg>   
 thiu    	   <prn>      <demo>      <neut>      <acc>      <pl>   
@@ -15234,6 +15264,10 @@ thiu    	   <prn>      <demo>      <neut>      <instr>      <sg>
 thiu    	   <prn>      <demo>      <neut>      <nom>      <pl>   
 thiu    	thio   <noun>      <masc>      <wa-stem>      <acc>      <sg>   
 thiu    	thio   <noun>      <masc>      <wa-stem>      <nom>      <sg>   
+thius    	   <prn>      <comp>      <fem>      <nom>      <sg>   
+thius    	   <prn>      <comp>      <neut>      <acc>      <pl>   
+thius    	   <prn>      <comp>      <neut>      <instr>      <sg>   
+thius    	   <prn>      <comp>      <neut>      <nom>      <pl>   
 thiustri    	thiustri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
 thiustri    	thiustri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 thiustria    	thiustri   <noun>      <neut>      <ja-stem>      <dat>      <sg>   
