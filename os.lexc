@@ -28,6 +28,8 @@ Multichar_Symbols
 %<prn%>				! Pronoun
 
 %<pers%>			! Personal Pronoun
+%<poss%>			! Possessive Pronoun
+%<demo%>			! Demonstrative Pronoun
 
 !!!!!!!!!!!!!!!!!!VERBAL CHARS!!!!!!!!!!!!!!!!!!!!!!!!
 %<inf%>				! Infinitive
@@ -74,25 +76,8 @@ Pronouns			;
 
 LEXICON Pronouns		
 Personal-Pronouns			;
-
-LEXICON Personal-Pronouns
-%<prn%>%<pers%>%<1st%>%<sg%>%<nom%>:ic	#	;
-!%<prn%>%<pers%>%<1st%>%<sg%>%<nom%>:ec  #       ;
-%<prn%>%<pers%>%<1st%>%<sg%>%<nom%>:ik  #       ;
-%<prn%>%<pers%>%<1st%>%<sg%>%<gen%>:mîn  #       ;
-%<prn%>%<pers%>%<1st%>%<sg%>%<dat%>:mî  #       ;
-%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mî  #       ;
-%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mê  #       ;
-%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mik  #       ;
-%<prn%>%<pers%>%<1st%>%<pl%>%<nom%>:wî  #       ;
-%<prn%>%<pers%>%<1st%>%<pl%>%<nom%>:wê  #       ;
-%<prn%>%<pers%>%<1st%>%<pl%>%<gen%>:ûser  #       ;
-%<prn%>%<pers%>%<1st%>%<pl%>%<dat%>:ûs  #       ;
-%<prn%>%<pers%>%<1st%>%<pl%>%<acc%>:ûs  #       ;
-%<prn%>%<pers%>%<1st%>%<du%>%<nom%>:wit  #       ;
-%<prn%>%<pers%>%<1st%>%<du%>%<gen%>:uncero  #       ;
-%<prn%>%<pers%>%<1st%>%<du%>%<dat%>:unc  #       ;
-%<prn%>%<pers%>%<1st%>%<du%>%<acc%>:unc  #       ;
+Possessive-Pronouns			;
+Demonstrative-Pronouns			;
 
 LEXICON Nouns
 A-Stem				;
@@ -325,6 +310,197 @@ LEXICON WESAN
 %<imper%>%<sg%>:wes                         #;
 %<imper%>%<pl%>:wesađ				#;
 %<imper%>%<pl%>:wesat				#;
+
+LEXICON Personal-Pronouns
+%<prn%>%<pers%>%<1st%>%<sg%>%<nom%>:ic	#	;
+!%<prn%>%<pers%>%<1st%>%<sg%>%<nom%>:ec  #       ;
+%<prn%>%<pers%>%<1st%>%<sg%>%<nom%>:ik  #       ;
+%<prn%>%<pers%>%<1st%>%<sg%>%<gen%>:mîn  #       ;
+%<prn%>%<pers%>%<1st%>%<sg%>%<dat%>:mî  #       ;
+%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mî  #       ;
+%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mê  #       ;
+%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mik  #       ;
+%<prn%>%<pers%>%<1st%>%<pl%>%<nom%>:wî  #       ;
+%<prn%>%<pers%>%<1st%>%<pl%>%<nom%>:wê  #       ;
+%<prn%>%<pers%>%<1st%>%<pl%>%<gen%>:ûser  #       ;
+%<prn%>%<pers%>%<1st%>%<pl%>%<dat%>:ûs  #       ;
+%<prn%>%<pers%>%<1st%>%<pl%>%<acc%>:ûs  #       ;
+%<prn%>%<pers%>%<1st%>%<du%>%<nom%>:wit  #       ;
+%<prn%>%<pers%>%<1st%>%<du%>%<gen%>:uncero  #       ;
+%<prn%>%<pers%>%<1st%>%<du%>%<dat%>:unc  #       ;
+%<prn%>%<pers%>%<1st%>%<du%>%<acc%>:unc  #       ;
+
+%<prn%>%<pers%>%<2nd%>%<sg%>%<nom%>:thû		#	;
+%<prn%>%<pers%>%<2nd%>%<sg%>%<gen%>:thîn	#	;
+%<prn%>%<pers%>%<2nd%>%<sg%>%<dat%>:thî		#	;
+%<prn%>%<pers%>%<2nd%>%<sg%>%<acc%>:thî		#	;
+%<prn%>%<pers%>%<2nd%>%<sg%>%<acc%>:thî		#	;
+%<prn%>%<pers%>%<2nd%>%<pl%>%<nom%>:gî		#	;
+%<prn%>%<pers%>%<2nd%>%<pl%>%<nom%>:ge		#	;
+%<prn%>%<pers%>%<2nd%>%<pl%>%<gen%>:iuwar	#	;
+%<prn%>%<pers%>%<2nd%>%<pl%>%<gen%>:iuwer	#	;
+%<prn%>%<pers%>%<2nd%>%<pl%>%<gen%>:euwar	#	;
+%<prn%>%<pers%>%<2nd%>%<pl%>%<gen%>:euwero	#	;
+%<prn%>%<pers%>%<2nd%>%<pl%>%<gen%>:euwera	#	;
+%<prn%>%<pers%>%<2nd%>%<pl%>%<dat%>:eu		#	;
+%<prn%>%<pers%>%<2nd%>%<pl%>%<dat%>:iu		#	;
+%<prn%>%<pers%>%<2nd%>%<pl%>%<dat%>:iu		#	;
+%<prn%>%<pers%>%<2nd%>%<pl%>%<dat%>:iuu		#	;
+%<prn%>%<pers%>%<2nd%>%<pl%>%<acc%>:iu		#	;
+%<prn%>%<pers%>%<2nd%>%<pl%>%<acc%>:iu		#	;
+%<prn%>%<pers%>%<2nd%>%<pl%>%<acc%>:iuu		#	;
+%<prn%>%<pers%>%<2nd%>%<du%>%<nom%>:git		#	;
+%<prn%>%<pers%>%<2nd%>%<du%>%<dat%>:inc		#	;
+%<prn%>%<pers%>%<2nd%>%<du%>%<acc%>:inc		#	;
+
+%<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<nom%>:hê	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<nom%>:hi	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<nom%>:hie	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<gen%>:is	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<gen%>:es	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<dat%>:imu	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<dat%>:imo	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<dat%>:im	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<dat%>:him	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<acc%>:ina	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<acc%>:inan	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<pl%>%<nom%>:sia	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<pl%>%<nom%>:sie	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<pl%>%<nom%>:sea	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<pl%>%<gen%>:iro	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<pl%>%<gen%>:ira	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<pl%>%<gen%>:era	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<pl%>%<acc%>:sia	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<pl%>%<acc%>:sie	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<pl%>%<acc%>:sea	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<pl%>%<dat%>:im	#	;
+
+%<prn%>%<pers%>%<3rd%>%<neut%>%<sg%>%<nom%>:it	#	;
+%<prn%>%<pers%>%<3rd%>%<neut%>%<sg%>%<nom%>:et	#	;
+%<prn%>%<pers%>%<3rd%>%<neut%>%<sg%>%<gen%>:is	#	;
+%<prn%>%<pers%>%<3rd%>%<neut%>%<sg%>%<gen%>:es	#	;
+%<prn%>%<pers%>%<3rd%>%<neut%>%<sg%>%<dat%>:imu	#	;
+%<prn%>%<pers%>%<3rd%>%<neut%>%<sg%>%<dat%>:imo	#	;
+%<prn%>%<pers%>%<3rd%>%<neut%>%<sg%>%<dat%>:im	#	;
+%<prn%>%<pers%>%<3rd%>%<neut%>%<sg%>%<dat%>:him	#	;
+%<prn%>%<pers%>%<3rd%>%<neut%>%<sg%>%<acc%>:it	#	;
+%<prn%>%<pers%>%<3rd%>%<neut%>%<sg%>%<acc%>:et	#	;
+
+%<prn%>%<pers%>%<3rd%>%<fem%>%<sg%>%<nom%>:siu	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<sg%>%<nom%>:sie	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<sg%>%<nom%>:sia	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<sg%>%<nom%>:sea	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<sg%>%<gen%>:ira	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<sg%>%<gen%>:iru	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<sg%>%<gen%>:iro	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<sg%>%<gen%>:ire	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<sg%>%<dat%>:iru	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<sg%>%<dat%>:iro	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<sg%>%<acc%>:sie	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<sg%>%<acc%>:sia	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<sg%>%<acc%>:sea	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<pl%>%<nom%>:sia	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<pl%>%<nom%>:sea	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<pl%>%<nom%>:siu	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<pl%>%<gen%>:ira	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<pl%>%<gen%>:iru	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<pl%>%<gen%>:iro	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<pl%>%<gen%>:ire	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<pl%>%<gen%>:era	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<pl%>%<dat%>:im	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<pl%>%<acc%>:sia	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<pl%>%<acc%>:sea	#	;
+%<prn%>%<pers%>%<3rd%>%<fem%>%<pl%>%<acc%>:siu	#	;
+
+LEXICON Possessive-Pronouns
+%<prn%>%<poss%>%<1st%>%<masc%>%<sg%>:mîn	#	;
+%<prn%>%<poss%>%<2nd%>%<masc%>%<sg%>:thîn	#	;
+%<prn%>%<poss%>%<3rd%>%<masc%>%<sg%>:sîn	#	;
+%<prn%>%<poss%>%<1st%>%<neut%>%<sg%>:mîn	#	;
+%<prn%>%<poss%>%<2nd%>%<neut%>%<sg%>:thîn	#	;
+%<prn%>%<poss%>%<3rd%>%<neut%>%<sg%>:sîn	#	;
+%<prn%>%<poss%>%<3rd%>%<fem%>%<sg%>:ira		#	;
+%<prn%>%<poss%>%<3rd%>%<masc%>%<pl%>:iro	#	;
+%<prn%>%<poss%>%<3rd%>%<neut%>%<pl%>:iro	#	;
+%<prn%>%<poss%>%<3rd%>%<fem%>%<pl%>:iro		#	;
+
+LEXICON Demonstrative-Pronouns
+%<prn%>%<demo%>%<masc%>%<nom%>%<sg%>:thê	#	;
+%<prn%>%<demo%>%<masc%>%<nom%>%<sg%>:the	#	;
+%<prn%>%<demo%>%<masc%>%<nom%>%<sg%>:se		#	;
+%<prn%>%<demo%>%<masc%>%<gen%>%<sg%>:thes	#	;
+%<prn%>%<demo%>%<masc%>%<dat%>%<sg%>:themu	#	;
+%<prn%>%<demo%>%<masc%>%<dat%>%<sg%>:themo	#	;
+%<prn%>%<demo%>%<masc%>%<dat%>%<sg%>:them	#	;	
+%<prn%>%<demo%>%<masc%>%<dat%>%<sg%>:thamo	#	;
+%<prn%>%<demo%>%<masc%>%<dat%>%<sg%>:then	#	;
+%<prn%>%<demo%>%<masc%>%<acc%>%<sg%>:thena	#	;
+%<prn%>%<demo%>%<masc%>%<acc%>%<sg%>:thana	#	;
+%<prn%>%<demo%>%<masc%>%<acc%>%<sg%>:thane	#	;
+%<prn%>%<demo%>%<masc%>%<acc%>%<sg%>:then	#	;
+%<prn%>%<demo%>%<masc%>%<acc%>%<sg%>:than	#	;
+%<prn%>%<demo%>%<masc%>%<instr%>%<sg%>:thiu	#	;
+
+%<prn%>%<demo%>%<masc%>%<nom%>%<pl%>:thê	#	;
+%<prn%>%<demo%>%<masc%>%<nom%>%<pl%>:thêa	#	;
+%<prn%>%<demo%>%<masc%>%<nom%>%<pl%>:thie	#	;
+%<prn%>%<demo%>%<masc%>%<nom%>%<pl%>:thia	#	;
+%<prn%>%<demo%>%<masc%>%<nom%>%<pl%>:tha	#	;
+%<prn%>%<demo%>%<masc%>%<gen%>%<pl%>:thero	#	;
+%<prn%>%<demo%>%<masc%>%<dat%>%<pl%>:thêm	#	;
+%<prn%>%<demo%>%<masc%>%<dat%>%<pl%>:thên	#	;
+%<prn%>%<demo%>%<masc%>%<acc%>%<pl%>:thê	#	;
+%<prn%>%<demo%>%<masc%>%<acc%>%<pl%>:thêa	#	;
+%<prn%>%<demo%>%<masc%>%<acc%>%<pl%>:thie	#	;
+%<prn%>%<demo%>%<masc%>%<acc%>%<pl%>:thia	#	;
+%<prn%>%<demo%>%<masc%>%<acc%>%<pl%>:tha	#	;
+
+%<prn%>%<demo%>%<neut%>%<nom%>%<sg%>:that	#	;
+%<prn%>%<demo%>%<neut%>%<gen%>%<sg%>:thes	#	;
+%<prn%>%<demo%>%<neut%>%<dat%>%<sg%>:themu	#	;
+%<prn%>%<demo%>%<neut%>%<dat%>%<sg%>:themo	#	;
+%<prn%>%<demo%>%<neut%>%<dat%>%<sg%>:them	#	;
+%<prn%>%<demo%>%<neut%>%<dat%>%<sg%>:thamo	#	;
+%<prn%>%<demo%>%<neut%>%<dat%>%<sg%>:then	#	;	
+%<prn%>%<demo%>%<neut%>%<acc%>%<sg%>:that	#	;
+%<prn%>%<demo%>%<neut%>%<instr%>%<sg%>:thiu	#	;
+
+%<prn%>%<demo%>%<neut%>%<nom%>%<pl%>:thiu	#	;
+%<prn%>%<demo%>%<neut%>%<nom%>%<pl%>:thia	#	;	
+%<prn%>%<demo%>%<neut%>%<nom%>%<pl%>:thea	#	;
+%<prn%>%<demo%>%<neut%>%<nom%>%<pl%>:thie	#	;
+%<prn%>%<demo%>%<neut%>%<nom%>%<pl%>:the	#	;
+%<prn%>%<demo%>%<neut%>%<gen%>%<pl%>:thero	#	;
+%<prn%>%<demo%>%<neut%>%<dat%>%<pl%>:thêm	#	;
+%<prn%>%<demo%>%<neut%>%<dat%>%<pl%>:thên	#	;
+%<prn%>%<demo%>%<neut%>%<acc%>%<pl%>:thiu	#	;
+%<prn%>%<demo%>%<neut%>%<acc%>%<pl%>:thia	#	;
+%<prn%>%<demo%>%<neut%>%<acc%>%<pl%>:thea	#	;
+%<prn%>%<demo%>%<neut%>%<acc%>%<pl%>:thie	#	;
+%<prn%>%<demo%>%<neut%>%<acc%>%<pl%>:the	#	;
+
+%<prn%>%<demo%>%<fem%>%<nom%>%<sg%>:thiu	#	;
+%<prn%>%<demo%>%<fem%>%<gen%>%<sg%>:thera	#	;
+%<prn%>%<demo%>%<fem%>%<gen%>%<sg%>:thero	#	;
+%<prn%>%<demo%>%<fem%>%<dat%>%<sg%>:theru	#	;
+%<prn%>%<demo%>%<fem%>%<gen%>%<sg%>:thera	#	;
+%<prn%>%<demo%>%<fem%>%<gen%>%<sg%>:thero	#	;
+%<prn%>%<demo%>%<fem%>%<acc%>%<sg%>:thia	#	;
+%<prn%>%<demo%>%<fem%>%<acc%>%<sg%>:thea	#	;
+%<prn%>%<demo%>%<fem%>%<acc%>%<sg%>:thie	#	;	
+%<prn%>%<demo%>%<fem%>%<acc%>%<sg%>:the		#	;
+%<prn%>%<demo%>%<fem%>%<acc%>%<sg%>:tha		#	;
+%<prn%>%<demo%>%<fem%>%<acc%>%<sg%>:thi		#	;
+%<prn%>%<demo%>%<fem%>%<instr%>%<sg%>:thia	#	;
+%<prn%>%<demo%>%<fem%>%<instr%>%<sg%>:thea	#	;
+	
+%<prn%>%<demo%>%<fem%>%<nom%>%<pl%>:thê		#	;
+%<prn%>%<demo%>%<fem%>%<nom%>%<pl%>:tha		#	;
+%<prn%>%<demo%>%<fem%>%<gen%>%<pl%>:thero	#	;
+%<prn%>%<demo%>%<fem%>%<dat%>%<pl%>:thêm	#	;
+%<prn%>%<demo%>%<fem%>%<dat%>%<pl%>:thân	#	;
+%<prn%>%<demo%>%<fem%>%<acc%>%<pl%>:thê		#	;
+%<prn%>%<demo%>%<fem%>%<acc%>%<pl%>:tha		#	;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

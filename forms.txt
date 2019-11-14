@@ -5431,6 +5431,7 @@ gengun    	gangan   <v>      <str>      <class7>      <pret>      <indic>      <
 gengun    	gangan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <pl>   
 gengun    	gangan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <pl>   
 gevan    	gevan   <v>      <str>      <class5>      <pastpart>   
+gi    	   <prn>      <pers>      <2nd>      <pl>      <nom>   
 giband    	gibindan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 giband    	gibindan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 gibarg    	gibergan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <sg>   
@@ -6880,6 +6881,7 @@ gisîthu    	gisîth   <noun>      <masc>      <a-stem>      <instr>      <pl>
 gisîthu    	gisîth   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 gisîthum    	gisîth   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 gisîthun    	gisîth   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+git    	   <prn>      <pers>      <2nd>      <du>      <nom>   
 gital    	gital   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 gital    	gital   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 gitala    	gital   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -7660,6 +7662,7 @@ gêstu    	gêst   <noun>      <masc>      <a-stem>      <instr>      <pl>
 gêstu    	gêst   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 gêstum    	gêst   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 gêstun    	gêst   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+gî    	   <prn>      <pers>      <2nd>      <pl>      <nom>   
 gîsal    	gîsal   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 gîsal    	gîsal   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 gîsala    	gîsal   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -8006,6 +8009,7 @@ heldis    	haldan   <v>      <str>      <class7>      <pret>      <opt>      <2n
 heldun    	haldan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <pl>   
 heldun    	haldan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <pl>   
 heldun    	haldan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <pl>   
+hi    	   <prn>      <pers>      <3rd>      <masc>      <sg>      <nom>   
 hiet    	hêtan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <sg>   
 hiet    	hêtan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <sg>   
 hieti    	hêtan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <sg>   
@@ -8018,6 +8022,7 @@ hietis    	hêtan   <v>      <str>      <class7>      <pret>      <opt>      <2n
 hietun    	hêtan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <pl>   
 hietun    	hêtan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <pl>   
 hietun    	hêtan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <pl>   
+hii    	   <prn>      <pers>      <3rd>      <masc>      <sg>      <nom>   
 hil    	helan   <v>      <str>      <class6>      <impv>      <sg>   
 hilan    	helan   <v>      <str>      <class6>      <inf>   
 hilan    	helan   <v>      <str>      <class6>      <pastpart>   
@@ -8110,6 +8115,8 @@ hilvii    	helvi   <noun>      <neut>      <ja-stem>      <dat>      <sg>
 hilviis    	helvi   <noun>      <neut>      <ja-stem>      <gen>      <sg>   
 hilviu    	helvi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
 hilviun    	helvi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+him    	   <prn>      <pers>      <3rd>      <masc>      <sg>      <dat>   
+him    	   <prn>      <pers>      <3rd>      <neut>      <sg>      <dat>   
 himil    	himil   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 himil    	himil   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 himila    	himil   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -8680,6 +8687,7 @@ hâhis    	hâhan   <v>      <str>      <class7>      <pres>      <indic>      <
 hâhis    	hâhan   <v>      <str>      <class7>      <pres>      <opt>      <2nd>      <sg>   
 hâhiđ    	hâhan   <v>      <str>      <class7>      <pres>      <indic>      <3rd>      <sg>   
 hâhu    	hâhan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <sg>   
+hê    	   <prn>      <pers>      <3rd>      <masc>      <sg>      <nom>   
 hêh    	hâhan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <sg>   
 hêh    	hâhan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <sg>   
 hêhi    	hâhan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <sg>   
@@ -9233,6 +9241,16 @@ ihuskalku    	ehuskalk   <noun>      <masc>      <a-stem>      <instr>      <sg>
 ihuskalkum    	ehuskalk   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 ihuskalkun    	ehuskalk   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 ik    	   <prn>      <pers>      <1st>      <sg>      <nom>   
+im    	   <prn>      <pers>      <3rd>      <fem>      <pl>      <dat>   
+im    	   <prn>      <pers>      <3rd>      <masc>      <pl>      <dat>   
+im    	   <prn>      <pers>      <3rd>      <masc>      <sg>      <dat>   
+im    	   <prn>      <pers>      <3rd>      <neut>      <sg>      <dat>   
+imu    	   <prn>      <pers>      <3rd>      <masc>      <sg>      <dat>   
+imu    	   <prn>      <pers>      <3rd>      <neut>      <sg>      <dat>   
+ina    	   <prn>      <pers>      <3rd>      <masc>      <sg>      <acc>   
+inan    	   <prn>      <pers>      <3rd>      <masc>      <sg>      <acc>   
+inc    	   <prn>      <pers>      <2nd>      <du>      <acc>   
+inc    	   <prn>      <pers>      <2nd>      <du>      <dat>   
 infirn    	infern   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 infirn    	infern   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 infirn    	infern   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -9358,6 +9376,12 @@ iokis    	ôkan   <v>      <str>      <class7>      <pret>      <opt>      <2nd>
 iokun    	ôkan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <pl>   
 iokun    	ôkan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <pl>   
 iokun    	ôkan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <pl>   
+ira    	   <prn>      <pers>      <3rd>      <fem>      <pl>      <gen>   
+ira    	   <prn>      <pers>      <3rd>      <fem>      <pl>      <gen>   
+ira    	   <prn>      <pers>      <3rd>      <fem>      <sg>      <gen>   
+ira    	   <prn>      <pers>      <3rd>      <masc>      <pl>      <gen>   
+ira    	   <prn>      <pers>      <3rd>      <masc>      <pl>      <gen>   
+ira    	   <prn>      <poss>      <3rd>      <fem>      <sg>   
 irdhôn    	erdhôn   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 irdhôn    	erdhôn   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 irdhôn    	erdhôn   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -9369,6 +9393,8 @@ irdhônes    	erdhôn   <noun>      <neut>      <a-stem>      <gen>      <sg>
 irdhônu    	erdhôn   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 irdhônum    	erdhôn   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 irdhônun    	erdhôn   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+iri    	   <prn>      <pers>      <3rd>      <fem>      <pl>      <gen>   
+iri    	   <prn>      <pers>      <3rd>      <fem>      <sg>      <gen>   
 irl    	erl   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 irl    	erl   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 irla    	erl   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -9464,6 +9490,13 @@ irthrîkii    	erthrîki   <noun>      <neut>      <ja-stem>      <dat>      <sg
 irthrîkiis    	erthrîki   <noun>      <neut>      <ja-stem>      <gen>      <sg>   
 irthrîkiu    	erthrîki   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
 irthrîkiun    	erthrîki   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+iru    	   <prn>      <pers>      <3rd>      <fem>      <pl>      <gen>   
+iru    	   <prn>      <pers>      <3rd>      <fem>      <sg>      <dat>   
+iru    	   <prn>      <pers>      <3rd>      <fem>      <sg>      <gen>   
+is    	   <prn>      <pers>      <3rd>      <masc>      <sg>      <gen>   
+is    	   <prn>      <pers>      <3rd>      <masc>      <sg>      <gen>   
+is    	   <prn>      <pers>      <3rd>      <neut>      <sg>      <gen>   
+is    	   <prn>      <pers>      <3rd>      <neut>      <sg>      <gen>   
 is    	wesan   <v>      <irregular>      <pres>      <indic>      <3rd>      <sg>   
 israhil    	israhel   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 israhil    	israhel   <noun>      <masc>      <a-stem>      <nom>      <sg>   
@@ -9476,6 +9509,10 @@ israhilu    	israhel   <noun>      <masc>      <a-stem>      <instr>      <sg>
 israhilum    	israhel   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 israhilun    	israhel   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 ist    	wesan   <v>      <irregular>      <pres>      <indic>      <3rd>      <sg>   
+it    	   <prn>      <pers>      <3rd>      <neut>      <sg>      <acc>   
+it    	   <prn>      <pers>      <3rd>      <neut>      <sg>      <acc>   
+it    	   <prn>      <pers>      <3rd>      <neut>      <sg>      <nom>   
+it    	   <prn>      <pers>      <3rd>      <neut>      <sg>      <nom>   
 it    	etan   <v>      <str>      <class5>      <impv>      <sg>   
 it    	etan   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <sg>   
 it    	etan   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <sg>   
@@ -9504,6 +9541,15 @@ ittaru    	ettar   <noun>      <neut>      <a-stem>      <nom>      <pl>
 ittarum    	ettar   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 ittarun    	ettar   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 itu    	etan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <sg>   
+iu    	   <prn>      <pers>      <2nd>      <pl>      <acc>   
+iu    	   <prn>      <pers>      <2nd>      <pl>      <dat>   
+iu    	   <prn>      <pers>      <2nd>      <pl>      <dat>   
+iuu    	   <prn>      <pers>      <2nd>      <pl>      <acc>   
+iuu    	   <prn>      <pers>      <2nd>      <pl>      <dat>   
+iuwar    	   <prn>      <pers>      <2nd>      <pl>      <gen>   
+iuwar    	   <prn>      <pers>      <2nd>      <pl>      <gen>   
+iuwir    	   <prn>      <pers>      <2nd>      <pl>      <gen>   
+iuwira    	   <prn>      <pers>      <2nd>      <pl>      <gen>   
 ivanhlôtâri    	evanhlôtâri   <noun>      <masc>      <ja-stem>      <acc>      <sg>   
 ivanhlôtâri    	evanhlôtâri   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 ivanhlôtâria    	evanhlôtâri   <noun>      <masc>      <ja-stem>      <dat>      <sg>   
@@ -11478,6 +11524,8 @@ mêth    	mîthan   <v>      <str>      <class1>      <pret>      <indic>      <
 mî    	   <prn>      <pers>      <1st>      <sg>      <acc>   
 mî    	   <prn>      <pers>      <1st>      <sg>      <dat>   
 mîn    	   <prn>      <pers>      <1st>      <sg>      <gen>   
+mîn    	   <prn>      <poss>      <1st>      <masc>      <sg>   
+mîn    	   <prn>      <poss>      <1st>      <neut>      <sg>   
 mîth    	mîthan   <v>      <str>      <class1>      <impv>      <sg>   
 mîthan    	mîthan   <v>      <str>      <class1>      <inf>   
 mîthađ    	mîthan   <v>      <str>      <class1>      <impv>      <pl>   
@@ -12690,6 +12738,19 @@ satanasu    	satanas   <noun>      <masc>      <a-stem>      <instr>      <sg>
 satanasum    	satanas   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 satanasun    	satanas   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 sehan    	sehan   <v>      <str>      <class5>      <pastpart>   
+si    	   <prn>      <demo>      <masc>      <nom>      <sg>   
+sia    	   <prn>      <pers>      <3rd>      <fem>      <pl>      <acc>   
+sia    	   <prn>      <pers>      <3rd>      <fem>      <pl>      <acc>   
+sia    	   <prn>      <pers>      <3rd>      <fem>      <pl>      <nom>   
+sia    	   <prn>      <pers>      <3rd>      <fem>      <pl>      <nom>   
+sia    	   <prn>      <pers>      <3rd>      <fem>      <sg>      <acc>   
+sia    	   <prn>      <pers>      <3rd>      <fem>      <sg>      <acc>   
+sia    	   <prn>      <pers>      <3rd>      <fem>      <sg>      <nom>   
+sia    	   <prn>      <pers>      <3rd>      <fem>      <sg>      <nom>   
+sia    	   <prn>      <pers>      <3rd>      <masc>      <pl>      <acc>   
+sia    	   <prn>      <pers>      <3rd>      <masc>      <pl>      <acc>   
+sia    	   <prn>      <pers>      <3rd>      <masc>      <pl>      <nom>   
+sia    	   <prn>      <pers>      <3rd>      <masc>      <pl>      <nom>   
 sidal    	sedal   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 sidal    	sedal   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 sidala    	sedal   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -12772,6 +12833,10 @@ sihis    	sehan   <v>      <str>      <class5>      <pres>      <indic>      <2n
 sihis    	sehan   <v>      <str>      <class5>      <pres>      <opt>      <2nd>      <sg>   
 sihiđ    	sehan   <v>      <str>      <class5>      <pres>      <indic>      <3rd>      <sg>   
 sihu    	sehan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <sg>   
+sii    	   <prn>      <pers>      <3rd>      <fem>      <sg>      <acc>   
+sii    	   <prn>      <pers>      <3rd>      <fem>      <sg>      <nom>   
+sii    	   <prn>      <pers>      <3rd>      <masc>      <pl>      <acc>   
+sii    	   <prn>      <pers>      <3rd>      <masc>      <pl>      <nom>   
 silah    	selah   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 silah    	selah   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 silaha    	selah   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -12915,6 +12980,9 @@ situ    	set   <noun>      <neut>      <a-stem>      <instr>      <sg>
 situ    	set   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 situm    	set   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 situn    	set   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+siu    	   <prn>      <pers>      <3rd>      <fem>      <pl>      <acc>   
+siu    	   <prn>      <pers>      <3rd>      <fem>      <pl>      <nom>   
+siu    	   <prn>      <pers>      <3rd>      <fem>      <sg>      <nom>   
 skadu    	skado   <noun>      <masc>      <wa-stem>      <acc>      <sg>   
 skadu    	skado   <noun>      <masc>      <wa-stem>      <nom>      <sg>   
 skadwa    	skado   <noun>      <masc>      <wa-stem>      <dat>      <sg>   
@@ -14841,6 +14909,8 @@ sîlu    	sîl   <noun>      <masc>      <a-stem>      <instr>      <pl>
 sîlu    	sîl   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 sîlum    	sîl   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 sîlun    	sîl   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+sîn    	   <prn>      <poss>      <3rd>      <masc>      <sg>   
+sîn    	   <prn>      <poss>      <3rd>      <neut>      <sg>   
 sîn    	wesan   <v>      <irregular>      <pres>      <opt>      <1st>      <pl>   
 sîn    	wesan   <v>      <irregular>      <pres>      <opt>      <2nd>      <pl>   
 sîn    	wesan   <v>      <irregular>      <pres>      <opt>      <3rd>      <pl>   
@@ -15032,6 +15102,13 @@ tandstuthlii    	tandstuthli   <noun>      <neut>      <ja-stem>      <dat>     
 tandstuthliis    	tandstuthli   <noun>      <neut>      <ja-stem>      <gen>      <sg>   
 tandstuthliu    	tandstuthli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
 tandstuthliun    	tandstuthli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+tha    	   <prn>      <demo>      <fem>      <acc>      <pl>   
+tha    	   <prn>      <demo>      <fem>      <acc>      <sg>   
+tha    	   <prn>      <demo>      <fem>      <nom>      <pl>   
+tha    	   <prn>      <demo>      <masc>      <acc>      <pl>   
+tha    	   <prn>      <demo>      <masc>      <nom>      <pl>   
+than    	   <prn>      <demo>      <masc>      <acc>      <sg>   
+thana    	   <prn>      <demo>      <masc>      <acc>      <sg>   
 thananim    	thananiman   <v>      <str>      <class4>      <impv>      <sg>   
 thananim    	thananiman   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <sg>   
 thananim    	thananiman   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <sg>   
@@ -15060,6 +15137,7 @@ thananâmis    	thananiman   <v>      <str>      <class4>      <pret>      <opt>
 thananâmun    	thananiman   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <pl>   
 thananâmun    	thananiman   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <pl>   
 thananâmun    	thananiman   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <pl>   
+thani    	   <prn>      <demo>      <masc>      <acc>      <sg>   
 thank    	thank   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 thank    	thank   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 thanka    	thank   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -15070,11 +15148,28 @@ thanku    	thank   <noun>      <masc>      <a-stem>      <instr>      <pl>
 thanku    	thank   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 thankum    	thank   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 thankun    	thank   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+that    	   <prn>      <demo>      <neut>      <acc>      <sg>   
+that    	   <prn>      <demo>      <neut>      <nom>      <sg>   
 thau    	thau   <noun>      <masc>      <wa-stem>      <acc>      <sg>   
 thau    	thau   <noun>      <masc>      <wa-stem>      <nom>      <sg>   
 thawa    	thau   <noun>      <masc>      <wa-stem>      <dat>      <sg>   
 thawi    	thau   <noun>      <masc>      <wa-stem>      <dat>      <sg>   
 thawis    	thau   <noun>      <masc>      <wa-stem>      <gen>      <sg>   
+thi    	   <prn>      <demo>      <fem>      <acc>      <sg>   
+thi    	   <prn>      <demo>      <fem>      <acc>      <sg>   
+thi    	   <prn>      <demo>      <masc>      <nom>      <sg>   
+thi    	   <prn>      <demo>      <neut>      <acc>      <pl>   
+thi    	   <prn>      <demo>      <neut>      <nom>      <pl>   
+thia    	   <prn>      <demo>      <fem>      <acc>      <sg>   
+thia    	   <prn>      <demo>      <fem>      <acc>      <sg>   
+thia    	   <prn>      <demo>      <fem>      <instr>      <sg>   
+thia    	   <prn>      <demo>      <fem>      <instr>      <sg>   
+thia    	   <prn>      <demo>      <masc>      <acc>      <pl>   
+thia    	   <prn>      <demo>      <masc>      <nom>      <pl>   
+thia    	   <prn>      <demo>      <neut>      <acc>      <pl>   
+thia    	   <prn>      <demo>      <neut>      <acc>      <pl>   
+thia    	   <prn>      <demo>      <neut>      <nom>      <pl>   
+thia    	   <prn>      <demo>      <neut>      <nom>      <pl>   
 thigan    	thegan   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 thigan    	thegan   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 thigana    	thegan   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -15085,6 +15180,19 @@ thiganu    	thegan   <noun>      <masc>      <a-stem>      <instr>      <pl>
 thiganu    	thegan   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 thiganum    	thegan   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 thiganun    	thegan   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+thii    	   <prn>      <demo>      <fem>      <acc>      <sg>   
+thii    	   <prn>      <demo>      <masc>      <acc>      <pl>   
+thii    	   <prn>      <demo>      <masc>      <nom>      <pl>   
+thii    	   <prn>      <demo>      <neut>      <acc>      <pl>   
+thii    	   <prn>      <demo>      <neut>      <nom>      <pl>   
+thim    	   <prn>      <demo>      <masc>      <dat>      <sg>   
+thim    	   <prn>      <demo>      <neut>      <dat>      <sg>   
+thimu    	   <prn>      <demo>      <masc>      <dat>      <sg>   
+thimu    	   <prn>      <demo>      <neut>      <dat>      <sg>   
+thin    	   <prn>      <demo>      <masc>      <acc>      <sg>   
+thin    	   <prn>      <demo>      <masc>      <dat>      <sg>   
+thin    	   <prn>      <demo>      <neut>      <dat>      <sg>   
+thina    	   <prn>      <demo>      <masc>      <acc>      <sg>   
 thing    	thing   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 thing    	thing   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 thing    	thing   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -15115,6 +15223,15 @@ thingithiun    	thingithi   <noun>      <neut>      <ja-stem>      <dat>      <p
 thingu    	thing   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 thingum    	thing   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 thingun    	thing   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+thira    	   <prn>      <demo>      <fem>      <gen>      <sg>   
+thiru    	   <prn>      <demo>      <fem>      <dat>      <sg>   
+this    	   <prn>      <demo>      <masc>      <gen>      <sg>   
+this    	   <prn>      <demo>      <neut>      <gen>      <sg>   
+thiu    	   <prn>      <demo>      <fem>      <nom>      <sg>   
+thiu    	   <prn>      <demo>      <masc>      <instr>      <sg>   
+thiu    	   <prn>      <demo>      <neut>      <acc>      <pl>   
+thiu    	   <prn>      <demo>      <neut>      <instr>      <sg>   
+thiu    	   <prn>      <demo>      <neut>      <nom>      <pl>   
 thiu    	thio   <noun>      <masc>      <wa-stem>      <acc>      <sg>   
 thiu    	thio   <noun>      <masc>      <wa-stem>      <nom>      <sg>   
 thiustri    	thiustri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
@@ -15435,6 +15552,24 @@ thwôgis    	thwahan   <v>      <str>      <class6>      <pret>      <opt>      
 thwôgun    	thwahan   <v>      <str>      <class6>      <pret>      <indic>      <1st>      <pl>   
 thwôgun    	thwahan   <v>      <str>      <class6>      <pret>      <indic>      <2nd>      <pl>   
 thwôgun    	thwahan   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <pl>   
+thân    	   <prn>      <demo>      <fem>      <dat>      <pl>   
+thê    	   <prn>      <demo>      <fem>      <acc>      <pl>   
+thê    	   <prn>      <demo>      <fem>      <nom>      <pl>   
+thê    	   <prn>      <demo>      <masc>      <acc>      <pl>   
+thê    	   <prn>      <demo>      <masc>      <nom>      <pl>   
+thê    	   <prn>      <demo>      <masc>      <nom>      <sg>   
+thêa    	   <prn>      <demo>      <masc>      <acc>      <pl>   
+thêa    	   <prn>      <demo>      <masc>      <nom>      <pl>   
+thêm    	   <prn>      <demo>      <fem>      <dat>      <pl>   
+thêm    	   <prn>      <demo>      <masc>      <dat>      <pl>   
+thêm    	   <prn>      <demo>      <neut>      <dat>      <pl>   
+thên    	   <prn>      <demo>      <masc>      <dat>      <pl>   
+thên    	   <prn>      <demo>      <neut>      <dat>      <pl>   
+thî    	   <prn>      <pers>      <2nd>      <sg>      <acc>   
+thî    	   <prn>      <pers>      <2nd>      <sg>      <dat>   
+thîn    	   <prn>      <pers>      <2nd>      <sg>      <gen>   
+thîn    	   <prn>      <poss>      <2nd>      <masc>      <sg>   
+thîn    	   <prn>      <poss>      <2nd>      <neut>      <sg>   
 thîstil    	thîstil   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 thîstil    	thîstil   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 thîstila    	thîstil   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -15445,6 +15580,7 @@ thîstilu    	thîstil   <noun>      <masc>      <a-stem>      <instr>      <pl>
 thîstilu    	thîstil   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 thîstilum    	thîstil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 thîstilun    	thîstil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+thû    	   <prn>      <pers>      <2nd>      <sg>      <nom>   
 thėrmi    	thėrmi   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
 thėrmi    	thėrmi   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 thėrmia    	thėrmi   <noun>      <neut>      <ja-stem>      <dat>      <sg>   
