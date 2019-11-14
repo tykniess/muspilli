@@ -8023,6 +8023,7 @@ hietun    	hêtan   <v>      <str>      <class7>      <pret>      <indic>      <
 hietun    	hêtan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <pl>   
 hietun    	hêtan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <pl>   
 hii    	   <prn>      <pers>      <3rd>      <masc>      <sg>      <nom>   
+hiir    	   <prn>      <ort>      <wo>   
 hil    	helan   <v>      <str>      <class6>      <impv>      <sg>   
 hilan    	helan   <v>      <str>      <class6>      <inf>   
 hilan    	helan   <v>      <str>      <class6>      <pastpart>   
@@ -8174,6 +8175,7 @@ himilu    	himil   <noun>      <masc>      <a-stem>      <instr>      <pl>
 himilu    	himil   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 himilum    	himil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 himilun    	himil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+hinan    	   <prn>      <ort>      <woher>   
 hindbėri    	hindbėri   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
 hindbėri    	hindbėri   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 hindbėria    	hindbėri   <noun>      <neut>      <ja-stem>      <dat>      <sg>   
@@ -8615,8 +8617,33 @@ huvilu    	huvil   <noun>      <masc>      <a-stem>      <instr>      <pl>
 huvilu    	huvil   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 huvilum    	huvil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 huvilun    	huvil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+hwanan    	   <prn>      <ort>      <woher>   
+hwar    	   <prn>      <ort>      <wo>   
 hwarv    	hwervan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <sg>   
 hwarv    	hwervan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <sg>   
+hwat    	   <prn>      <inter>      <neut>      <acc>      <sg>   
+hwat    	   <prn>      <inter>      <neut>      <nom>      <sg>   
+hwii    	   <prn>      <inter>      <fem>      <nom>      <sg>   
+hwii    	   <prn>      <inter>      <masc>      <nom>      <sg>   
+hwilic    	   <prn>      <inter>      <fem>      <nom>      <sg>   
+hwilic    	   <prn>      <inter>      <masc>      <nom>      <sg>   
+hwilic    	   <prn>      <inter>      <neut>      <acc>      <sg>   
+hwilic    	   <prn>      <inter>      <neut>      <nom>      <sg>   
+hwilica    	   <prn>      <inter>      <masc>      <instr>      <sg>   
+hwilica    	   <prn>      <inter>      <neut>      <instr>      <sg>   
+hwilican    	   <prn>      <inter>      <masc>      <acc>      <sg>   
+hwilicas    	   <prn>      <inter>      <masc>      <gen>      <sg>   
+hwilicas    	   <prn>      <inter>      <neut>      <gen>      <sg>   
+hwilici    	   <prn>      <inter>      <masc>      <instr>      <sg>   
+hwilici    	   <prn>      <inter>      <neut>      <instr>      <sg>   
+hwilicis    	   <prn>      <inter>      <masc>      <gen>      <sg>   
+hwilicis    	   <prn>      <inter>      <neut>      <gen>      <sg>   
+hwilicum    	   <prn>      <inter>      <masc>      <dat>      <sg>   
+hwilicum    	   <prn>      <inter>      <neut>      <dat>      <sg>   
+hwilicumu    	   <prn>      <inter>      <masc>      <dat>      <sg>   
+hwilicumu    	   <prn>      <inter>      <neut>      <dat>      <sg>   
+hwilika    	   <prn>      <inter>      <fem>      <acc>      <sg>   
+hwiliki    	   <prn>      <inter>      <fem>      <acc>      <sg>   
 hwilp    	hwelp   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 hwilp    	hwelp   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 hwilpa    	hwelp   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -8627,6 +8654,16 @@ hwilpu    	hwelp   <noun>      <masc>      <a-stem>      <instr>      <pl>
 hwilpu    	hwelp   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 hwilpum    	hwelp   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 hwilpun    	hwelp   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+hwim    	   <prn>      <inter>      <fem>      <dat>      <sg>   
+hwim    	   <prn>      <inter>      <masc>      <dat>      <sg>   
+hwim    	   <prn>      <inter>      <neut>      <gen>      <sg>   
+hwimu    	   <prn>      <inter>      <fem>      <dat>      <sg>   
+hwimu    	   <prn>      <inter>      <masc>      <dat>      <sg>   
+hwimu    	   <prn>      <inter>      <neut>      <dat>      <sg>   
+hwina    	   <prn>      <inter>      <fem>      <acc>      <sg>   
+hwina    	   <prn>      <inter>      <masc>      <acc>      <sg>   
+hwini    	   <prn>      <inter>      <fem>      <acc>      <sg>   
+hwini    	   <prn>      <inter>      <masc>      <acc>      <sg>   
 hwirv    	hwervan   <v>      <str>      <class3b>      <impv>      <sg>   
 hwirvan    	hwervan   <v>      <str>      <class3b>      <inf>   
 hwirvađ    	hwervan   <v>      <str>      <class3b>      <impv>      <pl>   
@@ -8642,6 +8679,9 @@ hwirvis    	hwervan   <v>      <str>      <class3b>      <pres>      <indic>    
 hwirvis    	hwervan   <v>      <str>      <class3b>      <pres>      <opt>      <2nd>      <sg>   
 hwirviđ    	hwervan   <v>      <str>      <class3b>      <pres>      <indic>      <3rd>      <sg>   
 hwirvu    	hwervan   <v>      <str>      <class3b>      <pres>      <indic>      <1st>      <sg>   
+hwis    	   <prn>      <inter>      <fem>      <gen>      <sg>   
+hwis    	   <prn>      <inter>      <masc>      <gen>      <sg>   
+hwis    	   <prn>      <inter>      <neut>      <gen>      <sg>   
 hwitistên    	hwetistên   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 hwitistên    	hwetistên   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 hwitistêna    	hwetistên   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -8652,6 +8692,9 @@ hwitistênu    	hwetistên   <noun>      <masc>      <a-stem>      <instr>      
 hwitistênu    	hwetistên   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 hwitistênum    	hwetistên   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 hwitistênun    	hwetistên   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+hwiu    	   <prn>      <inter>      <fem>      <instr>      <sg>   
+hwiu    	   <prn>      <inter>      <masc>      <instr>      <sg>   
+hwiu    	   <prn>      <inter>      <neut>      <instr>      <sg>   
 hworvan    	hwervan   <v>      <str>      <class3b>      <pastpart>   
 hwurvi    	hwervan   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <sg>   
 hwurvi    	hwervan   <v>      <str>      <class3b>      <pret>      <opt>      <1st>      <sg>   
@@ -8663,6 +8706,8 @@ hwurvis    	hwervan   <v>      <str>      <class3b>      <pret>      <opt>      
 hwurvun    	hwervan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <pl>   
 hwurvun    	hwervan   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <pl>   
 hwurvun    	hwervan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <pl>   
+hwê    	   <prn>      <inter>      <fem>      <nom>      <sg>   
+hwê    	   <prn>      <inter>      <masc>      <nom>      <sg>   
 hwêti    	hwêti   <noun>      <masc>      <ja-stem>      <acc>      <sg>   
 hwêti    	hwêti   <noun>      <masc>      <ja-stem>      <nom>      <sg>   
 hwêtia    	hwêti   <noun>      <masc>      <ja-stem>      <dat>      <sg>   
@@ -8671,6 +8716,9 @@ hwêtii    	hwêti   <noun>      <masc>      <ja-stem>      <dat>      <sg>
 hwêtiis    	hwêti   <noun>      <masc>      <ja-stem>      <gen>      <sg>   
 hwêtiu    	hwêti   <noun>      <masc>      <ja-stem>      <instr>      <sg>   
 hwêtiun    	hwêti   <noun>      <masc>      <ja-stem>      <dat>      <pl>   
+hwî    	   <prn>      <inter>      <fem>      <instr>      <sg>   
+hwî    	   <prn>      <inter>      <masc>      <instr>      <sg>   
+hwî    	   <prn>      <inter>      <neut>      <instr>      <sg>   
 hâh    	hâhan   <v>      <str>      <class7>      <impv>      <sg>   
 hâhan    	hâhan   <v>      <str>      <class7>      <inf>   
 hâhan    	hâhan   <v>      <str>      <class7>      <pastpart>   
@@ -8760,6 +8808,7 @@ hêmes    	hêm   <noun>      <neut>      <a-stem>      <gen>      <sg>
 hêmu    	hêm   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 hêmum    	hêm   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 hêmun    	hêm   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+hêr    	   <prn>      <ort>      <wo>   
 hêrdôm    	hêrdôm   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 hêrdôm    	hêrdôm   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 hêrdôma    	hêrdôm   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -8814,6 +8863,7 @@ hêtum    	hêt   <noun>      <masc>      <a-stem>      <dat>      <pl>
 hêtum    	hêt   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 hêtun    	hêt   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 hêtun    	hêt   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+hîr    	   <prn>      <ort>      <wo>   
 hîwiski    	hîwiski   <noun>      <neut>      <ja-stem>      <acc>      <sg>   
 hîwiski    	hîwiski   <noun>      <neut>      <ja-stem>      <nom>      <sg>   
 hîwiskia    	hîwiski   <noun>      <neut>      <ja-stem>      <dat>      <sg>   
@@ -15109,6 +15159,7 @@ tha    	   <prn>      <demo>      <masc>      <acc>      <pl>
 tha    	   <prn>      <demo>      <masc>      <nom>      <pl>   
 than    	   <prn>      <demo>      <masc>      <acc>      <sg>   
 thana    	   <prn>      <demo>      <masc>      <acc>      <sg>   
+thanan    	   <prn>      <ort>      <woher>   
 thananim    	thananiman   <v>      <str>      <class4>      <impv>      <sg>   
 thananim    	thananiman   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <sg>   
 thananim    	thananiman   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <sg>   
@@ -15148,6 +15199,7 @@ thanku    	thank   <noun>      <masc>      <a-stem>      <instr>      <pl>
 thanku    	thank   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 thankum    	thank   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 thankun    	thank   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+thar    	   <prn>      <ort>      <wo>   
 that    	   <prn>      <demo>      <neut>      <acc>      <sg>   
 that    	   <prn>      <demo>      <neut>      <nom>      <sg>   
 thau    	thau   <noun>      <masc>      <wa-stem>      <acc>      <sg>   

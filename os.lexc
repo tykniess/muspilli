@@ -31,6 +31,12 @@ Multichar_Symbols
 %<poss%>			! Possessive Pronoun
 %<demo%>			! Demonstrative Pronoun
 %<comp%>			! Compound Pronoun "this"
+%<inter%>			! Interrogative Pronoun
+%<ort%>				! Locative Pronoun
+%<wo%>				! Locative Pronoun- where?
+%<woher%>			! Locative Pronoun- whence?
+%<wohin%>			! Locative Pronoun- whiter?
+%<indef%>			! Indefinite Pronoun
 
 !!!!!!!!!!!!!!!!!!VERBAL CHARS!!!!!!!!!!!!!!!!!!!!!!!!
 %<inf%>				! Infinitive
@@ -80,6 +86,8 @@ Personal-Pronouns			;
 Possessive-Pronouns			;
 Demonstrative-Pronouns			;
 Compound-Pronouns			;
+Interrogative-Pronouns			;
+Ortsadverbien-Pronouns			;
 
 LEXICON Nouns
 A-Stem				;
@@ -558,6 +566,91 @@ LEXICON Compound-Pronouns
 %<prn%>%<comp%>%<fem%>%<gen%>%<pl%>:thesoro         #       ;
 %<prn%>%<comp%>%<fem%>%<dat%>%<pl%>:thesun         #       ;
 %<prn%>%<comp%>%<fem%>%<dat%>%<pl%>:theson         #       ;
+
+LEXICON Interrogative-Pronouns
+%<prn%>%<inter%>%<masc%>%<nom%>%<sg%>:hwê         #       ;
+%<prn%>%<inter%>%<masc%>%<nom%>%<sg%>:hwie         #       ;
+%<prn%>%<inter%>%<fem%>%<nom%>%<sg%>:hwê         #       ; !the feminine is a copy of the masculine
+%<prn%>%<inter%>%<fem%>%<nom%>%<sg%>:hwie         #       ; !feminine copies masculine form
+%<prn%>%<inter%>%<masc%>%<gen%>%<sg%>:hwes         #       ;
+%<prn%>%<inter%>%<fem%>%<gen%>%<sg%>:hwes         #       ;!see nom
+%<prn%>%<inter%>%<masc%>%<dat%>%<sg%>:hwemu         #       ;
+%<prn%>%<inter%>%<masc%>%<dat%>%<sg%>:hwem         #       ;
+%<prn%>%<inter%>%<fem%>%<dat%>%<sg%>:hwemu         #       ;
+%<prn%>%<inter%>%<fem%>%<dat%>%<sg%>:hwem         #       ;
+%<prn%>%<inter%>%<masc%>%<acc%>%<sg%>:hwena         #       ;
+%<prn%>%<inter%>%<masc%>%<acc%>%<sg%>:hwene         #       ;
+%<prn%>%<inter%>%<fem%>%<acc%>%<sg%>:hwena         #       ;
+%<prn%>%<inter%>%<fem%>%<acc%>%<sg%>:hwene         #       ;
+%<prn%>%<inter%>%<neut%>%<nom%>%<sg%>:hwat         #       ;
+%<prn%>%<inter%>%<neut%>%<acc%>%<sg%>:hwat         #       ;
+%<prn%>%<inter%>%<neut%>%<gen%>%<sg%>:hwes         #       ;
+%<prn%>%<inter%>%<neut%>%<dat%>%<sg%>:hwemu         #       ;
+%<prn%>%<inter%>%<neut%>%<gen%>%<sg%>:hwem         #       ;
+%<prn%>%<inter%>%<masc%>%<instr%>%<sg%>:hwiu         #       ;
+%<prn%>%<inter%>%<masc%>%<instr%>%<sg%>:hweo         #       ;
+%<prn%>%<inter%>%<masc%>%<instr%>%<sg%>:hwî         #       ;
+%<prn%>%<inter%>%<fem%>%<instr%>%<sg%>:hwiu         #       ;
+%<prn%>%<inter%>%<fem%>%<instr%>%<sg%>:hweo         #       ;
+%<prn%>%<inter%>%<fem%>%<instr%>%<sg%>:hwî         #       ;
+%<prn%>%<inter%>%<neut%>%<instr%>%<sg%>:hwiu         #       ;
+%<prn%>%<inter%>%<neut%>%<instr%>%<sg%>:hweo         #       ;
+%<prn%>%<inter%>%<neut%>%<instr%>%<sg%>:hwî         #       ;
+
+%<prn%>%<inter%>%<masc%>%<nom%>%<sg%>:hwilic         #       ;
+%<prn%>%<inter%>%<neut%>%<nom%>%<sg%>:hwilic         #       ;
+%<prn%>%<inter%>%<fem%>%<nom%>%<sg%>:hwilic         #       ;
+%<prn%>%<inter%>%<masc%>%<gen%>%<sg%>:hwilices         #       ;
+%<prn%>%<inter%>%<masc%>%<gen%>%<sg%>:hwilicas         #       ;
+%<prn%>%<inter%>%<neut%>%<gen%>%<sg%>:hwilices         #       ;
+%<prn%>%<inter%>%<neut%>%<gen%>%<sg%>:hwilicas         #       ;
+%<prn%>%<inter%>%<masc%>%<dat%>%<sg%>:hwilicumu         #       ;
+%<prn%>%<inter%>%<masc%>%<dat%>%<sg%>:hwilicum         #       ;
+%<prn%>%<inter%>%<masc%>%<dat%>%<sg%>:hwilicum         #       ;
+%<prn%>%<inter%>%<masc%>%<dat%>%<sg%>:hwilicon         #       ;
+%<prn%>%<inter%>%<neut%>%<dat%>%<sg%>:hwilicumu         #       ;
+%<prn%>%<inter%>%<neut%>%<dat%>%<sg%>:hwilicum         #       ;
+%<prn%>%<inter%>%<neut%>%<dat%>%<sg%>:hwilicum         #       ;
+%<prn%>%<inter%>%<neut%>%<dat%>%<sg%>:hwilicon         #       ;
+%<prn%>%<inter%>%<masc%>%<acc%>%<sg%>:hwilican         #       ;
+%<prn%>%<inter%>%<neut%>%<acc%>%<sg%>:hwilic         #       ;
+%<prn%>%<inter%>%<fem%>%<acc%>%<sg%>:hwilika         #       ;
+%<prn%>%<inter%>%<fem%>%<acc%>%<sg%>:hwilike         #       ;
+%<prn%>%<inter%>%<masc%>%<instr%>%<sg%>:hwilice         #       ;
+%<prn%>%<inter%>%<masc%>%<instr%>%<sg%>:hwilica         #       ;
+%<prn%>%<inter%>%<neut%>%<instr%>%<sg%>:hwilice         #       ;
+%<prn%>%<inter%>%<neut%>%<instr%>%<sg%>:hwilica         #       ;
+
+LEXICON Indefinite-Pronouns
+%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:sum		#	; !Add inflection
+%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:ên               #       ; !Add inflecti$
+%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>%<neg%>:nên               #       ; !Add inflecti$
+%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>%<neg%>:niên               #       ; !Add i$
+%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>%<neg%>:nân               #       ; !Add i$
+%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:man               #       ; !Add i$
+%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:ioman               #       ; !Add i$
+%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>%<neg%>:nioman               #       ; !Add i$
+%<prn%>%<indef%>%<neut%>%<nom%>%<sg%>:wiht               #       ; !Add i$
+%<prn%>%<indef%>%<neut%>%<nom%>%<sg%>%<neg%>:neowiht               #       ; !Add i$
+%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:gihwê	#	; !jeder
+%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:gihwat     #       ; !jedes      
+%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:hwedar     #       ; !welcher
+%<prn%>%<inter%>%<masc%>%<nom%>%<sg%>:gihwilic         #       ; ! ein jeder
+%<prn%>%<inter%>%<masc%>%<nom%>%<sg%>:sulic         #       ; ! ein solcher
+
+
+LEXICON Ortsadverbien-Pronouns                  
+%<prn%>%<ort%>%<wo%>:thar		#	;
+%<prn%>%<ort%>%<wo%>:hwar               #       ;
+%<prn%>%<ort%>%<wo%>:hier               #       ;
+%<prn%>%<ort%>%<wo%>:hêr               #       ;
+%<prn%>%<ort%>%<wo%>:hîr               #       ;
+%<prn%>%<ort%>%<wohin%>:tharod               #       ;
+%<prn%>%<ort%>%<wohin%>:hwarod               #       ;
+%<prn%>%<ort%>%<wohin%>:herod               #       ;
+%<prn%>%<ort%>%<woher%>:thanan               #       ;
+%<prn%>%<ort%>%<woher%>:hwanan               #       ;
+%<prn%>%<ort%>%<woher%>:hinan               #       ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
