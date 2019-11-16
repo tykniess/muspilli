@@ -13,6 +13,7 @@ adêlidun		adêlian   <v>      <wk>      <class1>      <pret>      <2nd>      <p
 adêlidun		adêlian   <v>      <wk>      <class1>      <pret>      <3rd>      <pl>   
 adêlis		adêlian   <v>      <wk>      <class1>      <pres>      <2nd>      <sg>   
 adêliu		adêlian   <v>      <wk>      <class1>      <pres>      <1st>      <sg>   
+af		af   <prep>   
 afbrak		afbrekan   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <sg>   
 afbrak		afbrekan   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <sg>   
 afbrek		afbrekan   <v>      <str>      <class4>      <impv>      <sg>   
@@ -615,6 +616,7 @@ anbûu		anbûan   <v>      <str>      <class7>      <pres>      <indic>      <1s
 anbûun		anbûan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <pl>   
 anbûun		anbûan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <pl>   
 anbûun		anbûan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <pl>   
+and		and   <prep>   
 andbind		andbindan   <v>      <str>      <class3a>      <impv>      <sg>   
 andbind		andbindan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 andbind		andbindan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
@@ -1076,6 +1078,7 @@ andwurpis		andwerpan   <v>      <str>      <class3b>      <pret>      <opt>     
 andwurpun		andwerpan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <pl>   
 andwurpun		andwerpan   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <pl>   
 andwurpun		andwerpan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <pl>   
+anevan		anevan   <prep>   
 angar		angar   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 angar		angar   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 angara		angar   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -1362,6 +1365,7 @@ askithios		askithi   <noun>      <neut>      <ja-stem>      <acc>      <pl>
 askithios		askithi   <noun>      <neut>      <ja-stem>      <nom>      <pl>   
 askithiu		askithi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
 askithiun		askithi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+at		at   <prep>   
 at		etan   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <sg>   
 at		etan   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <sg>   
 athalea		athali   <noun>      <neut>      <ja-stem>      <dat>      <sg>   
@@ -2048,6 +2052,7 @@ bifindun		bifindan   <v>      <str>      <class3a>      <pret>      <indic>     
 bifindun		bifindan   <v>      <str>      <class3a>      <pret>      <indic>      <2nd>      <pl>   
 bifindun		bifindan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <pl>   
 bifolgan		bifelhan   <v>      <str>      <class3b>      <pastpart>   
+biforan		biforan   <prep>   
 bifulhi		bifelhan   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <sg>   
 bifulhi		bifelhan   <v>      <str>      <class3b>      <pret>      <opt>      <1st>      <sg>   
 bifulhi		bifelhan   <v>      <str>      <class3b>      <pret>      <opt>      <3rd>      <sg>   
@@ -5132,6 +5137,7 @@ falles		fallan   <v>      <str>      <class7>      <pres>      <opt>      <2nd> 
 fallis		fallan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <sg>   
 falliđ		fallan   <v>      <str>      <class7>      <pres>      <indic>      <3rd>      <sg>   
 fallu		fallan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <sg>   
+fan		fan   <prep>   
 far		faran   <v>      <str>      <class6>      <impv>      <sg>   
 faran		faran   <v>      <str>      <class6>      <inf>   
 faran		faran   <v>      <str>      <class6>      <pastpart>   
@@ -6056,6 +6062,7 @@ farwurpis		farwerpan   <v>      <str>      <class3b>      <pret>      <opt>     
 farwurpun		farwerpan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <pl>   
 farwurpun		farwerpan   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <pl>   
 farwurpun		farwerpan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <pl>   
+farûtar		farûtar   <prep>   
 fastno		fastnon   <v>      <wk>      <class2>      <impv>      <sg>   
 fastnod		fastnon   <v>      <wk>      <class2>      <impv>      <pl>   
 fastnod		fastnon   <v>      <wk>      <class2>      <pres>      <3rd>      <sg>   
@@ -6747,6 +6754,7 @@ folkweru		folkwer   <noun>      <masc>      <a-stem>      <instr>      <pl>
 folkweru		folkwer   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 folkwerum		folkwer   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 folkwerun		folkwer   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+for		for   <prep>   
 foraburgea		foraburgi   <noun>      <neut>      <ja-stem>      <dat>      <sg>   
 foraburgeas		foraburgi   <noun>      <neut>      <ja-stem>      <gen>      <sg>   
 foraburgeo		foraburgi   <noun>      <neut>      <ja-stem>      <gen>      <pl>   
@@ -7187,6 +7195,7 @@ fulu		ful   <noun>      <neut>      <a-stem>      <instr>      <sg>
 fulu		ful   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 fulum		ful   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 fulun		ful   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+furi		furi   <prep>   
 furpenning		furpenning   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 furpenning		furpenning   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 furpenninga		furpenning   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -7549,6 +7558,7 @@ gedes		gedan   <v>      <str>      <class5>      <pres>      <opt>      <2nd>   
 gedis		gedan   <v>      <str>      <class5>      <pres>      <indic>      <2nd>      <sg>   
 gediđ		gedan   <v>      <str>      <class5>      <pres>      <indic>      <3rd>      <sg>   
 gedu		gedan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <sg>   
+gegin		gegin   <prep>   
 geh		gehan   <v>      <str>      <class5>      <impv>      <sg>   
 gehan		gehan   <v>      <str>      <class5>      <inf>   
 gehan		gehan   <v>      <str>      <class5>      <pastpart>   
@@ -21698,6 +21708,7 @@ tandstuthlios		tandstuthli   <noun>      <neut>      <ja-stem>      <acc>      <
 tandstuthlios		tandstuthli   <noun>      <neut>      <ja-stem>      <nom>      <pl>   
 tandstuthliu		tandstuthli   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
 tandstuthliun		tandstuthli   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+te		te   <prep>   
 tebrak		tebrekan   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <sg>   
 tebrak		tebrekan   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <sg>   
 tebrast		tebrestan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <sg>   
@@ -22679,6 +22690,7 @@ thuneru		thuner   <noun>      <masc>      <a-stem>      <instr>      <pl>
 thuneru		thuner   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 thunerum		thuner   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 thunerun		thuner   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+thurh		thurh   <prep>   
 thurhgang		thurhgangan   <v>      <str>      <class7>      <impv>      <sg>   
 thurhgangan		thurhgangan   <v>      <str>      <class7>      <inf>   
 thurhgangan		thurhgangan   <v>      <str>      <class7>      <pastpart>   
@@ -23349,6 +23361,9 @@ tôstôtes		tôstôtan   <v>      <str>      <class7>      <pres>      <opt>    
 tôstôtis		tôstôtan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <sg>   
 tôstôtiđ		tôstôtan   <v>      <str>      <class7>      <pres>      <indic>      <3rd>      <sg>   
 tôstôtu		tôstôtan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <sg>   
+tôte		tôte   <prep>   
+um		um   <prep>   
+umbi		umbi   <prep>   
 umbibigav		umbibigevan   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <sg>   
 umbibigav		umbibigevan   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <sg>   
 umbibigev		umbibigevan   <v>      <str>      <class5>      <impv>      <sg>   
@@ -23422,6 +23437,7 @@ umbihwurvun		umbihwervan   <v>      <str>      <class3b>      <pret>      <indic
 unc		   <prn>      <pers>      <1st>      <du>      <acc>   
 unc		   <prn>      <pers>      <1st>      <du>      <dat>   
 uncero		   <prn>      <pers>      <1st>      <du>      <gen>   
+und		und   <prep>   
 undarfar		undarfaran   <v>      <str>      <class6>      <impv>      <sg>   
 undarfaran		undarfaran   <v>      <str>      <class6>      <inf>   
 undarfaran		undarfaran   <v>      <str>      <class6>      <pastpart>   
@@ -23547,6 +23563,7 @@ undarnimu		undarniman   <v>      <str>      <class4>      <pres>      <indic>   
 undarnimun		undarniman   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <pl>   
 undarnimun		undarniman   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <pl>   
 undarnimun		undarniman   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <pl>   
+undartwisk		undartwisk   <prep>   
 undarwarp		undarwerpan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <sg>   
 undarwarp		undarwerpan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <sg>   
 undarwas		undarwesan   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <sg>   
@@ -23974,6 +23991,7 @@ urthanku		urthank   <noun>      <masc>      <a-stem>      <instr>      <pl>
 urthanku		urthank   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 urthankum		urthank   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 urthankun		urthank   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+uvar		uvar   <prep>   
 uvartimbrea		uvartimbri   <noun>      <neut>      <ja-stem>      <dat>      <sg>   
 uvartimbreas		uvartimbri   <noun>      <neut>      <ja-stem>      <gen>      <sg>   
 uvartimbreo		uvartimbri   <noun>      <neut>      <ja-stem>      <gen>      <pl>   
@@ -25183,6 +25201,7 @@ wirthiđ		werthan   <v>      <str>      <class3b>      <pres>      <indic>      
 wirthu		werthan   <v>      <str>      <class3b>      <pres>      <indic>      <1st>      <sg>   
 wis		wesan   <v>      <irregular>      <imper>      <sg>   
 wit		   <prn>      <pers>      <1st>      <du>      <nom>   
+with		with   <prep>   
 witharkam		witharkuman   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <sg>   
 witharkam		witharkuman   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <sg>   
 witharkoman		witharkuman   <v>      <str>      <class4>      <pastpart>   
@@ -26588,6 +26607,7 @@ wôskun		waskan   <v>      <str>      <class6>      <pret>      <indic>      <3r
 âlêtun		âlâtan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <pl>   
 âlêtun		âlâtan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <pl>   
 âlêtun		âlâtan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <pl>   
+âno		âno   <prep>   
 ârundea		ârundi   <noun>      <neut>      <ja-stem>      <dat>      <sg>   
 ârundeas		ârundi   <noun>      <neut>      <ja-stem>      <gen>      <sg>   
 ârundeo		ârundi   <noun>      <neut>      <ja-stem>      <gen>      <pl>   
@@ -27363,6 +27383,7 @@ wôskun		waskan   <v>      <str>      <class6>      <pret>      <indic>      <3r
 ûs		   <prn>      <pers>      <1st>      <pl>      <acc>   
 ûs		   <prn>      <pers>      <1st>      <pl>      <dat>   
 ûser		   <prn>      <pers>      <1st>      <pl>      <gen>   
+ûtar		ûtar   <prep>   
 ûtgad		ûtgedan   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <sg>   
 ûtgad		ûtgedan   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <sg>   
 ûtged		ûtgedan   <v>      <str>      <class5>      <impv>      <sg>   

@@ -3,6 +3,7 @@ Multichar_Symbols
 
 %<v%>				! Verb
 %<noun%>			! Noun
+%<prep%>			! Preposition
 %<a-stem%>			! a-stem noun
 %<ja-stem%>			! ja-stem noun
 %<wa-stem%>			! wa-stem noun
@@ -80,6 +81,7 @@ LEXICON Root
 Nouns 				; 
 Verbs 				; 
 Pronouns			;
+Prepositions			;
 
 LEXICON Pronouns		
 Personal-Pronouns			;
@@ -2493,3 +2495,27 @@ thagon%<v%>%<wk%>%<class2%>:thag WK2  ;	! nhd. schweigen
 fîrion%<v%>%<wk%>%<class2%>:fîri WK2  ;	! nhd. feiern
 geron%<v%>%<wk%>%<class2%>:ger WK2  ;	! nhd. begehren
 ahton%<v%>%<wk%>%<class2%>:aht WK2  ;	! nhd. achten auf, glauben, erwägen, erachten
+
+LEXICON Prepositions
+af%<prep%>:af	 # ; ! 
+and%<prep%>:and	 # ; ! 
+anevan%<prep%>:anevan	 # ; ! 
+âno%<prep%>:âno	 # ; ! 
+at%<prep%>:at	 # ; ! 
+biforan%<prep%>:biforan	 # ; ! 
+fan%<prep%>:fan	 # ; ! 
+farûtar%<prep%>:farûtar	 # ; ! 
+for%<prep%>:for	 # ; ! 
+furi%<prep%>:furi	 # ; ! 
+gegin%<prep%>:gegin	 # ; ! 
+te%<prep%>:te	 # ; ! 
+tôte%<prep%>:tôte	 # ; ! 
+thurh%<prep%>:thurh	 # ; ! 
+um%<prep%>:um	 # ; ! 
+umbi%<prep%>:umbi	 # ; ! 
+und%<prep%>:und	 # ; ! 
+undartwisk%<prep%>:undartwisk	 # ; ! 
+ûtar%<prep%>:ûtar	 # ; ! 
+uvar%<prep%>:uvar	 # ; ! 
+with%<prep%>:with	 # ; ! 
+
