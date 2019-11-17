@@ -15,7 +15,7 @@
  379 godes
  366 than
  361 them
- 334 uuas
+ 334 was
  313 iro
  304 thiu
  301 imu
@@ -27,7 +27,7 @@
  247 thu
  232 themu
  225 gi
- 205 uuard
+ 205 ward
  195 ne
  184 barn
  179 hugi
@@ -38,14 +38,14 @@
  161 quad
  160 thero
  159 thuo
- 156 uuordun
+ 156 wordun
  146 iu
  142 aftar
  133 sia
  131 manno
  129 drohtin
- 128 uuord
- 128 uualdand
+ 128 word
+ 128 waldand
  127 nu
  125 scal
  122 undar
@@ -57,7 +57,7 @@
  111 thie
  111 obar
  110 liudi
- 107 uuârun
+ 107 wârun
  107 thoh
  104 êr
  103 thene
@@ -69,8 +69,8 @@
   95 huat
   94 ic
   94 ef
-  91 uueroldi
-  88 uuid
+  91 weroldi
+  88 wid
   88 theru
   87 mikil
   83 thia
@@ -80,13 +80,13 @@
   81 umbi
   81 allaro
   80 ford
-  78 uuilleon
+  78 willeon
   77 lioht
   75 hêt
   75 heliand
   73 god
   73 filu
-  72 uuâri
+  72 wâri
   72 for
   71 fitte
   71 craft
@@ -107,15 +107,15 @@
   60 mag
   60 at
   59 geng
-  58 uueros
+  58 weros
   58 huô
   58 huand
   57 sân
   56 ôc
-  56 uuerod
+  56 werod
   56 suîdo
   56 sprac
-  55 uui
+  55 wi
   55 tô
   54 ênig
   54 quam
@@ -127,23 +127,23 @@
   52 cuman
   51 thena
   51 liudiun
-  50 uuili
+  50 wili
   50 mîn
   50 habdun
   50 habda
   49 ên
-  47 uuiht
+  47 wiht
   47 gode
-  46 uualdandes
+  46 waldandes
   46 selbon
-  46 giuuêt
-  45 uuîf
+  46 giwêt
+  45 wîf
   45 quâdun
-  45 iuuua
+  45 iwua
   45 barno
   45 all
-  44 uuordo
-  44 uuerold
+  44 wordo
+  44 werold
   44 mannun
   44 iudeo
   44 habde
@@ -152,35 +152,35 @@
   43 lêra
   42 habad
   41 rîki
-  40 uuerode
-  40 uuelda
+  40 werode
+  40 welda
   40 angegin
   39 ûs
-  39 uueldun
+  39 weldun
   39 scoldi
   39 erlos
   39 cristes
-  38 uuel
+  38 wel
   38 noh
   38 middilgard
   38 handun
-  37 uuillean
+  37 willean
   37 thuru
   37 thesa
   37 sî
   37 sulic
   37 maht
-  36 uuirdid
+  36 wirdid
   36 mêr
   36 hîr
   36 firiho
-  35 uuerodes
+  35 werodes
   35 sagde
   35 hierusalem
   35 hi
   35 gôdo
   34 êgan
-  34 uuerdan
+  34 werdan
   34 tegegnes
   34 nis
   34 môd
@@ -206,15 +206,15 @@
   30 lôn
   30 lîf
   30 ine
-  30 giuuald
-  29 uurdun
-  29 uuordon
+  30 giwald
+  29 wrdun
+  29 wordon
   29 thesun
   29 môde
   29 menegi
   29 lande
   29 burg
-  28 uuillion
+  28 willion
   28 thînun
   28 sundea
   28 menigi
@@ -222,7 +222,7 @@
   28 gio
   28 dag
   28 bezt
-  27 uueldi
+  27 weldi
   27 thius
   27 thioda
   27 scalt
@@ -247,9 +247,9 @@
   26 far
   26 cuning
   26 after
-  25 uuesan
-  25 uuerc
-  25 uuelde
+  25 wesan
+  25 werc
+  25 welde
   25 thiod
   25 thesan
   25 sîmon
@@ -258,17 +258,17 @@
   25 mahti
   25 lango
   25 hêlago
-  25 huuand
+  25 hwand
   25 allun
-  24 uuilliad
-  24 uuilleo
+  24 williad
+  24 willeo
   24 sîdor
   24 lîchamon
   24 hêrro
   24 himile
   24 hiet
   24 bist
-  23 uuerden
+  23 werden
   23 tharf
   23 sâlig
   23 sum
@@ -290,12 +290,12 @@
   22 scoldun
   22 sagda
   22 lêdes
-  22 iuuuan
+  22 iwuan
   22 gôdes
   22 engil
   22 bium
-  21 uuâron
-  21 suuîdo
+  21 wâron
+  21 swîdo
   21 seggian
   21 nâhor
   21 manne
@@ -305,9 +305,9 @@
   21 gesîdos
   21 drohtine
   20 êrist
-  20 uuîti
-  20 uurdi
-  20 uuilliu
+  20 wîti
+  20 wrdi
+  20 williu
   20 self
   20 sehan
   20 naht
@@ -320,8 +320,8 @@
   20 barnun
   20 barne
   20 alla
-  19 uuêt
-  19 uueroldes
+  19 wêt
+  19 weroldes
   19 themo
   19 simbla
   19 môstin
@@ -340,7 +340,7 @@
   19 faran
   19 dago
   19 antat
-  18 uueg
+  18 weg
   18 tîd
   18 tuo
   18 theson
@@ -361,7 +361,7 @@
   18 bêdiu
   18 breostun
   18 alloro
-  17 uuihti
+  17 wihti
   17 thesero
   17 these
   17 sorgun
@@ -369,16 +369,16 @@
   17 maria
   17 lîbes
   17 lêt
-  17 huuô
+  17 hwô
   17 hebenrîki
   17 gisâhun
   17 gibod
-  17 geuuald
+  17 gewald
   17 gehuilic
   17 cuningo
-  17 alouualdon
+  17 alowaldon
   16 ênna
-  16 uuîhe
+  16 wîhe
   16 sîs
   16 sat
   16 sagdun
@@ -391,12 +391,12 @@
   16 dâd
   16 alles
   16 af
-  15 êuuig
-  15 uuîha
-  15 uuîdo
-  15 uuisse
-  15 uuissa
-  15 uuirdig
+  15 êwig
+  15 wîha
+  15 wîdo
+  15 wisse
+  15 wissa
+  15 wirdig
   15 thîna
   15 thiodo
   15 sôkean
@@ -416,9 +416,9 @@
   15 fora
   15 bodo
   15 antfeng
-  14 uuirdit
-  14 uuider
-  14 uuerdad
+  14 wirdit
+  14 wider
+  14 werdad
   14 ti
   14 thînumu
   14 thiodu
@@ -433,7 +433,7 @@
   14 magad
   14 kêsures
   14 kristes
-  14 iuuuomu
+  14 iwuomu
   14 hôrien
   14 hue
   14 helpe
@@ -454,20 +454,20 @@
   13 ûses
   13 ênes
   13 ârundi
-  13 uurêda
-  13 uuitun
-  13 uuidar
-  13 uuerde
-  13 uuelono
-  13 uueldin
-  13 uuatares
+  13 wrêda
+  13 witun
+  13 widar
+  13 werde
+  13 welono
+  13 weldin
+  13 watares
   13 thînan
   13 sâtun
   13 scolde
   13 mugi
   13 lîbu
   13 in
-  13 huuat
+  13 hwat
   13 hebbiu
   13 handon
   13 giu
@@ -479,8 +479,8 @@
   13 cumid
   13 bilidi
   13 bigunnun
-  12 uuerk
-  12 uuelon
+  12 werk
+  12 welon
   12 thînes
   12 tesamne
   12 sundiun
@@ -501,7 +501,7 @@
   12 helpu
   12 habit
   12 gômun
-  12 giuuitun
+  12 giwitun
   12 gisehan
   12 gihôrdun
   12 ge
@@ -512,8 +512,8 @@
   12 bedu
   12 bad
   12 antkennien
-  11 uuârin
-  11 uuater
+  11 wârin
+  11 water
   11 ut
   11 tîdi
   11 têcan
@@ -539,9 +539,9 @@
   11 himilrîki
   11 helpono
   11 haldan
-  11 giuuit
-  11 giuuerden
-  11 giuuand
+  11 giwit
+  11 giwerden
+  11 giwand
   11 giduan
   11 giboran
   11 galileo
@@ -557,15 +557,15 @@
   11 criste
   11 craftu
   11 antfâhan
-  11 alouualdo
+  11 alowaldo
   11 alomahtig
   10 ôgun
   10 ôdrun
   10 ôdra
   10 êo
-  10 uuîh
-  10 uuirkean
-  10 uuesen
+  10 wîh
+  10 wirkean
+  10 wesen
   10 tholon
   10 sînes
   10 sêr
@@ -584,7 +584,7 @@
   10 lêrde
   10 lazarus
   10 kuman
-  10 iuuuaro
+  10 iwuaro
   10 innen
   10 iac
   10 hôhon
@@ -607,7 +607,7 @@
   10 ferahes
   10 faren
   10 erodes
-  10 eouuiht
+  10 eowiht
   10 blîdi
   10 biforan
   10 barnes
@@ -617,16 +617,16 @@
    9 êniga
    9 ênan
    9 êna
-   9 uuîson
-   9 uuârlîco
-   9 uuâr
-   9 uuordu
-   9 uuolda
-   9 uuillio
-   9 uuerd
-   9 uuerco
-   9 uuege
-   9 uuardos
+   9 wîson
+   9 wârlîco
+   9 wâr
+   9 wordu
+   9 wolda
+   9 willio
+   9 werd
+   9 werco
+   9 wege
+   9 wardos
    9 thegnos
    9 thanc
    9 sîdon
@@ -644,7 +644,7 @@
    9 lîchamo
    9 lâtad
    9 leng
-   9 iuuues
+   9 iwues
    9 iungoron
    9 ioseph
    9 hûse
@@ -656,7 +656,7 @@
    9 gifragn
    9 geban
    9 forhtun
-   9 forduuardes
+   9 fordwardes
    9 flôde
    9 fagar
    9 eggiun
@@ -673,14 +673,14 @@
    9 aldres
    8 ôdran
    8 êno
-   8 uuîse
-   8 uuîdon
-   8 uuêst
-   8 uundron
-   8 uuit
-   8 uueroda
-   8 uuardon
-   8 uualdande
+   8 wîse
+   8 wîdon
+   8 wêst
+   8 wndron
+   8 wit
+   8 weroda
+   8 wardon
+   8 waldande
    8 uppen
    8 upp
    8 tuê
@@ -707,11 +707,11 @@
    8 liudeon
    8 lag
    8 kumen
-   8 iuuuon
+   8 iwuon
    8 imo
    8 hêleand
    8 huîla
-   8 hriuuig
+   8 hriwig
    8 hord
    8 hluttru
    8 hertan
@@ -719,7 +719,7 @@
    8 habbiad
    8 gôde
    8 gôdaro
-   8 giuualdan
+   8 giwaldan
    8 gitellien
    8 gisprac
    8 ginâhid
@@ -749,20 +749,20 @@
    7 ênigumu
    7 âno
    7 âband
-   7 uuîslîco
-   7 uuîsa
-   7 uuîbes
-   7 uuâran
-   7 uuâpnes
-   7 uuândun
-   7 uurêdaro
-   7 uurd
-   7 uuissun
-   7 uuillie
-   7 uuang
+   7 wîslîco
+   7 wîsa
+   7 wîbes
+   7 wâran
+   7 wâpnes
+   7 wândun
+   7 wrêdaro
+   7 wrd
+   7 wissun
+   7 willie
+   7 wang
    7 unreht
    7 tulgo
-   7 treuua
+   7 trewa
    7 thînaro
    7 thiornun
    7 thiodan
@@ -810,7 +810,7 @@
    7 hêten
    7 hêlagun
    7 hêl
-   7 huue
+   7 hwe
    7 hugiskefti
    7 huemu
    7 hlûdo
@@ -820,9 +820,9 @@
    7 herton
    7 hendi
    7 hebencuninge
-   7 giuuâdi
+   7 giwâdi
    7 gie
-   7 geuuin
+   7 gewin
    7 gastseli
    7 fôtun
    7 frâgodun
@@ -850,28 +850,28 @@
    7 antthat
    7 anttat
    7 antkendun
-   7 anduuordi
+   7 andwordi
    6 ût
    6 ûsa
    6 ôdmôdi
    6 êrdagun
    6 êra
-   6 uuîties
-   6 uuînes
-   6 uuîbe
-   6 uuâroro
-   6 uuânum
-   6 uuurdun
-   6 uurêd
-   6 uunnea
-   6 uundrun
-   6 uuis
-   6 uuind
-   6 uuidersakon
-   6 uuerke
-   6 uuercun
-   6 uualdandeo
-   6 uuahsan
+   6 wîties
+   6 wînes
+   6 wîbe
+   6 wâroro
+   6 wânum
+   6 wurdun
+   6 wrêd
+   6 wnnea
+   6 wndrun
+   6 wis
+   6 wind
+   6 widersakon
+   6 werke
+   6 wercun
+   6 waldandeo
+   6 wahsan
    6 ubilon
    6 ubil
    6 tuâ
@@ -900,7 +900,7 @@
    6 seggeo
    6 sedle
    6 sculin
-   6 scauuon
+   6 scawon
    6 scattos
    6 satanas
    6 same
@@ -934,14 +934,14 @@
    6 kumad
    6 idisi
    6 hôbid
-   6 hîuuiski
+   6 hîwiski
    6 hêm
    6 hêlogo
    6 hêlage
    6 hêlagan
    6 huilicumu
    6 hugiskeftiun
-   6 hreuuan
+   6 hrewan
    6 hold
    6 himilisc
    6 heritogon
@@ -957,7 +957,7 @@
    6 guodan
    6 gumscepi
    6 graf
-   6 giuuerdan
+   6 giwerdan
    6 githâhti
    6 gistôd
    6 gisprak
@@ -965,7 +965,7 @@
    6 gihôrda
    6 gihêt
    6 gibidig
-   6 geuuitun
+   6 gewitun
    6 gesîdi
    6 gesprac
    6 gern
@@ -998,7 +998,7 @@
    6 brêd
    6 briostun
    6 biscop
-   6 bihuuî
+   6 bihwî
    6 bidun
    6 berhtun
    6 barnon
@@ -1010,33 +1010,33 @@
    6 ald
    5 ûdeon
    5 ôgon
-   5 ôduuelon
-   5 êuua
+   5 ôdwelon
+   5 êwa
    5 êu
    5 ênon
    5 ênfald
    5 âhtien
-   5 uuôstunni
-   5 uuîtie
-   5 uuîsde
-   5 uuîsaro
-   5 uuîbun
-   5 uuîbo
-   5 uuânda
-   5 uurêdon
-   5 uurêdes
-   5 uurêdan
-   5 uuorde
-   5 uunsam
-   5 uuissin
-   5 uuintro
-   5 uuidouua
-   5 uuerpen
-   5 uuerodu
-   5 uuero
-   5 uuerko
-   5 uuendean
-   5 uuastom
+   5 wôstunni
+   5 wîtie
+   5 wîsde
+   5 wîsaro
+   5 wîbun
+   5 wîbo
+   5 wânda
+   5 wrêdon
+   5 wrêdes
+   5 wrêdan
+   5 worde
+   5 wnsam
+   5 wissin
+   5 wintro
+   5 widowa
+   5 werpen
+   5 werodu
+   5 wero
+   5 werko
+   5 wendean
+   5 wastom
    5 untthat
    5 und
    5 têcno
@@ -1114,8 +1114,8 @@
    5 hêtun
    5 hêrran
    5 hêrost
-   5 huuî
-   5 huurbun
+   5 hwî
+   5 hwrbun
    5 huene
    5 hrôm
    5 holde
@@ -1134,7 +1134,7 @@
    5 grôt
    5 gruotta
    5 gold
-   5 giuuendid
+   5 giwendid
    5 git
    5 gisîdon
    5 giscôp
@@ -1144,14 +1144,14 @@
    5 giheftid
    5 gifrumid
    5 gidorstun
-   5 geuuâdi
-   5 geuunnen
-   5 geuuirkean
+   5 gewâdi
+   5 gewnnen
+   5 gewirkean
    5 gethuing
    5 gesprak
    5 gescriban
    5 gesamnod
-   5 gehuuilikes
+   5 gehwilikes
    5 galilea
    5 fôrin
    5 fâhen
@@ -1164,8 +1164,8 @@
    5 forgeben
    5 folcu
    5 flêsk
-   5 firiuuitlîco
-   5 firinuuerc
+   5 firiwitlîco
+   5 firinwerc
    5 ferhtan
    5 ferahe
    5 felis
@@ -1177,8 +1177,8 @@
    5 fard
    5 fagaro
    5 fadar
-   5 euuan
-   5 erbiuuard
+   5 ewan
+   5 erbiward
    5 engilo
    5 eldibarn
    5 drôgun
@@ -1218,40 +1218,40 @@
    4 ôdersîdu
    4 ênumu
    4 êgi
+   4 wôpu
+   4 wîsun
+   4 wîs
+   4 wîngardon
+   4 wîn
+   4 wîhes
+   4 wîdun
+   4 wêgean
+   4 wâren
+   4 wâg
    4 wurden
+   4 wrêdun
+   4 wrêde
+   4 woldun
+   4 wolcan
+   4 wnsamost
+   4 wndun
+   4 wndres
+   4 wnder
+   4 witin
+   4 witen
+   4 witan
+   4 winde
+   4 willien
+   4 wihtes
+   4 wesat
+   4 weridun
+   4 werdes
+   4 wende
+   4 well
+   4 watare
+   4 warhte
+   4 wangun
    4 von
-   4 uuôpu
-   4 uuîsun
-   4 uuîs
-   4 uuîngardon
-   4 uuîn
-   4 uuîhes
-   4 uuîdun
-   4 uuêgean
-   4 uuâren
-   4 uuâg
-   4 uurêdun
-   4 uurêde
-   4 uuoldun
-   4 uuolcan
-   4 uunsamost
-   4 uundun
-   4 uundres
-   4 uunder
-   4 uuitin
-   4 uuiten
-   4 uuitan
-   4 uuinde
-   4 uuillien
-   4 uuihtes
-   4 uuesat
-   4 uueridun
-   4 uuerdes
-   4 uuende
-   4 uuell
-   4 uuatare
-   4 uuarhte
-   4 uuangun
    4 unc
    4 tuêm
    4 tuelibio
@@ -1268,10 +1268,10 @@
    4 thagodun
    4 sôdan
    4 sîn
-   4 sîduuôrige
+   4 sîdwôrige
    4 sîdun
    4 sîdu
-   4 sêuua
+   4 sêwa
    4 sêe
    4 sunnun
    4 sunna
@@ -1342,10 +1342,10 @@
    4 kumane
    4 kriste
    4 kindiski
+   4 iwuom
+   4 iwuar
    4 iuxta
-   4 iuuuom
-   4 iuuuar
-   4 inuuid
+   4 inwid
    4 inne
    4 hûses
    4 hôrean
@@ -1379,7 +1379,7 @@
    4 helpun
    4 helidun
    4 hebbead
-   4 hebanuuanga
+   4 hebanwanga
    4 harmquidi
    4 hardan
    4 half
@@ -1398,7 +1398,7 @@
    4 gramon
    4 goda
    4 glau
-   4 giuuarhte
+   4 giwarhte
    4 giungaron
    4 githoloian
    4 gitald
@@ -1412,7 +1412,7 @@
    4 gifastnod
    4 gibu
    4 gibid
-   4 geuuit
+   4 gewit
    4 genôg
    4 gelden
    4 gefrummien
@@ -1439,13 +1439,13 @@
    4 forstôdun
    4 forahton
    4 folmun
-   4 firiuuit
+   4 firiwit
    4 firio
    4 firihon
    4 finden
    4 fern
    4 ferahu
-   4 faruuarhton
+   4 farwarhton
    4 farstanden
    4 farlêt
    4 farloren
@@ -1505,67 +1505,67 @@
    3 ôdrana
    3 ôdi
    3 ôdagan
-   3 ênuuordie
+   3 ênwordie
    3 ênigun
    3 êne
    3 êhti
    3 êhta
    3 êgun
    3 zacharias
+   3 wîtnon
+   3 wîtea
+   3 wîslîc
+   3 wîsean
+   3 wîsdôm
+   3 wê
+   3 wârsagono
+   3 wârsagon
+   3 wârsago
+   3 wâro
+   3 wârfastun
+   3 wâres
+   3 wâpnun
+   3 wânamon
+   3 wundun
+   3 wundron
+   3 wunderquâla
+   3 wrôgdun
+   3 wnnun
+   3 wnniun
+   3 wita
+   3 wirkid
+   3 wirkead
+   3 wirdige
+   3 winnan
+   3 wini
+   3 wilt
+   3 willies
+   3 williendi
+   3 willead
+   3 wil
+   3 weron
+   3 weroldrîkea
+   3 weroldhêrron
+   3 werkun
+   3 werdat
+   3 werda
+   3 wendien
+   3 wendian
+   3 welo
+   3 weder
+   3 wedares
+   3 watar
+   3 wara
+   3 wan
+   3 wamscadun
+   3 wamscadon
+   3 wammes
+   3 wam
+   3 wallan
+   3 waldanda
+   3 wahsen
    3 versus
    3 vates
-   3 uuîtnon
-   3 uuîtea
-   3 uuîslîc
-   3 uuîsean
-   3 uuîsdôm
-   3 uuê
-   3 uuârsagono
-   3 uuârsagon
-   3 uuârsago
-   3 uuâro
-   3 uuârfastun
-   3 uuâres
-   3 uuâpnun
-   3 uuânamon
-   3 uuundun
-   3 uuundron
-   3 uuunderquâla
-   3 uurôgdun
-   3 uunnun
-   3 uunniun
-   3 uuita
-   3 uuirkid
-   3 uuirkead
-   3 uuirdige
-   3 uuinnan
-   3 uuini
-   3 uuilt
-   3 uuillies
-   3 uuilliendi
-   3 uuillead
-   3 uuil
-   3 uueron
-   3 uueroldrîkea
-   3 uueroldhêrron
-   3 uuerkun
-   3 uuerdat
-   3 uuerda
-   3 uuendien
-   3 uuendian
-   3 uuelo
-   3 uueder
-   3 uuedares
-   3 uuatar
-   3 uuara
-   3 uuan
-   3 uuamscadun
-   3 uuamscadon
-   3 uuammes
-   3 uuam
-   3 uuallan
-   3 uualdanda
-   3 uuahsen
    3 uppe
    3 uppa
    3 unmet
@@ -1573,10 +1573,10 @@
    3 unca
    3 um
    3 tôgean
+   3 twê
+   3 twelibi
    3 tuîflien
    3 tuîfli
-   3 tuuê
-   3 tuuelibi
    3 tregan
    3 trahni
    3 tinsi
@@ -1605,7 +1605,7 @@
    3 sîde
    3 sêragmôd
    3 sêes
-   3 sâuuun
+   3 sâwun
    3 sâliglîco
    3 sâliga
    3 suokean
@@ -1682,7 +1682,7 @@
    3 neriendon
    3 neriendi
    3 neriandan
-   3 neouuiht
+   3 neowiht
    3 neotan
    3 negên
    3 nebu
@@ -1693,7 +1693,7 @@
    3 môdgethâhti
    3 mînero
    3 mêster
-   3 mênuuerk
+   3 mênwerk
    3 mênid
    3 mêndâdi
    3 mêda
@@ -1741,8 +1741,8 @@
    3 kumana
    3 kindiung
    3 kindes
-   3 iuuue
-   3 iuuuas
+   3 iwue
+   3 iwuas
    3 iungro
    3 iung
    3 iugudi
@@ -1761,11 +1761,11 @@
    3 hêli
    3 hêleando
    3 hêlde
-   3 huuilic
+   3 hwilic
    3 hugis
    3 hugea
    3 hues
-   3 hrêuues
+   3 hrêwes
    3 hrêncorni
    3 hriopun
    3 hriop
@@ -1784,7 +1784,7 @@
    3 helidon
    3 helid
    3 hel
-   3 hebanuuange
+   3 hebanwange
    3 hebancuninge
    3 handmahal
    3 hallu
@@ -1801,15 +1801,15 @@
    3 grimman
    3 goldes
    3 godas
-   3 glauua
-   3 giuuîsid
-   3 giuuârod
-   3 giuuirkie
-   3 giuuirkean
-   3 giuuinnanne
-   3 giuueld
-   3 giuuarht
-   3 giuuaraht
+   3 glawa
+   3 giwîsid
+   3 giwârod
+   3 giwirkie
+   3 giwirkean
+   3 giwinnanne
+   3 giweld
+   3 giwarht
+   3 giwaraht
    3 githungan
    3 githiudo
    3 gisâhi
@@ -1823,7 +1823,7 @@
    3 giseggian
    3 giseggean
    3 giscriban
-   3 giouuiht
+   3 giowiht
    3 ginâdig
    3 ginam
    3 gimârid
@@ -1835,7 +1835,7 @@
    3 gildid
    3 gihôrid
    3 gihôrde
-   3 gihuuem
+   3 gihwem
    3 gihuorben
    3 giholpen
    3 gihnêg
@@ -1850,18 +1850,18 @@
    3 gibôtid
    3 giburd
    3 gibolgan
-   3 geuuêt
-   3 geuuitscepi
-   3 geuuinne
-   3 geuuarhte
+   3 gewêt
+   3 gewitscepi
+   3 gewinne
+   3 gewarhte
    3 gesehan
    3 gescôp
    3 gesah
    3 gerûni
    3 gelîc
    3 gelp
-   3 gehuuilic
-   3 gehuuem
+   3 gehwilic
+   3 gehwem
    3 gehuilicu
    3 geheftid
    3 gehalon
@@ -1922,7 +1922,7 @@
    3 fadmun
    3 fadmos
    3 fadmon
-   3 euua
+   3 ewa
    3 esse
    3 elias
    3 eldibarnun
@@ -2027,8 +2027,8 @@
    2 ôdil
    2 ôdes
    2 ôdag
-   2 êuuondage
-   2 êuuandaga
+   2 êwondage
+   2 êwandaga
    2 êron
    2 êosago
    2 ênun
@@ -2049,109 +2049,109 @@
    2 âdom
    2 âdaman
    2 zugeordnet
+   2 wôp
+   2 wôhs
+   2 wîteo
+   2 wîteas
+   2 wîsis
+   2 wîsi
+   2 wîsda
+   2 wîsan
+   2 wînu
+   2 wîne
+   2 wîhide
+   2 wîhdagun
+   2 wîhdage
+   2 wîgandos
+   2 wîg
+   2 wîdan
+   2 wêgian
+   2 wêgeanne
+   2 wârsaguno
+   2 wârlôse
+   2 wârlîc
+   2 wâris
+   2 wâre
+   2 wâra
+   2 wâpno
+   2 wâniu
+   2 wânde
+   2 wân
+   2 wâgo
+   2 wurdi
+   2 wrôht
+   2 wrêden
+   2 wrteo
+   2 wrecan
+   2 wrdigiscapu
+   2 wracsîd
+   2 wordspâha
+   2 wonoda
+   2 wonian
+   2 wolcnes
+   2 wola
+   2 wnsames
+   2 wnneon
+   2 wndrodun
+   2 wndradun
+   2 wnderquâlu
+   2 wndar
+   2 wlitiscôni
+   2 wliti
+   2 wlanke
+   2 wiscumo
+   2 wirson
+   2 wirdis
+   2 wiopun
+   2 wintar
+   2 winistron
+   2 wilspel
+   2 willspel
+   2 willon
+   2 williat
+   2 willeono
+   2 willendi
+   2 willeat
+   2 willea
+   2 wihtiu
+   2 widerward
+   2 widermôd
+   2 westan
+   2 wesanne
+   2 weroldstundu
+   2 weroldrîki
+   2 weroldcuning
+   2 wernian
+   2 werkes
+   2 werean
+   2 werdlico
+   2 wercon
+   2 welan
+   2 wela
+   2 wehslan
+   2 wegun
+   2 wegos
+   2 wederes
+   2 wateres
+   2 watere
+   2 warp
+   2 waron
+   2 warode
+   2 warod
+   2 warhtun
+   2 wardoda
+   2 warahta
+   2 wange
+   2 wamdâdi
+   2 waldes
+   2 waldan
+   2 wal
+   2 wahtu
    2 verum
    2 vero
    2 ver
-   2 uuôp
-   2 uuôhs
-   2 uuîteo
-   2 uuîteas
-   2 uuîsis
-   2 uuîsi
-   2 uuîsda
-   2 uuîsan
-   2 uuînu
-   2 uuîne
-   2 uuîhide
-   2 uuîhdagun
-   2 uuîhdage
-   2 uuîgandos
-   2 uuîg
-   2 uuîdan
-   2 uuêgian
-   2 uuêgeanne
-   2 uuârsaguno
-   2 uuârlôse
-   2 uuârlîc
-   2 uuâris
-   2 uuâre
-   2 uuâra
-   2 uuâpno
-   2 uuâniu
-   2 uuânde
-   2 uuân
-   2 uuâgo
-   2 uuurdi
-   2 uurôht
-   2 uurêden
-   2 uurteo
-   2 uurecan
-   2 uurdigiscapu
-   2 uuracsîd
-   2 uuordspâha
-   2 uuonoda
-   2 uuonian
-   2 uuolcnes
-   2 uuola
-   2 uunsames
-   2 uunneon
-   2 uundrodun
-   2 uundradun
-   2 uunderquâlu
-   2 uundar
-   2 uulitiscôni
-   2 uuliti
-   2 uulanke
-   2 uuiscumo
-   2 uuirson
-   2 uuirdis
-   2 uuiopun
-   2 uuintar
-   2 uuinistron
-   2 uuilspel
-   2 uuillspel
-   2 uuillon
-   2 uuilliat
-   2 uuilleono
-   2 uuillendi
-   2 uuilleat
-   2 uuillea
-   2 uuihtiu
-   2 uuideruuard
-   2 uuidermôd
-   2 uuestan
-   2 uuesanne
-   2 uueroldstundu
-   2 uueroldrîki
-   2 uueroldcuning
-   2 uuernian
-   2 uuerkes
-   2 uuerean
-   2 uuerdlico
-   2 uuercon
-   2 uuelan
-   2 uuela
-   2 uuehslan
-   2 uuegun
-   2 uuegos
-   2 uuederes
-   2 uuateres
-   2 uuatere
-   2 uuarp
-   2 uuaron
-   2 uuarode
-   2 uuarod
-   2 uuarhtun
-   2 uuardoda
-   2 uuarahta
-   2 uuange
-   2 uuamdâdi
-   2 uualdes
-   2 uualdan
-   2 uual
-   2 uuahtu
-   2 upuuegos
-   2 untreuua
+   2 upwegos
+   2 untrewa
    2 unsuôti
    2 unrehtes
    2 unholde
@@ -2164,16 +2164,16 @@
    2 ubiles
    2 ubile
    2 ubilan
-   2 tôuuard
+   2 tôward
    2 tômig
    2 tôgeat
    2 tîdiun
    2 têkan
    2 têcnun
-   2 tuuêne
-   2 tuuêm
-   2 treuuon
-   2 treuuafte
+   2 twêne
+   2 twêm
+   2 trewon
+   2 trewafte
    2 treulôs
    2 transferre
    2 torhtes
@@ -2188,14 +2188,14 @@
    2 thuôg
    2 thurstu
    2 thurst
-   2 thrîuuo
-   2 thrâuuerk
+   2 thrîwo
+   2 thrâwerk
    2 thrim
    2 thriddeon
    2 thorno
    2 thionost
    2 thiolîco
-   2 thioduuelon
+   2 thiodwelon
    2 thiodgode
    2 thiobe
    2 thio
@@ -2353,7 +2353,7 @@
    2 opana
    2 obarmôdig
    2 obarmuoda
-   2 obanuuardan
+   2 obanwardan
    2 nônu
    2 nîdscipi
    2 nîdhugdig
@@ -2392,7 +2392,7 @@
    2 mârian
    2 mârdu
    2 mâkeas
-   2 mâguuini
+   2 mâgwini
    2 mâgos
    2 mâgo
    2 muostun
@@ -2471,7 +2471,7 @@
    2 lofsang
    2 loboda
    2 lix
-   2 liuduuerod
+   2 liudwerod
    2 liudibarno
    2 lisit
    2 liomon
@@ -2500,7 +2500,7 @@
    2 langsamna
    2 langsame
    2 lange
-   2 landuuîse
+   2 landwîse
    2 landskepie
    2 landreht
    2 lando
@@ -2520,7 +2520,7 @@
    2 kinde
    2 kells
    2 johann
-   2 iuuuoro
+   2 iwuoro
    2 iungorun
    2 iungarskepi
    2 iungarono
@@ -2533,11 +2533,11 @@
    2 israhelo
    2 irminthiodun
    2 irminmanno
-   2 iouuiht
+   2 iowiht
    2 iordan
    2 iohannese
-   2 inuuidrâdo
-   2 inuuideas
+   2 inwidrâdo
+   2 inwideas
    2 ingenio
    2 inferne
    2 inca
@@ -2552,8 +2552,8 @@
    2 hôhost
    2 hôbidscatto
    2 hôbdo
-   2 hîuuiskes
-   2 hîuuiskea
+   2 hîwiskes
+   2 hîwiskea
    2 hêton
    2 hêto
    2 hêti
@@ -2564,12 +2564,12 @@
    2 hêlan
    2 hêlagaro
    2 hêdro
-   2 huuît
-   2 huuîla
-   2 huuemu
-   2 huuem
-   2 huuar
-   2 huuanda
+   2 hwît
+   2 hwîla
+   2 hwemu
+   2 hwem
+   2 hwar
+   2 hwanda
    2 hurnidskip
    2 huodian
    2 hundos
@@ -2584,8 +2584,8 @@
    2 huarabe
    2 huanen
    2 hrôru
-   2 hriuuiglîco
-   2 hoscuuord
+   2 hriwiglîco
+   2 hoscword
    2 hosc
    2 holme
    2 holdlîco
@@ -2616,7 +2616,7 @@
    2 helidcunnie
    2 helen
    2 held
-   2 hebenuuange
+   2 hebenwange
    2 hebenkuning
    2 hebanriki
    2 harda
@@ -2648,7 +2648,7 @@
    2 grôto
    2 grôte
    2 griotandi
-   2 grimuuerc
+   2 grimwerc
    2 grimmun
    2 grimmaro
    2 grimma
@@ -2661,17 +2661,17 @@
    2 gornondia
    2 goldu
    2 godcundi
-   2 giuuêgid
-   2 giuuritan
-   2 giuuin
-   2 giuuerk
-   2 giuuerc
-   2 giuuer
-   2 giuueldun
-   2 giuuaro
-   2 giuuard
-   2 giuuarahta
-   2 giuuar
+   2 giwêgid
+   2 giwritan
+   2 giwin
+   2 giwerk
+   2 giwerc
+   2 giwer
+   2 giweldun
+   2 giwaro
+   2 giward
+   2 giwarahta
+   2 giwar
    2 giungaro
    2 gitôgid
    2 gitôgde
@@ -2681,8 +2681,8 @@
    2 githoloda
    2 githionod
    2 gisîd
-   2 gisâuuin
-   2 gisâuui
+   2 gisâwin
+   2 gisâwi
    2 gisâhin
    2 gisundon
    2 gisund
@@ -2714,18 +2714,18 @@
    2 gihôrienne
    2 gihôrean
    2 gihêtan
-   2 gihuuilicun
-   2 gihuues
+   2 gihwilicun
+   2 gihwes
    2 gihuggian
    2 gihugde
    2 gihues
    2 gihuemu
    2 gihue
    2 gihrôrid
-   2 gigereuuid
+   2 gigerewid
    2 gigengi
    2 gigeng
-   2 gigareuuid
+   2 gigarewid
    2 gigamalod
    2 gifuolian
    2 gifrôdod
@@ -2753,11 +2753,11 @@
    2 giblandan
    2 gibioden
    2 giac
-   2 geuuîsid
-   2 geuuîhid
-   2 geuuittea
-   2 geuuirkea
-   2 geuueldi
+   2 gewîsid
+   2 gewîhid
+   2 gewittea
+   2 gewirkea
+   2 geweldi
    2 gethîhan
    2 gethuinge
    2 gethologean
@@ -2785,14 +2785,14 @@
    2 gelde
    2 gehôrdun
    2 gehêldi
-   2 gehuuilicun
+   2 gehwilicun
    2 gehuggean
    2 gehugda
    2 gehues
    2 gehue
    2 gehan
-   2 geginuuarde
-   2 geginuuard
+   2 geginwarde
+   2 geginward
    2 gegangan
    2 gefullot
    2 gefullid
@@ -2858,7 +2858,7 @@
    2 forhta
    2 forguldi
    2 forgang
-   2 forduuard
+   2 fordward
    2 folmon
    2 folgodin
    2 folgode
@@ -2869,13 +2869,13 @@
    2 flîte
    2 flettie
    2 flettea
-   2 fiuuuar
+   2 fiwuar
    2 fiuru
    2 fitereun
    2 fisk
-   2 firinuuord
-   2 firinuuerkun
-   2 firinuuerco
+   2 firinword
+   2 firinwerkun
+   2 firinwerco
    2 firinun
    2 firihun
    2 findan
@@ -2891,7 +2891,7 @@
    2 fastoro
    2 fastnodun
    2 fasten
-   2 faruurhti
+   2 farwrhti
    2 farteride
    2 farstôd
    2 farm
@@ -2919,7 +2919,7 @@
    2 fagara
    2 facilius
    2 excellentiora
-   2 euuar
+   2 ewar
    2 etan
    2 est
    2 erstmals
@@ -3028,13 +3028,13 @@
    2 blêc
    2 bluod
    2 biûten
-   2 biuurpun
-   2 biuuand
+   2 biwrpun
+   2 biwand
    2 biun
    2 bittrun
    2 bittro
    2 biti
-   2 bithuungan
+   2 bithwngan
    2 bismersprâka
    2 bimîdanne
    2 bilûcan
@@ -3064,17 +3064,17 @@
    2 bedrogan
    2 bedon
    2 bede
-   2 baruuirdig
+   2 barwirdig
    2 barnu
    2 barmun
    2 barm
    2 barlîco
    2 baldlîco
    2 bac
-   2 auuôhs
-   2 auuinnan
-   2 auuerdian
-   2 auuardid
+   2 awôhs
+   2 awinnan
+   2 awerdian
+   2 awardid
    2 autor
    2 atogan
    2 armscapana
@@ -3096,21 +3096,21 @@
    2 anst
    2 angul
    2 aneban
-   2 anduuordiade
-   2 anduuard
+   2 andwordiade
+   2 andward
    2 andrêdun
    2 anbîtan
    2 anbudun
    2 alôsian
    2 alâten
-   2 alouualden
-   2 alouualdand
-   2 alouualdan
+   2 alowalden
+   2 alowaldand
+   2 alowaldan
    2 alomahtigon
    2 aldru
    2 aldfader
    2 aldar
-   2 alauualdan
+   2 alawaldan
    2 alaiungan
    2 ak
    2 agangan
@@ -3134,7 +3134,7 @@
    1 ûhtan
    1 ûhta
    1 ôstene
-   1 ôstaruuegun
+   1 ôstarwegun
    1 ôstane
    1 ôre
    1 ômuodi
@@ -3153,7 +3153,7 @@
    1 ôdarna
    1 ôdarlîcora
    1 ôdarlîcaron
-   1 ôdarhuuedar
+   1 ôdarhwedar
    1 ôdara
    1 ôdagumu
    1 ôdago
@@ -3165,14 +3165,14 @@
    1 îli
    1 îdale
    1 îdala
+   1 êwinom
+   1 êwiga
+   1 êwe
+   1 êwandage
+   1 êwana
+   1 êwan
+   1 êw
    1 êvan
-   1 êuuinom
-   1 êuuiga
-   1 êuue
-   1 êuuandage
-   1 êuuana
-   1 êuuan
-   1 êuu
    1 êuangelium
    1 êuan
    1 êscos
@@ -3194,7 +3194,7 @@
    1 ênige
    1 ênigaru
    1 ênigaro
-   1 ênhuuilic
+   1 ênhwilic
    1 ênhuilic
    1 ênhard
    1 ênfaldes
@@ -3213,7 +3213,7 @@
    1 êgrohtful
    1 êgen
    1 êganumu
-   1 êduuordo
+   1 êdwordo
    1 êdun
    1 êdstaf
    1 êdos
@@ -3268,6 +3268,372 @@
    1 xii
    1 xi
    1 x
+   1 wôstunnie
+   1 wôstunnea
+   1 wôstia
+   1 wôsteon
+   1 wôpit
+   1 wôpiandi
+   1 wôpiandero
+   1 wôpian
+   1 wôl
+   1 wôi
+   1 wôhsun
+   1 wôdiera
+   1 wôdiendi
+   1 wôdera
+   1 wîtnoie
+   1 wîtnodun
+   1 wîtnodi
+   1 wîtnod
+   1 wîtiu
+   1 wîte
+   1 wît
+   1 wîsumu
+   1 wîsu
+   1 wîsostun
+   1 wîsoston
+   1 wîsodun
+   1 wîso
+   1 wîslîk
+   1 wîsit
+   1 wîsien
+   1 wîsiad
+   1 wîsera
+   1 wîsen
+   1 wîseanne
+   1 wîscuning
+   1 wîsas
+   1 wîsara
+   1 wîsad
+   1 wîrôc
+   1 wînseli
+   1 wîngardun
+   1 wînberi
+   1 wîki
+   1 wîkeon
+   1 wîhrôc
+   1 wîho
+   1 wîhida
+   1 wîgsaca
+   1 wîges
+   1 wîgand
+   1 wîdost
+   1 wîdor
+   1 wîdene
+   1 wîdbrêdene
+   1 wîdbrêdan
+   1 wîdana
+   1 wîda
+   1 wîd
+   1 wîcan
+   1 wîbon
+   1 wîba
+   1 wêpin
+   1 wêpanberand
+   1 wêkmuod
+   1 wêkan
+   1 wêk
+   1 wêgos
+   1 wêgie
+   1 wêgi
+   1 wêgeat
+   1 wêgdin
+   1 wêgde
+   1 wêg
+   1 wêcan
+   1 wârum
+   1 wâru
+   1 wârlôsun
+   1 wârlogon
+   1 wârlico
+   1 wâpanthreki
+   1 wâpanberand
+   1 wânom
+   1 wânlîco
+   1 wânlîc
+   1 wânit
+   1 wânies
+   1 wânie
+   1 wâniat
+   1 wânamo
+   1 wânami
+   1 wâh
+   1 wâglîdand
+   1 wâdiu
+   1 wâdit
+   1 wuruhteon
+   1 wurtion
+   1 wurrun
+   1 wurpun
+   1 wurdin
+   1 wunnon
+   1 wunnion
+   1 wundon
+   1 wunder
+   1 wundarlîc
+   1 wrîtan
+   1 wrêka
+   1 wrêdra
+   1 wrêdoro
+   1 wrêdo
+   1 wrêdmôd
+   1 wrêdida
+   1 wrêdhugdig
+   1 wrêdero
+   1 wrêdean
+   1 wrâchi
+   1 wruogdun
+   1 wrtiun
+   1 wrtion
+   1 wrti
+   1 wrteon
+   1 wrt
+   1 wrpin
+   1 wrmi
+   1 wrm
+   1 writanan
+   1 wrisilîc
+   1 wrhteon
+   1 wrhteo
+   1 wrgil
+   1 wrekkiun
+   1 wrekkion
+   1 wrekan
+   1 wredid
+   1 wrdin
+   1 wrdgiscapu
+   1 wrdegiskefti
+   1 wrdegiscapu
+   1 wracsîdos
+   1 woroldwelon
+   1 wordwîse
+   1 wordtêcan
+   1 wordspâhe
+   1 wordquidi
+   1 wordheti
+   1 wordhelpon
+   1 wordgimerkiun
+   1 wordan
+   1 wonotsam
+   1 wonon
+   1 wonodun
+   1 wonodsaman
+   1 wonode
+   1 wonod
+   1 woldi
+   1 wolcnun
+   1 wolcne
+   1 wolcanskion
+   1 wnsama
+   1 wnon
+   1 wnode
+   1 wnod
+   1 wnnion
+   1 wnnia
+   1 wnneun
+   1 wnneono
+   1 wndroian
+   1 wndrode
+   1 wndro
+   1 wndre
+   1 wndraian
+   1 wndon
+   1 wnderquâle
+   1 wnderlîco
+   1 wnderlîc
+   1 wnde
+   1 wndartêcan
+   1 wndarquâla
+   1 wndarlîcas
+   1 wndan
+   1 wnd
+   1 wlitiscônie
+   1 wlitigost
+   1 wlitige
+   1 wlitig
+   1 wlitie
+   1 wlite
+   1 wlbos
+   1 wlbo
+   1 wlankun
+   1 wlankan
+   1 wlanka
+   1 wlank
+   1 wlanca
+   1 wittig
+   1 witon
+   1 witodes
+   1 witig
+   1 witi
+   1 witfâhit
+   1 witanne
+   1 wistes
+   1 wissungo
+   1 wissi
+   1 wissaro
+   1 wissan
+   1 wiskumo
+   1 wisbodo
+   1 wisaro
+   1 wirsiston
+   1 wirsiste
+   1 wirsa
+   1 wirs
+   1 wirrid
+   1 wirpit
+   1 wirkien
+   1 wirkian
+   1 wirkiad
+   1 wirdiga
+   1 wiopin
+   1 wiodon
+   1 wiod
+   1 wintergitalu
+   1 wintarcaldon
+   1 winnanne
+   1 winitrewa
+   1 windu
+   1 windan
+   1 wilspell
+   1 willspell
+   1 williono
+   1 willige
+   1 willeandi
+   1 wileat
+   1 wiggeo
+   1 widerwardes
+   1 widerstanden
+   1 widerstande
+   1 widersakun
+   1 widersagdi
+   1 widersacon
+   1 widersaco
+   1 widersaca
+   1 widarwerpen
+   1 widarwerpat
+   1 widarsacon
+   1 widarlâga
+   1 wibon
+   1 westrani
+   1 wester
+   1 westar
+   1 weslode
+   1 wesl
+   1 wese
+   1 wesad
+   1 wesa
+   1 wes
+   1 werun
+   1 weruldrîki
+   1 weruldi
+   1 weruld
+   1 werpe
+   1 werpan
+   1 werpad
+   1 werpa
+   1 weroldstôl
+   1 weroldscattes
+   1 weroldscat
+   1 weroldsaca
+   1 weroldlustun
+   1 weroldlusta
+   1 weroldkêsures
+   1 weroldkuninges
+   1 weroldcuningun
+   1 weroldaldar
+   1 werodo
+   1 wernie
+   1 wermien
+   1 werkeanne
+   1 werien
+   1 weride
+   1 werida
+   1 weriat
+   1 weread
+   1 were
+   1 werdskepi
+   1 werdscepi
+   1 werdoston
+   1 werdos
+   1 werdlîco
+   1 weop
+   1 weodo
+   1 weodes
+   1 wennien
+   1 wenniad
+   1 wenkid
+   1 wenkeat
+   1 wendun
+   1 wendit
+   1 wendin
+   1 wendie
+   1 wendid
+   1 wendeat
+   1 wendan
+   1 welona
+   1 wellîbes
+   1 wellun
+   1 welliat
+   1 welleo
+   1 weldon
+   1 weldes
+   1 wekidun
+   1 wehslon
+   1 wehslean
+   1 wehsal
+   1 wegas
+   1 wederwîsa
+   1 wedar
+   1 we
+   1 wataru
+   1 watara
+   1 wastum
+   1 wastmes
+   1 wastme
+   1 waruhtun
+   1 warolîco
+   1 warodun
+   1 warmien
+   1 warm
+   1 warlîco
+   1 warhtin
+   1 warhta
+   1 wardode
+   1 warbe
+   1 warahtun
+   1 waragtrewe
+   1 warag
+   1 wanscefti
+   1 wanod
+   1 wann
+   1 wangon
+   1 wanda
+   1 wancolna
+   1 wamscefti
+   1 wamscadono
+   1 wamscado
+   1 wammun
+   1 wammu
+   1 wammas
+   1 wallos
+   1 walle
+   1 wallandi
+   1 wall
+   1 waldâdeo
+   1 waldas
+   1 waldandio
+   1 waldandi
+   1 waldandas
+   1 wala
+   1 wahtun
+   1 wahte
+   1 wahsid
+   1 wah
+   1 wacot
+   1 wacon
+   1 wacogeandi
+   1 wacodun
    1 vox
    1 vomere
    1 vivere
@@ -3295,372 +3661,6 @@
    1 vasti
    1 valuit
    1 v
-   1 uuôstunnie
-   1 uuôstunnea
-   1 uuôstia
-   1 uuôsteon
-   1 uuôpit
-   1 uuôpiandi
-   1 uuôpiandero
-   1 uuôpian
-   1 uuôl
-   1 uuôi
-   1 uuôhsun
-   1 uuôdiera
-   1 uuôdiendi
-   1 uuôdera
-   1 uuîtnoie
-   1 uuîtnodun
-   1 uuîtnodi
-   1 uuîtnod
-   1 uuîtiu
-   1 uuîte
-   1 uuît
-   1 uuîsumu
-   1 uuîsu
-   1 uuîsostun
-   1 uuîsoston
-   1 uuîsodun
-   1 uuîso
-   1 uuîslîk
-   1 uuîsit
-   1 uuîsien
-   1 uuîsiad
-   1 uuîsera
-   1 uuîsen
-   1 uuîseanne
-   1 uuîscuning
-   1 uuîsas
-   1 uuîsara
-   1 uuîsad
-   1 uuîrôc
-   1 uuînseli
-   1 uuîngardun
-   1 uuînberi
-   1 uuîki
-   1 uuîkeon
-   1 uuîhrôc
-   1 uuîho
-   1 uuîhida
-   1 uuîgsaca
-   1 uuîges
-   1 uuîgand
-   1 uuîdost
-   1 uuîdor
-   1 uuîdene
-   1 uuîdbrêdene
-   1 uuîdbrêdan
-   1 uuîdana
-   1 uuîda
-   1 uuîd
-   1 uuîcan
-   1 uuîbon
-   1 uuîba
-   1 uuêpin
-   1 uuêpanberand
-   1 uuêkmuod
-   1 uuêkan
-   1 uuêk
-   1 uuêgos
-   1 uuêgie
-   1 uuêgi
-   1 uuêgeat
-   1 uuêgdin
-   1 uuêgde
-   1 uuêg
-   1 uuêcan
-   1 uuârum
-   1 uuâru
-   1 uuârlôsun
-   1 uuârlogon
-   1 uuârlico
-   1 uuâpanthreki
-   1 uuâpanberand
-   1 uuânom
-   1 uuânlîco
-   1 uuânlîc
-   1 uuânit
-   1 uuânies
-   1 uuânie
-   1 uuâniat
-   1 uuânamo
-   1 uuânami
-   1 uuâh
-   1 uuâglîdand
-   1 uuâdiu
-   1 uuâdit
-   1 uuuruhteon
-   1 uuurtion
-   1 uuurrun
-   1 uuurpun
-   1 uuurdin
-   1 uuunnon
-   1 uuunnion
-   1 uuundon
-   1 uuunder
-   1 uuundarlîc
-   1 uurîtan
-   1 uurêka
-   1 uurêdra
-   1 uurêdoro
-   1 uurêdo
-   1 uurêdmôd
-   1 uurêdida
-   1 uurêdhugdig
-   1 uurêdero
-   1 uurêdean
-   1 uurâchi
-   1 uuruogdun
-   1 uurtiun
-   1 uurtion
-   1 uurti
-   1 uurteon
-   1 uurt
-   1 uurpin
-   1 uurmi
-   1 uurm
-   1 uuritanan
-   1 uurisilîc
-   1 uurhteon
-   1 uurhteo
-   1 uurgil
-   1 uurekkiun
-   1 uurekkion
-   1 uurekan
-   1 uuredid
-   1 uurdin
-   1 uurdgiscapu
-   1 uurdegiskefti
-   1 uurdegiscapu
-   1 uuracsîdos
-   1 uuorolduuelon
-   1 uuorduuîse
-   1 uuordtêcan
-   1 uuordspâhe
-   1 uuordquidi
-   1 uuordheti
-   1 uuordhelpon
-   1 uuordgimerkiun
-   1 uuordan
-   1 uuonotsam
-   1 uuonon
-   1 uuonodun
-   1 uuonodsaman
-   1 uuonode
-   1 uuonod
-   1 uuoldi
-   1 uuolcnun
-   1 uuolcne
-   1 uuolcanskion
-   1 uunsama
-   1 uunon
-   1 uunode
-   1 uunod
-   1 uunnion
-   1 uunnia
-   1 uunneun
-   1 uunneono
-   1 uundroian
-   1 uundrode
-   1 uundro
-   1 uundre
-   1 uundraian
-   1 uundon
-   1 uunderquâle
-   1 uunderlîco
-   1 uunderlîc
-   1 uunde
-   1 uundartêcan
-   1 uundarquâla
-   1 uundarlîcas
-   1 uundan
-   1 uund
-   1 uulitiscônie
-   1 uulitigost
-   1 uulitige
-   1 uulitig
-   1 uulitie
-   1 uulite
-   1 uulbos
-   1 uulbo
-   1 uulankun
-   1 uulankan
-   1 uulanka
-   1 uulank
-   1 uulanca
-   1 uuittig
-   1 uuiton
-   1 uuitodes
-   1 uuitig
-   1 uuiti
-   1 uuitfâhit
-   1 uuitanne
-   1 uuistes
-   1 uuissungo
-   1 uuissi
-   1 uuissaro
-   1 uuissan
-   1 uuiskumo
-   1 uuisbodo
-   1 uuisaro
-   1 uuirsiston
-   1 uuirsiste
-   1 uuirsa
-   1 uuirs
-   1 uuirrid
-   1 uuirpit
-   1 uuirkien
-   1 uuirkian
-   1 uuirkiad
-   1 uuirdiga
-   1 uuiopin
-   1 uuiodon
-   1 uuiod
-   1 uuintergitalu
-   1 uuintarcaldon
-   1 uuinnanne
-   1 uuinitreuua
-   1 uuindu
-   1 uuindan
-   1 uuilspell
-   1 uuillspell
-   1 uuilliono
-   1 uuillige
-   1 uuilleandi
-   1 uuileat
-   1 uuiggeo
-   1 uuideruuardes
-   1 uuiderstanden
-   1 uuiderstande
-   1 uuidersakun
-   1 uuidersagdi
-   1 uuidersacon
-   1 uuidersaco
-   1 uuidersaca
-   1 uuidaruuerpen
-   1 uuidaruuerpat
-   1 uuidarsacon
-   1 uuidarlâga
-   1 uuibon
-   1 uuestrani
-   1 uuester
-   1 uuestar
-   1 uueslode
-   1 uuesl
-   1 uuese
-   1 uuesad
-   1 uuesa
-   1 uues
-   1 uuerun
-   1 uueruldrîki
-   1 uueruldi
-   1 uueruld
-   1 uuerpe
-   1 uuerpan
-   1 uuerpad
-   1 uuerpa
-   1 uueroldstôl
-   1 uueroldscattes
-   1 uueroldscat
-   1 uueroldsaca
-   1 uueroldlustun
-   1 uueroldlusta
-   1 uueroldkêsures
-   1 uueroldkuninges
-   1 uueroldcuningun
-   1 uueroldaldar
-   1 uuerodo
-   1 uuernie
-   1 uuermien
-   1 uuerkeanne
-   1 uuerien
-   1 uueride
-   1 uuerida
-   1 uueriat
-   1 uueread
-   1 uuere
-   1 uuerdskepi
-   1 uuerdscepi
-   1 uuerdoston
-   1 uuerdos
-   1 uuerdlîco
-   1 uueop
-   1 uueodo
-   1 uueodes
-   1 uuennien
-   1 uuenniad
-   1 uuenkid
-   1 uuenkeat
-   1 uuendun
-   1 uuendit
-   1 uuendin
-   1 uuendie
-   1 uuendid
-   1 uuendeat
-   1 uuendan
-   1 uuelona
-   1 uuellîbes
-   1 uuellun
-   1 uuelliat
-   1 uuelleo
-   1 uueldon
-   1 uueldes
-   1 uuekidun
-   1 uuehslon
-   1 uuehslean
-   1 uuehsal
-   1 uuegas
-   1 uuederuuîsa
-   1 uuedar
-   1 uue
-   1 uuataru
-   1 uuatara
-   1 uuastum
-   1 uuastmes
-   1 uuastme
-   1 uuaruhtun
-   1 uuarolîco
-   1 uuarodun
-   1 uuarmien
-   1 uuarm
-   1 uuarlîco
-   1 uuarhtin
-   1 uuarhta
-   1 uuardode
-   1 uuarbe
-   1 uuarahtun
-   1 uuaragtreuue
-   1 uuarag
-   1 uuanscefti
-   1 uuanod
-   1 uuann
-   1 uuangon
-   1 uuanda
-   1 uuancolna
-   1 uuamscefti
-   1 uuamscadono
-   1 uuamscado
-   1 uuammun
-   1 uuammu
-   1 uuammas
-   1 uuallos
-   1 uualle
-   1 uuallandi
-   1 uuall
-   1 uualdâdeo
-   1 uualdas
-   1 uualdandio
-   1 uualdandi
-   1 uualdandas
-   1 uuala
-   1 uuahtun
-   1 uuahte
-   1 uuahsid
-   1 uuah
-   1 uuacot
-   1 uuacon
-   1 uuacogeandi
-   1 uuacodun
    1 utilitates
    1 urlagi
    1 urdêlies
@@ -3671,11 +3671,11 @@
    1 unôdo
    1 unôdi
    1 unâri
-   1 unuuîson
-   1 unuuânlîc
-   1 unuuilean
-   1 unuuanda
-   1 unuuamma
+   1 unwîson
+   1 unwânlîc
+   1 unwilean
+   1 unwanda
+   1 unwamma
    1 unttat
    1 unthat
    1 unt
@@ -3690,10 +3690,10 @@
    1 unkero
    1 unhuldi
    1 unhold
-   1 ungiuuidereon
+   1 ungiwidereon
    1 ungilôbon
    1 ungilôbiga
-   1 ungeuuittigon
+   1 ungewittigon
    1 ungelîco
    1 unfuodi
    1 unefno
@@ -3701,8 +3701,8 @@
    1 undern
    1 undergripanen
    1 underbadode
-   1 undaruuitan
-   1 undaruuissin
+   1 undarwitan
+   1 undarwissin
    1 undartuisc
    1 undarthenkian
    1 undarfundin
@@ -3718,7 +3718,7 @@
    1 ubilu
    1 ubi
    1 uaas
-   1 tôuuardes
+   1 tôwardes
    1 tômean
    1 tômea
    1 tôgun
@@ -3733,6 +3733,11 @@
    1 têknun
    1 têkne
    1 têcna
+   1 twîflien
+   1 twîfli
+   1 twêna
+   1 twelibio
+   1 twehon
    1 tuô
    1 tuîflon
    1 tuîflode
@@ -3740,11 +3745,6 @@
    1 tuîflean
    1 tuêntig
    1 tuênie
-   1 tuuîflien
-   1 tuuîfli
-   1 tuuêna
-   1 tuuelibio
-   1 tuuehon
    1 tus
    1 tuomie
    1 tuomian
@@ -3764,12 +3764,12 @@
    1 trûodun
    1 trûodin
    1 trâda
-   1 triuuuiston
+   1 triwuiston
    1 trio
-   1 treuuono
-   1 treuun
-   1 treuuana
-   1 treuuafta
+   1 trewono
+   1 trewn
+   1 trewana
+   1 trewafta
    1 treulogo
    1 tresurhûs
    1 treo
@@ -3804,7 +3804,7 @@
    1 thûsundig
    1 thûhte
    1 thâ
-   1 thuruuuonodun
+   1 thurwuonodun
    1 thurugengit
    1 thurufti
    1 thurstidi
@@ -3827,7 +3827,7 @@
    1 thuahes
    1 thuahe
    1 thuahanne
-   1 thrîstuuordun
+   1 thrîstwordun
    1 thrîstmôd
    1 thrîstmuodian
    1 thrîstero
@@ -3855,8 +3855,8 @@
    1 tholian
    1 tholean
    1 tholan
-   1 thiuun
-   1 thiuu
+   1 thiwn
+   1 thiw
    1 thiustron
    1 thiustriu
    1 thiustria
@@ -3945,12 +3945,12 @@
    1 thagode
    1 thagiandi
    1 tha
-   1 teuuorpan
-   1 teuuirpit
-   1 teuuerpen
-   1 teuuerpan
+   1 teworpan
+   1 tewirpit
+   1 tewerpen
+   1 tewerpan
    1 tetri
-   1 tesuungan
+   1 teswngan
    1 testamentum
    1 testamenti
    1 testa
@@ -3998,7 +3998,7 @@
    1 sôkian
    1 sôken
    1 sôkea
-   1 sôduuordun
+   1 sôdwordun
    1 sôdspel
    1 sôdon
    1 sôdlîkes
@@ -4010,11 +4010,11 @@
    1 sînom
    1 sînera
    1 sînen
-   1 sîduuôrig
+   1 sîdwôrig
    1 sîdogean
    1 sîdes
    1 sîda
-   1 sêuue
+   1 sêwe
    1 sêu
    1 sêrur
    1 sêreg
@@ -4027,7 +4027,7 @@
    1 sêolîdandean
    1 sêlun
    1 sê
-   1 sâuun
+   1 sâwn
    1 sâton
    1 sâmquica
    1 sâligoron
@@ -4045,6 +4045,16 @@
    1 sâhin
    1 sâftur
    1 sâd
+   1 swîgoda
+   1 swîdoron
+   1 swîdor
+   1 sws
+   1 swlti
+   1 swiri
+   1 swerea
+   1 swefne
+   1 sweban
+   1 swart
    1 suôtiun
    1 suôties
    1 suôtiera
@@ -4074,16 +4084,6 @@
    1 suâroston
    1 suâro
    1 suâran
-   1 suuîgoda
-   1 suuîdoron
-   1 suuîdor
-   1 suus
-   1 suulti
-   1 suuiri
-   1 suuerea
-   1 suuefne
-   1 suueban
-   1 suuart
    1 superstitiosa
    1 suotera
    1 suos
@@ -4114,7 +4114,7 @@
    1 sumaro
    1 sumarlanges
    1 sulîcoro
-   1 suluuiad
+   1 sulwiad
    1 sulikero
    1 suliken
    1 sulike
@@ -4149,8 +4149,8 @@
    1 stôpon
    1 stôp
    1 stôdi
-   1 stênuuerco
-   1 stênuuege
+   1 stênwerco
+   1 stênwege
    1 stênon
    1 stênholm
    1 stêngrabe
@@ -4204,7 +4204,7 @@
    1 standat
    1 stac
    1 spôt
-   1 spâhuuord
+   1 spâhword
    1 spâhoston
    1 spâhlîcoro
    1 spâhiron
@@ -4222,7 +4222,7 @@
    1 sprecad
    1 spreca
    1 sprang
-   1 spiuuun
+   1 spiwun
    1 spilode
    1 spildien
    1 spildianne
@@ -4254,7 +4254,7 @@
    1 sodomoburg
    1 sodomo
    1 snîdan
-   1 snêuue
+   1 snêwe
    1 snêu
    1 snidi
    1 snellost
@@ -4262,7 +4262,7 @@
    1 smultro
    1 slôpi
    1 slôgin
-   1 slîduurdean
+   1 slîdwrdean
    1 slîdmôdig
    1 slîdmôden
    1 slîdmôde
@@ -4311,7 +4311,7 @@
    1 siola
    1 siokes
    1 siok
-   1 sinuueldi
+   1 sinweldi
    1 sinnahti
    1 sinkas
    1 singulis
@@ -4409,21 +4409,21 @@
    1 scindebat
    1 scildion
    1 scian
-   1 scauuot
-   1 scauuonne
-   1 scauuoien
+   1 scawot
+   1 scawonne
+   1 scawoien
    1 scatto
    1 scattes
    1 scarpon
    1 scarpa
    1 scard
-   1 scapuuardos
+   1 scapwardos
    1 scapu
    1 scamu
    1 scaltu
    1 scalden
    1 scafte
-   1 scadouuan
+   1 scadowan
    1 scadon
    1 saxonum
    1 saxonica
@@ -4437,7 +4437,7 @@
    1 sang
    1 sand
    1 sancte
-   1 samuuurdi
+   1 samwurdi
    1 samod
    1 samnunga
    1 samnoian
@@ -4453,7 +4453,7 @@
    1 sak
    1 sagit
    1 sagdas
-   1 sacuualdand
+   1 sacwaldand
    1 sacun
    1 sacrosanctam
    1 sacra
@@ -4583,7 +4583,6 @@
    1 promere
    1 privatam
    1 prima
-   1 poëmata
    1 potius
    1 potiora
    1 potest
@@ -4598,6 +4597,7 @@
    1 poetico
    1 poetice
    1 poematis
+   1 poemata
    1 plurimas
    1 pisset
    1 piissimus
@@ -4676,7 +4676,7 @@
    1 nîdhugi
    1 nîdes
    1 nîde
-   1 nêthuuanan
+   1 nêthwanan
    1 nênig
    1 nên
    1 nâmon
@@ -4702,15 +4702,15 @@
    1 nociva
    1 noban
    1 niênumu
-   1 niuuun
-   1 niuuon
-   1 niuua
+   1 niwun
+   1 niwon
+   1 niwa
    1 niuson
    1 niusien
    1 niudsamna
    1 niudlico
    1 nist
-   1 niouuiht
+   1 niowiht
    1 niotan
    1 nioman
    1 nimu
@@ -4727,14 +4727,14 @@
    1 nigunda
    1 niguda
    1 nigiênumu
-   1 nieuuiht
+   1 niewiht
    1 nidfolc
    1 nidara
    1 nidana
    1 nid
    1 niate
    1 nia
-   1 neuuiht
+   1 newiht
    1 nettiu
    1 neriondio
    1 neriendion
@@ -4761,7 +4761,7 @@
    1 nazarethburh
    1 nascentis
    1 naru
-   1 narouuaro
+   1 narowaro
    1 narauo
    1 namono
    1 namen
@@ -4800,7 +4800,7 @@
    1 mêriaro
    1 mêran
    1 mênêdos
-   1 mênuuerc
+   1 mênwerc
    1 mênsprâca
    1 mênsculdio
    1 mênsculdeo
@@ -4810,12 +4810,12 @@
    1 mênis
    1 mênigithâhtio
    1 mênhuaton
-   1 mêngiuuerk
+   1 mêngiwerk
    1 mêngithâhtio
    1 mêngithâhti
    1 mêngithâhteo
    1 mêngithâht
-   1 mêngeuuitun
+   1 mêngewitun
    1 mênful
    1 mênean
    1 mêndâdigan
@@ -4871,7 +4871,7 @@
    1 morgantîd
    1 morem
    1 more
-   1 morduuerk
+   1 mordwerk
    1 mordhugi
    1 moraganstunda
    1 mora
@@ -4962,7 +4962,7 @@
    1 marcon
    1 marcoda
    1 marca
-   1 manuuerot
+   1 manwerot
    1 mansterbono
    1 manslahta
    1 manot
@@ -5010,8 +5010,8 @@
    1 macode
    1 maco
    1 lût
-   1 lôsuuord
-   1 lôsuuerc
+   1 lôsword
+   1 lôswerc
    1 lôsot
    1 lôson
    1 lôsie
@@ -5032,7 +5032,7 @@
    1 lînod
    1 lînin
    1 lîne
-   1 lîkuundon
+   1 lîkwndon
    1 lîkhamon
    1 lîkhamo
    1 lîkhamen
@@ -5069,8 +5069,8 @@
    1 lêhneon
    1 lêfna
    1 lêf
-   1 lêduuerk
-   1 lêduuerco
+   1 lêdwerk
+   1 lêdwerco
    1 lêdosten
    1 lêdoro
    1 lêdlîco
@@ -5125,7 +5125,7 @@
    1 luggeon
    1 lufte
    1 luft
-   1 ludouuicus
+   1 ludowicus
    1 lud
    1 lucide
    1 lucet
@@ -5135,14 +5135,14 @@
    1 loth
    1 loquens
    1 lognu
-   1 lofuuord
+   1 lofword
    1 lofsâlig
    1 lofsamost
    1 lobode
    1 lobe
    1 liv
    1 liuhte
-   1 liuduueros
+   1 liudweros
    1 liudun
    1 liudstamna
    1 liudskepies
@@ -5185,7 +5185,7 @@
    1 liggead
    1 lieben
    1 lieba
-   1 liduuuastmon
+   1 lidwuastmon
    1 lidubendiun
    1 lidon
    1 lidokospun
@@ -5264,9 +5264,9 @@
    1 langes
    1 langerun
    1 langaru
-   1 landuuîsun
-   1 landuuîsu
-   1 landuuîsa
+   1 landwîsun
+   1 landwîsu
+   1 landwîsa
    1 landun
    1 landskepiun
    1 landskepea
@@ -5356,18 +5356,18 @@
    1 iâmar
    1 iâ
    1 ix
+   1 iwuoru
+   1 iwuomo
+   1 iwun
+   1 iwuen
+   1 iwuaru
+   1 iwuana
+   1 iwes
+   1 iwan
+   1 iwa
+   1 iw
    1 iv
    1 iuvencos
-   1 iuuuoru
-   1 iuuuomo
-   1 iuuun
-   1 iuuuen
-   1 iuuuaru
-   1 iuuuana
-   1 iuues
-   1 iuuan
-   1 iuua
-   1 iuu
    1 iussis
    1 iungurun
    1 iungrun
@@ -5397,14 +5397,14 @@
    1 ionases
    1 iohannen
    1 iohanne
+   1 inwidsprâca
+   1 inwidrâdos
+   1 inwidnîd
+   1 inwiddies
    1 invidus
    1 invidiosus
    1 invidi
    1 invenire
-   1 inuuidsprâca
-   1 inuuidrâdos
-   1 inuuidnîd
-   1 inuuiddies
    1 interprete
    1 interpretando
    1 interdum
@@ -5464,17 +5464,17 @@
    1 hôfslaga
    1 hôf
    1 hôbun
-   1 hôbiduundon
+   1 hôbidwndon
    1 hôbidstedi
    1 hôbidmâl
    1 hôbidband
    1 hôbdes
    1 hôbda
-   1 hîuuon
-   1 hîuun
-   1 hîuuiskeas
-   1 hîuuiscas
-   1 hîuuisca
+   1 hîwon
+   1 hîwn
+   1 hîwiskeas
+   1 hîwiscas
+   1 hîwisca
    1 hêtin
    1 hêtean
    1 hêrrosto
@@ -5522,31 +5522,31 @@
    1 hâf
    1 hâbon
    1 hâbaro
+   1 hwîton
+   1 hwîlu
+   1 hwîlon
+   1 hwîle
+   1 hwirbid
+   1 hwilike
+   1 hwilicun
+   1 hwilicumu
+   1 hwilico
+   1 hwes
+   1 hwergin
+   1 hwerbe
+   1 hweder
+   1 hwedar
+   1 hwargin
+   1 hwarf
+   1 hwarbos
+   1 hwanna
+   1 hwande
+   1 hwan
    1 huîtaro
    1 huîlu
    1 huîlon
    1 huîle
    1 huîl
-   1 huuîton
-   1 huuîlu
-   1 huuîlon
-   1 huuîle
-   1 huuirbid
-   1 huuilike
-   1 huuilicun
-   1 huuilicumu
-   1 huuilico
-   1 huues
-   1 huuergin
-   1 huuerbe
-   1 huueder
-   1 huuedar
-   1 huuargin
-   1 huuarf
-   1 huuarbos
-   1 huuanna
-   1 huuande
-   1 huuan
    1 hurh
    1 huoti
    1 huof
@@ -5596,7 +5596,7 @@
    1 hrômag
    1 hrînen
    1 hrînan
-   1 hrêogiuuâdi
+   1 hrêogiwâdi
    1 hrêobeddion
    1 hrêni
    1 hrênea
@@ -5605,17 +5605,17 @@
    1 hrêan
    1 hruoru
    1 hrosso
-   1 hriuuigmôde
-   1 hriuuigmuoda
-   1 hriuui
+   1 hriwigmôde
+   1 hriwigmuoda
+   1 hriwi
    1 hriuonda
    1 hrisidun
    1 hrisid
    1 hriopin
-   1 hreuuen
+   1 hrewen
    1 hrau
    1 hoskes
-   1 hoscuuordun
+   1 hoscwordun
    1 hoscu
    1 horu
    1 horsca
@@ -5627,13 +5627,13 @@
    1 holden
    1 holda
    1 hogdun
-   1 hofuuard
+   1 hofward
    1 hofno
    1 hof
    1 hlûdost
    1 hlôtos
    1 hlôgun
-   1 hlêuue
+   1 hlêwe
    1 hlêo
    1 hlutun
    1 hluttrun
@@ -5657,7 +5657,7 @@
    1 hinfard
    1 hinenfard
    1 hindag
-   1 himiluuolcnun
+   1 himilwolcnun
    1 himiltungal
    1 himilrîkies
    1 himilrîkie
@@ -5689,7 +5689,7 @@
    1 herudrôrag
    1 herubendion
    1 hertcara
-   1 heroduuardes
+   1 herodwardes
    1 herodes
    1 heriu
    1 heritogono
@@ -5706,10 +5706,10 @@
    1 help
    1 helmgitrôsteon
    1 helmberandero
-   1 helliuuîti
+   1 helliwîti
    1 helliun
    1 helligrund
-   1 helligithuuing
+   1 helligithwing
    1 helligethuing
    1 helldoron
    1 helidhelme
@@ -5719,8 +5719,8 @@
    1 heldin
    1 heftun
    1 hebig
-   1 hebenuuardos
-   1 hebenuuang
+   1 hebenwardos
+   1 hebenwang
    1 hebentungal
    1 hebenrîkies
    1 hebenrîkie
@@ -5740,11 +5740,11 @@
    1 hatoda
    1 hatandiero
    1 hatan
-   1 harmuuerc
+   1 harmwerc
    1 harmscare
    1 harmo
    1 harmlîc
-   1 harmgeuurhti
+   1 harmgewrhti
    1 harme
    1 harma
    1 hardon
@@ -5762,8 +5762,8 @@
    1 hando
    1 handmagen
    1 handi
-   1 handgiuuerk
-   1 handgiuuerc
+   1 handgiwerk
+   1 handgiwerc
    1 handgeba
    1 handcrafti
    1 handcraft
@@ -5794,7 +5794,7 @@
    1 gômono
    1 gômid
    1 gômian
-   1 gôduuilligun
+   1 gôdwilligun
    1 gôdum
    1 gôdsprâkea
    1 gôdlîcora
@@ -5854,7 +5854,7 @@
    1 griote
    1 griotand
    1 griolîco
-   1 grimuuerk
+   1 grimwerk
    1 grimmora
    1 grimmo
    1 grimmid
@@ -5872,19 +5872,19 @@
    1 grama
    1 grabu
    1 grabo
-   1 gornuuordun
-   1 gornuuord
+   1 gornwordun
+   1 gornword
    1 gornundie
    1 gornundi
    1 gornond
    1 gornode
    1 gornoda
    1 gomo
-   1 golduuelo
+   1 goldwelo
    1 goldfatun
-   1 goduuuebbiu
+   1 godwuebbiu
    1 godspell
-   1 godouuebbiu
+   1 godowebbiu
    1 godkundi
    1 godcundes
    1 godcund
@@ -5892,11 +5892,11 @@
    1 glîtandi
    1 glîmo
    1 gloria
-   1 glauuuoro
-   1 glauuue
-   1 glauuua
-   1 glauue
-   1 glauuan
+   1 glawuoro
+   1 glawue
+   1 glawua
+   1 glawe
+   1 glawan
    1 gladmôdie
    1 gladmôd
    1 giôgit
@@ -5907,56 +5907,56 @@
    1 giâmermôde
    1 giâmarlîcara
    1 giâmar
-   1 giuuîtit
-   1 giuuîsean
-   1 giuuîsdun
-   1 giuuîsde
-   1 giuuîsda
-   1 giuuîsan
-   1 giuuîhit
-   1 giuuêdie
-   1 giuuâron
-   1 giuuârea
-   1 giuuâpnion
-   1 giuuâdiun
-   1 giuuâdion
-   1 giuuâdio
-   1 giuurêt
-   1 giuuorrid
-   1 giuuorran
-   1 giuuorden
-   1 giuuordan
-   1 giuuonoda
-   1 giuuno
-   1 giuunnan
-   1 giuulenkid
-   1 giuuitties
-   1 giuuitteo
-   1 giuuitteas
-   1 giuuirkenne
-   1 giuuirdid
-   1 giuuinnan
-   1 giuuernidun
-   1 giuuerkot
-   1 giuuerkod
-   1 giuuerkes
-   1 giuuerdot
-   1 giuuerdad
-   1 giuuercod
-   1 giuuenid
-   1 giuuendit
-   1 giuuendien
-   1 giuuendidan
-   1 giuueldig
-   1 giuueldi
-   1 giuuehslod
-   1 giuuardon
-   1 giuuardod
-   1 giuuarahtes
-   1 giuuaragean
-   1 giuualdid
-   1 giuualde
-   1 giuuahsanes
+   1 giwîtit
+   1 giwîsean
+   1 giwîsdun
+   1 giwîsde
+   1 giwîsda
+   1 giwîsan
+   1 giwîhit
+   1 giwêdie
+   1 giwâron
+   1 giwârea
+   1 giwâpnion
+   1 giwâdiun
+   1 giwâdion
+   1 giwâdio
+   1 giwrêt
+   1 giworrid
+   1 giworran
+   1 giworden
+   1 giwordan
+   1 giwonoda
+   1 giwno
+   1 giwnnan
+   1 giwlenkid
+   1 giwitties
+   1 giwitteo
+   1 giwitteas
+   1 giwirkenne
+   1 giwirdid
+   1 giwinnan
+   1 giwernidun
+   1 giwerkot
+   1 giwerkod
+   1 giwerkes
+   1 giwerdot
+   1 giwerdad
+   1 giwercod
+   1 giwenid
+   1 giwendit
+   1 giwendien
+   1 giwendidan
+   1 giweldig
+   1 giweldi
+   1 giwehslod
+   1 giwardon
+   1 giwardod
+   1 giwarahtes
+   1 giwaragean
+   1 giwaldid
+   1 giwalde
+   1 giwahsanes
    1 giudeono
    1 giudeo
    1 gitôh
@@ -5967,7 +5967,7 @@
    1 gitrûon
    1 gitrûoian
    1 gitrûoda
-   1 gitriuuiston
+   1 gitriwiston
    1 githîhan
    1 githuldion
    1 githuldeon
@@ -5999,7 +5999,7 @@
    1 gisêrit
    1 gisêrid
    1 gisêgid
-   1 gisâuun
+   1 gisâwn
    1 gisâun
    1 gisuîcan
    1 gisuêk
@@ -6024,7 +6024,7 @@
    1 gisihit
    1 gisidon
    1 gisidea
-   1 giseuuan
+   1 gisewan
    1 gisettun
    1 gisetta
    1 giseten
@@ -6052,7 +6052,7 @@
    1 girâdan
    1 girstin
    1 girnean
-   1 giriuuan
+   1 giriwan
    1 giquâdi
    1 giquelmid
    1 giqueden
@@ -6129,16 +6129,16 @@
    1 gihôrianne
    1 gihôrian
    1 gihôbin
-   1 gihîuuida
+   1 gihîwida
    1 gihêtun
    1 gihêrodo
    1 gihêrod
-   1 gihuuorban
-   1 gihuuilikes
-   1 gihuuilig
-   1 gihuuilicum
-   1 gihuuena
-   1 gihuue
+   1 gihworban
+   1 gihwilikes
+   1 gihwilig
+   1 gihwilicum
+   1 gihwena
+   1 gihwe
    1 gihuilikes
    1 gihuilicun
    1 gihuilicumu
@@ -6163,7 +6163,7 @@
    1 gihelpat
    1 gihelpan
    1 giheld
-   1 gihauuuan
+   1 gihawuan
    1 gihaloden
    1 gihalode
    1 gihaldit
@@ -6173,7 +6173,7 @@
    1 gigômean
    1 gigirnan
    1 gigeban
-   1 gigaruuuenne
+   1 gigarwuenne
    1 gigangen
    1 gigangan
    1 gigadon
@@ -6271,53 +6271,53 @@
    1 giarmod
    1 gialdrod
    1 gia
-   1 geuuîtnon
-   1 geuuîsien
-   1 geuuîsean
-   1 geuuîsde
-   1 geuuîsadin
-   1 geuuîhad
-   1 geuuêdea
-   1 geuuâdies
-   1 geuuâdeon
-   1 geuuâdeo
-   1 geuuâdeas
-   1 geuuriten
-   1 geuurhtiun
-   1 geuurhti
-   1 geuurhteo
-   1 geuuredien
-   1 geuuono
-   1 geuunstes
-   1 geuunst
-   1 geuunodun
-   1 geuuno
-   1 geuunnun
-   1 geuunnin
-   1 geuunnan
-   1 geuuitteu
-   1 geuuitskepie
-   1 geuuitskepi
-   1 geuuitscepies
-   1 geuuirkiad
-   1 geuuirken
-   1 geuuirkeat
-   1 geuuirkead
-   1 geuuirdid
-   1 geuuinnen
-   1 geuuinnan
-   1 geuuerdod
-   1 geuuerdan
-   1 geuueldid
-   1 geuueld
-   1 geuuarhten
-   1 geuuarhtan
-   1 geuuarhta
-   1 geuuarht
-   1 geuuar
-   1 geuuand
-   1 geuualdon
-   1 geuualdan
+   1 gewîtnon
+   1 gewîsien
+   1 gewîsean
+   1 gewîsde
+   1 gewîsadin
+   1 gewîhad
+   1 gewêdea
+   1 gewâdies
+   1 gewâdeon
+   1 gewâdeo
+   1 gewâdeas
+   1 gewriten
+   1 gewrhtiun
+   1 gewrhti
+   1 gewrhteo
+   1 gewredien
+   1 gewono
+   1 gewnstes
+   1 gewnst
+   1 gewnodun
+   1 gewno
+   1 gewnnun
+   1 gewnnin
+   1 gewnnan
+   1 gewitteu
+   1 gewitskepie
+   1 gewitskepi
+   1 gewitscepies
+   1 gewirkiad
+   1 gewirken
+   1 gewirkeat
+   1 gewirkead
+   1 gewirdid
+   1 gewinnen
+   1 gewinnan
+   1 gewerdod
+   1 gewerdan
+   1 geweldid
+   1 geweld
+   1 gewarhten
+   1 gewarhtan
+   1 gewarhta
+   1 gewarht
+   1 gewar
+   1 gewand
+   1 gewaldon
+   1 gewaldan
    1 getôgdi
    1 getôgda
    1 getuîflid
@@ -6328,7 +6328,7 @@
    1 getiunean
    1 getimbrod
    1 gethâhti
-   1 gethuuing
+   1 gethwing
    1 gethuldiun
    1 gethringe
    1 gethringan
@@ -6393,11 +6393,11 @@
    1 gerne
    1 gerna
    1 germanicam
-   1 geriuuide
+   1 geriwide
    1 gerihti
    1 geriedi
-   1 gereuuidun
-   1 gereuuidin
+   1 gerewidun
+   1 gerewidin
    1 gequeden
    1 geotan
    1 geoponot
@@ -6405,7 +6405,7 @@
    1 genâhit
    1 genâdig
    1 gente
-   1 genouuer
+   1 genower
    1 geniudot
    1 genimid
    1 gengin
@@ -6431,7 +6431,7 @@
    1 gelêrid
    1 gelâten
    1 gelpes
-   1 gelouuo
+   1 gelowo
    1 geliuhte
    1 gelico
    1 geldes
@@ -6455,13 +6455,13 @@
    1 gehêli
    1 gehêleanne
    1 gehêlean
-   1 gehuuilicumu
-   1 gehuuilicu
-   1 gehuuilicomu
-   1 gehuuilico
-   1 gehuuilicas
-   1 gehuuat
-   1 gehuuane
+   1 gehwilicumu
+   1 gehwilicu
+   1 gehwilicomu
+   1 gehwilico
+   1 gehwilicas
+   1 gehwat
+   1 gehwane
    1 gehungrean
    1 gehuiliken
    1 gehuilicum
@@ -6483,12 +6483,12 @@
    1 gehaldan
    1 gehalan
    1 geha
-   1 geginuuerd
-   1 geginuuardun
-   1 geginuuardan
-   1 gegaruuui
-   1 gegariuuit
-   1 gegariuui
+   1 geginwerd
+   1 geginwardun
+   1 geginwardan
+   1 gegarwui
+   1 gegariwit
+   1 gegariwi
    1 gefôri
    1 gefôrea
    1 gefullod
@@ -6553,11 +6553,11 @@
    1 gat
    1 gastselie
    1 gastiun
-   1 garuuuian
-   1 garouues
-   1 garouua
+   1 garwuian
+   1 garowes
+   1 garowa
    1 garolîco
-   1 gareuuea
+   1 garewea
    1 gardari
    1 gard
    1 gangu
@@ -6670,8 +6670,8 @@
    1 friundskepi
    1 friundscipi
    1 friunda
-   1 friduuuîha
-   1 friduuuâra
+   1 fridwuîha
+   1 fridwuâra
    1 fridusama
    1 fridugumono
    1 fridodi
@@ -6684,10 +6684,10 @@
    1 fratoon
    1 fratoo
    1 forûtar
-   1 foruuerkot
+   1 forwerkot
    1 fortunam
-   1 forsâuun
-   1 forsuuêp
+   1 forsâwn
+   1 forswêp
    1 forsuerie
    1 forstandan
    1 forspanan
@@ -6705,7 +6705,7 @@
    1 forlâtid
    1 forlâten
    1 forlâtad
-   1 forliuuan
+   1 forliwan
    1 forhugi
    1 forhtodin
    1 forhtlîcost
@@ -6724,9 +6724,9 @@
    1 forfengin
    1 forfangan
    1 foren
-   1 forduuerdes
-   1 forduuerd
-   1 forduuegos
+   1 fordwerdes
+   1 fordwerd
+   1 fordwegos
    1 forduolon
    1 fordrêf
    1 fordrun
@@ -6748,7 +6748,7 @@
    1 folgo
    1 folgan
    1 folda
-   1 folcuueros
+   1 folcweros
    1 folctogun
    1 folctogen
    1 folcscipie
@@ -6767,18 +6767,18 @@
    1 fliutid
    1 flioten
    1 flet
-   1 fiuuartig
-   1 fiuuariun
+   1 fiwartig
+   1 fiwariun
    1 fiure
    1 fiteriun
    1 fisknet
    1 fiscodun
    1 fiscari
    1 firion
-   1 firinuuerko
-   1 firinuuerk
-   1 firinuuercun
-   1 firinuuercon
+   1 firinwerko
+   1 firinwerk
+   1 firinwercun
+   1 firinwercon
    1 firinsundeon
    1 firinquâla
    1 firinquidi
@@ -6795,14 +6795,14 @@
    1 finem
    1 findis
    1 findat
-   1 filuuuîse
-   1 filuuuîs
+   1 filwuîse
+   1 filwuîs
    1 fillian
    1 fiartig
    1 feteros
    1 fessa
    1 ferunt
-   1 ferruuegos
+   1 ferrwegos
    1 ferristan
    1 ferrene
    1 ferrane
@@ -6853,18 +6853,18 @@
    1 fastnode
    1 fastes
    1 farûter
-   1 faruuîsien
-   1 faruuorpen
-   1 faruuirkien
-   1 faruuinnen
-   1 faruuerpa
-   1 faruuernien
-   1 faruuerkot
-   1 faruuerkod
-   1 faruuarhti
-   1 faruuarhten
-   1 faruuardot
-   1 faruuard
+   1 farwîsien
+   1 farworpen
+   1 farwirkien
+   1 farwinnen
+   1 farwerpa
+   1 farwernien
+   1 farwerkot
+   1 farwerkod
+   1 farwarhti
+   1 farwarhten
+   1 farwardot
+   1 farward
    1 fartalda
    1 farstôdun
    1 farstôdi
@@ -6877,7 +6877,7 @@
    1 farsliti
    1 farslitan
    1 farsihit
-   1 farseuuana
+   1 farsewana
    1 farscundid
    1 farnimid
    1 farmôdat
@@ -6904,8 +6904,8 @@
    1 farlorana
    1 farloran
    1 farlora
-   1 farliuui
-   1 farliuuan
+   1 farliwi
+   1 farliwan
    1 farliosen
    1 farliosat
    1 farlihi
@@ -6918,7 +6918,7 @@
    1 farhuerbid
    1 farholen
    1 farhogdun
-   1 farhauuan
+   1 farhawan
    1 farhardod
    1 fargûmon
    1 fargâtun
@@ -6973,7 +6973,7 @@
    1 exiguo
    1 excellentia
    1 ex
-   1 euues
+   1 ewes
    1 eundem
    1 etiam
    1 esset
@@ -6992,7 +6992,7 @@
    1 erdlîbigiscapu
    1 erdgrabe
    1 erdbûandiun
-   1 erbiuuardos
+   1 erbiwardos
    1 erbi
    1 erat
    1 er
@@ -7065,8 +7065,8 @@
    1 dêliad
    1 dêldun
    1 dêl
+   1 dwalm
    1 duxit
-   1 duualm
    1 durdu
    1 duomos
    1 duomdag
@@ -7188,7 +7188,7 @@
    1 decerpens
    1 dam
    1 dalun
-   1 daguuerkes
+   1 dagwerkes
    1 dagthingi
    1 dagskîmon
    1 dagas
@@ -7214,9 +7214,9 @@
    1 cunnun
    1 cunnes
    1 cunneo
-   1 cuninguuîsun
-   1 cuninguuîsu
-   1 cuninguuîsa
+   1 cuningwîsun
+   1 cuningwîsu
+   1 cuningwîsa
    1 cuningsterron
    1 cuningrîkeo
    1 cuningduomes
@@ -7344,7 +7344,7 @@
    1 bâron
    1 bârin
    1 bâmo
-   1 bâguuiniun
+   1 bâgwiniun
    1 bâggebon
    1 bâg
    1 bâdi
@@ -7415,24 +7415,24 @@
    1 blinda
    1 blicsmun
    1 bladu
-   1 biuuânis
-   1 biuuorpen
-   1 biuundan
-   1 biuuiepi
-   1 biuuerpan
-   1 biuuerien
-   1 biuuerid
-   1 biuueri
-   1 biuuendid
-   1 biuuarp
-   1 biuuardon
+   1 biwânis
+   1 biworpen
+   1 biwndan
+   1 biwiepi
+   1 biwerpan
+   1 biwerien
+   1 biwerid
+   1 biweri
+   1 biwendid
+   1 biwarp
+   1 biwardon
    1 bittren
    1 bittran
    1 bittara
    1 bittar
    1 bithîhan
-   1 bithuungen
-   1 bithuungana
+   1 bithwngen
+   1 bithwngana
    1 bithurbun
    1 bithorftin
    1 bitherbi
@@ -7443,11 +7443,11 @@
    1 bitengi
    1 bitengea
    1 bitar
+   1 biswîca
+   1 biswêc
    1 bisuôr
    1 bisuêk
    1 bisuêc
-   1 bisuuîca
-   1 bisuuêc
    1 bistêd
    1 bisprâkun
    1 bisprak
@@ -7484,14 +7484,14 @@
    1 bil
    1 bikonsti
    1 biklemmid
-   1 bihêtuuord
+   1 bihêtword
    1 bihêt
+   1 bihwerban
    1 bihuî
-   1 bihuuerban
    1 bihlîdan
    1 bihlagan
    1 bihinden
-   1 bihauuuan
+   1 bihawuan
    1 bihangen
    1 bihaldan
    1 bihagod
@@ -7532,20 +7532,20 @@
    1 biboda
    1 bibod
    1 beztun
-   1 beuurpun
-   1 beuuod
-   1 beuuo
-   1 beuunden
-   1 beuuarp
+   1 bewrpun
+   1 bewod
+   1 bewo
+   1 bewnden
+   1 bewarp
    1 bethîhan
-   1 bethuungen
-   1 bethuungan
+   1 bethwngen
+   1 bethwngan
    1 bethlemaburg
    1 beteron
    1 beteran
    1 betaron
    1 betaran
-   1 besuuîcan
+   1 beswîcan
    1 besunki
    1 besuican
    1 beston
@@ -7570,7 +7570,7 @@
    1 benkia
    1 benki
    1 benkeon
-   1 beniuundun
+   1 beniwndun
    1 benidiun
    1 benevolus
    1 benevolentia
@@ -7583,8 +7583,8 @@
    1 belgan
    1 beldide
    1 beidero
-   1 behuuî
-   1 behuuelbean
+   1 behwî
+   1 behwelbean
    1 behuiu
    1 behrên
    1 behangan
@@ -7606,7 +7606,7 @@
    1 bedrôragad
    1 bedos
    1 bedo
-   1 bedgiuuâdi
+   1 bedgiwâdi
    1 bedelban
    1 beddiu
    1 bedan
@@ -7622,16 +7622,16 @@
    1 banono
    1 banedi
    1 ban
-   1 baluuuîti
-   1 baluuues
-   1 baluuuercun
-   1 baluuuerco
+   1 balwuîti
+   1 balwues
+   1 balwuercun
+   1 balwuerco
    1 balusuhteo
    1 balusprâca
    1 baluhugdig
    1 baludâdi
-   1 balouuîso
-   1 balouues
+   1 balowîso
+   1 balowes
    1 balosprâka
    1 balohûdig
    1 balda
@@ -7639,25 +7639,25 @@
    1 balcon
    1 baka
    1 bado
+   1 awôstiad
+   1 awîsien
+   1 awîsan
+   1 awrpin
+   1 awirdid
+   1 awerpan
+   1 awerdit
+   1 awerdiat
+   1 awerda
+   1 awellun
+   1 awekkian
+   1 awekide
+   1 awekid
+   1 awardien
+   1 awardiad
+   1 awardean
+   1 awahsane
+   1 awahsan
    1 averni
-   1 auuôstiad
-   1 auuîsien
-   1 auuîsan
-   1 auurpin
-   1 auuirdid
-   1 auuerpan
-   1 auuerdit
-   1 auuerdiat
-   1 auuerda
-   1 auuellun
-   1 auuekkian
-   1 auuekide
-   1 auuekid
-   1 auuardien
-   1 auuardiad
-   1 auuardean
-   1 auuahsane
-   1 auuahsan
    1 augustus
    1 augendo
    1 audientibus
@@ -7700,7 +7700,7 @@
    1 arma
    1 arihtien
    1 arihtid
-   1 arduum
+   1 ardwm
    1 ardon
    1 ardentius
    1 ardentem
@@ -7718,7 +7718,7 @@
    1 arbed
    1 aratro
    1 aramun
-   1 arabiduuerco
+   1 arabidwerco
    1 arabedie
    1 arabedi
    1 aquicot
@@ -7726,10 +7726,10 @@
    1 apud
    1 appetat
    1 appellare
-   1 anuuendean
-   1 antuuordida
-   1 antuundun
-   1 antuuarp
+   1 anwendean
+   1 antwordida
+   1 antwndun
+   1 antwarp
    1 antsuôr
    1 antsuok
    1 antstanden
@@ -7748,7 +7748,7 @@
    1 antkenniad
    1 antkennead
    1 antkennan
-   1 antiquum
+   1 antiqwm
    1 anthêttea
    1 anthêti
    1 anthrên
@@ -7794,9 +7794,9 @@
    1 angeldan
    1 angegen
    1 andôn
-   1 anduurdi
-   1 anduuordidun
-   1 anduuarda
+   1 andwrdi
+   1 andwordidun
+   1 andwarda
    1 andun
    1 andsacun
    1 andsacon
@@ -7902,8 +7902,8 @@
    1 agaf
    1 afêhit
    1 aftîhe
-   1 aftaruuarodun
-   1 aftaruuarode
+   1 aftarwarodun
+   1 aftarwarode
    1 aftan
    1 afsôf
    1 afsôbun

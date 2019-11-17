@@ -3,6 +3,7 @@ import sys
 ##print ("Number of arguments: ", len(sys.argv))
 ##print ("The arguments are: " , str(sys.argv))
 
+POS=sys.argv[1]
 lemmas = []
 lemmas_cleaned = []
 definitions = []
@@ -25,7 +26,7 @@ for char in alphabet:
 
 
 POS_tags = ['as., st. V. (1)', 'as., st. V. (2)', 'as., st. V. (3a)', 'as., st. V. (3b)', 'as., st. V. (4)', 'as., st. V. (5)', 'as., st. V. (6)', 'as., st. V. (7)', \
-'as., sw. V. (1a)', 'as., sw. V. (1b)', 'as., sw. V. (2)', \
+'as., sw. V. (1', 'as., sw. V. (1a)', 'as., sw. V. (1b)', 'as., sw. V. (2)', \
 'as., red. V.',\
 'as., st. M. (a)', 'as., st. N. (a)', 'as., st. M. (ja)', 'as., st. N. (ja)', 'as., st. M. (wa)', 'as., st. N. (wa)', \
 'as., Präp.',
@@ -55,6 +56,21 @@ def dict_scrape(POS, dictionaryfile='as_kurzform.txt'):
     return lemmas_cleaned
 
 dict_scrape(sys.argv[1])
+
+#weak verbs 1b, specifically the short stems
+#for now, collapse; fix later:
+with open(POS[5:]+'_ready-for-import','w+') as to_write:
+    i=0
+    while i < len(lemmas):
+        to_write.write(lemmas_cleaned[i][:-1]+"%<v%>%<wk%>%<1%>:"+lemmas_cleaned[i][:-4]+' WK1'+\
+                       "\t\t ; !" + lemmas[i])
+        i=i+1
+4
+
+
+
+
+
 
 ###encode masculine a-stem nouns for LEXICON:
 ##with open(POS[5:]+'_ready-for-import','w+') as to_write:
@@ -169,13 +185,13 @@ dict_scrape(sys.argv[1])
 ##        i=i+1
 
 #neuter
-with open('st. N. (i)_ready-for-import','w+') as to_write:
-    i=0
-#Short:
-    while i < len(lemmas_cleaned):
-        if lemmas_cleaned[i][-2]=='i':
-            to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<neut%>%<i-stem%>:'+lemmas_cleaned[i][:-2]+'\tNeut-I-Stem-Short \t\t; ! ' + lemmas[i].replace('\n','') + '\n')
-#Long
-        else:
-            to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<neut%>%<i-stem%>:'+lemmas_cleaned[i][:-1]+'\tNeut-I-Stem-Long \t\t; ! ' + lemmas[i].replace('\n','') + '\n')
-        i=i+1
+##with open('st. N. (i)_ready-for-import','w+') as to_write:
+##    i=0
+###Short:
+##    while i < len(lemmas_cleaned):
+##        if lemmas_cleaned[i][-2]=='i':
+##            to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<neut%>%<i-stem%>:'+lemmas_cleaned[i][:-2]+'\tNeut-I-Stem-Short \t\t; ! ' + lemmas[i].replace('\n','') + '\n')
+###Long
+##        else:
+##            to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<neut%>%<i-stem%>:'+lemmas_cleaned[i][:-1]+'\tNeut-I-Stem-Long \t\t; ! ' + lemmas[i].replace('\n','') + '\n')
+##        i=i+1
