@@ -8,8 +8,8 @@ covered_unique_words  = []
 covered_total_words = []
 heliand_total_words = []
 
-heliand = 'heliand/hel-unique-tokens.txt'
-heliand_total = 'heliand/hel-tokenized.txt'
+heliand = 'heliand/hel-unique-tokens-clean.txt'
+heliand_total = 'heliand/hel-tokenized-clean.txt'
 muspilli= 'forms.txt'
 
 with open(muspilli, 'r', newline='\n') as mfile:
@@ -49,3 +49,8 @@ with open('coverage.txt', 'w') as to_write:
       str(len(covered_unique_words)) + " forms, or "+str(unique_coverage)+"%\n\n") 
     to_write.write("Of the "+str(len(heliand_total_words))+" total tokens in the Hêliand, Muspilli contains " +\
       str(len(covered_total_words)) + " forms, or "+str(total_coverage)+"%\n\n")
+
+
+
+
+#cat hel-tokenized.txt | gsed s/'ë'/'e'/g | gsed s/'ī'/'î'/g |gsed s/'ē'/'ê'/g | gsed s/'ō'/'ô'/g | gsed s/'ā'/'â'/g | gsed s/'ė'/'e'/g | gsed s/'ū'/'û'/g | gsed s/'uu'/'w'/g > hel-tokenized-clean.txt
