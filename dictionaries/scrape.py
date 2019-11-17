@@ -15,13 +15,22 @@ alphabet = ['a','b','c','d','e','f','g','h','i','j','k','k','l','m','n','o',
             'ū','û',
             'ī','î']
 neut_a_light = ['agu','alu','adu','oru','uru','atu','ibu','iƀu','etu','apu','epu','ipu','ilu']
+short_vowels = ['a','e','i','o',' u', 'ė']
+long_vowels = ['ā','â','ā','ê', 'ē','ô','ō','ū','û','ī','î']
+consonants = []
+for char in alphabet:
+    if char not in short_vowels:
+        if char not in long_vowels:
+            consonants.append(char)
+
 
 POS_tags = ['as., st. V. (1)', 'as., st. V. (2)', 'as., st. V. (3a)', 'as., st. V. (3b)', 'as., st. V. (4)', 'as., st. V. (5)', 'as., st. V. (6)', 'as., st. V. (7)', \
 'as., sw. V. (1a)', 'as., sw. V. (1b)', 'as., sw. V. (2)', \
 'as., red. V.',\
-            'as., st. M. (a)', 'as., st. N. (a)', 'as., st. M. (ja)', 'as., st. N. (ja)', 'as., st. M. (wa)', 'as., st. N. (wa)', \
-            'as., Präp.'
-            ]
+'as., st. M. (a)', 'as., st. N. (a)', 'as., st. M. (ja)', 'as., st. N. (ja)', 'as., st. M. (wa)', 'as., st. N. (wa)', \
+'as., Präp.',
+'as., st. M. (i)', 'as., st. F. (i)', 'as., st. N. (i)'
+           ]
 
 def dict_scrape(POS, dictionaryfile='as_kurzform.txt'):
     """Scrapes a dictionary for a given part of speech. POS tags in POS_tags.
@@ -120,15 +129,53 @@ dict_scrape(sys.argv[1])
 
 
 
-#encode prepositions
+###encode prepositions
+##
+##with open('prepositions_ready-for-import','w+') as to_write:
+##    i=0
+##    for line in lemmas_cleaned:
+##        for lemma in lemmas:
+##            if str(lemma+" 
+##        to_write.write(line[:-1]+"%<prep%>:"+line[:-1]+\
+##                       "\t # ; ! \n")
+##
+##print(lemmas)
 
-with open('prepositions_ready-for-import','w+') as to_write:
+
+
+#encode i-stems
+###masculine
+##with open('st. M. (i)_ready-for-import','w+') as to_write:
+##    i=0
+###Short:
+##    while i < len(lemmas_cleaned):
+##        if lemmas_cleaned[i][-2]=='i':
+##            to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<masc%>%<i-stem%>:'+lemmas_cleaned[i][:-2]+'\tMasc-I-Stem-Short \t\t; ! ' + lemmas[i].replace('\n','') + '\n')
+###Long
+##        else:
+##            to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<masc%>%<i-stem%>:'+lemmas_cleaned[i][:-1]+'\tMasc-I-Stem-Long \t\t; ! ' + lemmas[i].replace('\n','') + '\n')
+##        i=i+1
+
+#feminine
+##with open('st. F. (i)_ready-for-import','w+') as to_write:
+##    i=0
+###Short:
+##    while i < len(lemmas_cleaned):
+##        if lemmas_cleaned[i][-2]=='i':
+##            to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<fem%>%<i-stem%>:'+lemmas_cleaned[i][:-2]+'\tFem-I-Stem-Short \t\t; ! ' + lemmas[i].replace('\n','') + '\n')
+###Long
+##        else:
+##            to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<fem%>%<i-stem%>:'+lemmas_cleaned[i][:-1]+'\tFem-I-Stem-Long \t\t; ! ' + lemmas[i].replace('\n','') + '\n')
+##        i=i+1
+
+#neuter
+with open('st. N. (i)_ready-for-import','w+') as to_write:
     i=0
-    for line in lemmas_cleaned:
-        to_write.write(line[:-1]+"%<prep%>:"+line[:-1]+\
-                       "\t # ; ! \n")
-
-print(lemmas)
-
-        ##        to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<neut%>%<wa-stem%>:'+lemmas_cleaned[i][:-2]+' Neut-Wa-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    #note the -2, this is to remove the i ending
-
+#Short:
+    while i < len(lemmas_cleaned):
+        if lemmas_cleaned[i][-2]=='i':
+            to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<neut%>%<i-stem%>:'+lemmas_cleaned[i][:-2]+'\tNeut-I-Stem-Short \t\t; ! ' + lemmas[i].replace('\n','') + '\n')
+#Long
+        else:
+            to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<neut%>%<i-stem%>:'+lemmas_cleaned[i][:-1]+'\tNeut-I-Stem-Long \t\t; ! ' + lemmas[i].replace('\n','') + '\n')
+        i=i+1
