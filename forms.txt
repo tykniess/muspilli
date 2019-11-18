@@ -36502,7 +36502,14 @@ wirthis		werthan   <v>      <str>      <class3b>      <pres>      <indic>      <
 wirthiđ		werthan   <v>      <str>      <class3b>      <pres>      <indic>      <3rd>      <sg>   
 wirthu		werthan   <v>      <str>      <class3b>      <pres>      <indic>      <1st>      <sg>   
 wis		wesan   <v>      <irregular>      <imper>      <sg>   
+wissa		witan   <v>      <prtprs>      <pret>      <indic>      <sg>   
+wisse		witan   <v>      <prtprs>      <pret>      <indic>      <sg>   
+wissi		witan   <v>      <prtprs>      <pret>      <opt>      <sg>   
+wissin		witan   <v>      <prtprs>      <pret>      <opt>      <pl>   
+wissun		witan   <v>      <prtprs>      <pret>      <indic>      <pl>   
 wit		   <prn>      <pers>      <1st>      <du>      <nom>   
+witan		witan   <v>      <prtprs>      <inf>   
+witen		witan   <v>      <prtprs>      <inf>   
 with		with   <noun>      <fem>      <i-stem>      <acc>      <sg>   
 with		with   <noun>      <fem>      <i-stem>      <nom>      <sg>   
 with		with   <prep>   
@@ -36774,6 +36781,15 @@ witho		with   <noun>      <fem>      <i-stem>      <gen>      <pl>
 withon		with   <noun>      <fem>      <i-stem>      <dat>      <pl>   
 withu		with   <noun>      <fem>      <i-stem>      <instr>      <sg>   
 withun		with   <noun>      <fem>      <i-stem>      <dat>      <pl>   
+witi		witan   <v>      <prtprs>      <opt>      <1st>      <sg>   
+witi		witan   <v>      <prtprs>      <opt>      <2nd>      <sg>   
+witi		witan   <v>      <prtprs>      <opt>      <3rd>      <sg>   
+witin		witan   <v>      <prtprs>      <opt>      <1st>      <pl>   
+witin		witan   <v>      <prtprs>      <opt>      <2nd>      <pl>   
+witin		witan   <v>      <prtprs>      <opt>      <3rd>      <pl>   
+witun		witan   <v>      <prtprs>      <pres>      <indic>      <1st>      <pl>   
+witun		witan   <v>      <prtprs>      <pres>      <indic>      <2nd>      <pl>   
+witun		witan   <v>      <prtprs>      <pres>      <indic>      <3rd>      <pl>   
 witôd		witôd   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 witôd		witôd   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 witôda		witôd   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -37783,6 +37799,9 @@ wêgum		wêg   <noun>      <masc>      <a-stem>      <dat>      <pl>
 wêgun		wêg   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 wêo		wê   <noun>      <neut>      <a-stem>      <gen>      <pl>   
 wêon		wê   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+wêst		witan   <v>      <prtprs>      <pres>      <indic>      <2nd>      <sg>   
+wêt		witan   <v>      <prtprs>      <pres>      <indic>      <1st>      <sg>   
+wêt		witan   <v>      <prtprs>      <pres>      <indic>      <3rd>      <sg>   
 wêu		wê   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 wêum		wê   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 wêun		wê   <noun>      <neut>      <a-stem>      <dat>      <pl>   

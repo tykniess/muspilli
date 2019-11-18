@@ -72,7 +72,9 @@ Multichar_Symbols
 %<class6%>			! class 6 strong verb
 %<class7%>			! class 7 strong verb
 
-%<irrecgular%>			!irregular verb
+%<irregular%>			!irregular verb
+%<prtprs%>			! Praeteritopraesentia
+
 
 th				! th phoneme which is actually one sound
 
@@ -256,7 +258,7 @@ Masc-I-Stem-Short			;
 LEXICON Verbs
 StrongVerbs			;
 WeakVerbs			;
-
+Praeterito-Praesentia		;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -416,6 +418,31 @@ LEXICON WESAN
 %<imper%>%<sg%>:wes                         #;
 %<imper%>%<pl%>:wesađ				#;
 %<imper%>%<pl%>:wesat				#;
+
+
+LEXICON Praeterito-Praesentia
+witan%<v%>%<prtprs%>%<inf%>:witan #			;
+witan%<v%>%<prtprs%>%<inf%>:witen #			;
+witan%<v%>%<prtprs%>%<pres%>%<indic%>%<1st%>%<sg%>:wêt #                ;
+witan%<v%>%<prtprs%>%<pres%>%<indic%>%<3rd%>%<sg%>:wêt #		;
+witan%<v%>%<prtprs%>%<pres%>%<indic%>%<2nd%>%<sg%>:wêst #         ;
+witan%<v%>%<prtprs%>%<pres%>%<indic%>%<1st%>%<pl%>:witun #         ;
+witan%<v%>%<prtprs%>%<pres%>%<indic%>%<2nd%>%<pl%>:witun #         ;
+witan%<v%>%<prtprs%>%<pres%>%<indic%>%<3rd%>%<pl%>:witun #         ;
+witan%<v%>%<prtprs%>%<opt%>%<1st%>%<sg%>:witi #         ;
+witan%<v%>%<prtprs%>%<opt%>%<2nd%>%<sg%>:witi #         ;
+witan%<v%>%<prtprs%>%<opt%>%<3rd%>%<sg%>:witi #         ;
+
+witan%<v%>%<prtprs%>%<opt%>%<1st%>%<pl%>:witin #         ;
+witan%<v%>%<prtprs%>%<opt%>%<2nd%>%<pl%>:witin #         ;
+witan%<v%>%<prtprs%>%<opt%>%<3rd%>%<pl%>:witin #         ;
+witan%<v%>%<prtprs%>%<pret%>%<indic%>%<sg%>:wissa #         ;
+witan%<v%>%<prtprs%>%<pret%>%<indic%>%<sg%>:wisse #         ;
+witan%<v%>%<prtprs%>%<pret%>%<indic%>%<pl%>:wissun #         ;
+witan%<v%>%<prtprs%>%<pret%>%<opt%>%<sg%>:wissi #         ;
+witan%<v%>%<prtprs%>%<pret%>%<opt%>%<pl%>:wissin #         ;
+
+
 
 LEXICON Personal-Pronouns
 %<prn%>%<pers%>%<1st%>%<sg%>%<nom%>:ic	#	;
