@@ -59,8 +59,8 @@ Rules
 
 
 
-"e:i in Umlaut"
-e:i <=> _ Cns+ %>:  HighV ;				! geban ~ gibis
+"e:i in Umlaut of strong verbs"
+e:i <=> _ Cns+ %>:  HighV ;			
 
 "e:a in Ablaut1 and Ablaut-STR4&5-1"			! werthan ~ warth; neman ~ nam
 e:a <=> _ Cns+ ( ₄: ) ¹: ;

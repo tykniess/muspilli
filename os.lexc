@@ -57,7 +57,8 @@ Multichar_Symbols
 %<du%>				! Dual
 %<pl%>				! Plural
 
-%<pastpart%>			! Past Participle
+%<pastpart%>			! Past Participle -gi_an
+%<prespart%>			! Present Participle -and
 
 %<str%>				! Strong Declension
 %<wk%>				! Weak Declension
@@ -77,11 +78,20 @@ th				! th phoneme which is actually one sound
 
 %{I%}				! i-infix in strong verbs
 
+
+
+
+
+
+
+
+
 LEXICON Root
 Nouns 				; 
 Verbs 				; 
 Pronouns			;
 Prepositions			;
+
 
 LEXICON Pronouns		
 Personal-Pronouns			;
@@ -91,9 +101,11 @@ Compound-Pronouns			;
 Interrogative-Pronouns			;
 Ortsadverbien-Pronouns			;
 
+
 LEXICON Nouns
 A-Stem				;
 I-Stem				;
+
 
 LEXICON Masc-A-Stem
 %<nom%>%<sg%>:0			#	;
@@ -254,10 +266,12 @@ WeakVerbs 			;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+
+
 LEXICON STR1
 %<inf%>:%>an		 	# ;	
 StrTempus                         ;
-%<pastpart%>:³%>an		# ;
+%<pastpart%>:³%>an              # ;
 
 LEXICON STR2
 %<inf%>:%>an              	# ;
@@ -386,6 +400,8 @@ LEXICON WESAN
 %<pret%>%<indic%>%<3rd%>%<sg%>:was                      #;
 %<pret%>%<indic%>%<1st%>%<pl%>:wârun                      #;
 %<pret%>%<indic%>%<3rd%>%<pl%>:wârun                      #;
+%<pret%>%<indic%>%<3rd%>%<pl%>:wâron                      #; ! Not in Gallee for some reason
+
 
 %<pret%>%<opt%>%<1st%>%<sg%>:wâri                      #;
 %<pret%>%<opt%>%<2nd%>%<sg%>:wâris                      #;
@@ -744,7 +760,7 @@ LEXICON Ortsadverbien-Pronouns
 LEXICON WK1
 
 %<inf%>:%>ian		 	 # ;	
-:%>i Tempus-WK1                     ;
+:%>%>i Tempus-WK1                     ;			!NOTE the second morpheme boundary blocks umlaut
 
 LEXICON WK2
 
