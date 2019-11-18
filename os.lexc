@@ -4,6 +4,7 @@ Multichar_Symbols
 %<v%>				! Verb
 %<noun%>			! Noun
 %<prep%>			! Preposition
+%<adv%>				! Adverb
 %<a-stem%>			! a-stem noun
 %<ja-stem%>			! ja-stem noun
 %<wa-stem%>			! wa-stem noun
@@ -93,7 +94,15 @@ Nouns 				;
 Verbs 				; 
 Pronouns			;
 Prepositions			;
+Adverbs				;
 
+LEXICON Adverbs
+ni%<adv%>:ni				;	!	*nicht
+ni%<adv%>:ne				;	!	*nicht
+eft%<adv%>:eft				;	!	*wieder
+thô%<adv%>:thuo				;	!	*da
+nu%<adv%>:nu				;	!	*nun
+ac%<adv%>:ac				;	!	***
 
 LEXICON Pronouns		
 Personal-Pronouns			;
@@ -464,11 +473,13 @@ LEXICON Personal-Pronouns
 %<prn%>%<pers%>%<1st%>%<du%>%<acc%>:unc  #       ;
 
 %<prn%>%<pers%>%<2nd%>%<sg%>%<nom%>:thû		#	;
+%<prn%>%<pers%>%<2nd%>%<sg%>%<nom%>:thu		#	; ! not in Gallee
 %<prn%>%<pers%>%<2nd%>%<sg%>%<gen%>:thîn	#	;
 %<prn%>%<pers%>%<2nd%>%<sg%>%<dat%>:thî		#	;
 %<prn%>%<pers%>%<2nd%>%<sg%>%<acc%>:thî		#	;
 %<prn%>%<pers%>%<2nd%>%<sg%>%<acc%>:thî		#	;
 %<prn%>%<pers%>%<2nd%>%<pl%>%<nom%>:gî		#	;
+%<prn%>%<pers%>%<2nd%>%<pl%>%<nom%>:gi		#	; ! not in Gallee
 %<prn%>%<pers%>%<2nd%>%<pl%>%<nom%>:ge		#	;
 %<prn%>%<pers%>%<2nd%>%<pl%>%<gen%>:iuwar	#	;
 %<prn%>%<pers%>%<2nd%>%<pl%>%<gen%>:iuwer	#	;
@@ -487,6 +498,7 @@ LEXICON Personal-Pronouns
 %<prn%>%<pers%>%<2nd%>%<du%>%<acc%>:inc		#	;
 
 %<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<nom%>:hê	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<nom%>:he  #       ;!not in Gallee
 %<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<nom%>:hi	#	;
 %<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<nom%>:hie	#	;
 %<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<gen%>:is	#	;
@@ -496,7 +508,7 @@ LEXICON Personal-Pronouns
 %<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<dat%>:im	#	;
 %<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<dat%>:him	#	;
 %<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<acc%>:ina	#	;
-%<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<acc%>:inan	#	;
+%<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<acc%>:inan#	;
 %<prn%>%<pers%>%<3rd%>%<masc%>%<pl%>%<nom%>:sia	#	;
 %<prn%>%<pers%>%<3rd%>%<masc%>%<pl%>%<nom%>:sie	#	;
 %<prn%>%<pers%>%<3rd%>%<masc%>%<pl%>%<nom%>:sea	#	;
@@ -2715,7 +2727,7 @@ witharkuman%<v%>%<str%>%<class4%>:witharkum STR4    ;	! nhd. „wiederkommen“,
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!Class 5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+quethan%<v%>%<str%>%<class5%>:queth STR5    ;	! *nhd. sagen, sprechen
 kwethan%<v%>%<str%>%<class5%>:kweth STR5    ;	! nhd. sagen, sprechen
 gisehan%<v%>%<str%>%<class5%>:giseh STR5    ;	! nhd. sehen, ansehen
 gevan%<v%>%<str%>%<class5%>:gev STR5    ;	! nhd. geben

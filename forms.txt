@@ -11183,6 +11183,7 @@ geves		gevan   <v>      <str>      <class5>      <pres>      <opt>      <2nd>   
 gevis		gevan   <v>      <str>      <class5>      <pres>      <indic>      <2nd>      <sg>   
 geviđ		gevan   <v>      <str>      <class5>      <pres>      <indic>      <3rd>      <sg>   
 gevu		gevan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <sg>   
+gi		   <prn>      <pers>      <2nd>      <pl>      <nom>   
 gibar		giberan   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <sg>   
 gibar		giberan   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <sg>   
 gibarg		gibergan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <sg>   
@@ -16278,6 +16279,7 @@ havuku		havuk   <noun>      <masc>      <a-stem>      <instr>      <pl>
 havuku		havuk   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 havukum		havuk   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 havukun		havuk   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+he		   <prn>      <pers>      <3rd>      <masc>      <sg>      <nom>   
 hefti		heftian   <v>      <wk>      <1>      <impv>      <sg>   
 heftiad		heftian   <v>      <wk>      <1>      <impv>      <pl>   
 heftiađ		heftian   <v>      <wk>      <1>      <pres>      <1st>      <pl>   
@@ -19082,7 +19084,6 @@ imo		   <prn>      <pers>      <3rd>      <neut>      <sg>      <dat>
 imu		   <prn>      <pers>      <3rd>      <masc>      <sg>      <dat>   
 imu		   <prn>      <pers>      <3rd>      <neut>      <sg>      <dat>   
 ina		   <prn>      <pers>      <3rd>      <masc>      <sg>      <acc>   
-inan		   <prn>      <pers>      <3rd>      <masc>      <sg>      <acc>   
 inbôgi		inbôgian   <v>      <wk>      <1>      <impv>      <sg>   
 inbôgiad		inbôgian   <v>      <wk>      <1>      <impv>      <pl>   
 inbôgian		inbôgian   <v>      <wk>      <1>      <inf>   
@@ -25807,6 +25808,35 @@ pûsilînon		pûsilîn   <noun>      <neut>      <a-stem>      <dat>      <pl>
 pûsilînu		pûsilîn   <noun>      <neut>      <a-stem>      <instr>      <sg>   
 pûsilînum		pûsilîn   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 pûsilînun		pûsilîn   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+quath		quethan   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <sg>   
+quath		quethan   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <sg>   
+queth		quethan   <v>      <str>      <class5>      <impv>      <sg>   
+quethan		quethan   <v>      <str>      <class5>      <inf>   
+giquethan		quethan   <v>      <str>      <class5>      <pastpart>   
+gequethan		quethan   <v>      <str>      <class5>      <pastpart>   
+quethađ		quethan   <v>      <str>      <class5>      <impv>      <pl>   
+quethađ		quethan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <pl>   
+quethađ		quethan   <v>      <str>      <class5>      <pres>      <indic>      <2nd>      <pl>   
+quethađ		quethan   <v>      <str>      <class5>      <pres>      <indic>      <3rd>      <pl>   
+quethe		quethan   <v>      <str>      <class5>      <pres>      <opt>      <1st>      <sg>   
+quethe		quethan   <v>      <str>      <class5>      <pres>      <opt>      <3rd>      <sg>   
+quethen		quethan   <v>      <str>      <class5>      <pres>      <opt>      <1st>      <pl>   
+quethen		quethan   <v>      <str>      <class5>      <pres>      <opt>      <2nd>      <pl>   
+quethen		quethan   <v>      <str>      <class5>      <pres>      <opt>      <3rd>      <pl>   
+quethes		quethan   <v>      <str>      <class5>      <pres>      <opt>      <2nd>      <sg>   
+quethis		quethan   <v>      <str>      <class5>      <pres>      <indic>      <2nd>      <sg>   
+quethiđ		quethan   <v>      <str>      <class5>      <pres>      <indic>      <3rd>      <sg>   
+quethu		quethan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <sg>   
+quâthi		quethan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <sg>   
+quâthi		quethan   <v>      <str>      <class5>      <pret>      <opt>      <1st>      <sg>   
+quâthi		quethan   <v>      <str>      <class5>      <pret>      <opt>      <3rd>      <sg>   
+quâthin		quethan   <v>      <str>      <class5>      <pret>      <opt>      <1st>      <pl>   
+quâthin		quethan   <v>      <str>      <class5>      <pret>      <opt>      <2nd>      <pl>   
+quâthin		quethan   <v>      <str>      <class5>      <pret>      <opt>      <3rd>      <pl>   
+quâthis		quethan   <v>      <str>      <class5>      <pret>      <opt>      <2nd>      <sg>   
+quâthun		quethan   <v>      <str>      <class5>      <pret>      <indic>      <1st>      <pl>   
+quâthun		quethan   <v>      <str>      <class5>      <pret>      <indic>      <2nd>      <pl>   
+quâthun		quethan   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <pl>   
 radur		radur   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 radur		radur   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 radura		radur   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -32752,6 +32782,7 @@ thrûtho		thrûth   <noun>      <fem>      <i-stem>      <gen>      <pl>
 thrûthon		thrûth   <noun>      <fem>      <i-stem>      <dat>      <pl>   
 thrûthu		thrûth   <noun>      <fem>      <i-stem>      <instr>      <sg>   
 thrûthun		thrûth   <noun>      <fem>      <i-stem>      <dat>      <pl>   
+thu		   <prn>      <pers>      <2nd>      <sg>      <nom>   
 thuld		thuld   <noun>      <fem>      <i-stem>      <acc>      <sg>   
 thuld		thuld   <noun>      <fem>      <i-stem>      <nom>      <sg>   
 thulde		thuld   <noun>      <fem>      <i-stem>      <acc>      <pl>   
