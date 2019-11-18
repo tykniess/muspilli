@@ -6,4 +6,6 @@ all:
 	hfst-compose-intersect -v -o os.gen.hfst os.lexc.hfst os.twol.hfst
 	hfst-invert -v os.gen.hfst -o os.mor.hfst	
 	hfst-fst2strings os.mor.hfst --xfst obey-flags | sort | gsed s/':'/'\t\t'/g|gsed s/'<'/'   <'/g | gsed s/'>'/'>   '/g > forms.txt
+	python3 gi-prefix.py
+	cat forms-prefixed.txt>forms.txt
 	python3 coverage.py

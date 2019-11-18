@@ -2017,7 +2017,8 @@ bake		bak   <noun>      <neut>      <a-stem>      <dat>      <sg>
 bakes		bak   <noun>      <neut>      <a-stem>      <gen>      <sg>   
 bakk		bakkan   <v>      <str>      <class6>      <impv>      <sg>   
 bakkan		bakkan   <v>      <str>      <class6>      <inf>   
-bakkan		bakkan   <v>      <str>      <class6>      <pastpart>   
+gibakkan		bakkan   <v>      <str>      <class6>      <pastpart>   
+gebakkan		bakkan   <v>      <str>      <class6>      <pastpart>   
 bakkađ		bakkan   <v>      <str>      <class6>      <impv>      <pl>   
 bakkađ		bakkan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 bakkađ		bakkan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -2225,7 +2226,8 @@ banku		bank   <noun>      <fem>      <i-stem>      <instr>      <sg>
 bankun		bank   <noun>      <fem>      <i-stem>      <dat>      <pl>   
 bann		bannan   <v>      <str>      <class7>      <impv>      <sg>   
 bannan		bannan   <v>      <str>      <class7>      <inf>   
-bannan		bannan   <v>      <str>      <class7>      <pastpart>   
+gibannan		bannan   <v>      <str>      <class7>      <pastpart>   
+gebannan		bannan   <v>      <str>      <class7>      <pastpart>   
 bannađ		bannan   <v>      <str>      <class7>      <impv>      <pl>   
 bannađ		bannan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
 bannađ		bannan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <pl>   
@@ -4418,7 +4420,8 @@ blakum		blak   <noun>      <neut>      <a-stem>      <dat>      <pl>
 blakun		blak   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 bland		blandan   <v>      <str>      <class7>      <impv>      <sg>   
 blandan		blandan   <v>      <str>      <class7>      <inf>   
-blandan		blandan   <v>      <str>      <class7>      <pastpart>   
+giblandan		blandan   <v>      <str>      <class7>      <pastpart>   
+geblandan		blandan   <v>      <str>      <class7>      <pastpart>   
 blandađ		blandan   <v>      <str>      <class7>      <impv>      <pl>   
 blandađ		blandan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
 blandađ		blandan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <pl>   
@@ -4549,7 +4552,8 @@ bodskepion		bodskepi   <noun>      <masc>      <i-stem>      <dat>      <pl>
 bodskepios		bodskepi   <noun>      <masc>      <i-stem>      <nom>      <pl>   
 bodskepiu		bodskepi   <noun>      <masc>      <i-stem>      <instr>      <sg>   
 bodskepiun		bodskepi   <noun>      <masc>      <i-stem>      <dat>      <pl>   
-bolgan		belgan   <v>      <str>      <class3b>      <pastpart>   
+gibolgan		belgan   <v>      <str>      <class3b>      <pastpart>   
+gebolgan		belgan   <v>      <str>      <class3b>      <pastpart>   
 bolt		bolt   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 bolt		bolt   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 bolta		bolt   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -4564,7 +4568,8 @@ boltu		bolt   <noun>      <masc>      <a-stem>      <instr>      <pl>
 boltu		bolt   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 boltum		bolt   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 boltun		bolt   <noun>      <masc>      <a-stem>      <dat>      <pl>   
-boran		beran   <v>      <str>      <class4>      <pastpart>   
+giboran		beran   <v>      <str>      <class4>      <pastpart>   
+geboran		beran   <v>      <str>      <class4>      <pastpart>   
 bord		bord   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 bord		bord   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 borda		bord   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -4702,7 +4707,8 @@ brinn		brinnan   <v>      <str>      <class3a>      <impv>      <sg>
 brinn		brinnan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 brinn		brinnan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 brinnan		brinnan   <v>      <str>      <class3a>      <inf>   
-brinnan		brinnan   <v>      <str>      <class3a>      <pastpart>   
+gibrinnan		brinnan   <v>      <str>      <class3a>      <pastpart>   
+gebrinnan		brinnan   <v>      <str>      <class3a>      <pastpart>   
 brinnađ		brinnan   <v>      <str>      <class3a>      <impv>      <pl>   
 brinnađ		brinnan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <pl>   
 brinnađ		brinnan   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <pl>   
@@ -4778,9 +4784,12 @@ briostun		briost   <noun>      <neut>      <a-stem>      <dat>      <pl>
 bristis		brestan   <v>      <str>      <class3b>      <pres>      <indic>      <2nd>      <sg>   
 bristiđ		brestan   <v>      <str>      <class3b>      <pres>      <indic>      <3rd>      <sg>   
 bristu		brestan   <v>      <str>      <class3b>      <pres>      <indic>      <1st>      <sg>   
-brogdan		bregdan   <v>      <str>      <class3b>      <pastpart>   
-brokan		brekan   <v>      <str>      <class4>      <pastpart>   
-brostan		brestan   <v>      <str>      <class3b>      <pastpart>   
+gibrogdan		bregdan   <v>      <str>      <class3b>      <pastpart>   
+gebrogdan		bregdan   <v>      <str>      <class3b>      <pastpart>   
+gibrokan		brekan   <v>      <str>      <class4>      <pastpart>   
+gebrokan		brekan   <v>      <str>      <class4>      <pastpart>   
+gibrostan		brestan   <v>      <str>      <class3b>      <pastpart>   
+gebrostan		brestan   <v>      <str>      <class3b>      <pastpart>   
 broth		broth   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 broth		broth   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 brotha		broth   <noun>      <neut>      <a-stem>      <dat>      <sg>   
@@ -4896,7 +4905,8 @@ brustun		brestan   <v>      <str>      <class3b>      <pret>      <indic>      <
 brustun		brust   <noun>      <fem>      <i-stem>      <dat>      <pl>   
 brâd		brâdan   <v>      <str>      <class7>      <impv>      <sg>   
 brâdan		brâdan   <v>      <str>      <class7>      <inf>   
-brâdan		brâdan   <v>      <str>      <class7>      <pastpart>   
+gibrâdan		brâdan   <v>      <str>      <class7>      <pastpart>   
+gebrâdan		brâdan   <v>      <str>      <class7>      <pastpart>   
 brâdađ		brâdan   <v>      <str>      <class7>      <impv>      <pl>   
 brâdađ		brâdan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
 brâdađ		brâdan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <pl>   
@@ -5036,7 +5046,8 @@ brôk		brôkan   <v>      <str>      <class3a>      <pret>      <indic>      <1s
 brôk		brôkan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 brôka		brôk   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 brôkan		brôkan   <v>      <str>      <class3a>      <inf>   
-brôkan		brôkan   <v>      <str>      <class3a>      <pastpart>   
+gibrôkan		brôkan   <v>      <str>      <class3a>      <pastpart>   
+gebrôkan		brôkan   <v>      <str>      <class3a>      <pastpart>   
 brôkas		brôk   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 brôkađ		brôkan   <v>      <str>      <class3a>      <impv>      <pl>   
 brôkađ		brôkan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <pl>   
@@ -6096,7 +6107,8 @@ dowe		dou   <noun>      <masc>      <wa-stem>      <dat>      <sg>
 dowes		dou   <noun>      <masc>      <wa-stem>      <gen>      <sg>   
 drag		dragan   <v>      <str>      <class6>      <impv>      <sg>   
 dragan		dragan   <v>      <str>      <class6>      <inf>   
-dragan		dragan   <v>      <str>      <class6>      <pastpart>   
+gidragan		dragan   <v>      <str>      <class6>      <pastpart>   
+gedragan		dragan   <v>      <str>      <class6>      <pastpart>   
 dragađ		dragan   <v>      <str>      <class6>      <impv>      <pl>   
 dragađ		dragan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 dragađ		dragan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -6169,7 +6181,8 @@ drink		drinkan   <v>      <str>      <class3a>      <impv>      <sg>
 drink		drinkan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 drink		drinkan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 drinkan		drinkan   <v>      <str>      <class3a>      <inf>   
-drinkan		drinkan   <v>      <str>      <class3a>      <pastpart>   
+gidrinkan		drinkan   <v>      <str>      <class3a>      <pastpart>   
+gedrinkan		drinkan   <v>      <str>      <class3a>      <pastpart>   
 drinkađ		drinkan   <v>      <str>      <class3a>      <impv>      <pl>   
 drinkađ		drinkan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <pl>   
 drinkađ		drinkan   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <pl>   
@@ -6760,7 +6773,8 @@ edwind		edwindan   <v>      <str>      <class3a>      <impv>      <sg>
 edwind		edwindan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 edwind		edwindan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 edwindan		edwindan   <v>      <str>      <class3a>      <inf>   
-edwindan		edwindan   <v>      <str>      <class3a>      <pastpart>   
+giedwindan		edwindan   <v>      <str>      <class3a>      <pastpart>   
+geedwindan		edwindan   <v>      <str>      <class3a>      <pastpart>   
 edwindađ		edwindan   <v>      <str>      <class3a>      <impv>      <pl>   
 edwindađ		edwindan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <pl>   
 edwindađ		edwindan   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <pl>   
@@ -7229,7 +7243,8 @@ et		   <prn>      <pers>      <3rd>      <neut>      <sg>      <acc>
 et		   <prn>      <pers>      <3rd>      <neut>      <sg>      <nom>   
 et		etan   <v>      <str>      <class5>      <impv>      <sg>   
 etan		etan   <v>      <str>      <class5>      <inf>   
-etan		etan   <v>      <str>      <class5>      <pastpart>   
+gietan		etan   <v>      <str>      <class5>      <pastpart>   
+geetan		etan   <v>      <str>      <class5>      <pastpart>   
 etađ		etan   <v>      <str>      <class5>      <impv>      <pl>   
 etađ		etan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <pl>   
 etađ		etan   <v>      <str>      <class5>      <pres>      <indic>      <2nd>      <pl>   
@@ -7429,7 +7444,8 @@ faldistôlum		faldistôl   <noun>      <masc>      <a-stem>      <dat>      <pl>
 faldistôlun		faldistôl   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 fall		fallan   <v>      <str>      <class7>      <impv>      <sg>   
 fallan		fallan   <v>      <str>      <class7>      <inf>   
-fallan		fallan   <v>      <str>      <class7>      <pastpart>   
+gifallan		fallan   <v>      <str>      <class7>      <pastpart>   
+gefallan		fallan   <v>      <str>      <class7>      <pastpart>   
 fallađ		fallan   <v>      <str>      <class7>      <impv>      <pl>   
 fallađ		fallan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
 fallađ		fallan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <pl>   
@@ -9119,7 +9135,8 @@ find		findan   <v>      <str>      <class3a>      <impv>      <sg>
 find		findan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 find		findan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 findan		findan   <v>      <str>      <class3a>      <inf>   
-findan		findan   <v>      <str>      <class3a>      <pastpart>   
+gifindan		findan   <v>      <str>      <class3a>      <pastpart>   
+gefindan		findan   <v>      <str>      <class3a>      <pastpart>   
 findađ		findan   <v>      <str>      <class3a>      <impv>      <pl>   
 findađ		findan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <pl>   
 findađ		findan   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <pl>   
@@ -9448,7 +9465,8 @@ fliokis		flôkan   <v>      <str>      <class7>      <pret>      <opt>      <2nd
 fliokun		flôkan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <pl>   
 fliokun		flôkan   <v>      <str>      <class7>      <pret>      <indic>      <2nd>      <pl>   
 fliokun		flôkan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <pl>   
-flohtan		flehtan   <v>      <str>      <class3b>      <pastpart>   
+giflohtan		flehtan   <v>      <str>      <class3b>      <pastpart>   
+geflohtan		flehtan   <v>      <str>      <class3b>      <pastpart>   
 fluge		flugi   <noun>      <masc>      <i-stem>      <dat>      <sg>   
 flugea		flugi   <noun>      <masc>      <i-stem>      <dat>      <sg>   
 fluges		flugi   <noun>      <masc>      <i-stem>      <gen>      <sg>   
@@ -9555,7 +9573,8 @@ flîtum		flît   <noun>      <masc>      <a-stem>      <dat>      <pl>
 flîtun		flît   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 flôk		flôkan   <v>      <str>      <class7>      <impv>      <sg>   
 flôkan		flôkan   <v>      <str>      <class7>      <inf>   
-flôkan		flôkan   <v>      <str>      <class7>      <pastpart>   
+giflôkan		flôkan   <v>      <str>      <class7>      <pastpart>   
+geflôkan		flôkan   <v>      <str>      <class7>      <pastpart>   
 flôkađ		flôkan   <v>      <str>      <class7>      <impv>      <pl>   
 flôkađ		flôkan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
 flôkađ		flôkan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <pl>   
@@ -10022,7 +10041,8 @@ fremmâriu		fremmâri   <noun>      <masc>      <ja-stem>      <instr>      <sg>
 fremmâriun		fremmâri   <noun>      <masc>      <ja-stem>      <dat>      <pl>   
 fret		fretan   <v>      <str>      <class5>      <impv>      <sg>   
 fretan		fretan   <v>      <str>      <class5>      <inf>   
-fretan		fretan   <v>      <str>      <class5>      <pastpart>   
+gifretan		fretan   <v>      <str>      <class5>      <pastpart>   
+gefretan		fretan   <v>      <str>      <class5>      <pastpart>   
 fretađ		fretan   <v>      <str>      <class5>      <impv>      <pl>   
 fretađ		fretan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <pl>   
 fretađ		fretan   <v>      <str>      <class5>      <pres>      <indic>      <2nd>      <pl>   
@@ -10097,7 +10117,8 @@ friuthilu		friuthil   <noun>      <masc>      <a-stem>      <instr>      <pl>
 friuthilu		friuthil   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 friuthilum		friuthil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 friuthilun		friuthil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
-frognan		fregnan   <v>      <str>      <class3b>      <pastpart>   
+gifrognan		fregnan   <v>      <str>      <class3b>      <pastpart>   
+gefrognan		fregnan   <v>      <str>      <class3b>      <pastpart>   
 frost		frost   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 frost		frost   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 frosta		frost   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -10383,7 +10404,8 @@ furvidun		furvian   <v>      <wk>      <1>      <pret>      <2nd>      <pl>
 furvidun		furvian   <v>      <wk>      <1>      <pret>      <3rd>      <pl>   
 furvis		furvian   <v>      <wk>      <1>      <pres>      <2nd>      <sg>   
 furviu		furvian   <v>      <wk>      <1>      <pres>      <1st>      <sg>   
-fâgan		fâhan   <v>      <str>      <class7>      <pastpart>   
+gifâgan		fâhan   <v>      <str>      <class7>      <pastpart>   
+gefâgan		fâhan   <v>      <str>      <class7>      <pastpart>   
 fâh		fâhan   <v>      <str>      <class7>      <impv>      <sg>   
 fâhan		fâhan   <v>      <str>      <class7>      <inf>   
 fâhađ		fâhan   <v>      <str>      <class7>      <impv>      <pl>   
@@ -10763,7 +10785,8 @@ gang		gang   <noun>      <masc>      <a-stem>      <nom>      <sg>
 gang		gangan   <v>      <str>      <class7>      <impv>      <sg>   
 ganga		gang   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 gangan		gangan   <v>      <str>      <class7>      <inf>   
-gangan		gangan   <v>      <str>      <class7>      <pastpart>   
+gigangan		gangan   <v>      <str>      <class7>      <pastpart>   
+gegangan		gangan   <v>      <str>      <class7>      <pastpart>   
 gangas		gang   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 gangađ		gangan   <v>      <str>      <class7>      <impv>      <pl>   
 gangađ		gangan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
@@ -10901,7 +10924,8 @@ gav		gevan   <v>      <str>      <class5>      <pret>      <indic>      <3rd>   
 ge		   <prn>      <pers>      <2nd>      <pl>      <nom>   
 ged		gedan   <v>      <str>      <class5>      <impv>      <sg>   
 gedan		gedan   <v>      <str>      <class5>      <inf>   
-gedan		gedan   <v>      <str>      <class5>      <pastpart>   
+gigedan		gedan   <v>      <str>      <class5>      <pastpart>   
+gegedan		gedan   <v>      <str>      <class5>      <pastpart>   
 gedađ		gedan   <v>      <str>      <class5>      <impv>      <pl>   
 gedađ		gedan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <pl>   
 gedađ		gedan   <v>      <str>      <class5>      <pres>      <indic>      <2nd>      <pl>   
@@ -10938,7 +10962,8 @@ geginwardi		geginwardi   <noun>      <fem>      <i-stem>      <nom>      <sg>
 geginwardion		geginwardi   <noun>      <fem>      <i-stem>      <dat>      <pl>   
 geh		gehan   <v>      <str>      <class5>      <impv>      <sg>   
 gehan		gehan   <v>      <str>      <class5>      <inf>   
-gehan		gehan   <v>      <str>      <class5>      <pastpart>   
+gigehan		gehan   <v>      <str>      <class5>      <pastpart>   
+gegehan		gehan   <v>      <str>      <class5>      <pastpart>   
 gehađ		gehan   <v>      <str>      <class5>      <impv>      <pl>   
 gehađ		gehan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <pl>   
 gehađ		gehan   <v>      <str>      <class5>      <pres>      <indic>      <2nd>      <pl>   
@@ -11103,7 +11128,8 @@ gev		gevan   <v>      <str>      <class5>      <impv>      <sg>
 gevan		gevan   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 gevan		gevan   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 gevan		gevan   <v>      <str>      <class5>      <inf>   
-gevan		gevan   <v>      <str>      <class5>      <pastpart>   
+gigevan		gevan   <v>      <str>      <class5>      <pastpart>   
+gegevan		gevan   <v>      <str>      <class5>      <pastpart>   
 gevana		gevan   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 gevanas		gevan   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 gevane		gevan   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -14906,7 +14932,8 @@ gold		gold   <noun>      <neut>      <a-stem>      <acc>      <sg>
 gold		gold   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 gold		gold   <noun>      <neut>      <a-stem>      <nom>      <sg>   
 golda		gold   <noun>      <neut>      <a-stem>      <dat>      <sg>   
-goldan		geldan   <v>      <str>      <class3b>      <pastpart>   
+gigoldan		geldan   <v>      <str>      <class3b>      <pastpart>   
+gegoldan		geldan   <v>      <str>      <class3b>      <pastpart>   
 goldas		gold   <noun>      <neut>      <a-stem>      <gen>      <sg>   
 golde		gold   <noun>      <neut>      <a-stem>      <dat>      <sg>   
 goldes		gold   <noun>      <neut>      <a-stem>      <gen>      <sg>   
@@ -15025,7 +15052,8 @@ grasum		gras   <noun>      <neut>      <a-stem>      <dat>      <pl>
 grasun		gras   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 grav		gravan   <v>      <str>      <class6>      <impv>      <sg>   
 gravan		gravan   <v>      <str>      <class6>      <inf>   
-gravan		gravan   <v>      <str>      <class6>      <pastpart>   
+gigravan		gravan   <v>      <str>      <class6>      <pastpart>   
+gegravan		gravan   <v>      <str>      <class6>      <pastpart>   
 gravađ		gravan   <v>      <str>      <class6>      <impv>      <pl>   
 gravađ		gravan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 gravađ		gravan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -15069,7 +15097,8 @@ grimm		grimman   <v>      <str>      <class3a>      <impv>      <sg>
 grimm		grimman   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 grimm		grimman   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 grimman		grimman   <v>      <str>      <class3a>      <inf>   
-grimman		grimman   <v>      <str>      <class3a>      <pastpart>   
+gigrimman		grimman   <v>      <str>      <class3a>      <pastpart>   
+gegrimman		grimman   <v>      <str>      <class3a>      <pastpart>   
 grimmađ		grimman   <v>      <str>      <class3a>      <impv>      <pl>   
 grimmađ		grimman   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <pl>   
 grimmađ		grimman   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <pl>   
@@ -15127,7 +15156,8 @@ griot		griotan   <v>      <str>      <class2>      <pret>      <indic>      <1st
 griot		griotan   <v>      <str>      <class2>      <pret>      <indic>      <3rd>      <sg>   
 griota		griot   <noun>      <neut>      <a-stem>      <dat>      <sg>   
 griotan		griotan   <v>      <str>      <class2>      <inf>   
-griotan		griotan   <v>      <str>      <class2>      <pastpart>   
+gigriotan		griotan   <v>      <str>      <class2>      <pastpart>   
+gegriotan		griotan   <v>      <str>      <class2>      <pastpart>   
 griotas		griot   <noun>      <neut>      <a-stem>      <gen>      <sg>   
 griotađ		griotan   <v>      <str>      <class2>      <impv>      <pl>   
 griotađ		griotan   <v>      <str>      <class2>      <pres>      <indic>      <1st>      <pl>   
@@ -15235,7 +15265,8 @@ gruriu		gruri   <noun>      <masc>      <i-stem>      <instr>      <sg>
 gruriun		gruri   <noun>      <masc>      <i-stem>      <dat>      <pl>   
 grât		grâtan   <v>      <str>      <class7>      <impv>      <sg>   
 grâtan		grâtan   <v>      <str>      <class7>      <inf>   
-grâtan		grâtan   <v>      <str>      <class7>      <pastpart>   
+gigrâtan		grâtan   <v>      <str>      <class7>      <pastpart>   
+gegrâtan		grâtan   <v>      <str>      <class7>      <pastpart>   
 grâtađ		grâtan   <v>      <str>      <class7>      <impv>      <pl>   
 grâtađ		grâtan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
 grâtađ		grâtan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <pl>   
@@ -15745,7 +15776,8 @@ hal		helan   <v>      <str>      <class6>      <pret>      <indic>      <1st>   
 hal		helan   <v>      <str>      <class6>      <pret>      <indic>      <3rd>      <sg>   
 hald		haldan   <v>      <str>      <class7>      <impv>      <sg>   
 haldan		haldan   <v>      <str>      <class7>      <inf>   
-haldan		haldan   <v>      <str>      <class7>      <pastpart>   
+gihaldan		haldan   <v>      <str>      <class7>      <pastpart>   
+gehaldan		haldan   <v>      <str>      <class7>      <pastpart>   
 haldađ		haldan   <v>      <str>      <class7>      <impv>      <pl>   
 haldađ		haldan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
 haldađ		haldan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <pl>   
@@ -16166,7 +16198,8 @@ hauw		hauwan   <v>      <str>      <class7>      <impv>      <sg>
 hauw		hauwan   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <sg>   
 hauw		hauwan   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <sg>   
 hauwan		hauwan   <v>      <str>      <class7>      <inf>   
-hauwan		hauwan   <v>      <str>      <class7>      <pastpart>   
+gihauwan		hauwan   <v>      <str>      <class7>      <pastpart>   
+gehauwan		hauwan   <v>      <str>      <class7>      <pastpart>   
 hauwađ		hauwan   <v>      <str>      <class7>      <impv>      <pl>   
 hauwađ		hauwan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
 hauwađ		hauwan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <pl>   
@@ -16233,7 +16266,8 @@ heftis		heftian   <v>      <wk>      <1>      <pres>      <2nd>      <sg>
 heftiu		heftian   <v>      <wk>      <1>      <pres>      <1st>      <sg>   
 hel		helan   <v>      <str>      <class6>      <impv>      <sg>   
 helan		helan   <v>      <str>      <class6>      <inf>   
-helan		helan   <v>      <str>      <class6>      <pastpart>   
+gihelan		helan   <v>      <str>      <class6>      <pastpart>   
+gehelan		helan   <v>      <str>      <class6>      <pastpart>   
 helađ		helan   <v>      <str>      <class6>      <impv>      <pl>   
 helađ		helan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 helađ		helan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -17067,7 +17101,8 @@ hirnutbômun		hirnutbôm   <noun>      <masc>      <a-stem>      <dat>      <pl>
 hirstian		herstian   <v>      <wk>      <1>      <inf>   
 hlad		hladan   <v>      <str>      <class6>      <impv>      <sg>   
 hladan		hladan   <v>      <str>      <class6>      <inf>   
-hladan		hladan   <v>      <str>      <class6>      <pastpart>   
+gihladan		hladan   <v>      <str>      <class6>      <pastpart>   
+gehladan		hladan   <v>      <str>      <class6>      <pastpart>   
 hladađ		hladan   <v>      <str>      <class6>      <impv>      <pl>   
 hladađ		hladan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 hladađ		hladan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -17086,7 +17121,8 @@ hlahhi		hlahhian   <v>      <str>      <class6>      <pret>      <indic>      <3
 hlahhi		hlahhian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <sg>   
 hlahhi		hlahhian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <sg>   
 hlahhian		hlahhian   <v>      <str>      <class6>      <inf>   
-hlahhian		hlahhian   <v>      <str>      <class6>      <pastpart>   
+gihlahhian		hlahhian   <v>      <str>      <class6>      <pastpart>   
+gehlahhian		hlahhian   <v>      <str>      <class6>      <pastpart>   
 hlahhiađ		hlahhian   <v>      <str>      <class6>      <impv>      <pl>   
 hlahhiađ		hlahhian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 hlahhiađ		hlahhian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -17399,7 +17435,8 @@ hofwardu		hofward   <noun>      <masc>      <a-stem>      <instr>      <pl>
 hofwardu		hofward   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 hofwardum		hofward   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 hofwardun		hofward   <noun>      <masc>      <a-stem>      <dat>      <pl>   
-hollan		hellan   <v>      <str>      <class3b>      <pastpart>   
+gihollan		hellan   <v>      <str>      <class3b>      <pastpart>   
+gehollan		hellan   <v>      <str>      <class3b>      <pastpart>   
 holondar		holondar   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 holondar		holondar   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 holondara		holondar   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -17414,7 +17451,8 @@ holondaru		holondar   <noun>      <masc>      <a-stem>      <instr>      <pl>
 holondaru		holondar   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 holondarum		holondar   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 holondarun		holondar   <noun>      <masc>      <a-stem>      <dat>      <pl>   
-holpan		helpan   <v>      <str>      <class3b>      <pastpart>   
+giholpan		helpan   <v>      <str>      <class3b>      <pastpart>   
+geholpan		helpan   <v>      <str>      <class3b>      <pastpart>   
 holt		holt   <noun>      <neut>      <a-stem>      <acc>      <pl>   
 holt		holt   <noun>      <neut>      <a-stem>      <acc>      <sg>   
 holt		holt   <noun>      <neut>      <a-stem>      <nom>      <pl>   
@@ -17869,7 +17907,8 @@ hrômis		hrômian   <v>      <wk>      <1>      <pres>      <2nd>      <sg>
 hrômiu		hrômian   <v>      <wk>      <1>      <pres>      <1st>      <sg>   
 hrôp		hrôpan   <v>      <str>      <class7>      <impv>      <sg>   
 hrôpan		hrôpan   <v>      <str>      <class7>      <inf>   
-hrôpan		hrôpan   <v>      <str>      <class7>      <pastpart>   
+gihrôpan		hrôpan   <v>      <str>      <class7>      <pastpart>   
+gehrôpan		hrôpan   <v>      <str>      <class7>      <pastpart>   
 hrôpađ		hrôpan   <v>      <str>      <class7>      <impv>      <pl>   
 hrôpađ		hrôpan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
 hrôpađ		hrôpan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <pl>   
@@ -18307,7 +18346,8 @@ hwitian		hwetian   <v>      <wk>      <1>      <inf>
 hwiu		   <prn>      <inter>      <fem>      <instr>      <sg>   
 hwiu		   <prn>      <inter>      <masc>      <instr>      <sg>   
 hwiu		   <prn>      <inter>      <neut>      <instr>      <sg>   
-hworvan		hwervan   <v>      <str>      <class3b>      <pastpart>   
+gihworvan		hwervan   <v>      <str>      <class3b>      <pastpart>   
+gehworvan		hwervan   <v>      <str>      <class3b>      <pastpart>   
 hwurvi		hwervan   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <sg>   
 hwurvi		hwervan   <v>      <str>      <class3b>      <pret>      <opt>      <1st>      <sg>   
 hwurvi		hwervan   <v>      <str>      <class3b>      <pret>      <opt>      <3rd>      <sg>   
@@ -18358,7 +18398,8 @@ hwîtewurto		hwîtewurt   <noun>      <fem>      <i-stem>      <gen>      <pl>
 hwîtewurton		hwîtewurt   <noun>      <fem>      <i-stem>      <dat>      <pl>   
 hwîtewurtu		hwîtewurt   <noun>      <fem>      <i-stem>      <instr>      <sg>   
 hwîtewurtun		hwîtewurt   <noun>      <fem>      <i-stem>      <dat>      <pl>   
-hâgan		hâhan   <v>      <str>      <class7>      <pastpart>   
+gihâgan		hâhan   <v>      <str>      <class7>      <pastpart>   
+gehâgan		hâhan   <v>      <str>      <class7>      <pastpart>   
 hâh		hâhan   <v>      <str>      <class7>      <impv>      <sg>   
 hâhan		hâhan   <v>      <str>      <class7>      <inf>   
 hâhađ		hâhan   <v>      <str>      <class7>      <impv>      <pl>   
@@ -18551,7 +18592,8 @@ hêt		hêtan   <v>      <str>      <class7>      <impv>      <sg>
 hêta		hêt   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 hêta		hêt   <noun>      <neut>      <a-stem>      <dat>      <sg>   
 hêtan		hêtan   <v>      <str>      <class7>      <inf>   
-hêtan		hêtan   <v>      <str>      <class7>      <pastpart>   
+gihêtan		hêtan   <v>      <str>      <class7>      <pastpart>   
+gehêtan		hêtan   <v>      <str>      <class7>      <pastpart>   
 hêtas		hêt   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 hêtas		hêt   <noun>      <neut>      <a-stem>      <gen>      <sg>   
 hêtađ		hêtan   <v>      <str>      <class7>      <impv>      <pl>   
@@ -19951,7 +19993,8 @@ knad		knedan   <v>      <str>      <class5>      <pret>      <indic>      <1st> 
 knad		knedan   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <sg>   
 knag		knagan   <v>      <str>      <class6>      <impv>      <sg>   
 knagan		knagan   <v>      <str>      <class6>      <inf>   
-knagan		knagan   <v>      <str>      <class6>      <pastpart>   
+giknagan		knagan   <v>      <str>      <class6>      <pastpart>   
+geknagan		knagan   <v>      <str>      <class6>      <pastpart>   
 knagađ		knagan   <v>      <str>      <class6>      <impv>      <pl>   
 knagađ		knagan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 knagađ		knagan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -19965,7 +20008,8 @@ knages		knagan   <v>      <str>      <class6>      <pres>      <opt>      <2nd> 
 knagu		knagan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <sg>   
 kned		knedan   <v>      <str>      <class5>      <impv>      <sg>   
 knedan		knedan   <v>      <str>      <class5>      <inf>   
-knedan		knedan   <v>      <str>      <class5>      <pastpart>   
+giknedan		knedan   <v>      <str>      <class5>      <pastpart>   
+geknedan		knedan   <v>      <str>      <class5>      <pastpart>   
 knedađ		knedan   <v>      <str>      <class5>      <impv>      <pl>   
 knedađ		knedan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <pl>   
 knedađ		knedan   <v>      <str>      <class5>      <pres>      <indic>      <2nd>      <pl>   
@@ -20077,7 +20121,8 @@ kolku		kolk   <noun>      <masc>      <a-stem>      <instr>      <pl>
 kolku		kolk   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 kolkum		kolk   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 kolkun		kolk   <noun>      <masc>      <a-stem>      <dat>      <pl>   
-koman		kuman   <v>      <str>      <class4>      <pastpart>   
+gikoman		kuman   <v>      <str>      <class4>      <pastpart>   
+gekoman		kuman   <v>      <str>      <class4>      <pastpart>   
 kop		kop   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 kop		kop   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 kopa		kop   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -20704,7 +20749,8 @@ kwestum		kwest   <noun>      <masc>      <a-stem>      <dat>      <pl>
 kwestun		kwest   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 kweth		kwethan   <v>      <str>      <class5>      <impv>      <sg>   
 kwethan		kwethan   <v>      <str>      <class5>      <inf>   
-kwethan		kwethan   <v>      <str>      <class5>      <pastpart>   
+gikwethan		kwethan   <v>      <str>      <class5>      <pastpart>   
+gekwethan		kwethan   <v>      <str>      <class5>      <pastpart>   
 kwethađ		kwethan   <v>      <str>      <class5>      <impv>      <pl>   
 kwethađ		kwethan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <pl>   
 kwethađ		kwethan   <v>      <str>      <class5>      <pres>      <indic>      <2nd>      <pl>   
@@ -20755,8 +20801,10 @@ kwithidun		kwithian   <v>      <wk>      <1>      <pret>      <2nd>      <pl>
 kwithidun		kwithian   <v>      <wk>      <1>      <pret>      <3rd>      <pl>   
 kwithis		kwithian   <v>      <wk>      <1>      <pres>      <2nd>      <sg>   
 kwithiu		kwithian   <v>      <wk>      <1>      <pres>      <1st>      <sg>   
-kwolan		kwelan   <v>      <str>      <class4>      <pastpart>   
-kwollan		kwellan   <v>      <str>      <class3a>      <pastpart>   
+gikwolan		kwelan   <v>      <str>      <class4>      <pastpart>   
+gekwolan		kwelan   <v>      <str>      <class4>      <pastpart>   
+gikwollan		kwellan   <v>      <str>      <class3a>      <pastpart>   
+gekwollan		kwellan   <v>      <str>      <class3a>      <pastpart>   
 kwulli		kwellan   <v>      <str>      <class3a>      <pret>      <indic>      <2nd>      <sg>   
 kwulli		kwellan   <v>      <str>      <class3a>      <pret>      <opt>      <1st>      <sg>   
 kwulli		kwellan   <v>      <str>      <class3a>      <pret>      <opt>      <3rd>      <sg>   
@@ -21049,7 +21097,8 @@ kûthis		kûthian   <v>      <wk>      <1>      <pres>      <2nd>      <sg>
 kûthiu		kûthian   <v>      <wk>      <1>      <pres>      <1st>      <sg>   
 lah		lahan   <v>      <str>      <class6>      <impv>      <sg>   
 lahan		lahan   <v>      <str>      <class6>      <inf>   
-lahan		lahan   <v>      <str>      <class6>      <pastpart>   
+gilahan		lahan   <v>      <str>      <class6>      <pastpart>   
+gelahan		lahan   <v>      <str>      <class6>      <pastpart>   
 lahađ		lahan   <v>      <str>      <class6>      <impv>      <pl>   
 lahađ		lahan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 lahađ		lahan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -21318,7 +21367,8 @@ lepilum		lepil   <noun>      <masc>      <a-stem>      <dat>      <pl>
 lepilun		lepil   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 les		lesan   <v>      <str>      <class5>      <impv>      <sg>   
 lesan		lesan   <v>      <str>      <class5>      <inf>   
-lesan		lesan   <v>      <str>      <class5>      <pastpart>   
+gilesan		lesan   <v>      <str>      <class5>      <pastpart>   
+gelesan		lesan   <v>      <str>      <class5>      <pastpart>   
 lesađ		lesan   <v>      <str>      <class5>      <impv>      <pl>   
 lesađ		lesan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <pl>   
 lesađ		lesan   <v>      <str>      <class5>      <pres>      <indic>      <2nd>      <pl>   
@@ -21378,7 +21428,8 @@ liggi		liggian   <v>      <str>      <class5>      <pret>      <indic>      <1st
 liggi		liggian   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <sg>   
 liggian		leggian   <v>      <wk>      <1>      <inf>   
 liggian		liggian   <v>      <str>      <class5>      <inf>   
-liggian		liggian   <v>      <str>      <class5>      <pastpart>   
+giliggian		liggian   <v>      <str>      <class5>      <pastpart>   
+geliggian		liggian   <v>      <str>      <class5>      <pastpart>   
 liggiađ		liggian   <v>      <str>      <class5>      <impv>      <pl>   
 liggiađ		liggian   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <pl>   
 liggiađ		liggian   <v>      <str>      <class5>      <pres>      <indic>      <2nd>      <pl>   
@@ -21886,7 +21937,8 @@ lât		lât   <noun>      <masc>      <a-stem>      <nom>      <sg>
 lât		lâtan   <v>      <str>      <class7>      <impv>      <sg>   
 lâta		lât   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 lâtan		lâtan   <v>      <str>      <class7>      <inf>   
-lâtan		lâtan   <v>      <str>      <class7>      <pastpart>   
+gilâtan		lâtan   <v>      <str>      <class7>      <pastpart>   
+gelâtan		lâtan   <v>      <str>      <class7>      <pastpart>   
 lâtas		lât   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 lâtađ		lâtan   <v>      <str>      <class7>      <impv>      <pl>   
 lâtađ		lâtan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
@@ -22426,7 +22478,8 @@ mahtu		maht   <noun>      <fem>      <i-stem>      <instr>      <sg>
 mahtun		maht   <noun>      <fem>      <i-stem>      <dat>      <pl>   
 mal		malan   <v>      <str>      <class6>      <impv>      <sg>   
 malan		malan   <v>      <str>      <class6>      <inf>   
-malan		malan   <v>      <str>      <class6>      <pastpart>   
+gimalan		malan   <v>      <str>      <class6>      <pastpart>   
+gemalan		malan   <v>      <str>      <class6>      <pastpart>   
 malađ		malan   <v>      <str>      <class6>      <impv>      <pl>   
 malađ		malan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 malađ		malan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -23063,7 +23116,8 @@ met		met   <noun>      <neut>      <a-stem>      <nom>      <sg>
 met		metan   <v>      <str>      <class5>      <impv>      <sg>   
 meta		met   <noun>      <neut>      <a-stem>      <dat>      <sg>   
 metan		metan   <v>      <str>      <class5>      <inf>   
-metan		metan   <v>      <str>      <class5>      <pastpart>   
+gimetan		metan   <v>      <str>      <class5>      <pastpart>   
+gemetan		metan   <v>      <str>      <class5>      <pastpart>   
 metas		met   <noun>      <neut>      <a-stem>      <gen>      <sg>   
 metađ		metan   <v>      <str>      <class5>      <impv>      <pl>   
 metađ		metan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <pl>   
@@ -23387,6 +23441,8 @@ mistumfto		mistumft   <noun>      <fem>      <i-stem>      <gen>      <pl>
 mistumfton		mistumft   <noun>      <fem>      <i-stem>      <dat>      <pl>   
 mistumftu		mistumft   <noun>      <fem>      <i-stem>      <instr>      <sg>   
 mistumftun		mistumft   <noun>      <fem>      <i-stem>      <dat>      <pl>   
+gimithan		mîthan   <v>      <str>      <class1>      <pastpart>   
+gemithan		mîthan   <v>      <str>      <class1>      <pastpart>   
 mol		mol   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 mol		mol   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 mola		mol   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -24015,7 +24071,6 @@ mîthen		mîthan   <v>      <str>      <class1>      <pres>      <opt>      <1st
 mîthen		mîthan   <v>      <str>      <class1>      <pres>      <opt>      <2nd>      <pl>   
 mîthen		mîthan   <v>      <str>      <class1>      <pres>      <opt>      <3rd>      <pl>   
 mîthes		mîthan   <v>      <str>      <class1>      <pres>      <opt>      <2nd>      <sg>   
-mîthgian		mîthan   <v>      <str>      <class1>      <pastpart>   
 mîthis		mîthan   <v>      <str>      <class1>      <pres>      <indic>      <2nd>      <sg>   
 mîthiđ		mîthan   <v>      <str>      <class1>      <pres>      <indic>      <3rd>      <sg>   
 mîthu		mîthan   <v>      <str>      <class1>      <pres>      <indic>      <1st>      <sg>   
@@ -24398,7 +24453,8 @@ nim		niman   <v>      <str>      <class4>      <impv>      <sg>
 nim		niman   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <sg>   
 nim		niman   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <sg>   
 niman		niman   <v>      <str>      <class4>      <inf>   
-niman		niman   <v>      <str>      <class4>      <pastpart>   
+giniman		niman   <v>      <str>      <class4>      <pastpart>   
+geniman		niman   <v>      <str>      <class4>      <pastpart>   
 nimađ		niman   <v>      <str>      <class4>      <impv>      <pl>   
 nimađ		niman   <v>      <str>      <class4>      <pres>      <indic>      <1st>      <pl>   
 nimađ		niman   <v>      <str>      <class4>      <pres>      <indic>      <2nd>      <pl>   
@@ -24624,7 +24680,8 @@ niuwilingum		niuwiling   <noun>      <masc>      <a-stem>      <dat>      <pl>
 niuwilingun		niuwiling   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 niuwis		niuwian   <v>      <wk>      <1>      <pres>      <2nd>      <sg>   
 niuwiu		niuwian   <v>      <wk>      <1>      <pres>      <1st>      <sg>   
-noman		neman   <v>      <str>      <class4>      <pastpart>   
+ginoman		neman   <v>      <str>      <class4>      <pastpart>   
+genoman		neman   <v>      <str>      <class4>      <pastpart>   
 northrôniwind		northrôniwind   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 northrôniwind		northrôniwind   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 northrôniwinda		northrôniwind   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -24980,6 +25037,7 @@ ofskidun		ofskîthan   <v>      <str>      <class1>      <pret>      <indic>    
 ofskirris		ofskerran   <v>      <str>      <class3b>      <pres>      <indic>      <2nd>      <sg>   
 ofskirriđ		ofskerran   <v>      <str>      <class3b>      <pres>      <indic>      <3rd>      <sg>   
 ofskirru		ofskerran   <v>      <str>      <class3b>      <pres>      <indic>      <1st>      <sg>   
+ofskithan		ofskîthan   <v>      <str>      <class1>      <pastpart>   
 ofskorran		ofskerran   <v>      <str>      <class3b>      <pastpart>   
 ofskurri		ofskerran   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <sg>   
 ofskurri		ofskerran   <v>      <str>      <class3b>      <pret>      <opt>      <1st>      <sg>   
@@ -25005,7 +25063,6 @@ ofskîthen		ofskîthan   <v>      <str>      <class1>      <pres>      <opt>    
 ofskîthen		ofskîthan   <v>      <str>      <class1>      <pres>      <opt>      <2nd>      <pl>   
 ofskîthen		ofskîthan   <v>      <str>      <class1>      <pres>      <opt>      <3rd>      <pl>   
 ofskîthes		ofskîthan   <v>      <str>      <class1>      <pres>      <opt>      <2nd>      <sg>   
-ofskîthgian		ofskîthan   <v>      <str>      <class1>      <pastpart>   
 ofskîthis		ofskîthan   <v>      <str>      <class1>      <pres>      <indic>      <2nd>      <sg>   
 ofskîthiđ		ofskîthan   <v>      <str>      <class1>      <pres>      <indic>      <3rd>      <sg>   
 ofskîthu		ofskîthan   <v>      <str>      <class1>      <pres>      <indic>      <1st>      <sg>   
@@ -25514,7 +25571,8 @@ pleges		plegan   <v>      <str>      <class4>      <pres>      <opt>      <2nd> 
 plegis		plegan   <v>      <str>      <class4>      <pres>      <indic>      <2nd>      <sg>   
 plegiđ		plegan   <v>      <str>      <class4>      <pres>      <indic>      <3rd>      <sg>   
 plegu		plegan   <v>      <str>      <class4>      <pres>      <indic>      <1st>      <sg>   
-plogan		plegan   <v>      <str>      <class4>      <pastpart>   
+giplogan		plegan   <v>      <str>      <class4>      <pastpart>   
+geplogan		plegan   <v>      <str>      <class4>      <pastpart>   
 plâgi		plegan   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <sg>   
 plâgi		plegan   <v>      <str>      <class4>      <pret>      <opt>      <1st>      <sg>   
 plâgi		plegan   <v>      <str>      <class4>      <pret>      <opt>      <3rd>      <sg>   
@@ -25929,6 +25987,8 @@ ribbios		ribbi   <noun>      <neut>      <ja-stem>      <acc>      <pl>
 ribbios		ribbi   <noun>      <neut>      <ja-stem>      <nom>      <pl>   
 ribbiu		ribbi   <noun>      <neut>      <ja-stem>      <instr>      <sg>   
 ribbiun		ribbi   <noun>      <neut>      <ja-stem>      <dat>      <pl>   
+giridan		rîdan   <v>      <str>      <class1>      <pastpart>   
+geridan		rîdan   <v>      <str>      <class1>      <pastpart>   
 ridi		rîdan   <v>      <str>      <class1>      <pret>      <indic>      <2nd>      <sg>   
 ridi		rîdan   <v>      <str>      <class1>      <pret>      <opt>      <1st>      <sg>   
 ridi		rîdan   <v>      <str>      <class1>      <pret>      <opt>      <3rd>      <sg>   
@@ -26002,7 +26062,8 @@ rinn		rinnan   <v>      <str>      <class3a>      <impv>      <sg>
 rinn		rinnan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 rinn		rinnan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 rinnan		rinnan   <v>      <str>      <class3a>      <inf>   
-rinnan		rinnan   <v>      <str>      <class3a>      <pastpart>   
+girinnan		rinnan   <v>      <str>      <class3a>      <pastpart>   
+gerinnan		rinnan   <v>      <str>      <class3a>      <pastpart>   
 rinnađ		rinnan   <v>      <str>      <class3a>      <impv>      <pl>   
 rinnađ		rinnan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <pl>   
 rinnađ		rinnan   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <pl>   
@@ -26159,7 +26220,8 @@ râd		râd   <noun>      <masc>      <a-stem>      <nom>      <sg>
 râd		râdan   <v>      <str>      <class7>      <impv>      <sg>   
 râda		râd   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 râdan		râdan   <v>      <str>      <class7>      <inf>   
-râdan		râdan   <v>      <str>      <class7>      <pastpart>   
+girâdan		râdan   <v>      <str>      <class7>      <pastpart>   
+gerâdan		râdan   <v>      <str>      <class7>      <pastpart>   
 râdas		râd   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 râdađ		râdan   <v>      <str>      <class7>      <impv>      <pl>   
 râdađ		râdan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
@@ -26258,7 +26320,6 @@ rîden		rîdan   <v>      <str>      <class1>      <pres>      <opt>      <1st> 
 rîden		rîdan   <v>      <str>      <class1>      <pres>      <opt>      <2nd>      <pl>   
 rîden		rîdan   <v>      <str>      <class1>      <pres>      <opt>      <3rd>      <pl>   
 rîdes		rîdan   <v>      <str>      <class1>      <pres>      <opt>      <2nd>      <sg>   
-rîdgian		rîdan   <v>      <str>      <class1>      <pastpart>   
 rîdis		rîdan   <v>      <str>      <class1>      <pres>      <indic>      <2nd>      <sg>   
 rîdiđ		rîdan   <v>      <str>      <class1>      <pres>      <indic>      <3rd>      <sg>   
 rîdu		rîdan   <v>      <str>      <class1>      <pres>      <indic>      <1st>      <sg>   
@@ -26522,7 +26583,8 @@ sak		sak   <noun>      <masc>      <i-stem>      <acc>      <sg>
 sak		sak   <noun>      <masc>      <i-stem>      <nom>      <sg>   
 sak		sakan   <v>      <str>      <class6>      <impv>      <sg>   
 sakan		sakan   <v>      <str>      <class6>      <inf>   
-sakan		sakan   <v>      <str>      <class6>      <pastpart>   
+gisakan		sakan   <v>      <str>      <class6>      <pastpart>   
+gesakan		sakan   <v>      <str>      <class6>      <pastpart>   
 sakađ		sakan   <v>      <str>      <class6>      <impv>      <pl>   
 sakađ		sakan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 sakađ		sakan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -26777,7 +26839,8 @@ segon		seg   <noun>      <masc>      <i-stem>      <dat>      <pl>
 segun		seg   <noun>      <masc>      <i-stem>      <dat>      <pl>   
 seh		sehan   <v>      <str>      <class5>      <impv>      <sg>   
 sehan		sehan   <v>      <str>      <class5>      <inf>   
-sehan		sehan   <v>      <str>      <class5>      <pastpart>   
+gisehan		sehan   <v>      <str>      <class5>      <pastpart>   
+gesehan		sehan   <v>      <str>      <class5>      <pastpart>   
 sehađ		sehan   <v>      <str>      <class5>      <impv>      <pl>   
 sehađ		sehan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <pl>   
 sehađ		sehan   <v>      <str>      <class5>      <pres>      <indic>      <2nd>      <pl>   
@@ -27148,7 +27211,8 @@ sing		singan   <v>      <str>      <class3a>      <impv>      <sg>
 sing		singan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 sing		singan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 singan		singan   <v>      <str>      <class3a>      <inf>   
-singan		singan   <v>      <str>      <class3a>      <pastpart>   
+gisingan		singan   <v>      <str>      <class3a>      <pastpart>   
+gesingan		singan   <v>      <str>      <class3a>      <pastpart>   
 singađ		singan   <v>      <str>      <class3a>      <impv>      <pl>   
 singađ		singan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <pl>   
 singađ		singan   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <pl>   
@@ -27176,7 +27240,8 @@ sink		sinkan   <v>      <str>      <class3a>      <impv>      <sg>
 sink		sinkan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 sink		sinkan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 sinkan		sinkan   <v>      <str>      <class3a>      <inf>   
-sinkan		sinkan   <v>      <str>      <class3a>      <pastpart>   
+gisinkan		sinkan   <v>      <str>      <class3a>      <pastpart>   
+gesinkan		sinkan   <v>      <str>      <class3a>      <pastpart>   
 sinkađ		sinkan   <v>      <str>      <class3a>      <impv>      <pl>   
 sinkađ		sinkan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <pl>   
 sinkađ		sinkan   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <pl>   
@@ -27245,7 +27310,8 @@ sitti		sittian   <v>      <str>      <class5>      <pret>      <indic>      <1st
 sitti		sittian   <v>      <str>      <class5>      <pret>      <indic>      <3rd>      <sg>   
 sittian		settian   <v>      <wk>      <1>      <inf>   
 sittian		sittian   <v>      <str>      <class5>      <inf>   
-sittian		sittian   <v>      <str>      <class5>      <pastpart>   
+gisittian		sittian   <v>      <str>      <class5>      <pastpart>   
+gesittian		sittian   <v>      <str>      <class5>      <pastpart>   
 sittiađ		sittian   <v>      <str>      <class5>      <impv>      <pl>   
 sittiađ		sittian   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <pl>   
 sittiađ		sittian   <v>      <str>      <class5>      <pres>      <indic>      <2nd>      <pl>   
@@ -27362,7 +27428,8 @@ skafton		skaft   <noun>      <masc>      <i-stem>      <dat>      <pl>
 skaftun		skaft   <noun>      <masc>      <i-stem>      <dat>      <pl>   
 skak		skakan   <v>      <str>      <class6>      <impv>      <sg>   
 skakan		skakan   <v>      <str>      <class6>      <inf>   
-skakan		skakan   <v>      <str>      <class6>      <pastpart>   
+giskakan		skakan   <v>      <str>      <class6>      <pastpart>   
+geskakan		skakan   <v>      <str>      <class6>      <pastpart>   
 skakađ		skakan   <v>      <str>      <class6>      <impv>      <pl>   
 skakađ		skakan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 skakađ		skakan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -27376,7 +27443,8 @@ skakes		skakan   <v>      <str>      <class6>      <pres>      <opt>      <2nd> 
 skaku		skakan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <sg>   
 skald		skaldan   <v>      <str>      <class7>      <impv>      <sg>   
 skaldan		skaldan   <v>      <str>      <class7>      <inf>   
-skaldan		skaldan   <v>      <str>      <class7>      <pastpart>   
+giskaldan		skaldan   <v>      <str>      <class7>      <pastpart>   
+geskaldan		skaldan   <v>      <str>      <class7>      <pastpart>   
 skaldađ		skaldan   <v>      <str>      <class7>      <impv>      <pl>   
 skaldađ		skaldan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
 skaldađ		skaldan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <pl>   
@@ -27490,7 +27558,8 @@ skauwođ		skauwon   <v>      <wk>      <class2>      <pres>      <2nd>      <pl>
 skauwođ		skauwon   <v>      <wk>      <class2>      <pres>      <3rd>      <pl>   
 skav		skavan   <v>      <str>      <class6>      <impv>      <sg>   
 skavan		skavan   <v>      <str>      <class6>      <inf>   
-skavan		skavan   <v>      <str>      <class6>      <pastpart>   
+giskavan		skavan   <v>      <str>      <class6>      <pastpart>   
+geskavan		skavan   <v>      <str>      <class6>      <pastpart>   
 skavađ		skavan   <v>      <str>      <class6>      <impv>      <pl>   
 skavađ		skavan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 skavađ		skavan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -27725,6 +27794,8 @@ skinakaru		skinakar   <noun>      <neut>      <a-stem>      <instr>      <sg>
 skinakaru		skinakar   <noun>      <neut>      <a-stem>      <nom>      <pl>   
 skinakarum		skinakar   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 skinakarun		skinakar   <noun>      <neut>      <a-stem>      <dat>      <pl>   
+giskinan		skînan   <v>      <str>      <class1>      <pastpart>   
+geskinan		skînan   <v>      <str>      <class1>      <pastpart>   
 skini		skînan   <v>      <str>      <class1>      <pret>      <indic>      <2nd>      <sg>   
 skini		skînan   <v>      <str>      <class1>      <pret>      <opt>      <1st>      <sg>   
 skini		skînan   <v>      <str>      <class1>      <pret>      <opt>      <3rd>      <sg>   
@@ -27858,6 +27929,8 @@ skranktûniun		skranktûn   <noun>      <masc>      <i-stem>      <dat>      <pl
 skranktûno		skranktûn   <noun>      <masc>      <i-stem>      <gen>      <pl>   
 skranktûnon		skranktûn   <noun>      <masc>      <i-stem>      <dat>      <pl>   
 skranktûnun		skranktûn   <noun>      <masc>      <i-stem>      <dat>      <pl>   
+giskridan		skrîdan   <v>      <str>      <class1>      <pastpart>   
+geskridan		skrîdan   <v>      <str>      <class1>      <pastpart>   
 skridi		skrîdan   <v>      <str>      <class1>      <pret>      <indic>      <2nd>      <sg>   
 skridi		skrîdan   <v>      <str>      <class1>      <pret>      <opt>      <1st>      <sg>   
 skridi		skrîdan   <v>      <str>      <class1>      <pret>      <opt>      <3rd>      <sg>   
@@ -27896,7 +27969,6 @@ skrîden		skrîdan   <v>      <str>      <class1>      <pres>      <opt>      <1
 skrîden		skrîdan   <v>      <str>      <class1>      <pres>      <opt>      <2nd>      <pl>   
 skrîden		skrîdan   <v>      <str>      <class1>      <pres>      <opt>      <3rd>      <pl>   
 skrîdes		skrîdan   <v>      <str>      <class1>      <pres>      <opt>      <2nd>      <sg>   
-skrîdgian		skrîdan   <v>      <str>      <class1>      <pastpart>   
 skrîdis		skrîdan   <v>      <str>      <class1>      <pres>      <indic>      <2nd>      <sg>   
 skrîdiđ		skrîdan   <v>      <str>      <class1>      <pres>      <indic>      <3rd>      <sg>   
 skrîdu		skrîdan   <v>      <str>      <class1>      <pres>      <indic>      <1st>      <sg>   
@@ -28050,7 +28122,8 @@ skâpum		skâp   <noun>      <neut>      <a-stem>      <dat>      <pl>
 skâpun		skâp   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 skêd		skêdan   <v>      <str>      <class7>      <impv>      <sg>   
 skêdan		skêdan   <v>      <str>      <class7>      <inf>   
-skêdan		skêdan   <v>      <str>      <class7>      <pastpart>   
+giskêdan		skêdan   <v>      <str>      <class7>      <pastpart>   
+geskêdan		skêdan   <v>      <str>      <class7>      <pastpart>   
 skêdađ		skêdan   <v>      <str>      <class7>      <impv>      <pl>   
 skêdađ		skêdan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
 skêdađ		skêdan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <pl>   
@@ -28071,7 +28144,8 @@ skêth		skêth   <noun>      <masc>      <a-stem>      <nom>      <sg>
 skêth		skêthan   <v>      <str>      <class7>      <impv>      <sg>   
 skêtha		skêth   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 skêthan		skêthan   <v>      <str>      <class7>      <inf>   
-skêthan		skêthan   <v>      <str>      <class7>      <pastpart>   
+giskêthan		skêthan   <v>      <str>      <class7>      <pastpart>   
+geskêthan		skêthan   <v>      <str>      <class7>      <pastpart>   
 skêthas		skêth   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 skêthađ		skêthan   <v>      <str>      <class7>      <impv>      <pl>   
 skêthađ		skêthan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
@@ -28108,7 +28182,6 @@ skînen		skînan   <v>      <str>      <class1>      <pres>      <opt>      <1st
 skînen		skînan   <v>      <str>      <class1>      <pres>      <opt>      <2nd>      <pl>   
 skînen		skînan   <v>      <str>      <class1>      <pres>      <opt>      <3rd>      <pl>   
 skînes		skînan   <v>      <str>      <class1>      <pres>      <opt>      <2nd>      <sg>   
-skîngian		skînan   <v>      <str>      <class1>      <pastpart>   
 skînis		skînan   <v>      <str>      <class1>      <pres>      <indic>      <2nd>      <sg>   
 skîniđ		skînan   <v>      <str>      <class1>      <pres>      <indic>      <3rd>      <sg>   
 skînu		skînan   <v>      <str>      <class1>      <pres>      <indic>      <1st>      <sg>   
@@ -28200,7 +28273,8 @@ skûron		skûr   <noun>      <masc>      <i-stem>      <dat>      <pl>
 skûrun		skûr   <noun>      <masc>      <i-stem>      <dat>      <pl>   
 slah		slahan   <v>      <str>      <class6>      <impv>      <sg>   
 slahan		slahan   <v>      <str>      <class6>      <inf>   
-slahan		slahan   <v>      <str>      <class6>      <pastpart>   
+gislahan		slahan   <v>      <str>      <class6>      <pastpart>   
+geslahan		slahan   <v>      <str>      <class6>      <pastpart>   
 slahađ		slahan   <v>      <str>      <class6>      <impv>      <pl>   
 slahađ		slahan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 slahađ		slahan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -28348,7 +28422,8 @@ slâp		slâp   <noun>      <masc>      <a-stem>      <nom>      <sg>
 slâp		slâpan   <v>      <str>      <class7>      <impv>      <sg>   
 slâpa		slâp   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 slâpan		slâpan   <v>      <str>      <class7>      <inf>   
-slâpan		slâpan   <v>      <str>      <class7>      <pastpart>   
+gislâpan		slâpan   <v>      <str>      <class7>      <pastpart>   
+geslâpan		slâpan   <v>      <str>      <class7>      <pastpart>   
 slâpas		slâp   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 slâpađ		slâpan   <v>      <str>      <class7>      <impv>      <pl>   
 slâpađ		slâpan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
@@ -28484,7 +28559,8 @@ smithu		smith   <noun>      <masc>      <a-stem>      <instr>      <pl>
 smithu		smith   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 smithum		smith   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 smithun		smith   <noun>      <masc>      <a-stem>      <dat>      <pl>   
-smoltan		smeltan   <v>      <str>      <class3b>      <pastpart>   
+gismoltan		smeltan   <v>      <str>      <class3b>      <pastpart>   
+gesmoltan		smeltan   <v>      <str>      <class3b>      <pastpart>   
 smulti		smeltan   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <sg>   
 smulti		smeltan   <v>      <str>      <class3b>      <pret>      <opt>      <1st>      <sg>   
 smulti		smeltan   <v>      <str>      <class3b>      <pret>      <opt>      <3rd>      <sg>   
@@ -28587,7 +28663,8 @@ sosterun		soster   <noun>      <masc>      <a-stem>      <dat>      <pl>
 sowes		sô   <noun>      <neut>      <wa-stem>      <gen>      <sg>   
 span		spanan   <v>      <str>      <class6>      <impv>      <sg>   
 spanan		spanan   <v>      <str>      <class6>      <inf>   
-spanan		spanan   <v>      <str>      <class6>      <pastpart>   
+gispanan		spanan   <v>      <str>      <class6>      <pastpart>   
+gespanan		spanan   <v>      <str>      <class6>      <pastpart>   
 spanađ		spanan   <v>      <str>      <class6>      <impv>      <pl>   
 spanađ		spanan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 spanađ		spanan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -28751,6 +28828,8 @@ spiotu		spiot   <noun>      <masc>      <a-stem>      <instr>      <pl>
 spiotu		spiot   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 spiotum		spiot   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 spiotun		spiot   <noun>      <masc>      <a-stem>      <dat>      <pl>   
+gispiwan		spîwan   <v>      <str>      <class1>      <pastpart>   
+gespiwan		spîwan   <v>      <str>      <class1>      <pastpart>   
 spiwi		spîwan   <v>      <str>      <class1>      <pret>      <indic>      <2nd>      <sg>   
 spiwi		spîwan   <v>      <str>      <class1>      <pret>      <opt>      <1st>      <sg>   
 spiwi		spîwan   <v>      <str>      <class1>      <pret>      <opt>      <3rd>      <sg>   
@@ -28836,7 +28915,8 @@ spring		springan   <v>      <str>      <class3a>      <impv>      <sg>
 spring		springan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 spring		springan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 springan		springan   <v>      <str>      <class3a>      <inf>   
-springan		springan   <v>      <str>      <class3a>      <pastpart>   
+gispringan		springan   <v>      <str>      <class3a>      <pastpart>   
+gespringan		springan   <v>      <str>      <class3a>      <pastpart>   
 springađ		springan   <v>      <str>      <class3a>      <impv>      <pl>   
 springađ		springan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <pl>   
 springađ		springan   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <pl>   
@@ -28879,7 +28959,8 @@ spriu		spriu   <noun>      <neut>      <wa-stem>      <acc>      <sg>
 spriu		spriu   <noun>      <neut>      <wa-stem>      <nom>      <sg>   
 spriuwe		spriu   <noun>      <neut>      <wa-stem>      <dat>      <sg>   
 spriuwes		spriu   <noun>      <neut>      <wa-stem>      <gen>      <sg>   
-sprokan		sprekan   <v>      <str>      <class4>      <pastpart>   
+gisprokan		sprekan   <v>      <str>      <class4>      <pastpart>   
+gesprokan		sprekan   <v>      <str>      <class4>      <pastpart>   
 sprâkea		sprâki   <noun>      <neut>      <ja-stem>      <dat>      <sg>   
 sprâkeas		sprâki   <noun>      <neut>      <ja-stem>      <gen>      <sg>   
 sprâkeo		sprâki   <noun>      <neut>      <ja-stem>      <gen>      <pl>   
@@ -28935,7 +29016,8 @@ spurn		spurnan   <v>      <str>      <class3b>      <impv>      <sg>
 spurn		spurnan   <v>      <str>      <class3b>      <pret>      <indic>      <1st>      <sg>   
 spurn		spurnan   <v>      <str>      <class3b>      <pret>      <indic>      <3rd>      <sg>   
 spurnan		spurnan   <v>      <str>      <class3b>      <inf>   
-spurnan		spurnan   <v>      <str>      <class3b>      <pastpart>   
+gispurnan		spurnan   <v>      <str>      <class3b>      <pastpart>   
+gespurnan		spurnan   <v>      <str>      <class3b>      <pastpart>   
 spurnađ		spurnan   <v>      <str>      <class3b>      <impv>      <pl>   
 spurnađ		spurnan   <v>      <str>      <class3b>      <pres>      <indic>      <1st>      <pl>   
 spurnađ		spurnan   <v>      <str>      <class3b>      <pres>      <indic>      <2nd>      <pl>   
@@ -29071,7 +29153,6 @@ spîwen		spîwan   <v>      <str>      <class1>      <pres>      <opt>      <1st
 spîwen		spîwan   <v>      <str>      <class1>      <pres>      <opt>      <2nd>      <pl>   
 spîwen		spîwan   <v>      <str>      <class1>      <pres>      <opt>      <3rd>      <pl>   
 spîwes		spîwan   <v>      <str>      <class1>      <pres>      <opt>      <2nd>      <sg>   
-spîwgian		spîwan   <v>      <str>      <class1>      <pastpart>   
 spîwis		spîwan   <v>      <str>      <class1>      <pres>      <indic>      <2nd>      <sg>   
 spîwiđ		spîwan   <v>      <str>      <class1>      <pres>      <indic>      <3rd>      <sg>   
 spîwu		spîwan   <v>      <str>      <class1>      <pres>      <indic>      <1st>      <sg>   
@@ -29193,7 +29274,8 @@ stamnum		stamn   <noun>      <masc>      <a-stem>      <dat>      <pl>
 stamnun		stamn   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 stand		standan   <v>      <str>      <class6>      <impv>      <sg>   
 standan		standan   <v>      <str>      <class6>      <inf>   
-standan		standan   <v>      <str>      <class6>      <pastpart>   
+gistandan		standan   <v>      <str>      <class6>      <pastpart>   
+gestandan		standan   <v>      <str>      <class6>      <pastpart>   
 standađ		standan   <v>      <str>      <class6>      <impv>      <pl>   
 standađ		standan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 standađ		standan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -29333,7 +29415,8 @@ stekuli		stekuli   <noun>      <fem>      <i-stem>      <nom>      <sg>
 stekulion		stekuli   <noun>      <fem>      <i-stem>      <dat>      <pl>   
 stel		stelan   <v>      <str>      <class5>      <impv>      <sg>   
 stelan		stelan   <v>      <str>      <class5>      <inf>   
-stelan		stelan   <v>      <str>      <class5>      <pastpart>   
+gistelan		stelan   <v>      <str>      <class5>      <pastpart>   
+gestelan		stelan   <v>      <str>      <class5>      <pastpart>   
 stelađ		stelan   <v>      <str>      <class5>      <impv>      <pl>   
 stelađ		stelan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <pl>   
 stelađ		stelan   <v>      <str>      <class5>      <pres>      <indic>      <2nd>      <pl>   
@@ -29397,7 +29480,8 @@ steppi		steppian   <v>      <str>      <class6>      <pret>      <indic>      <3
 steppi		steppian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <sg>   
 steppi		steppian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <sg>   
 steppian		steppian   <v>      <str>      <class6>      <inf>   
-steppian		steppian   <v>      <str>      <class6>      <pastpart>   
+gisteppian		steppian   <v>      <str>      <class6>      <pastpart>   
+gesteppian		steppian   <v>      <str>      <class6>      <pastpart>   
 steppiađ		steppian   <v>      <str>      <class6>      <impv>      <pl>   
 steppiađ		steppian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 steppiađ		steppian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -29459,6 +29543,8 @@ sterven		stervan   <v>      <str>      <class3b>      <pres>      <opt>      <2n
 sterven		stervan   <v>      <str>      <class3b>      <pres>      <opt>      <3rd>      <pl>   
 sterves		stervan   <v>      <str>      <class3b>      <pres>      <opt>      <2nd>      <sg>   
 stethian		stathian   <v>      <wk>      <1>      <inf>   
+gistigan		stîgan   <v>      <str>      <class1>      <pastpart>   
+gestigan		stîgan   <v>      <str>      <class1>      <pastpart>   
 stigi		stîgan   <v>      <str>      <class1>      <pret>      <indic>      <2nd>      <sg>   
 stigi		stîgan   <v>      <str>      <class1>      <pret>      <opt>      <1st>      <sg>   
 stigi		stîgan   <v>      <str>      <class1>      <pret>      <opt>      <3rd>      <sg>   
@@ -29577,7 +29663,8 @@ stirvu		stervan   <v>      <str>      <class3b>      <pres>      <indic>      <1
 stok		stok   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 stok		stok   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 stoka		stok   <noun>      <masc>      <a-stem>      <dat>      <sg>   
-stokan		stekan   <v>      <str>      <class4>      <pastpart>   
+gistokan		stekan   <v>      <str>      <class4>      <pastpart>   
+gestokan		stekan   <v>      <str>      <class4>      <pastpart>   
 stokas		stok   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 stoke		stok   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 stokes		stok   <noun>      <masc>      <a-stem>      <gen>      <sg>   
@@ -29603,7 +29690,8 @@ stormu		storm   <noun>      <masc>      <a-stem>      <instr>      <pl>
 stormu		storm   <noun>      <masc>      <a-stem>      <instr>      <sg>   
 stormum		storm   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 stormun		storm   <noun>      <masc>      <a-stem>      <dat>      <pl>   
-storvan		stervan   <v>      <str>      <class3b>      <pastpart>   
+gistorvan		stervan   <v>      <str>      <class3b>      <pastpart>   
+gestorvan		stervan   <v>      <str>      <class3b>      <pastpart>   
 strengi		strengi   <noun>      <fem>      <i-stem>      <acc>      <pl>   
 strengi		strengi   <noun>      <fem>      <i-stem>      <acc>      <sg>   
 strengi		strengi   <noun>      <fem>      <i-stem>      <dat>      <sg>   
@@ -30015,7 +30103,6 @@ stîgen		stîgan   <v>      <str>      <class1>      <pres>      <opt>      <1st
 stîgen		stîgan   <v>      <str>      <class1>      <pres>      <opt>      <2nd>      <pl>   
 stîgen		stîgan   <v>      <str>      <class1>      <pres>      <opt>      <3rd>      <pl>   
 stîges		stîgan   <v>      <str>      <class1>      <pres>      <opt>      <2nd>      <sg>   
-stîggian		stîgan   <v>      <str>      <class1>      <pastpart>   
 stîgis		stîgan   <v>      <str>      <class1>      <pres>      <indic>      <2nd>      <sg>   
 stîgiđ		stîgan   <v>      <str>      <class1>      <pres>      <indic>      <3rd>      <sg>   
 stîgu		stîgan   <v>      <str>      <class1>      <pres>      <indic>      <1st>      <sg>   
@@ -30111,7 +30198,8 @@ stôpum		stôp   <noun>      <masc>      <a-stem>      <dat>      <pl>
 stôpun		stôp   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 stôt		stôtan   <v>      <str>      <class7>      <impv>      <sg>   
 stôtan		stôtan   <v>      <str>      <class7>      <inf>   
-stôtan		stôtan   <v>      <str>      <class7>      <pastpart>   
+gistôtan		stôtan   <v>      <str>      <class7>      <pastpart>   
+gestôtan		stôtan   <v>      <str>      <class7>      <pastpart>   
 stôtađ		stôtan   <v>      <str>      <class7>      <impv>      <pl>   
 stôtađ		stôtan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
 stôtađ		stôtan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <pl>   
@@ -30395,7 +30483,8 @@ sweri		swerian   <v>      <str>      <class6>      <pret>      <indic>      <3rd
 sweri		swerian   <v>      <str>      <class6>      <pret>      <opt>      <1st>      <sg>   
 sweri		swerian   <v>      <str>      <class6>      <pret>      <opt>      <3rd>      <sg>   
 swerian		swerian   <v>      <str>      <class6>      <inf>   
-swerian		swerian   <v>      <str>      <class6>      <pastpart>   
+giswerian		swerian   <v>      <str>      <class6>      <pastpart>   
+geswerian		swerian   <v>      <str>      <class6>      <pastpart>   
 sweriađ		swerian   <v>      <str>      <class6>      <impv>      <pl>   
 sweriađ		swerian   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 sweriađ		swerian   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -30493,7 +30582,8 @@ swing		swingan   <v>      <str>      <class3a>      <impv>      <sg>
 swing		swingan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 swing		swingan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 swingan		swingan   <v>      <str>      <class3a>      <inf>   
-swingan		swingan   <v>      <str>      <class3a>      <pastpart>   
+giswingan		swingan   <v>      <str>      <class3a>      <pastpart>   
+geswingan		swingan   <v>      <str>      <class3a>      <pastpart>   
 swingađ		swingan   <v>      <str>      <class3a>      <impv>      <pl>   
 swingađ		swingan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <pl>   
 swingađ		swingan   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <pl>   
@@ -30548,10 +30638,14 @@ swirku		swerkan   <v>      <str>      <class3b>      <pres>      <indic>      <1
 swirvis		swervan   <v>      <str>      <class3b>      <pres>      <indic>      <2nd>      <sg>   
 swirviđ		swervan   <v>      <str>      <class3b>      <pres>      <indic>      <3rd>      <sg>   
 swirvu		swervan   <v>      <str>      <class3b>      <pres>      <indic>      <1st>      <sg>   
-swollan		swellan   <v>      <str>      <class3b>      <pastpart>   
-swoltan		sweltan   <v>      <str>      <class3b>      <pastpart>   
-sworkan		swerkan   <v>      <str>      <class3b>      <pastpart>   
-sworvan		swervan   <v>      <str>      <class3b>      <pastpart>   
+giswollan		swellan   <v>      <str>      <class3b>      <pastpart>   
+geswollan		swellan   <v>      <str>      <class3b>      <pastpart>   
+giswoltan		sweltan   <v>      <str>      <class3b>      <pastpart>   
+geswoltan		sweltan   <v>      <str>      <class3b>      <pastpart>   
+gisworkan		swerkan   <v>      <str>      <class3b>      <pastpart>   
+gesworkan		swerkan   <v>      <str>      <class3b>      <pastpart>   
+gisworvan		swervan   <v>      <str>      <class3b>      <pastpart>   
+gesworvan		swervan   <v>      <str>      <class3b>      <pastpart>   
 swulli		swellan   <v>      <str>      <class3b>      <pret>      <indic>      <2nd>      <sg>   
 swulli		swellan   <v>      <str>      <class3b>      <pret>      <opt>      <1st>      <sg>   
 swulli		swellan   <v>      <str>      <class3b>      <pret>      <opt>      <3rd>      <sg>   
@@ -30676,7 +30770,8 @@ swînum		swîn   <noun>      <neut>      <a-stem>      <dat>      <pl>
 swînun		swîn   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 swôg		swôgan   <v>      <str>      <class7>      <impv>      <sg>   
 swôgan		swôgan   <v>      <str>      <class7>      <inf>   
-swôgan		swôgan   <v>      <str>      <class7>      <pastpart>   
+giswôgan		swôgan   <v>      <str>      <class7>      <pastpart>   
+geswôgan		swôgan   <v>      <str>      <class7>      <pastpart>   
 swôgađ		swôgan   <v>      <str>      <class7>      <impv>      <pl>   
 swôgađ		swôgan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
 swôgađ		swôgan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <pl>   
@@ -31522,6 +31617,7 @@ tesamnamerkidun		tesamnamerkian   <v>      <wk>      <1>      <pret>      <3rd> 
 tesamnamerkis		tesamnamerkian   <v>      <wk>      <1>      <pres>      <2nd>      <sg>   
 tesamnamerkiu		tesamnamerkian   <v>      <wk>      <1>      <pres>      <1st>      <sg>   
 tesamnamirkian		tesamnamerkian   <v>      <wk>      <1>      <inf>   
+teskridan		teskrîdan   <v>      <str>      <class1>      <pastpart>   
 teskridi		teskrîdan   <v>      <str>      <class1>      <pret>      <indic>      <2nd>      <sg>   
 teskridi		teskrîdan   <v>      <str>      <class1>      <pret>      <opt>      <1st>      <sg>   
 teskridi		teskrîdan   <v>      <str>      <class1>      <pret>      <opt>      <3rd>      <sg>   
@@ -31546,7 +31642,6 @@ teskrîden		teskrîdan   <v>      <str>      <class1>      <pres>      <opt>    
 teskrîden		teskrîdan   <v>      <str>      <class1>      <pres>      <opt>      <2nd>      <pl>   
 teskrîden		teskrîdan   <v>      <str>      <class1>      <pres>      <opt>      <3rd>      <pl>   
 teskrîdes		teskrîdan   <v>      <str>      <class1>      <pres>      <opt>      <2nd>      <sg>   
-teskrîdgian		teskrîdan   <v>      <str>      <class1>      <pastpart>   
 teskrîdis		teskrîdan   <v>      <str>      <class1>      <pres>      <indic>      <2nd>      <sg>   
 teskrîdiđ		teskrîdan   <v>      <str>      <class1>      <pres>      <indic>      <3rd>      <sg>   
 teskrîdu		teskrîdan   <v>      <str>      <class1>      <pres>      <indic>      <1st>      <sg>   
@@ -32333,7 +32428,8 @@ thrimm		thrimman   <v>      <str>      <class3a>      <impv>      <sg>
 thrimm		thrimman   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 thrimm		thrimman   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 thrimman		thrimman   <v>      <str>      <class3a>      <inf>   
-thrimman		thrimman   <v>      <str>      <class3a>      <pastpart>   
+githrimman		thrimman   <v>      <str>      <class3a>      <pastpart>   
+gethrimman		thrimman   <v>      <str>      <class3a>      <pastpart>   
 thrimmađ		thrimman   <v>      <str>      <class3a>      <impv>      <pl>   
 thrimmađ		thrimman   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <pl>   
 thrimmađ		thrimman   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <pl>   
@@ -32361,7 +32457,8 @@ thring		thringan   <v>      <str>      <class3a>      <impv>      <sg>
 thring		thringan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 thring		thringan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 thringan		thringan   <v>      <str>      <class3a>      <inf>   
-thringan		thringan   <v>      <str>      <class3a>      <pastpart>   
+githringan		thringan   <v>      <str>      <class3a>      <pastpart>   
+gethringan		thringan   <v>      <str>      <class3a>      <pastpart>   
 thringađ		thringan   <v>      <str>      <class3a>      <impv>      <pl>   
 thringađ		thringan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <pl>   
 thringađ		thringan   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <pl>   
@@ -32849,7 +32946,8 @@ thurstis		thurstian   <v>      <wk>      <1>      <pres>      <2nd>      <sg>
 thurstiu		thurstian   <v>      <wk>      <1>      <pres>      <1st>      <sg>   
 thwah		thwahan   <v>      <str>      <class6>      <impv>      <sg>   
 thwahan		thwahan   <v>      <str>      <class6>      <inf>   
-thwahan		thwahan   <v>      <str>      <class6>      <pastpart>   
+githwahan		thwahan   <v>      <str>      <class6>      <pastpart>   
+gethwahan		thwahan   <v>      <str>      <class6>      <pastpart>   
 thwahađ		thwahan   <v>      <str>      <class6>      <impv>      <pl>   
 thwahađ		thwahan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 thwahađ		thwahan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -32899,7 +32997,8 @@ thwing		thwingan   <v>      <str>      <class3a>      <pret>      <indic>      <
 thwing		thwingan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 thwinga		thwing   <noun>      <neut>      <a-stem>      <dat>      <sg>   
 thwingan		thwingan   <v>      <str>      <class3a>      <inf>   
-thwingan		thwingan   <v>      <str>      <class3a>      <pastpart>   
+githwingan		thwingan   <v>      <str>      <class3a>      <pastpart>   
+gethwingan		thwingan   <v>      <str>      <class3a>      <pastpart>   
 thwingas		thwing   <noun>      <neut>      <a-stem>      <gen>      <sg>   
 thwingađ		thwingan   <v>      <str>      <class3a>      <impv>      <pl>   
 thwingađ		thwingan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <pl>   
@@ -33053,7 +33152,8 @@ tinum		tin   <noun>      <neut>      <a-stem>      <dat>      <pl>
 tinun		tin   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 tiog		tiohan   <v>      <str>      <class2>      <pret>      <indic>      <1st>      <sg>   
 tiog		tiohan   <v>      <str>      <class2>      <pret>      <indic>      <3rd>      <sg>   
-tiogan		tiohan   <v>      <str>      <class2>      <pastpart>   
+gitiogan		tiohan   <v>      <str>      <class2>      <pastpart>   
+getiogan		tiohan   <v>      <str>      <class2>      <pastpart>   
 tioh		tiohan   <v>      <str>      <class2>      <impv>      <sg>   
 tiohan		tiohan   <v>      <str>      <class2>      <inf>   
 tiohađ		tiohan   <v>      <str>      <class2>      <impv>      <pl>   
@@ -33170,7 +33270,8 @@ trahtariu		trahtari   <noun>      <masc>      <ja-stem>      <instr>      <sg>
 trahtariun		trahtari   <noun>      <masc>      <ja-stem>      <dat>      <pl>   
 treg		tregan   <v>      <str>      <class5>      <impv>      <sg>   
 tregan		tregan   <v>      <str>      <class5>      <inf>   
-tregan		tregan   <v>      <str>      <class5>      <pastpart>   
+gitregan		tregan   <v>      <str>      <class5>      <pastpart>   
+getregan		tregan   <v>      <str>      <class5>      <pastpart>   
 tregađ		tregan   <v>      <str>      <class5>      <impv>      <pl>   
 tregađ		tregan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <pl>   
 tregađ		tregan   <v>      <str>      <class5>      <pres>      <indic>      <2nd>      <pl>   
@@ -34737,7 +34838,8 @@ wahs		wahs   <noun>      <neut>      <a-stem>      <nom>      <sg>
 wahs		wahsan   <v>      <str>      <class6>      <impv>      <sg>   
 wahsa		wahs   <noun>      <neut>      <a-stem>      <dat>      <sg>   
 wahsan		wahsan   <v>      <str>      <class6>      <inf>   
-wahsan		wahsan   <v>      <str>      <class6>      <pastpart>   
+giwahsan		wahsan   <v>      <str>      <class6>      <pastpart>   
+gewahsan		wahsan   <v>      <str>      <class6>      <pastpart>   
 wahsas		wahs   <noun>      <neut>      <a-stem>      <gen>      <sg>   
 wahsađ		wahsan   <v>      <str>      <class6>      <impv>      <pl>   
 wahsađ		wahsan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
@@ -34823,7 +34925,8 @@ wald		wald   <noun>      <masc>      <a-stem>      <nom>      <sg>
 wald		waldan   <v>      <str>      <class7>      <impv>      <sg>   
 walda		wald   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 waldan		waldan   <v>      <str>      <class7>      <inf>   
-waldan		waldan   <v>      <str>      <class7>      <pastpart>   
+giwaldan		waldan   <v>      <str>      <class7>      <pastpart>   
+gewaldan		waldan   <v>      <str>      <class7>      <pastpart>   
 waldandgod		waldandgod   <noun>      <masc>      <a-stem>      <acc>      <sg>   
 waldandgod		waldandgod   <noun>      <masc>      <a-stem>      <nom>      <sg>   
 waldandgoda		waldandgod   <noun>      <masc>      <a-stem>      <dat>      <sg>   
@@ -34944,7 +35047,8 @@ walhum		walh   <noun>      <masc>      <a-stem>      <dat>      <pl>
 walhun		walh   <noun>      <masc>      <a-stem>      <dat>      <pl>   
 wall		wallan   <v>      <str>      <class7>      <impv>      <sg>   
 wallan		wallan   <v>      <str>      <class7>      <inf>   
-wallan		wallan   <v>      <str>      <class7>      <pastpart>   
+giwallan		wallan   <v>      <str>      <class7>      <pastpart>   
+gewallan		wallan   <v>      <str>      <class7>      <pastpart>   
 wallađ		wallan   <v>      <str>      <class7>      <impv>      <pl>   
 wallađ		wallan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
 wallađ		wallan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <pl>   
@@ -35254,7 +35358,8 @@ was		wesan   <v>      <irregular>      <pret>      <indic>      <1st>      <sg>
 was		wesan   <v>      <irregular>      <pret>      <indic>      <3rd>      <sg>   
 wask		waskan   <v>      <str>      <class6>      <impv>      <sg>   
 waskan		waskan   <v>      <str>      <class6>      <inf>   
-waskan		waskan   <v>      <str>      <class6>      <pastpart>   
+giwaskan		waskan   <v>      <str>      <class6>      <pastpart>   
+gewaskan		waskan   <v>      <str>      <class6>      <pastpart>   
 waskađ		waskan   <v>      <str>      <class6>      <impv>      <pl>   
 waskađ		waskan   <v>      <str>      <class6>      <pres>      <indic>      <1st>      <pl>   
 waskađ		waskan   <v>      <str>      <class6>      <pres>      <indic>      <2nd>      <pl>   
@@ -35375,7 +35480,8 @@ weg		weg   <noun>      <masc>      <a-stem>      <nom>      <sg>
 weg		wegan   <v>      <str>      <class5>      <impv>      <sg>   
 wega		weg   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 wegan		wegan   <v>      <str>      <class5>      <inf>   
-wegan		wegan   <v>      <str>      <class5>      <pastpart>   
+giwegan		wegan   <v>      <str>      <class5>      <pastpart>   
+gewegan		wegan   <v>      <str>      <class5>      <pastpart>   
 wegas		weg   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 wegađ		wegan   <v>      <str>      <class5>      <impv>      <pl>   
 wegađ		wegan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <pl>   
@@ -36053,7 +36159,8 @@ wevalu		weval   <noun>      <neut>      <a-stem>      <nom>      <pl>
 wevalum		weval   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 wevalun		weval   <noun>      <neut>      <a-stem>      <dat>      <pl>   
 wevan		wevan   <v>      <str>      <class5>      <inf>   
-wevan		wevan   <v>      <str>      <class5>      <pastpart>   
+giwevan		wevan   <v>      <str>      <class5>      <pastpart>   
+gewevan		wevan   <v>      <str>      <class5>      <pastpart>   
 wevađ		wevan   <v>      <str>      <class5>      <impv>      <pl>   
 wevađ		wevan   <v>      <str>      <class5>      <pres>      <indic>      <1st>      <pl>   
 wevađ		wevan   <v>      <str>      <class5>      <pres>      <indic>      <2nd>      <pl>   
@@ -36146,7 +36253,8 @@ wind		windan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>
 wind		windan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 winda		wind   <noun>      <masc>      <a-stem>      <dat>      <sg>   
 windan		windan   <v>      <str>      <class3a>      <inf>   
-windan		windan   <v>      <str>      <class3a>      <pastpart>   
+giwindan		windan   <v>      <str>      <class3a>      <pastpart>   
+gewindan		windan   <v>      <str>      <class3a>      <pastpart>   
 windas		wind   <noun>      <masc>      <a-stem>      <gen>      <sg>   
 windađ		windan   <v>      <str>      <class3a>      <impv>      <pl>   
 windađ		windan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <pl>   
@@ -36244,7 +36352,8 @@ winn		winnan   <v>      <str>      <class3a>      <impv>      <sg>
 winn		winnan   <v>      <str>      <class3a>      <pret>      <indic>      <1st>      <sg>   
 winn		winnan   <v>      <str>      <class3a>      <pret>      <indic>      <3rd>      <sg>   
 winnan		winnan   <v>      <str>      <class3a>      <inf>   
-winnan		winnan   <v>      <str>      <class3a>      <pastpart>   
+giwinnan		winnan   <v>      <str>      <class3a>      <pastpart>   
+gewinnan		winnan   <v>      <str>      <class3a>      <pastpart>   
 winnađ		winnan   <v>      <str>      <class3a>      <impv>      <pl>   
 winnađ		winnan   <v>      <str>      <class3a>      <pres>      <indic>      <1st>      <pl>   
 winnađ		winnan   <v>      <str>      <class3a>      <pres>      <indic>      <2nd>      <pl>   
@@ -36900,8 +37009,10 @@ wormmelu		wormmelo   <noun>      <neut>      <wa-stem>      <acc>      <sg>
 wormmelu		wormmelo   <noun>      <neut>      <wa-stem>      <nom>      <sg>   
 wormmeluwe		wormmelo   <noun>      <neut>      <wa-stem>      <dat>      <sg>   
 wormmeluwes		wormmelo   <noun>      <neut>      <wa-stem>      <gen>      <sg>   
-worpan		werpan   <v>      <str>      <class3b>      <pastpart>   
-worran		werran   <v>      <str>      <class3b>      <pastpart>   
+giworpan		werpan   <v>      <str>      <class3b>      <pastpart>   
+geworpan		werpan   <v>      <str>      <class3b>      <pastpart>   
+giworran		werran   <v>      <str>      <class3b>      <pastpart>   
+geworran		werran   <v>      <str>      <class3b>      <pastpart>   
 worri		worrian   <v>      <wk>      <1>      <impv>      <sg>   
 worriad		worrian   <v>      <wk>      <1>      <impv>      <pl>   
 worrian		worrian   <v>      <wk>      <1>      <inf>   
@@ -36917,7 +37028,8 @@ worridun		worrian   <v>      <wk>      <1>      <pret>      <2nd>      <pl>
 worridun		worrian   <v>      <wk>      <1>      <pret>      <3rd>      <pl>   
 worris		worrian   <v>      <wk>      <1>      <pres>      <2nd>      <sg>   
 worriu		worrian   <v>      <wk>      <1>      <pres>      <1st>      <sg>   
-worthan		werthan   <v>      <str>      <class3b>      <pastpart>   
+giworthan		werthan   <v>      <str>      <class3b>      <pastpart>   
+geworthan		werthan   <v>      <str>      <class3b>      <pastpart>   
 wrak		wrekan   <v>      <str>      <class4>      <pret>      <indic>      <1st>      <sg>   
 wrak		wrekan   <v>      <str>      <class4>      <pret>      <indic>      <3rd>      <sg>   
 wrek		wrekan   <v>      <str>      <class4>      <impv>      <sg>   
@@ -36965,6 +37077,8 @@ wrision		wrisi   <noun>      <masc>      <i-stem>      <dat>      <pl>
 wrisios		wrisi   <noun>      <masc>      <i-stem>      <nom>      <pl>   
 wrisiu		wrisi   <noun>      <masc>      <i-stem>      <instr>      <sg>   
 wrisiun		wrisi   <noun>      <masc>      <i-stem>      <dat>      <pl>   
+giwritan		wrîtan   <v>      <str>      <class1>      <pastpart>   
+gewritan		wrîtan   <v>      <str>      <class1>      <pastpart>   
 writhian		wrethian   <v>      <wk>      <1>      <inf>   
 writi		wrîtan   <v>      <str>      <class1>      <pret>      <indic>      <2nd>      <sg>   
 writi		wrîtan   <v>      <str>      <class1>      <pret>      <opt>      <1st>      <sg>   
@@ -36976,7 +37090,8 @@ writis		wrîtan   <v>      <str>      <class1>      <pret>      <opt>      <2nd>
 writun		wrîtan   <v>      <str>      <class1>      <pret>      <indic>      <1st>      <pl>   
 writun		wrîtan   <v>      <str>      <class1>      <pret>      <indic>      <2nd>      <pl>   
 writun		wrîtan   <v>      <str>      <class1>      <pret>      <indic>      <3rd>      <pl>   
-wrokan		wrekan   <v>      <str>      <class4>      <pastpart>   
+giwrokan		wrekan   <v>      <str>      <class4>      <pastpart>   
+gewrokan		wrekan   <v>      <str>      <class4>      <pastpart>   
 wrâki		wrekan   <v>      <str>      <class4>      <pret>      <indic>      <2nd>      <sg>   
 wrâki		wrekan   <v>      <str>      <class4>      <pret>      <opt>      <1st>      <sg>   
 wrâki		wrekan   <v>      <str>      <class4>      <pret>      <opt>      <3rd>      <sg>   
@@ -37030,7 +37145,6 @@ wrîten		wrîtan   <v>      <str>      <class1>      <pres>      <opt>      <1st
 wrîten		wrîtan   <v>      <str>      <class1>      <pres>      <opt>      <2nd>      <pl>   
 wrîten		wrîtan   <v>      <str>      <class1>      <pres>      <opt>      <3rd>      <pl>   
 wrîtes		wrîtan   <v>      <str>      <class1>      <pres>      <opt>      <2nd>      <sg>   
-wrîtgian		wrîtan   <v>      <str>      <class1>      <pastpart>   
 wrîtis		wrîtan   <v>      <str>      <class1>      <pres>      <indic>      <2nd>      <sg>   
 wrîtiđ		wrîtan   <v>      <str>      <class1>      <pres>      <indic>      <3rd>      <sg>   
 wrîtu		wrîtan   <v>      <str>      <class1>      <pres>      <indic>      <1st>      <sg>   
@@ -38171,7 +38285,8 @@ wôpi		wôpian   <v>      <str>      <class7>      <impv>      <sg>
 wôpi		wôpian   <v>      <str>      <class7>      <pret>      <indic>      <1st>      <sg>   
 wôpi		wôpian   <v>      <str>      <class7>      <pret>      <indic>      <3rd>      <sg>   
 wôpian		wôpian   <v>      <str>      <class7>      <inf>   
-wôpian		wôpian   <v>      <str>      <class7>      <pastpart>   
+giwôpian		wôpian   <v>      <str>      <class7>      <pastpart>   
+gewôpian		wôpian   <v>      <str>      <class7>      <pastpart>   
 wôpiađ		wôpian   <v>      <str>      <class7>      <impv>      <pl>   
 wôpiađ		wôpian   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
 wôpiađ		wôpian   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <pl>   
@@ -39833,7 +39948,8 @@ wôstiu		wôstian   <v>      <wk>      <1>      <pres>      <1st>      <sg>
 ôgiu		ôgian   <v>      <wk>      <1>      <pres>      <1st>      <sg>   
 ôk		ôkan   <v>      <str>      <class7>      <impv>      <sg>   
 ôkan		ôkan   <v>      <str>      <class7>      <inf>   
-ôkan		ôkan   <v>      <str>      <class7>      <pastpart>   
+giôkan		ôkan   <v>      <str>      <class7>      <pastpart>   
+geôkan		ôkan   <v>      <str>      <class7>      <pastpart>   
 ôkađ		ôkan   <v>      <str>      <class7>      <impv>      <pl>   
 ôkađ		ôkan   <v>      <str>      <class7>      <pres>      <indic>      <1st>      <pl>   
 ôkađ		ôkan   <v>      <str>      <class7>      <pres>      <indic>      <2nd>      <pl>   
