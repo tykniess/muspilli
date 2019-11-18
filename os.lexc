@@ -3453,24 +3453,90 @@ geron%<v%>%<wk%>%<class2%>:ger WK2  ;	! nhd. begehren
 ahton%<v%>%<wk%>%<class2%>:aht WK2  ;	! nhd. achten auf, glauben, erwägen, erachten
 
 LEXICON Prepositions
-af%<prep%>:af	 # ; ! 
-and%<prep%>:and	 # ; ! 
-anevan%<prep%>:anevan	 # ; ! 
-âno%<prep%>:âno	 # ; ! 
-at%<prep%>:at	 # ; ! 
-biforan%<prep%>:biforan	 # ; ! 
-fan%<prep%>:fan	 # ; ! 
-farûtar%<prep%>:farûtar	 # ; ! 
-for%<prep%>:for	 # ; ! 
-furi%<prep%>:furi	 # ; ! 
-gegin%<prep%>:gegin	 # ; ! 
-te%<prep%>:te	 # ; ! 
-tôte%<prep%>:tôte	 # ; ! 
-thurh%<prep%>:thurh	 # ; ! 
-um%<prep%>:um	 # ; ! 
-umbi%<prep%>:umbi	 # ; ! 
-und%<prep%>:und	 # ; ! 
-undartwisk%<prep%>:undartwisk	 # ; ! 
-ûtar%<prep%>:ûtar	 # ; ! 
-uvar%<prep%>:uvar	 # ; ! 
-with%<prep%>:with	 # ; ! 
+after%<prep%>%<dat%>:after	# ; ! nach
+after%<prep%>%<instr%>:after	# ; ! nach
+aftar%<prep%>%<dat%>:aftar	# ; ! nach
+aftear%<prep%>%<instr%>:aftar	# ; ! nach
+af%<prep%>%<dat%>:af	 	# ; ! von
+an%<prep%>%<acc%>:an	 	# ; ! in, an
+an%<prep%>%<dat%>:an	 	# ; ! in, an
+an%<prep%>%<instr%>:an 		# ; ! in, an
+
+and%<prep%>%<acc%>:and	 	# ; ! bis
+angegin%<prep%>%<dat%>:angegin	# ; ! entgegen
+âno%<prep%>%<acc%>:âno	 	# ; ! ohne
+at%<prep%>%<acc%>:at	 	# ; ! bei, an, zu
+at%<prep%>%<dat%>:at	 	# ; ! bei, an, zu
+bi%<prep%>%<acc%>:bi	 	# ; ! bei
+bi%<prep%>%<dat%>:bi	 	# ; ! bei
+bi%<prep%>%<instr%>:bi 		# ; ! bei
+bi%<prep%>%<acc%>:be	 	# ; ! bei
+bi%<prep%>%<dat%>:be	 	# ; ! bei
+bi%<prep%>%<instr%>:be 		# ; ! bei
+biforan%<prep%>%<dat%>:biforan 	# ; ! wegen, vor
+êr%<prep%>%<dat%>:êr		# ; ! vor
+fan%<prep%>%<dat%>:fan	 	# ; ! von
+fan%<prep%>%<dat%>:fana 	# ; ! von
+fan%<prep%>%<dat%>:fano 	# ; ! von
+fan%<prep%>%<instr%>:fan	# ; ! von
+fan%<prep%>%<instr%>:fana 	# ; ! von
+fan%<prep%>%<instr%>:fano 	# ; ! von
+
+for%<prep%>%<acc%>:for	 	# ; ! vor, für
+for%<prep%>%<dat%>:for	 	# ; ! vor, für
+for%<prep%>%<instr%>:for	# ; ! vor, für
+for%<prep%>%<acc%>:fora	 	# ; ! vor, für
+for%<prep%>%<dat%>:fora	 	# ; ! vor, für
+for%<prep%>%<instr%>:fora	# ; ! vor, für
+for%<prep%>%<acc%>:far	 	# ; ! vor, für
+for%<prep%>%<dat%>:far	 	# ; ! vor, für
+for%<prep%>%<instr%>:far	# ; ! vor, für
+
+forûtar%<prep%>%<acc%>:forûtar	# ; ! außer
+
+fram%<prep%>%<dat%>:fram	# ; ! aus
+furi%<prep%>:furi	 	# ; ! 
+gegin%<prep%>:gegin	 	# ; ! 
+inna%<prep%>%<dat%>:inna	# ; ! in
+inna%<prep%>%<dat%>:innan	# ; ! in
+mid%<prep%>%<dat%>:mid		# ; ! mit
+mid%<prep%>%<instr%>:mid	# ; ! mit
+mid%<prep%>%<dat%>:mit		# ; ! mit
+mid%<prep%>%<instr%>:mit	# ; ! mit
+oƀar%<prep%>%<acc%>:oƀar	# ; ! über
+oƀar%<prep%>%<acc%>:obar	# ; ! über
+oƀar%<prep%>%<dat%>:oƀar	# ; ! über
+oƀar%<prep%>%<dat%>:obar	# ; ! über
+te%<prep%>%<dat%>:te	 	# ; ! zu
+te%<prep%>%<dat%>:ti	 	# ; ! zu
+te%<prep%>%<instr%>:te	 	# ; ! zu
+te%<prep%>%<instr%>:ti	 	# ; ! zu
+tôte%<prep%>:tôte	 	# ; ! 
+thurh%<prep%>%<acc%>:thurh	# ; ! durch 
+thurh%<prep%>%<acc%>:thuru	# ; ! durch
+um%<prep%>:um		 	# ; ! 
+
+undar%<prep%>%<acc%>:undar	# ; ! unter
+undar%<prep%>%<dat%>:undar	# ; ! unter
+undar%<prep%>%<instr%>:undar	# ; ! unter
+
+uppan%<prep%>%<acc%>:upp	# ; ! auf
+uppan%<prep%>%<acc%>:uppa	# ; ! auf
+uppan%<prep%>%<acc%>:uppan	# ; ! auf
+uppan%<prep%>%<acc%>:uppe	# ; ! auf
+uppan%<prep%>%<acc%>:uppen	# ; ! auf
+uppan%<prep%>%<dat%>:upp	# ; ! auf
+uppan%<prep%>%<dat%>:uppa	# ; ! auf
+uppan%<prep%>%<dat%>:uppan	# ; ! auf
+uppan%<prep%>%<dat%>:uppe	# ; ! auf
+uppan%<prep%>%<dat%>:uppen	# ; ! auf
+umbi%<prep%>:umbi	 	# ; ! 
+und%<prep%>%<acc%>:und	 	# ; ! bis
+undartwisk%<prep%>:undartwisk	# ; ! 
+ûtar%<prep%>:ûtar	 	# ; ! 
+wiđ%<prep%>%<acc%>:widar	# ; ! gegen
+wiđ%<prep%>%<dat%>:widar	# ; ! gegen
+wiđ%<prep%>%<instr%>:widar	# ; ! gegen
+wiđ%<prep%>%<acc%>:wider	# ; ! gegen
+wiđ%<prep%>%<dat%>:wider	# ; ! gegen
+wiđ%<prep%>%<instr%>:wider	# ; ! gegen
