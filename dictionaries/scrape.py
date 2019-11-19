@@ -30,7 +30,8 @@ POS_tags = ['as., st. V. (1)', 'as., st. V. (2)', 'as., st. V. (3a)', 'as., st. 
 'as., red. V.',\
 'as., st. M. (a)', 'as., st. N. (a)', 'as., st. M. (ja)', 'as., st. N. (ja)', 'as., st. M. (wa)', 'as., st. N. (wa)', \
 'as., Präp.',
-'as., st. M. (i)', 'as., st. F. (i)', 'as., st. N. (i)'
+'as., st. M. (i)', 'as., st. F. (i)', 'as., st. N. (i)', \
+'as., Adv.'
            ]
 
 def dict_scrape(POS, dictionaryfile='as_kurzform.txt'):
@@ -59,13 +60,13 @@ dict_scrape(sys.argv[1])
 
 #weak verbs 1b, specifically the short stems
 #for now, collapse; fix later:
-with open(POS[5:]+'_ready-for-import','w+') as to_write:
-    i=0
-    while i < len(lemmas):
-        to_write.write(lemmas_cleaned[i][:-1]+"%<v%>%<wk%>%<1%>:"+lemmas_cleaned[i][:-4]+' WK1'+\
-                       "\t\t ; !" + lemmas[i])
-        i=i+1
-4
+#with open(POS[5:]+'_ready-for-import','w+') as to_write:
+#    i=0
+#    while i < len(lemmas):
+#        to_write.write(lemmas_cleaned[i][:-1]+"%<v%>%<wk%>%<1%>:"+lemmas_cleaned[i][:-4]+' WK1'+\
+#                       "\t\t ; !" + lemmas[i])
+#        i=i+1
+
 
 
 
@@ -195,3 +196,16 @@ with open(POS[5:]+'_ready-for-import','w+') as to_write:
 ##        else:
 ##            to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<neut%>%<i-stem%>:'+lemmas_cleaned[i][:-1]+'\tNeut-I-Stem-Long \t\t; ! ' + lemmas[i].replace('\n','') + '\n')
 ##        i=i+1
+
+
+
+
+#Adverbs
+#'as., Adv.'
+with open('adverbs_ready-for-import','w+') as to_write:
+    i=0
+    for line in lemmas_cleaned:
+        for lemma in lemmas:
+	        to_write.write(line[:-1]+"%<adv%>:"+line[:-1]+\
+                       "\t # ; !  \n")
+
