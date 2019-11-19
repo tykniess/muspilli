@@ -30,14 +30,14 @@ Alphabet
 	ê:ê ê:ie 			! Normal | Ablaut1 & Alaut2 		[e.g. hêtan ~ hiet ~ hietun ~ gihêtan] 
 	ô:ô ô:io			! Normal | 7th class Ablaut1 & Ablaut2 [e.g. hlôpan ~ hliop ~ hliopun ~ hlôpan]
 	â:â â:ê 			! Normal | 7th class Ablaut1 & Ablaut2 [e.g. lâtan ~ lêt ~ lêtun ~ gilâtan] 
-	đ 
+	đ:đ đ:d 
 	ƀ 
 	th:th th:d		! Normal | Grammatischer Wechsel 
 	¹:0 ²:0 ³:0 ⁴:0		!four contexts for Ablaut
 	₄:0 ₅:0 ₇:0 		!three exceptional strong verb classes
 	%{I%}:i %{I%}:0		!j-infix
-	%{E%}:e %{E%}:a		!e/a alternations in dative and genitive
-	%{O%}:o %{O%}:a		!o/a alternations in nominative/accusative plural
+	%{E%^%A%}:e %{E%^%A%}:a		!e/a alternations in dative and genitive
+	%{O%^%A%}:o %{O%^%A%}:a		!o/a alternations in nominative/accusative plural
 	%{M%}:m %{M%}:n		!m/n alternation in dative plural
 	%{NAPL%}:0 %{NAPL%}:u	!neuter a-stem plural morpheme; either u (after short stem) or 0 (after heavy stem)
 	;

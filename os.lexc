@@ -22,11 +22,6 @@ Multichar_Symbols
 %<acc%>				! accusative case
 %<instr%>			! instrumental case
 
-%{E%}				! Archiphoneme e/a in the dative and genitive cases
-%{O%}                           ! Archiphoneme o/a in the plural of a-stems
-%{M%}				! Archiphomene m/n in dative plural
-%{NAPL%}			! Neuter a-stem plural morpheme; u or zero depending on syllable weight
-
 %<prn%>				! Pronoun
 
 %<pers%>			! Personal Pronoun
@@ -76,14 +71,15 @@ Multichar_Symbols
 %<irregular%>			!irregular verb
 %<prtprs%>			! Praeteritopraesentia
 
-
-th				! th phoneme which is actually one sound
-
+!Archiphonemes
 %{I%}				! i-infix in strong verbs
+%{E%^%A%}				! Archiphoneme e/a in the dative and genitive cases
+%{O%^%A%}                           ! Archiphoneme o/a in the plural of a-stems
+%{M%}				! Archiphomene m/n in dative plural
+%{NAPL%}			! Neuter a-stem plural morpheme; u or zero depending on syllable weight
 
 
-
-
+th				! sequence th which is actually one letter
 
 
 
@@ -97,12 +93,12 @@ Prepositions			;
 Adverbs				;
 
 LEXICON Adverbs
-ni%<adv%>:ni				;	!	*nicht
-ni%<adv%>:ne				;	!	*nicht
-eft%<adv%>:eft				;	!	*wieder
-thô%<adv%>:thuo				;	!	*da
-nu%<adv%>:nu				;	!	*nun
-ac%<adv%>:ac				;	!	***
+ni%<adv%>:ni			#	;	!	*nicht
+ni%<adv%>:ne			#	;	!	*nicht
+eft%<adv%>:eft			#	;	!	*wieder
+thô%<adv%>:thuo			#	;	!	*da
+nu%<adv%>:nu			#	;	!	*nun
+ac%<adv%>:ac			#	;	!	***
 
 LEXICON Pronouns		
 Personal-Pronouns			;
@@ -120,25 +116,25 @@ I-Stem				;
 
 LEXICON Masc-A-Stem
 %<nom%>%<sg%>:0			#	;
-%<gen%>%<sg%>:%{E%}s		#	;
-%<dat%>%<sg%>:%{E%}		#	;
+%<gen%>%<sg%>:%{E%^%A%}s		#	;
+%<dat%>%<sg%>:%{E%^%A%}		#	;
 %<acc%>%<sg%>:0			#	;
 %<instr%>%<sg%>:u		#	; !extremely rare case remnant, consider removing
 !%<instr%>:o             	#       ; ! variant form of instrumental case
 
-%<nom%>%<pl%>:os         	#       ; ! consider changing to %{O%}s to account for scribal variation
+%<nom%>%<pl%>:os         	#       ; ! consider changing to %{O%^%A%}s to account for scribal variation
 %<gen%>%<pl%>:o            	#       ; 
 %<dat%>%<pl%>:u%{M%}            #       ;
 %<dat%>%<pl%>:on	        #       ;
-%<acc%>%<pl%>:os         	#       ; ! consider changing to %{O%}s to account for scribal variation
+%<acc%>%<pl%>:os         	#       ; ! consider changing to %{O%^%A%}s to account for scribal variation
 %<instr%>%<pl%>:u               #       ;
 !%<nom%>%<pl%>:a		#	; !extreme scribal variant, thus not included in compilation
 !%<acc%>%<pl%>:a		#	; !extreme scribal variant, thus not included in compilation
 
 LEXICON Neut-A-Stem
 %<nom%>%<sg%>:0                 #       ;
-%<gen%>%<sg%>:%{E%}s            #       ;
-%<dat%>%<sg%>:%{E%}             #       ;
+%<gen%>%<sg%>:%{E%^%A%}s            #       ;
+%<dat%>%<sg%>:%{E%^%A%}             #       ;
 %<acc%>%<sg%>:0                 #       ;
 %<instr%>%<sg%>:u               #       ; !extremely rare case remnant, consider removing
 !%<instr%>:o                    #       ; ! variant form of instrumental case
@@ -160,12 +156,12 @@ LEXICON Masc-Ja-Stem
 %<instr%>%<sg%>:iu               #       ; !extremely rare case remnant, consider removing
 !%<instr%>:o                    #       ; ! variant form of instrumental case
 
-%<nom%>%<pl%>:ios                #       ; ! consider changing to %{O%}s to account for scribal variation
+%<nom%>%<pl%>:ios                #       ; ! consider changing to %{O%^%A%}s to account for scribal variation
 %<gen%>%<pl%>:io                 #       ;
 %<gen%>%<pl%>:eo                 #       ;
 %<dat%>%<pl%>:iun            #       ;
 %<dat%>%<pl%>:ion                #       ;
-%<acc%>%<pl%>:ios                #       ; ! consider changing to %{O%}s to account for scribal variation
+%<acc%>%<pl%>:ios                #       ; ! consider changing to %{O%^%A%}s to account for scribal variation
 
 LEXICON Neut-Ja-Stem
 Masc-Ja-Stem				;
