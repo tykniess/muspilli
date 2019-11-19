@@ -8,13 +8,12 @@ Multichar_Symbols
 %<a-stem%>			! a-stem noun
 %<ja-stem%>			! ja-stem noun
 %<wa-stem%>			! wa-stem noun
+%<i-stem%>			! i-stem noun
 
 !!!!!!!!!!!!!!!!!!NOMINAL CHARS!!!!!!!!!!!!!!!!!!!!!!!
 %<masc%>			! masculine noun
 %<fem%>				! feminine noun
 %<neut%>			! neuter noun
-
-%<a-stem%>			! a-stem noun
 
 %<nom%>				! nominative case
 %<gen%>				! genitive case
@@ -32,7 +31,8 @@ Multichar_Symbols
 %<ort%>				! Locative Pronoun
 %<wo%>				! Locative Pronoun- where?
 %<woher%>			! Locative Pronoun- whence?
-%<wohin%>			! Locative Pronoun- whiter?
+%<wohin%>			! Locative Pronoun- whither?
+%<neg%>				! Negated
 %<indef%>			! Indefinite Pronoun
 
 !!!!!!!!!!!!!!!!!!VERBAL CHARS!!!!!!!!!!!!!!!!!!!!!!!!
@@ -73,11 +73,10 @@ Multichar_Symbols
 
 !Archiphonemes
 %{I%}				! i-infix in strong verbs
-%{E%^%A%}				! Archiphoneme e/a in the dative and genitive cases
-%{O%^%A%}                           ! Archiphoneme o/a in the plural of a-stems
+%{E%^%A%}			! Archiphoneme e/a in the dative and genitive cases
+%{O%^%A%}                       ! Archiphoneme o/a in the plural of a-stems
 %{M%}				! Archiphomene m/n in dative plural
 %{NAPL%}			! Neuter a-stem plural morpheme; u or zero depending on syllable weight
-
 
 th				! sequence th which is actually one letter
 
@@ -3463,8 +3462,8 @@ ahton%<v%>%<wk%>%<class2%>:aht WK2  ;	! nhd. achten auf, glauben, erwägen, erac
 LEXICON Prepositions
 after%<prep%>%<dat%>:after	# ; ! nach
 after%<prep%>%<instr%>:after	# ; ! nach
-aftar%<prep%>%<dat%>:aftar	# ; ! nach
-aftear%<prep%>%<instr%>:aftar	# ; ! nach
+after%<prep%>%<dat%>:aftar	# ; ! nach
+after%<prep%>%<instr%>:aftar	# ; ! nach
 af%<prep%>%<dat%>:af	 	# ; ! von
 an%<prep%>%<acc%>:an	 	# ; ! in, an
 an%<prep%>%<dat%>:an	 	# ; ! in, an
