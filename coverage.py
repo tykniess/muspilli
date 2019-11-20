@@ -9,10 +9,10 @@ heliand_total_words = []
 
 heliand = 'heliand/hel-unique-tokens-clean.txt'
 heliand_total = 'heliand/hel-tokenized-clean.txt'
-muspilli= 'forms.txt'
+muspilli= 'forms-prefixed.txt'
 
 with open(muspilli, 'r', newline='\n') as mfile:
-    reader=csv.reader(mfile, delimiter=' ')
+    reader=csv.reader(mfile, delimiter='\t')
     for row in reader:
         muspilli_total_words.append(row[0].strip())
 
