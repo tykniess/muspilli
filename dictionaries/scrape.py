@@ -3,7 +3,7 @@ import sys
 ##print ("Number of arguments: ", len(sys.argv))
 ##print ("The arguments are: " , str(sys.argv))
 
-POS=sys.argv[1]
+#POS=sys.argv[1]
 lemmas = []
 lemmas_cleaned = []
 definitions = []
@@ -31,7 +31,9 @@ POS_tags = ['as., st. V. (1)', 'as., st. V. (2)', 'as., st. V. (3a)', 'as., st. 
 'as., st. M. (a)', 'as., st. N. (a)', 'as., st. M. (ja)', 'as., st. N. (ja)', 'as., st. M. (wa)', 'as., st. N. (wa)', \
 'as., Präp.',
 'as., st. M. (i)', 'as., st. F. (i)', 'as., st. N. (i)', \
-'as., Adv.'
+'as., Adv.',\
+'as., st. F. (ō)', 'as., st. F. (jō)',
+'as., st. M. (u)', 'as., st. F. (u)', 'as., st. N. (u)'
            ]
 
 def dict_scrape(POS, dictionaryfile='as_kurzform.txt'):
@@ -56,7 +58,12 @@ def dict_scrape(POS, dictionaryfile='as_kurzform.txt'):
         #scrub line of the frequency data, begin with headword?
     return lemmas_cleaned
 
-dict_scrape(sys.argv[1])
+#dict_scrape(sys.argv[1])
+
+
+
+
+
 
 #weak verbs 1b, specifically the short stems
 #for now, collapse; fix later:
@@ -123,28 +130,42 @@ dict_scrape(sys.argv[1])
 ##        i=i+1
 
 
+###(feminine) ô-stems and jô stems
+#as., st. F. (ō)
+##with open('st. F. (ô)_ready-for-import','w+') as to_write:
+##    i=0
+##    while i < len(lemmas):
+##        to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<fem%>%<ô-stem%>:'+lemmas_cleaned[i][:-2]+' Fem-Ô-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    #
+##        i=i+1
 
+#as., st. F. (jō)
+#not perfect, can't deal with paragraphs 172 and 173 of Gallee (-in and -nis)
+##with open('st. F. (jô)_ready-for-import','w+') as to_write:
+##    i=0
+##    while i < len(lemmas):
+##        to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<fem%>%<jô-stem%>:'+lemmas_cleaned[i][:-3]+'%{I%} Fem-Ô-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    #note the -2, this is to remove the i ending
+##        i=i+1 
+##
 
+u_stems = ['as., st. M. (u)', 'as., st. F. (u)', 'as., st. N. (u)']
+for gender in u_stems:
+    with open(gender+'_ready-for-import','w+') as to_write:
+        dict_scrape(gender)
+        i=0
+        while i < len(lemmas):
+            if 'st. M. (u)' in gender:
+                if lemmas_cleaned[i][-2] == 'u':
+                    to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<masc%>%<u-stem%>:'+lemmas_cleaned[i][:-2]+' Masc-u-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    
+                else:
+                    to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<masc%>%<u-stem%>:'+lemmas_cleaned[i][:-1]+' Masc-u-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            elif 'st. F. (u)' in gender:
+                to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<fem%>%<u-stem%>:'+lemmas_cleaned[i][:-1]+' Fem-u-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    
+            else:
+                to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<neut%>%<u-stem%>:'+lemmas_cleaned[i][:-2]+' Neut-u-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    
+            i=i+1 
+    lemmas = []
+    lemmas_cleaned = []     
 
 ###encode prepositions
 ##
@@ -198,14 +219,22 @@ dict_scrape(sys.argv[1])
 ##        i=i+1
 
 
+###'as., Adv.'
+###balusprāka* 2, balosprāka, bal-u-s-prā-k-a*, bal-o-s-prā-k-a*, as., st. F. (ō): nhd. böse Rede; ne. evil speech (N.)
+##with open('adverbs_ready-for-import','w+') as to_write:
+##    i=0
+##    for line in lemmas_cleaned:
+##        for lemma in lemmas:
+##	        to_write.write(line[:-1]+"%<adv%>:"+line[:-1]+\
+##                       "\t # ; ! 
 
 
 #Adverbs
-#'as., Adv.'
-with open('adverbs_ready-for-import','w+') as to_write:
-    i=0
-    for line in lemmas_cleaned:
-        for lemma in lemmas:
-	        to_write.write(line[:-1]+"%<adv%>:"+line[:-1]+\
-                       "\t # ; !  \n")
-
+###'as., Adv.'
+##with open('adverbs_ready-for-import','w+') as to_write:
+##    i=0
+##    for line in lemmas_cleaned:
+##        for lemma in lemmas:
+##	        to_write.write(line[:-1]+"%<adv%>:"+line[:-1]+\
+##                       "\t # ; !  \n")
+##

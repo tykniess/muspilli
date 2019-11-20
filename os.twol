@@ -3,7 +3,7 @@ Alphabet
 	b 
 	c 
 	d 
-	e:e e:i	e:a e:u e:o e:a e:â e:o e:e		! Normal | Umlaut | Ablaut1 | Ablaut2 | Ablaut3 | Ablaut-STR4&5-1 | Ablaut STR4&5-2 | Ablaut-STR4-3 | ABLAUT-STR5-3
+	e:e e:i	e:a e:u e:o e:a e:â e:o e:e e:0		! Normal | Umlaut | Ablaut1 | Ablaut2 | Ablaut3 | Ablaut-STR4&5-1 | Ablaut STR4&5-2 | Ablaut-STR4-3 | ABLAUT-STR5-3 | After surface 'e' to prohibit clusters
 	f 
 	g 
 	h:h h:g			! Normal | Grammatischer Wechsel 
@@ -38,6 +38,7 @@ Alphabet
 	%{I%}:i %{I%}:0		!j-infix
 	%{E%^%A%}:e %{E%^%A%}:a		!e/a alternations in dative and genitive
 	%{O%^%A%}:o %{O%^%A%}:a		!o/a alternations in nominative/accusative plural
+	%{U%^%O%}:u %{U%^%O%}:o	!u/o alternations in ô-stem plural
 	%{M%}:m %{M%}:n		!m/n alternation in dative plural
 	%{NAPL%}:0 %{NAPL%}:u	!neuter a-stem plural morpheme; either u (after short stem) or 0 (after heavy stem)
 	;
@@ -73,6 +74,9 @@ e:o <=> _ Cns+ ( ₄: ) ³: ;
 
 "e:â in Ablaut STR4&5-2"				! neman ~ nâmun
 e:â <=> _ Cns+ ₄: ²: ;
+
+"e:0 to prohibit clusters"
+e:0 <=> _ :e ;						!sundia/-ea/-ie
 
 
 
@@ -166,8 +170,10 @@ Vx:Vy <=> _ Vz: ;
 
 
 "Remove j-infix before a vocalic verbal suffix"
-%{I%}:0 <=> _ ( ¹: | ²: ) ( >: ) ( ¹: | ²: ) :i ;
+%{I%}:0 <=> _ ( ₄: ) ( ¹: | ²: ) ( >: ) ( ¹: | ²: ) : ;
 
+"Assimilatory i-infix in ô-stems"
+%{I%}:e <=> _ a: ;
 
 
 
