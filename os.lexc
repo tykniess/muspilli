@@ -12,6 +12,7 @@ Multichar_Symbols
 %<ô-stem%>			! ô-stem noun
 %<jô-stem%>			! jô-stem noun
 %<u-stem%>			! u-stem noun
+%<n-stem%>			! n-stem noun (a. k. a. weak noun)
 
 !!!!!!!!!!!!!!!!!!NOMINAL CHARS!!!!!!!!!!!!!!!!!!!!!!!
 %<masc%>			! masculine noun
@@ -94,6 +95,21 @@ Verbs 				;
 Pronouns			;
 Prepositions			;
 Adverbs				;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 LEXICON Adverbs
 ni%<adv%>:ni			#	;	!	*nicht
@@ -394,6 +410,7 @@ Demonstrative-Pronouns			;
 Compound-Pronouns			;
 Interrogative-Pronouns			;
 Ortsadverbien-Pronouns			;
+Indefinite-Pronouns			;
 
 
 LEXICON Nouns
@@ -401,6 +418,7 @@ A-Stem				;
 I-Stem				;
 Ô-Stem				;
 U-Stem				;
+N-Stem				;
 
 LEXICON Masc-u-Stem
 %<nom%>%<sg%>:%{U%^O%}		# ;
@@ -441,7 +459,7 @@ LEXICON Neut-u-Stem
 %<dat%>%<sg%>:o			# ;
 %<dat%>%<sg%>:e			# ;
 
-LEXICON Fem-Ô-Stem
+LEXICON Fem-Ô-Stem						!fix o-stem i-infix
 %<nom%>%<sg%>:%{E%^%A%}		#	;	!geba~gebe
 %<gen%>%<sg%>:%{E%^%A%}		#	;	!geba~gebe
 %<dat%>%<sg%>:%{E%^%A%}		#	;	!geba~gebe
@@ -453,6 +471,71 @@ LEXICON Fem-Ô-Stem
 %<dat%>%<pl%>:%{U%^%O%}n	#	;	!geba~gebe
 %<acc%>%<pl%>:%{E%^%A%}		#	;	!geba~gebe
 
+LEXICON Masc-n-Stem
+%<nom%>%<sg%>:o			# ;
+%<nom%>%<sg%>:a			# ;
+%<acc%>%<sg%>:on		# ;
+%<acc%>%<sg%>:an		# ;
+%<gen%>%<sg%>:%{E%^A%}n		# ;
+%<gen%>%<sg%>:on		# ;
+%<dat%>%<sg%>:%{E%^A%}n		# ;
+%<dat%>%<sg%>:on		# ;
+
+%<nom%>%<pl%>:on		# ;
+%<nom%>%<pl%>:un		# ;
+%<nom%>%<pl%>:an		# ;
+%<acc%>%<pl%>:on		# ;
+%<acc%>%<pl%>:un		# ;
+%<acc%>%<pl%>:an		# ;
+%<gen%>%<pl%>:ono		# ;
+%<gen%>%<pl%>:uno		# ;
+%<gen%>%<pl%>:onu		# ;
+%<dat%>%<pl%>:on		# ;
+%<dat%>%<pl%>:un		# ;
+
+
+LEXICON Neut-n-Stem
+%<nom%>%<sg%>:a			# ;
+%<nom%>%<sg%>:e			# ;
+%<acc%>%<sg%>:a			# ;
+%<acc%>%<sg%>:e			# ;
+!%<gen%>%<sg%>:on		# ;	!unattested
+!%<gen%>%<sg%>:an		# ;	!unattested
+%<dat%>%<sg%>:an		# ;
+%<dat%>%<sg%>:on		# ;
+%<dat%>%<sg%>:un		# ;
+
+%<nom%>%<pl%>:on		# ;
+%<nom%>%<pl%>:un		# ;
+%<acc%>%<pl%>:on		# ;
+%<acc%>%<pl%>:un		# ;
+%<acc%>%<pl%>:an		# ;
+%<gen%>%<pl%>:ono		# ;
+%<dat%>%<pl%>:u%{M%}		# ;
+%<dat%>%<pl%>:on		# ;
+%<dat%>%<pl%>:an		# ;
+
+LEXICON Fem-n-Stem
+%<nom%>%<sg%>:a			# ;
+%<nom%>%<sg%>:e			# ;
+%<acc%>%<sg%>:un		# ;
+%<acc%>%<sg%>:on		# ;
+%<acc%>%<sg%>:an		# ;
+%<gen%>%<sg%>:un		# ;	
+%<gen%>%<sg%>:on		# ;	
+%<dat%>%<sg%>:un		# ;
+%<dat%>%<sg%>:on		# ;
+
+%<nom%>%<pl%>:on		# ;
+%<nom%>%<pl%>:un		# ;
+%<nom%>%<pl%>:an		# ;
+%<acc%>%<pl%>:on		# ;
+%<acc%>%<pl%>:un		# ;
+%<gen%>%<pl%>:ono		# ;
+%<gen%>%<pl%>:uno		# ;
+%<gen%>%<pl%>:ano		# ;
+%<dat%>%<pl%>:un		# ;
+%<dat%>%<pl%>:on		# ;
 
 LEXICON Masc-A-Stem
 %<nom%>%<sg%>:0			#	;
@@ -790,24 +873,23 @@ witan%<v%>%<prtprs%>%<pret%>%<opt%>%<pl%>:wissin #         ;
 
 
 LEXICON Personal-Pronouns
-%<prn%>%<pers%>%<1st%>%<sg%>%<nom%>:ic	#	;
-!%<prn%>%<pers%>%<1st%>%<sg%>%<nom%>:ec  #       ;
-%<prn%>%<pers%>%<1st%>%<sg%>%<nom%>:ik  #       ;
-%<prn%>%<pers%>%<1st%>%<sg%>%<gen%>:mîn  #       ;
-%<prn%>%<pers%>%<1st%>%<sg%>%<dat%>:mî  #       ;
-%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mî  #       ;
-%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mê  #       ;
-%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mik  #       ;
-%<prn%>%<pers%>%<1st%>%<pl%>%<nom%>:wî  #       ;
-%<prn%>%<pers%>%<1st%>%<pl%>%<nom%>:wê  #       ;
-%<prn%>%<pers%>%<1st%>%<pl%>%<gen%>:ûser  #       ;
-%<prn%>%<pers%>%<1st%>%<pl%>%<dat%>:ûs  #       ;
-%<prn%>%<pers%>%<1st%>%<pl%>%<acc%>:ûs  #       ;
-%<prn%>%<pers%>%<1st%>%<du%>%<nom%>:wit  #       ;
-%<prn%>%<pers%>%<1st%>%<du%>%<gen%>:uncero  #       ;
-%<prn%>%<pers%>%<1st%>%<du%>%<dat%>:unc  #       ;
-%<prn%>%<pers%>%<1st%>%<du%>%<acc%>:unc  #       ;
-
+%<prn%>%<pers%>%<1st%>%<sg%>%<nom%>:ic		#	;
+!%<prn%>%<pers%>%<1st%>%<sg%>%<nom%>:ec  	#       ;
+%<prn%>%<pers%>%<1st%>%<sg%>%<nom%>:ik  	#       ;
+%<prn%>%<pers%>%<1st%>%<sg%>%<gen%>:mîn  	#       ;
+%<prn%>%<pers%>%<1st%>%<sg%>%<dat%>:mî  	#       ;
+%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mî  	#       ;
+%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mê  	#       ;
+%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mik  	#       ;
+%<prn%>%<pers%>%<1st%>%<pl%>%<nom%>:wî  	#       ;
+%<prn%>%<pers%>%<1st%>%<pl%>%<nom%>:wê  	#       ;
+%<prn%>%<pers%>%<1st%>%<pl%>%<gen%>:ûser	#       ;
+%<prn%>%<pers%>%<1st%>%<pl%>%<dat%>:ûs  	#       ;
+%<prn%>%<pers%>%<1st%>%<pl%>%<acc%>:ûs  	#       ;
+%<prn%>%<pers%>%<1st%>%<du%>%<nom%>:wit  	#       ;
+%<prn%>%<pers%>%<1st%>%<du%>%<gen%>:uncero  	#       ;
+%<prn%>%<pers%>%<1st%>%<du%>%<dat%>:unc  	#       ;
+%<prn%>%<pers%>%<1st%>%<du%>%<acc%>:unc  	#       ;
 %<prn%>%<pers%>%<2nd%>%<sg%>%<nom%>:thû		#	;
 %<prn%>%<pers%>%<2nd%>%<sg%>%<nom%>:thu		#	; ! not in Gallee
 %<prn%>%<pers%>%<2nd%>%<sg%>%<gen%>:thîn	#	;
@@ -832,7 +914,6 @@ LEXICON Personal-Pronouns
 %<prn%>%<pers%>%<2nd%>%<du%>%<nom%>:git		#	;
 %<prn%>%<pers%>%<2nd%>%<du%>%<dat%>:inc		#	;
 %<prn%>%<pers%>%<2nd%>%<du%>%<acc%>:inc		#	;
-
 %<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<nom%>:hê	#	;
 %<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<nom%>:he  #       ;!not in Gallee
 %<prn%>%<pers%>%<3rd%>%<masc%>%<sg%>%<nom%>:hi	#	;
@@ -855,7 +936,6 @@ LEXICON Personal-Pronouns
 %<prn%>%<pers%>%<3rd%>%<masc%>%<pl%>%<acc%>:sie	#	;
 %<prn%>%<pers%>%<3rd%>%<masc%>%<pl%>%<acc%>:sea	#	;
 %<prn%>%<pers%>%<3rd%>%<masc%>%<pl%>%<dat%>:im	#	;
-
 %<prn%>%<pers%>%<3rd%>%<neut%>%<sg%>%<nom%>:it	#	;
 %<prn%>%<pers%>%<3rd%>%<neut%>%<sg%>%<nom%>:et	#	;
 %<prn%>%<pers%>%<3rd%>%<neut%>%<sg%>%<gen%>:is	#	;
@@ -866,7 +946,6 @@ LEXICON Personal-Pronouns
 %<prn%>%<pers%>%<3rd%>%<neut%>%<sg%>%<dat%>:him	#	;
 %<prn%>%<pers%>%<3rd%>%<neut%>%<sg%>%<acc%>:it	#	;
 %<prn%>%<pers%>%<3rd%>%<neut%>%<sg%>%<acc%>:et	#	;
-
 %<prn%>%<pers%>%<3rd%>%<fem%>%<sg%>%<nom%>:siu	#	;
 %<prn%>%<pers%>%<3rd%>%<fem%>%<sg%>%<nom%>:sie	#	;
 %<prn%>%<pers%>%<3rd%>%<fem%>%<sg%>%<nom%>:sia	#	;
@@ -1209,6 +1288,565 @@ LEXICON IMPERATIV-WK2
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON N-Stem
+abbediska%<noun%>%<fem%>%<n-stem%>:abbedisk Fem-n-Stem 		; ! abbediska* 8, abdiska, abbed-iska*, abd-iska*, as., sw. F. (n): nhd. Äbtissin; ne. mother (F.) superior; W.: vgl. mnd. abbadisse, abdisse, F., Äbtissin
+agastria%<noun%>%<fem%>%<n-stem%>:agastri Fem-n-Stem 		; ! agastria* 2, agistra?, ag-astr-i-a*, ag-istr-a?, as., sw. F. (n): nhd. Elster; ne. magpie (N.); W.: s. mnd. êgester, F., Elster
+anaginga%<noun%>%<fem%>%<n-stem%>:anaging Fem-n-Stem 		; ! anaginga* 1, agenga, an-a-ging-a*, a-geng-a*, as., sw. F. (n): nhd. Lamia, Unholdin, Vampir; ne. monster (F.), vampire (F.)
+anda%<noun%>%<fem%>%<n-stem%>:and Fem-n-Stem 		; ! anda* 2, as., sw. F. (n): nhd. Zorn; ne. anger (N.); W.: mnd. ande, F., Kränkung
+anka%<noun%>%<fem%>%<n-stem%>:ank Fem-n-Stem 		; ! anka?***, as., sw. F. (n): nhd. Großmutter; ne. grandmother (F.)
+aranfimba%<noun%>%<fem%>%<n-stem%>:aranfimb Fem-n-Stem 		; ! aranfimba 1, ar-a-n-fimba, as., sw. F. (n): nhd. Erntefeimen, Kornhaufe, Kornhaufen; ne. heap (N.) of grain
+asna%<noun%>%<fem%>%<n-stem%>:asn Fem-n-Stem 		; ! asna 1, asn-a, as., sw. F. (n): nhd. Lohn, Abgabe, Zins; ne. pay (N.), tributation (N.); W.: mnd. asne, asnen, M., Lohn, Einkunft
+avarata%<noun%>%<fem%>%<n-stem%>:avarat Fem-n-Stem 		; ! avarata* 1, aƀarata, ava-rat-a*, aƀa-rat-a*, as., sw. F. (n): nhd. Eberraute; ne. abrotanum (N.)
+bakwêga%<noun%>%<fem%>%<n-stem%>:bakwêg Fem-n-Stem 		; ! bakwêga*? 3, bakwêgi*?, ba-k-wêga*?, ba-k-wêgi*?, as., sw. F. (n)?, st. F. (ô)?: nhd. Schüssel, Schale (F.) (2); ne. dish (N.), bowl (N.) (1)
+barda%<noun%>%<fem%>%<n-stem%>:bard Fem-n-Stem 		; ! barda* 1, bar-d-a*, as., sw. F. (n): nhd. Barte (F.) (1), Beil; ne. hatchet (N.); W.: mnd. bârde, F., Barte (F.) (1), Beil
+beniwunda%<noun%>%<fem%>%<n-stem%>:beniwund Fem-n-Stem 		; ! beniwunda* 1, ben-i-wu-n-d-a*, as., sw. F. (n): nhd. Todeswunde; ne. fatal wound (N.)
+bî%<noun%>%<fem%>%<n-stem%>:b Fem-n-Stem 		; ! bî?***, as., sw. F. (n): nhd. Biene; ne. bee (N.); W.: mnd. bie, beie, F., Biene
+bilina%<noun%>%<fem%>%<n-stem%>:bilin Fem-n-Stem 		; ! bilina* 2, bil-ina*, as., sw. F. (n): nhd. Bilsenkraut; ne. henban (N.); W.: mnd. billene (Gallée), F., Bilsenkraut
+bivunga%<noun%>%<fem%>%<n-stem%>:bivung Fem-n-Stem 		; ! bivunga?***, biƀunga?***, biv-ung-a?***, biƀ-ung-a?***, as., sw. F. (n): nhd. Beben (N.); ne. shake (N.); W.: vgl. mnd. *bêvinge?
+blâdara%<noun%>%<fem%>%<n-stem%>:blâdar Fem-n-Stem 		; ! blâdara* 2, blâ-dar-a*, as., sw. F. (n): nhd. Blatter, Bläschen, Hautausschlag; ne. pock (N.), blister (N.); W.: mnd. bladdere, bladder, bleddere, bledder, F., Blatter, Bläschen
+brêda%<noun%>%<fem%>%<n-stem%>:brêd Fem-n-Stem 		; ! brêda?***, brêd-a?***, as., sw. F. (n): nhd. Breite; ne. breadth (N.); W.: mnd. brêde, breide, F., Breite
+bukula%<noun%>%<fem%>%<n-stem%>:bukul Fem-n-Stem 		; ! bukula* 1, bukul-a*, as., sw. F. (n): nhd. Buckelschild; ne. buckler (N.); W.: mnd. bokele, bokle, M., Schildbuckel
+bursta%<noun%>%<fem%>%<n-stem%>:burst Fem-n-Stem 		; ! bursta 2, bur-st-a, as., sw. F. (n): nhd. Borste; ne. bristle (N.); W.: mnd. borste, F., Borste
+dennia%<noun%>%<fem%>%<n-stem%>:denni Fem-n-Stem 		; ! dennia* (2) 2, danne, den-n-ia*, dan-n-e*, as., sw. F. (n): nhd. Tanne; ne. fir (N.); W.: mnd. danne, denne, F., Tanne
+dokka%<noun%>%<fem%>%<n-stem%>:dokk Fem-n-Stem 		; ! dokka* 2, dok-k-a*, as., sw. F. (n): nhd. Schaukel?, Puppe; ne. swing (N.)?, doll (N.); W.: mnd. docke, F., Puppe, Figur
+dûva%<noun%>%<fem%>%<n-stem%>:dûv Fem-n-Stem 		; ! dûva* (1) 2, dûƀa* (1), dû-v-a*, dûƀ-a* (1), as., sw. F. (n): nhd. Taube; ne. dove (N.), pigeon (N.); W.: mnd. duve, F., Taube
+dûva%<noun%>%<fem%>%<n-stem%>:dûv Fem-n-Stem 		; ! dûva? (2)***, dûva? (2)***, as., sw. F. (n): nhd. Daube; ne. stave (N.)
+egela%<noun%>%<fem%>%<n-stem%>:egel Fem-n-Stem 		; ! egela 1, ege-l-a, as., sw. F. (n): nhd. Egel; ne. leech (N.); W.: mnd. êgel, egele, M., Egel
+êmeta%<noun%>%<fem%>%<n-stem%>:êmet Fem-n-Stem 		; ! êmeta?***, ê-me-t-a?***, as., sw. F. (n): nhd. Ameise; ne. ant (N.)
+erthbivunga%<noun%>%<fem%>%<n-stem%>:erthbivung Fem-n-Stem 		; ! erthbivunga* 1, erthbiƀunga, er-th-biv-ung-a*, er-th-biƀ-ung-a*, as., sw. F. (n): nhd. Erdbeben; ne. earthquake (N.); W.: mnd. êrtbêvinge, F., Erbeben
+êwa%<noun%>%<fem%>%<n-stem%>:êw Fem-n-Stem 		; ! êwa* (2) 2, êw-a*, as., sw. F. (n): nhd. Ewigkeit; ne. eternity (N.)
+fêmia%<noun%>%<fem%>%<n-stem%>:fêmi Fem-n-Stem 		; ! fêmia* 2, fê-m-i-a*, as., sw. F. (n): nhd. Weib, Frau; ne. woman (F.)
+fesa%<noun%>%<fem%>%<n-stem%>:fes Fem-n-Stem 		; ! fesa 1, fes-a, as., sw. F. (n): nhd. Fehse, Hülse, Schote (F.) (1); ne. husk (N.), pod (N.); W.: mnd. vese, sw. F., Fehse, Faser, Körnerhülse
+fethera%<noun%>%<fem%>%<n-stem%>:fether Fem-n-Stem 		; ! fethera* 1, feth-er-a*, as., sw. F. (n): nhd. Feder, Flosse; ne. feather (N.), fin (N.); W.: mnd. veder, vedder, F., Feder
+fîfoldara%<noun%>%<fem%>%<n-stem%>:fîfoldar Fem-n-Stem 		; ! fîfoldara* 3, fî-fol-d-ar-a*, as., sw. F. (n): nhd. Falter, Schmetterling; ne. butterfly (N.)
+fîga%<noun%>%<fem%>%<n-stem%>:fîg Fem-n-Stem 		; ! fîga* 3, fîg-a*, as., sw. F. (n): nhd. Feige; ne. fig (N.); W.: mnd. vige, F., Feige
+fîma%<noun%>%<fem%>%<n-stem%>:fîm Fem-n-Stem 		; ! fîma* 1, fîm-a*, as., sw. F. (n): nhd. Feimen, Stapel, Haufe, Haufen; ne. file (N.) (2), pile (N.); W.: vgl. mnd. vime, vimme M., F.?, Feimen
+fimba%<noun%>%<fem%>%<n-stem%>:fimb Fem-n-Stem 		; ! fimba?***, fimb-a?***, as., sw. F. (n): nhd. Feimen, Stapel, Haufe, Haufen; ne. file (N.) (2), pile (N.); W.: mnd. vîme, vimme, F., Haufe, Haufen, Hocke, Stapel
+firstskindula%<noun%>%<fem%>%<n-stem%>:firstskindul Fem-n-Stem 		; ! firstskindula* 1, fir-st-s-ki-n-d-ul-a*, as., sw. F. (n): nhd. „Firstschindel“, Dachschindel; ne. tile (N.)
+flaka%<noun%>%<fem%>%<n-stem%>:flak Fem-n-Stem 		; ! flaka* 1, fla-k-a*, as., sw. F. (n): nhd. Sohle; ne. sole (N.); W.: mnd. vlake, F.?, flaches Flechtwerk
+flioga%<noun%>%<fem%>%<n-stem%>:fliog Fem-n-Stem 		; ! flioga*, fli-o-g-a*, as., sw. F. (n): nhd. Fliege; ne. fly (N.); W.: mnd. vlêge, sw. F., Fliege
+foha%<noun%>%<fem%>%<n-stem%>:foh Fem-n-Stem 		; ! foha 1, foh-a, as., sw. F. (n): nhd. Füchsin; ne. vixen (N.); W.: mnd. vô, F., Füchsin
+forha%<noun%>%<fem%>%<n-stem%>:forh Fem-n-Stem 		; ! forha?***, forh-a?***, as., sw. F. (n): nhd. Föhre; ne. fir-tree (N.); W.: vgl. mnd. vuren, Adj., föhren, Föhren...
+forka%<noun%>%<fem%>%<n-stem%>:fork Fem-n-Stem 		; ! forka?***, fork-a?***, as., sw. F. (n): nhd. Forke, Gabel; ne. fork (N.); W.: mnd. vorke, forke, F., Gabel
+frûa%<noun%>%<fem%>%<n-stem%>:frû Fem-n-Stem 		; ! frûa* 1, as., sw. F. (n): nhd. Frau; ne. woman (F.), lady (F.); W.: mnd. vrowe, vrouwe, F., Frau
+gala%<noun%>%<fem%>%<n-stem%>:gal Fem-n-Stem 		; ! gala?***, gal-a?***, as., sw. F. (n): nhd. Sängerin; ne. singer (F.)
+galla%<noun%>%<fem%>%<n-stem%>:gall Fem-n-Stem 		; ! galla* 2, gal-l-a*, as., sw. F. (n)?: nhd. Galle (F.) (1); ne. gall (N.), bile (N.); W.: mnd. galle, F., Galle
+garva%<noun%>%<fem%>%<n-stem%>:garv Fem-n-Stem 		; ! garva* 3, garƀa, gar-v-a*, gar-ƀ-a*, as., sw. F. (n): nhd. Garbe (F.) (1); ne. sheaf (N.); W.: mnd. garve, F., Garbe (F.) (1)
+gerdia%<noun%>%<fem%>%<n-stem%>:gerdi Fem-n-Stem 		; ! gerdia* 2, gerd-ia*, as., sw. F. (n): nhd. Gerte, Rute, Stab; ne. rod (N.), staff (N.); W.: mnd. gerde, F., Gerte, Rute, Stab
+gersta%<noun%>%<fem%>%<n-stem%>:gerst Fem-n-Stem 		; ! gersta 123, gerst-a, as., sw. F. (n): nhd. Gerste; ne. barley (N.); W.: mnd. gerste, garste, gast, F., Gerste
+gifôgitha%<noun%>%<fem%>%<n-stem%>:gifôgith Fem-n-Stem 		; ! gifôgitha* 1, gi-fôg-ith-a*, as., sw. F. (n): nhd. Fuge (F.) (1), Fügung; ne. joining (N.)
+gikilla%<noun%>%<fem%>%<n-stem%>:gikill Fem-n-Stem 		; ! gikilla* 1, gichilla, gik-il-l-a*, gich-il-l-a*, as., sw. F. (n): nhd. Eiszapfen; ne. icicle (N.)
+givillia%<noun%>%<fem%>%<n-stem%>:givilli Fem-n-Stem 		; ! givillia* 1, giƀillia, givil-l-ia*, giƀil-l-ia*, as., sw. F. (n): nhd. Schädel, Hirnschale; ne. skull (N.)
+godorasta%<noun%>%<fem%>%<n-stem%>:godorast Fem-n-Stem 		; ! godorasta* 1, go-d-o-ra-s-ta*, as., sw. F. (n): nhd. „Götterrast“, Götterkissen; ne. pillow (N.) of a god
+goldgrôva%<noun%>%<fem%>%<n-stem%>:goldgrôv Fem-n-Stem 		; ! goldgrôva* 1, gol-d-grôv-a*, as., sw. F. (n): nhd. Goldgrube; ne. goldmine (N.); W.: mnd. goltgrôve, F., Goldgrube
+gota%<noun%>%<fem%>%<n-stem%>:got Fem-n-Stem 		; ! gota* 1, go-t-a*, as., sw. F. (n): nhd. Gosse; ne. gutter (N.); W.: mnd. gote, gôte, gate, F., Gosse, Rinne, Traufe
+grava%<noun%>%<fem%>%<n-stem%>:grav Fem-n-Stem 		; ! grava* 2, graƀa, grav-a*, graƀ-a*, as., sw. F. (n): nhd. Hacke; ne. hoe (N.)
+griusnia%<noun%>%<fem%>%<n-stem%>:griusni Fem-n-Stem 		; ! griusnia* 1, gri-u-sn-ia*, as., sw. F. (n): nhd. Kies; ne. gravel (N.)
+grôva%<noun%>%<fem%>%<n-stem%>:grôv Fem-n-Stem 		; ! grôva* 2, grôƀa, grôv-a*, grôƀ-a*, as., sw. F. (n): nhd. Grube; ne. pit (N.); W.: mnd. grôve, F., Grube, Graben (M.)
+handtâfla%<noun%>%<fem%>%<n-stem%>:handtâfl Fem-n-Stem 		; ! handtâfla* 1, hand-tâf-l-a*, as., sw. F. (n): nhd. „Handtafel“, Schreibtafel; ne. slate (N.); W.: mnd. hanttafel, hantafel, hanttaffel, hantaffel, F., Schreibtafel
+hâria%<noun%>%<fem%>%<n-stem%>:hâri Fem-n-Stem 		; ! hâria* 1, hâra, hâr-ia*, hâr-a*, as., sw. F. (n): nhd. Haarkleid; ne. fur (N.); W.: mnd. hâre, F., Haardecke
+harpa%<noun%>%<fem%>%<n-stem%>:harp Fem-n-Stem 		; ! harpa* 4, harpfa, har-p-a*, har-pf-a*, as., sw. F. (n): nhd. Harfe, Rost (M.) (1); ne. harp (N.), grate (N.); W.: mnd. harpe, F., Harfe
+harsta%<noun%>%<fem%>%<n-stem%>:harst Fem-n-Stem 		; ! harsta 2, har-st-a, as., sw. F. (n): nhd. Flechtwerk, Lattenrost; ne. wickerwork (N.); W.: mnd. harste, harst, F., Rost (M.) (1), Darre
+helliporta%<noun%>%<fem%>%<n-stem%>:helliport Fem-n-Stem 		; ! helliporta* 1, hel-l-i-porta*, as., sw. F. (n): nhd. Höllenpforte; ne. hellgate (N.); W.: mnd. hellepôrte, F., Höllenpforte
+himilporta%<noun%>%<fem%>%<n-stem%>:himilport Fem-n-Stem 		; ! himilporta* 1, hi-mil-porta*, as., sw. F. (n): nhd. Himmelspforte; ne. gate (N.) of heaven; W.: mnd. hemmelpôrte, hêmelpôrte, himmelpôrte, F., Himmelstür
+hîwa%<noun%>%<fem%>%<n-stem%>:hîw Fem-n-Stem 		; ! hîwa* 2, hî-w-a*, as., sw. F. (n): nhd. Gattin; ne. wife (F.)
+hlena%<noun%>%<fem%>%<n-stem%>:hlen Fem-n-Stem 		; ! hlena 1, hle-n-a, as., sw. F. (n): nhd. Lehne (F.) (1); ne. back (N.) of a chair; W.: mnd. lêne, F., Lehne (F.) (1), Stütze
+hlina%<noun%>%<fem%>%<n-stem%>:hlin Fem-n-Stem 		; ! hlina?***, hli-n-a?***, as., sw. F. (n): nhd. Lehne (F.) (1); ne. support (N.); W.: mnd. lêne, F., Lehne (F.) (1)
+holondarpîpa%<noun%>%<fem%>%<n-stem%>:holondarpîp Fem-n-Stem 		; ! holondarpîpa* 1, hol-on-dar-pîpa*, as., sw. F. (n): nhd. Holunderpfeife; ne. elderpipe (N.); W.: mnd. holenderpîpe, holderpîpe, holdernpîpe, holderenpîpe, holendorpîpe, holendorepîpe, holendorenpîpe, hollenderpîpe, holanderpîpe, hollanderpîpe, holunderpîpe, F., Holunderpfeife, röhrenartiger Ast
+holtdûva%<noun%>%<fem%>%<n-stem%>:holtdûv Fem-n-Stem 		; ! holtdûva* 1, holtdûƀa, hol-t-dû-v-a*, hol-t-dû-ƀ-a*, as., sw. F. (n): nhd. Holztaube; ne. wooddove (N.); W.: mnd. holtdûve, F., Holztaube, Wildtaube
+hosa%<noun%>%<fem%>%<n-stem%>:hos Fem-n-Stem 		; ! hosa* 1, ho-s-a*, as., sw. F. (n): nhd. „Hose“, Strumpf, Stiefel; ne. trousers (N. Pl.), stocking (N.), boot (N.) (1); W.: mnd. hôse, hâse, F., „Hose“, Bekleidung der Beine und Füße, Beinling, Strumpf
+hôvidwunda%<noun%>%<fem%>%<n-stem%>:hôvidwund Fem-n-Stem 		; ! hôvidwunda* 1, hôƀidwunda, hôv-id-wu-n-d-a*, hôƀ-id-wu-n-d-a*, as., sw. F. (n): nhd. „Hauptwunde“, Kopfwunde; ne. headwound (N.); W.: mnd. hövetwunde, F., Kopfwunde
+hrîdra%<noun%>%<fem%>%<n-stem%>:hrîdr Fem-n-Stem 		; ! hrîdra 1, hrî-d-ra, as., sw. F. (n)?: nhd. Reiter (M.) (1), Sieb, Seiher; ne. sieve (N.); W.: s. mnd. rider, M., Reiter
+hundasflioga%<noun%>%<fem%>%<n-stem%>:hundasfliog Fem-n-Stem 		; ! hundasflioga* 1, hun-d-as-fliog-a*, as., sw. F. (n): nhd. Hundsfliege; ne. dogfly (N.)
+hûva%<noun%>%<fem%>%<n-stem%>:hûv Fem-n-Stem 		; ! hûva* 1, hûƀa, hûv-a*, hûƀ-a*, as., sw. F. (n): nhd. Haube; ne. hood (N.); W.: mnd. huve, F., Haube, Kappe
+îda%<noun%>%<fem%>%<n-stem%>:îd Fem-n-Stem 		; ! îda 2, îd-a, as., sw. F. (n): nhd. Vene, Ader; ne. vein (N.)
+îviska%<noun%>%<fem%>%<n-stem%>:îvisk Fem-n-Stem 		; ! îviska* 1, îƀiska, îvisk-a*, îƀisk-a*, as., sw. F. (n)?: nhd. Eibisch; ne. mallow (N.); W.: mnd. îvesche, Sb., Eibisch, Efeu
+kemînâda%<noun%>%<fem%>%<n-stem%>:kemînâd Fem-n-Stem 		; ! kemînâda?***, kemînâta?***, kâminâta?***, as., sw. F. (n): nhd. Kemenate, heizbares Zimmer; ne. bower (N.), heatable room; W.: mnd. kemenâde, kemmenâde, kemenâte, kemnade, kemnede, F., Kemenate, heizbares Zimmer
+kevia%<noun%>%<fem%>%<n-stem%>:kevi Fem-n-Stem 		; ! kevia* 1, keƀia, kev-ia*, keƀ-ia*, as., sw. F. (n): nhd. Höhlung; ne. cave (N.)
+kirika%<noun%>%<fem%>%<n-stem%>:kirik Fem-n-Stem 		; ! kirika* 5, kirik-a*, as., sw. F. (n): nhd. Kirche; ne. church (N.); W.: mnd. kerke, karke, kirke, F., Kirche
+kirikkemînâda%<noun%>%<fem%>%<n-stem%>:kirikkemînâd Fem-n-Stem 		; ! kirikkemînâda* 1, kirik-kemînâda*, as., sw. F. (n): nhd. Pfarrerwohnung; ne. rectory (N.)
+kista%<noun%>%<fem%>%<n-stem%>:kist Fem-n-Stem 		; ! kista 1, as., sw. F. (n): nhd. Kiste; ne. chest (N.); W.: mnd. kiste, keste, F., Kiste
+krâia%<noun%>%<fem%>%<n-stem%>:krâi Fem-n-Stem 		; ! krâia 3, krâa, krâ-i-a, krâ-a*, as., sw. F. (n): nhd. Krähe; ne. crow (N.); W.: mnd. krâ, F., Krähe
+kribbia%<noun%>%<fem%>%<n-stem%>:kribbi Fem-n-Stem 		; ! kribbia* 2, krib-b-ia*, as., sw. F. (n): nhd. Krippe; ne. crib (N.); W.: mnd. krübbe, kribbe, F., Krippe
+krîda%<noun%>%<fem%>%<n-stem%>:krîd Fem-n-Stem 		; ! krîda* 1, as., sw. F. (n): nhd. Kreide; ne. chalk (N.)
+krôka%<noun%>%<fem%>%<n-stem%>:krôk Fem-n-Stem 		; ! krôka* (1) 1, krôko*, as., sw. F. (n), sw. M. (n): nhd. Falte, Runzel; ne. wrinkle (N.); W.: mnd. krôke, krâke, F., Falte, Runzel
+krûciwika%<noun%>%<fem%>%<n-stem%>:krûciwik Fem-n-Stem 		; ! krûciwika* 1, krû-c-i-wik-a*, as., sw. F. (n): nhd. Kreuzwoche; ne. week of the cross (N.)
+krûka%<noun%>%<fem%>%<n-stem%>:krûk Fem-n-Stem 		; ! krûka* 4, krûk-a*, as., sw. F. (n): nhd. Krug (M.) (1), Gefäß; ne. pot
+kwella%<noun%>%<fem%>%<n-stem%>:kwell Fem-n-Stem 		; ! kwella* 1, quella, kwel-l-a*, quel-l-a*, as., sw. F. (n)?: nhd. Quelle; ne. well (N.), spring (N.)
+laka%<noun%>%<fem%>%<n-stem%>:lak Fem-n-Stem 		; ! laka?***, lak-a?***, as., sw. F. (n): nhd. Lache (F.) (1), Sumpf; ne. bog (N.); W.: mnd. lake, F., Lache (F.) (1), kleineres seichtes Gewässer
+leccia%<noun%>%<fem%>%<n-stem%>:lecci Fem-n-Stem 		; ! leccia 2, lekzia*, as., sw. F. (n): nhd. Lektion; ne. lesson (N.); W.: mnd. leccie, F., „Lektion“, Lesung
+lêrik%<noun%>%<fem%>%<n-stem%>:lêri Fem-n-Stem 		; ! lêrik?***, as., sw. F. (n)?: nhd. Lerche; ne. lark (N.)
+lêwerka%<noun%>%<fem%>%<n-stem%>:lêwerk Fem-n-Stem 		; ! lêwerka* (1) 2, as., sw. F. (n): nhd. Lerche; ne. lark (N.); W.: mnd. lêwerke, lêrke, F., M., Lerche
+lîkwunda%<noun%>%<fem%>%<n-stem%>:lîkwund Fem-n-Stem 		; ! lîkwunda* 1, lîk-wu-n-d-a*, as., sw. F. (n): nhd. Leibeswunde; ne. injury (N.)
+lindia%<noun%>%<fem%>%<n-stem%>:lindi Fem-n-Stem 		; ! lindia* 2, lindi-a*, as., sw. F. (n): nhd. Linde; ne. lindentree (N.)
+lîsta%<noun%>%<fem%>%<n-stem%>:lîst Fem-n-Stem 		; ! lîsta?***, lîst-a?***, as., sw. F. (n): nhd. Leiste, Streifen (M.), Kante, Saum (M.) (1); ne. ledge (N.), edge (N.); W.: mnd. lîste, F., M., „Leiste“, schmaler Stoffstreifen
+loda%<noun%>%<fem%>%<n-stem%>:lod Fem-n-Stem 		; ! loda?***, lod-a?***, as., sw. F. (n): nhd. Schössling; ne. shoot (N.)
+lôvia%<noun%>%<fem%>%<n-stem%>:lôvi Fem-n-Stem 		; ! lôvia* 1, lôƀia, lô-v-i-a*, lô-ƀ-i-a*, as., sw. F. (n): nhd. Laube; ne. bower (N.); W.: mnd. lôve, F., „Laube“, Laubhütte, Vorbau, Erker
+lunga%<noun%>%<fem%>%<n-stem%>:lung Fem-n-Stem 		; ! lunga 1, lung-a, as., sw. F. (n): nhd. Lunge; ne. lung (N.); W.: mnd. lunge, lungene, F., Lunge
+lungannia%<noun%>%<fem%>%<n-stem%>:lunganni Fem-n-Stem 		; ! lungannia* 1, lung-a-n-nia*, as., sw. F. (n): nhd. Lunge; ne. lung (N.)
+lûra%<noun%>%<fem%>%<n-stem%>:lûr Fem-n-Stem 		; ! lûra* 1, as., sw. F. (n): nhd. Lauer (M.), Nachwein, Tresterwein
+lûthara%<noun%>%<fem%>%<n-stem%>:lûthar Fem-n-Stem 		; ! lûthara* 2, lû-thar-a*, as., sw. F. (n): nhd. Windel; ne. diaper (N.); W.: mnd. lûdere, F., M.?, Windel
+mara%<noun%>%<fem%>%<n-stem%>:mar Fem-n-Stem 		; ! mara 1, mar-a, as., sw. F. (n): nhd. Mahr, Alp; ne. nightmare (N.); W.: mnd. mar, mare, M., Alp, Nachtgespenst
+meginsundia%<noun%>%<fem%>%<n-stem%>:meginsundi Fem-n-Stem 		; ! meginsundia* 1, meginsundea, meg-in-su-nd-ia*, meg-in-su-nd-ea*, as., sw. F. (n): nhd. große Sünde; ne. heavy sin (N.)
+merigriota%<noun%>%<fem%>%<n-stem%>:merigriot Fem-n-Stem 		; ! merigriota* 1, mer-i-gri-o-t-a*, as., sw. F. (n): nhd. Perle; ne. pearl (N.)
+merigrîta%<noun%>%<fem%>%<n-stem%>:merigrît Fem-n-Stem 		; ! merigrîta*? 1, mer-i-grît-a*?, as., sw. F. (n): nhd. Perle; ne. pearl (N.)
+meriminna%<noun%>%<fem%>%<n-stem%>:meriminn Fem-n-Stem 		; ! meriminna* 1, mer-i-m-i-n-n-a*, as., sw. F. (n): nhd. „Meerminne“, Sirene; ne. siren (F.); W.: mnd. merminne, F., „Meerminne“, Sirene
+middia%<noun%>%<fem%>%<n-stem%>:middi Fem-n-Stem 		; ! middia* 5, mi-d-d-i-a*, as., sw. F. (n)?: nhd. Mitte; ne. middle (N.)
+minta%<noun%>%<fem%>%<n-stem%>:mint Fem-n-Stem 		; ! minta* 1, mint-a*, as., sw. F. (n): nhd. Minze; ne. mint (N.); W.: mnd. minte, F., Minze
+muggia%<noun%>%<fem%>%<n-stem%>:muggi Fem-n-Stem 		; ! muggia 3, mugga, mu-g-g-ia, mug-g-a, as., sw. F. (n): nhd. Mücke; ne. midget (N.); W.: mnd. mügge, F., Mücke, Stechmücke
+nâthla%<noun%>%<fem%>%<n-stem%>:nâthl Fem-n-Stem 		; ! nâthla* 2, nâ-thl-a*, as., sw. F. (n): nhd. Nadel; ne. needle (N.); W.: mnd. natel, nadel, F., Nadel
+nota%<noun%>%<fem%>%<n-stem%>:not Fem-n-Stem 		; ! nota* 2, as., sw. F. (n): nhd. Stich, Punkt; ne. stitch (N.), point (N.); W.: mnd. note, F., Note
+pappilla%<noun%>%<fem%>%<n-stem%>:pappill Fem-n-Stem 		; ! pappilla* 3, papula, as., sw. F. (n): nhd. Pappel, Malve; ne. mallow (N.), poplar (N.); W.: mnd. poppele, pappele, F., Pappel
+pethuma%<noun%>%<fem%>%<n-stem%>:pethum Fem-n-Stem 		; ! pethuma* 6, pethu-ma*, as., sw. F. (n): nhd. Pfebe; ne. melon (N.); W.: mnd. pedeme, Sb., große Frucht, kürbisartiges Gewächs
+pinkoston%<noun%>%<fem%>%<n-stem%>:pinkosto Fem-n-Stem 		; ! pinkoston* 2, as., sw. F. (n): nhd. Pfingsten; ne. Pentecost (N.); W.: mnd. pinxten, F., Pfingsten
+pîpa%<noun%>%<fem%>%<n-stem%>:pîp Fem-n-Stem 		; ! pîpa* 1, as., sw. F. (n): nhd. Pfeife, Röhre; ne. pipe (N.), tube (N.); W.: mnd. pipe, F., Pfeife
+porta%<noun%>%<fem%>%<n-stem%>:port Fem-n-Stem 		; ! porta* 2, por-t-a*, as., sw. F. (n): nhd. Pforte; ne. gate (N.); W.: mnd. porte, F., Tor (M.), Stadttor
+prûma%<noun%>%<fem%>%<n-stem%>:prûm Fem-n-Stem 		; ! prûma?***, as., sw. F. (n): nhd. Pflaume; ne. plum (N.); W.: mnd. plûme, prûme, F., Pflaume
+ratta%<noun%>%<fem%>%<n-stem%>:ratt Fem-n-Stem 		; ! ratta 2, rat-t-a, as., sw. F. (n): nhd. Ratte; ne. rat (N.); W.: mnd. ratte, F., Ratte
+rinna%<noun%>%<fem%>%<n-stem%>:rinn Fem-n-Stem 		; ! rinna 1, ri-n-n-a, as., sw. F. (n): nhd. Gefäß; ne. vessel (N.)
+roda%<noun%>%<fem%>%<n-stem%>:rod Fem-n-Stem 		; ! roda?***, ro-d-a?***, as., sw. F. (n)?: nhd. Rodung; ne. cleared woodland (N.)
+sanga%<noun%>%<fem%>%<n-stem%>:sang Fem-n-Stem 		; ! sanga?***, as., sw. F. (n): nhd. Büschel; ne. bunch (N.); W.: mnd. sange, F., Büschel des noch auf dem Halm stehenden Getreides
+seha%<noun%>%<fem%>%<n-stem%>:seh Fem-n-Stem 		; ! seha 3, seh-a, as., sw. F. (n): nhd. Pupille, Pupille; ne. pupil (N.)
+senewa%<noun%>%<fem%>%<n-stem%>:senew Fem-n-Stem 		; ! senewa* 1, se-n-e-w-a*, as., sw. F. (n): nhd. Sehne; ne. sinew (N.); W.: mnd. senuwe, sene, F., Sehne, Muskelband
+sêoûthia%<noun%>%<fem%>%<n-stem%>:sêoûthi Fem-n-Stem 		; ! sêoûthia* 1, sê-o-ûthi-a*, as., sw. F. (n): nhd. Meereswelle; ne. seawave (N.)
+sîminta%<noun%>%<fem%>%<n-stem%>:sîmint Fem-n-Stem 		; ! sîminta 2, sî-minta, as., sw. F. (n): nhd. Katzenminze; ne. catnip (N.); W.: mnd. sîminte, Sb., Katzenminze
+siura%<noun%>%<fem%>%<n-stem%>:siur Fem-n-Stem 		; ! siura 1, as., sw. F. (n)?: nhd. Krätzmilbe; ne. itching mite (N.); W.: mnd. sure, süre, F., Krätzmilbe
+skâla%<noun%>%<fem%>%<n-stem%>:skâl Fem-n-Stem 		; ! skâla* (1) 1, s-kâl-a*, as., sw. F. (n): nhd. Schale (F.) (2), Muschel; ne. shell (N.); W.: mnd. schâle, F., Schale (F.) (2), Rinde
+skâla%<noun%>%<fem%>%<n-stem%>:skâl Fem-n-Stem 		; ! skâla* (2) 4, s-kâl-a*, as., sw. F. (n): nhd. Schale (F.) (1); ne. bowl (N.) (1); W.: mnd. schâle, F., Schale (F.) (1), Trinkschale, Pokal
+skerpi%<noun%>%<fem%>%<n-stem%>:skerp Fem-n-Stem 		; ! skerpi* 2, s-ker-p-i*, as., sw. F. (n)?: nhd. Schärfe; ne. sharpness (N.); W.: mnd. scherpe, F., scharfer schneidender Teil an Werkzeugen, Schneide
+skindula%<noun%>%<fem%>%<n-stem%>:skindul Fem-n-Stem 		; ! skindula* 2, s-ki-n-d-ul-a*, as., sw. F. (n): nhd. Schindel; ne. shingle (N.); W.: mnd. schindele, F., Schindel
+skîva%<noun%>%<fem%>%<n-stem%>:skîv Fem-n-Stem 		; ! skîva* 3, skîƀa, skî-v-a*, skî-ƀ-a*, as., sw. F. (n): nhd. Scheibe (F.); ne. slice (N.); W.: mnd. schîve, F., Scheibe, runde Fläche
+skûfla%<noun%>%<fem%>%<n-stem%>:skûfl Fem-n-Stem 		; ! skûfla* 1, as., sw. F. (n): nhd. Schaufel; ne. shovel (N.); W.: mnd. schûffel, schûffele, F., Schaufel
+skutala%<noun%>%<fem%>%<n-stem%>:skutal Fem-n-Stem 		; ! skutala* 1, skutal-a*, as., sw. F. (n): nhd. Schüssel; ne. dish (N.); W.: mnd. schuttel, schotel, F., Schüssel
+slengira%<noun%>%<fem%>%<n-stem%>:slengir Fem-n-Stem 		; ! slengira 5, sle-ng-ira, as., sw. F. (n): nhd. Schleuder; ne. catapult (N.); W.: mnd. slengere, F., Schleuder, Schleuderwerkzeug
+snêsa%<noun%>%<fem%>%<n-stem%>:snês Fem-n-Stem 		; ! snêsa* 1, s-nê-s-a*, as., sw. F. (n): nhd. „Schneise“, Reihe, Schnur (F.) (1); ne. row (N.), string (N.)
+sola%<noun%>%<fem%>%<n-stem%>:sol Fem-n-Stem 		; ! sola* 2, sol-a*, as., sw. F. (n): nhd. Sohle, Fußsohle; ne. sole (N.); W.: mnd. sole, F., M., Sohle, Fußsohle, Schuhsohle
+spaka%<noun%>%<fem%>%<n-stem%>:spak Fem-n-Stem 		; ! spaka* 1, s-pa-k-a*, as., sw. F. (n): nhd. Speiche; ne. spoke (N.); W.: mnd. spake, F., Speiche
+spinnila%<noun%>%<fem%>%<n-stem%>:spinnil Fem-n-Stem 		; ! spinnila* 1, s-pin-n-ila*, as., sw. F. (n): nhd. Spindel; ne. spindle (N.); W.: mnd. spinnel, F., Spindel
+spôla%<noun%>%<fem%>%<n-stem%>:spôl Fem-n-Stem 		; ! spôla 1, s-pôl-a, as., sw. F. (n): nhd. Spule, Gewebeeinschlag; ne. spool (N.); W.: mnd. spole, F., M., Spule
+sprêha%<noun%>%<fem%>%<n-stem%>:sprêh Fem-n-Stem 		; ! sprêha* 1, as., sw. F. (n)?: nhd. Sprehe, Star (M.) (1); ne. starling (N.); W.: mnd. sprê, sprên, M., Star (M.) (1)
+standa%<noun%>%<fem%>%<n-stem%>:stand Fem-n-Stem 		; ! standa 1, sta-n-da, as., sw. F. (n): nhd. Standfass; ne. tun (N.); W.: mnd. stande, F., Holzkübel, Metallkübel
+strâta%<noun%>%<fem%>%<n-stem%>:strât Fem-n-Stem 		; ! strâta 5, strâ-t-a, as., sw. F. (n): nhd. Straße; ne. street (N.); W.: mnd. strâte, F., Straße
+strota%<noun%>%<fem%>%<n-stem%>:strot Fem-n-Stem 		; ! strota* 1, s-tro-t-a*, as., sw. F. (n): nhd. Speiseröhre, Kehle (F.) (1); ne. gullet (N.), throat (N.); W.: mnd. strote, strotte, F., Kehle (F.) (1)
+sumarloda%<noun%>%<fem%>%<n-stem%>:sumarlod Fem-n-Stem 		; ! sumarloda* 2, sum-ar-lod-a*, as., sw. F. (n): nhd. Sommerschössling; ne. summer shoot (N.); W.: mnd. somerlode, M., F., Schössling
+swala%<noun%>%<fem%>%<n-stem%>:swal Fem-n-Stem 		; ! swala* 3, swal-a*, swalwa, as., sw. F. (n): nhd. Schwalbe; ne. swallow (N.); W.: mnd. swale, F., Schwalbe
+swerdula%<noun%>%<fem%>%<n-stem%>:swerdul Fem-n-Stem 		; ! swerdula* 3, swer-d-ula*, as., sw. F. (n): nhd. Schwertel; ne. gladiolus (N.); W.: mnd. swerdele, Sb., Schwertelkraut
+tâfla%<noun%>%<fem%>%<n-stem%>:tâfl Fem-n-Stem 		; ! tâfla* 2, tâ-fl-a*, as., sw. F. (n): nhd. Tafel, Würfelbrett; ne. diceboard (N.); W.: mnd. tafle, tafele, tafel, taffel, F., Tafel
+têgala%<noun%>%<fem%>%<n-stem%>:têgal Fem-n-Stem 		; ! têgala* 1, tiegla, têg-ala*, tieg-la*, as., sw. F. (n): nhd. Ziegel; ne. tile (N.); W.: mnd. têgel, teigel, M., Ziegel
+tunga%<noun%>%<fem%>%<n-stem%>:tung Fem-n-Stem 		; ! tunga 6, tung-a, as., sw. F. (n): nhd. Zunge, Sprache; ne. tongue (N.); W.: mnd. tunge, F., Zunge
+thiorna%<noun%>%<fem%>%<n-stem%>:thiorn Fem-n-Stem 		; ! thiorna 21, thiorn-a, as., sw. F. (n): nhd. „Dirne“, Jungfrau; ne. maiden (F.); W.: mnd. derne, F., Jungfrau, Mädchen
+thiuwa%<noun%>%<fem%>%<n-stem%>:thiuw Fem-n-Stem 		; ! thiuwa* 3, thiuw-a*, as., sw. F. (n): nhd. Magd, Dienerin; ne. maid (F.)
+ûthia%<noun%>%<fem%>%<n-stem%>:ûthi Fem-n-Stem 		; ! ûthia* 8, ûthi-a*, as., sw. F. (n): nhd. Woge, Welle; ne. wave (N.)
+watarminta%<noun%>%<fem%>%<n-stem%>:watarmint Fem-n-Stem 		; ! watarminta* 1, w-a-tar-mint-a*, as., sw. F. (n): nhd. Wasserminze; ne. watermint (N.)
+wehsitâfla%<noun%>%<fem%>%<n-stem%>:wehsitâfl Fem-n-Stem 		; ! wehsitâfla* 1, weh-s-i-tâ-fl-a*, as., sw. F. (n): nhd. Wachstafel; ne. waxtablet (N.)
+weke%<noun%>%<fem%>%<n-stem%>:wek Fem-n-Stem 		; ! weke?***, wek-e?***, as., sw. F. (n): nhd. Woche; ne. week (N.)
+widowa%<noun%>%<fem%>%<n-stem%>:widow Fem-n-Stem 		; ! widowa* 5, wi-do-w-a*, as., sw. F. (n): nhd. Witwe; ne. widow (F.); W.: mnd. wedewe, weduwe, wedue, sw. F., Witwe
+wîka%<noun%>%<fem%>%<n-stem%>:wîk Fem-n-Stem 		; ! wîka?***, wîk-a?***, as., sw. F. (n): nhd. Woche; ne. week (N.)
+windila%<noun%>%<fem%>%<n-stem%>:windil Fem-n-Stem 		; ! windila* 1, w-i-nd-ila*, as., sw. F. (n)?: nhd. „Windel“, Binde; ne. bandage (N.)
+windskûfla%<noun%>%<fem%>%<n-stem%>:windskûfl Fem-n-Stem 		; ! windskûfla* 1, w-i-nd-skûfla*, as., sw. F. (n): nhd. „Windschaufel“, Wurfschaufel; ne. winnowingshovel (N.)
+wînreva%<noun%>%<fem%>%<n-stem%>:wînrev Fem-n-Stem 		; ! wînreva* 1, wînreƀa, wî-n-rev-a*, wî-n-reƀ-a*, as., sw. F. (n): nhd. Weinrebe; ne. vine (N.)
+wolvassêpa%<noun%>%<fem%>%<n-stem%>:wolvassêp Fem-n-Stem 		; ! wolvassêpa* 1, wolvas-sêp-a*, as., sw. F. (n)?: nhd. Wolfsseife; W.: mnd. wulvessap
+wunda%<noun%>%<fem%>%<n-stem%>:wund Fem-n-Stem 		; ! wunda* 7, wu-n-d-a*, as., sw. F. (n): nhd. Wunde; ne. wound (N.); W.: mnd. wunde, F., Wunde, Verletzung
+aldiro%<noun%>%<masc%>%<n-stem%>:aldir Masc-n-Stem 		; ! aldiro 4, aldro, al-d-ir-o, al-d-r-o, as., sw. M. (n): nhd. „Ältere“, Ahn, Vorfahre, Eltern (= aldiron); ne. forefather (M.), parents (M. Pl.) (= aldiron); W.: vgl. mnd. olderen, Sb. Pl., Eltern
+ambahteo%<noun%>%<masc%>%<n-stem%>:ambahte Masc-n-Stem 		; ! ambahteo 3, ambahtio, amb-ah-t-e-o, amb-ah-t-i-o*, as., sw. M. (n): nhd. Amtmann, Verwalter, Diener, Dienstmann; ne. officer (M.), steward (M.), servant (M.); W.: s. mnd. ambacht, M., Handwerker, Amtsperson
+ambo%<noun%>%<masc%>%<n-stem%>:amb Masc-n-Stem 		; ! ambo* 2, a-mb-o*, as., sw. M. (n): nhd. Wanst; ne. belly (N.); W.: s. mnd. amme, M.?, Wanst
+andervidio%<noun%>%<masc%>%<n-stem%>:andervidi Masc-n-Stem 		; ! andervidio* 1, and-ervidio*, as., sw. M. (n): nhd. Erbloser; ne. person (M.) without heritage; W.: vgl. mnd. enterven, sw. V., erblos machen
+ando%<noun%>%<masc%>%<n-stem%>:and Masc-n-Stem 		; ! ando 3, and-o, as., sw. M. (n): nhd. Kränkung, Verdruss; ne. offence (N.); W.: mnd. ande, M., Kränkung
+andsako%<noun%>%<masc%>%<n-stem%>:andsak Masc-n-Stem 		; ! andsako* 2, antsako, and-sak-o*, ant-sak-o*, as., sw. M. (n): nhd. Widersacher, Feind; ne. enemy (M.)
+ango%<noun%>%<masc%>%<n-stem%>:ang Masc-n-Stem 		; ! ango 2, as., sw. M. (n): nhd. Türangel, Stachel; ne. hinge (N.); W.: s. mnd. angel, M., Spitze, Stachel
+angseto%<noun%>%<masc%>%<n-stem%>:angset Masc-n-Stem 		; ! angseto* 1, ang-set-o*, as., sw. M. (n): nhd. Bläschen; ne. blister (N.)
+anko%<noun%>%<masc%>%<n-stem%>:ank Masc-n-Stem 		; ! anko?***, as., sw. M. (n): nhd. Großvater; ne. grandfather (M.)
+apo%<noun%>%<masc%>%<n-stem%>:ap Masc-n-Stem 		; ! apo* 1, as., sw. M. (n): nhd. Affe; ne. ape (N.), monkey (N.); W.: mnd. âpe, ape, M., F., Affe
+armilo%<noun%>%<masc%>%<n-stem%>:armil Masc-n-Stem 		; ! armilo* 1, arm-il-o*, as., sw. M. (n): nhd. Armring, Ärmel; ne. bracelet (N.), sleeve (N.); W.: mnd. ermel, st. M., Ärmel
+asko%<noun%>%<masc%>%<n-stem%>:ask Masc-n-Stem 		; ! asko* 2, as-ko*, as., sw. M. (n): nhd. Äsche; ne. grayling (N.); W.: mnd. asch, Sb., Äsche
+athalordfrumo%<noun%>%<masc%>%<n-stem%>:athalordfrum Masc-n-Stem 		; ! athalordfrumo* 1, atha-l-ord-fru-m-o*, as., sw. M. (n): nhd. hoher Schöpfer (M.) (2); ne. high creator (M.)
+âvandsterro%<noun%>%<masc%>%<n-stem%>:âvandsterr Masc-n-Stem 		; ! âvandsterro* 1, âƀandsterro, âvand-ster-r-o*, âƀand-ster-r-o*, as., sw. M. (n): nhd. Abendstern; ne. eveningstar (N.); W.: mnd. âventsterre, sw. M., Abendstern, Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+avaro%<noun%>%<masc%>%<n-stem%>:avar Masc-n-Stem 		; ! avaro* 7, aƀaro, avar-o*, aƀar-o*, as., sw. M. (n): nhd. Nachkomme, Kind; ne. offspring (N.), child (N.)
+bako%<noun%>%<masc%>%<n-stem%>:bak Masc-n-Stem 		; ! bako?***, as., sw. M. (n): nhd. Speckseite; ne. flitch (N.) of bacon; W.: s. mnd. bâke, M., Rücken (M.), Hinterbacke, Schinken
+balko%<noun%>%<masc%>%<n-stem%>:balk Masc-n-Stem 		; ! balko* 2, bal-k-o*, as., sw. M. (n): nhd. Balken (M.); ne. plank (N.); W.: mnd. balke, M., Balken (M.)
+baluwîso%<noun%>%<masc%>%<n-stem%>:baluwîs Masc-n-Stem 		; ! baluwîso*, balowîso, bal-u-wî-s-o*, bal-o-wîs-o*, as., sw. M. (n): nhd. Teufel, ins Verderben Führender; ne. devil (M.)
+bano%<noun%>%<masc%>%<n-stem%>:ban Masc-n-Stem 		; ! bano 8, ban-o, as., sw. M. (n): nhd. Mörder, Töter; ne. murderer (M.), killer (M.); W.: s. mnd. bâne, F., Mordbuße
+beio%<noun%>%<masc%>%<n-stem%>:bei Masc-n-Stem 		; ! Beio?***, as., sw. M. (n): nhd. Bayer; ne. Bavarian (M.)
+beliko%<noun%>%<masc%>%<n-stem%>:belik Masc-n-Stem 		; ! beliko* 1, bel-ik-o*, as., sw. M. (n): nhd. Belche, Bläßhuhn; ne. coot (N.)
+bero%<noun%>%<masc%>%<n-stem%>:ber Masc-n-Stem 		; ! bero? (1)***, ber-o?***, as., sw. M. (n): nhd. Träger; ne. bearer (M.)
+bero%<noun%>%<masc%>%<n-stem%>:ber Masc-n-Stem 		; ! bero? (2)***, ber-o?***, as., sw. M. (n): nhd. Bär (M.) (1); ne. bear (N.); W.: vgl. mnd. bar, bâre, M., Bär (M.) (1)
+besmo%<noun%>%<masc%>%<n-stem%>:besm Masc-n-Stem 		; ! besmo 2, bes-m-o, as., sw. M. (n): nhd. Besen; ne. broom (N.); W.: vgl. mnd. bêsem, bêseme, M., Besen
+bîgihto%<noun%>%<masc%>%<n-stem%>:bîgiht Masc-n-Stem 		; ! bîgihto* 2, bî-gih-t-o*, as., sw. M. (n): nhd. Beichte, Gelübde; ne. confession (N.), vow (N.)
+binawîso%<noun%>%<masc%>%<n-stem%>:binawîs Masc-n-Stem 		; ! binawîso* 1, bi-n-a-wî-s-o*, as., sw. M. (n): nhd. Weisel, Bienenkönigin; ne. queenbee (N.)
+biorgeldo%<noun%>%<masc%>%<n-stem%>:biorgeld Masc-n-Stem 		; ! biorgeldo* 3, bi-o-r-geld-o*, as., sw. M. (n): nhd. Biergelde; ne. tributarian (M.)
+bisemo%<noun%>%<masc%>%<n-stem%>:bisem Masc-n-Stem 		; ! bisemo* 2, bisamo, bisem-o*, bisam-o*, as., sw. M. (n): nhd. Bisam; ne. musk (N.)
+blîkolvo%<noun%>%<masc%>%<n-stem%>:blîkolv Masc-n-Stem 		; ! blîkolvo* 1, blîkolƀo, blî-kolv-o*, blî-kolƀ-o*, as., sw. M. (n): nhd. Bleikolben; ne. leaden piston (N.)
+bliksmo%<noun%>%<masc%>%<n-stem%>:bliksm Masc-n-Stem 		; ! bliksmo* 1, blik-sm-o*, as., sw. M. (n): nhd. Blitz; ne. lightening (N.); W.: mnd. blixem, blixen, M., Blitz
+blindslîko%<noun%>%<masc%>%<n-stem%>:blindslîk Masc-n-Stem 		; ! blindslîko* 1, blindslêko*?, bl-ind-s-lî-k-o*, bl-ind-s-lê-k-o*?, as., sw. M. (n): nhd. Blindschleiche; ne. slowworm (N.); W.: s. mnd. blintslîker, Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+blômo%<noun%>%<masc%>%<n-stem%>:blôm Masc-n-Stem 		; ! blômo* 2, bl-ô-m-o*, as., sw. M. (n): nhd. Blume; ne. flower (N.); W.: vgl. mnd. blôme, F., Blume
+bodo%<noun%>%<masc%>%<n-stem%>:bod Masc-n-Stem 		; ! bodo 29, bod-o, as., sw. M. (n): nhd. Bote, Gesandter; ne. messenger (M.); W.: mnd. bode, M., Bote
+bôggevo%<noun%>%<masc%>%<n-stem%>:bôggev Masc-n-Stem 		; ! bôggevo* 1, bôggeƀo, bôg-gev-o*, bôg-geƀ-o*, as., sw. M. (n): nhd. Ringgeber, Fürst; ne. ringgiver (M.), prince (M.)
+bôio%<noun%>%<masc%>%<n-stem%>:bôi Masc-n-Stem 		; ! bôio?***, as., sw. M. (n): nhd. Bewohner; ne. settler (M.)
+bollo%<noun%>%<masc%>%<n-stem%>:boll Masc-n-Stem 		; ! bollo* (1) 1, boll-o*, as., sw. M. (n): nhd. Geschoss, Brennbolzen; ne. bullet (N.); W.: s. mnd. bolle, F., M., runder Gegenstand, Hinterschenkel
+bollo%<noun%>%<masc%>%<n-stem%>:boll Masc-n-Stem 		; ! bollo (2) 1, bol-l-o, as., sw. M. (n): nhd. Schale (F.) (2), Napf; ne. bowl (N.) (1); W.: mnd. bolle?, bole, F., M., runder Gegenstand, Hinterschenkel
+bôlo%<noun%>%<masc%>%<n-stem%>:bôl Masc-n-Stem 		; ! bôlo?***, as., sw. M. (n): nhd. Buhle, Freund; ne. lover (M.); W.: mnd. bôle, M., Buhle
+boltio%<noun%>%<masc%>%<n-stem%>:bolti Masc-n-Stem 		; ! boltio 1, bolt-io, as., sw. M. (n): nhd. Wurf; ne. throw (N.); W.: mnd. bolte, M.
+bômfalko%<noun%>%<masc%>%<n-stem%>:bômfalk Masc-n-Stem 		; ! bômfalko* 2, bôm-fal-k-o*, as., sw. M. (n): nhd. Baumfalke, Lerchenfalke; ne. hobby (N.) (a bird)?; W.: mnd. bômvalke, M., Baumfalke
+bômgardo%<noun%>%<masc%>%<n-stem%>:bômgard Masc-n-Stem 		; ! bômgardo* 2, bôm-gard-o*, as., sw. M. (n): nhd. Baumgarten; ne. orchard (N.); W.: mnd. bômgarde, M., Baumgarten, Obstgarten
+boro%<noun%>%<masc%>%<n-stem%>:bor Masc-n-Stem 		; ! boro?***, bor-o?***, as., sw. M. (n): nhd. Träger; ne. bearer (N.), carrier (M.); W.: mnd. *bor?
+bôso%<noun%>%<masc%>%<n-stem%>:bôs Masc-n-Stem 		; ! bôso?***, bô-s-o?***, as., sw. M. (n): nhd. Böser?, Edler?; ne. fool (M.)
+bôto%<noun%>%<masc%>%<n-stem%>:bôt Masc-n-Stem 		; ! bôto 1, bô-t-o, as., sw. M. (n): nhd. Flachsbündel; ne. flaxbundle (N.); W.: mnd. bote, bôte, M., Flachsbündel
+bôvo%<noun%>%<masc%>%<n-stem%>:bôv Masc-n-Stem 		; ! bôvo?***, bôƀo?***, bôv-o?***, bôƀ-o?***, as., sw. M. (n): nhd. Bube; ne. boy (M.); W.: mnd. bove, M., Bube
+brâdo%<noun%>%<masc%>%<n-stem%>:brâd Masc-n-Stem 		; ! brâdo 3, brâ-d-o, as., sw. M. (n): nhd. Braten (M.), Muskel; ne. roast (N.), muscle (N.); W.: vgl. mnd. brade, brâde, bra, brâ, F., Dickfleisch, Keule, Braten (M.); W.: mnd. brade, brâde, bra, brâ, gewöhnlich F.
+brâmio%<noun%>%<masc%>%<n-stem%>:brâmi Masc-n-Stem 		; ! brâmio?***, brâm-io?***, as., sw. M. (n): nhd. Dornstrauch; ne. thorn-bush (N.); W.: mnd. brame (Gallée)
+bremo%<noun%>%<masc%>%<n-stem%>:brem Masc-n-Stem 		; ! bremo (1) 4, bre-m-o, as., sw. M. (n): nhd. Bremse (F.) (2); ne. gadfly (N.)
+brokko%<noun%>%<masc%>%<n-stem%>:brokk Masc-n-Stem 		; ! brokko* 1, brok-k-o*, as., sw. M. (n): nhd. Brocken (M.); ne. lump (N.); W.: s. mnd. brocke
+brosmo%<noun%>%<masc%>%<n-stem%>:brosm Masc-n-Stem 		; ! brosmo* 1, bro-s-m-o*, as., sw. M. (n): nhd. Krümchen, Brosamen; ne. morsel (N.), scrap (N.); W.: mnd. brôsme, brôseme, Sb., Brosame, Brocken (M.)
+brûdigumo%<noun%>%<masc%>%<n-stem%>:brûdigum Masc-n-Stem 		; ! brûdigumo* 2, brûdigomo, brû-d-i-gum-o*, brû-d-i-gom-o*, as., sw. M. (n): nhd. Bräutigam, Ehemann; ne. bridegroom (M.); W.: mnd. brûdegam, M., Bräutigam, Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+brunno%<noun%>%<masc%>%<n-stem%>:brunn Masc-n-Stem 		; ! brunno* 4, bru-n-n-o*, as., sw. M. (n): nhd. Born, Quelle, Wasser; ne. well (N.), water (N.); W.: mnd. borne, born, M., Brunnen
+burgio%<noun%>%<masc%>%<n-stem%>:burgi Masc-n-Stem 		; ! burgio* 3, bur-g-io*, as., sw. M. (n): nhd. Gläubiger, Bürge; ne. bail (M.), creditor (M.); W.: mnd. börge, borge, M., Bürge
+burno%<noun%>%<masc%>%<n-stem%>:burn Masc-n-Stem 		; ! burno?***, burn-o?***, as., sw. M. (n): nhd. Born, Quelle; ne. well (N.)
+busiko%<noun%>%<masc%>%<n-stem%>:busik Masc-n-Stem 		; ! busiko*? 1, busik-o*?, as., sw. M. (n): nhd. kleiner Knabe; ne. little boy (M.)
+dago%<noun%>%<masc%>%<n-stem%>:dag Masc-n-Stem 		; ! dago? (1)***, d-ag-o?***, as., sw. M. (n): nhd. Tag; ne. day (N.)
+dagskîmo%<noun%>%<masc%>%<n-stem%>:dagskîm Masc-n-Stem 		; ! dagskîmo* 1, d-ag-skî-m-o*, as., sw. M. (n): nhd. Tageslicht; ne. daylight (N.)
+dagsterro%<noun%>%<masc%>%<n-stem%>:dagsterr Masc-n-Stem 		; ! dagsterro* 1, d-ag-ster-r-o*, as., sw. M. (n): nhd. Morgenstern; ne. morning star (N.)
+dano%<noun%>%<masc%>%<n-stem%>:dan Masc-n-Stem 		; ! dano?***, as., sw. M. (n): nhd. Däne; ne. Dane (M.)
+degmo%<noun%>%<masc%>%<n-stem%>:degm Masc-n-Stem 		; ! degmo* 1, degm-o*, as., sw. M. (n): nhd. Zehnte; ne. tenth (N.); W.: mnd. dechme, M., Zehnte, (Gallée)
+desamo%<noun%>%<masc%>%<n-stem%>:desam Masc-n-Stem 		; ! desamo 1, desam-o, as., sw. M. (n): nhd. Bisam; ne. musk (N.)
+dodro%<noun%>%<masc%>%<n-stem%>:dodr Masc-n-Stem 		; ! dodro* 3, do-d-r-o*, as., sw. M. (n): nhd. Dotter; ne. yolk (N.); W.: mnd. doder, dodder, M., Dotter
+drago%<noun%>%<masc%>%<n-stem%>:drag Masc-n-Stem 		; ! drago?***, dra-g-o?***, as., sw. M. (n): nhd. Träger; ne. carrier (M.); W.: s. mnd. drage, F., Trage, Bahre
+drâno%<noun%>%<masc%>%<n-stem%>:drân Masc-n-Stem 		; ! drâno 2, drâ-n-o, as., sw. M. (n): nhd. Drohne; ne. drone (N.); W.: mnd. drane, M., Drohne
+dreno%<noun%>%<masc%>%<n-stem%>:dren Masc-n-Stem 		; ! dreno* 3, dre-n-o*, as., sw. M. (n): nhd. Drohne; ne. drone (N.); W.: mnd. drane, M., Drohne
+drepso%<noun%>%<masc%>%<n-stem%>:dreps Masc-n-Stem 		; ! drepso 1, dreps-o, as., sw. M. (n): nhd. Trespe; ne. bromegrass (N.); W.: mnd. drespe, M., Trespe
+drôgo%<noun%>%<masc%>%<n-stem%>:drôg Masc-n-Stem 		; ! drôgo?***, as., sw. M. (n): nhd. Krieger; ne. warrior (M.)
+drômskêtho%<noun%>%<masc%>%<n-stem%>:drômskêth Masc-n-Stem 		; ! drômskêtho* 1, drôm-skê-th-o*, as., sw. M. (n): nhd. „Traumscheider“, Traumdeuter; ne. interpreter (M.) of dreams; W.: s. mnd. drômscheder, M., „Traumscheider“, Traumdeuter
+druppo%<noun%>%<masc%>%<n-stem%>:drupp Masc-n-Stem 		; ! druppo?***, dru-p-p-o?***, as., sw. M. (n): nhd. Tropfen (M.); ne. drop (N.); W.: mnd. drup, drupe, drope, M., Tropfen (M.)
+ebreo%<noun%>%<masc%>%<n-stem%>:ebre Masc-n-Stem 		; ! Ebreo* 2, as., sw. M. (n): nhd. Hebräer; ne. Hebrew (M.)
+egiso%<noun%>%<masc%>%<n-stem%>:egis Masc-n-Stem 		; ! egiso* 6, eg-is-o*, as., sw. M. (n): nhd. Schrecken; ne. terror (N.)
+êkso%<noun%>%<masc%>%<n-stem%>:êks Masc-n-Stem 		; ! êkso* 1, êgiso, êk-s-o*, êg-is-o*, as., sw. M. (n): nhd. Eigner; ne. owner (M.); W.: vgl. mnd. erfekse (Gallée)
+elaho%<noun%>%<masc%>%<n-stem%>:elah Masc-n-Stem 		; ! elaho 4, elo, el-ah-o, el-o*, as., sw. M. (n): nhd. Elch; ne. elk (N.); W.: s. mnd. elk, M., Elch
+eldiro%<noun%>%<masc%>%<n-stem%>:eldir Masc-n-Stem 		; ! eldiro* 2, el-d-ir-o*, as., sw. M. (n): nhd. Ältere, Ahnherr, Elter, Elternteil, Eltern (= eldiron); ne. elder (M.); W.: vgl. mnd. olderen, Sb. Pl., Ältere
+êndago%<noun%>%<masc%>%<n-stem%>:êndag Masc-n-Stem 		; ! êndago 4, ê-n-d-ag-o, as., sw. M. (n): nhd. Todestag; ne. day (N.) of death; W.: mnd. andach
+ênhornio%<noun%>%<masc%>%<n-stem%>:ênhorni Masc-n-Stem 		; ! ênhornio* 1, ê-n-hor-n-io*, as., sw. M. (n)?: nhd. Einhorn; ne. unicorn (N.); W.: s. mnd. ênhorn, einhorn, M., N., Einhorn, Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+ênsedlio%<noun%>%<masc%>%<n-stem%>:ênsedli Masc-n-Stem 		; ! ênsedlio* 1, ênsethlio, ê-n-sed-l-io*, ê-n-seth-l-io*, as., sw. M. (n): nhd. Einsiedler; ne. hermit (M.); W.: vgl. mnd. ênsêdel, einsêdel, M., Einsiedler, Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+ênsetlio%<noun%>%<masc%>%<n-stem%>:ênsetli Masc-n-Stem 		; ! ênsetlio* 1, ên-set-l-io*, as., sw. M. (n): nhd. Einsiedler; ne. hermit (M.); W.: s. mnd. ênsêdel, einsêdel, M., Einsiedler, Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+êosago%<noun%>%<masc%>%<n-stem%>:êosag Masc-n-Stem 		; ! êosago 5, êo-sag-o, as., sw. M. (n): nhd. „Gesetzsager“, „Rechtsager“, Gesetzesausleger, Schriftkundiger; ne. legislator (M.), scribe (M.)
+erendibodo%<noun%>%<masc%>%<n-stem%>:erendibod Masc-n-Stem 		; ! erendibodo* 1, erend-i-bod-o*, as., sw. M. (n): nhd. Bote; ne. messenger (M.)
+falko%<noun%>%<masc%>%<n-stem%>:falk Masc-n-Stem 		; ! falko 5, fal-k-o, as., sw. M. (n): nhd. Falke; ne. falcon (N.); W.: mnd. valke, sw. M., Falke
+fano%<noun%>%<masc%>%<n-stem%>:fan Masc-n-Stem 		; ! fano 4, fan-o, as., sw. M. (n): nhd. „Fahne“, Tuch, Laken; ne. cloth (N.); W.: mnd. vâne, sw. M., F.?, Fahne
+faro%<noun%>%<masc%>%<n-stem%>:far Masc-n-Stem 		; ! faro? (2)***, far-o?***, as., sw. M. (n): nhd. Fahrer; ne. driver (M.); W.: vgl. mnd. var, vare, F., Fahren
+fediro%<noun%>%<masc%>%<n-stem%>:fedir Masc-n-Stem 		; ! fediro 1, fe-d-i-r-o, as., sw. M. (n): nhd. Oheim; ne. uncle (M.); W.: mnd. vedder, veddere, M., Vetter
+feldhoppo%<noun%>%<masc%>%<n-stem%>:feldhopp Masc-n-Stem 		; ! feldhoppo 1, fel-d-hop-p-o, as., sw. M. (n): nhd. Feldhopfen, Hartheu; ne. fieldhop (N.); W.: mnd. velthoppe, M., Feldhopfen
+fendio%<noun%>%<masc%>%<n-stem%>:fendi Masc-n-Stem 		; ! fendio* 2, fend-io*, as., sw. M. (n): nhd. Fußsoldat; ne. infantryman (M.); W.: mnd. vent, M., Bursche, junger Kerl
+ferdio%<noun%>%<masc%>%<n-stem%>:ferdi Masc-n-Stem 		; ! ferdio?***, fer-d-io?***, as., sw. M. (n): nhd. Gänger; ne. passer (M.)
+ferio%<noun%>%<masc%>%<n-stem%>:feri Masc-n-Stem 		; ! ferio 1, fer-io, as., sw. M. (n): nhd. Ferge, Fährmann; ne. ferryman (M.); W.: mnd. vere, M., Ferge, Fährmann
+fetharhamo%<noun%>%<masc%>%<n-stem%>:fetharham Masc-n-Stem 		; ! fetharhamo* 2, feth-ar-ham-o*, as., sw. M. (n): nhd. Federgewand; ne. plumage (N.)
+finko%<noun%>%<masc%>%<n-stem%>:fink Masc-n-Stem 		; ! finko* 3, fink-o*, as., sw. M. (n): nhd. Fink; ne. finch (N.); W.: mnd. vinke, sw. M., Fink
+flatho%<noun%>%<masc%>%<n-stem%>:flath Masc-n-Stem 		; ! flatho 1, fla-th-o, as., sw. M. (n): nhd. Fladen; ne. flat cake (N.); W.: mnd. vlade, sw. M.?, Fladen
+folktogo%<noun%>%<masc%>%<n-stem%>:folktog Masc-n-Stem 		; ! folktogo* 4, fol-k-to-g-o*, as., sw. M. (n): nhd. Herzog; ne. duke (M.)
+folo%<noun%>%<masc%>%<n-stem%>:fol Masc-n-Stem 		; ! folo* 3, fol-o*, as., sw. M. (n): nhd. Fohlen (N.) (1), Füllen (N.) (1); ne. colt (N.) (1); W.: mnd. vole, sw. M., Fohlen
+forabodo%<noun%>%<masc%>%<n-stem%>:forabod Masc-n-Stem 		; ! forabodo 1, for-a-bod-o, as., sw. M. (n): nhd. Vorbote; ne. forerunner (N.); W.: mnd. vorbode, Sb., Vorbote
+foraferdio%<noun%>%<masc%>%<n-stem%>:foraferdi Masc-n-Stem 		; ! foraferdio* 1, for-a-fer-d-io*, as., sw. M. (n): nhd. Vorgänger, Vorgesetzter; ne. predecessor (M.), superior (M.)
+forasago%<noun%>%<masc%>%<n-stem%>:forasag Masc-n-Stem 		; ! forasago* 3, for-a-sag-o*, as., sw. M. (n): nhd. „Vorsager“, Prophet; ne. prophet (M.); W.: vgl. mnd. vorsage, F. Vorraussage, Prophezeiung
+forthero%<noun%>%<masc%>%<n-stem%>:forther Masc-n-Stem 		; ! forthero* 3, forthro, for-ther-o*, for-thr-o*, as., sw. M. (n): nhd. Vorfahre; ne. ancestor (N.)
+frâho%<noun%>%<masc%>%<n-stem%>:frâh Masc-n-Stem 		; ! frâho 26, frôho, frôio, frâ-h-o, frô-h-o, frô-i-o, as., sw. M. (n): nhd. Herr; ne. lord (M.); W.: s. mnd. vrouwe, vrowe, F., Herrin
+franko%<noun%>%<masc%>%<n-stem%>:frank Masc-n-Stem 		; ! Franko?***, Fra-nk-o?***, as., sw. M. (n): nhd. Franke; ne. Franconian (M.); W.: mnd. Vranke, sw. M., Franke
+frêso%<noun%>%<masc%>%<n-stem%>:frês Masc-n-Stem 		; ! frêso* (1) 1, frê-s-o*, as., sw. M. (n): nhd. Gefährlichkeit; ne. dangerousness (N.)
+frêso%<noun%>%<masc%>%<n-stem%>:frês Masc-n-Stem 		; ! Frêso? (2)***, Frês-o?***, as., sw. M. (n): nhd. Friese; ne. Frisian (M.); W.: mnd. Vrêse, sw. M., Friese
+frithugumo%<noun%>%<masc%>%<n-stem%>:frithugum Masc-n-Stem 		; ! frithugumo* 1, fri-th-u-gum-o*, as., sw. M. (n): nhd. „Friedensmann“, Friedensbringer; ne. peacebringer (M.)
+frô%<noun%>%<masc%>%<n-stem%>:fr Masc-n-Stem 		; ! frô (1) 24, as., sw. M. (n): nhd. Herr; ne. lord (M.); W.: vgl. mnd. vrône, vrôn, Adj., herrschaftlich, dem Herrn gehörig
+frumo%<noun%>%<masc%>%<n-stem%>:frum Masc-n-Stem 		; ! frumo?***, fru-m-o?***, as., sw. M. (n): nhd. Herr; ne. lord (M.)
+fugalklovo%<noun%>%<masc%>%<n-stem%>:fugalklov Masc-n-Stem 		; ! fugalklovo* 2, fu-g-al-klov-o*, as., sw. M. (n): nhd. „Vogelkloben“, Vogelfalle; ne. fowlingtrap (N.)
+furiwurdio%<noun%>%<masc%>%<n-stem%>:furiwurdi Masc-n-Stem 		; ! furiwurdio* 1, fur-i-wur-d-io*, as., sw. M. (n): nhd. „Vorworter“, Stellvertreter; ne. representative (M.)
+galgo%<noun%>%<masc%>%<n-stem%>:galg Masc-n-Stem 		; ! galgo 10, galg-o, as., sw. M. (n): nhd. Galgen; ne. gallows (N. Pl.); W.: mnd. galge, M., F., Galgen
+gardo%<noun%>%<masc%>%<n-stem%>:gard Masc-n-Stem 		; ! gardo* 1, gar-d-o*, as., sw. M. (n): nhd. Garten; ne. garden (N.); W.: mnd. garde, M., Garten
+geldo%<noun%>%<masc%>%<n-stem%>:geld Masc-n-Stem 		; ! geldo?***, geld-o?***, as., sw. M. (n): nhd. „Gelter“; ne. payer
+gevo%<noun%>%<masc%>%<n-stem%>:gev Masc-n-Stem 		; ! gevo?***, geƀo?***, gev-o?***, geƀ-o?***, as., sw. M. (n): nhd. Geber; ne. giver (M.); W.: vgl. mnd. gêvere, gêver, M., Geber, Gabenspender
+gibeddio%<noun%>%<masc%>%<n-stem%>:gibeddi Masc-n-Stem 		; ! gibeddio* 1, gi-bed-d-io*, as., sw. M. (n): nhd. Bettgenosse; ne. bedfellow (M.)
+gibenkio%<noun%>%<masc%>%<n-stem%>:gibenki Masc-n-Stem 		; ! gibenkio* 1, gi-be-n-k-i-o*, as., sw. M. (n): nhd. Bankgenosse; ne. benchfellow (M.)
+gigado%<noun%>%<masc%>%<n-stem%>:gigad Masc-n-Stem 		; ! gigado* 1, gi-gad-o*, as., sw. M. (n): nhd. Genosse; ne. comrade (M.); W.: mnd. gegade, M., Genosse
+gilovo%<noun%>%<masc%>%<n-stem%>:gilov Masc-n-Stem 		; ! gilovo* 1, giloƀo, gi-lov-o*, gi-loƀ-o*, as., sw. M. (n): nhd. Wille; ne. will (N.)
+gilôvo%<noun%>%<masc%>%<n-stem%>:gilôv Masc-n-Stem 		; ! gilôvo* 35, gilôƀo, gi-lôv-o*, gi-lôƀ-o, as., sw. M. (n): nhd. Glaube, Gesinnung; ne. belief (N.), mind (N.); W.: mnd. gelove, gelôf, M., Gelöbnis, Erlaubnis, Treu und Glauben
+gimako%<noun%>%<masc%>%<n-stem%>:gimak Masc-n-Stem 		; ! gimako* 6, gi-mak-o*, as., sw. M. (n): nhd. Genosse; ne. comrade (M.)
+gimênitho%<noun%>%<masc%>%<n-stem%>:gimênith Masc-n-Stem 		; ! gimênitho* 1, gimêntho, gi-mê-n-ith-o*, gi-mê-n-th-o*, as., sw. M. (n): nhd. Gemeinde, Gemeinschaft; ne. community (N.); W.: vgl. mnd. gemeinete, gemeinte, gemênte, N., F., Gemeinde, Gesamtheit
+gislâpo%<noun%>%<masc%>%<n-stem%>:gislâp Masc-n-Stem 		; ! gislâpo 2, gi-s-lâp-o, as., sw. M. (n): nhd. Beischläfer; ne. bedfellow (M.)
+gitrôstio%<noun%>%<masc%>%<n-stem%>:gitrôsti Masc-n-Stem 		; ! gitrôstio?***, gitrôsteo?***, gi-trô-st-io?***, gi-trô-st-eo?***, as., sw. M. (n): nhd. Gefolgsmann; ne. follower
+gitwiso%<noun%>%<masc%>%<n-stem%>:gitwis Masc-n-Stem 		; ! gitwiso* 1, gi-twi-so*, as., sw. M. (n): nhd. Zwilling; ne. twin (N.)
+githanko%<noun%>%<masc%>%<n-stem%>:githank Masc-n-Stem 		; ! githanko* 3, gi-thank-o*, as., sw. M. (n): nhd. Gedanke; ne. thought (N.); W.: s. mnd. gedenke, N., Denken, Bedenken, Gedächtnis
+giwito%<noun%>%<masc%>%<n-stem%>:giwit Masc-n-Stem 		; ! giwito* 1, gi-wi-t-o*, as., sw. M. (n): nhd. Zeuge; ne. witness (M.)
+giwono%<noun%>%<masc%>%<n-stem%>:giwon Masc-n-Stem 		; ! giwono* (1) 1, gi-won-o*, as., sw. M. (n): nhd. Gewohnheit; ne. habit (N.)
+glaso%<noun%>%<masc%>%<n-stem%>:glas Masc-n-Stem 		; ! glaso* 1, gla-s-o*, as., sw. M. (n): nhd. Grauschimmel; ne. grey horse (N.)
+glêmo%<noun%>%<masc%>%<n-stem%>:glêm Masc-n-Stem 		; ! glêmo* 1, glê-m-o*, as., sw. M. (n): nhd. Glühwürmchen; ne. glowworm (N.)
+glîmo%<noun%>%<masc%>%<n-stem%>:glîm Masc-n-Stem 		; ! glîmo 1, glî-m-o, as., sw. M. (n): nhd. Glanz; ne. shine (N.)
+goldblômo%<noun%>%<masc%>%<n-stem%>:goldblôm Masc-n-Stem 		; ! goldblômo* 1, gol-d-blôm-o*, as., sw. M. (n): nhd. Goldblume; ne. goldflower (N.); W.: mnd. goltblôme, F., Ringelblume
+goldwelo%<noun%>%<masc%>%<n-stem%>:goldwel Masc-n-Stem 		; ! goldwelo* 1, gol-d-wel-o*, as., sw. M. (n): nhd. „Goldbesitz“, Goldreichtum; ne. richness (N.) of gold
+gramo%<noun%>%<masc%>%<n-stem%>:gram Masc-n-Stem 		; ! gramo 9, gra-m-o, as., sw. M. (n): nhd. böser Feind, Teufel; ne. fiend (M.)
+grâvio%<noun%>%<masc%>%<n-stem%>:grâvi Masc-n-Stem 		; ! grâvio* 1, grâƀio, greve, greƀe, grâv-io*, grâƀ-io*, grev-e*, greƀ-e*, as., sw. M. (n): nhd. Graf; ne. count (M.); W.: mnd. grêve, grâve, M., Graf
+gravo%<noun%>%<masc%>%<n-stem%>:grav Masc-n-Stem 		; ! gravo* 1, graƀo, grav-o*, graƀ-o*, as., sw. M. (n): nhd. Graben (M.); ne. ditch (N.); W.: mnd. grâve, M., Graben (M.), Grube
+grîmo%<noun%>%<masc%>%<n-stem%>:grîm Masc-n-Stem 		; ! grîmo? 1, grîma, grî-m-o?, grî-m-a*, as., sw. M. (n): nhd. Maske; ne. mask (N.)
+grimpo%<noun%>%<masc%>%<n-stem%>:grimp Masc-n-Stem 		; ! grimpo 1, as., sw. M. (n): nhd. Gründling; ne. groundling (N.)
+gristgrimmo%<noun%>%<masc%>%<n-stem%>:gristgrimm Masc-n-Stem 		; ! gristgrimmo 1, gri-st-grim-m-o, as., sw. M. (n): nhd. Zähneknirschen; ne. grinding (N.) of one’s teeth
+gumo%<noun%>%<masc%>%<n-stem%>:gum Masc-n-Stem 		; ! gumo 119, gum-o, as., sw. M. (n): nhd. Mann, Mensch; ne. man (M.); W.: s. mnd. brûdegam, M., Bräutigam
+gûthfano%<noun%>%<masc%>%<n-stem%>:gûthfan Masc-n-Stem 		; ! gûthfano* 1, gûth-fan-o*, as., sw. M. (n): nhd. Kriegsfahne; ne. war flag (N.)
+gûthhamo%<noun%>%<masc%>%<n-stem%>:gûthham Masc-n-Stem 		; ! gûthhamo* 1, gûth-ham-o*, as., sw. M. (n): nhd. Panzer; ne. armour (N.)
+hako%<noun%>%<masc%>%<n-stem%>:hak Masc-n-Stem 		; ! hako* 2, hak-o*, as., sw. M. (n): nhd. Haken (M.); ne. hook (N.); W.: mnd. hâke, M., Haken (M.)
+halsfano%<noun%>%<masc%>%<n-stem%>:halsfan Masc-n-Stem 		; ! halsfano* 1, hal-s-fan-o*, as., sw. M. (n): nhd. Halstuch; ne. scarf (N.)
+hamo%<noun%>%<masc%>%<n-stem%>:ham Masc-n-Stem 		; ! hamo?***, ham-o?***, as., sw. M. (n): nhd. Kleid; ne. dress (N.); W.: s. mnd. hame, M., Decke, Hülse, Fangsack
+handbano%<noun%>%<masc%>%<n-stem%>:handban Masc-n-Stem 		; ! handbano* 1, hand-ban-o*, as., sw. M. (n): nhd. „Handmörder“, Mörder; ne. murderer (M.)
+hano%<noun%>%<masc%>%<n-stem%>:han Masc-n-Stem 		; ! hano?***, han-o?***, as., sw. M. (n): nhd. Hahn; ne. cock (N.); W.: mnd. hâne, M., Hahn
+harmo%<noun%>%<masc%>%<n-stem%>:harm Masc-n-Stem 		; ! harmo (1) 1, harm-o, as., sw. M. (n): nhd. Hermelin; ne. ermine (N.); W.: vgl. mnd. harm (2), M., Hermelin, Wiesel
+haso%<noun%>%<masc%>%<n-stem%>:has Masc-n-Stem 		; ! haso 1, has-o, as., sw. M. (n): nhd. Hase; ne. hare (N.); W.: mnd. hâse, M., Hase
+hatulo%<noun%>%<masc%>%<n-stem%>:hatul Masc-n-Stem 		; ! hatulo* 1, hatula, hat-u-l-o*, hat-u-l-a, as., sw. M. (n): nhd. Teufel; ne. devil (M.)
+havoro%<noun%>%<masc%>%<n-stem%>:havor Masc-n-Stem 		; ! havoro* 56, haƀoro, havor-o*, haƀor-o*, as., sw. M. (n): nhd. Hafer; ne. oats (N. Pl.); W.: mnd. hâver, hâvere, sw. M. Hafer
+hêgiro%<noun%>%<masc%>%<n-stem%>:hêgir Masc-n-Stem 		; ! hêgiro* 2, hê-g-i-r-o*, as., sw. M. (n): nhd. Reiher; ne. heron (N.)
+helmgitrôstio%<noun%>%<masc%>%<n-stem%>:helmgitrôsti Masc-n-Stem 		; ! helmgitrôstio* 1, helmgitrôsteo, hel-m-gi-trô-st-io*, hel-m-gi-trô-st-eo*, as., sw. M. (n): nhd. Krieger; ne. warrior (M.)
+herdislo%<noun%>%<masc%>%<n-stem%>:herdisl Masc-n-Stem 		; ! herdislo 1, her-d-isl-o, as., sw. M. (n): nhd. Stärke; ne. strength (N.)
+heritogo%<noun%>%<masc%>%<n-stem%>:heritog Masc-n-Stem 		; ! heritogo 19, her-i-to-g-o, as., sw. M. (n): nhd. Herzog, Anführer; ne. duke (M.); W.: mnd. hê̆rtoch, hartoch, hê̆rtôge, M., Herzog
+hêrro%<noun%>%<masc%>%<n-stem%>:hêrr Masc-n-Stem 		; ! hêrro 122, hê-r-r-o, as., sw. M. (n): nhd. Herr; ne. lord (M.); W.: mnd. hêre, hêr, M., Herr
+hêtio%<noun%>%<masc%>%<n-stem%>:hêti Masc-n-Stem 		; ! hêtio?***, hê-t-i-o?***, as., sw. M. (n): nhd. Heißer
+hêto%<noun%>%<masc%>%<n-stem%>:hêt Masc-n-Stem 		; ! hêto? (2)***, hê-t-o?***, as., sw. M. (n): nhd. Forderer (M.); ne. challenger (M.)
+hêthino%<noun%>%<masc%>%<n-stem%>:hêthin Masc-n-Stem 		; ! hêthino* 2, hêthi-no*, as., sw. M. (n): nhd. Heide (M.); ne. heathen (M.); W.: mnd. hêiden, hêdene, hêidene, hêde, hêide, M. Heide (M.)
+hiopbrâmio%<noun%>%<masc%>%<n-stem%>:hiopbrâmi Masc-n-Stem 		; ! hiopbrâmio* 2, hiapbâmio, hiabrâmio, hio-p-brâm-io*, hia-p-bâm-io*, hia-brâm-io*, as., sw. M. (n): nhd. Dornstrauch; ne. thornshrup (N.)
+hiopo%<noun%>%<masc%>%<n-stem%>:hiop Masc-n-Stem 		; ! hiopo* 1, hio-p-o*, as., sw. M. (n): nhd. Hiefe; ne. hip (N.) (bot.)
+hnakko%<noun%>%<masc%>%<n-stem%>:hnakk Masc-n-Stem 		; ! hnakko?***, hna-k-k-o?***, as., sw. M. (n): nhd. Nacken, Genick; ne. neck (N.); W.: mnd. nacke, sw. M., Nacken, Genick
+holdo%<noun%>%<masc%>%<n-stem%>:hold Masc-n-Stem 		; ! holdo?***, hol-d-o?***, as., sw. M. (n): nhd. Holde; ne. graceful person (M.)
+hoppo%<noun%>%<masc%>%<n-stem%>:hopp Masc-n-Stem 		; ! hoppo?***, hop-p-o?***, as., sw. M. (n): nhd. Hopfen; ne. hop (N.); W.: mnd. hoppe, hoppen, M., Hopfen
+hornobero%<noun%>%<masc%>%<n-stem%>:hornober Masc-n-Stem 		; ! hornobero* 1, hor-n-o-ber-o*, as., sw. M. (n): nhd. „Hornträger“, Hornisse; ne. hornet (N.)
+hôrwillio%<noun%>%<masc%>%<n-stem%>:hôrwilli Masc-n-Stem 		; ! hôrwillio* 1, hô-r-w-i-l-l-io*, as., sw. M. (n): nhd. „Hurwille“, unkeusche Begierde; ne. lasciviousness (N.); W.: s. mnd. hôrövel, horevel, N., Liebesleidenschaft
+hôsto%<noun%>%<masc%>%<n-stem%>:hôst Masc-n-Stem 		; ! hôsto 1, hôs-t-o, as., sw. M. (n): nhd. Husten (M.); ne. cough (N.); W.: mnd. hôste, hôst, hůst, M., Husten (M.)
+hrido%<noun%>%<masc%>%<n-stem%>:hrid Masc-n-Stem 		; ! hrido* 2, hri-d-o*, as., sw. M. (n): nhd. Fieber; ne. fever (N.); W.: vgl. mnd. rede, st. M., sw. M., Fieber
+hrîpo%<noun%>%<masc%>%<n-stem%>:hrîp Masc-n-Stem 		; ! hrîpo* 1, hrî-p-o*, as., sw. M. (n): nhd. Reif (M.) (1), Ring, Tau (M.); ne. rime (N.); W.: mnd. ripe, sw. M., Reif (M.) (1)
+hrûtho%<noun%>%<masc%>%<n-stem%>:hrûth Masc-n-Stem 		; ! hrûtho* 2, h-rû-tho*, as., sw. M. (n): nhd. Räude, Geschwür; ne. scab (N.)
+hunno%<noun%>%<masc%>%<n-stem%>:hunn Masc-n-Stem 		; ! hunno 1, hun-n-o, as., sw. M. (n): nhd. „Hundertführer“, Zenturio; ne. captain (M.); W.: mnd. hunne, honne, hunt, M., Zentenarius, Anführer von Hundert
+hûrroggo%<noun%>%<masc%>%<n-stem%>:hûrrogg Masc-n-Stem 		; ! hûrroggo*? 1, hûrothe, hûr-rog-g-o*?, hûr-othe, as., sw. M. (n): nhd. „Heuerroggen“, Pachtroggen; ne. tribute (N.) in rye; W.: vgl. mnd. roggenhûre, F., Roggenzins (vgl. Gallée, J., Vorstudien zu einem altniederdeutschen Wörterbuch, 1903, S. 458)
+hûwo%<noun%>%<masc%>%<n-stem%>:hûw Masc-n-Stem 		; ! hûwo*, hû-w-o*, as., sw. M. (n): nhd. Uhu; ne. eagle-owl (N.)
+hwervo%<noun%>%<masc%>%<n-stem%>:hwerv Masc-n-Stem 		; ! hwervo*, hwerƀo, hwerv-o*, hwerƀ-o*, as., sw. M. (n): nhd. Pol, Angel (F.), Drehpunkt; ne. pole (N.), pivot (N.); W.: mnd. werve, warve, F., Drehung, Turnus
+hwolvo%<noun%>%<masc%>%<n-stem%>:hwolv Masc-n-Stem 		; ! hwolvo* 1, hwolƀo, hwolv-o*, hwolƀ-o*, as., sw. M. (n): nhd. Hohlziegel; ne. hollow tile (N.)
+irrislo%<noun%>%<masc%>%<n-stem%>:irrisl Masc-n-Stem 		; ! irrislo* 4, errislo, ir-r-i-slo*, er-r-i-slo, as., sw. M. (n): nhd. Ärgernis; ne. scandal (N.)
+judeo%<noun%>%<masc%>%<n-stem%>:jude Masc-n-Stem 		; ! Judeo* 1, Jude-o*, as., sw. M. (n): nhd. Jude; ne. Jew (M.); W.: mnd. jöde, jödde, jüde, iude, Sb., Jude
+jungaro%<noun%>%<masc%>%<n-stem%>:jungar Masc-n-Stem 		; ! jungaro* 94, jungero, jungro, ju-n-g-ar-o*, ju-n-g-er-o*, ju-n-g-r-o*, as., sw. M. (n): nhd. Jünger, Schüler; ne. disciple (M.), student (M.)
+jungo%<noun%>%<masc%>%<n-stem%>:jung Masc-n-Stem 		; ! jungo* 1, ju-n-g-o*, as., sw. M. (n): nhd. Junges, Hühnchen; ne. young (N.), chicken (N.)
+kempio%<noun%>%<masc%>%<n-stem%>:kempi Masc-n-Stem 		; ! kempio 1, kem-p-io, as., sw. M. (n): nhd. Kämpe, Kämpfer; ne. fighter (M.); W.: mnd. kempe (1), kampe, M., Kämpe, Kämpfer
+kerno%<noun%>%<masc%>%<n-stem%>:kern Masc-n-Stem 		; ! kerno 1, ker-n-o, as., sw. M. (n): nhd. Kern; ne. core (N.); W.: mnd. kê̆rn, M., Kern; mnd. kê̆rne, karne, M., F., Kern
+kinislo%<noun%>%<masc%>%<n-stem%>:kinisl Masc-n-Stem 		; ! kinislo* 1, ki-n-isl-o*, as., sw. M. (n): nhd. Ritze, Spalt; ne. chink (N.)
+kio%<noun%>%<masc%>%<n-stem%>:ki Masc-n-Stem 		; ! kio 2, ki-o, as., sw. M. (n): nhd. Kieme; ne. gill (N.)
+kleddo%<noun%>%<masc%>%<n-stem%>:kledd Masc-n-Stem 		; ! kleddo 3, kle-d-d-o, as., sw. M. (n): nhd. Klette; ne. burdock (N.); W.: mnd. klette, klatte, Sb., Klette
+klederstiko%<noun%>%<masc%>%<n-stem%>:klederstik Masc-n-Stem 		; ! klederstiko* 1, kleder-s-ti-k-o*, as., sw. M. (n): nhd. Unruhe; ne. restlessness (N.)
+klêno%<noun%>%<masc%>%<n-stem%>:klên Masc-n-Stem 		; ! klêno* (1) 1, klê-n-o*, as., sw. M. (n): nhd. Leuchtkäfer; ne. glowworm (N.)
+klovo%<noun%>%<masc%>%<n-stem%>:klov Masc-n-Stem 		; ! klovo* 2, kloƀo, klov-o*, kloƀ-o*, as., sw. M. (n): nhd. Kloben; ne. log (N.); W.: mnd. klôve, M., M., F., Kloben
+knotto%<noun%>%<masc%>%<n-stem%>:knott Masc-n-Stem 		; ! knotto* 1, kno-t-t-o*, as., sw. M. (n): nhd. Knoten (M.); ne. knot (N.); W.: mnd. knutte, knotte, M., Knoten (M.)
+kolvo%<noun%>%<masc%>%<n-stem%>:kolv Masc-n-Stem 		; ! kolvo* 4, kolv-o*, as., sw. M. (n): nhd. Kolben; ne. club (N.); W.: mnd. kolve, F., Kolben
+krampo%<noun%>%<masc%>%<n-stem%>:kramp Masc-n-Stem 		; ! krampo 7, kra-m-p-o, as., sw. M. (n): nhd. Krampe, Haken (M.), Krampf, Gicht; ne. cramp (N.); W.: mnd. krampe, F., Krampe, Haken (M.)
+krano%<noun%>%<masc%>%<n-stem%>:kran Masc-n-Stem 		; ! krano* 3, kra-n-o*, as., sw. M. (n): nhd. Kranich; ne. crane (N.); W.: mnd. krân, krâne, M., Kranich
+krappo%<noun%>%<masc%>%<n-stem%>:krapp Masc-n-Stem 		; ! krappo* 2, kra-p-p-o*, as., sw. M. (n): nhd. Krapfen, Haken (M.); ne. cramp (N.); W.: s. mnd. krop, kropp, Sb., Krapfen
+krasso%<noun%>%<masc%>%<n-stem%>:krass Masc-n-Stem 		; ! krasso* 1, kras-s-o*, as., sw. M. (n): nhd. Kresse (F.) (1); ne. cress (N.); W.: mnd. kerse, karse, F., Kresse (F.) (1)
+kresso%<noun%>%<masc%>%<n-stem%>:kress Masc-n-Stem 		; ! kresso* (1) 1, kre-s-s-o*, as., sw. M. (n): nhd. Gründling; ne. groundling (N.)
+krisso%<noun%>%<masc%>%<n-stem%>:kriss Masc-n-Stem 		; ! krisso* 2, kris-s-o*, as., sw. M. (n): nhd. Kresse (F.) (1); ne. cress (N.)
+krôga%<noun%>%<masc%>%<n-stem%>:krôg Masc-n-Stem 		; ! krôga* 2, as., sw. M. (n): nhd. Safran; ne. saffron (N.)
+krôgo%<noun%>%<masc%>%<n-stem%>:krôg Masc-n-Stem 		; ! krôgo* 1, as., sw. M. (n): nhd. Safran, safrangelbe Farbe; ne. safran (N.)
+kumo%<noun%>%<masc%>%<n-stem%>:kum Masc-n-Stem 		; ! kumo?***, kum-o?***, as., sw. M. (n): nhd. „Kommender“, Ankömmling; ne. newcomer (N.)
+kundio%<noun%>%<masc%>%<n-stem%>:kundi Masc-n-Stem 		; ! kundio?***, kun-d-i-o?***, as., sw. M. (n): nhd. Künder; ne. messenger (M.); W.: mnd. kunde, M., Zeuge dem ein alter Rechtszustand noch bekannt ist, Kundschafter, Bote
+kuningsterro%<noun%>%<masc%>%<n-stem%>:kuningsterr Masc-n-Stem 		; ! kuningsterro* 1, kun-ing-ster-r-o*, as., sw. M. (n): nhd. Königsstern; ne. kingstar (N.)
+kwekbrâdo%<noun%>%<masc%>%<n-stem%>:kwekbrâd Masc-n-Stem 		; ! kwekbrâdo* 1, quekbrâdo, kwe-k-brâd-o*, que-k-brâd-o, as., sw. M. (n): nhd. Oberarmmuskel; ne. muscle (N.) of the arm
+lamo%<noun%>%<masc%>%<n-stem%>:lam Masc-n-Stem 		; ! lamo* 3, lam-o*, as., sw. M. (n): nhd. Lahmer; ne. lame man (M.)
+landôvo%<noun%>%<masc%>%<n-stem%>:landôv Masc-n-Stem 		; ! landôvo 1, lan-d-ôv-o, as., sw. M. (n): nhd. „Landbebauer“, Einwohner; ne. inhabitant (M.)
+landsêtio%<noun%>%<masc%>%<n-stem%>:landsêti Masc-n-Stem 		; ! landsêtio* 2, lan-d-sêt-io*, as., sw. M. (n): nhd. Landsasse; ne. settler (M.); W.: mnd. lantsate, lantsete, M., Landeingesessener, freier Einwohner eines Landes
+landskatho%<noun%>%<masc%>%<n-stem%>:landskath Masc-n-Stem 		; ! landskatho* 1, lan-d-skath-o*, as., sw. M. (n): nhd. Landschädiger, Räuber; ne. common enemy (M.), robber (M.); W.: mnd. lantschade, M., Landschädiger, Räuber
+lappo%<noun%>%<masc%>%<n-stem%>:lapp Masc-n-Stem 		; ! lappo* 1, lap-p-o*, as., sw. M. (n): nhd. Lappen (M.), Zipfel; ne. cloth (N.), lappet (N.); W.: mnd. lappe, M., Lappen (M.), Fetzen (M.)
+lêmo%<noun%>%<masc%>%<n-stem%>:lêm Masc-n-Stem 		; ! lêmo* 1, lê-m-o*, as., sw. M. (n): nhd. Lehm; ne. loam (V.)
+lendinbrêd%<noun%>%<masc%>%<n-stem%>:lendinbrê Masc-n-Stem 		; ! lendinbrêd* 1, lend-in-brê-d*, as., sw. M. (n)?: nhd. Lende, Niere; ne. loin (N.), kidney (N.)
+lêrio%<noun%>%<masc%>%<n-stem%>:lêri Masc-n-Stem 		; ! lêrio* 2, lereo, lêr-io*, ler-eo*, as., sw. M. (n): nhd. Lehrer; ne. teacher (M.)
+lethartewio%<noun%>%<masc%>%<n-stem%>:lethartewi Masc-n-Stem 		; ! lethartewio* 1, lethar-te-wi-o*, as., sw. M. (n): nhd. Ledergerber; ne. tanner (M.)
+lîkhamo%<noun%>%<masc%>%<n-stem%>:lîkham Masc-n-Stem 		; ! lîkhamo* 43, lîk-ham-o*, as., sw. M. (n): nhd. Leib, Leichnam, Körper; ne. body (N.), corpse (N.); W.: mnd. licham, lickham, likam, lîkem, M., N., Leib, Körper, Leichnam
+lîknaro%<noun%>%<masc%>%<n-stem%>:lîknar Masc-n-Stem 		; ! lîknaro 1, lîk-na-r-o, as., sw. M. (n): nhd. „Leibesnarbe“, Narbe; ne. scar (N.)
+liomo%<noun%>%<masc%>%<n-stem%>:liom Masc-n-Stem 		; ! liomo* 2, lio-m-o*, as., sw. M. (n): nhd. Glanz, Strahl; ne. shine (N.)
+liudskatho%<noun%>%<masc%>%<n-stem%>:liudskath Masc-n-Stem 		; ! liudskatho* 1, liud-skath-o*, as., sw. M. (n): nhd. Menschenfeind; ne. fiend (M.), common enemy (M.)
+logo%<noun%>%<masc%>%<n-stem%>:log Masc-n-Stem 		; ! logo?***, log-o?***, as., sw. M. (n): nhd. Lügner; ne. liar (M.)
+lotho%<noun%>%<masc%>%<n-stem%>:loth Masc-n-Stem 		; ! lotho* 1, loth-o*, as., sw. M. (n): nhd. Loden (M.); ne. coarse woolen cloth (N.)
+mâgo%<noun%>%<masc%>%<n-stem%>:mâg Masc-n-Stem 		; ! mâgo?***, as., sw. M. (n): nhd. Mohn; ne. poppy (N.)
+mâgosâmo%<noun%>%<masc%>%<n-stem%>:mâgosâm Masc-n-Stem 		; ! mâgosâmo 1, mâgo-sâ-m-o, as., sw. M. (n): nhd. Mohnsamen; ne. poppy seed (N.)
+mâho%<noun%>%<masc%>%<n-stem%>:mâh Masc-n-Stem 		; ! mâho 1, mâh-o, as., sw. M. (n): nhd. Mohn; ne. poppy (N.)
+mâno%<noun%>%<masc%>%<n-stem%>:mân Masc-n-Stem 		; ! mâno* 2, mâ-no*, as., sw. M. (n): nhd. Mond; ne. moon (N.); W.: mnd. mâne, M., Mond
+manslago%<noun%>%<masc%>%<n-stem%>:manslag Masc-n-Stem 		; ! manslago* 1, mannslago, man-slag-o*, man-n-slago*, as., sw. M. (n): nhd. „Mannschläger“, Menschentöter, Menschenmörder; ne. manslaughterer (M.)
+manslehtio%<noun%>%<masc%>%<n-stem%>:manslehti Masc-n-Stem 		; ! manslehtio* 1, mannslehtio, man-sleh-tio*, man-n-sleh-tio*, as., sw. M. (n): nhd. “Mannschläger“, Totschläger, Büttel; ne. killer (M.)
+manstervo%<noun%>%<masc%>%<n-stem%>:mansterv Masc-n-Stem 		; ! manstervo* 1, mansterƀo, mannstervo, man-s-ter-v-o*, man-s-ter-ƀ-o*, man-n-s-ter-v-o*, man-s-ter-ƀ-o*, as., sw. M. (n): nhd. „Mannsterben“, Sterben; ne. death (N.)
+matho%<noun%>%<masc%>%<n-stem%>:math Masc-n-Stem 		; ! matho 2, math-o, as., sw. M. (n): nhd. Made, Wurm; ne. maggot (N.); W.: mnd. made, M., F., Made, Wurm
+mêdgevo%<noun%>%<masc%>%<n-stem%>:mêdgev Masc-n-Stem 		; ! mêdgevo* 1, mêdgeƀo, mêd-gev-o*, mêd-geƀ-o*, as., sw. M. (n): nhd. „Mietgeber“, Fürst, Herr; ne. lord (M.)
+mendislo%<noun%>%<masc%>%<n-stem%>:mendisl Masc-n-Stem 		; ! mendislo 3, men-d-islo, as., sw. M. (n): nhd. Freude; ne. joy (N.)
+mêngiwito%<noun%>%<masc%>%<n-stem%>:mêngiwit Masc-n-Stem 		; ! mêngiwito* 1, mê-n-gi-wi-t-o*, as., sw. M. (n): nhd. „Meinzeuge“, falscher Zeuge; ne. false witness (N.)
+menisko%<noun%>%<masc%>%<n-stem%>:menisk Masc-n-Stem 		; ! menisko*, mennisko 3, men-isk-o*, men-n-isk-o 3*, as., sw. M. (n): nhd. Mensch; ne. man (M.); W.: mnd. minsche, mensche, M., Mensch
+mênskatho%<noun%>%<masc%>%<n-stem%>:mênskath Masc-n-Stem 		; ! mênskatho* 7, mê-n-skath-o*, as., sw. M. (n): nhd. „Meinschade“, Schurke; ne. villain (M.)
+merrislo%<noun%>%<masc%>%<n-stem%>:merrisl Masc-n-Stem 		; ! merrislo* 1, mer-r-islo*, as., sw. M. (n): nhd. Ärgernis; ne. scandal (N.)
+mêthgevo%<noun%>%<masc%>%<n-stem%>:mêthgev Masc-n-Stem 		; ! mêthgevo* 1, mêthgeƀo, mê-th-gev-o*, mê-th-geƀ-o*, as., sw. M. (n): nhd. „Schatzgeber“, Fürst; ne. prince (M.)
+mêthomgevo%<noun%>%<masc%>%<n-stem%>:mêthomgev Masc-n-Stem 		; ! mêthomgevo* 1, mêthomgeƀo, mêthomgivo, mêthomgiƀo, mê-th-om-gev-o*, mê-th-om-geƀ-o*, mê-th-om-giv-o*, mê-th-om-giƀ-o*, as., sw. M. (n): nhd. „Schatzgeber“, Fürst; ne. prince (M.)
+môdsevo%<noun%>%<masc%>%<n-stem%>:môdsev Masc-n-Stem 		; ! môdsevo* 25, môdseƀo, mô-d-sev-o*, mô-d-seƀ-o*, as., sw. M. (n): nhd. Herz, Gemüt; ne. mind (N.)
+mûkhêmo%<noun%>%<masc%>%<n-stem%>:mûkhêm Masc-n-Stem 		; ! mûkhêmo* 1, mûk-hêm-o*, as., sw. M. (n): nhd. Grille, Heimchen; ne. cricket (N.)
+mundboro%<noun%>%<masc%>%<n-stem%>:mundbor Masc-n-Stem 		; ! mundboro 11, mun-d-bor-o, as., sw. M. (n): nhd. „Schutzträger“, Schützer, Vormund; ne. guardian (M.)
+mûsara%<noun%>%<masc%>%<n-stem%>:mûsar Masc-n-Stem 		; ! mûsara 1, mûsaro, mûs-ar-a, mûs-ar-o*, as., sw. M. (n): nhd. „Mausaar“, Bussard; ne. buzzard (N.)
+nako%<noun%>%<masc%>%<n-stem%>:nak Masc-n-Stem 		; ! nako* 2, nak-o*, as., sw. M. (n): nhd. Nachen, Schiff; ne. boat (N.), ship (N.); W.: mnd. nacke, Sb., Nachen, kleines Schiff
+namo%<noun%>%<masc%>%<n-stem%>:nam Masc-n-Stem 		; ! namo 31, nam-o, as., sw. M. (n): nhd. Name; ne. name (N.); W.: mnd. name, M., Name
+naro%<noun%>%<masc%>%<n-stem%>:nar Masc-n-Stem 		; ! naro?***, na-r-o?***, as., sw. M. (n): nhd. Narbe; ne. scar (N.); W.: mnd. nare, M., F., Narbe
+nasadruppo%<noun%>%<masc%>%<n-stem%>:nasadrupp Masc-n-Stem 		; ! nasadruppo?***, na-s-a-dru-p-p-o?***, as., sw. M. (n): nhd. Schnupfen (M.); ne. cold (N.)
+nesso%<noun%>%<masc%>%<n-stem%>:ness Masc-n-Stem 		; ! nesso 1, nes-s-o, as., sw. M. (n): nhd. Wurm; ne. worm (N.)
+nevo%<noun%>%<masc%>%<n-stem%>:nev Masc-n-Stem 		; ! nevo* 1, neƀo, nev-o*, neƀ-o*, as., sw. M. (n): nhd. Neffe; ne. nephew (M.); W.: mnd. neve, M., Neffe
+odoboro%<noun%>%<masc%>%<n-stem%>:odobor Masc-n-Stem 		; ! odoboro 2, o-d-o-bor-o, as., sw. M. (n): nhd. „Sumpfgänger“, Adebar, Storch; ne. stork (N.)
+ôdwelo%<noun%>%<masc%>%<n-stem%>:ôdwel Masc-n-Stem 		; ! ôdwelo* 5, ô-d-wel-o*, as., sw. M. (n): nhd. Reichtum; ne. wealth (N.)
+ohso%<noun%>%<masc%>%<n-stem%>:ohs Masc-n-Stem 		; ! ohso?***, as., sw. M. (n): nhd. Ochse; ne. ox (N.)
+olvundio%<noun%>%<masc%>%<n-stem%>:olvundi Masc-n-Stem 		; ! olvundio* 1, olƀundio, olvund-io*, olƀund-io*, as., sw. M. (n): nhd. Kamel; ne. camel (N.)
+opperfano%<noun%>%<masc%>%<n-stem%>:opperfan Masc-n-Stem 		; ! opperfano* 1, op-p-er-fan-o*, as., sw. M. (n): nhd. „Opferfahne“, Mundtuch des Priesters; ne. napkin (N.) of the priest
+ordfrumo%<noun%>%<masc%>%<n-stem%>:ordfrum Masc-n-Stem 		; ! ordfrumo?***, or-d-fru-m-o?***, as., sw. M. (n): nhd. Schöpfer; ne. creator (M.)
+ovarfâro%<noun%>%<masc%>%<n-stem%>:ovarfâr Masc-n-Stem 		; ! ovarfâro* 1, oƀarfâro, ov-a-r-fâr-o*, oƀ-a-r-fâr-o*, as., sw. M. (n): nhd. „Überfahrer“, Übertreter; ne. offender (M.); W.: vgl. mnd. overvaren
+ovarhôvdio%<noun%>%<masc%>%<n-stem%>:ovarhôvdi Masc-n-Stem 		; ! ovarhôvdio* 2, oƀarhôvdio, ovarhôfdio, oƀarhôfdio, ov-a-r-hôv-d-io*, oƀ-a-r-hôv-d-io*, ov-a-r-hôf-d-io*, oƀ-a-r-hôf-d-io*, as., sw. M. (n): nhd. Oberhaupt; ne. chief (M.)
+ovarlîvo%<noun%>%<masc%>%<n-stem%>:ovarlîv Masc-n-Stem 		; ! ovarlîvo* 1, oƀarlîvo, ov-a-r-lî-v-o*, oƀ-a-r-lî-v-o*, as., sw. M. (n): nhd. Überlebender; ne. surviver (M.)
+ôvo%<noun%>%<masc%>%<n-stem%>:ôv Masc-n-Stem 		; ! ôvo?***, ôƀo?***, ôv-o?***, ôƀ-o?***, as., sw. M. (n): nhd. Bebauer; ne. cultivator (M.)
+pannakôkilo%<noun%>%<masc%>%<n-stem%>:pannakôkil Masc-n-Stem 		; ! pannakôkilo* 1, pan-n-a-kôk-il-o*, as., sw. M. (n): nhd. „Pfanneküchlein“, Pfannkuchen; ne. pancake (N.)
+pâo%<noun%>%<masc%>%<n-stem%>:pâ Masc-n-Stem 		; ! pâo 1, as., sw. M. (n): nhd. Pfau; ne. peacock (N.); W.: mnd. pâwe, pâw, M., Pfau
+papo%<noun%>%<masc%>%<n-stem%>:pap Masc-n-Stem 		; ! papo?***, as., sw. M. (n): nhd. Pfaffe; ne. parson (M.); W.: mnd. pape, M., „Pfaffe“, Geistlicher, Priester
+porro%<noun%>%<masc%>%<n-stem%>:porr Masc-n-Stem 		; ! porro* 1, por-r-o*, as., sw. M. (n): nhd. Porree, Lauch; ne. leek (N.); W.: s. mnd. porlôk, M., Porree, Lauch
+pûsio%<noun%>%<masc%>%<n-stem%>:pûsi Masc-n-Stem 		; ! pûsio?***, pû-sio?***, as., sw. M. (n): nhd. Knabe; ne. boy (M.)
+râdgevo%<noun%>%<masc%>%<n-stem%>:râdgev Masc-n-Stem 		; ! râdgevo* 3, râdgeƀo, râ-d-gev-o*, râ-d-geƀ-o*, as., sw. M. (n): nhd. Ratgeber, Regierer, Herrscher; ne. adviser (M.), ruler (M.); W.: mnd. râtgeve, M., Ratgeber
+râdislo%<noun%>%<masc%>%<n-stem%>:râdisl Masc-n-Stem 		; ! râdislo* 4, rêdilsa, râ-d-islo*, rê-d-ilsa, as., sw. M. (n): nhd. Rätsel (N.); ne. riddle (N.)
+rado%<noun%>%<masc%>%<n-stem%>:rad Masc-n-Stem 		; ! rado 1, rad-o, as., sw. M. (n): nhd. Rade, Raden; ne. weeds (N. Pl.), cockle (N.); W.: s. mnd. radel, F., Rade, Hederich
+reginskatho%<noun%>%<masc%>%<n-stem%>:reginskath Masc-n-Stem 		; ! reginskatho* 2, reg-in-skath-o*, as., sw. M. (n): nhd. Räuber; ne. robber (M.)
+rêho%<noun%>%<masc%>%<n-stem%>:rêh Masc-n-Stem 		; ! rêho 2, rê-ho, as., sw. M. (n): nhd. Reh; ne. roe (N.); W.: mnd. rê, N., Reh
+rênifano%<noun%>%<masc%>%<n-stem%>:rênifan Masc-n-Stem 		; ! rênifano 4, rê-ni-fan-o, as., sw. M. (n): nhd. Rainfarn; ne. tansy (N.); W.: mnd. reinvano, reynvano
+riomo%<noun%>%<masc%>%<n-stem%>:riom Masc-n-Stem 		; ! riomo* 1, rio-m-o*, as., sw. M. (n): nhd. Riemen (M.) (1); ne. thong (N.); W.: mnd. rême, sw. M., Riemen (M.) (1)
+roggo%<noun%>%<masc%>%<n-stem%>:rogg Masc-n-Stem 		; ! roggo* 186, rokko, rog-g-o*, rok-k-o*, as., sw. M. (n): nhd. Roggen; ne. rye (N.); W.: mnd. rogge, M., Roggen
+ruthio%<noun%>%<masc%>%<n-stem%>:ruthi Masc-n-Stem 		; ! ruthio 1, ruth-io, as., sw. M. (n): nhd. Rüde; ne. male dog (N.); W.: mnd. rode, sw. M., großer Hund, Rüde
+sadulbogo%<noun%>%<masc%>%<n-stem%>:sadulbog Masc-n-Stem 		; ! sadulbogo* 1, sad-ul-bog-o*, as., sw. M. (n): nhd. Sattelbogen; ne. saddlebow (N.); W.: mnd. sadelboge, M., Sattelbogen
+sago%<noun%>%<masc%>%<n-stem%>:sag Masc-n-Stem 		; ! sago?***, sag-o?***, as., sw. M. (n): nhd. Sager (M.); ne. teller (M.)
+sahso%<noun%>%<masc%>%<n-stem%>:sahs Masc-n-Stem 		; ! sahso?***, sah-s-o?***, as., sw. M. (n): nhd. Sachse; ne. Saxon (M.)
+sako%<noun%>%<masc%>%<n-stem%>:sak Masc-n-Stem 		; ! sako?***, sak-o?***, as., sw. M. (n): nhd. Streiter; ne. fighter (M.)
+salmo%<noun%>%<masc%>%<n-stem%>:salm Masc-n-Stem 		; ! salmo 4, sal-mo, as., sw. M. (n): nhd. Salm (M.) (1), Lachs; ne. salmon (N.); W.: mnd. salme, salm, M., Salm (M.) (1), Lachs
+sâmo%<noun%>%<masc%>%<n-stem%>:sâm Masc-n-Stem 		; ! sâmo* 1, sâ-mo*, as., sw. M. (n): nhd. Same, Samen (M.); ne. seed (N.); W.: mnd. sâme, sâm, M., Same, Samen
+sedlio%<noun%>%<masc%>%<n-stem%>:sedli Masc-n-Stem 		; ! sedlio?***, sethlio?***, se-d-l-io?***, se-th-l-io?***, as., sw. M. (n): nhd. Siedler; ne. settler (M.)
+segito%<noun%>%<masc%>%<n-stem%>:segit Masc-n-Stem 		; ! segito*? 1, se-g-i-to*?, as., sw. M. (n): nhd. Saite, Strick (M.) (1), Fessel (F.) (1); ne. cord (N.), string (N.), fetter (N.)
+seho%<noun%>%<masc%>%<n-stem%>:seh Masc-n-Stem 		; ! seho* 2, sio*, as., sw. M. (n): nhd. „Sehe“, Pupille; ne. pupil (N.); W.: s. mnd. sên, sênt, N. Sehvermögen, Sehkraft
+selmo%<noun%>%<masc%>%<n-stem%>:selm Masc-n-Stem 		; ! selmo* 1, sel-mo*, as., sw. M. (n): nhd. Lager (F.), Bett; ne. bed (N.)
+sesspilo%<noun%>%<masc%>%<n-stem%>:sesspil Masc-n-Stem 		; ! sesspilo* 3, ses-spil-o*, as., sw. M. (n): nhd. Totenklage; ne. mourn (N.)
+sêtio%<noun%>%<masc%>%<n-stem%>:sêti Masc-n-Stem 		; ! sêtio?***, sê-t-io?***, as., sw. M. (n): nhd. Sasse; ne. settler (M.)
+setlio%<noun%>%<masc%>%<n-stem%>:setli Masc-n-Stem 		; ! setlio?***, se-t-l-io?***, as., sw. M. (n): nhd. Siedler; ne. settler (M.)
+sevo%<noun%>%<masc%>%<n-stem%>:sev Masc-n-Stem 		; ! sevo* 14, seƀo, sev-o*, seƀ-o, as., sw. M. (n): nhd. Gemüt, Herz; ne. mind (N.), heart (N.)
+sibbio%<noun%>%<masc%>%<n-stem%>:sibbi Masc-n-Stem 		; ! sibbio* 1, si-b-b-i-o*, as., sw. M. (n): nhd. Verwandter, Blutsverwandter; ne. relative (M.); W.: mnd. sibbe, M., Verwandter, Blutsverwandter
+sigiristo%<noun%>%<masc%>%<n-stem%>:sigirist Masc-n-Stem 		; ! sigiristo 2, sig-ir-isto, as., sw. M. (n): nhd. Sigrist; ne. sacristan (M.)
+sîmo%<noun%>%<masc%>%<n-stem%>:sîm Masc-n-Stem 		; ! sîmo* 4, sî-m-o*, as., sw. M. (n): nhd. Strick (M.) (1), Seil; ne. rope (N.)
+sisegomo%<noun%>%<masc%>%<n-stem%>:sisegom Masc-n-Stem 		; ! sisegomo 1, sise-gom-o, as., sw. M. (n): nhd. Pelikan; ne. pelican (M.)
+skapo%<noun%>%<masc%>%<n-stem%>:skap Masc-n-Stem 		; ! skapo* 2, s-kap-o*, as., sw. M. (n): nhd. Geschirr; ne. dishes (N. Pl.); W.: mnd. schape
+skatho%<noun%>%<masc%>%<n-stem%>:skath Masc-n-Stem 		; ! skatho* 4, skath-o*, as., sw. M. (n): nhd. Schade, Schaden (M.), Übeltäter; ne. damage (N.), evildoer (M.); W.: mnd. schade, M., Schade, Schaden (M.)
+skavatho%<noun%>%<masc%>%<n-stem%>:skavath Masc-n-Stem 		; ! skavatho* 1, skaƀatho, skav-a-tho*, skaƀ-a-th-o, as., sw. M. (n): nhd. „Schabung“, Räude, Krätze; ne. scabies (N.)
+skavo%<noun%>%<masc%>%<n-stem%>:skav Masc-n-Stem 		; ! skavo* 1, skaƀo, skav-o*, skaƀ-o*, as., sw. M. (n): nhd. Hobel; ne. plane-iron (N.); W.: mnd. schave, F., Hobel
+skelaho%<noun%>%<masc%>%<n-stem%>:skelah Masc-n-Stem 		; ! skelaho*? 3, skelo*?, s-kel-a-ho*?, s-kel-o*?, as., sw. M. (n): nhd. Hirsch; ne. stag (N.)
+skenkio%<noun%>%<masc%>%<n-stem%>:skenki Masc-n-Stem 		; ! skenkio* 9, skenko, s-kenk-io*, s-kenk-o*, as., sw. M. (n): nhd. Schenk; ne. cupbearer (M.); W.: mnd. schenke, M., Schenk, Mundschenk
+skimo%<noun%>%<masc%>%<n-stem%>:skim Masc-n-Stem 		; ! skimo* 1, ski-m-o*, as., sw. M. (n): nhd. Schatten (M.); ne. shadow (N.); W.: mnd. scheme, schemme, M., F., Schatten
+skîmo%<noun%>%<masc%>%<n-stem%>:skîm Masc-n-Stem 		; ! skîmo* 4, skî-m-o*, as., sw. M. (n): nhd. Glanz, Licht, Schein; ne. shine (N.)
+skirnio%<noun%>%<masc%>%<n-stem%>:skirni Masc-n-Stem 		; ! skirnio* 2, skirno, skernio, s-kir-n-io*, s-kir-n-o, s-ker-n-io*, as., sw. M. (n): nhd. Schauspieler (M.); ne. actor (M.)
+skôhriomo%<noun%>%<masc%>%<n-stem%>:skôhriom Masc-n-Stem 		; ! skôhriomo* 1, skôh-rio-mo*, as., sw. M. (n): nhd. Schuhriemen; ne. shoelace (N.); W.: vgl. mnd. schohreme
+skolo%<noun%>%<masc%>%<n-stem%>:skol Masc-n-Stem 		; ! skolo* 7, s-kol-o*, as., sw. M. (n), Adj.?: nhd. Schuldner (M.); ne. debtor (M.)
+skorso%<noun%>%<masc%>%<n-stem%>:skors Masc-n-Stem 		; ! skorso* 1, s-kor-so*, as., sw. M. (n): nhd. Scholle (F.) (1), Erdscholle; ne. clod (N.)
+skrîvo%<noun%>%<masc%>%<n-stem%>:skrîv Masc-n-Stem 		; ! skrîvo* 2, skrîƀo, s-krî-v-o*, s-krî-ƀ-o*, as., sw. M. (n): nhd. Schreiber; ne. writer (M.); W.: mnd. schrîve, M., Schiffsschreiber
+skruntislo%<noun%>%<masc%>%<n-stem%>:skruntisl Masc-n-Stem 		; ! skruntislo* 1, s-kru-n-t-islo*, as., sw. M. (n): nhd. Spalte, Ritze, Loch; ne. cleft (N.)
+skuldhêtio%<noun%>%<masc%>%<n-stem%>:skuldhêti Masc-n-Stem 		; ! skuldhêtio* 3, skuldhêto, s-kul-d-hêt-i-o*, s-kul-d-hêt-o, as., sw. M. (n): nhd. Schultheiß; ne. village mayor (M.); W.: mnd. schulthête, schultheite, M., Schultheiß
+slago%<noun%>%<masc%>%<n-stem%>:slag Masc-n-Stem 		; ! slago?***, slag-o?***, as., sw. M. (n): nhd. Töter, Schläger; ne. slayer (M.)
+slango%<noun%>%<masc%>%<n-stem%>:slang Masc-n-Stem 		; ! slango 1, sla-ng-o, as., sw. M. (n): nhd. Schlange; ne. snake (N.); W.: mnd. slange, M., Schlange
+slâpo%<noun%>%<masc%>%<n-stem%>:slâp Masc-n-Stem 		; ! slâpo?***, s-lâp-o?***, as., sw. M. (n): nhd. Schläfer (M.); ne. sleeper (M.)
+sletto%<noun%>%<masc%>%<n-stem%>:slett Masc-n-Stem 		; ! sletto* 1, slet-t-o*, as., sw. M. (n): nhd. Faun; ne. faun (M.)
+slido%<noun%>%<masc%>%<n-stem%>:slid Masc-n-Stem 		; ! slido* 1, s-li-d-o*, as., sw. M. (n): nhd. Schlitten; ne. sledge (N.); W.: mnd. slede, M., Schlitten
+slîko%<noun%>%<masc%>%<n-stem%>:slîk Masc-n-Stem 		; ! slîko?***, s-lî-k-o?***, as., sw. M. (n): nhd. Schleiche; ne. slowworm (N.)
+slôpbrâdo%<noun%>%<masc%>%<n-stem%>:slôpbrâd Masc-n-Stem 		; ! slôpbrâdo* 1, slô-p-brâ-d-o*, as., sw. M. (n): nhd. Wurstfleisch; ne. sausage meat (N.)
+sodomo%<noun%>%<masc%>%<n-stem%>:sodom Masc-n-Stem 		; ! Sodomo? 1***, Sodom-o?***, as., sw. M. (n)?: nhd. Sodomiter (M.); ne. Sodomite (M.)
+spado%<noun%>%<masc%>%<n-stem%>:spad Masc-n-Stem 		; ! spado 3, spa-d-o, as., sw. M. (n): nhd. Spaten (M.), Hacke; ne. spade (N.); W.: mnd. spade, M., Spaten (M.)
+spânio%<noun%>%<masc%>%<n-stem%>:spâni Masc-n-Stem 		; ! Spânio 2, as., sw. M. (n): nhd. Spanier (M.); ne. Spaniard (M.); W.: s. mnd. Spanier, Spaniger, M., Spanier
+sparro%<noun%>%<masc%>%<n-stem%>:sparr Masc-n-Stem 		; ! sparro 1, s-par-r-o, as., sw. M. (n): nhd. Sparren (M.), Balken (M.); ne. spar (N.); W.: mnd. spar, N., Sparrenwerk
+spilo%<noun%>%<masc%>%<n-stem%>:spil Masc-n-Stem 		; ! spilo?***, as., sw. M. (n): nhd. Lied, Gesang; ne. song (N.); W.: mnd. spele
+sporo%<noun%>%<masc%>%<n-stem%>:spor Masc-n-Stem 		; ! sporo 1, s-por-o, as., sw. M. (n): nhd. Sporn; ne. spur (N.); W.: mnd. spore, M., F., Sporn
+stehhetho%<noun%>%<masc%>%<n-stem%>:stehheth Masc-n-Stem 		; ! stehhetho 1, s-te-hh-etho, as., sw. M. (n)?: nhd. Stechen; ne. shooting pain (N.)
+stekko%<noun%>%<masc%>%<n-stem%>:stekk Masc-n-Stem 		; ! stekko 3, s-te-k-k-o, as., sw. M. (n): nhd. Stecken (M.), Pfahl; ne. peg (N.)
+sterro%<noun%>%<masc%>%<n-stem%>:sterr Masc-n-Stem 		; ! sterro 4, ster-r-o, as., sw. M. (n): nhd. Stern (M.) (1); ne. star (N.); W.: vgl. mnd. sterne, M., F., Stern (M.) (1)
+stervo%<noun%>%<masc%>%<n-stem%>:sterv Masc-n-Stem 		; ! stervo?***, sterƀo?***, s-ter-v-o?***, s-ter-ƀ-o?***, as., sw. M. (n): nhd. Sterben, Tod; ne. death (N.); W.: mnd. sterve, starve, sterf, starf, M., F., Seuche, Pest
+stikko%<noun%>%<masc%>%<n-stem%>:stikk Masc-n-Stem 		; ! stikko* 2, s-ti-k-k-o*, as., sw. M. (n): nhd. Haken (M.), Stock; ne. stick (N.), hook (N.); W.: mnd. sticke, M., spitzer Stock, Zweig
+stollo%<noun%>%<masc%>%<n-stem%>:stoll Masc-n-Stem 		; ! stollo 1, stol-l-o, as., sw. M. (n): nhd. Gestell; ne. frame (N.)
+stôpo%<noun%>%<masc%>%<n-stem%>:stôp Masc-n-Stem 		; ! stôpo* 1, stô-p-o*, as., sw. M. (n): nhd. Tritt, Spur; ne. track (N.); W.: s. mnd. stôpe, M., Treppenspur
+stoppo%<noun%>%<masc%>%<n-stem%>:stopp Masc-n-Stem 		; ! stoppo 1, s-to-p-p-o, as., sw. M. (n): nhd. Krug (M.) (1), Eimer (M.); ne. jug (N.), pail (N.)
+strikko%<noun%>%<masc%>%<n-stem%>:strikk Masc-n-Stem 		; ! strikko 3, s-tri-k-k-o, as., sw. M. (n): nhd. Strick (M.) (1); ne. rope (N.); W.: mnd. strick, stricke, N., M., Falle, Strick (M.) (1), Tau (N.)
+sturio%<noun%>%<masc%>%<n-stem%>:sturi Masc-n-Stem 		; ! sturio 4, as., sw. M. (n): nhd. Stör; ne. sturgeon (N.); W.: vgl. mnd. stör, stoer, M., Stör
+sûrio%<noun%>%<masc%>%<n-stem%>:sûri Masc-n-Stem 		; ! sûrio 1, sû-r-io, as., sw. M. (n): nhd. Zwiebel; ne. onion (N.); W.: mnd. sure
+swerddrago%<noun%>%<masc%>%<n-stem%>:swerddrag Masc-n-Stem 		; ! swerddrago* 1, swer-d-dra-g-o*, as., sw. M. (n): nhd. Schwertträger (M.); ne. swordbearer (M.)
+swibogo%<noun%>%<masc%>%<n-stem%>:swibog Masc-n-Stem 		; ! swibogo* 6, swibbogo, sw-i-bog-o*, sw-i-b-bog-o*, as., sw. M. (n): nhd. Schwibbogen; ne. archway (N.); W.: mnd. swiboge, M., Schwibbogen, Mauerbogen
+swîmo%<noun%>%<masc%>%<n-stem%>:swîm Masc-n-Stem 		; ! swîmo* 1, swîm-o*, as., sw. M. (n): nhd. Schwindel, Ohnmacht; ne. dizziness (N.); W.: mnd. swîme, sw. M., Schwindel
+tegotho%<noun%>%<masc%>%<n-stem%>:tegoth Masc-n-Stem 		; ! tegotho* 4, tego-tho*, as., sw. M. (n): nhd. Zehnte; ne. tenth (M.); W.: mnd. teinde, M., Zehnte
+timbro%<noun%>%<masc%>%<n-stem%>:timbr Masc-n-Stem 		; ! timbro* 2, timmero, tim-b-r-o*, tim-m-er-o*, as., sw. M. (n): nhd. Zimmermann; ne. carpenter (M.)
+tiono%<noun%>%<masc%>%<n-stem%>:tion Masc-n-Stem 		; ! tiono* 6, tio-n-o*, as., sw. M. (n): nhd. Übeltat, Verbrechen, Sünde; ne. crime (N.), sin (N.)
+togo%<noun%>%<masc%>%<n-stem%>:tog Masc-n-Stem 		; ! togo?***, to-g-o?***, as., sw. M. (n): nhd. Führer (M.); ne. leader (M.)
+tôgo%<noun%>%<masc%>%<n-stem%>:tôg Masc-n-Stem 		; ! tôgo* 1, tô-g-o*, as., sw. M. (n): nhd. Zweig; ne. twig (N.)
+treulogo%<noun%>%<masc%>%<n-stem%>:treulog Masc-n-Stem 		; ! treulogo 1, tr-e-u-log-o, as., sw. M. (n): nhd. „Treulügner“, Treubrecher; ne. betrayer (M.)
+tweho%<noun%>%<masc%>%<n-stem%>:tweh Masc-n-Stem 		; ! tweho* 6, tweo, twe-h-o*, twe-o*, as., sw. M. (n): nhd. Zweifel; ne. doubt (N.)
+twiso%<noun%>%<masc%>%<n-stem%>:twis Masc-n-Stem 		; ! twiso?***, twi-so?***, as., sw. M. (n): nhd. Zwilling; ne. twin (N.)
+thanko%<noun%>%<masc%>%<n-stem%>:thank Masc-n-Stem 		; ! thanko?***, thank-o?***, as., sw. M. (n): nhd. Gedanke; ne. thought (N.); W.: mnd. danke, M., Gedanke, Vorsatz
+thiodgumo%<noun%>%<masc%>%<n-stem%>:thiodgum Masc-n-Stem 		; ! thiodgumo* 3, thi-o-d-gum-o*, as., sw. M. (n): nhd. „Volkmann“, Mann; ne. man (M.)
+thiodskatho%<noun%>%<masc%>%<n-stem%>:thiodskath Masc-n-Stem 		; ! thiodskatho* 1, thi-o-d-skath-o*, as., sw. M. (n): nhd. „Volksschade“, großer Schädiger, Verderber; ne. destroyer (M.)
+thiodwelo%<noun%>%<masc%>%<n-stem%>:thiodwel Masc-n-Stem 		; ! thiodwelo* 2, thi-o-d-wel-o*, as., sw. M. (n): nhd. „Volksgut“, höchstes Gut, Seligkeit; ne. bliss (N.)
+thosto%<noun%>%<masc%>%<n-stem%>:thost Masc-n-Stem 		; ! thosto 1, tho-sto, as., sw. M. (n): nhd. Dost; ne. marjoram (N.)
+thrêhslo%<noun%>%<masc%>%<n-stem%>:thrêhsl Masc-n-Stem 		; ! thrêhslo* 1, thrêslo, thrêh-slo*, thrê-slo*, as., sw. M. (n): nhd. Drechsler; ne. turner (M.); W.: mnd. dreiere, dreier, M., Drechsler
+thûmo%<noun%>%<masc%>%<n-stem%>:thûm Masc-n-Stem 		; ! thûmo* 1, thû-mo*, as., sw. M. (n): nhd. „Daume“, Daumen (M.); ne. thumb (N.); W.: mnd. dûme, M., Daumen (M.)
+unervio%<noun%>%<masc%>%<n-stem%>:unervi Masc-n-Stem 		; ! unervio* 1, unerƀio, un-erv-i-o*, un-erƀ-i-o*, as., sw. M. (n): nhd. Nichterbe; ne. disherited person (M.)
+ungilovo%<noun%>%<masc%>%<n-stem%>:ungilov Masc-n-Stem 		; ! ungilovo* 1, un-gi-lov-o*, as., sw. M. (n): nhd. „Unwille“, Unabsichtlichkeit; ne. unintentionality (N.)
+ungilôvo%<noun%>%<masc%>%<n-stem%>:ungilôv Masc-n-Stem 		; ! ungilôvo* 1, un-gi-lôv-o*, as., sw. M. (n): nhd. Unglaube; ne. disbelief (N.); W.: mnd. ungelôve, M., Unglaube, Aberglaube
+unwillio%<noun%>%<masc%>%<n-stem%>:unwilli Masc-n-Stem 		; ! unwillio* 1, un-w-i-l-l-io*, as., sw. M. (n): nhd. „Unwille“, Zorn; ne. anger (N.)
+urhêto%<noun%>%<masc%>%<n-stem%>:urhêt Masc-n-Stem 		; ! urhêto? 1***, ur-hê-t-o?***, as., sw. M. (n): nhd. Herausforderer (M.); ne. challenger (M.)
+urkundio%<noun%>%<masc%>%<n-stem%>:urkundi Masc-n-Stem 		; ! urkundio* 1, ur-kun-d-i-o*, as., sw. M. (n): nhd. „Herauskünder“, Zeuge; ne. witness (M.)
+wahsmo%<noun%>%<masc%>%<n-stem%>:wahsm Masc-n-Stem 		; ! wahsmo* 1, wah-s-m-o*, as., sw. M. (n): nhd. Ertrag; ne. yield (N.)
+waldo%<noun%>%<masc%>%<n-stem%>:wald Masc-n-Stem 		; ! waldo?***, wal-d-o?***, as., sw. M. (n): nhd. „Walter“, Herrscher; ne. ruler (M.)
+wamskatho%<noun%>%<masc%>%<n-stem%>:wamskath Masc-n-Stem 		; ! wamskatho* 9, wammskatho, wam-skath-o*, wam-m-skath-o*, as., sw. M. (n): nhd. Frevler, Teufel; ne. offender (M.), devil (M.)
+wârlogo%<noun%>%<masc%>%<n-stem%>:wârlog Masc-n-Stem 		; ! wârlogo* 1, wâr-log-o*, as., sw. M. (n): nhd. Lügner; ne. liar (M.)
+wârsago%<noun%>%<masc%>%<n-stem%>:wârsag Masc-n-Stem 		; ! wârsago* 11, wâr-sag-o*, as., sw. M. (n): nhd. „Wahrsager“, Prophet; ne. prophet (M.); W.: mnd. wârsage, M., Bürge, Gewährsmann, Wahrsager
+waso%<noun%>%<masc%>%<n-stem%>:was Masc-n-Stem 		; ! waso* 3, was-o*, as., sw. M. (n): nhd. „Wasen“ (M.), Rasen (M.), Scholle (F.) (1), Saatfeld?; ne. turf (N.), seedfield? (N.); W.: mnd. wase, st. F., sw. F., Marschboden, Schlamm
+watho%<noun%>%<masc%>%<n-stem%>:wath Masc-n-Stem 		; ! watho* 2, wath-o*, as., sw. M. (n): nhd. Wade; ne. calf (N) (2); W.: mnd. wade, M., Wade
+welo%<noun%>%<masc%>%<n-stem%>:wel Masc-n-Stem 		; ! welo* 34, wel-o*, as., sw. M. (n): nhd. Gut, Besitz; ne. property (N.), wealth (N.)
+weroldhêrro%<noun%>%<masc%>%<n-stem%>:weroldhêrr Masc-n-Stem 		; ! weroldhêrro* 3, woroldhêrro, wer-o-l-d-hê-r-r-o*, wor-o-l-d-hê-r-r-o*, as., sw. M. (n): nhd. „Weltherr“, Kaiser; ne. emperor (M.)
+weroldwelo%<noun%>%<masc%>%<n-stem%>:weroldwel Masc-n-Stem 		; ! weroldwelo* 2, wer-o-l-d-wel-o*, as., sw. M. (n): nhd. „Weltgut“, irdisches Gut; ne. wordly wealth (N.)
+wildikresso%<noun%>%<masc%>%<n-stem%>:wildikress Masc-n-Stem 		; ! wildikresso* 1, wil-di-kres-s-o*, as., sw. M. (n): nhd. wilde Kresse; ne. cress (N.)
+willio%<noun%>%<masc%>%<n-stem%>:willi Masc-n-Stem 		; ! willio* 187, w-i-l-l-i-o*, as., sw. M. (n): nhd. Wille, Gnade, Freude; ne. will (N.), favour (N.), joy (N.); W.: mnd. wille, sw. M., Wille, Wunsch
+wîngardo%<noun%>%<masc%>%<n-stem%>:wîngard Masc-n-Stem 		; ! wîngardo* 5, wî-n-gar-d-o*, as., sw. M. (n): nhd. Weingarten; ne. vineyard (N.); W.: mnd. wîngarde, sw. M., Weingarten
+wîsbodo%<noun%>%<masc%>%<n-stem%>:wîsbod Masc-n-Stem 		; ! wîsbodo* 1, wî-s-bod-o*, as., sw. M. (n): nhd. „Weisbote“, Bote; ne. messenger (M.)
+wiskumo%<noun%>%<masc%>%<n-stem%>:wiskum Masc-n-Stem 		; ! wiskumo* 3, wisskumo, wi-s-kum-o*, wis-s-kumo*, as., sw. M. (n): nhd. Gewisskommender; ne. surely coming (M.)
+wîso%<noun%>%<masc%>%<n-stem%>:wîs Masc-n-Stem 		; ! wîso?***, wî-s-o?***, as., sw. M. (n): nhd. „Weiser“ (M.) (2), Führer; ne. leader (M.)
+wito%<noun%>%<masc%>%<n-stem%>:wit Masc-n-Stem 		; ! wito?***, wi-t-o?***, as., sw. M. (n): nhd. Weiser (M.) (1), Wissender, Zeuge; ne. wise man (M.), witness (M.)
+witharsako%<noun%>%<masc%>%<n-stem%>:witharsak Masc-n-Stem 		; ! witharsako* 10, wi-th-ar-sak-o*, as., sw. M. (n): nhd. Widersacher, Teufel; ne. fiend (M.), opponent (M.); W.: mnd. weddersake, sw. M., Widersacher
+withillo%<noun%>%<masc%>%<n-stem%>:withill Masc-n-Stem 		; ! withillo* 1, as., sw. M. (n): nhd. Zwitter, Mannweib, Weichling; ne. weakling (M.)
+withumo%<noun%>%<masc%>%<n-stem%>:withum Masc-n-Stem 		; ! withumo?***, with-umo?***, as., sw. M. (n): nhd. Wittum, Brautgabe, Mitgift; ne. dowry (N.); W.: mnd. wedeme, F., M., Wittum, Leibgedinge
+wokko%<noun%>%<masc%>%<n-stem%>:wokk Masc-n-Stem 		; ! wokko* 3, wakko, wekko, wo-k-k-o*, wa-k-k-o*, we-k-k-o*, as., sw. M. (n): nhd. Wieche, Docht; ne. wick (N.)
+wormo%<noun%>%<masc%>%<n-stem%>:worm Masc-n-Stem 		; ! wormo* 1, wor-m-o*, as., sw. M. (n): nhd. Wurm; ne. worm (N.); W.: s. mnd. worm, M., Wurm, Insekt, Käfer
+wrekkio%<noun%>%<masc%>%<n-stem%>:wrekki Masc-n-Stem 		; ! wrekkio* 2, wre-k-k-i-o*, as., sw. M. (n): nhd. „Recke“, Fremdling; ne. stranger (M.)
+wrendilo%<noun%>%<masc%>%<n-stem%>:wrendil Masc-n-Stem 		; ! wrendilo* 5, wrendil-o*, as., sw. M. (n): nhd. Zaunkönig; ne. wren (N.)
+wrênio%<noun%>%<masc%>%<n-stem%>:wrêni Masc-n-Stem 		; ! wrênio* 2, wrê-n-io*, as., sw. M. (n): nhd. Hengst; ne. stallion (N.)
+wreno%<noun%>%<masc%>%<n-stem%>:wren Masc-n-Stem 		; ! wreno* 1, wre-n-o*, as., sw. M. (n): nhd. Muskel; ne. muscle (N.)
+wrisio%<noun%>%<masc%>%<n-stem%>:wrisi Masc-n-Stem 		; ! wrisio* 1, w-ri-s-i-o*, as., sw. M. (n): nhd. Riese (M.) (1); ne. giant (M.)
+wurhtio%<noun%>%<masc%>%<n-stem%>:wurhti Masc-n-Stem 		; ! wurhtio* 3, wurh-t-io*, as., sw. M. (n): nhd. „Wirker“, Arbeiter; ne. worker (M.)
+wurmo%<noun%>%<masc%>%<n-stem%>:wurm Masc-n-Stem 		; ! wurmo* 1, wur-m-o*, as., sw. M. (n): nhd. Wurm; ne. worm (N.)
+herta%<noun%>%<neut%>%<n-stem%>:hert Neut-n-Stem 		; ! herta 42, hert-a, as., sw. N. (n): nhd. Herz, Gemüt; ne. heart (N.), mind (N.); W.: mnd. herte, harte, N., selten F., Herz
+ôga%<noun%>%<neut%>%<n-stem%>:ôg Neut-n-Stem 		; ! ôga* 17, ôg-a*, as., sw. N. (n): nhd. Auge; ne. eye (N.); W.: mnd. ôge, N., Auge
+ôra%<noun%>%<neut%>%<n-stem%>:ôr Neut-n-Stem 		; ! ôra 7, ôr-a, as., sw. N. (n): nhd. Ohr; ne. ear (N.) (1); W.: mnd. ôre, N., Ohr
+wanga%<noun%>%<neut%>%<n-stem%>:wang Neut-n-Stem 		; ! wanga* 6, wa-ng-a*, as., sw. N. (n)?, sw. F. (n)?: nhd. Wange; ne. cheek (N.); W.: mnd. wange, N., F., Wange
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3130,6 +3768,8 @@ wurgarin%<noun%>%<fem%>%<jô-stem%>:wurgarinn%{I%} Fem-Ô-Stem 		; ! wurgarin* 1
 !!!!!!!!!!!!!!!!I-Stem!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!MASC!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON I-Stem
+
 ambahtskepi%<noun%>%<masc%>%<i-stem%>:ambahtskep	Masc-I-Stem-Short 		; ! ambahtskepi* 4, amb-aht-s-kep-i*, as., st. M. (i): nhd. Dienst; ne. service (N.)
 appul%<noun%>%<masc%>%<i-stem%>:appul	Masc-I-Stem-Long 		; ! appul 1, appel*, as., st. M. (i): nhd. Apfel; ne. apple (N.); W.: mnd. appel, M., Apfel
 ard%<noun%>%<masc%>%<i-stem%>:ard	Masc-I-Stem-Long 		; ! ard* 1, as., st. M. (i): nhd. Aufenthaltsort, Wohnort; ne. stay (N.); W.: s. mnd. art, F., Pflügen, geackertes Land, Abstammung
