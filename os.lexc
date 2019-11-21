@@ -13,6 +13,7 @@ Multichar_Symbols
 %<jô-stem%>			! jô-stem noun
 %<u-stem%>			! u-stem noun
 %<n-stem%>			! n-stem noun (a. k. a. weak noun)
+%<a%/ô-stem%>			! a/ô-stem adjective
 
 !!!!!!!!!!!!!!!!!!NOMINAL CHARS!!!!!!!!!!!!!!!!!!!!!!!
 %<masc%>			! masculine noun
@@ -92,7 +93,132 @@ Verbs 				;
 Pronouns			;
 Prepositions			;
 Adverbs				;
+Adjectives			;
 
+
+LEXICON Adj-a-o-mono
+%<masc%>%<nom%>%<sg%>:0			#	;
+%<masc%>%<gen%>%<sg%>:es		#	;
+%<masc%>%<gen%>%<sg%>:as		#	;
+%<masc%>%<dat%>%<sg%>:umu		#	;
+%<masc%>%<dat%>%<sg%>:um		#	;
+%<masc%>%<dat%>%<sg%>:un		#	;
+%<masc%>%<dat%>%<sg%>:on		#	;
+%<masc%>%<dat%>%<sg%>:en		#	;
+%<masc%>%<dat%>%<sg%>:an		#	;
+%<masc%>%<acc%>%<sg%>:an		#	;
+%<masc%>%<acc%>%<sg%>:en		#	;
+%<masc%>%<instr%>%<sg%>:u		#	;
+
+%<masc%>%<nom%>%<pl%>:0			#	;
+%<masc%>%<nom%>%<pl%>:e			#	;
+%<masc%>%<nom%>%<pl%>:a			#	;
+%<masc%>%<gen%>%<pl%>:aro		#	;
+%<masc%>%<gen%>%<pl%>:oro		#	;
+%<masc%>%<gen%>%<pl%>:ara		#	;
+%<masc%>%<gen%>%<pl%>:ero		#	;
+%<masc%>%<dat%>%<pl%>:u%{M%}		#	;
+%<masc%>%<dat%>%<pl%>:on		#	;
+%<masc%>%<acc%>%<pl%>:e			#	;
+%<masc%>%<acc%>%<pl%>:a			#	;
+
+%<neut%>%<nom%>%<sg%>:0			#	;
+%<neut%>%<gen%>%<sg%>:es		#	;
+%<neut%>%<gen%>%<sg%>:as		#	;
+%<neut%>%<dat%>%<sg%>:umu		#	;
+%<neut%>%<dat%>%<sg%>:um		#	;
+%<neut%>%<dat%>%<sg%>:un		#	;
+%<neut%>%<dat%>%<sg%>:on		#	;
+%<neut%>%<dat%>%<sg%>:en		#	;
+%<neut%>%<dat%>%<sg%>:an		#	;
+%<neut%>%<acc%>%<sg%>:0			#	;
+%<neut%>%<instr%>%<sg%>:u		#	;
+
+%<neut%>%<nom%>%<pl%>:0			#	;
+%<neut%>%<nom%>%<pl%>:a			#	;
+%<neut%>%<gen%>%<pl%>:aro		#	;
+%<neut%>%<gen%>%<pl%>:oro		#	;
+%<neut%>%<gen%>%<pl%>:ero		#	;
+%<neut%>%<dat%>%<pl%>:u%{M%}		#	;
+%<neut%>%<dat%>%<pl%>:on		#	;
+%<neut%>%<acc%>%<pl%>:0			#	;
+%<neut%>%<acc%>%<pl%>:e			#	;
+%<neut%>%<acc%>%<pl%>:a			#	;
+
+%<fem%>%<nom%>%<sg%>:0			#	;
+%<fem%>%<gen%>%<sg%>:ara		#	;
+%<fem%>%<gen%>%<sg%>:aro		#	;
+%<fem%>%<dat%>%<sg%>:aro		#	;
+%<fem%>%<dat%>%<sg%>:aru		#	;
+%<fem%>%<dat%>%<sg%>:ara		#	;
+%<fem%>%<acc%>%<sg%>:a			#	;
+%<fem%>%<nom%>%<pl%>:a			#	;
+%<fem%>%<gen%>%<pl%>:aro		#	;
+%<fem%>%<gen%>%<pl%>:ero		#	; ! Gallee error? He has -aro -ero and -ero; not -oro
+%<fem%>%<dat%>%<pl%>:un			#	;
+%<fem%>%<dat%>%<pl%>:on			#	;
+%<fem%>%<acc%>%<pl%>:a			#	;
+
+
+LEXICON Adj-a-o-poly
+%<masc%>%<nom%>%<sg%>:0			#	;
+%<masc%>%<gen%>%<sg%>:es		#	;
+%<masc%>%<gen%>%<sg%>:as		#	;
+%<masc%>%<dat%>%<sg%>:umu		#	;
+%<masc%>%<dat%>%<sg%>:umo		#	;
+%<masc%>%<dat%>%<sg%>:omo		#	;
+%<masc%>%<dat%>%<sg%>:emo		#	;
+%<masc%>%<dat%>%<sg%>:on		#	;
+%<masc%>%<acc%>%<sg%>:na		#	;
+%<masc%>%<acc%>%<sg%>:ana		#	;
+%<masc%>%<acc%>%<sg%>:an		#	;
+%<masc%>%<instr%>%<sg%>:u		#	;
+
+%<masc%>%<nom%>%<pl%>:e			#	;
+%<masc%>%<nom%>%<pl%>:a			#	;
+%<masc%>%<gen%>%<pl%>:aro		#	;
+%<masc%>%<gen%>%<pl%>:ero		#	;
+%<masc%>%<gen%>%<pl%>:ro		#	;
+%<masc%>%<dat%>%<pl%>:un		#	;
+%<masc%>%<dat%>%<pl%>:on		#	;
+%<masc%>%<acc%>%<pl%>:a			#	;
+
+%<neut%>%<nom%>%<sg%>:0			#	;
+%<neut%>%<gen%>%<sg%>:es		#	;
+%<neut%>%<gen%>%<sg%>:as		#	;
+%<neut%>%<dat%>%<sg%>:umu		#	;
+%<neut%>%<dat%>%<sg%>:umo		#	;
+%<neut%>%<dat%>%<sg%>:omo		#	;
+%<neut%>%<dat%>%<sg%>:emo		#	;
+%<neut%>%<dat%>%<sg%>:on		#	;
+%<neut%>%<instr%>%<sg%>:u		#	;
+
+%<neut%>%<nom%>%<pl%>:0			#	;
+%<neut%>%<nom%>%<pl%>:a			#	;
+%<neut%>%<gen%>%<pl%>:ero		#	;
+%<neut%>%<dat%>%<pl%>:un		#	;
+%<neut%>%<dat%>%<pl%>:on		#	;
+%<neut%>%<acc%>%<pl%>:0			#	;
+%<neut%>%<acc%>%<pl%>:u			#	;
+%<neut%>%<acc%>%<pl%>:a			#	;
+
+%<fem%>%<nom%>%<sg%>:0			#	;
+%<fem%>%<gen%>%<sg%>:ara		#	;
+%<fem%>%<gen%>%<sg%>:aro		#	;
+%<fem%>%<dat%>%<sg%>:aro		#	;
+%<fem%>%<dat%>%<sg%>:aru		#	;
+%<fem%>%<dat%>%<sg%>:ara		#	;
+%<fem%>%<acc%>%<sg%>:a			#	;
+
+%<fem%>%<nom%>%<pl%>:a			#	;
+%<fem%>%<gen%>%<pl%>:ero		#	;
+%<fem%>%<gen%>%<pl%>:oro		#	;
+%<fem%>%<gen%>%<pl%>:aro		#	;
+%<fem%>%<dat%>%<pl%>:un			#	; !Gallee error? he has -on and -on, but not -un
+%<fem%>%<dat%>%<pl%>:on			#	;
+%<fem%>%<acc%>%<pl%>:a			#	;
+
+!Lexicon Adj-ja-jô
 
 
 
@@ -1169,19 +1295,19 @@ hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<instr%>%<sg%>:hwilice         #       ;
 hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<instr%>%<sg%>:hwilica         #       ;
 
 LEXICON Indefinite-Pronouns
-%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:sum		#	; !Add inflection
-%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:ên               #       ; !Add inflecti$
-%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>%<neg%>:nên               #       ; !Add inflecti$
-%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>%<neg%>:niên               #       ; !Add i$
-%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>%<neg%>:nân               #       ; !Add i$
-%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:man               #       ; !Add i$
-%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:ioman               #       ; !Add i$
-%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>%<neg%>:nioman               #       ; !Add i$
-%<prn%>%<indef%>%<neut%>%<nom%>%<sg%>:wiht               #       ; !Add i$
-%<prn%>%<indef%>%<neut%>%<nom%>%<sg%>%<neg%>:neowiht               #       ; !Add i$
-%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:gihwê	#	; !jeder
-%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:gihwat     #       ; !jedes      
-%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:hwedar     #       ; !welcher
+sum%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:sum		#	; !Add inflection
+ên%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:ên               #       ; !Add inflecti$
+nên%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>%<neg%>:nên               #       ; !Add inflecti$
+niên%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>%<neg%>:niên               #       ; !Add i$
+nân%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>%<neg%>:nân               #       ; !Add i$
+man%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:man               #       ; !Add i$
+ioman%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:ioman               #       ; !Add i$
+nioman%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>%<neg%>:nioman               #       ; !Add i$
+wiht%<prn%>%<indef%>%<neut%>%<nom%>%<sg%>:wiht               #       ; !Add i$
+neowiht%<prn%>%<indef%>%<neut%>%<nom%>%<sg%>%<neg%>:neowiht               #       ; !Add i$
+gihwê%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:gihwê	#	; !jeder
+gihwat%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:gihwat     #       ; !jedes      
+hwedar%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:hwedar     #       ; !welcher
 hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<nom%>%<sg%>:gihwilic         #       ; ! ein jeder
 hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<nom%>%<sg%>:sulic         #       ; ! ein solcher
 
@@ -5056,6 +5182,7 @@ fan%<prep%>%<dat%>:fan	 	# ; ! von
 fan%<prep%>%<dat%>:fana 	# ; ! von
 fan%<prep%>%<dat%>:fano 	# ; ! von
 fan%<prep%>%<instr%>:fan	# ; ! von
+fan%<prep%>%<instr%>:fon	# ; ! von
 fan%<prep%>%<instr%>:fana 	# ; ! von
 fan%<prep%>%<instr%>:fano 	# ; ! von
 
@@ -5117,3 +5244,670 @@ wiđ%<prep%>%<instr%>:widar	# ; ! gegen
 wiđ%<prep%>%<acc%>:wider	# ; ! gegen
 wiđ%<prep%>%<dat%>:wider	# ; ! gegen
 wiđ%<prep%>%<instr%>:wider	# ; ! gegen
+
+
+LEXICON Adjectives
+gôd%<adj%>%<a%/ô-stem%>:gôd Adj-a-o-mono	; !manually entered
+hêlag%<adj%>%<a%/ô-stem%>:hêlag Adj-a-o-poly	; !manually entered
+âdêla%<adj%>:âdêla Adj-a-o-mono	;	!	âdêla* 1, âtêla, âtêlo, â-dêl-a*, â-têl-a, â-têl-o*, as., Adj., Adv.?: nhd. unangemessen, unpassend; ne. not suitable (Adj.)
+aharîn%<adj%>:aharîn Adj-a-o-mono	;	!	aharîn* 1, ah-ar-în*, as., Adj.: nhd. von Ähren stammend, aus Ähren bestehend, Ähren...; ne. built (Adj.) of ears
+al%<adj%>:al Adj-a-o-mono	;	!	al (1) 418, ala, all, al-a*, al-l, as., Adj.: nhd. all, ganz, gänzlich; ne. all (Adj.), whole (Adj.); W.: mnd. al, alle, Adj., all, ganz
+ala%<adj%>:ala Adj-a-o-mono	;	!	ala*, al-a*, as., Adj.: nhd. all, ganz; ne. all (Adj.), whole (Adj.); W.: mnd. al, alle, Adj., all, ganz
+alahwît%<adj%>:alahwît Adj-a-o-mono	;	!	alahwît* 1, al-a-hwî-t*, as., Adj.: nhd. ganz weiß; ne. all white (Adj.)
+alajung%<adj%>:alajung Adj-a-o-mono	;	!	alajung* 2, al-a-ju-n-g*, as., Adj.: nhd. ganz jung; ne. quite young (Adj.)
+ald%<adj%>:ald Adj-a-o-mono	;	!	ald 23, al-d, as., Adj.: nhd. alt; ne. old (Adj.); W.: mnd. old, öld, Adj., alt
+aldarlang%<adj%>:aldarlang Adj-a-o-mono	;	!	aldarlang* 1, al-d-ar-lang*, as., Adj.: nhd. ewig; ne. eternal (Adj.)
+alligilîk%<adj%>:alligilîk Adj-a-o-mono	;	!	alligilîk?***, al-l-i-gi-lîk?***, as., Adj.: nhd. ganz gleich; ne. all equal (Adj.)
+alohêl%<adj%>:alohêl Adj-a-o-mono	;	!	alohêl* 1, al-o-hê-l*, as., Adj.: nhd. ganz gesund; ne. all healthy (Adj.)
+alomahtig%<adj%>:alomahtig Adj-a-o-mono	;	!	alomahtig 24, alamahtig, alamehtig, almahtig, al-o-maht-ig, al-a-maht-ig*, al-a-meht-ig*, al-maht-ig*, as., Adj.: nhd. allmächtig; ne. almighty (Adj.); W.: mnd. almechtich, Adj., allmächtig
+alowaldo%<adj%>:alowaldo Adj-a-o-mono	;	!	alowaldo* 36, alawaldo, alwaldo, al-o-wal-d-o*, al-a-wal-d-o*, al-wal-d-o*, as., Adj., sw. M. (n): nhd. allwaltend, Allwaltender; ne. ruling (Adj.), ruler (M.)
+alswart%<adj%>:alswart Adj-a-o-mono	;	!	alswart* 1, allswart, al-swart*, al-l-swart*, as., Adj.: nhd. ganz schwarz; ne. all black (Adj.)
+alung%<adj%>:alung Adj-a-o-mono	;	!	alung* 1, al-ung*, as., Adj.: nhd. ganz, ewig; ne. whole (Adj.), eternal (Adj.); W.: mnd. âlinc, alink, aling, Adj., Adv., ganz
+anagiboran%<adj%>:anagiboran Adj-a-o-mono	;	!	anagiboran 1, an-a-gi-boran, as., Adj.: nhd. angeboren; ne. inborn (Adj.); W.: mnd. angebôren, Adj., angeboren, s. Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+andlang%<adj%>:andlang Adj-a-o-mono	;	!	andlang* 1, antlang, and-lang*, ant-lang*, as., Adj.: nhd. ganz; ne. whole (Adj.)
+andward%<adj%>:andward Adj-a-o-mono	;	!	andward* 3, and-war-d*, as., Adj.: nhd. gegenwärtig; ne. present (Adj.); W.: s. mnd. antwêrdes, Adv., in Gegenwart, gegenwärtig
+anmôd%<adj%>:anmôd Adj-a-o-mono	;	!	anmôd 1, an-mô-d, as., Adj.: nhd. entschlossen; ne. resolute (Adj.); W.: vgl. mnd. anmôdinge, F., Forderung, Ersuchen
+anstandandelîk%<adj%>:anstandandelîk Adj-a-o-mono	;	!	anstandandelîk?***, an-sta-n-d-and-e-lîk?***, as., Adj.: nhd. anhaltend; ne. continuous (Adj.)
+appulgrê%<adj%>:appulgrê Adj-a-o-mono	;	!	appulgrê 1, appul-grê, as., Adj.: nhd. apfelgrau, scheckig; ne. dappled (Adj.); W.: mnd. appelgrâ, appelgrawe, Adj., apfelgrau
+arg%<adj%>:arg Adj-a-o-mono	;	!	arg?***, as., Adj.: nhd. arg, böse; ne. bad (Adj.), wicked (Adj.); W.: mnd. arch, Adj., arg, schlecht, böse, schlimm
+arm%<adj%>:arm Adj-a-o-mono	;	!	arm* (2) 15, as., Adj.: nhd. arm, elend; ne. poor (Adj.), miserable (Adj.); W.: mnd. arm, Adj., arm
+armhugdig%<adj%>:armhugdig Adj-a-o-mono	;	!	armhugdig 1, arm-hug-d-ig, as., Adj.: nhd. bekümmert; ne. sorrowful (Adj.)
+armlîk%<adj%>:armlîk Adj-a-o-mono	;	!	armlîk* 1, arm-lîk*, as., Adj.: nhd. elend; ne. miserable (Adj.); W.: s. mnd. armlîk, Adj., ärmlich, elend
+armskapan%<adj%>:armskapan Adj-a-o-mono	;	!	armskapan* 4, arm-s-kap-an*, as., Adj.: nhd. elend; ne. miserable (Adj.)
+arvêdsam%<adj%>:arvêdsam Adj-a-o-mono	;	!	arvêdsam* 1, arƀêdsam, arvêd-sam*, arƀêd-sam, as., Adj.: nhd. mühselig, beschwerlich; ne. exhausting (Adj.); W.: mnd. arbêtsam, arbeitsam, Adj., mühevoll
+athal%<adj%>:athal Adj-a-o-mono	;	!	athal?***, atha-l?***, as., Adj.: nhd. edel, vornehm; ne. noble (Adj.); W.: vgl. mnd. âdel, M., N., edle Abstammung, Adel (M.) (1)
+athalboran%<adj%>:athalboran Adj-a-o-mono	;	!	athalboran* 5, atha-l-bor-an*, as., Adj.: nhd. von edler Geburt seiend, von edler Abkunft seiend; ne. of noble (Adj.) birth
+athalburdig%<adj%>:athalburdig Adj-a-o-mono	;	!	athalburdig* 1, atha-l-bur-d-ig*, as., Adj.: nhd. von edler Geburt seiend, edelgeboren; ne. of noble (Adj.) birth
+avuh%<adj%>:avuh Adj-a-o-mono	;	!	avuh* (1) 2, aƀuh* (1), as., Adj.: nhd. verkehrt, übel, böse; ne. wrong (Adj.), evil (Adj.)
+avunstig%<adj%>:avunstig Adj-a-o-mono	;	!	avunstig* 1, aƀunstig, av-unst-ig*, aƀ-unst-ig*, as., Adj.: nhd. missgünstig, neidisch; ne. envious (Adj.)
+bald%<adj%>:bald Adj-a-o-mono	;	!	bald 3, bal-d, as., Adj.: nhd. kühn; ne. bold (Adj.); W.: mnd. bold, bald (Gallée), bolt, balt, Adj., kühn, eifrig
+baldlîk%<adj%>:baldlîk Adj-a-o-mono	;	!	baldlîk?***, bal-d-lîk?***, as., Adj.: nhd. kühn; ne. bold (Adj.); W.: s. mnd. baltlîk, Adj., kühn
+baluhugdig%<adj%>:baluhugdig Adj-a-o-mono	;	!	baluhugdig 2, bal-u-hug-d-ig, as., Adj.: nhd. verderbensinnend, feindlich; ne. plotting (Adj.), hostile (Adj.)
+bar%<adj%>:bar Adj-a-o-mono	;	!	bar (1) 2, as., Adj.: nhd. bar (Adj.), bloß, nackt, offenbar, offen, klar; ne. bare (Adj.), obvious (Adj.); W.: mnd. bâr, Adj., nackt, bloß
+bar%<adj%>:bar Adj-a-o-mono	;	!	bar? (2)***, as., Adj.: nhd. sehr; ne. very (Adj.)
+bardoht%<adj%>:bardoht Adj-a-o-mono	;	!	bardoht?***, bar-d-oh-t?***, as., Adj.: nhd. bärtig; ne. bearded (Adj.)
+barlîk%<adj%>:barlîk Adj-a-o-mono	;	!	barlîk?***, bar-lîk?***, as., Adj.: nhd. offenbar; ne. obvious (Adj.)
+barwirthig%<adj%>:barwirthig Adj-a-o-mono	;	!	barwirthig* 2, barwurthig, bar-wir-th-ig*, bar-wur-th-ig*, as., Adj.: nhd. sehr würdig; ne. highly dignified (Adj.)
+bat%<adj%>:bat Adj-a-o-mono	;	!	bat* 1, as., Adj., Adv.: nhd. besser; ne. better (Adj. bzw. Adv.); W.: mnd. bat, bet, Adv., besser, mehr
+bê%<adj%>:bê Adj-a-o-mono	;	!	bê?***, as., Adj.: nhd. beide; ne. both (Adj.)
+berht%<adj%>:berht Adj-a-o-mono	;	!	berht 22, ber-h-t, as., Adj.: nhd. glänzend hell, leuchtend, herrlich; ne. shining (Adj.)
+berhtlîk%<adj%>:berhtlîk Adj-a-o-mono	;	!	berhtlîk* 1, ber-ht-lîk*, as., Adj.: nhd. glänzend; ne. shining (Adj.)
+betara%<adj%>:betara Adj-a-o-mono	;	!	betara 13, bet-ar-a, as., Adj.: nhd. bessere; ne. better (Adj.); W.: mnd. bêtere, Adj., bessere
+bêtig%<adj%>:bêtig Adj-a-o-mono	;	!	bêtig?***, bêt-ig?***, as., Adj.: nhd. bissig; ne. biting (Adj.)
+betste%<adj%>:betste Adj-a-o-mono	;	!	betste* 57, beste, bezte, bet-st-e*, best-e, bezt-e, as., Adj. (Superl.), Adv.: nhd. beste, am besten; ne. best (Adj. bzw. Adv.); W.: mnd. beste, best, Adj. (Superl.), beste, Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+bêthia%<adj%>:bêthia Adj-a-o-mono	;	!	bêthia* 52, bêthea, bêthiu, bê-thia*, bê-thea, bê-thiu*, as., Adj.: nhd. beide; ne. both (Adj.); W.: mnd. bêde, beide, Adv., beide
+bigangandelîk%<adj%>:bigangandelîk Adj-a-o-mono	;	!	bigangandelîk* 1, bi-ga-n-g-an-de-lîk*, as., Adj.: nhd. feierlich, rühmlich; ne. festive (Adj.), glorious (Adj.)
+bilang%<adj%>:bilang Adj-a-o-mono	;	!	bilang 2, bi-lang, as., Adj.: nhd. verwandt, verbunden; ne. akin (Adj.), belonging (Adj.)
+binitin%<adj%>:binitin Adj-a-o-mono	;	!	binitin* 1, binit-in*, as., Adj.: nhd. Binsen..., aus Binsen bestehend; ne. made (Adj.) of sedges
+bitêkniandelîk%<adj%>:bitêkniandelîk Adj-a-o-mono	;	!	bitêkniandelîk* 1, bi-tê-kn-ian-de-lîk*, as., Adj.: nhd. bildlich, symbolisch, mystisch; ne. figurative (Adj.), mystic (Adj.)
+bittar%<adj%>:bittar Adj-a-o-mono	;	!	bittar 19, bi-t-t-ar, as., Adj.: nhd. bitter, beißend, feindlich, böse; ne. bitter (Adj.), biting (Adj.); W.: mnd. bitter, Adj., bitter, schneidend, erbittert
+blak%<adj%>:blak Adj-a-o-mono	;	!	blak? (2)***, bla-k?***, as., Adj.: nhd. schwarz; ne. black (Adj.)
+blank%<adj%>:blank Adj-a-o-mono	;	!	blank?***, bla-nk?***, as., Adj.: nhd. „blank“, weiß; ne. shining (Adj.), white (Adj.); W.: mnd. blank, Adj., blank, glänzend, hell
+blâo%<adj%>:blâo Adj-a-o-mono	;	!	blâo* 2, blâ-o*, as., Adj.: nhd. blau, bläulich, blass, dunkel, finster, falsch; ne. blue (Adj.), pale (Adj.); W.: mnd. blâ, Adj., blau
+blas%<adj%>:blas Adj-a-o-mono	;	!	blas 1, bla-s, as., Adj.: nhd. blass, weiß, glänzend; ne. pale (Adj.); W.: mnd. bles, blesse, Adj., blass
+blêk%<adj%>:blêk Adj-a-o-mono	;	!	blêk* 4, blê-k*, as., Adj.: nhd. bleich, hell, glänzend; ne. pale (Adj.), bright (Adj.); W.: mnd. blêk, bleik, Adj., bleich, weiß
+blekkod%<adj%>:blekkod Adj-a-o-mono	;	!	blekkod* 1, ble-k-k-od*, as., Adj.: nhd. mit Blech bezogen; ne. covered (Adj.) with foil
+blî%<adj%>:blî Adj-a-o-mono	;	!	blî* (2) 1, as., Adj.: nhd. farbig, gefärbt (Adj.); ne. colourful (Adj.)
+blind%<adj%>:blind Adj-a-o-mono	;	!	blind* 11, bl-ind*, as., Adj.: nhd. blind; ne. blind (Adj.); W.: mnd. blint, Adj., blind
+blîthlîk%<adj%>:blîthlîk Adj-a-o-mono	;	!	blîthlîk* 1, bl-îth-lîk*, as., Adj.: nhd. heiter, fröhlich; ne. joyful (Adj.); W.: s. mnd. blîdelîk, Adj., Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+blôdag%<adj%>:blôdag Adj-a-o-mono	;	!	blôdag* 4, bl-ô-d-ag*, as., Adj.: nhd. blutig; ne. bloody (Adj.); W.: vgl. mnd. blôdich, Adj., blutig
+bômîn%<adj%>:bômîn Adj-a-o-mono	;	!	bômîn* 1, bôm-în*, as., Adj.: nhd. hölzern; ne. wooden (Adj.); W.: mnd. bômen, Adj., hölzern, aus Holz gemacht, Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+brêd%<adj%>:brêd Adj-a-o-mono	;	!	brêd 14, as., Adj.: nhd. breit, groß, ausgedehnt; ne. broad (Adj.), large (Adj.); W.: mnd. brêt, Adj., breit
+brôdîn%<adj%>:brôdîn Adj-a-o-mono	;	!	brôdîn* 1, brô-d-în*, as., Adj.: nhd. Brot..., aus Brot bestehend; ne. bread... (Adj.); W.: vgl. mnd. brot, N.
+brûn%<adj%>:brûn Adj-a-o-mono	;	!	brûn?***, brû-n?***, as., Adj.: nhd. braun, glänzend; ne. brown (Adj.); W.: mnd. brûn, Adj., braun
+brûnfaro%<adj%>:brûnfaro Adj-a-o-mono	;	!	brûnfaro*? 1, brû-n-far-o*?, as., Adj.: nhd. braun; ne. brown (Adj.)
+brûnrôd%<adj%>:brûnrôd Adj-a-o-mono	;	!	brûnrôd* 1, brû-n-rôd*, as., Adj.: nhd. glänzend rot, funkelnd rot; ne. bright red (Adj.); W.: mnd. brûnrôt, Adj., braunrot, dunkelrot, Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+burdig%<adj%>:burdig Adj-a-o-mono	;	!	burdig?***, bur-d-ig?***, as., Adj.: nhd. gebürtig; ne. born (V.); W.: mnd. bordich, Adj., scherzhaft, höhnisch
+burglîk%<adj%>:burglîk Adj-a-o-mono	;	!	burglîk* 1, bur-g-lîk*, as., Adj.: nhd. städtisch, Burg...; ne. urban (Adj.); W.: vgl. mnd. borchlîk (2), börchlîk, Adj., Burg..., Burg betreffend, Stadtrecht betreffend, Zivilrecht betreffend
+dâdig%<adj%>:dâdig Adj-a-o-mono	;	!	dâdig?***, dâ-d-ig?***, as., Adj.: nhd. tätig; ne. active (Adj.); W.: mnd. *dedich?, Adj.
+dagahwilîk%<adj%>:dagahwilîk Adj-a-o-mono	;	!	dagahwilîk* 1, d-ag-a-hwi-lîk*, as., Adj.: nhd. täglich; ne. daily (Adj.); W.: mnd. dagelîk, Adj., täglich
+diop%<adj%>:diop Adj-a-o-mono	;	!	diop* 7, as., Adj.: nhd. tief, trübe, unergründlich, ewig; ne. deep (Adj.); W.: mnd. dêp, Adj., tief, schmutzig, gründlich
+diorig%<adj%>:diorig Adj-a-o-mono	;	!	diorig?***, dio-r-ig?***, as., Adj.: nhd. tierisch; ne. beastly (Adj.); W.: vgl. mnd. dêr, dêre, dêrt, deirt, N., Tier
+diurlîk%<adj%>:diurlîk Adj-a-o-mono	;	!	diurlîk* 13, diu-r-lîk*, as., Adj.: nhd. teuer, herrlich; ne. dear (Adj.), glorious (Adj.); W.: vgl. mnd. dûr, dûre, Adj., teuer
+dôd%<adj%>:dôd Adj-a-o-mono	;	!	dôd 10, dô-d, as., Adj.: nhd. tot, gestorben; ne. dead (Adj.); W.: mnd. dot, Adj., tot, leblos
+dôf%<adj%>:dôf Adj-a-o-mono	;	!	dôf?***, dô-f?***, as., Adj.: nhd. taub, stumpfsinnig; ne. deaf (Adj.), dumb (Adj.); W.: mnd. dôf, Adj., taub
+dol%<adj%>:dol Adj-a-o-mono	;	!	dol* 1, do-l*, as., Adj.: nhd. toll, töricht; ne. foolish (Adj.); W.: mnd. dol, Adj., toll, vermessen (Adj.)
+dollîk%<adj%>:dollîk Adj-a-o-mono	;	!	dollîk?***, do-l-lîk?***, as., Adj.: nhd. verwegen; ne. bold (Adj.); W.: vgl. mnd. dol, Adj., toll vermessen (Adj.)
+dolmôd%<adj%>:dolmôd Adj-a-o-mono	;	!	dolmôd* 2, do-l-mô-d*, as., Adj.: nhd. töricht, verwegen; ne. foolish (Adj.), daring (Adj.); W.: vgl. mnd. dol, Adj., toll vermessen (Adj.)
+dosan%<adj%>:dosan Adj-a-o-mono	;	!	dosan 1, dos-an, as., Adj.: nhd. braun; ne. brown (Adj.)
+douwag%<adj%>:douwag Adj-a-o-mono	;	!	douwag* 1, dou-wag*, as., Adj.: nhd. tauig, betaut; ne. dewy (Adj.)
+drôrag%<adj%>:drôrag Adj-a-o-mono	;	!	drôrag 2, drô-r-ag, as., Adj.: nhd. blutig; ne. bloody (Adj.)
+drôrwôrag%<adj%>:drôrwôrag Adj-a-o-mono	;	!	drôrwôrag* 1, drô-r-wôr-ag*, as., Adj.: nhd. vom Blutverlust erschöpft; ne. exhausted (Adj.) by bleeding
+drûd%<adj%>:drûd Adj-a-o-mono	;	!	drûd?***, as., Adj.: nhd. traut, lieb; ne. dear (Adj.); W.: mnd. trût, Adj., traut
+dumb%<adj%>:dumb Adj-a-o-mono	;	!	dumb 3, du-m-b, as., Adj.: nhd. dumm, unnütz, töricht; ne. stupid (Adj.), useless (Adj.); W.: mnd. dum, Adj., dumm, unklug, unerfahren
+dun%<adj%>:dun Adj-a-o-mono	;	!	dun 1, dunn*, as., Adj.: nhd. braun, dunkel; ne. brown (Adj.), dark (Adj.)
+dunkar%<adj%>:dunkar Adj-a-o-mono	;	!	dunkar* 1, dun-k-ar*, as., Adj.: nhd. dunkel; ne. dark (Adj.); W.: mnd. dunker, Adj., dunkel
+êgan%<adj%>:êgan Adj-a-o-mono	;	!	êgan (2) 18, êg-an, as., Adj.: nhd. eigen (Adj.); ne. own (Adj.); W.: mnd. êgen, eigen, Adj., eigen (Adj.)
+egislîk%<adj%>:egislîk Adj-a-o-mono	;	!	egislîk* 4, eislîk, eg-is-lîk*, e-is-lîk*, as., Adj.: nhd. schrecklich; ne. terrible (Adj.); W.: s. mnd. eyslîk, eislîk, Adj., hässlich, garstig
+êgrôhtful%<adj%>:êgrôhtful Adj-a-o-mono	;	!	êgrôhtful 1, êgrôhtfull, êogirôhtful*?, êogirôhtfull, ê-grôht-ful, ê-grôht-ful-l, êo-gi-rôht-ful*?, êo-gi-rôht-ful-l*, as., Adj.: nhd. barmherzig; ne. merciful (Adj.)
+êhaft%<adj%>:êhaft Adj-a-o-mono	;	!	êhaft* 1, ê-haft*, as., Adj.: nhd. echt, gesetzlich, rechtmäßig; ne. true (Adj.), legal (Adj.); W.: s. mnd. êhaftich, Adj., gesetzmäßig
+êkîn%<adj%>:êkîn Adj-a-o-mono	;	!	êkîn?***, êk-în?***, as., Adj.: nhd. eichen (Adj.); ne. oaken (Adj.)
+elilandig%<adj%>:elilandig Adj-a-o-mono	;	!	elilandig* 1, el-i-lan-d-ig*, as., Adj.: nhd. ausländisch, fremd; ne. foreign (Adj.); W.: mnd. elendich, Adj., fremd, uneinheimisch
+elithiodig%<adj%>:elithiodig Adj-a-o-mono	;	!	elithiodig* 1, el-i-thi-o-d-ig*, as., Adj.: nhd. „andersvölkisch“, von anderem Volk stammend, fremd; ne. foreign (Adj.); W.: s. *eli, thiod
+ellianrôf%<adj%>:ellianrôf Adj-a-o-mono	;	!	ellianrôf* 2, el-li-an-rôf*, as., Adj.: nhd. berühmt, kraftvoll, tapfer; ne. famous (Adj.)
+elliftohalf%<adj%>:elliftohalf Adj-a-o-mono	;	!	elliftohalf* 1, elleftahalf, el-li-f-to-half*, el-lef-ta-half*, as., Adj.: nhd. „elftehalb“, zehneinhalb; ne. ten and half
+ên%<adj%>:ên Adj-a-o-mono	;	!	ên 365, ê-n, as., Adj., Num. Kard.: nhd. ein, einzig, allein; ne. one (Adj.), only (Adj.), alone (Adj.); W.: mnd. ên, ein, Adj., Num. Kard., ein
+ênag%<adj%>:ênag Adj-a-o-mono	;	!	ênag 5, ê-n-ag, as., Adj.: nhd. einzig; ne. only (Adj.); W.: mnd. einich, Adj., einig, einzig
+endilôs%<adj%>:endilôs Adj-a-o-mono	;	!	endilôs* 2, endi-lô-s*, as., Adj.: nhd. endlos; ne. endless (Adj.)
+ênfald%<adj%>:ênfald Adj-a-o-mono	;	!	ênfald 9, ên-fal-d, as., Adj.: nhd. einfach, wahrhaft; ne. simple (Adj.), true (Adj.); W.: mnd. einvalt, einvolt, Adj., schlicht, einfältig
+ênhard%<adj%>:ênhard Adj-a-o-mono	;	!	ênhard 1, ê-n-har-d, as., Adj.: nhd. sehr hart, böse, feindlich; ne. very hard (Adj.), hostile (Adj.)
+ênkora%<adj%>:ênkora Adj-a-o-mono	;	!	ênkora 1, ê-n-kor-a, as., Adj.: nhd. einsam; ne. lonely (Adj.)
+ênstrîdig%<adj%>:ênstrîdig Adj-a-o-mono	;	!	ênstrîdig* 1, ê-n-s-trî-d-ig*, as., Adj.: nhd. eigensinnig, hartnäckig; ne. stubborn (Adj.); W.: mnd. ênstrîdich, einstrîdich, Adj., hartnäckig
+entisk%<adj%>:entisk Adj-a-o-mono	;	!	entisk?***, ent-isk?***, as., Adj.: nhd. riesig; ne. huge (Adj.)
+ênwald%<adj%>:ênwald Adj-a-o-mono	;	!	ênwald* 1, ê-n-wal-d*, as., Adj.: nhd. einträchtig; ne. unanimous (Adj.)
+êrîn%<adj%>:êrîn Adj-a-o-mono	;	!	êrîn 2, ê-r-în, as., Adj.: nhd. ehern; ne. brazen (Adj.); W.: mnd. êren, Adj., ehern
+êriste%<adj%>:êriste Adj-a-o-mono	;	!	êriste 21, ê-r-ist-e, as., Adj. (Superl.), Num. Ord.: nhd. erste; ne. first (Num. Ord.); W.: mnd. êrste, êrst, Adj. (Superl.), erste
+êristlîk%<adj%>:êristlîk Adj-a-o-mono	;	!	êristlîk* 1, ê-r-ist-lîk*, as., Adj.: nhd. ursprünglich; ne. original (Adj.); W.: mnd. êrstlîk, Adj.
+erkan%<adj%>:erkan Adj-a-o-mono	;	!	erkan* 1, erk-an*, as., Adj.: nhd. behende, tüchtig; ne. quick (Adj.), brave (Adj.)
+erman%<adj%>:erman Adj-a-o-mono	;	!	erman?***, ermin?, irmin?, erm-an?***, erm-in?***, ir-min?***, as., Adj.: nhd. groß, weit; ne. big (Adj.), large (Adj.)
+ernustlîk%<adj%>:ernustlîk Adj-a-o-mono	;	!	ernustlîk?***, er-n-ust-lîk?***, as., Adj.: nhd. ernstlich; ne. serious (Adj.)
+erp%<adj%>:erp Adj-a-o-mono	;	!	erp?***, as., Adj.: nhd. rot, braun, dunkel; ne. red (Adj.), brown (Adj.), dark (Adj.)
+erthag%<adj%>:erthag Adj-a-o-mono	;	!	erthag* 1, er-th-a-g*, as., Adj.: nhd. erdig; ne. earthy (Adj.)
+erthlîk%<adj%>:erthlîk Adj-a-o-mono	;	!	erthlîk* 2, er-th-lîk*, as., Adj.: nhd. irdisch; ne. earthly (Adj.)
+êrthungan%<adj%>:êrthungan Adj-a-o-mono	;	!	êrthungan* 1, êr-thung-an*, as., Adj.: nhd. ehrenreich; ne. honourable (Adj.)
+eskîn%<adj%>:eskîn Adj-a-o-mono	;	!	eskîn* 1, es-k-în*, as., Adj.: nhd. eschen, Eschen...; ne. ashen (Adj.); W.: mnd. eschen, Adj., aus Echenholz gemacht, eschen
+ettarag%<adj%>:ettarag Adj-a-o-mono	;	!	ettarag* 1, et-t-ar-ag*, as., Adj.: nhd. eitrig; ne. purulent (Adj.)
+evan%<adj%>:evan Adj-a-o-mono	;	!	evan? (2)***, eƀan? (1)***, as., Adj.: nhd. eben; ne. plain (Adj.); W.: mnd. êven, Adj., eben
+evenîn%<adj%>:evenîn Adj-a-o-mono	;	!	evenîn* 5, eƀenîn, eve-n-în*, eƀe-n-în*, as., Adj.: nhd. Hafer..., hafern; ne. oat... (Adj.)
+êwan%<adj%>:êwan Adj-a-o-mono	;	!	êwan* 3, êw-an*, as., Adj.: nhd. ewig; ne. eternal (Adj.)
+êwig%<adj%>:êwig Adj-a-o-mono	;	!	êwig* 23, êw-ig*, as., Adj.: nhd. ewig; ne. eternal (Adj.); W.: mnd. ewich, Adj., ewig
+êwîn%<adj%>:êwîn Adj-a-o-mono	;	!	êwîn* 1, êw-în*, as., Adj.: nhd. ewig; ne. eternal (Adj.)
+fagan%<adj%>:fagan Adj-a-o-mono	;	!	fagan 1, fag-an, as., Adj.: nhd. froh; ne. glad (Adj.)
+fagar%<adj%>:fagar Adj-a-o-mono	;	!	fagar 23, fag-ar, as., Adj.: nhd. schön, anmutig, friedlich, geziemend; ne. beautiful (Adj.); W.: mnd. fagher, Adj., schön
+faho%<adj%>:faho Adj-a-o-mono	;	!	faho 2, fa-h-o, as., Adj.: nhd. wenig; ne. few (Adj.)
+fald%<adj%>:fald Adj-a-o-mono	;	!	fald? (2)***, fal-d?***, as., Adj.: nhd. fältig; ne. fold (Adj.)
+faro%<adj%>:faro Adj-a-o-mono	;	!	faro? (1)***, far-o?***, as., Adj.: nhd. farbig; ne. coloured (Adj.); W.: vgl. mnd. var, vare, F., Farbe
+fast%<adj%>:fast Adj-a-o-mono	;	!	fast 11, festi*, as., Adj.: nhd. fest, beständig, sicher, unerschütterlich, gefesselt; ne. firm (Adj.), fixed (Adj.); W.: mnd. vast, Adv., fest, stark
+fêh%<adj%>:fêh Adj-a-o-mono	;	!	fêh* 3, as., Adj.: nhd. bunt, bemalt; ne. colourful (Adj.)
+fehulîk%<adj%>:fehulîk Adj-a-o-mono	;	!	fehulîk* 1, feh-u-lîk*, as., Adj.: nhd. Vieh...; ne. cattle... (Adj.); W.: mnd. vêlîk, Adj., sinnlich, tierartig
+fêkanlîk%<adj%>:fêkanlîk Adj-a-o-mono	;	!	fêkanlîk?***, fêk-an-lîk?***, as., Adj.: nhd. hinterlistig; ne. crafty (Adj.)
+fenilîk%<adj%>:fenilîk Adj-a-o-mono	;	!	fenilîk* 1, fen-i-lîk*, as., Adj.: nhd. sumpfig; ne. boggy (Adj.)
+fer%<adj%>:fer Adj-a-o-mono	;	!	fer* 1, ferr, fer-r*, as., Adj.: nhd. fern, entfernt; ne. far (Adj.); W.: mnd. fer, Adv., fern
+feraht%<adj%>:feraht Adj-a-o-mono	;	!	feraht* 16, ferht, fer-ah-t*, fer-h-t*, as., Adj.: nhd. verständig, weise, fromm; ne. sensible (Adj.), wise (Adj.), pious (Adj.)
+ferahtlîk%<adj%>:ferahtlîk Adj-a-o-mono	;	!	ferahtlîk? 5***, ferhtlîk?***, fer-ah-t-lîk?***, fer-h-t-lîk?***, as., Adj.: nhd. verständig, weise, fromm; ne. sensible (Adj.), wise (Adj.), pious (Adj.)
+fern%<adj%>:fern Adj-a-o-mono	;	!	fern* (1) 1, fer-n*, as., Adj.: nhd. vorig, alt; ne. former (Adj.); W.: mnd. ver, vere, verne, Adj., vorig
+fîffald%<adj%>:fîffald Adj-a-o-mono	;	!	fîffald* 1, fîf-fald*, as., Adj.: nhd. fünffach; ne. fivefold (Adj.)
+fîftohalf%<adj%>:fîftohalf Adj-a-o-mono	;	!	fîftohalf* 2, fîf-to-hal-f*, as., Adj.: nhd. fünftehalb, viereinhalb; ne. four and a half; W.: mnd. vîftehalf, viftehalf, Adj., fünftehalb
+filo%<adj%>:filo Adj-a-o-mono	;	!	filo 128, filu, fil-o, fil-u, as., Adj., Adv., Sb.: nhd. viel; ne. much (Adv.); W.: mnd. vele, vil, Adv., viel
+filowîs%<adj%>:filowîs Adj-a-o-mono	;	!	filowîs* 2, fil-o-wî-s*, as., Adj.: nhd. sehr weise, erfahren (Adj.); ne. very wise (Adj.)
+finistar%<adj%>:finistar Adj-a-o-mono	;	!	finistar? (2)***, fin-i-st-ar?***, as., Adj.: nhd. finster; ne. dark (Adj.); W.: mnd. vinster, Adj., finster, dunkel
+fiorthohalf%<adj%>:fiorthohalf Adj-a-o-mono	;	!	fiorthohalf* 1, fior-tho-hal-f*, as., Adj.: nhd. viertehalb, dreieinhalb; ne. three and a half; W.: mnd. vêrdehalf, Adj., viertehalb
+firiwitlîk%<adj%>:firiwitlîk Adj-a-o-mono	;	!	firiwitlîk?***, firiwittlîk?***, fir-i-wi-t-lîk?***, fir-i-wit-t-lîk?***, as., Adj.: nhd. „fürwitzig“, wissbegierig, eifrig; ne. curious (Adj.)
+fitilfôt%<adj%>:fitilfôt Adj-a-o-mono	;	!	fitilfôt* 2, fitil-fôt*, as., Adj.: nhd. mit weißen Füßen versehen (Adj.); ne. having (Adj.) white feet
+fiuwarskutig%<adj%>:fiuwarskutig Adj-a-o-mono	;	!	fiuwarskutig* 1, fiorskutig, fiuwar-skut-ig*, fior-skut-ig*, as., Adj.: nhd. vierschrötig; ne. stout (Adj.)
+flêsklîk%<adj%>:flêsklîk Adj-a-o-mono	;	!	flêsklîk* 1, flêsk-lîk*, as., Adj.: nhd. fleischlich; ne. carnal (Adj.); W.: mnd. vlêschlik, vlêslîk, Adj., fleischlich
+flîtlîk%<adj%>:flîtlîk Adj-a-o-mono	;	!	flîtlîk?***, flît-lîk?***, as., Adj.: nhd. eifrig; ne. zealous (Adj.); W.: mnd. vlîtlîk, Adj., fleißig
+fluhtig%<adj%>:fluhtig Adj-a-o-mono	;	!	fluhtig* 2, flu-h-t-ig*, as., Adj.: nhd. flüchtig; ne. fugitive (Adj.); W.: mnd. vluchtich, Adj., flüchtig
+forht%<adj%>:forht Adj-a-o-mono	;	!	forht 7, forh-t, as., Adj.: nhd. furchtsam, in Furcht befindlich, erschreckt, bange; ne. timid (Adj.); W.: vgl. mnd. vrochte, vruchte, vorchte, M., Furcht
+forhtlîk%<adj%>:forhtlîk Adj-a-o-mono	;	!	forhtlîk* 1, forh-t-lîk*, as., Adj.: nhd. furchtbar, fürchterlich; ne. terrible (Adj.); W.: mnd. vrochtlik, vruchtlîk, Adj., fürchterlich
+formo%<adj%>:formo Adj-a-o-mono	;	!	formo* 4, for-m-o*, as., Adj., Num. Ord.: nhd. erste; ne. first (Num. Ord.); W.: mnd. vrome, vrom, Adj., erste
+frâ,%<adj%>:frâ, Adj-a-o-mono	;	!	frâ, frâh, frâ-h*, frô*, as., Adj.: nhd. froh, fröhlich, zuversichtlich; ne. glad (Adj.); W.: mnd. vrô, Adj., froh
+frânisk%<adj%>:frânisk Adj-a-o-mono	;	!	frânisk?***, frâ-n-isk?***, as., Adj.: nhd. herrlich; ne. glorious (Adj.)
+frâno%<adj%>:frâno Adj-a-o-mono	;	!	frâno* 5, frôno, frâ-n-o*, frô-n-o*, as., Adj.: nhd. herrschaftlich, öffentlich; ne. manorial (Adj.), public (Adj.); W.: mnd. vrône, vrôn, Adj., herrschaftlich, dem Hernn gehörig
+fravillîk%<adj%>:fravillîk Adj-a-o-mono	;	!	fravillîk?***, fraƀillîk?***, fravil-lîk?***, fraƀil-lîk?***, as., Adj.: nhd. starrsinnig; ne. stubborn (Adj.); W.: mnd. vrevellîk, vrevelîk, Adj., rücksichtslos, starrsinnig
+fravol%<adj%>:fravol Adj-a-o-mono	;	!	fravol* 1, fraƀol*, as., Adj.: nhd. hartnäckig, trotzig; ne. stubborn (Adj.), defiant (Adj.); W.: mnd. vrevel, Adj., mutig, tapfer
+frenkisk%<adj%>:frenkisk Adj-a-o-mono	;	!	frenkisk?***, fre-nk-isk?***, as., Adj.: nhd. fränkisch; ne. Franconian (Adj.)
+frêthig%<adj%>:frêthig Adj-a-o-mono	;	!	frêthig* 2, frêth-ig*, frêth-i*, as., Adj.: nhd. flüchtig; ne. fugitive (Adj.); W.: mnd. vreidich, Adj., wild, draufgängerisch
+frî%<adj%>:frî Adj-a-o-mono	;	!	frî?***, as., Adj.: nhd. frei; ne. free (Adj.); W.: mnd. vrî, Adj., frei, unabhängig
+frîlîk%<adj%>:frîlîk Adj-a-o-mono	;	!	frîlîk* (1) 1, frî-lîk*, as., Adj.: nhd. frei, edel, liebreich; ne. free (Adj.), noble (Adj.), graceful (Adj.); W.: mnd. vrîlîk, Adj., frei, unbehindert
+frisk%<adj%>:frisk Adj-a-o-mono	;	!	frisk?***, as., Adj.: nhd. frisch; ne. fresh (Adj.); W.: mnd. vrisch, Adj., frisch, neu, jung
+frithulôs%<adj%>:frithulôs Adj-a-o-mono	;	!	frithulôs?***, fri-th-u-lô-s?***, as., Adj.: nhd. friedlos; ne. peaceless (Adj.); W.: mnd. vrêdelôs, vrêdlôs, Adj., friedlos
+frithusam%<adj%>:frithusam Adj-a-o-mono	;	!	frithusam?***, fri-th-u-sam?***, as., Adj.: nhd. „friedsam“, friedlich; ne. peaceful (Adv.)
+friundlîk%<adj%>:friundlîk Adj-a-o-mono	;	!	friundlîk* 1, fri-u-n-d-lîk*, as., Adj.: nhd. freundlich; ne. friendly (Adj.); W.: mnd. vruntlîk, vrentlîk, Adj., freundlich
+frôd%<adj%>:frôd Adj-a-o-mono	;	!	frôd 12, as., Adj.: nhd. alt, weise, erfahren (Adj.); ne. old (Adj.), wise (Adj.); W.: mnd. vrôt, Adj., klug, erfahren (Adj.)
+frôkan%<adj%>:frôkan Adj-a-o-mono	;	!	frôkan?***, frôk-an?***, as., Adj.: nhd. kühn; ne. bold (Adj.)
+frôlîk%<adj%>:frôlîk Adj-a-o-mono	;	!	frôlîk?***, frô-lîk?***, as., Adj.: nhd. fröhlich; ne. glad (Adj.); W.: mnd. vrôlîk, Adj., fröhlich
+frômôd%<adj%>:frômôd Adj-a-o-mono	;	!	frômôd 3, frâmôd, frô-mô-d, frâ-mô-d, as., Adj.: nhd. frohgemut; ne. joyful (Adj.)
+frônisk%<adj%>:frônisk Adj-a-o-mono	;	!	frônisk* 1, frô-n-isk*, as., Adj.: nhd. herrlich, herrschaftlich, öffentlich; ne. glorious (Adj.), manorial (Adj.), public (Adj.)
+fûht%<adj%>:fûht Adj-a-o-mono	;	!	fûht* 1, fû-h-t*, as., Adj.: nhd. feucht; ne. damp (Adj.); W.: mnd. vucht, Adj., feucht
+ful%<adj%>:ful Adj-a-o-mono	;	!	ful (2) 11, full, foll, ful-l, fol, fol-l*, as., Adj.: nhd. voll, angefüllt, ganz, sehr; ne. full (Adj.), very (Adj.); W.: mnd. vul, Adj., voll, erfüllt, völlig
+fullîk%<adj%>:fullîk Adj-a-o-mono	;	!	fullîk?***, fulllîk?***, ful-lîk?***, ful-l-lîk?***, as., Adj.: nhd. völlig; ne. full (Adj.), complete (Adj.)
+furht%<adj%>:furht Adj-a-o-mono	;	!	furht*?, as., Adj.: nhd. furchtsam; ne. fearful (Adj.)
+furhtuwerth%<adj%>:furhtuwerth Adj-a-o-mono	;	!	furhtuwerth* 1, furht-u-wer-th*, as., Adj.: nhd. zu fürchen seiend, furchterregend; ne. frightening (Adj.)
+furisto%<adj%>:furisto Adj-a-o-mono	;	!	furisto* 11, fur-isto*, as., Adj., Num. Ord.: nhd. erste, höchste; ne. first (Num. Ord.), supreme (Adj.); W.: mnd. vorest, Adj., vôreste, Adj., vorderste (Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T., Bd. 3, 1971-1985, S. 1397a)
+furthiro%<adj%>:furthiro Adj-a-o-mono	;	!	furthiro* 1, fur-thi-ro*, as., Adj.: nhd. „vordere“, größere, vornehmere, recht; ne. greater (Adj.), right (Adj.); W.: mnd. vôrder, Adj., vordere (Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T., Bd. 3, 1971-1985, S. 1178b)
+fûs%<adj%>:fûs Adj-a-o-mono	;	!	fûs 3, as., Adj.: nhd. bereit; ne. ready (Adj.)
+gâhlîk%<adj%>:gâhlîk Adj-a-o-mono	;	!	gâhlîk?***, gâh-lîk?***, as., Adj.: nhd. jäh, schnell; ne. sudden (Adj.), quick (Adj.)
+galilêisk%<adj%>:galilêisk Adj-a-o-mono	;	!	galilêisk 1, galilê-isk, as., Adj.: nhd. galiläisch; ne. Galilean (Adj.)
+gamlîk%<adj%>:gamlîk Adj-a-o-mono	;	!	gamlîk* 1, gamanlîk, gam-lîk*, gam-an-lîk*, as., Adj.: nhd. freudig; ne. joyful (Adj.)
+garolîk%<adj%>:garolîk Adj-a-o-mono	;	!	garolîk?***, gar-o-lîk?***, as., Adj.: nhd. ganz, völlig; ne. whole (Adj.); W.: mnd. *garlîk?, Adj., ganz, völlig
+geginward%<adj%>:geginward Adj-a-o-mono	;	!	geginward* 7, geginwerd, gegin-war-d*, gegin-wer-d*, as., Adj.: nhd. gegenüber, gegenwärtig, offen; ne. opposite (Adj.), present (Adj.); W.: vgl. mnd. jegenwardich, Adj., gegenwärtig
+gêl%<adj%>:gêl Adj-a-o-mono	;	!	gêl* 2, as., Adj.: nhd. fröhlich, lustig, übermütig; ne. gay (Adj.); W.: mnd. geil, Adj., geil, laut (Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T., 1987, Bd. 4, 178)
+gêlhert%<adj%>:gêlhert Adj-a-o-mono	;	!	gêlhert 1, gêl-hert, as., Adj.: nhd. fröhlich, übermütig; ne. gay (Adj.)
+gêlmôd%<adj%>:gêlmôd Adj-a-o-mono	;	!	gêlmôd* 1, gêl-mô-d*, as., Adj.: nhd. fröhlich, übermütig; ne. gay (Adj.)
+gêlmôdig%<adj%>:gêlmôdig Adj-a-o-mono	;	!	gêlmôdig* 1, gêl-mô-d-ig*, as., Adj.: nhd. fröhlich, übermütig; ne. gay (Adj.)
+gelo%<adj%>:gelo Adj-a-o-mono	;	!	gelo* 3, gelu, gel-o*, gel-u*, as., Adj.: nhd. gelb; ne. yellow (Adj.); W.: vgl. mnd. gêl, Adj., gelb
+gelufaro%<adj%>:gelufaro Adj-a-o-mono	;	!	gelufaro* 1, gel-u-far-o*, as., Adj.: nhd. gelb; ne. yellow (Adj.); W.: mnd. gêlvâr, Adj., gelb (Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T., 1987, Bd. 4, S. 201)
+gên%<adj%>:gên Adj-a-o-mono	;	!	gên?***, g-ê-n?***, as., Adj., Indef.-Pron.: nhd. kein; ne. no (Adj.); W.: mnd. gên, gein, Indef.-Pron., kein
+gerag%<adj%>:gerag Adj-a-o-mono	;	!	gerag 2, ger-ag, as., Adj.: nhd. begierig; ne. greedy (Adj.); W.: vgl. mnd. gerich, Adj., begehrend
+gerdîn%<adj%>:gerdîn Adj-a-o-mono	;	!	gerdîn 1, gerd-în, as., Adj.: nhd. Gerten..., aus Gerten bestehend; ne. rod... (Adj.)
+gern%<adj%>:gern Adj-a-o-mono	;	!	gern 9, ger-n, as., Adj.: nhd. verlangend, begehrend; ne. desiring (Adj.); W.: vgl. mnd. gern, geren, Adv., gern, mit Freuden
+gêstlîk%<adj%>:gêstlîk Adj-a-o-mono	;	!	gêstlîk* 1, gê-s-t-lîk*, as., Adj.: nhd. geistig; ne. spiritual (Adj.), mental (Adj.); W.: mnd. *gêstlîk, Adj., geistig
+gibôgiandelîk%<adj%>:gibôgiandelîk Adj-a-o-mono	;	!	gibôgiandelîk* 1, gi-bôg-iande-lîk*, as., Adj.: nhd. biegsam; ne. flexible (Adj.)
+giburilîk%<adj%>:giburilîk Adj-a-o-mono	;	!	giburilîk* 1, gi-bur-i-lîk*, as., Adj.: nhd. gebührend, recht; ne. due (Adj.), right (Adj.); W.: mnd. gebôrlîk, Adj., gebührend
+gihâvidlîk%<adj%>:gihâvidlîk Adj-a-o-mono	;	!	gihâvidlîk?***, gihâƀidlîk?***, gi-hâ-v-id-lîk?***, gi-hâ-ƀ-id-lîk?***, as., Adj.: nhd. gelähmt; ne. paralysed (Adj.)
+gihêrod%<adj%>:gihêrod Adj-a-o-mono	;	!	gihêrod 2, gi-hê-r-od, as., Adj.: nhd. vornehm; ne. noble (Adj.)
+gihôrig%<adj%>:gihôrig Adj-a-o-mono	;	!	gihôrig 5, gi-hô-r-ig, as., Adj.: nhd. gehorsam; ne. obedient (Adj.); W.: mnd. gehörich, Adj., gehorsam
+gihôrsam%<adj%>:gihôrsam Adj-a-o-mono	;	!	gihôrsam?***, gi-hô-r-sam?***, as., Adj.: nhd. gehorsam; ne. obedient (Adj.)
+gilang%<adj%>:gilang Adj-a-o-mono	;	!	gilang* 2, gi-lang*, as., Adj.: nhd. bereit; ne. ready (Adj.)
+gilîk%<adj%>:gilîk Adj-a-o-mono	;	!	gilîk 16, gi-lîk, as., Adj.: nhd. gleich; ne. equal (Adj.); W.: vgl. mnd. gelîke, Adj., Adv., gleich
+gilôfsam%<adj%>:gilôfsam Adj-a-o-mono	;	!	gilôfsam* 1, gi-lôf-sam*, as., Adj.: nhd. glaublich; ne. credible (Adj.); W.: mnd. gelovesam, Adj., glaubhaft
+gilôvig%<adj%>:gilôvig Adj-a-o-mono	;	!	gilôvig?***, gilôƀig?***, gi-lôv-ig?***, gi-lôƀ-ig?***, as., Adj.: nhd. gläubig; ne. faithful (Adj.); W.: mnd. gelovich, Adj., gläubig
+gilumplîk%<adj%>:gilumplîk Adj-a-o-mono	;	!	gilumplîk 1, gi-lump-lîk, as., Adj.: nhd. passend; ne. suitable (Adj.)
+gimak%<adj%>:gimak Adj-a-o-mono	;	!	gimak? (2)***, gi-mak?***, as., Adj.: nhd. „gemach“, behaglich; ne. comfortable (Adj.); W.: mnd. gemak, Adj., bequem
+gimêd%<adj%>:gimêd Adj-a-o-mono	;	!	gimêd* 1, gi-mê-d*, as., Adj.: nhd. töricht, übermütig, leichtsinnig; ne. foolish (Adj.)
+gimêdlîk%<adj%>:gimêdlîk Adj-a-o-mono	;	!	gimêdlîk* 1, gi-mê-d-lîk*, as., Adj.: nhd. töricht, übermütig; ne. foolish (Adj.)
+gimet%<adj%>:gimet Adj-a-o-mono	;	!	gimet? (2)***, gi-me-t?***, as., Adj.: nhd. gemäß, passend; ne. suitable (Adj.)
+ginâthig%<adj%>:ginâthig Adj-a-o-mono	;	!	ginâthig 7, gi-nâ-th-ig, as., Adj.: nhd. gnädig; ne. merciful (Adj.); W.: mnd. genadich, Adj., gnädig (Gallée, J., Vorstudien zu einem altniederdeutschen Wörterbuch, 1903, S. 103)
+ginôg%<adj%>:ginôg Adj-a-o-mono	;	!	ginôg* 9, ginôgi, gi-nôg*, gi-nôg-i*, as., Adj.: nhd. genug, viel; ne. enough (Adj.), much (Adj.); W.: mnd. genôch, Adj., genug, hinreichend
+ginuhtsam%<adj%>:ginuhtsam Adj-a-o-mono	;	!	ginuhtsam?***, gi-nuh-t-sam?***, as., Adj.: nhd. genügend, voll; ne. sufficient (Adj.), abundant (Adj.); W.: mnd. genôchsam, Adj., hinreichend
+girstîn%<adj%>:girstîn Adj-a-o-mono	;	!	girstîn* 115, gerstîn, girst-în*, gerst-în*, as., Adj.: nhd. gersten; ne. barley (Adj.), of barley (Adj.); W.: mnd. gersten, Adj., gersten (Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T., Bd. 4, S. 291)
+gisihtiglîk%<adj%>:gisihtiglîk Adj-a-o-mono	;	!	gisihtiglîk?***, gi-sih-t-ig-lîk?***, as., Adj.: nhd. sichtbar; ne. visible (Adj.)
+gisund%<adj%>:gisund Adj-a-o-mono	;	!	gisund 14, gi-sund, as., Adj.: nhd. gesund, heil, unverletzt; ne. sound (Adj.); W.: mnd. gesunt, Adj., gesund
+giswâs%<adj%>:giswâs Adj-a-o-mono	;	!	giswâs* 1, giswâsi, gi-s-w-â-s*, gi-s-w-â-s-i*, as., Adj.: nhd. vertraut, verbündet; ne. familiar (Adj.), allied (Adj.)
+gital%<adj%>:gital Adj-a-o-mono	;	!	gital* (2) 1, gi-ta-l*, as., Adj.: nhd. schnell, behende; ne. quick (Adj.)
+githigan%<adj%>:githigan Adj-a-o-mono	;	!	githigan?***, gi-thig-an?***, as., Adj.: nhd. gediegen, erwachsen (Adj.); ne. pure (Adj.), adult (Adj.); W.: mnd. gedegen, Adj., gediegen, ausgewachsen, reif
+gividig%<adj%>:gividig Adj-a-o-mono	;	!	gividig* 6, giƀidig, giv-id-ig*, giƀ-id-ig*, as., Adj.: nhd. gegeben, beschert; ne. given (Adj.), granted (Adj.)
+giwaldig%<adj%>:giwaldig Adj-a-o-mono	;	!	giwaldig* 1, gi-wal-d-ig*, as., Adj.: nhd. gewaltig; ne. mighty (Adj.); W.: mnd. gewâldich, geweldich, gewôldich, Adj., gewaltig, Macht haben über, ermächtigt sein
+giwar%<adj%>:giwar Adj-a-o-mono	;	!	giwar* 5, gi-war*, as., Adj.: nhd. gewahr, vorsichtig; ne. aware (Adj.), careful (Adj.); W.: mnd. gewâr, Adj., gewahr
+giweldig%<adj%>:giweldig Adj-a-o-mono	;	!	giweldig* 1, gi-wel-d-ig*, as., Adj.: nhd. Gewalt habend, bevollmächtigt; ne. authorized (Adj.); W.: mnd. gewâldich, geweldich, gewôldich, Adj., gewaltig, Macht habend, ermächtigt
+giwirthig%<adj%>:giwirthig Adj-a-o-mono	;	!	giwirthig* 1, gi-wir-th-ig*, as., Adj.: nhd. würdig, wert, angenehm; ne. dignified (Adj.), worth (Adj.); W.: mnd. gewêrdich, Adj., würdig
+giwittig%<adj%>:giwittig Adj-a-o-mono	;	!	giwittig* 1, gi-wi-t-t-ig*, as., Adj.: nhd. verständig, weise; ne. wise (Adj.)
+giwono%<adj%>:giwono Adj-a-o-mono	;	!	giwono* (2) 2, giwuno, gi-won-o*, gi-wun-o*, as., Adj.: nhd. gewohnt (Adj.); ne. wont (Adj.); W.: mnd. gewône, gewôn, gewâne, Adj., gewohnt
+giwund%<adj%>:giwund Adj-a-o-mono	;	!	giwund* 1, gi-wu-n-d*, as., Adj.: nhd. wund, verwundet; ne. wounded (Adj.)
+glad%<adj%>:glad Adj-a-o-mono	;	!	glad?***, gla-d?***, as., Adj.: nhd. froh; ne. glad (Adj.); W.: mnd. glat, glad, gladd, Adj., glatt
+gladmôd%<adj%>:gladmôd Adj-a-o-mono	;	!	gladmôd 2, gladmôdi, gla-d-mô-d, gla-d-mô-d-i*, as., Adj.: nhd. fröhlich, frohgemut; ne. joyful (Adj.)
+glesîn%<adj%>:glesîn Adj-a-o-mono	;	!	glesîn* 1, gle-s-în*, as., Adj.: nhd. gläsern; ne. of glass (Adj.); W.: mnd. glêsen, glêsîn, Adj., gläsern
+gôd%<adj%>:gôd Adj-a-o-mono	;	!	gôd (2) 171, as., Adj.: nhd. gut, freundlich, herrlich, nützlich; ne. good (Adj.); W.: mnd. gût, gôt, Adj., gut
+godforht%<adj%>:godforht Adj-a-o-mono	;	!	godforht* 1, godforaht, go-d-forh-t*, go-d-forah-t*, as., Adj.: nhd. gottesfürchtig; ne. godfearing (Adj.); W.: mnd. gôdesvrucht, F., Gottesfurcht
+godkund%<adj%>:godkund Adj-a-o-mono	;	!	godkund* 2, go-d-kun-d*, as., Adj.: nhd. göttlich; ne. godlike (Adj.)
+godkunnilîk%<adj%>:godkunnilîk Adj-a-o-mono	;	!	godkunnilîk* 1, godkunniglîk, go-d-kun-n-i-lîk*, go-d-kun-n-i-g-lîk*, as., Adj.: nhd. göttlich; ne. godlike (Adj.)
+gôdlîk%<adj%>:gôdlîk Adj-a-o-mono	;	!	gôdlîk* 12, gôd-lîk*, as., Adj.: nhd. gut, herrlich; ne. good (Adj.), glorious (Adj.); W.: mnd. gôtlîk, Adj., gut, herrlich, gütig
+gôdwillig%<adj%>:gôdwillig Adj-a-o-mono	;	!	gôdwillig* 2, gôd-w-i-l-l-ig*, as., Adj.: nhd. guten Willens seiend, gutwillig; ne. of good (Adj.) will; W.: mnd. gôtwillich, Adj., freundlich, guten Willens seiend, gutwillig
+grâdag%<adj%>:grâdag Adj-a-o-mono	;	!	grâdag 5, grâd-ag, as., Adj.: nhd. gierig; ne. greedy (Adj.)
+gram%<adj%>:gram Adj-a-o-mono	;	!	gram 6, gra-m, as., Adj.: nhd. „gram“, feindselig, feindlich; ne. hostile (Adj.); W.: mnd. gram (2), Adj., unmutig, zornig, feindselig
+gramhard%<adj%>:gramhard Adj-a-o-mono	;	!	gramhard* 2, gra-m-har-d*, as., Adj.: nhd. feindselig; ne. hostile (Adj.)
+gramhert%<adj%>:gramhert Adj-a-o-mono	;	!	gramhert* 1, gra-m-hert*, as., Adj.: nhd. feindselig; ne. hostile (Adj.)
+gramhugdig%<adj%>:gramhugdig Adj-a-o-mono	;	!	gramhugdig 2, gra-m-hug-d-ig, as., Adj.: nhd. feindselig; ne. hostile (Adj.)
+grâo%<adj%>:grâo Adj-a-o-mono	;	!	grâo?***, as., Adj.: nhd. grau; ne. grey (Adj.); W.: mnd. grâ, graw, grau, Adj., grau
+grê%<adj%>:grê Adj-a-o-mono	;	!	grê?***, as., Adj.: nhd. grau; ne. grey (Adj.); W.: mnd. grâ, graw, grau, Adj., grau
+grim%<adj%>:grim Adj-a-o-mono	;	!	grim 20, grimm, as., Adj.: nhd. grimmig, feindlich, böse, widerwärtig, grausam; ne. grim (Adj.), hostile (Adj.); W.: mnd. grim, Adj., zähneknirschend, zornig, wütend
+grimlîk%<adj%>:grimlîk Adj-a-o-mono	;	!	grimlîk?***, grimmlîk?***, grim-lîk?***, grim-m-lîk?***, as., Adj.: nhd. „grimmig“, grausam; ne. cruel (Adj.)
+grimmag%<adj%>:grimmag Adj-a-o-mono	;	!	grimmag* 1, grim-m-ag*, as., Adj.: nhd. grimmig; ne. grim (Adj.); W.: mnd. grimmich, Adj., zornig
+griolîk%<adj%>:griolîk Adj-a-o-mono	;	!	griolîk?***, gri-o-lîk?***, as., Adj.: nhd. furchtbar; ne. terrible (Adj.); W.: mnd. grûwelîk, grûwlîk, grûlîk, gruelîk, Adj., grauenvoll, furchtbar
+grîs%<adj%>:grîs Adj-a-o-mono	;	!	grîs* 1, as., Adj.: nhd. greis, grau, altersgrau; ne. grey (Adj.); W.: mnd. grîs, Adj., grau
+grôt%<adj%>:grôt Adj-a-o-mono	;	!	grôt 15, grô-t, as., Adj.: nhd. groß, gewaltig, ausgedehnt, schwer, bedeutend; ne. great (Adj.); W.: mnd. grôt, Adj., groß, gewaltig
+guldîn%<adj%>:guldîn Adj-a-o-mono	;	!	guldîn* 2, gul-d-în*, as., Adj.: nhd. golden; ne. golden (Adj.); W.: mnd. gülden, gôlden, Adj., golden, aus Gold
+hâf%<adj%>:hâf Adj-a-o-mono	;	!	hâf 3, as., Adj.: nhd. gelähmt, lahm an den Händen; ne. paralyzed (Adj.)
+haft%<adj%>:haft Adj-a-o-mono	;	!	haft 17, haht, haf-t, hah-t*, as., Adj.: nhd. gefangen, gebunden, gefesselt, schwanger; ne. captured (Adj.), pregnant (Adj.)
+hâl%<adj%>:hâl Adj-a-o-mono	;	!	hâl?***, as., Adj.: nhd. hohl; ne. hollow (Adj.); W.: mnd. hol, Adj., hohl
+half%<adj%>:half Adj-a-o-mono	;	!	half (2) 9, hal-f, as., Adj.: nhd. halb; ne. half (Adj.); W.: mnd. half (1), Adj., halb, zur Hälfte
+halfdiorig%<adj%>:halfdiorig Adj-a-o-mono	;	!	halfdiorig* 1, hal-f-dior-ig*, as., Adj.: nhd. halbtierisch; ne. half beastly (Adj.)
+halt%<adj%>:halt Adj-a-o-mono	;	!	halt 5, hal-t, as., Adj.: nhd. lahm, fußlahm; ne. paralysed (Adj.); W.: mnd. halt (1), Adj., lahm
+handtâflîk%<adj%>:handtâflîk Adj-a-o-mono	;	!	handtâflîk* 2, hand-tâf-lîk*, as., Adj.: nhd. Schreibtafel-; ne. slate... (Adj.)
+hard%<adj%>:hard Adj-a-o-mono	;	!	hard (2) 23, har-d, as., Adj.: nhd. hart, schwer, scharf, böse, kühn, tapfer, stark; ne. hard (Adj.), heavy (Adj.), bad (Adj.); W.: mnd. hart, herde, Adj., hart, fest, kräftig
+hardlîk%<adj%>:hardlîk Adj-a-o-mono	;	!	hardlîk?***, har-d-lîk?***, as., Adj.: nhd. streng; ne. strict (Adj.); W.: mnd. hartlîk, hertlîk, Adj., hart, streng
+hardmôd%<adj%>:hardmôd Adj-a-o-mono	;	!	hardmôd* 1, har-d-mô-d*, as., Adj.: nhd. kühn; ne. bold (Adj.)
+hardmôdig%<adj%>:hardmôdig Adj-a-o-mono	;	!	hardmôdig 1, har-d-mô-d-ig, as., Adj.: nhd. kühn; ne. bold (Adj.)
+harm%<adj%>:harm Adj-a-o-mono	;	!	harm (2) 5, as., Adj.: nhd. schmerzlich, kummervoll; ne. painful (Adj.)
+harmlîk%<adj%>:harmlîk Adj-a-o-mono	;	!	harmlîk* 1, harm-lîk*, as., Adj.: nhd. schmerzlich; ne. painful (Adj.)
+hatilîn%<adj%>:hatilîn Adj-a-o-mono	;	!	hatilîn* 1, hat-i-l-în*, as., Adj.: nhd. verhasst; ne. odious (Adj.)
+hatul%<adj%>:hatul Adj-a-o-mono	;	!	hatul 1, hat-u-l, as., Adj.: nhd. feindselig, hasserfüllt, verhasst; ne. hostile (Adj.)
+hâwiblâo%<adj%>:hâwiblâo Adj-a-o-mono	;	!	hâwiblâo?***, hâ-w-i-blâ-o?***, as., Adj.: nhd. purpurblau; ne. purpleblue (Adj.)
+hêdar%<adj%>:hêdar Adj-a-o-mono	;	!	hêdar* 2, hê-d-ar*, as., Adj.: nhd. heiter, klar, hell, strahlend; ne. serene (Adj.)
+hêl%<adj%>:hêl Adj-a-o-mono	;	!	hêl (2) 13, as., Adj.: nhd. heil, ganz, unverletzt, gesund; ne. whole (Adj.), sane (Adj.); W.: mnd. hêil, heel, heyl, heil, hiel, Adj., heil, gesund, ganz
+hêlag%<adj%>:hêlag Adj-a-o-mono	;	!	hêlag 119, helig, halog, halag, hê-l-ag, hel-ig*, hal-og*, hal-ag, as., Adj.: nhd. heilig; ne. holy (Adj.); W.: mnd. hillich, hêilich, Adj., heilig
+hêlagferah%<adj%>:hêlagferah Adj-a-o-mono	;	!	hêlagferah* 1, hê-l-ag-fer-ah*, as., Adj.: nhd. heiligen Sinnes seiend, heiliggesinnt; ne. of holy mind (N.)
+hêlaglîk%<adj%>:hêlaglîk Adj-a-o-mono	;	!	hêlaglîk* 1, hê-l-ag-lîk*, as., Adj.: nhd. heilig; ne. holy (Adj.)
+hêlsam%<adj%>:hêlsam Adj-a-o-mono	;	!	hêlsam?***, hêl-sam?***, as., Adj.: nhd. „heilsam“, glücklich; ne. lucky (Adj.); W.: mnd. hêlsam, hêilsam, Adj., heilbringend, glückbringend
+hêr%<adj%>:hêr Adj-a-o-mono	;	!	hêr (2) 26, hê-r, as., Adj.: nhd. „hehr“, hoch, vornehm, heilig?; ne. high (Adj.), noble (Adj.); W.: mnd. hêr, hêre, Adj., hehr, erhaben, heilig
+hêrlîk%<adj%>:hêrlîk Adj-a-o-mono	;	!	hêrlîk* 2, hêrilîk, hê-r-lîk*, hê-r-i-lîk*, as., Adj.: nhd. „herrlich“, vornehm; ne. noble (Adj.); W.: mnd. hêrlîk, Adj., wie ein Herr, dem Herrn zustehend, herrlich, glänzend
+hêrrlîk%<adj%>:hêrrlîk Adj-a-o-mono	;	!	hêrrlîk* 1, hê-r-r-lîk*, as., Adj.: nhd. dem Herrn gehörig; ne. belonging (Adj.) to the lord; W.: mnd. hêrlîk, Adj., wie ein Herr, dem Herrn zustehend, herrlich, glänzend
+hertiglîk%<adj%>:hertiglîk Adj-a-o-mono	;	!	hertiglîk?***, hert-ig-lîk?***, as., Adj.: nhd. herzlich; ne. hearty (Adj.)
+herudrôrag%<adj%>:herudrôrag Adj-a-o-mono	;	!	herudrôrag 1, heru-drô-r-ag, as., Adj.: nhd. „schwertblutig“, blutig; ne. bloody (Adj.)
+herugrim%<adj%>:herugrim Adj-a-o-mono	;	!	herugrim 1, herugrimm, heru-grim, heru-grim-m, as., Adj.: nhd. grimmig, wild mit dem Schwert; ne. grim (Adj.)
+hesilîn%<adj%>:hesilîn Adj-a-o-mono	;	!	hesilîn* 1, hesil-în*, as., Adj.: nhd. „Hasel...“, Mandel...; ne. almond... (Adj.), hazel... (Adj.); W.: mnd. hêselen, Adj., Hasel-, aus Haselholz
+hêt%<adj%>:hêt Adj-a-o-mono	;	!	hêt (2) 10, hê-t, as., Adj.: nhd. heiß, brennend; ne. hot (Adj.); W.: mnd. hêt, heit, Adj., heiß
+hetigrim,%<adj%>:hetigrim, Adj-a-o-mono	;	!	hetigrim, hetigrimm 4, het-i-grim, het-i-grim-m 4, as., Adj.: nhd. grimmig, hasserfüllt, scharf angreifend; ne. grim (Adj.)
+hetilîk%<adj%>:hetilîk Adj-a-o-mono	;	!	hetilîk* 2, het-i-lîk*, as., Adj.: nhd. feindselig; ne. hostile (Adj.); W.: mnd. hêtelîk, hêtlîk, Adj., feindlich, voll Hass, zuwider
+hêthin%<adj%>:hêthin Adj-a-o-mono	;	!	hêthin 3, hêth-in, as., Adj.: nhd. heidnisch; ne. heathen (Adj.); W.: mnd. hêiden, Adj., heidnisch, unrein
+hevig%<adj%>:hevig Adj-a-o-mono	;	!	hevig* 1, heƀig, hev-ig*, heƀ-ig*, as., Adj.: nhd. schwer; ne. heavy (Adj.); W.: mnd. hêvich, Adj., heftig
+himilisk%<adj%>:himilisk Adj-a-o-mono	;	!	himilisk* 11, hi-mil-isk*, as., Adj.: nhd. himmlisch; ne. heavenly (Adj.); W.: mnd. hemmelesch, hemmelsch, hemmelisch, hêmelsch, himmelsch, Adj., vom Himmel kommend
+himillîk%<adj%>:himillîk Adj-a-o-mono	;	!	himillîk* 1, hi-mil-lîk*, as., Adj.: nhd. himmlisch; ne. heavenly (Adj.)
+hindiro%<adj%>:hindiro Adj-a-o-mono	;	!	hindiro* 1, hi-n-dir-o*, as., Adj. (Komp.): nhd. hintere; ne. back (Adj.); W.: s. mnd. hinder, Präp., hinter
+hindirskrenkig%<adj%>:hindirskrenkig Adj-a-o-mono	;	!	hindirskrenkig* 1, hi-n-dir-s-kre-nk-ig*, as., Adj.: nhd. hinterlistig; ne. cunning (Adj.)
+hiurlîk%<adj%>:hiurlîk Adj-a-o-mono	;	!	hiurlîk?***, hiu-r-lîk?***, as., Adj.: nhd. geheuer; ne. secure (Adj.)
+hlûd%<adj%>:hlûd Adj-a-o-mono	;	!	hlûd 7, hlû-d, as., Adj.: nhd. laut; ne. loud (Adj.); W.: mnd. lût (3), Adj., laut
+hluttar%<adj%>:hluttar Adj-a-o-mono	;	!	hluttar* 36, hlu-t-t-ar*, as., Adj.: nhd. lauter, rein, klar; ne. pure (Adj.); W.: mnd. lutter, lûter, Adj., lauter, rein, klar
+hluttarlîk%<adj%>:hluttarlîk Adj-a-o-mono	;	!	hluttarlîk?***, hlu-t-t-ar-lîk?***, as., Adj.: nhd. lauter, rein; ne. pure (Adj.); W.: mnd. lutterlîk, Adj., lauter, rein klar
+hôfdig%<adj%>:hôfdig Adj-a-o-mono	;	!	hôfdig?***, hôvdig?***, hôƀdig?, hôf-d-ig?***, hôv-d-ig?***, hôƀ-d-ig?***, as., Adj.: nhd. „häuptig“, köpfig; ne. ...headed (Adj.)
+hôh%<adj%>:hôh Adj-a-o-mono	;	!	hôh 41, hô-h, as., Adj.: nhd. hoch, hochragend, in der Höhe befindlich, vornehm, erhaben; ne. high (Adj.); W.: mnd. hô, hôch, Adj., hoch
+hôhilîk%<adj%>:hôhilîk Adj-a-o-mono	;	!	hôhilîk* 1, hô-h-i-lîk*, as., Adj.: nhd. lächerlich; ne. ridiculous (Adj.)
+hol%<adj%>:hol Adj-a-o-mono	;	!	hol* (2) 2, as., Adj.: nhd. hohl; ne. hollow (Adj.); W.: mnd. hol (2), Adj., hohl, leer
+hold%<adj%>:hold Adj-a-o-mono	;	!	hold 20, hol-d, as., Adj.: nhd. „hold“, ergeben (Adj.), gnädig, mild, lieb, zugetan, freundlich; ne. devoted (Adj.), graceful (Adj.); W.: mnd. holt, hold, hult, Adj., zugeneigt, gewogen, günstig gesinnt
+holdlîk%<adj%>:holdlîk Adj-a-o-mono	;	!	holdlîk* 1, hol-d-lîk*, as., Adj.: nhd. hold, angenehm, huldreich; ne. pleasant (Adj.); W.: mnd. hüldelîk, Adj., unter dem Schutz des Herrn stehend, dem Amtseid entsprechend
+hôn%<adj%>:hôn Adj-a-o-mono	;	!	hôn?***, hô-n?***, as., Adj.: nhd. schändlich, schimpflich; ne. shameful (Adj.); W.: mnd. hön, höne, Adj., schimpflich, zornig
+hônlîk%<adj%>:hônlîk Adj-a-o-mono	;	!	hônlîk 2, hô-n-lîk, as., Adj.: nhd. höhnisch, schändlich, schimpflich, schmachvoll; ne. shameful (Adj.); W.: mnd. hönlîk, hönelîk, Adj., höhnisch, schimpflich, schändlich
+horsk%<adj%>:horsk Adj-a-o-mono	;	!	horsk* 1, as., Adj.: nhd. klug, hurtig, eifrig; ne. clever (Adj.)
+hrâo%<adj%>:hrâo Adj-a-o-mono	;	!	hrâo* 2, as., Adj.: nhd. roh, ungemalzt; ne. raw (Adj.); W.: mnd. rô, Adj., roh, ungekocht
+hreoh%<adj%>:hreoh Adj-a-o-mono	;	!	hreoh*? 1, hreo-h*?, hrê*, as., Adj.: nhd. böse; ne. bad (Adj.)
+hrêolîk%<adj%>:hrêolîk Adj-a-o-mono	;	!	hrêolîk* 2, hrêlîk, h-rê-o-lîk*, h-rê-lîk*, as., Adj.: nhd. Leichen betreffend; ne. cadaverous (Adj.)
+hrîtherîn%<adj%>:hrîtherîn Adj-a-o-mono	;	!	hrîtherîn* 1, hrî-th-er-în*, as., Adj.: nhd. Rind..., vom Rind, rindern (Adj.); ne. beef... (Adj.); W.: mnd. rindern, Adj., vom Rind, rindern (Adj.)
+hriulîk%<adj%>:hriulîk Adj-a-o-mono	;	!	hriulîk?***, hriu-lîk?***, as., Adj.: nhd. traurig; ne. sad (Adj.)
+hriuwig%<adj%>:hriuwig Adj-a-o-mono	;	!	hriuwig* 10, hriu-w-i-g*, as., Adj.: nhd. traurig; ne. sad (Adj.)
+hriuwiglîk%<adj%>:hriuwiglîk Adj-a-o-mono	;	!	hriuwiglîk?***, hriu-w-i-g-lîk?***, as., Adj.: nhd. traurig; ne. sad (Adj.); W.: vgl. mnd. ruwelîk, Adj., traurig, betrübend
+hriuwigmôd%<adj%>:hriuwigmôd Adj-a-o-mono	;	!	hriuwigmôd* 2, hriu-w-i-g-mô-d*, as., Adj.: nhd. traurig; ne. sad (Adj.)
+hrômag%<adj%>:hrômag Adj-a-o-mono	;	!	hrômag 2, hrô-m-ag, as., Adj.: nhd. übermütig, freudig; ne. wanton (Adj.), joyful (Adj.)
+hrôr%<adj%>:hrôr Adj-a-o-mono	;	!	hrôr 1, hrô-r, as., Adj.: nhd. rührig; ne. agile (Adj.)
+hrottag%<adj%>:hrottag Adj-a-o-mono	;	!	hrottag* 3, hrodach*?, hro-t-t-ag*, hro-d-ach*?, as., Adj.: nhd. rotzig, schleimig; ne. snotty (Adj.)
+hugdig%<adj%>:hugdig Adj-a-o-mono	;	!	hugdig?***, hug-d-ig?***, as., Adj.: nhd. gesinnt; ne. minded (Adj.)
+hungrag%<adj%>:hungrag Adj-a-o-mono	;	!	hungrag* 1, hung-r-ag*, as., Adj.: nhd. hungrig; ne. hungry (Adj.); W.: mnd. hungerich, hungrich, Adj., hungrig
+hwas%<adj%>:hwas Adj-a-o-mono	;	!	hwas* 3, hwass, hwas-s*, as., Adj.: nhd. scharf, rauh; ne. sharp (Adj.), rough (Adj.)
+hwat%<adj%>:hwat Adj-a-o-mono	;	!	hwat? (1)***, as., Adj.: nhd. scharf, kühn; ne. sharp (Adj.), bold (Adj.)
+hwît%<adj%>:hwît Adj-a-o-mono	;	!	hwît* 12, hwî-t*, as., Adj.: nhd. weiß, glänzend, nicht ausgelassen; ne. white (Adj.), shining (Adj.); W.: mnd. wît, Adj., weiß
+îdal%<adj%>:îdal Adj-a-o-mono	;	!	îdal 4, as., Adj.: nhd. eitel, nichtig, töricht, leer; ne. vane (Adj.); W.: mnd. idel, Adj., leer, pur, eitel, nichtig
+inburdig%<adj%>:inburdig Adj-a-o-mono	;	!	inburdig* 1, in-burd-ig*, as., Adj.: nhd. eingeboren (Adj.); ne. native (Adj.)
+irmin%<adj%>:irmin Adj-a-o-mono	;	!	irmin?***, irm-in?***, as., Adj.: nhd. groß; ne. great (Adj.), big (Adj.)
+îsarnîn%<adj%>:îsarnîn Adj-a-o-mono	;	!	îsarnîn 1, îs-arn-în, as., Adj.: nhd. eisern; ne. iron (Adj.); W.: mnd. îsern, Adj., eisern
+jâmar%<adj%>:jâmar Adj-a-o-mono	;	!	jâmar* 3, giâmar, jâm-ar*, g-iâm-ar, as., Adj.: nhd. „jammervoll“, traurig; ne. sad (Adj.); W.: s. mnd. jamer, jammer, M., N., Jammer
+jâmarlîk%<adj%>:jâmarlîk Adj-a-o-mono	;	!	jâmarlîk* 1, giâmarlîk, jâm-ar-lîk*, g-iâm-ar-lîk*, as., Adj.: nhd. „jämmerlich“, jammervoll; ne. miserable (Adj.); W.: mnd. jâmerlîk, Adj., jämmerlich, nothaft
+jâmarmôd%<adj%>:jâmarmôd Adj-a-o-mono	;	!	jâmarmôd* 5, giâmermôd, jâm-ar-mô-d*, g-iâm-er-mô-d*, as., Adj.: nhd. traurig, betrübt; ne. sad (Adj.)
+judeisk%<adj%>:judeisk Adj-a-o-mono	;	!	judeisk* 2, jude-isk*, as., Adj.: nhd. jüdisch; ne. Jewish (Adj.); W.: mnd. jödisch, jöddisch, jüdisch, Adj., jüdisch
+jung%<adj%>:jung Adj-a-o-mono	;	!	jung* 20, ju-n-g*, as., Adj.: nhd. jung; ne. young (Adj.); W.: mnd. junc, Adj., jung
+kald%<adj%>:kald Adj-a-o-mono	;	!	kald 4, kal-d, as., Adj.: nhd. kalt; ne. cold (Adj.); W.: mnd. kôlt, kalt, Adj., kalt
+karag%<adj%>:karag Adj-a-o-mono	;	!	karag?***, kar-a-g?***, as., Adj.: nhd. kummervoll; ne. mournful (Adj.)
+karkarlîk%<adj%>:karkarlîk Adj-a-o-mono	;	!	karkarlîk* 1, karkar-lîk*, as., Adj.: nhd. kerkerlich; ne. dungeon... (Adj.)
+kêsurlîk%<adj%>:kêsurlîk Adj-a-o-mono	;	!	kêsurlîk* 1, kiasarlîk, kêsur-lîk*, kiasar-lîk*, as., Adj.: nhd. kaiserlich; ne. imperial (Adj.); W.: mnd. keiserlîk, keyserlîk, Adj., kaiserlich
+kindisk%<adj%>:kindisk Adj-a-o-mono	;	!	kindisk* 2, kin-d-isk*, as., Adj.: nhd. kindlich, jung; ne. childish (Adj.), young (Adj.)
+kindjung%<adj%>:kindjung Adj-a-o-mono	;	!	kindjung* 10, kin-d-ju-n-g*, as., Adj.: nhd. kindlich jung, sehr jung; ne. very young (Adj.)
+klênlistig%<adj%>:klênlistig Adj-a-o-mono	;	!	klênlistig* 1, klê-n-lis-t-ig*, as., Adj.: nhd. klug, sehr klug, schlau, geschickt, höchst geschickt; ne. clever (Adj.), skillfull (Adj.); W.: mnd. klêinlistich, Adj., klug, schlau, geschickt
+kraftag%<adj%>:kraftag Adj-a-o-mono	;	!	kraftag* 36, kraftig, kra-f-t-ag*, kra-f-t-ig*, as., Adj.: nhd. kräftig, stark; ne. powerful (Adj.); W.: mnd. kreftich, kraftich, Adj., kräftig, stark
+kraftaglîk%<adj%>:kraftaglîk Adj-a-o-mono	;	!	kraftaglîk?***, kra-f-t-ag-lîk?***, as., Adj.: nhd. „kräftig“, gewaltig; ne. mighty (Adj.); W.: mnd. kreftichlîk, Adj., kräftig, stark
+kraftlîk%<adj%>:kraftlîk Adj-a-o-mono	;	!	kraftlîk?***, kra-f-t-lîk?***, as., Adj.: nhd. gewaltig; ne. mighty (Adj.)
+kristîn%<adj%>:kristîn Adj-a-o-mono	;	!	kristîn* 1, kri-st-în*, as., Adj.: nhd. christlich; ne. christian (Adj.)
+krumb%<adj%>:krumb Adj-a-o-mono	;	!	krumb* 2, kru-m-b*, as., Adj.: nhd. krumm, gebeugt, hakenförmig; ne. bent (Adj.); W.: mnd. krum, krumm, Adj., krumm, gebogen
+kûmlîk%<adj%>:kûmlîk Adj-a-o-mono	;	!	kûmlîk* 1, kû-m-lîk*, as., Adj.?: nhd. passend; ne. fitting (Adj.); W.: s. mnd. kômenlîk, Adj., herkömmlich, überkommen (Adj.)
+kurt%<adj%>:kurt Adj-a-o-mono	;	!	kurt?***, kur-t?***, as., Adj.: nhd. kurz; ne. short (Adj.); W.: mnd. kort, Adj., kurz, untersetzt, klein
+kûth%<adj%>:kûth Adj-a-o-mono	;	!	kûth* 20, kû-th*, as., Adj.: nhd. kund, bekannt; ne. known (Adj.)
+kûthlîk%<adj%>:kûthlîk Adj-a-o-mono	;	!	kûthlîk?***, kû-th-lîk?***, as., Adj.: nhd. deutlich; ne. clear (Adj.)
+kwâd%<adj%>:kwâd Adj-a-o-mono	;	!	kwâd?***, quâd?***, as., Adj.: nhd. schlecht, böse; ne. bad (Adj.)
+kwekilîk%<adj%>:kwekilîk Adj-a-o-mono	;	!	kwekilîk* 1, quekilîk, kwe-k-i-lîk*, que-k-i-lîk*, as., Adj.: nhd. beweglich; ne. mobile (Adj.)
+kwik%<adj%>:kwik Adj-a-o-mono	;	!	kwik 16, kwek, quik, quek, kwi-k, kwe-k*, qui-k, que-k*, as., Adj.: nhd. „quick“, lebendig, lebend; ne. alive (Adj.)
+lam%<adj%>:lam Adj-a-o-mono	;	!	lam 1, as., Adj.: nhd. lahm, gelähmt, verdorrt; ne. lame (Adj.); W.: mnd. lam, Adj., lahm, gelähmt
+lang%<adj%>:lang Adj-a-o-mono	;	!	lang* (1) 38, as., Adj.: nhd. lang; ne. long (Adj.); W.: mnd. lanc, lang, lanch, Adj., lang
+langsam%<adj%>:langsam Adj-a-o-mono	;	!	langsam 12, lang-sam, as., Adj.: nhd. langwährend, ewig; ne. long (Adj.), eternal (Adj.); W.: mnd. lancsam, lencsam, Adj., langsam, langdauernd
+lat%<adj%>:lat Adj-a-o-mono	;	!	lat 16, la-t, as., Adj.: nhd. träge, spät, lässig, saumselig; ne. lazy (Adj.); W.: mnd. lat, Adj., lässig, langsam, nachlässig
+lêf%<adj%>:lêf Adj-a-o-mono	;	!	lêf (2) 4, lê-f, as., Adj.: nhd. krank, schwach, gebrechlich; ne. sick (Adj.), weak (V.)
+legarfast%<adj%>:legarfast Adj-a-o-mono	;	!	legarfast 1, leg-ar-fast, as., Adj.: nhd. bettlägerig, krank; ne. bedridden (Adj.)
+lêth%<adj%>:lêth Adj-a-o-mono	;	!	lêth (2) 42, as., Adj.: nhd. „leid“, widerwärtig, verhasst, böse, bösartig, übel, feindlich; ne. disgusting (Adj.), bad (Adj.); W.: mnd. lêt, leit, Adj., schmerzlich, böse, schlecht
+lethig%<adj%>:lethig Adj-a-o-mono	;	!	lethig?***, leth-ig?***, as., Adj.: nhd. „ledig“, müßig; ne. idle (Adj.)
+lêthlîk%<adj%>:lêthlîk Adj-a-o-mono	;	!	lêthlîk* 3, lêth-lîk*, as., Adj.: nhd. böse, schmerzlich, strafend; ne. bad (Adj.), painful (Adj.); W.: mnd. lêtlîk, leitlîk, Adj., hässlich, unschön, abstoßend
+levindig%<adj%>:levindig Adj-a-o-mono	;	!	levindig* 1, leƀindig, levin-d-ig*, leƀin-d-ig*, as., Adj.: nhd. lebendig; ne. alive (Adj.); W.: mnd. levendich, Adj., lebend, lebendig
+lezto%<adj%>:lezto Adj-a-o-mono	;	!	lezto*, lez-t-o*, as., Adj.: nhd. letzte; ne. last (Adj.)
+lîflôs%<adj%>:lîflôs Adj-a-o-mono	;	!	lîflôs* 1, lî-f-lô-s*, as., Adj.: nhd. leblos; ne. lifeless (Adj.); W.: mnd. lîflôs, Adj., leblos
+lîht%<adj%>:lîht Adj-a-o-mono	;	!	lîht?***, as., Adj.: nhd. leicht; ne. light (Adj.); W.: mnd. licht, Adj., leicht, flink
+lîhtlîk%<adj%>:lîhtlîk Adj-a-o-mono	;	!	lîhtlîk* 1, lîht-lîk*, as., Adj.: nhd. leicht, gering, schlecht; ne. light (Adj.), inferior (Adj.); W.: mnd. lichtlîk, Adj., leicht, leicht ertragbar
+lînîn%<adj%>:lînîn Adj-a-o-mono	;	!	lînîn 4, lîn-în, as., Adj.: nhd. leinen (Adj.), linnen; ne. linen (Adj.); W.: mnd. lînen, Adj., leinen, linnen
+liof%<adj%>:liof Adj-a-o-mono	;	!	liof (1) 46, liab* (1), as., Adj.: nhd. lieb, geliebt, wert, freundlich; ne. dear (Adj.), kind (Adj.); W.: mnd. lêf, Adj., lieb, wert, beliebt, willkommen
+lioflîk%<adj%>:lioflîk Adj-a-o-mono	;	!	lioflîk* 8, liof-lîk*, as., Adj.: nhd. lieblich, schön, freundlich; ne. lovely (Adj.); W.: mnd. lêflîk, Adj., lieb, liebenswert
+lioht%<adj%>:lioht Adj-a-o-mono	;	!	lioht (2) 8, lioh-t, as., Adj.: nhd. licht, glänzend, hell, klar, aufrichtig; ne. light (Adj.), bright (Adj.); W.: mnd. licht, Adj., hell, leuchtend
+listig%<adj%>:listig Adj-a-o-mono	;	!	listig?***, lis-t-ig?***, as., Adj.: nhd. „listig“, klug; W.: mnd. listich, Adj., listig, klug
+litharîn%<adj%>:litharîn Adj-a-o-mono	;	!	litharîn* 1, lithar-în*, as., Adj.: nhd. ledern (Adj.); ne. leather (Adj.)
+lofsâlig%<adj%>:lofsâlig Adj-a-o-mono	;	!	lofsâlig 1, lof-sâl-ig, as., Adj.: nhd. „lobseelig“, gepriesen; ne. praised (Adj.); W.: mnd. lofsâlich, Adj., glaubwürdig
+lofsam%<adj%>:lofsam Adj-a-o-mono	;	!	lofsam* 1, lof-sam*, as., Adj.: nhd. lobwürdig; ne. praiseworthy (Adj.); W.: mnd. lovesam, Adj., lobenswert, vortrefflich
+lôs%<adj%>:lôs Adj-a-o-mono	;	!	lôs 18, lô-s, as., Adj.: nhd. los, ledig, frei; ne. loose (Adj.), free (Adj.); W.: mnd. lôs, Adj., los, frei, ungebunden
+luginlîk%<adj%>:luginlîk Adj-a-o-mono	;	!	luginlîk* 2, lug-in-lîk*, as., Adj.: nhd. lügnerisch, trügerisch; ne. deceitful (Adj.); W.: mnd. lögenlîk, Adj., lügnerisch, trügerisch
+lungar%<adj%>:lungar Adj-a-o-mono	;	!	lungar* 4, lu-n-g-ar*, as., Adj.: nhd. kräftig, stark; ne. strong (Adj.)
+lustsam%<adj%>:lustsam Adj-a-o-mono	;	!	lustsam* 1, lu-s-t-sam*, as., Adj.: nhd. erfreulich; ne. pleasant (Adj.); W.: mnd. lustsam, Adj., freundlich, lieblich
+lût%<adj%>:lût Adj-a-o-mono	;	!	lût 1, as., Adj.: nhd. wenig, gering; ne. little (Adj.)
+luttik%<adj%>:luttik Adj-a-o-mono	;	!	luttik* 2, lut-t-ik*, as., Adj.: nhd. wenig, klein; ne. little (Adj.); W.: mnd. lüttik, lutich, lüttinc, Adj., klein, gering, wenig
+luttil%<adj%>:luttil Adj-a-o-mono	;	!	luttil 8, lut-t-il, as., Adj.: nhd. wenig, klein, gering; ne. little (Adj.); W.: mnd. lüttel, Adj., klein, gering, wenig
+luvig%<adj%>:luvig Adj-a-o-mono	;	!	luvig* 3, luƀig, liuvig, liuƀig, luv-ig*, luƀ-ig*, liuv-ig*, liuƀ-ig*, as., Adj.: nhd. willig; ne. willing (Adj.)
+magujung%<adj%>:magujung Adj-a-o-mono	;	!	magujung* 3, mag-u-ju-n-g*, as., Adj.: nhd. jung; ne. young (Adj.)
+mahtig%<adj%>:mahtig Adj-a-o-mono	;	!	mahtig* 98, mehtig, maht-ig*, meht-ig*, as., Adj.: nhd. mächtig, gewaltig; ne. mighty (Adj.); W.: mnd. mechtich, machtich, Adj., mächtig, überlegen (Adj.), einflussreich
+mahtiglîk%<adj%>:mahtiglîk Adj-a-o-mono	;	!	mahtiglîk* 2, maht-ig-lîk*, as., Adj.: nhd. mächtig, gewaltig; ne. mighty (Adj.)
+malsk%<adj%>:malsk Adj-a-o-mono	;	!	malsk* 1, mal-s-k*, as., Adj.: nhd. übermütig; ne. wanton (Adj.)
+manag%<adj%>:manag Adj-a-o-mono	;	!	manag 152, m-a-n-a-g, as., Adj., Pron.: nhd. manch, viel; ne. some (Adj. bzw. Pron.), much (Adj.), many (Adj.); W.: mnd. mannich, Adj., manch
+managfald%<adj%>:managfald Adj-a-o-mono	;	!	managfald* 2, m-a-n-a-g-fal-d*, as., Adj.: nhd. mannigfaltig; ne. manifold (Adj.); W.: mnd. manichvolt, mannichvalt, Adj., viel, vielfach, mannigfach
+mânuthlîk%<adj%>:mânuthlîk Adj-a-o-mono	;	!	mânuthlîk* 1, mâ-nuth-lîk*, as., Adj.: nhd. monatlich; ne. monthly (Adj.); W.: mnd. mântlîk, mânetlîk, Adj., monatlich
+mânuthwendig%<adj%>:mânuthwendig Adj-a-o-mono	;	!	mânuthwendig* 1, mâ-nuth-w-e-nd-ig*, as., Adj.: nhd. „mondwendig“, mondsüchtig, epileptisch; ne. lunatic (Adj.)
+mapuldrîn%<adj%>:mapuldrîn Adj-a-o-mono	;	!	mapuldrîn* 3, mapuldr-în*, as., Adj.: nhd. Ahorn...; ne. maple...
+mârilîk%<adj%>:mârilîk Adj-a-o-mono	;	!	mârilîk*, mârlîk* 1, mâ-r-i-lîk*, mâ-r-lîk* 1, as., Adj.: nhd. ruhmvoll, herrlich; ne. glorious (Adj.)
+marthrîn%<adj%>:marthrîn Adj-a-o-mono	;	!	marthrîn?***, marth-r-în?***, as., Adj.: nhd. Marder...; ne. merten... (Adj.); W.: s. mnd. marten, Adj., aus Marderfell gemacht, Marder...
+mêndâdig%<adj%>:mêndâdig Adj-a-o-mono	;	!	mêndâdig* 2, mên-dâ-d-ig*, as., Adj.: nhd. frevlerisch; ne. malicious (Adj.); W.: mnd. mêndêdich, meindêdich, Adj., verbrecherisch
+mênful,%<adj%>:mênful, Adj-a-o-mono	;	!	mênful, mênfull 1, mê-n-ful, mê-n-ful-l 1, as., Adj.: nhd. „meinvoll“, verbrecherisch; ne. criminal (Adj.)
+mênfullig%<adj%>:mênfullig Adj-a-o-mono	;	!	mênfullig* 2, mê-n-ful-l-ig*, as., Adj.: nhd. „meinvoll“, verbrecherisch; ne. criminal (Adj.)
+mênhwat%<adj%>:mênhwat Adj-a-o-mono	;	!	mênhwat* 2, mê-n-hwat*, as., Adj.: nhd. frevlerisch; ne. malicious (Adj.)
+menisk%<adj%>:menisk Adj-a-o-mono	;	!	menisk* 4, mennisk, manisk, men-isk*, men-n-isk*, man-isk*, as., Adj.: nhd. menschlich; ne. human (Adj.)
+mêr%<adj%>:mêr Adj-a-o-mono	;	!	mêr 48, mê-r, as., Adj., Adv.: nhd. mehr, ferner; ne. more (Adj. bzw. Adv.), further (Adj. bzw. Adv.); W.: mnd. mêr, Adj. (Komp.), mehr
+mêrmahtig%<adj%>:mêrmahtig Adj-a-o-mono	;	!	mêrmahtig*?, mê-r-maht-ig*?, as., Adj.: nhd. tyrannisch; ne. tyrannous (Adj.)
+mêro%<adj%>:mêro Adj-a-o-mono	;	!	mêro* 17, mê-r-o*, as., Adj. (Komp.): nhd. mehr, größere, höhere; ne. more (Adj. Komp.), bigger (Adj. Komp.); W.: mnd. mêre, Adj. (Komp.), mehr
+mêste%<adj%>:mêste Adj-a-o-mono	;	!	mêste 27, mê-s-t-e, mê-s-t, as., Adj. Superl., Adv. Superl.: nhd. meiste, größte; ne. most (Adj. Superl. bzw. Adv. Superl.); W.: s. mnd. mêste, meiste, Adj. (Superl.)
+mêstig%<adj%>:mêstig Adj-a-o-mono	;	!	mêstig? (1)***, mê-s-t-ig?***, as., Adj.: nhd. meiste; ne. most (Adj.)
+met%<adj%>:met Adj-a-o-mono	;	!	met? (2)***, me-t?***, as., Adj.: nhd. mäßig; ne. moderate (Adj.)
+metlîk%<adj%>:metlîk Adj-a-o-mono	;	!	metlîk* 1, me-t-lîk*, as., Adj.: nhd. passend; ne. suitable (Adj.)
+methertiglîk%<adj%>:methertiglîk Adj-a-o-mono	;	!	methertiglîk* 1, me-t-hert-ig-lîk*, as., Adj.: nhd. bescheiden (Adj.); ne. modest (Adj.)
+middil%<adj%>:middil Adj-a-o-mono	;	!	middil? (1)***, mi-d-d-il?***, as., Adj.: nhd. mittel, mittlere; ne. middle (Adj.); W.: mnd. middel, Adj., mittlere, in der Mitte befindlich
+mikil%<adj%>:mikil Adj-a-o-mono	;	!	mikil 131, mik-il, as., Adj.: nhd. groß, gewaltig, viel; ne. huge (Adj.); W.: mnd. mekel., Adj., groß; W.: mnd. michel, Adj., groß, gewaltig
+mildlîk%<adj%>:mildlîk Adj-a-o-mono	;	!	mildlîk?***, mil-d-lîk?***, as., Adj.: nhd. „mild“, freundlich, freigebig; ne. kind (Adj.)
+minniro%<adj%>:minniro Adj-a-o-mono	;	!	minniro* 3, mi-n-n-iro*, as., Adj. (Komp.): nhd. mindere, kleinere; ne. less (Adj. Komp.), smaller (Adj. Komp.); W.: mnd. minnere, mindere, Adj. (Komp.), „mindere“, wenigere, kleinere
+minnisto%<adj%>:minnisto Adj-a-o-mono	;	!	minnisto* 3, mi-n-n-isto*, as., Adj. (Superl.): nhd. geringste; ne. lowest (Adj. Superl.); W.: mnd. minneste, minste, Adj. (Superl.), mindeste, wenigste
+mis%<adj%>:mis Adj-a-o-mono	;	!	mis?***, mi-s?***, as., Adj., Präf.: nhd. miss...; ne. mis... (Präf.); W.: mnd. mis-, Präf., miss...
+mishliumandig%<adj%>:mishliumandig Adj-a-o-mono	;	!	mishliumandig* 1, mishliumundig, mi-s-hliu-man-d-ig*, mi-s-hliu-mun-d-ig*, as., Adj.: nhd. übelberüchtigt; ne. illfamed (Adj.)
+mislîk%<adj%>:mislîk Adj-a-o-mono	;	!	mislîk* 7, mi-s-lîk*, as., Adj.: nhd. verschieden, zahlreich; ne. various (Adj.), numerous (Adj.); W.: mnd. mislîk, Adj., zweifelhaft, unsicher
+missifaro%<adj%>:missifaro Adj-a-o-mono	;	!	missifaro* 1, mi-s-si-far-o*, as., Adj.: nhd. verschiedenfarbig, bunt; ne. colourful (Adj.)
+missilîk%<adj%>:missilîk Adj-a-o-mono	;	!	missilîk* 1, mi-s-si-lîk*, as., Adj.: nhd. verschieden, zahlreich; ne. various (Adj.), numerous (Adj.)
+missituhtig%<adj%>:missituhtig Adj-a-o-mono	;	!	missituhtig* 1, mi-s-si-tu-h-t-ig*, as., Adj.: nhd. „misszüchtig“, ungezogen; ne. naughty (Adj.)
+môd%<adj%>:môd Adj-a-o-mono	;	!	môd (2), mô-d, môdi?***, as., Adj., Suff.: nhd. mütig (Suff.); ne. tempered (Suff.), tempered (Adj.)
+môdag%<adj%>:môdag Adj-a-o-mono	;	!	môdag 13, môdig, môd-ag, môd-ig*, as., Adj.: nhd. zornig; ne. furious (Adj.); W.: mnd. môdich, Adj., mutig, beherzt, streng, hitzig
+môdkarag%<adj%>:môdkarag Adj-a-o-mono	;	!	môdkarag* 2, mô-d-kar-a-g*, as., Adj.: nhd. bekümmert; ne. sad (Adj.)
+môdspâh%<adj%>:môdspâh Adj-a-o-mono	;	!	môdspâh* 1, môdspâhi, mô-d-spâh*, mô-d-spâh-i*, as., Adj.: nhd. klug; ne. clever (Adj.)
+môdstark%<adj%>:môdstark Adj-a-o-mono	;	!	môdstark* 1, mô-d-s-tar-k*, as., Adj.: nhd. feindselig, böse; ne. hostile (Adj.)
+munilîk%<adj%>:munilîk Adj-a-o-mono	;	!	munilîk* 3, munalîk, muni-lîk*, muna-lîk*, as., Adj.: nhd. lieblich; ne. delightful (Adj.)
+nâh%<adj%>:nâh Adj-a-o-mono	;	!	nâh (1) 12, nâ-h, as., Adj.: nhd. nahe; ne. near (Adj.); W.: mnd. nâ, nâch, Adj., nahe
+ne%<adj%>:ne Adj-a-o-mono	;	!	ne 782, ni, as., Adj., Konj., Negationspartikel: nhd. nicht, dass nicht; ne. not (Konj.), not to do; W.: mnd. ne, Adv., Negationspartikel, nicht
+nîthhugdig%<adj%>:nîthhugdig Adj-a-o-mono	;	!	nîthhugdig 2, nî-th-hug-d-ig, as., Adj.: nhd. feindselig; ne. hostile (Adj.)
+nîthhwat%<adj%>:nîthhwat Adj-a-o-mono	;	!	nîthhwat* 3, nî-th-hwat*, as., Adj.: nhd. feindselig; ne. hostile (Adj.)
+nîthin%<adj%>:nîthin Adj-a-o-mono	;	!	nîthin 1, nî-th-in, as., Adj.: nhd. feindselig; ne. hostile (Adj.)
+nithiro%<adj%>:nithiro Adj-a-o-mono	;	!	nithiro* 2, ni-th-ir-o*, as., Adj.: nhd. niedere, niedrig, untere; ne. lower (Adj. Komp.), bottom (Adj.)
+niudlîk%<adj%>:niudlîk Adj-a-o-mono	;	!	niudlîk?***, niu-d-lîk?***, as., Adj.: nhd. eifrig, sorgfältig; ne. eager (Adj.); W.: mnd. nütlîk, Adj., nützlich, brauchbar
+niudsam%<adj%>:niudsam Adj-a-o-mono	;	!	niudsam* 1, niu-d-sam*, as., Adj.: nhd. hübsch, niedlich; ne. pretty (Adj.), sweet (Adj.)
+nôdag%<adj%>:nôdag Adj-a-o-mono	;	!	nôdag?***, nô-d-ag?***, as., Adj.: nhd. zwangsweise, gewaltsam; ne. obligatory (Adj.); W.: s. mnd. nödich, Adj., nötig
+nôg%<adj%>:nôg Adj-a-o-mono	;	!	nôg?***, nôgi?, nôg-i?***, as., Adj.: nhd. nug (Suff.), genügend; ne. nough (Suff.), enough (Adj.)
+ôdag%<adj%>:ôdag Adj-a-o-mono	;	!	ôdag 9, ô-d-ag, as., Adj.: nhd. reich; ne. wealthy
+ôflîk%<adj%>:ôflîk Adj-a-o-mono	;	!	ôflîk* 1, ôf-lîk*, as., Adj.: nhd. zierlich; ne. elegant (Adj.); W.: s. mnd. *ôflîk, Adj., üppig; s. mnd. ôflîke, Adv., üppig
+opan%<adj%>:opan Adj-a-o-mono	;	!	opan* 7, op-a-n*, as., Adj.: nhd. offen, deutlich, aufrichtig, klar, aufgeschlossen; ne. open (Adj.), obvious (Adj.); W.: mnd. open, Adj., offen, unverschlossen
+opanlîk%<adj%>:opanlîk Adj-a-o-mono	;	!	opanlîk?***, op-a-n-lîk?***, as., Adj.: nhd. öffentlich; ne. public (Adj.); W.: mnd. öpenlîk, öpentlîk, Adj., öffentlich
+ôstar%<adj%>:ôstar Adj-a-o-mono	;	!	ôstar (1) 3, ôs-t-a-r, as., Adj.: nhd. östlich, ostwärts; ne. eastward (Adj.); W.: mnd. ôster, Adj., östlich, im Osten gelegen
+ôthar%<adj%>:ôthar Adj-a-o-mono	;	!	ôthar 99, âthar, âther, andar, ô-th-ar, â-th-ar*, â-th-er*, an-d-ar, as., Adj.: nhd. andere; ne. other (Adj.); W.: mnd. ander, Adj., zweite, andere
+ôtharhalf%<adj%>:ôtharhalf Adj-a-o-mono	;	!	ôtharhalf* 5, ô-th-ar-hal-f*, as., Adj.: nhd. anderthalb, eineinhalb; ne. one (Adj.) and a half; W.: mnd. anderhalf, Adj., anderthalb
+ôtharlîk%<adj%>:ôtharlîk Adj-a-o-mono	;	!	ôtharlîk* 2, ô-th-ar-lîk*, as., Adj.: nhd. andere; ne. other (Adj.)
+ôthmôdig%<adj%>:ôthmôdig Adj-a-o-mono	;	!	ôthmôdig* 1, ô-th-mô-d-ig*, as., Adj.: nhd. demütig; ne. humble (Adj.); W.: mnd. ôtmodisch, Adj., demütig
+ovanward%<adj%>:ovanward Adj-a-o-mono	;	!	ovanward* 2, oƀanward, ov-a-n-war-d*, oƀ-a-n-war-d*, as., Adj.: nhd. „obenwärts“, oben hin, auf; ne. upward (Adj.)
+ovarmôd%<adj%>:ovarmôd Adj-a-o-mono	;	!	ovarmôd* 3, oƀarmôd, ov-a-r-mô-d*, oƀ-a-r-mô-d*, as., Adj.: nhd. übermütig; ne. wanton (Adj.); W.: mnd. overmôde, Adj., stolz, hochmütig
+ovarmôdig%<adj%>:ovarmôdig Adj-a-o-mono	;	!	ovarmôdig* 4, oƀarmôdig, ov-a-r-mô-d-i-g*, oƀ-a-r-mô-d-i-g, as., Adj.: nhd. übermütig; ne. wanton (Adj.); W.: mnd. overmôdich, Adj., hochmütig, überheblich
+ovaro%<adj%>:ovaro Adj-a-o-mono	;	!	ovaro* 4, oƀaro, oboro, ov-a-r-o*, oƀ-a-r-o*, ob-o-r-o, as., Adj. (Komp.): nhd. obere; ne. upper (Adj. Komp.)
+ovastlîk%<adj%>:ovastlîk Adj-a-o-mono	;	!	ovastlîk?***, oƀastlîk?***, ov-as-t-lîk?***, oƀ-as-t-lîk?***, as., Adj.: nhd. eilig; ne. hasty (Adj.)
+reginblind%<adj%>:reginblind Adj-a-o-mono	;	!	reginblind* 1, reg-in-bl-ind*, as., Adj.: nhd. „schicksalsblind“, ganz blind, völlig blind; ne. all blind (Adj.)
+reht%<adj%>:reht Adj-a-o-mono	;	!	reht (2) 12, reh-t, as., Adj.: nhd. recht, gerecht, richtig, wahr, gut; ne. right (Adj.), true (Adj.), good (Adj.); W.: mnd. recht, Adj., gerade (Adj.) (2), aufrecht, richtig, genau
+rôd%<adj%>:rôd Adj-a-o-mono	;	!	rôd* 1, as., Adj.: nhd. rot; ne. red (Adj.); W.: mnd. rôt, Adj., rot
+rôf%<adj%>:rôf Adj-a-o-mono	;	!	rôf* (2) 1, as., Adj.: nhd. berühmt, stark, tapfer; ne. famous (Adj.)
+rôkag%<adj%>:rôkag Adj-a-o-mono	;	!	rôkag* 1, rô-k-ag*, as., Adj.: nhd. rauchig; ne. smoky (Adj.)
+rômânisk%<adj%>:rômânisk Adj-a-o-mono	;	!	rômânisk* 1, rômâ-n-isk*, as., Adj.: nhd. römisch; ne. Roman (Adj.)
+rukkîn%<adj%>:rukkîn Adj-a-o-mono	;	!	rukkîn* 3, ruk-k-în*, as., Adj.: nhd. Roggen...; ne. rye... (Adj.)
+rûm%<adj%>:rûm Adj-a-o-mono	;	!	rûm? (2)***, rû-m?***, as., Adj.: nhd. geräumig; ne. spacy (Adj.); W.: mnd. rûm, Adj., geräumig
+sad%<adj%>:sad Adj-a-o-mono	;	!	sad* 3, sa-d*, as., Adj.: nhd. satt, gesättigt; ne. satisfied (Adj.); W.: mnd. sat, Adj., satt, gesättigt
+sâft%<adj%>:sâft Adj-a-o-mono	;	!	sâft?***, sâf-t?***, as., Adj.: nhd. sanft, leicht, bequem; ne. soft (Adj.), easy (Adj.); W.: mnd. sâft, sâcht, Adj., sanft, leicht, weich
+sâlig%<adj%>:sâlig Adj-a-o-mono	;	!	sâlig 45, sêlig, sâl-ig, sêl-ig*, as., Adj.: nhd. gut, fromm, selig; ne. good (Adj.), pious (Adj.), blissful (Adj.); W.: mnd. salich, Adj., „seelig“, gut, glücklich
+sâliglîk%<adj%>:sâliglîk Adj-a-o-mono	;	!	sâliglîk* 1, sâl-ig-lîk*, as., Adj.: nhd. gut, fromm, selig; ne. good (Adj.), pious (Adj.), blissful (Adj.)
+sâmkwik%<adj%>:sâmkwik Adj-a-o-mono	;	!	sâmkwik* 1, sâm-kwi-k*, as., Adj.: nhd. „halblebend“, halb tot; ne. half dead (Adj.)
+samwurdig%<adj%>:samwurdig Adj-a-o-mono	;	!	samwurdig* 1, sam-wur-d-ig*, as., Adj.: nhd. übereinstimmend, einwilligend; ne. consenting (Adj.)
+sehstohalf%<adj%>:sehstohalf Adj-a-o-mono	;	!	sehstohalf* 3, s-ehs-to-hal-f*, as., Adj.: nhd. sechstehalb, fünfeinhalb; ne. five and a half; W.: mnd. sestehalf, Adj., fünfeinhalb
+seldlîk%<adj%>:seldlîk Adj-a-o-mono	;	!	seldlîk* 7, se-ld-lîk*, as., Adj.: nhd. seltsam, wunderbar; ne. strange (Adj.), miraculous (Adj.)
+sendîn%<adj%>:sendîn Adj-a-o-mono	;	!	sendîn?***, send-în?***, as., Adj.: nhd. sandig, Sand...; ne. sandy (Adj.), sand... (Adj.)
+sêr%<adj%>:sêr Adj-a-o-mono	;	!	sêr (2) 10, sê-r, as., Adj.: nhd. schmerzlich, traurig, leidend, bekümmert; ne. painful (Adj.), sad (Adj.); W.: mnd. sêr, Adj., verwundet, verletzt
+sêrag%<adj%>:sêrag Adj-a-o-mono	;	!	sêrag 5, sê-r-ag, as., Adj.: nhd. traurig, bekümmert; ne. sad (Adj.), sorrowful (Adj.); W.: mnd. sêrich, Adj., krank, grindig
+sêragmôd%<adj%>:sêragmôd Adj-a-o-mono	;	!	sêragmôd 4, sê-r-ag-mô-d, as., Adj.: nhd. traurig, bekümmert; ne. sad (Adj.), sorrowful (Adj.)
+sîd%<adj%>:sîd Adj-a-o-mono	;	!	sîd?***, sî-d?***, as., Adj.: nhd. weit; ne. far (Adj.)
+sikor%<adj%>:sikor Adj-a-o-mono	;	!	sikor* 6, sikur, si-ko-r*, siku-r, as., Adj.: nhd. sicher, frei; ne. secure (Adj.), free (Adj.); W.: mnd. seker, Adj., sicher
+siluvrîn%<adj%>:siluvrîn Adj-a-o-mono	;	!	siluvrîn* 2, siluƀrîn, siluvr-în*, siluƀr-în*, as., Adj.: nhd. silbern; ne. silvery (Adj.); W.: mnd. sulveren, sülveren, Adj., aus Silber bestehend, silbern
+sin%<adj%>:sin Adj-a-o-mono	;	!	sin?***, as., Adj.: nhd. beständig; ne. continuous (Adj.)
+sinwel%<adj%>:sinwel Adj-a-o-mono	;	!	sinwel* 1, sinwell, sinuwel, sinuwell, sin-wel*, sin-wel-l*, sin-u-wel*, sin-u-wel-l*, as., Adj.: nhd. ganz rund; ne. round (Adj.) as the moon; W.: vgl. mnd. senewolt, Adj., rund
+siok%<adj%>:siok Adj-a-o-mono	;	!	siok 11, as., Adj.: nhd. siech, krank; ne. sick (Adj.); W.: mnd. sêk, Adj., siech, ungesund, aussätzig
+sîthwôrig%<adj%>:sîthwôrig Adj-a-o-mono	;	!	sîthwôrig* 5, sîth-wôr-ig*, as., Adj.: nhd. reisemüde; ne. tired (Adj.) of travelling
+sivothohalf%<adj%>:sivothohalf Adj-a-o-mono	;	!	sivothohalf* 1, siƀothohalf, sivoth-o-half*, siƀoth-o-half*, as., Adj.: nhd. siebentehalb, siebtehalb; ne. six and a half
+skard%<adj%>:skard Adj-a-o-mono	;	!	skard* 1, s-kar-d*, as., Adj.: nhd. verwundet; ne. wounded (Adj.), scarred (Adj.); W.: s. mnd. schart, N., durch Schneiden entstandene Verletzung
+skarp%<adj%>:skarp Adj-a-o-mono	;	!	skarp* 7, s-kar-p*, as., Adj.: nhd. scharf, rauh, spitz; ne. sharp (Adj.); W.: mnd. scharp, Adj., scharf, schneidend, geschliffen
+skêf%<adj%>:skêf Adj-a-o-mono	;	!	skêf* 1, as., Adj.: nhd. schief, breitfüßig; ne. oblique (Adj.); W.: mnd. schêf, Adj., schief
+skernlîk%<adj%>:skernlîk Adj-a-o-mono	;	!	skernlîk* 1, s-ker-n-lîk*, as., Adj.: nhd. possenhaft; ne. farcical (Adj.)
+skîn%<adj%>:skîn Adj-a-o-mono	;	!	skîn (2) 10, skî-n, as., Adj.: nhd. sichtbar, offenbar; ne. visible (Adj.); W.: mnd. schîn, Adj., leuchtend, hell
+skîr%<adj%>:skîr Adj-a-o-mono	;	!	skîr* 5, skîri, skî-r*, skî-r-i*, as., Adj.: nhd. schier, lauter, rein, ungemischt; ne. sheer (Adj.), pure (Adj.); W.: mnd. schîr, schîre, Adj., licht, hell
+skoplîk%<adj%>:skoplîk Adj-a-o-mono	;	!	skoplîk?***, skop-lîk?***, as., Adj.: nhd. dichterisch; ne. poetical (Adj.)
+skuldig%<adj%>:skuldig Adj-a-o-mono	;	!	skuldig* 15, s-kul-d-ig*, as., Adj.: nhd. schuldig; ne. guilty (Adj.); W.: mnd. schuldich, schüldich, Adj., pflichtig, verpflichtet
+skutig%<adj%>:skutig Adj-a-o-mono	;	!	skutig?***, s-ku-t-ig?***, as., Adj.: nhd. eckig; ne. angular (Adj.)
+slak%<adj%>:slak Adj-a-o-mono	;	!	slak* 1, s-lak*, as., Adj.: nhd. schlaff, mutlos, feige, furchtsam, stumpf; ne. slack (Adj.), cowardly (Adj.); W.: mnd. slak, Adj., träge, lau
+sliht%<adj%>:sliht Adj-a-o-mono	;	!	sliht 1, sli-ht, as., Adj.: nhd. geschmückt, verziert; ne. plain (Adj.), neat (Adj.), decorated (Adj.); W.: mnd. slicht, Adj., frei, offen, kahl, schlicht
+slîthmôd%<adj%>:slîthmôd Adj-a-o-mono	;	!	slîthmôd 6, slîthmôdi, s-lî-th-mô-d, s-lî-th-mô-d-i*, as., Adj.: nhd. grimmig; ne. grim (Adj.)
+slîthmôdig%<adj%>:slîthmôdig Adj-a-o-mono	;	!	slîthmôdig* 1, s-lî-th-mô-d-ig*, as., Adj.: nhd. grimmig; ne. grim (Adj.)
+smal%<adj%>:smal Adj-a-o-mono	;	!	smal* 2, s-mal*, as., Adj.: nhd. klein, gering; ne. small (Adj.); W.: mnd. smal, Adj., klein
+snêgig%<adj%>:snêgig Adj-a-o-mono	;	!	snêgig* 1, snê-g-ig*, as., Adj.: nhd. „schneeig“, beschneit; ne. snowy (Adj.); W.: mnd. snêich, Adj., schneeig
+snel%<adj%>:snel Adj-a-o-mono	;	!	snel 4, snell, snel-l, as., Adj.: nhd. „schnell“, rasch, kühn, tapfer; ne. quick (Adj.), bold (Adj.); W.: mnd. snel, Adj., tatkräftig, tapfer, schnell
+solag%<adj%>:solag Adj-a-o-mono	;	!	solag 2, sol-a-g, as., Adj.: nhd. kotig, schmutzig; ne. muddy (Adj.); W.: mnd. solich, Adj., schmutzig
+sôr%<adj%>:sôr Adj-a-o-mono	;	!	sôr?***, sâr?***, as., Adj.: nhd. trocken; ne. dry (Adj.); W.: mnd. sôr, Adj., trocken, mager
+sot%<adj%>:sot Adj-a-o-mono	;	!	sot 1, as., Adj.: nhd. närrisch; ne. foolish (Adj.); W.: mnd. sot, Adj., geistesgestört, schwachsinnig, närrisch
+sôth%<adj%>:sôth Adj-a-o-mono	;	!	sôth* (3) 4, sô-th*, as., Adj.: nhd. wahr, richtig; ne. true (Adj.)
+sôthfast%<adj%>:sôthfast Adj-a-o-mono	;	!	sôthfast* 1, sô-th-fast*, as., Adj.: nhd. wahrhaftig; ne. true (Adj.)
+sôthlîk%<adj%>:sôthlîk Adj-a-o-mono	;	!	sôthlîk* 3, sô-th-lîk*, as., Adj.: nhd. wahr, richtig; ne. true (Adj.)
+spâhlîk%<adj%>:spâhlîk Adj-a-o-mono	;	!	spâhlîk* 1, s-pâh-lîk*, as., Adj.: nhd. klug; ne. wise (Adj.)
+spanandelîk%<adj%>:spanandelîk Adj-a-o-mono	;	!	spanandelîk* 1, s-pan-an-de-lîk*, as., Adj.: nhd. lockend; ne. alluring (Adj.)
+stamul%<adj%>:stamul Adj-a-o-mono	;	!	stamul 1, stam-ul, as., Adj.: nhd. stammelnd, Stammler (M.) (= stamul subst.); ne. stammering (Adj.), stammerer (M.)
+stark%<adj%>:stark Adj-a-o-mono	;	!	stark 13, s-tar-k, as., Adj.: nhd. stark, kräftig, mächtig, gewaltig, böse, hart, feindlich; ne. strong (Adj.), hostile (Adj.); W.: mnd. stark, Adj., stark, gesund
+starkmôd%<adj%>:starkmôd Adj-a-o-mono	;	!	starkmôd* 1, s-tar-k-mô-d*, as., Adj.: nhd. mutig, tapfer; ne. brave (Adj.)
+stedihaft%<adj%>:stedihaft Adj-a-o-mono	;	!	stedihaft* 1, sted-i-haf-t*, as., Adj.: nhd. sesshaft, fest; ne. settled (Adj.)
+stekul%<adj%>:stekul Adj-a-o-mono	;	!	stekul* 2, stekal, s-te-k-ul*, stek-al*, as., Adj.: nhd. rauh, steinicht, steinig; ne. rough (Adj.), stony (Adj.); W.: mnd. stekel, Adj., abschüssig, verletzt, überempfindlich
+strang%<adj%>:strang Adj-a-o-mono	;	!	strang 6, s-tra-ng, as., Adj.: nhd. stark, mächtig, kraftvoll; ne. strong (Adj.); W.: mnd. stranc, Adj., heftig, stark
+strenglîk%<adj%>:strenglîk Adj-a-o-mono	;	!	strenglîk?***, s-tre-ng-lîk?***, as., Adj.: nhd. fest; ne. firm (Adj.); W.: mnd. strenglîk, Adj., mächtig, mannhaft
+strîdig%<adj%>:strîdig Adj-a-o-mono	;	!	strîdig* 2, s-trî-d-ig*, as., Adj.: nhd. streitbar; ne. fighting (Adj.); W.: mnd. strîdich, Adj., streitig, strittig
+strîdin%<adj%>:strîdin Adj-a-o-mono	;	!	strîdin 1, s-trî-d-in, as., Adj.: nhd. streitbar; ne. fighting (Adj.)
+strûf%<adj%>:strûf Adj-a-o-mono	;	!	strûf* 2, s-trû-f*, as., Adj.: nhd. struppig; ne. rough (Adj.); W.: mnd. strûf, Adj., rauh, uneben
+stum%<adj%>:stum Adj-a-o-mono	;	!	stum 1, stumm, stum-m, as., Adj.: nhd. stumm; ne. silent (Adj.); W.: mnd. stum, Adj., stumm
+sumarlang%<adj%>:sumarlang Adj-a-o-mono	;	!	sumarlang* 1, sum-ar-lang*, as., Adj.: nhd. „sommerlang“, lang wie im Sommer; ne. as long (Adj.) as in summer; W.: s. mnd. somerlanc, Adv., den Sommer über
+sund%<adj%>:sund Adj-a-o-mono	;	!	sund?***, as., Adj.: nhd. gesund; ne. healthy (Adj.); W.: mnd. sunt, Adj., gesund, unverletzt
+sundar%<adj%>:sundar Adj-a-o-mono	;	!	sundar 7, sun-dar, as., Adj., Adv.: nhd. besonders, besondere, abgesondert; ne. special (Adj.), especially; W.: mnd. sunder, sonder, Adj., gesondert, besonders
+sundig%<adj%>:sundig Adj-a-o-mono	;	!	sundig 9, su-nd-ig, as., Adj.: nhd. sündig; ne. sinful (Adj.); W.: mnd. sundich, sündich, Adj., sündig
+sundilôs%<adj%>:sundilôs Adj-a-o-mono	;	!	sundilôs* 4, su-nd-i-lô-s*, as., Adj.: nhd. sündlos; ne. sinless (Adj.)
+sûr%<adj%>:sûr Adj-a-o-mono	;	!	sûr?***, sû-r?***, as., Adj.: nhd. sauer; ne. sour (Adj.); W.: mnd. sûr, Adj., sauer
+swâr%<adj%>:swâr Adj-a-o-mono	;	!	swâr* 11, s-wâr*, as., Adj.: nhd. schwer, beschwerlich, schön, ehrenvoll, rühmlich; ne. heavy (Adj.), glorious (Adj.); W.: mnd. swâr, Adj., schwer
+swart%<adj%>:swart Adj-a-o-mono	;	!	swart* (2) 7, as., Adj.: nhd. schwarz, dunkel; ne. black (Adj.); W.: mnd. swart, Adj., schwarz
+swâs%<adj%>:swâs Adj-a-o-mono	;	!	swâs* 4, s-w-â-s*, as., Adj.: nhd. vertraut, lieb, eigen (Adj.); ne. dear (Adj.)
+swâslîk%<adj%>:swâslîk Adj-a-o-mono	;	!	swâslîk* 1, swêslîk, s-w-â-s-lîk*, s-w-ê-s-lîk*, as., Adj.: nhd. einheimisch; ne. native (Adj.)
+swîth%<adj%>:swîth Adj-a-o-mono	;	!	swîth* 13, swîthi, s-w-î-th*, s-w-î-th-i*, as., Adj.: nhd. stark, kräftig, heftig, recht; ne. strong (Adj.), right (Adj.); W.: mnd. swînde, swîde, Adj., ungestüm, heftig, stark
+swîthlîk%<adj%>:swîthlîk Adj-a-o-mono	;	!	swîthlîk?***, s-w-î-th-lîk?***, as., Adj.: nhd. stark; ne. strong (Adj.)
+tal%<adj%>:tal Adj-a-o-mono	;	!	tal? (2)***, ta-l?***, as., Adj.: nhd. schnell, behende; ne. quick (Adj.)
+tam%<adj%>:tam Adj-a-o-mono	;	!	tam* 1, as., Adj.: nhd. zahm, gezähmt; ne. tame (Adj.); W.: mnd. tam, Adj., zahm
+tehanfald%<adj%>:tehanfald Adj-a-o-mono	;	!	tehanfald* 1, teha-n-fald*, as., Adj.: nhd. zehnfältig, zehnfach; ne. tenfold (Adj.); W.: mnd. teinvalt, Adj., zehnfach
+têla%<adj%>:têla Adj-a-o-mono	;	!	têla?***, têl-a?***, as., Adj.: nhd. passend; ne. suitable (Adj.)
+têt%<adj%>:têt Adj-a-o-mono	;	!	têt?***, tê-t?***, as., Adj.: nhd. froh, anmutig, zart, lieb; ne. glad (Adj.)
+tîdig%<adj%>:tîdig Adj-a-o-mono	;	!	tîdig?***, tî-d-ig?***, as., Adj.: nhd. zeitig; ne. in time (Adj.); W.: mnd. tîdich, Adj., zeitig, reif
+til%<adj%>:til Adj-a-o-mono	;	!	til?***, t-il?***, as., Adj.: nhd. passend; ne. suitable (Adj.)
+tinsig%<adj%>:tinsig Adj-a-o-mono	;	!	tinsig?***, tins-ig?***, as., Adj.: nhd. zinsig; ne. tribute (Adj.)
+tîrlîk%<adj%>:tîrlîk Adj-a-o-mono	;	!	tîrlîk?***, tî-r-lîk?***, as., Adj.: nhd. schön; ne. beautiful (Adj.)
+tôm%<adj%>:tôm Adj-a-o-mono	;	!	tôm* 3, tômi, tôm-i*, as., Adj.: nhd. leer, ledig, frei von; ne. empty (Adj.), free (Adj.)
+torht%<adj%>:torht Adj-a-o-mono	;	!	torht* 9, torh-t*, as., Adj.: nhd. glänzend; ne. shining (Adj.)
+torhtlîk%<adj%>:torhtlîk Adj-a-o-mono	;	!	torhtlîk* 1, torh-t-lîk*, as., Adj.: nhd. glänzend; ne. shining (Adj.)
+torn%<adj%>:torn Adj-a-o-mono	;	!	torn* (2) 1, tor-n*, as., Adj.: nhd. zornig, bitter, leidvoll; ne. angry (Adj.), bitter (Adj.); W.: mnd. torn, torne, Adj., zornig, erzürnt
+tôward%<adj%>:tôward Adj-a-o-mono	;	!	tôward* 3, tô-war-d*, as., Adj.: nhd. „zuwärts“, bevorstehend; ne. future (Adj.); W.: s. mnd. tôwart, Präp., heran, entgegen
+tôwardig%<adj%>:tôwardig Adj-a-o-mono	;	!	tôwardig* 1, tô-war-d-ig*, as., Adj.: nhd. nahe, zukünftig, bevorstehend; ne. near (Adj.)
+trâg%<adj%>:trâg Adj-a-o-mono	;	!	trâg* 1, as., Adj.: nhd. träge; ne. lazy (Adj.)
+treuhaft%<adj%>:treuhaft Adj-a-o-mono	;	!	treuhaft* 5, treuaft, tr-e-u-haf-t*, tr-e-u-af-t, as., Adj.: nhd. treu; ne. faithful (Adj.); W.: mnd. truwehaftich, truweaftich, Adj., glaubwürdig
+treulôs%<adj%>:treulôs Adj-a-o-mono	;	!	treulôs 2, tr-e-u-lô-s, as., Adj.: nhd. treulos; ne. treacherous (Adj.); W.: mnd. trouwelôs, Adj., treulos
+tuhtig%<adj%>:tuhtig Adj-a-o-mono	;	!	tuhtig?***, tu-h-t-ig?***, as., Adj.: nhd. züchtig; ne. chaste (Adj.); W.: mnd. tuchtich, Adj., züchtig, sittsam
+twîflîk%<adj%>:twîflîk Adj-a-o-mono	;	!	twîflîk* 1, twîvlîk, twî-fl-îk*, twî-vl-îk*, as., Adj.: nhd. zweifelhaft; ne. doubtful (Adj.); W.: mnd. twivelîk, Adj., zweifelhaft
+twîhôfdig%<adj%>:twîhôfdig Adj-a-o-mono	;	!	twîhôfdig* 1, twî-hôf-d-ig*, as., Adj.: nhd. „zweihäuptig“, zweiköpfig; ne. twoheaded (Adj.)
+twisk%<adj%>:twisk Adj-a-o-mono	;	!	twisk?***, twi-sk?***, as., Adj.: nhd. zweifach; ne. twice (Adj.), double (Adj.); W.: mnd. twisch, Adj., zweifach, verschieden
+thâhî%<adj%>:thâhî Adj-a-o-mono	;	!	thâhî* 3, thâhîn, thâh-î*, thâh-în*, as., Adj.: nhd. tönern; ne. earthen (Adj.)
+thankul%<adj%>:thankul Adj-a-o-mono	;	!	thankul?***, thank-ul?***, as., Adj.: nhd. „denkend“, klug; ne. wise (Adj.)
+tharfag%<adj%>:tharfag Adj-a-o-mono	;	!	tharfag* 1, tharf-ag*, as., Adj.: nhd. bedürftig, entbehrend; ne. needy (Adj.)
+theganlîk%<adj%>:theganlîk Adj-a-o-mono	;	!	theganlîk* 1, theg-an-lîk*, as., Adj.: nhd. männlich, tüchtig; ne. manly (Adj.), virtuous (Adj.)
+thigan%<adj%>:thigan Adj-a-o-mono	;	!	thigan?***, thig-an?***, as., Adj.: nhd. gediegen; ne. prospered (V.)
+thim%<adj%>:thim Adj-a-o-mono	;	!	thim* 1, thimm, thim-m, as., Adj.: nhd. dunkel; ne. dark (Adj.)
+thinglîk%<adj%>:thinglîk Adj-a-o-mono	;	!	thinglîk* 1, thing-lîk*, as., Adj.: nhd. „dinglich“, gerichtlich; ne. judicial (Adj.)
+thiodig%<adj%>:thiodig Adj-a-o-mono	;	!	thiodig?***, thi-o-d-ig?***, as., Adj.: nhd. „völkisch“, fremd; ne. foreign (Adj.)
+thiolîk%<adj%>:thiolîk Adj-a-o-mono	;	!	thiolîk?***, thio-lîk?***, as., Adj.: nhd. „dienerlich“, demütig; ne. humble (Adj.)
+thior%<adj%>:thior Adj-a-o-mono	;	!	thior* 2, thiori, thior-i*, as., Adj.: nhd. kräftig, hart?, dürr?; ne. strong (Adj.), hard? (Adj.), dry? (Adj.)
+thiudisk%<adj%>:thiudisk Adj-a-o-mono	;	!	thiudisk* 1, thi-u-d-isk*, as., Adj.: nhd. „völkisch“, deutsch; ne. German (Adj.); W.: mnd. dudesch, Adj., deutsch
+thrîhendig%<adj%>:thrîhendig Adj-a-o-mono	;	!	thrîhendig* 1, thrî-hend-ig*, as., Adj.: nhd. dreihändig; ne. threehanded (Adj.)
+thrîst%<adj%>:thrîst Adj-a-o-mono	;	!	thrîst* 5, thrîsti, thrî-st*, thrî-st-i*, as., Adj.: nhd. dreist, kühn; ne. bold (Adj.); W.: mnd. drîst, Adj., beherzt, kühn, frech
+thrîstmôd%<adj%>:thrîstmôd Adj-a-o-mono	;	!	thrîstmôd 2, thrî-st-mô-d, as., Adj.: nhd. „dreistmütig“, dreist, kühn, zuversichtlich; ne. bold (Adj.)
+thriuhalf%<adj%>:thriuhalf Adj-a-o-mono	;	!	thriuhalf* 2, thriu-hal-f*, as., Adj.: nhd. drittehalb, zweieinhalb; ne. two and a half
+thurftig%<adj%>:thurftig Adj-a-o-mono	;	!	thurftig* 6, thruhtig, thurhtig, thurf-t-ig*, thruh-t-ig*, thurh-t-ig, as., Adj.: nhd. bedürftig; ne. needy (Adj.)
+thurhthigan%<adj%>:thurhthigan Adj-a-o-mono	;	!	thurhthigan* 1, thur-h-thig-an*, as., Adj.: nhd. „durchdiegen“, vervollkommnet, vollkommen; ne. perfect (Adj.)
+thurkil%<adj%>:thurkil Adj-a-o-mono	;	!	thurkil* 1, thur-k-il*, as., Adj.: nhd. löchrig; ne. full (Adj.) of holes
+thwerh%<adj%>:thwerh Adj-a-o-mono	;	!	thwerh?***, as., Adj.: nhd. zwerch, quer, blödsinnig; ne. across (Adj.); W.: mnd. dwer, dwers, Adj., quer
+unâwâniandelîk%<adj%>:unâwâniandelîk Adj-a-o-mono	;	!	unâwâniandelîk* 1, unarwâniandelîk, un-â-wân-ian-de-lîk*, un-ar-wân-ian-de-lîk*, as., Adj.: nhd. unvermutet; ne. unexpected (Adj.)
+unbardoht%<adj%>:unbardoht Adj-a-o-mono	;	!	unbardoht* 1, unbardaht, un-bar-d-oh-t*, un-bar-d-ah-t*, as., Adj.: nhd. „unbarthaft“, bartlos; ne. beardless (Adj.)
+unfarthionodlîk%<adj%>:unfarthionodlîk Adj-a-o-mono	;	!	unfarthionodlîk?***, un-far-thio-n-od-lîk?***, as., Adj.: nhd. unverdient; ne. undeserved (Adj.)
+unfarwandlondelîk%<adj%>:unfarwandlondelîk Adj-a-o-mono	;	!	unfarwandlondelîk* 1, un-far-w-a-nd-l-on-de-lîk*, as., Adj.: nhd. unveränderlich; ne. unchangeable (Adj.)
+unfrâ%<adj%>:unfrâ Adj-a-o-mono	;	!	unfrâ* 1, unfrâh, un-frâ*, un-frâ-h*, as., Adj.: nhd. unfroh; ne. unhappy (Adj.); W.: mnd. unfro, Adj., unfroh, traurig
+unfrêhtig%<adj%>:unfrêhtig Adj-a-o-mono	;	!	unfrêhtig*? 1, un-frêhti-g*?, as., Adj.: nhd. unverdient; ne. undeserved (Adj.)
+ungihôrsam%<adj%>:ungihôrsam Adj-a-o-mono	;	!	ungihôrsam 1, un-gi-hô-r-sam, as., Adj.: nhd. ungehorsam; ne. inobedient (Adj.)
+ungilîk%<adj%>:ungilîk Adj-a-o-mono	;	!	ungilîk?***, un-gi-lîk?***, as., Adj.: nhd. ungleich, unähnlich; ne. unequal (Adj.)
+ungilôvig%<adj%>:ungilôvig Adj-a-o-mono	;	!	ungilôvig* 1, un-gi-lôv-ig*, as., Adj.: nhd. ungläubig; ne. faithless (Adj.); W.: mnd. ungelôvich, Adj., ungläubig
+ungimak%<adj%>:ungimak Adj-a-o-mono	;	!	ungimak (2) 1, un-gi-mak, as., Adj.: nhd. „ungemach“, feindselig; ne. hostile (Adj.); W.: mnd. ungemak, Adj., „ungemach“m unbequem, lästig
+ungimet%<adj%>:ungimet Adj-a-o-mono	;	!	ungimet* 1, un-gi-me-t*, as., Adj.: nhd. „ungemessen“, unpassend; ne. unsuitable (Adj.)
+ungiwar%<adj%>:ungiwar Adj-a-o-mono	;	!	ungiwar* 1, un-gi-war*, as., Adj.: nhd. „ungewahr“, nachlässig; ne. careless (Adj.)
+ungiwittig%<adj%>:ungiwittig Adj-a-o-mono	;	!	ungiwittig* 1, un-gi-w-i-t-t-ig*, as., Adj.: nhd. unverständig; ne. unsensible (Adj.)
+unhold%<adj%>:unhold Adj-a-o-mono	;	!	unhold 4, un-hol-d, as., Adj.: nhd. „unhold“, böse, feindlich; ne. hostile (Adj.); W.: mnd. unholt, Adj., „unhold“, abhold, abgeneigt, ungändig
+unkraftag%<adj%>:unkraftag Adj-a-o-mono	;	!	unkraftag* 1, un-kraft-ag*, as., Adj.: nhd. „unkräftig“, kraftlos; ne. weak (Adj.); W.: mnd. unkreftich, unkrechtich, Adj., „unkräftig“, schwach, kraftlos, ohnmächtig
+unmet%<adj%>:unmet Adj-a-o-mono	;	!	unmet 5, un-me-t, as., Adj.: nhd. maßlos, unmäßig; ne. immense (Adj.)
+unreht%<adj%>:unreht Adj-a-o-mono	;	!	unreht* (2) 16, un-reh-t*, as., Adj.: nhd. unrecht; ne. injust (Adj.); W.: mnd. unrecht, Adj., unrecht, unrichtig, ungerecht
+unskuldig%<adj%>:unskuldig Adj-a-o-mono	;	!	unskuldig* 2, un-s-kul-d-ig*, as., Adj.: nhd. unschuldig; ne. innocent (Adj.); W.: mnd. unschuldich, Adj., unschuldig, nicht schuldig
+unstark%<adj%>:unstark Adj-a-o-mono	;	!	unstark 2, un-s-tar-k, as., Adj.: nhd. „unstark“, schwach; ne. weak (Adj.)
+unsundig%<adj%>:unsundig Adj-a-o-mono	;	!	unsundig* 1, un-su-nd-ig*, as., Adj.: nhd. „unsündig“, sündlos; ne. sinless (Adj.)
+untellîk%<adj%>:untellîk Adj-a-o-mono	;	!	untellîk?***, un-te-l-lîk?***, as., Adj.: nhd. unsagbar, unaussprechlich; ne. unspeakable (Adj.)
+untîdig%<adj%>:untîdig Adj-a-o-mono	;	!	untîdig* 1, un-tî-d-ig*, as., Adj.: nhd. unzeitig, zu unrechter Zeit erfolgend; ne. untimely (Adj.); W.: mnd. untidich, Adj., unzeitig, unreif
+unwam%<adj%>:unwam Adj-a-o-mono	;	!	unwam* 1, unwamm, un-wam*, un-wam-m*, as., Adj.: nhd. unbefleckt, rein; ne. immaculate (Adj.)
+unwân%<adj%>:unwân Adj-a-o-mono	;	!	unwân?***, un-wân?***, as., Adj.: nhd. unschön; ne. ugly (Adj.)
+unwand%<adj%>:unwand Adj-a-o-mono	;	!	unwand* 1, un-w-a-nd*, as., Adj.: nhd. unwandelbar, treu; ne. loyal (Adj.)
+unwânlîk%<adj%>:unwânlîk Adj-a-o-mono	;	!	unwânlîk* 1, un-wân-lîk*, as., Adj.: nhd. unschön; ne. ugly (Adj.)
+unwerthig%<adj%>:unwerthig Adj-a-o-mono	;	!	unwerthig* 1, un-wer-th-ig*, as., Adj.: nhd. unwürdig; ne. unworthy (Adj.); W.: mnd. unwerdich, Adj., unwürdig
+unwîglîk%<adj%>:unwîglîk Adj-a-o-mono	;	!	unwîglîk* 1, un-wîg-lîk*, as., Adj.: nhd. unkriegerisch; ne. unwary (Adj.)
+unwîs%<adj%>:unwîs Adj-a-o-mono	;	!	unwîs* 1, un-wî-s*, as., Adj.: nhd. „unweise“, töricht; ne. unwise (Adj.); W.: mnd. unwîs, Adj., unweise, töricht, unverständig
+uvil%<adj%>:uvil Adj-a-o-mono	;	!	uvil* (2) 19, uƀil, uvi-l*, uƀi-l, as., Adj.: nhd. übel, böse, schlecht, schlimm; ne. evil (Adj.); W.: mnd. ovel, Adj., übel, schlecht
+wahsblank%<adj%>:wahsblank Adj-a-o-mono	;	!	wahsblank* 2, wah-s-bla-nk*, as., Adj.: nhd. „wachsblank“, wachsbleich; ne. waxwhite (Adj.)
+wahstinsig%<adj%>:wahstinsig Adj-a-o-mono	;	!	wahstinsig* 1, wah-s-tins-ig*, as., Adj.: nhd. wachszinsig
+wakar%<adj%>:wakar Adj-a-o-mono	;	!	wakar?***, wak-ar?***, as., Adj.: nhd. „wacker“, wach; ne. awake (Adj.); W.: mnd. wacker, Adj., wachsam, munter
+waldig%<adj%>:waldig Adj-a-o-mono	;	!	waldig?***, wal-d-ig?***, as., Adj.: nhd. gewaltig; ne. mighty (Adj.)
+wam%<adj%>:wam Adj-a-o-mono	;	!	wam* (2) 1, wamm, wam-m, as., Adj.: nhd. befleckt, frevelhaft, böse, schlecht; ne. sinful (Adj.)
+wamlôs%<adj%>:wamlôs Adj-a-o-mono	;	!	wamlôs* 1, wammlôs, wam-lôs*, wam-m-lôs*, as., Adj.: nhd. „frevellos“, schuldlos; ne. guiltless (Adj.)
+wan%<adj%>:wan Adj-a-o-mono	;	!	wan* 1, wa-n*, as., Adj.: nhd. fehlend, mangelhaft; ne. missing (Adj.); W.: mnd. wan, Adj., leer, mangelhaft, eitel
+wânam%<adj%>:wânam Adj-a-o-mono	;	!	wânam* 10, wânom, wânum, wân-am*, wân-om*, wân-um*, as., Adj.: nhd. schön, glänzend; ne. beautiful (Adj.), shining (Adj.)
+wanburdig%<adj%>:wanburdig Adj-a-o-mono	;	!	wanburdig* 1, wa-n-bur-d-ig*, as., Adj.: nhd. unehelich, nichtehelich; ne. illegitimate (Adj.); W.: mnd. wanbordich
+wand%<adj%>:wand Adj-a-o-mono	;	!	wand* (1) 1, w-a-nd*, as., Adj.: nhd. veränderlich, schwankend, verschieden; ne. different (Adj.)
+wandlondelîk%<adj%>:wandlondelîk Adj-a-o-mono	;	!	wandlondelîk?***, w-a-nd-l-on-de-lîk?***, as., Adj.: nhd. wandelbar; ne. changeable (Adj.)
+wâniandelîk%<adj%>:wâniandelîk Adj-a-o-mono	;	!	wâniandelîk?***, wân-ian-de-lîk?***, as., Adj.: nhd. vermutlich; ne. supposed (Adj.)
+wankol%<adj%>:wankol Adj-a-o-mono	;	!	wankol* 1, wank-ol*, as., Adj.: nhd. schwankend, unstet; ne. swaying (Adj.); W.: mnd. wankel, Adj., schwankend, unbeständig, wankelmütig
+wânlîk%<adj%>:wânlîk Adj-a-o-mono	;	!	wânlîk? 1***, wân-lîk?***, as., Adj.: nhd. schön; ne. beautiful (Adj.)
+war%<adj%>:war Adj-a-o-mono	;	!	war* (2) 1, as., Adj.: nhd. „gewahr“, vorsichtig, auf der Hut (F.) seiend; ne. aware (Adj.), careful (Adj.)
+wâr%<adj%>:wâr Adj-a-o-mono	;	!	wâr* (1) 41, as., Adj.: nhd. wahr, wahrhaftig; ne. true (Adj.); W.: mnd. wâr, Adj., wahr, wahrhaftig, recht, richtig
+waralîk%<adj%>:waralîk Adj-a-o-mono	;	!	waralîk?***, war-a-lîk?***, as., Adj.: nhd. sorgfältig, aufmerksam; ne. careful (Adj.)
+ward%<adj%>:ward Adj-a-o-mono	;	!	ward? (2)***, werd?***, word?, war-d?***, wer-d?***, wor-d?***, as., Adj.: nhd. wendig (Suff.), wärtig (Suff.); ne. ward (Suff.)
+wârfast%<adj%>:wârfast Adj-a-o-mono	;	!	wârfast* 3, wâr-fast*, as., Adj.: nhd. wahr; ne. true (Adj.)
+wârlîk%<adj%>:wârlîk Adj-a-o-mono	;	!	wârlîk* 3, wâr-lîk*, as., Adj.: nhd. „wahrlich“, wahr; ne. true (Adj.); W.: mnd. wêrlîk, Adj., wahrlich, wahrhaft
+wârlôs%<adj%>:wârlôs Adj-a-o-mono	;	!	wârlôs* 3, wâr-lô-s*, as., Adj.: nhd. „wahrlos“, treulos, hinterlistig; ne. deceitful (Adj.)
+warm%<adj%>:warm Adj-a-o-mono	;	!	warm* 1, war-m*, as., Adj.: nhd. warm; ne. warm (Adj.); W.: mnd. warm, Adj., warm
+wedarwîs%<adj%>:wedarwîs Adj-a-o-mono	;	!	wedarwîs* 1, w-e-dar-wî-s*, as., Adj.: nhd. wetterkundig; ne. weatherknowing (Adj.)
+wêdîn%<adj%>:wêdîn Adj-a-o-mono	;	!	wêdîn* 1, wê-d-în*, as., Adj.: nhd. waidfarbig; ne. dyed red (Adj.)
+wêk%<adj%>:wêk Adj-a-o-mono	;	!	wêk* 2, wê-k*, as., Adj.: nhd. weich, schwach, verzagt; ne. soft (Adj.); W.: mnd. wêk, weich, Adj., weich, zart
+wêkmôd%<adj%>:wêkmôd Adj-a-o-mono	;	!	wêkmôd* 1, wê-k-mô-d*, as., Adj.: nhd. verzagt, verzagten Mutes seiend; ne. timid (Adj.)
+wel%<adj%>:wel Adj-a-o-mono	;	!	wel? (1)***, well?, wel-l?***, as., Adj.: nhd. rund; ne. round (Adj.)
+welag%<adj%>:welag Adj-a-o-mono	;	!	welag* 1, wel-ag*, as., Adj.: nhd. wohlhabend; ne. wealthy (Adj.)
+welmahtig%<adj%>:welmahtig Adj-a-o-mono	;	!	welmahtig* 1, welmehtig, wel-maht-ig*, wel-meht-ig*, as., Adj.: nhd. „wohlmächtig“, gesund; ne. well (Adj.)
+welwillig%<adj%>:welwillig Adj-a-o-mono	;	!	welwillig?***, wel-w-i-l-l-ig?***, as., Adj.: nhd. willig; ne. willing (Adj.)
+wendig%<adj%>:wendig Adj-a-o-mono	;	!	wendig?***, w-e-nd-ig?***, as., Adj.: nhd. wendig, sich wendend; ne. turned (Adj.)
+werklîk%<adj%>:werklîk Adj-a-o-mono	;	!	werklîk* 1, werk-lîk*, as., Adj.: nhd. tätig; ne. active (Adj.)
+weroldlîk%<adj%>:weroldlîk Adj-a-o-mono	;	!	weroldlîk* 1, wer-o-l-d-lîk*, as., Adj.: nhd. weltlich, irdisch; ne. worldly (Adj.); W.: mnd. werltlîk, Adj., weltlich
+werth%<adj%>:werth Adj-a-o-mono	;	!	werth* (2) 40, wer-th*, as., Adj.: nhd. wert, würdig, teuer, lieb, passend, angemessen; ne. worth (Adj.), dear (Adj.), suitable (Adj.); W.: mnd. wert, Adj., wert, geltend, wertvoll, kostbar
+werthig%<adj%>:werthig Adj-a-o-mono	;	!	werthig?***, wer-th-ig?***, as., Adj.: nhd. würdig; ne. worthy (Adj.)
+werthlîk%<adj%>:werthlîk Adj-a-o-mono	;	!	werthlîk?***, wer-th-lîk?***, as., Adj.: nhd. ehrfurchtsvoll, freundlich, würdig; ne. respectful (Adj.), kind (Adj.)
+westar%<adj%>:westar Adj-a-o-mono	;	!	westar* 4, w-e-s-t-ar*, as., Adj.: nhd. westlich, nach Westen; ne. western (Adj.), westward (Adj.); W.: s. mnd. wester, Adj., westlich
+wîd%<adj%>:wîd Adj-a-o-mono	;	!	wîd* 19, w-î-d*, as., Adj.: nhd. weit, breit, ausgedehnt, entfernt; ne. wide (Adj.); W.: mnd. wît, Adj., weit, geräumig
+wîdbrêd%<adj%>:wîdbrêd Adj-a-o-mono	;	!	wîdbrêd* 2, w-î-d-brêd*, as., Adj.: nhd. „weitbreit“, unendlich, ausgebreitet, groß; ne. infinite (Adj.)
+wîglîk%<adj%>:wîglîk Adj-a-o-mono	;	!	wîglîk?***, wîg-lîk?***, as., Adj.: nhd. kriegerisch; ne. warlike (Adj.)
+wîh%<adj%>:wîh Adj-a-o-mono	;	!	wîh (2)***, as., Adj.: nhd. heilig; ne. holy (Adj.)
+wil%<adj%>:wil Adj-a-o-mono	;	!	wil?***, will?***, w-i-l?***, w-i-l-l?***, as., Adj.: nhd. willkommen (Adj.); ne. desirable (Adj.)
+willig%<adj%>:willig Adj-a-o-mono	;	!	willig* 2, w-i-l-l-ig*, as., Adj.: nhd. willig; ne. willing (Adj.); W.: mnd. willich, Adj., „willig“, freiwillig, bereitwillig
+winistar%<adj%>:winistar Adj-a-o-mono	;	!	winistar* 2, win-i-star*, as., Adj.: nhd. link; ne. left (Adj.)
+wintarkald%<adj%>:wintarkald Adj-a-o-mono	;	!	wintarkald* 1, wintar-kal-d*, as., Adj.: nhd. „winterkalt“, winterlich kalt; ne. wintry (Adj.); W.: mnd. winterkold, Adj., „winterkalt“, winterlich kalt
+wirsa%<adj%>:wirsa Adj-a-o-mono	;	!	wirsa* 6, wi-rs-a*, as., Adj. (Komp.): nhd. schlimmere; ne. worse (Adj.)
+wirsista%<adj%>:wirsista Adj-a-o-mono	;	!	wirsista* 4, wirrista, wi-rs-ista*, wi-r-r-ista*, as., Adj.: nhd. schlimmste; ne. worst (Adj.)
+wirtbrûn%<adj%>:wirtbrûn Adj-a-o-mono	;	!	wirtbrûn* 2, wirebrûn, wirt-brû-n*, wire-brû-n*, as., Adj.: nhd. kastanienbraun; ne. chestnutbrown (Adj.)
+wirthig%<adj%>:wirthig Adj-a-o-mono	;	!	wirthig* 27, werthig, wir-th-ig*, werth-ig*, as., Adj.: nhd. würdig, wert, angenehm; ne. worthy (Adj.), pleasant (Adj.); W.: mnd. werdich, Adj., würdig, edel, angesehen
+wis%<adj%>:wis Adj-a-o-mono	;	!	wis* 2, wiss, wi-s*, wis-s*, as., Adj.: nhd. „gewiss“, gemäß, sicher, zuverlässig; ne. according (Adj.), sure (Adj.), secure (Adj.); W.: mnd. wis, Adj., gewiss, sicher
+wîs%<adj%>:wîs Adj-a-o-mono	;	!	wîs* 39, wiss, wî-s*, wi-s-s*, as., Adj.: nhd. weise, kundig, klug, erfahren (Adj.); ne. wise (Adj.); W.: mnd. wîs, Adj., weise, klug, verständig
+wîslîk%<adj%>:wîslîk Adj-a-o-mono	;	!	wîslîk* 4, wî-s-lîk*, as., Adj.: nhd. „weislich“, weise; ne. wise (Adj.); W.: mnd. wîslîk, Adj., „weislich“, kundig, geschickt
+wistlîk%<adj%>:wistlîk Adj-a-o-mono	;	!	wistlîk* 1, wis-t-lîk*, as., Adj.: nhd. zur Nahrung gehörig
+wîtag%<adj%>:wîtag Adj-a-o-mono	;	!	wîtag*? 1, wî-ta-g*?, as., Adj.: nhd. wissenswert; ne. worth (Adj.) knowing
+witig%<adj%>:witig Adj-a-o-mono	;	!	witig* 2, wittig, wi-t-ig*, wi-t-t-ig*, as., Adj.: nhd. weise, verständig; ne. wise (Adj.), sensible (Adj.); W.: mnd. wittich, Adj., klug, verständig, weise
+witharmôd%<adj%>:witharmôd Adj-a-o-mono	;	!	witharmôd* 3, wi-th-ar-mô-d*, as., Adj.: nhd. widerwärtig, feindselig; ne. hostile (Adj.)
+witharward%<adj%>:witharward Adj-a-o-mono	;	!	witharward* 2, wi-th-ar-war-d*, as., Adj.: nhd. „widerwärtig“, feindlich; ne. hostile (Adj.)
+witharwerdig%<adj%>:witharwerdig Adj-a-o-mono	;	!	witharwerdig* 1, wi-th-ar-wer-d-ig*, as., Adj.: nhd. schlau, listig; ne. cunning (Adj.)
+withumlîk%<adj%>:withumlîk Adj-a-o-mono	;	!	withumlîk* 2, with-um-lîk*, as., Adj.: nhd. „wittumlich“, zur Mitgift gehörig; ne. dowryrelated (N.), belonging (Adj.) to a dowry
+wlank%<adj%>:wlank Adj-a-o-mono	;	!	wlank* 7, wla-nk*, as., Adj.: nhd. stolz, übermütig, kühn; ne. proud (Adj.), wanton (Adj.)
+wlisp%<adj%>:wlisp Adj-a-o-mono	;	!	wlisp* 1, wli-s-p*, as., Adj.: nhd. lispelnd; ne. lisping (Adj.); W.: s. mnd. wlispen, sw. V., lispeln
+wlitig%<adj%>:wlitig Adj-a-o-mono	;	!	wlitig* 3, wli-t-ig*, as., Adj.: nhd. glänzend; ne. shining (Adj.)
+wonodsam%<adj%>:wonodsam Adj-a-o-mono	;	!	wonodsam* 2, wonod-sam*, as., Adj.: nhd. erfreulich; ne. pleasant (Adj.)
+wordspâh%<adj%>:wordspâh Adj-a-o-mono	;	!	wordspâh* 4, wor-d-spâh*, as., Adj.: nhd. „wortgewandt“, redekundig; ne. eloquent (Adj.)
+wordwîs%<adj%>:wordwîs Adj-a-o-mono	;	!	wordwîs* 1, wor-d-wîs*, as., Adj.: nhd. „wortweise“, redekundig; ne. eloquent (Adj.)
+wôrig%<adj%>:wôrig Adj-a-o-mono	;	!	wôrig* 1, wôr-ig*, as., Adj.: nhd. müde, matt; ne. weary (Adj.)
+wrênisk%<adj%>:wrênisk Adj-a-o-mono	;	!	wrênisk* 1, wrê-n-isk*, as., Adj.: nhd. rensch, geil; ne. voluptuous (Adj.); W.: mnd. wrenesch, wrensch, Adj., „rensch“. grimmig, brünstig
+wrêth%<adj%>:wrêth Adj-a-o-mono	;	!	wrêth* 57, wrê-th*, as., Adj.: nhd. bekümmert, feindselig, zornig, böse; ne. wretched (Adj.), hostile (Adj.); W.: mnd. wrêt, Adj., gedreht, krumm, wild, grimmig, grausam, böse
+wrêthhugdig%<adj%>:wrêthhugdig Adj-a-o-mono	;	!	wrêthhugdig* 1, wrê-th-hug-d-ig*, as., Adj.: nhd. böse; ne. bad (Adj.)
+wrêthmôd%<adj%>:wrêthmôd Adj-a-o-mono	;	!	wrêthmôd* 1, wrê-th-mô-d*, as., Adj.: nhd. böse; ne. bad (Adj.)
+wrisilîk%<adj%>:wrisilîk Adj-a-o-mono	;	!	wrisilîk* 1, w-ri-s-i-lîk*, as., Adj.: nhd. riesig; ne. huge (Adj.)
+wund%<adj%>:wund Adj-a-o-mono	;	!	wund* 3, wu-n-d*, as., Adj.: nhd. wund, verwundet; ne. wounded (Adj.); W.: mnd. wunt, Adj., wund, verwundet
+wundarlîk%<adj%>:wundarlîk Adj-a-o-mono	;	!	wundarlîk* 3, wun-d-ar-lîk*, as., Adj.: nhd. „wunderlich“, wunderbar; ne. miraculous (Adj.); W.: mnd. wunderlîk, Adj., „wunderlich“, wunderbar
+wunnisam%<adj%>:wunnisam Adj-a-o-mono	;	!	wunnisam* 13, wunsam, wun-n-i-sam*, wun-sam*, as., Adj.: nhd. wonnig; ne. delightful (Adj.); W.: mnd. wunsam, Adj., wonniglich, wonnig
+wurmbêtig%<adj%>:wurmbêtig Adj-a-o-mono	;	!	wurmbêtig* 1, wur-m-bêt-ig*, as., Adj.: nhd. wurmstichig; ne. wormy (Adj.)
+
+

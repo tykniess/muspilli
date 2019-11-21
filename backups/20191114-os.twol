@@ -1,0 +1,140 @@
+Alphabet
+	a:a a:e a:ô 		! Normal | Umlaut | Ablaut1 and Ablaut2 |  
+	b 
+	c 
+	d 
+	e:e e:i	e:a e:u e:o e:a e:â e:o e:e		! Normal | Umlaut | Ablaut1 | Ablaut2 | Ablaut3 | Ablaut-STR4&5-1 | Ablaut STR4&5-2 | Ablaut-STR4-3 | ABLAUT-STR5-3
+	f 
+	g 
+	h:h h:g			! Normal | Grammatischer Wechsel 
+	i:i i:0			! Normal | Ablaut1&2&3 
+	j 
+	k 
+	l 
+	m 
+	n 
+	o:o o:u o:ô o:u			! Normal | Umlaut | Ablaut1 | Ablaut 2&3
+	p 
+	q 
+	r 
+	s 
+	t 
+	u:u u:a u:â u:o			! Normal | Ablaut-STR4&5-1 | Ablaut STR4&5-2 | Ablaut STR4&5-3 [e.g. kuman~kam~kâmun-gikoman]
+	v 
+	w 
+	x 
+	y 
+	z 
+	î:î i:ê i:i			! Normal | Ablaut1 | Ablaut2 & Ablaut3 [e.g. mîthan ~ mêth ~ midun ~ gimidan
+	ê:ê e:a ê:â ê:o			! Normal | Ablaut1 | Ablaut2 | Ablaut3
+	ô:ô ô:io			! Normal | 7th class Ablaut1 & Ablaut2 [e.g. hlôpan ~ hliop ~ hliopun ~ hlôpan]
+	â:â â:ê 			! Normal | 7th class Ablaut1 & Ablaut2 [e.g. lâtan ~ lêt ~ lêtun ~ gilâtan] 
+	đ 
+	ƀ 
+	th:th th:d		! Normal | Grammatischer Wechsel 
+	¹:0 ²:0 ³:0 ⁴:0		!four contexts for Ablaut
+	₄:0 ₅:0 ₇:0 		!three exceptional strong verb classes
+	%{I%}:i %{I%}:0		!j-infix
+	%{E%}:e %{E%}:a		!e/a alternations in dative and genitive
+	%{O%}:o %{O%}:a		!o/a alternations in nominative/accusative plural
+	%{M%}:m %{M%}:n		!m/n alternation in dative plural
+	%{NAPL%}:0 %{NAPL%}:u	!neuter a-stem plural morpheme; either u (after short stem) or 0 (after heavy stem)
+	;
+
+Sets
+V = a e i o u %{I%}			;
+ShortV = a e i o u                     ;
+FrontV = a e i %{I%}			;
+BackV = o u			;
+Cns = b d f g h j k l m n p w r s t v w x y z đ ƀ th ; 
+HighV = i u ;
+
+Rules
+
+! a:b   CONSTRAINT_OPERATOR   LEFT_CONTEXT   _   RIGHT_CONTEXT ;
+
+"Remove morpheme boundary"
+%>:0 <=> _ 			;
+
+"Umlaut in second and third class strong verbs"
+!biod>u becomes biudu
+!werth>u becomes wirthu
+Vx:Vy <= _  Cns+ %>:  HighV ;
+     except
+           _ Cns+ ¹: ; 		!Rule "Ablaut in preterite 1sg 3sg of strong verbs (context 1)"
+	   _ Cns+ ²: ; 		!Rule "Ablaut in preterite pl of strong verbs (context 2)"
+	   _ Cns+ ³: ; 		!Rule "Ablaut in participle of strong verbs (context 3)"
+     where Vx in ( o e )
+           Vy in ( u i )
+     matched ;
+
+"Umlaut in sixth class strong verbs"
+a:e <= _ Cns: %>: i ; !note that this umlaut doesn't apply before [u]
+
+"STR2 Deletion of the i in the diphthong io in ablaut grades 1 2 3 "
+Vx:Vy <= _ o: Cns+ Vz: ;
+     where Vx in ( i i i )
+           Vy in ( 0 0 0 )
+           Vz in ( ¹ ² ³ )
+     matched ;
+
+"Grammatischer Wechsel"
+Vx:Vy <=> _ Vz: ;
+	where Vx in ( h th h ) !add s~r alternations
+	      Vy in ( g d g )
+	      Vz in ( ¹ ² ³ ) 
+	matched ; 
+
+"Ablaut in preterite 1sg 3sg of strong verbs (context 1)"
+Vx:Vy <=> _ Cns+ ¹: ;
+     except
+            ₄: _ ;
+            ₅: _ ;
+            ₇: _ ;
+     where Vx in ( î ī o i e ê ē a )
+           Vy in ( ê ê ô a a a a ô ) 
+     matched ;
+
+"Ablaut in preterite pl of strong verbs (context 2)"
+Vx:Vy <=> _ Cns+ ²: ; 
+     except
+            ₄: _ ;
+            ₅: _ ;
+	    ₇: _ ;
+     where Vx in ( î ī o i e ê ē a )
+           Vy in ( i i u u u â ā ô )
+     matched ;
+
+"Ablaut in participle of strong verbs (context 3)"
+Vx:Vy <=> _ Cns+ ³: ;
+     except
+            ₄: _ ;
+            ₅: _ ;
+            ₇: _ ;
+     where Vx in ( î ī o i e ê ē )
+           Vy in ( i i o u o o o )
+     matched ;
+
+"Ablaut in Strong Verbs Classes 4 and 5"
+!some sort of doubling error in āles₄³>an
+Vx:Vy <=> _ Cns+ ( i: )  Vz: Vw: %>: ;
+     where Vx in ( i i i e e e u u u e i )
+           Vy in ( a â o a â o a â o e e )
+           Vz in ( ₄ ₄ ₄ ₄ ₄ ₄ ₄ ₄ ₄ ₅ ₅ )
+           Vw in ( ¹ ² ³ ¹ ² ³ ¹ ² ³ ³ ³ )
+     matched ;
+
+"Remove j-infix before a vocalic verbal suffix"
+%{I%}:0 <=> _ (¹:|²:) (>:) (¹:|²:) :i ; 
+
+"Ablaut in Strong Verbs Class 7"
+!haldan-haldu-held-heldun-gihaldan
+!âhlôp₇¹
+Vx:Vy <=> _ Cns+ ₇: Vw: (%>:) ;
+     where Vx in ( a a â â ê  ê   ô  ô  )
+           Vy in ( e e ê ê ie ie  io io )
+           Vw in ( ¹ ² ¹ ² ¹  ²   ¹  ²  ) !Don't need #3 because pastpart is same as inf stem vowel
+     matched ;
+
+"Neuter a-stem plural is -u after short stem, zero elsewhere"
+%{NAPL%}:u <=> ShortV: (Cns: )(ShortV+: ) _ ; !not working

@@ -34,7 +34,8 @@ POS_tags = ['as., st. V. (1)', 'as., st. V. (2)', 'as., st. V. (3a)', 'as., st. 
 'as., Adv.',\
 'as., st. F. (ō)', 'as., st. F. (jō)', \
 'as., st. M. (u)', 'as., st. F. (u)', 'as., st. N. (u)', \
-'as., sw. M. (n)', 'as., sw. F. (n)', 'as., sw. N. (n)'           ]
+'as., sw. M. (n)', 'as., sw. F. (n)', 'as., sw. N. (n)', \
+'as., Adj.']
 
 def dict_scrape(POS, dictionaryfile='as_kurzform.txt'):
     """Scrapes a dictionary for a given part of speech. POS tags in POS_tags.
@@ -58,7 +59,12 @@ def dict_scrape(POS, dictionaryfile='as_kurzform.txt'):
         #scrub line of the frequency data, begin with headword?
     return lemmas_cleaned
 
+
+
+
 #dict_scrape(sys.argv[1])
+
+
 
 
 
@@ -170,26 +176,52 @@ def dict_scrape(POS, dictionaryfile='as_kurzform.txt'):
 
 
 
-
-n_stems = ['as., sw. M. (n)', 'as., sw. F. (n)', 'as., sw. N. (n)']
-for gender in n_stems:
-    with open(gender+'_ready-for-import','w+') as to_write:
-        dict_scrape(gender)
-        i=0
-        while i < len(lemmas):
-            if 'sw. M. (n)' in gender:
-                to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<masc%>%<n-stem%>:'+lemmas_cleaned[i][:-2]+' Masc-n-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    
-            elif 'sw. F. (n)' in gender:
-                to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<fem%>%<n-stem%>:'+lemmas_cleaned[i][:-2]+' Fem-n-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    
-            else:
-                to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<neut%>%<n-stem%>:'+lemmas_cleaned[i][:-2]+' Neut-n-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    
-            i=i+1 
-    lemmas = []
-    lemmas_cleaned = []     
-
-
+###n-stem nouns
+##n_stems = ['as., sw. M. (n)', 'as., sw. F. (n)', 'as., sw. N. (n)']
+##for gender in n_stems:
+##    with open(gender+'_ready-for-import','w+') as to_write:
+##        dict_scrape(gender)
+##        i=0
+##        while i < len(lemmas):
+##            if 'sw. M. (n)' in gender:
+##                to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<masc%>%<n-stem%>:'+lemmas_cleaned[i][:-2]+' Masc-n-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    
+##            elif 'sw. F. (n)' in gender:
+##                to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<fem%>%<n-stem%>:'+lemmas_cleaned[i][:-2]+' Fem-n-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    
+##            else:
+##                to_write.write(lemmas_cleaned[i][:-1] + '%<noun%>%<neut%>%<n-stem%>:'+lemmas_cleaned[i][:-2]+' Neut-n-Stem \t\t; ! ' + lemmas[i].replace('\n','') + '\n')    
+##            i=i+1 
+##    lemmas = []
+##    lemmas_cleaned = []     
 
 
+#adjectives have an extra step because the dictionary doesn't differentiate stems
+#a-stem
+dict_scrape('as., Adj.')
+i=0
+with open('ao_stem_adjective','w+') as to_write:
+    while i < len(lemmas_cleaned):
+        if lemmas_cleaned[i][-2] == 'i':
+            pass
+            #print(lemma[:-1] + ' is a ja stem')
+        elif lemmas_cleaned[i][-2] == 'u':
+            pass
+            #print (lemma[:-1] + ' is an u stem')
+        else:
+            #print (lemma[:-1] + ' is an a/o stem, but idk if it is long or short stem')
+            #now that we have a/o stems, we need to check if the adjective has one or more syllables
+##            for char in lemmas_cleaned[i][:-1]:
+##                if True: #monomorphemic adjective is actually much harder to determine than it looks
+##                    to_write.write(lemmas_cleaned[i][:-1]+':%<adj%>'+lemmas_cleaned[i][:-1]+' Adj-a-o-mono\t;\t!\t' + lemmas[i][:-1])
+##                else:
+##                    to_write.write(lemmas_cleaned[i][:-1]+':%<adj%>'+lemmas_cleaned[i][:-1]+' Adj-a-o-poly\t;\t!\t' + lemmas[i][:-1])
+            to_write.write(lemmas_cleaned[i][:-1]+'%<adj%>:'+lemmas_cleaned[i][:-1]+' Adj-a-o-mono\t;\t!\t' + lemmas[i][:-1] + '\n')
+
+
+        i=i+1
+
+#ja-stem/jo-stem
+#wa-stem/wo-stem
+#u-stem (only filu remains)
 
 
 
