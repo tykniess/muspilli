@@ -8,6 +8,7 @@ Alphabet
 	g 
 	h:h h:g			! Normal | Grammatischer Wechsel 
 	i			 
+	ie:ie			! single phoneme
 	io:io io:iu io:ô io:u io:o		! Normal | Umlaut | Ablaut 1 | Ablaut 2 | Ablaut 3
 	j 
 	k 
