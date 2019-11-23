@@ -8,7 +8,7 @@ covered_total_words = []
 heliand_total_words = []
 
 heliand = 'heliand/hel-unique-tokens-clean.txt'
-heliand_total = 'heliand/hel-tokenized-clean.txt'
+heliand_total = 'heliand/clean.txt'
 muspilli= 'forms-prefixed.txt'
 
 with open(muspilli, 'r', newline='\n') as mfile:

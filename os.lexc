@@ -417,6 +417,7 @@ samad%<adv%>:samad	 # ; !
 saman%<adv%>:saman	 # ; !  
 samna%<adv%>:samna	 # ; !  
 seld%<adv%>:seld	 # ; !  
+selbo%<adv%>:selbo	 # ; ! Manually entered
 simbla%<adv%>:simbla	 # ; !  
 simblon%<adv%>:simblon	 # ; !  
 simnon%<adv%>:simnon	 # ; !  
@@ -431,6 +432,7 @@ swâro%<adv%>:swâro	 # ; !
 swâslîko%<adv%>:swâslîko	 # ; !  
 swîthlîko%<adv%>:swîthlîko	 # ; !  
 swîtho%<adv%>:swîtho	 # ; !  
+swîtho%<adv%>:suîđo	 # ; !  
 sêgno%<adv%>:sêgno	 # ; !  
 sêrago%<adv%>:sêrago	 # ; !  
 sêro%<adv%>:sêro	 # ; !  
@@ -942,6 +944,8 @@ LEXICON WESAN
 %<pres%>%<indic%>%<3rd%>%<pl%>:sindun          #;
 %<pres%>%<indic%>%<3rd%>%<pl%>:sindon          #;
 !%<pres%>%<indic%>%<3rd%>%<pl%>:sundon          #;
+%<pres%>%<indic%>%<3rd%>%<sg%>%<neg%>:nis          #; ! Manually entered
+
 
 %<pres%>%<opt%>%<1st%>%<sg%>:sî				#;
 %<pres%>%<opt%>%<2nd%>%<sg%>:sîs                         #;
@@ -1002,7 +1006,9 @@ ic%<prn%>%<pers%>%<1st%>%<sg%>%<nom%>:ik  	#       ;
 ic%<prn%>%<pers%>%<1st%>%<sg%>%<gen%>:mîn  	#       ;
 ic%<prn%>%<pers%>%<1st%>%<sg%>%<dat%>:mî  	#       ;
 ic%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mî  	#       ;
+ic%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mi  	#       ;
 ic%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mê  	#       ;
+ic%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:me  	#       ;
 ic%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mik  	#       ;
 wî%<prn%>%<pers%>%<1st%>%<pl%>%<nom%>:wî  	#       ;
 wî%<prn%>%<pers%>%<1st%>%<pl%>%<nom%>:wê  	#       ;
@@ -2025,7 +2031,8 @@ LEXICON A-Stem
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!Masc. a-stem!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+middilgard%<noun%>%<masc%>%<a-stem%>:middilgard Masc-A-Stem ;	!Manually entered. tk need to redo this section to include forms with 'as., st. M. (a?)' in dict
+crist%<noun%>%<masc%>%<a-stem%>:crist Masc-A-Stem ; !Manually entered, tk no proper names in dictionary
 
 dag%<noun%>%<masc%>%<a-stem%>:dag Masc-A-Stem ;	!nhd. Tag; !send it to masculine sublexicon for now to avoid dealing with tags.
 afgod%<noun%>%<masc%>%<a-stem%>:afgod Masc-A-Stem ;
@@ -2638,6 +2645,7 @@ flêsk%<noun%>%<neut%>%<a-stem%>:flêsk Neut-A-Stem ; ! flêsk 11, flê-sk, as.,
 flôtskip%<noun%>%<neut%>%<a-stem%>:flôtskip Neut-A-Stem ; ! flôtskip* 1, flô-t-ski-p*, as., st. N. (a): nhd. „Floßschiff“, Nachen; ne. skiff (N.)
 fluhthûs%<noun%>%<neut%>%<a-stem%>:fluhthûs Neut-A-Stem ; ! fluhthûs* 1, flu-h-t-hû-s*, as., st. N. (a): nhd. „Fluchthaus“, Zufluchtsort; ne. retreat (N.)
 folk%<noun%>%<neut%>%<a-stem%>:folk Neut-A-Stem ; ! folk 140, fol-k, as., st. N. (a): nhd. Volk, Schar (F.) (1), Menge; ne. people (N.), crowd (N.); W.: mnd. volk, N., Volk
+folc%<noun%>%<neut%>%<a-stem%>:folk Neut-A-Stem ; ! folk 140, fol-k, as., st. N. (a): nhd. Volk, Schar (F.) (1), Menge; ne. people (N.), crowd (N.); W.: mnd. volk, N., Volk (tk Manually Entered)
 forawerk%<noun%>%<neut%>%<a-stem%>:forawerk Neut-A-Stem ; ! forawerk* 24, for-a-werk*, as., st. N. (a): nhd. Vorwerk; ne. outwork (N.); W.: mnd. vorwerk, N., Vorwerk
 ford%<noun%>%<neut%>%<a-stem%>:ford Neut-A-Stem ; ! ford* 2, furd, for-d*, fur-d*, as., st. N. (a)?, st. M. (i)?: nhd. Furt; ne. ford (N.); W.: mnd. vort, M., F., Furt
 forthgiskod%<noun%>%<neut%>%<a-stem%>:forthgiskod Neut-A-Stem ; ! forthgiskod*? 1, forthgeskod, for-th-gi-skod*?, for-th-ge-skod*, as., st. N. (a): nhd. „Fortgeschüttetes“, hervorgeschwemmter Schutt; ne. flotsam (N.)
@@ -4373,7 +4381,7 @@ undgeldan%<v%>%<str%>%<class3b%>:undgeld STR3    ;	! nhd. entgelten, büßen
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!Class 4!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+queman%<v%>%<str%>%<class4%>quem STR4 ; 	! nhd. kommen ( tk manually entered)
 neman%<v%>%<str%>%<class4%>:nem STR4 ;          ! nhd. nehmen
 niman%<v%>%<str%>%<class4%>:nim STR4 ;          ! nhd. nehmen
 kuman%<v%>%<str%>%<class4%>:kum STR4    ;	! nhd. kommen
