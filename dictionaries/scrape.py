@@ -193,20 +193,81 @@ def dict_scrape(POS, dictionaryfile='as_kurzform.txt'):
 ##    lemmas = []
 ##    lemmas_cleaned = []     
 
-
+######################
 #adjectives have an extra step because the dictionary doesn't differentiate stems
 #a-stem
-dict_scrape('as., Adj.')
+#dict_scrape('as., Adj.')
+#i=0
+##with open('ao_stem_adjective','w+') as to_write:
+##    while i < len(lemmas_cleaned):
+##        if lemmas_cleaned[i][-2] == 'i':
+##            pass
+##            #print(lemma[:-1] + ' is a ja stem')
+##        elif lemmas_cleaned[i][-2] == 'u':
+##            pass
+##            #print (lemma[:-1] + ' is an u stem')
+##        else:
+##            #print (lemma[:-1] + ' is an a/o stem, but idk if it is long or short stem')
+##            #now that we have a/o stems, we need to check if the adjective has one or more syllables
+####            for char in lemmas_cleaned[i][:-1]:
+####                if True: #monomorphemic adjective is actually much harder to determine than it looks
+####                    to_write.write(lemmas_cleaned[i][:-1]+':%<adj%>'+lemmas_cleaned[i][:-1]+' Adj-a-o-mono\t;\t!\t' + lemmas[i][:-1])
+####                else:
+####                    to_write.write(lemmas_cleaned[i][:-1]+':%<adj%>'+lemmas_cleaned[i][:-1]+' Adj-a-o-poly\t;\t!\t' + lemmas[i][:-1])
+##            to_write.write(lemmas_cleaned[i][:-1]+'%<adj%>:'+lemmas_cleaned[i][:-1]+' Adj-a-o-mono\t;\t!\t' + lemmas[i][:-1] + '\n')
+##
+##
+##        i=i+1
+
+#i=0
+#now to look at ja/jo stems.
+##with open('ja_jo_stem_adjective','w+') as to_write:
+##    dict_scrape('as., Adj.')
+##    while i < len(lemmas_cleaned):
+##        if lemmas_cleaned[i][-2] == 'i':
+##            pass
+##            to_write.write(lemmas_cleaned[i][:-1]+'%<adj%>:'+lemmas_cleaned[i][:-1]+' Adj-ja-jo\t;\t!\t' + lemmas[i][:-1] + '\n')
+##            #print(lemma[:-1] + ' is a ja stem')
+##        elif lemmas_cleaned[i][-2] == 'u':
+##            pass
+##            #print (lemma[:-1] + ' is an u stem')
+##        else:
+##            pass
+##            #print (lemma[:-1] + ' is an a/o stem, but idk if it is long or short stem')
+##            #now that we have a/o stems, we need to check if the adjective has one or more syllables
+####            for char in lemmas_cleaned[i][:-1]:
+####                if True: #monomorphemic adjective is actually much harder to determine than it looks
+####                    to_write.write(lemmas_cleaned[i][:-1]+':%<adj%>'+lemmas_cleaned[i][:-1]+' Adj-a-o-mono\t;\t!\t' + lemmas[i][:-1])
+####                else:
+####                    to_write.write(lemmas_cleaned[i][:-1]+':%<adj%>'+lemmas_cleaned[i][:-1]+' Adj-a-o-poly\t;\t!\t' + lemmas[i][:-1])
+##            #to_write.write(lemmas_cleaned[i][:-1]+'%<adj%>:'+lemmas_cleaned[i][:-1]+' Adj-a-o-mono\t;\t!\t' + lemmas[i][:-1] + '\n')
+##        i=i+1
+
+
+#now to look at wa-wo stems
 i=0
-with open('ao_stem_adjective','w+') as to_write:
+with open('wa_stem_adjective','w+') as to_write:
+    to_write.write(60*'!')
+    to_write.write('\n')
+    to_write.write(20*'!')
+    to_write.write('wa-wo-stems')
+    to_write.write(20*'!')
+    to_write.write('\n')
+    to_write.write(60*'!')
+    to_write.write('\n')
+    dict_scrape('as., Adj.')
     while i < len(lemmas_cleaned):
         if lemmas_cleaned[i][-2] == 'i':
-            pass
+            #to_write.write(lemmas_cleaned[i][:-1]+'%<adj%>:'+lemmas_cleaned[i][:-1]+' Adj-ja-jo\t;\t!\t' + lemmas[i][:-1] + '\n')
             #print(lemma[:-1] + ' is a ja stem')
-        elif lemmas_cleaned[i][-2] == 'u':
             pass
-            #print (lemma[:-1] + ' is an u stem')
+        elif lemmas_cleaned[i][-2] == 'u':
+            to_write.write(lemmas_cleaned[i][:-1]+'%<adj%>:'+lemmas_cleaned[i][:-2]+' Adj-wa-wo\t;\t!\t' + lemmas[i][:-1] + '\n')
+        elif lemmas_cleaned[i][-2] == 'o':
+            if 'Komp.' not in lemmas[i]:
+                to_write.write(lemmas_cleaned[i][:-1]+'%<adj%>:'+lemmas_cleaned[i][:-2]+' Adj-wa-wo\t;\t!\t' + lemmas[i][:-1] + '\n')
         else:
+            pass
             #print (lemma[:-1] + ' is an a/o stem, but idk if it is long or short stem')
             #now that we have a/o stems, we need to check if the adjective has one or more syllables
 ##            for char in lemmas_cleaned[i][:-1]:
@@ -214,12 +275,9 @@ with open('ao_stem_adjective','w+') as to_write:
 ##                    to_write.write(lemmas_cleaned[i][:-1]+':%<adj%>'+lemmas_cleaned[i][:-1]+' Adj-a-o-mono\t;\t!\t' + lemmas[i][:-1])
 ##                else:
 ##                    to_write.write(lemmas_cleaned[i][:-1]+':%<adj%>'+lemmas_cleaned[i][:-1]+' Adj-a-o-poly\t;\t!\t' + lemmas[i][:-1])
-            to_write.write(lemmas_cleaned[i][:-1]+'%<adj%>:'+lemmas_cleaned[i][:-1]+' Adj-a-o-mono\t;\t!\t' + lemmas[i][:-1] + '\n')
-
-
+            #to_write.write(lemmas_cleaned[i][:-1]+'%<adj%>:'+lemmas_cleaned[i][:-1]+' Adj-a-o-mono\t;\t!\t' + lemmas[i][:-1] + '\n')
         i=i+1
 
-#ja-stem/jo-stem
 #wa-stem/wo-stem
 #u-stem (only filu remains)
 
