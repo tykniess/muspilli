@@ -13,7 +13,7 @@ Multichar_Symbols
 %<jô-stem%>			! jô-stem noun
 %<u-stem%>			! u-stem noun
 %<n-stem%>			! n-stem noun (a. k. a. weak noun)
-%<a%/ô-stem%>			! a/ô-stem adjectiƀe
+%<a%/ô-stem%>			! a/ô-stem adjective
 
 !!!!!!!!!!!!!!!!!!NOMINAL CHARS!!!!!!!!!!!!!!!!!!!!!!!
 %<masc%>			! masculine noun
@@ -93,7 +93,7 @@ Verbs 				;
 Pronouns			;
 Prepositions			;
 Adverbs				;
-Adjectiƀes			;
+Adjectives			;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -297,7 +297,7 @@ LEXICON Adj-a-o-poly
 
 Adj-weak					;
 
-Lexicon Adj-ja-jo
+LEXICON Adj-ja-jo
 %<masc%>%<nom%>%<sg%>:i			#	;
 %<masc%>%<gen%>%<sg%>:ies		#	;
 %<masc%>%<gen%>%<sg%>:eas		#	;
@@ -4634,27 +4634,178 @@ selskepi%<noun%>%<neut%>%<i-stem%>:selskep	Neut-I-Stem-Short 		; ! selskepi* 1, 
 
 
 LEXICON StrongVerbs
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!Class 1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-mîthan%<v%>%<str%>%<class1%>:mîth STR1   ;	! nhd. meiden
-skînan%<v%>%<str%>%<class1%>:skîn STR1    ;	! nhd. scheinen, leuchten
-skrîdan%<v%>%<str%>%<class1%>:skrîd STR1    ;	! nhd. gleiten, schreiten, gehen
-stîgan%<v%>%<str%>%<class1%>:stîg STR1    ;	! nhd. steigen
-wrîtan%<v%>%<str%>%<class1%>:wrît STR1    ;	! nhd. ritzen, reißen, zerreißen, schreiben
-ofskîthan%<v%>%<str%>%<class1%>:ofskîth STR1   ;	! nhd. abscheiden, abschneiden, trennen
-rîdan%<v%>%<str%>%<class1%>:rîd STR1    ;	! nhd. reiten
-spîwan%<v%>%<str%>%<class1%>:spîw STR1    ;	! nhd. speien
-teskrîdan%<v%>%<str%>%<class1%>:teskrîd STR1    ;	! nhd. „zerschreiten“, zergehen
-scrîban%<v%>%<str%>%<class1%>:scrîb STR1	;	! tk manually added
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!Class 1 Strong Verbs!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+aftîhan%<v%>%<str%>%<class1%>:aftîh STR1	;	!	aftîhan* 1, af-tî-h-an*, as., st. V. (1b): nhd. versagen; ne. refuse (V.)
+âhlîdan%<v%>%<str%>%<class1%>:âhlîd STR1	;	!	âhlîdan* 1, â-hlî-d-an*, as., st. V. (1a?): nhd. sich erschließen, sich aufdecken; ne. reveal (V.) o. s.
+andbîtan%<v%>%<str%>%<class1%>:andbît STR1	;	!	andbîtan* 4, antbîtan, and-bî-t-an*, ant-bî-t-an, as., st. V. (1a): nhd. genießen, verzehren, zu sich nehmen; ne. enjoy (V.), consume (V.), take (V.); W.: mnd. entbîten, st. V., etwas zu sich nehmen, kleine Mahlzeit zu sich nehmen
+andflîtan%<v%>%<str%>%<class1%>:andflît STR1	;	!	andflîtan* 1, and-flît-an*, as., st. V. (1a): nhd. streiten, sich bemühen, nach etwas trachten, streben; ne. fight (V.), strive (V.)
+andhlîdan%<v%>%<str%>%<class1%>:andhlîd STR1	;	!	andhlîdan* 2, anthlîdan, and-hlî-d-an*, ant-hlîd-an*, as., st. V. (1a?): nhd. sich erschließen; ne. disclose (V.)
+andhrînan%<v%>%<str%>%<class1%>:andhrîn STR1	;	!	andhrînan* 3, anthrînan, and-hrî-n-an*, ant-hrîn-an, as., st. V. (1a): nhd. berühren; ne. touch (V.)
+ârîsan%<v%>%<str%>%<class1%>:ârîs STR1	;	!	ârîsan 9, â-rî-san, as., st. V. (1a): nhd. auferstehen, sich erheben; ne. resurrect (V.), rise (V.); W.: s. mnd. errîsen, st. V., erstehen, sich erheben
+bîdan%<v%>%<str%>%<class1%>:bîd STR1	;	!	bîdan 23, bîd-an, as., st. V. (1a): nhd. warten, harren, verweilen, weilen, warten, erwarten; ne. wait (V.), stay (V.), expect (V.); W.: mnd. bîden, st. V., harren, Althochdeutsches Wörterbuch, hg. v. Karg-Gasterstädt, E./Frings, T.
+bihlîdan%<v%>%<str%>%<class1%>:bihlîd STR1	;	!	bihlîdan* 5, bi-hlî-d-an*, as., st. V. (1a): nhd. einschließen, umfassen, decken; ne. enclose (V.), cover (V.)
+bihrînan%<v%>%<str%>%<class1%>:bihrîn STR1	;	!	bihrînan* 1, bi-hrî-n-an*, as., st. V. (1a): nhd. berühren; ne. touch (V.); W.: vgl. mnd. berinen, sw. V., berühren
+biklîƀan%<v%>%<str%>%<class1%>:biklîƀ STR1	;	!	biklîvan* 1, biklîƀan, bi-klî-v-an*, bi-klî-ƀ-an*, as., st. V. (1a): nhd. Wurzel fassen, festhaften, wachsen (V.) (1); ne. take (V.) root (N.), grow (V.); W.: mnd. beklîven, st. V., kleben, ankleben
+biknêgan%<v%>%<str%>%<class1%>:biknêg STR1	;	!	biknêgan 1, bi-knê-g-an, as., st. V. (1a): nhd. erlangen, teilhaftig werden; ne. acquire (V.)
+bilîƀan%<v%>%<str%>%<class1%>:bilîƀ STR1	;	!	bilîvan* 3, bilîƀan, bi-lî-v-an*, bi-lî-ƀ-an*, as., st. V. (1a): nhd. bleiben, ausleihen, unterbleiben; ne. stay (V.) away; W.: mnd. blîven, st. V., bleiben, verbleiben
+bimîthan%<v%>%<str%>%<class1%>:bimîth STR1	;	!	bimîthan 5, bi-mî-th-an, as., st. V. (1a): nhd. vermeiden, versäumen, unterlassen (V.), verbergen; ne. avoid (V.), omit (V.), conceal (V.)
+biskindan%<v%>%<str%>%<class1%>:biskind STR1	;	!	biskindan* 2, biskindian, bi-s-ki-n-d-an*, bi-s-kin-d-ian*, as., st. V. (1a): nhd. sich abschälen, abrinden; ne. peel (V.), bark (V.) (1); W.: s. mnd. beschinden, sw. V., schinden, martern, berauben
+biskrîƀan%<v%>%<str%>%<class1%>:biskrîƀ STR1	;	!	biskrîvan* 2, biskrîƀan, bi-skrîv-an*, bi-skrîƀ-an*, as., st. V. (1a): nhd. sich zurückhalten, sich kümmern; ne. be (V.) reserverd, care (V.); W.: mnd. beschrîven, st. V., „beschreiben“, mit Schriftzügen bedecken, schreiben, aufzeichnen
+bismîtan%<v%>%<str%>%<class1%>:bismît STR1	;	!	bismîtan* 1, bi-smî-t-an*, as., st. V. (1a): nhd. beflecken; ne. pollute (V.); W.: mnd. besmitten, sw. V., beflecken, besudeln
+biswîkan%<v%>%<str%>%<class1%>:biswîk STR1	;	!	biswîkan* 9, bi-sw-î-k-an*, as., st. V. (1a): nhd. verführen, betrügen, verhindern; ne. seduce (V.), deceive (V.), prevent (V.); W.: mnd. beswiken, st. V., hintergehen, betrügen
+bîtan%<v%>%<str%>%<class1%>:bît STR1	;	!	bîtan* 1, bî-t-an*, as., st. V. (1a): nhd. beißen; ne. bite (V.); W.: mnd. biten, st. V., beißen
+bithîhan%<v%>%<str%>%<class1%>:bithîh STR1	;	!	bithîhan 2, bi-thîh-an, as., st. V. (1b): nhd. vollbringen, bewirken; ne. accomplish (V.); W.: mnd. bedien, bedigen, st. V., gedeihen, gelingen
+blîkan%<v%>%<str%>%<class1%>:blîk STR1	;	!	blîkan* 4, blî-k-an*, as., st. V. (1a): nhd. glänzen; ne. shine (V.); W.: s. mnd. blîken, sw. V., glänzen, scheinen
+drîƀan%<v%>%<str%>%<class1%>:drîƀ STR1	;	!	drîvan* 15, drîƀan, drî-v-an*, drî-ƀ-an, as., st. V. (1a): nhd. treiben, vertreiben, ausüben; ne. drive (V.), exercise (V.); W.: mnd. driven, st. V., treiben, antreiben
+fardrîƀan%<v%>%<str%>%<class1%>:fardrîƀ STR1	;	!	fardrîvan* 4, fardrîƀan, far-drî-v-an*, far-drî-ƀ-an*, as., st. V. (1a): nhd. vertreiben; ne. drive (V.) away; W.: mnd. vordriven, st. V., hinaustreiben, austreiben
+fargrîpan%<v%>%<str%>%<class1%>:fargrîp STR1	;	!	fargrîpan* 3, far-grîp-an*, as., st. V. (1a): nhd. verdammen; ne. condemn (V.); W.: mnd. vorgripen, st. refl. V., fehlgreifen, danebengreifen
+farlîhan%<v%>%<str%>%<class1%>:farlîh STR1	;	!	farlîhan* 7, far-lîh-an*, as., st. V. (1b): nhd. verleihen, geben; ne. grant (V.), give (V.); W.: vgl. mnd. vorlien, st. V., sw. V., verleihen, ausleihen
+farlîthan%<v%>%<str%>%<class1%>:farlîth STR1	;	!	farlîthan* 1, far-lî-th-an*, as., st. V. (1a): nhd. vorübergehen, verlassen (V.); ne. leave (V.), pass (V.); W.: mnd. vorliden, st. V., vorbeigehen, dahingehen, sterben
+farmîthan%<v%>%<str%>%<class1%>:farmîth STR1	;	!	farmîthan* 1, far-mî-th-an*, as., st. V. (1a): nhd. vermeiden; ne. avoid (V.); W.: mnd. vormiden, st. V., vermeiden
+farslîtan%<v%>%<str%>%<class1%>:farslît STR1	;	!	farslîtan* 5, far-s-lî-t-an*, as., st. V. (1a): nhd. „verschleißen“, schleißen, zerreißen, aufbrauchen, vergehen; ne. tear (V.), consume (V.); W.: mnd. vorsliten, st. V., abnutzen, verbrauchen
+gibîdan%<v%>%<str%>%<class1%>:gibîd STR1	;	!	gibîdan 1, gi-bîd-an, as., st. V. (1a): nhd. erwarten; ne. await (V.); W.: mnd. gebeiden, V., warten
+giflîhan%<v%>%<str%>%<class1%>:giflîh STR1	;	!	giflîhan* 1, gi-flîh-an*, as., st. V. (1b): nhd. richten auf; ne. arrange (V.) in order; W.: mnd. gevlien, V., ordnen, zurecht legen
+gihnîgan%<v%>%<str%>%<class1%>:gihnîg STR1	;	!	gihnîgan* 3, gi-hnî-g-an*, as., st. V. (1a): nhd. sich neigen, anbeten; ne. bend (V.) down, adore (V.)
+girîsan%<v%>%<str%>%<class1%>:girîs STR1	;	!	girîsan* 2, gi-rî-s-an*, as., st. V. (1a): nhd. geziemen, zukommen, gehören; ne. be (V.) seemly
+giskînan%<v%>%<str%>%<class1%>:giskîn STR1	;	!	giskînan* 1, gi-skî-n-an*, as., st. V. (1b): nhd. scheinen, leuchten; ne. shine (V.)
+giskrîƀan%<v%>%<str%>%<class1%>:giskrîƀ STR1	;	!	giskrîvan* 10, giskrîƀan, gi-skrîv-an*, gi-skrîƀ-an*, as., st. V. (1a): nhd. schreiben, beschreiben; ne. write (V.)
+gistîgan%<v%>%<str%>%<class1%>:gistîg STR1	;	!	gistîgan 2, gi-stîg-an, as., st. V. (1a): nhd. steigen; ne. mount (V.)
+giswîkan%<v%>%<str%>%<class1%>:giswîk STR1	;	!	giswîkan* 10, gi-sw-î-k-an*, as., st. V. (1a): nhd. im Stich lassen; ne. desert (V.)
+githîhan%<v%>%<str%>%<class1%>:githîh STR1	;	!	githîhan 4, gi-thîh-an, as., st. V. (1b): nhd. vollbringen, zum Vorteil oder Nachteil gereichen; ne. accomplish (V.), serve (V.); W.: mnd. gedien, st. V., gedeihen, gelingen
+giwîtan%<v%>%<str%>%<class1%>:giwît STR1	;	!	giwîtan* 69, gi-wî-t-an*, as., st. V. (1a): nhd. gehen; ne. go (V.)
+giwrîtan%<v%>%<str%>%<class1%>:giwrît STR1	;	!	giwrîtan* 4, gi-wrî-t-an*, as., st. V. (1a): nhd. ritzen, zerreißen, schreiben; ne. scratch (V.), write (V.)
+glîdan%<v%>%<str%>%<class1%>:glîd STR1	;	!	glîdan 1, glî-d-an, as., st. V. (1a?): nhd. gleiten; ne. glide (V.); W.: mnd. glîden, st. V., gleiten
+glîtan%<v%>%<str%>%<class1%>:glît STR1	;	!	glîtan* 2, glî-t-an*, as., st. V. (1a): nhd. gleißen; ne. sparkle (V.); W.: mnd. glîten, V., gut scheinen, gleißen (Lasch, A./Borchling, C., Mittelniederdeutsches Handwörterbuch, Bd. 1, Teil 2, S. 122), mnd. glîsen, glîssen, sw. V., gleißen, glänzen, scheinen
+grîpan%<v%>%<str%>%<class1%>:grîp STR1	;	!	grîpan 2, grîp-an, as., st. V. (1a): nhd. greifen, berühren; ne. grasp (V.), touch (V.); W.: mnd. grîpen, st. V., greifen, ergreifen, anfassen, beginnen
+hlîdan%<v%>%<str%>%<class1%>:hlîd STR1	;	!	hlîdan?***, hlî-d-an?***, as., st. V. (1a): nhd. sich verschließen; ne. close (V.)
+hnîgan%<v%>%<str%>%<class1%>:hnîg STR1	;	!	hnîgan 14, hnî-g-an, as., st. V. (1a): nhd. „neigen“, sich neigen, anbeten; ne. bow (V.), worship (V.); W.: mnd. nigen, st. V., sw. V., sich neigen, sich verneigen, grüßen
+hnîtan%<v%>%<str%>%<class1%>:hnît STR1	;	!	hnîtan?***, hnît-an?***, as., st. V. (1a?): nhd. stoßen; ne. push (V.); W.: mnd. nîten, st. V., stoßen
+hrînan%<v%>%<str%>%<class1%>:hrîn STR1	;	!	hrînan 3, hrî-n-an, as., st. V. (1a): nhd. berühren; ne. touch (V.)
+hrîtan%<v%>%<str%>%<class1%>:hrît STR1	;	!	hrîtan* 1, hrî-t-an*, as., st. V. (1a): nhd. kratzen; ne. scratch (V.); W.: mnd. riten, st. V., reißen, zerreißen
+kînan%<v%>%<str%>%<class1%>:kîn STR1	;	!	kînan 2, kî-n-an, as., st. V. (1a): nhd. keimen; ne. sprout (V.)
+klîƀan%<v%>%<str%>%<class1%>:klîƀ STR1	;	!	klîvan?***, klîƀan?***, klî-v-an?***, klî-ƀ-an?***, as., st. V. (1a): nhd. Wurzel fassen, haften, wachsen (V.) (1); ne. take (V.) root, grow (V.); W.: mnd. klîven, sw. V., st. V., kleben, festkleben, stecken bleiben
+lîhan%<v%>%<str%>%<class1%>:lîh STR1	;	!	lîhan* 1, lîh-an*, as., st. V. (1b): nhd. leihen, verleihen; ne. lend (V.); W.: mnd. lîen, lîgen, st. V., leihen
+lîthan%<v%>%<str%>%<class1%>:lîth STR1	;	!	lîthan 8, lî-th-an, as., st. V. (1a): nhd. gehen, ziehen; ne. go (V.), leave (V.)
+lîƀan%<v%>%<str%>%<class1%>:lîƀ STR1	;	!	lîvan?***, lî-v-an?***, as., st. V. (1a): nhd. bleiben, ausbleiben, unterbleiben; ne. stay (V.) away
+mîthan%<v%>%<str%>%<class1%>:mîth STR1	;	!	mîthan 17, mî-th-an, as., st. V. (1a): nhd. meiden, unterlassen (V.), verheimlichen; ne. avoid (V.), conceal (V.); W.: mnd. mîden, st. V., meiden, sich zurückziehen
+ofhnîtan%<v%>%<str%>%<class1%>:ofhnît STR1	;	!	ofhnîtan* 1, of-hnît-an*, as., st. V. (1a?): nhd. abreißen, wegreißen; ne. tear (V.) away
+ofskîthan%<v%>%<str%>%<class1%>:ofskîth STR1	;	!	ofskîthan* 1, of-skî-th-an*, as., st. V. (1): nhd. abscheiden, abschneiden, trennen; ne. cut (V.) away
+rîdan%<v%>%<str%>%<class1%>:rîd STR1	;	!	rîdan* 1, rîd-an*, as., st. V. (1): nhd. reiten; ne. ride (V.); W.: mnd. riden, st. V., reiten, reisen
+rîsan%<v%>%<str%>%<class1%>:rîs STR1	;	!	rîsan* 1, rî-s-an*, as., st. V. (1a): nhd. aufstehen; ne. rise (V.); W.: mnd. risen, st. V., nach oben bewegen, sich erheben, nach unten bewegen, fallen
+sîgan%<v%>%<str%>%<class1%>:sîg STR1	;	!	sîgan* 3, sî-g-an*, as., st. V. (1a): nhd. sinken, einherziehen; ne. sink (V.), travel (V.); W.: mnd. sîgen, sw. V., den Halt verlieren, sinken
+skînan%<v%>%<str%>%<class1%>:skîn STR1	;	!	skînan 13, skî-n-an, as., st. V. (1): nhd. scheinen, leuchten; ne. shine (V.); W.: mnd. schînen, st. V., scheinen
+skindan%<v%>%<str%>%<class1%>:skind STR1	;	!	skindan?***, s-ki-n-d-an?***, as., st. V. (1a): nhd. enthäuten, schinden; ne. skin (V.); W.: mnd. schinden, st. V., schinden, enthäuten
+skîthan%<v%>%<str%>%<class1%>:skîth STR1	;	!	skîthan?***, skî-th-an?***, as., st. V. (1): nhd. scheiden; ne. separate (V.)
+skrîan%<v%>%<str%>%<class1%>:skrî STR1	;	!	skrîan* 1, s-kr-î-an*, as., st. V. (1a): nhd. schreien; ne. cry (V.); W.: mnd. scrien
+skrîdan%<v%>%<str%>%<class1%>:skrîd STR1	;	!	skrîdan* 9, s-krî-d-an*, as., st. V. (1): nhd. gleiten, schreiten, gehen; ne. glide (V.), pace (V.); W.: mnd. schrîden, st. V., gleiten, sich hinausbewegen
+skrîƀan%<v%>%<str%>%<class1%>:skrîƀ STR1	;	!	skrîvan* 5, skrîƀan, s-krî-v-an*, s-krî-ƀ-an*, as., st. V. (1a): nhd. schreiben; ne. write (V.); W.: mnd. schrîven, st. V., schreiben
+slîtan%<v%>%<str%>%<class1%>:slît STR1	;	!	slîtan* 3, s-lî-t-an*, as., st. V. (1a): nhd. schleißen, zerreißen; ne. tear (V.) up; W.: mnd. slîten, st. V., schleißen, sich abnutzen
+snîthan%<v%>%<str%>%<class1%>:snîth STR1	;	!	snîthan 3, snîth-an, as., st. V. (1a): nhd. schneiden; ne. cut (V.); W.: mnd. snîden, st. V., schneiden, abschneiden
+spîwan%<v%>%<str%>%<class1%>:spîw STR1	;	!	spîwan* 1, s-pîw-an*, as., st. V. (1): nhd. speien; ne. spit (V.)
+stîgan%<v%>%<str%>%<class1%>:stîg STR1	;	!	stîgan 7, stîg-an, as., st. V. (1): nhd. steigen; ne. rise (V.); W.: mnd. stigen, st. V., steigen
+strîdan%<v%>%<str%>%<class1%>:strîd STR1	;	!	strîdan* 1, s-trî-d-an*, as., st. V. (1a): nhd. streiten; ne. dispute (V.); W.: mnd. strîden, st. V., streiten, zanken, kämpfen
+swîkan%<v%>%<str%>%<class1%>:swîk STR1	;	!	swîkan* 4, sw-î-k-an*, as., st. V. (1a): nhd. im Stich lassen, kleinmütig werden; ne. desert (V.); W.: mnd. swiken, st. V., weichen, entweichen
+teglîdan%<v%>%<str%>%<class1%>:teglîd STR1	;	!	teglîdan 2, te-glî-d-an, as., st. V. (1a?): nhd. zergleiten; ne. glide (V.) away; W.: mnd. toglîden, st. V., zergleiten
+tekînan%<v%>%<str%>%<class1%>:tekîn STR1	;	!	tekînan*? 1, te-kî-n-an*?, as., st. V. (1a): nhd. „zerkeimen“, zergehen; ne. dissolve (V.)
+teskrîdan%<v%>%<str%>%<class1%>:teskrîd STR1	;	!	teskrîdan* 1, te-s-krî-d-an*, as., st. V. (1): nhd. „zerschreiten“, zergehen; ne. dissolve (V.)
+tîhan%<v%>%<str%>%<class1%>:tîh STR1	;	!	tîhan?***, tî-h-an?***, as., st. V. (1b): nhd. zeihen; ne. accuse (V.), blame (V.); W.: mnd. tigen, tinen, st. V., zeihen, Schuld geben
+thîhan%<v%>%<str%>%<class1%>:thîh STR1	;	!	thîhan* 6, thîh-an*, as., st. V. (1b): nhd. „deihen“, gedeihen; ne. prosper (V.); W.: mnd. diên, digen, dihen, st. V., gedeihen
+thurhthîhan%<v%>%<str%>%<class1%>:thurhthîh STR1	;	!	thurhthîhan?***, thur-h-thîh-an?***, as., st. V. (1b): nhd. „durchdeihen„, gedeihen; ne. prosper (V.)
+umbirîdan%<v%>%<str%>%<class1%>:umbirîd STR1	;	!	umbirîdan* 1, umbi-rîd-an*, as., st. V. (1a): nhd. „umreiten“, herumreiten; ne. ride (V.) around; W.: mnd. ummerîden, st. V., Umritt halten, umreiten
+undargrîpan%<v%>%<str%>%<class1%>:undargrîp STR1	;	!	undargrîpan* 1, undar-grîp-an*, as., st. V. (1a): nhd. „untergreifen„, ergreifen; ne. seize (V.)
+wîkan%<v%>%<str%>%<class1%>:wîk STR1	;	!	wîkan* 2, wîk-an*, as., st. V. (1a): nhd. weichen (V.) (2); ne. retreat (V.); W.: mnd. wîken, st. V., weichen (V.) (2), ausweichen, sich entfernen, fliehen
+wîtan%<v%>%<str%>%<class1%>:wît STR1	;	!	wîtan* (1) 1, wî-t-an*, as., st. V. (1a): nhd. vorwerfen; ne. reproach (V.); W.: mnd. witen, st. V., strafen, vorwerfen
+wîtan%<v%>%<str%>%<class1%>:wît STR1	;	!	wîtan? (2)***, wî-t-an?***, as., st. V. (1a): nhd. gehen; ne. go (V.)
+wrîtan%<v%>%<str%>%<class1%>:wrît STR1	;	!	wrîtan* 3, wrî-t-an*, as., st. V. (1): nhd. ritzen, reißen, zerreißen, schreiben; ne. tear (V.), write (V.); W.: mnd. wrîten, st. V., ritzen, schreiben, zeichnen
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!Class 2!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-griotan%<v%>%<str%>%<class2%>:griot STR2    ;	! nhd. weinen
-tiohan%<v%>%<str%>%<class2%>:tioh STR2    ;	! nhd. ziehen, erziehen
-withartiohan%<v%>%<str%>%<class2%>:withartioh STR2    ;	! nhd. „widerziehen“, zurückziehen
-biodan%<v%>%<str%>%<class2%>:biod STR2		;
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!Class 2 Strong Verbs!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+aftiohan%<v%>%<str%>%<class2%>:aftioh STR2	;	!	aftiohan* 2, af-tio-h-an*, as., st. V. (2b): nhd. „abziehen“, wegnehmen, herausnehmen; ne. take (V.) away; W.: mnd. aftân, st. V., abziehen, fortziehen
+âkiosan%<v%>%<str%>%<class2%>:âkios STR2	;	!	âkiosan* 2, â-kios-an*, as., st. V. (2b): nhd. „erkiesen“, erwählen; ne. elect (V.); W.: mnd. erkêsen, st. V., sw. V., erkiesen, erwählen
+anbiodan%<v%>%<str%>%<class2%>:anbiod STR2	;	!	anbiodan* 3, an-biod-an*, as., st. V. (2b): nhd. entbieten, melden, sagen lassen; ne. deliver (V.) a message; W.: mnd. anebêden, anbêden, st. V., entbieten, anbefehlen, anbieten
+andlûkan%<v%>%<str%>%<class2%>:andlûk STR2	;	!	andlûkan* 10, antlûkan, and-lûk-an*, ant-lûk-an*, as., st. V. (2a): nhd. öffnen, sich öffnen, erklären, erschließen; ne. unlock (V.), reveal (V.); W.: mnd. entlûken, st. V., aufschließen, öffnen
+âtiohan%<v%>%<str%>%<class2%>:âtioh STR2	;	!	âtiohan* 3, â-tio-h-an*, as., st. V. (2b): nhd. herausziehen, aufziehen; ne. draw (V.) out, bring (V.) up; W.: mnd. ertên, st. V., erziehen
+âthriotan%<v%>%<str%>%<class2%>:âthriot STR2	;	!	âthriotan* 3, â-thri-o-t-an*, as., st. V. (2b): nhd. verdrießen; ne. disgust (V.); W.: s. mnd. vordrêten, vordreiten, st. V., verdrießen
+bidriogan%<v%>%<str%>%<class2%>:bidriog STR2	;	!	bidriogan* 5, bi-driog-an*, as., st. V. (2a): nhd. betrügen; ne. deceive (V.); W.: mnd. bedregen, st. V., betrügen, übervorteilen
+bigiotan%<v%>%<str%>%<class2%>:bigiot STR2	;	!	bigiotan* 2, bi-gio-t-an*, as., st. V. (2b): nhd. begießen; ne. wet (V.); W.: mnd. begeten, st. V., begießen, gießen
+bilûkan%<v%>%<str%>%<class2%>:bilûk STR2	;	!	bilûkan*, bi-lûk-an*, as., st. V. (2a): nhd. verschließen, einschließen; ne. lock (V.) up; W.: mnd. beluken, st. V., schließen
+biniotan%<v%>%<str%>%<class2%>:biniot STR2	;	!	biniotan 2, bineotan, bi-niot-an, bi-neot-an*, as., st. V. (2b): nhd. rauben, berauben; ne. deprive (V.); W.: mnd. binêten, st. V., genießen
+biodan%<v%>%<str%>%<class2%>:biod STR2	;	!	biodan* 4, biod-an*, as., st. V. (2b): nhd. bieten; ne. offer (V.); W.: mnd. bêden, st. V., bieten
+biogan%<v%>%<str%>%<class2%>:biog STR2	;	!	biogan* 1, biog-an*, as., st. V. (2a): nhd. sich neigen; ne. bend (V.), bow (V.); W.: vgl. mnd. bûgen, st. V., sw. V., sich biegen
+bliuwan%<v%>%<str%>%<class2%>:bliuw STR2	;	!	bliuwan?***, bliuw-an?***, as., st. V. (2a): nhd. bleuen, schlagen; ne. beat (V.); W.: mnd. bluwen, sw. V., bleuen, schlagen
+breuwan%<v%>%<str%>%<class2%>:breuw STR2	;	!	breuwan?***, br-euw-an?***, as., st. V. (2a?): nhd. brauen; ne. brew (V.)
+brûkan%<v%>%<str%>%<class2%>:brûk STR2	;	!	brûkan 6, brû-k-an, as., st. V. (2a): nhd. brauchen, genießen; ne. need (V.), enjoy (V.); W.: vgl. mnd. brûken, sw. V., brauchen
+bûgan%<v%>%<str%>%<class2%>:bûg STR2	;	!	bûgan* 1, biogan, bûg-an*, biog-an*, as., st. V. (2a): nhd. sich beugen, biegen; ne. bow (V.); W.: mnd. bûgen, st. V., biegen, beugen
+driogan%<v%>%<str%>%<class2%>:driog STR2	;	!	driogan* 1, driog-an*, as., st. V. (2a): nhd. betrügen; ne. deceive (V.); W.: mnd. drêgen, drogen, st. V., trügen, betrügen
+driopan%<v%>%<str%>%<class2%>:driop STR2	;	!	driopan* 2, drio-p-an*, as., st. V. (2a): nhd. triefen; ne. drip (V.); W.: mnd. drêpen, st. V., triefen
+driosan%<v%>%<str%>%<class2%>:drios STR2	;	!	driosan* 1, drio-s-an*, as., st. V. (2b?): nhd. fallen; ne. fall (V.)
+dûkan%<v%>%<str%>%<class2%>:dûk STR2	;	!	dûkan?***, dûk-an?***, as., st. V. (2a): nhd. tauchen; ne. dive (V.); W.: mnd. duken, st. V., tauchen
+farbiodan%<v%>%<str%>%<class2%>:farbiod STR2	;	!	farbiodan* 1, far-biod-an*, as., st. V. (2b): nhd. verbieten; ne. forbid (V.); W.: mnd. vorbêden, st. V., verbieten
+farkiosan%<v%>%<str%>%<class2%>:farkios STR2	;	!	farkiosan* 2, forkiosan, far-kios-an*, for-kios-an*, as., st. V. (2b): nhd. tadeln, verwerfen; ne. blame (V.); W.: mnd. vorkesen, st. V., nicht billigen, zurückweisen
+farliosan%<v%>%<str%>%<class2%>:farlios STR2	;	!	farliosan* 12, far-lio-s-an*, as., st. V. (2b): nhd. verlieren, unnütz tun; ne. lose (V.), do (V.) in vain; W.: mnd. vorlêsen, st. V., verlieren
+fliohan%<v%>%<str%>%<class2%>:flioh STR2	;	!	fliohan* 3, fli-o-h-an*, as., st. V. (2b): nhd. fliehen; ne. flee (V.); W.: vgl. mnd. vlên, vlein, sw. V., fliehen
+fliotan%<v%>%<str%>%<class2%>:fliot STR2	;	!	fliotan* 4, fli-o-t-an*, as., st. V. (2b): nhd. fließen, schwimmen; ne. flow (V.), swim (V.); W.: mnd. vlêten, st. V., fließen
+gêtan%<v%>%<str%>%<class2%>:gêt STR2	;	!	gêtan* 1, gê-t-an*, as., st. V. (2b): nhd. gießen; ne. pour (V.); W.: mnd. geten, st. V., gießen, ausschütten
+gibiodan%<v%>%<str%>%<class2%>:gibiod STR2	;	!	gibiodan 52, gi-biod-an, as., st. V. (2b): nhd. gebieten, befehlen, geboten sein (V.); ne. order (V.), be (V.) ordered; W.: mnd. gebêden, V., gebieten
+gibreuwan%<v%>%<str%>%<class2%>:gibreuw STR2	;	!	gibreuwan* 1, gi-breuw-an*, as., st. V. (2a): nhd. brauen; ne. brew (V.)
+gidriogan%<v%>%<str%>%<class2%>:gidriog STR2	;	!	gidriogan? 1***, gi-driog-an?***, as., st. V. (2a): nhd. trügen; ne. deceive (V.)
+gifliohan%<v%>%<str%>%<class2%>:giflioh STR2	;	!	gifliohan* 1, gi-fli-o-h-an*, as., st. V. (2b): nhd. fliehen; ne. flee (V.)
+gikiosan%<v%>%<str%>%<class2%>:gikios STR2	;	!	gikiosan 24, gi-kios-an, as., st. V. (2b): nhd. wählen, auswählen; ne. choose (V.)
+giotan%<v%>%<str%>%<class2%>:giot STR2	;	!	giotan 2, gio-t-an, as., st. V. (2b): nhd. gießen, vergießen; ne. pour (V.); W.: mnd. geten, st. V., gießen, ausschütten
+gitiohan%<v%>%<str%>%<class2%>:gitioh STR2	;	!	gitiohan* 1, gi-tio-h-an*, as., st. V. (2b): nhd. herausziehen, aufziehen; ne. pull (V.) out; W.: mnd. getên, st. V., ziehen
+griotan%<v%>%<str%>%<class2%>:griot STR2	;	!	griotan* 4, griot-an*, as., st. V. (2): nhd. weinen; ne. weep (V.)
+hioƀan%<v%>%<str%>%<class2%>:hioƀ STR2	;	!	hiovan* 2, hioƀan, heovan, heoƀan, hio-v-an*, hio-ƀ-an*, heo-v-an*, heo-ƀ-an*, as., st. V. (2a): nhd. wehklagen; ne. lament (V.)
+hliotan%<v%>%<str%>%<class2%>:hliot STR2	;	!	hliotan* 2, hlio-t-an*, as., st. V. (2b): nhd. davontragen, aufnehmen; ne. acquire (V.), receive (V.)
+hniosan%<v%>%<str%>%<class2%>:hnios STR2	;	!	hniosan?***, hnio-s-an?***, as., st. V. (2b): nhd. niesen; ne. sneeze (V.); W.: mnd. nêsen, neisen, st. V., niesen
+hreuwan%<v%>%<str%>%<class2%>:hreuw STR2	;	!	hreuwan* 9, hreu-w-an*, as., st. V. (2a): nhd. beklagen, schmerzlich sein (V.); ne. mourn (V.), be (V.) painful; W.: vgl. mnd. ruwen, rouwen, ruen, st. V., sw. V., schmerzen, betrüben, reuen
+hrûtan%<v%>%<str%>%<class2%>:hrût STR2	;	!	hrûtan 1, hrû-t-an, as., st. V. (2a): nhd. schnarchen; ne. snore (V.); W.: vgl. mnd. ruten, V., (vgl. Gallée, J., Vorstudien zu einem altniederdeutschen Wörterbuch, 1903, S. 153)
+kiosan%<v%>%<str%>%<class2%>:kios STR2	;	!	kiosan* 7, keosan, kios-an*, keos-an, as., st. V. (2b): nhd. kiesen, wählen, erkennen; ne. choose (V.), recognize (V.); W.: mnd. kêsen, st. V., wahrnehmen, auswählen
+kiuwan%<v%>%<str%>%<class2%>:kiuw STR2	;	!	kiuwan* 1, kiwan, kiu-w-an*, ki-w-an*, as., st. V. (2a): nhd. kauen; ne. chew (V.)
+klioƀan%<v%>%<str%>%<class2%>:klioƀ STR2	;	!	kliovan* 1, klioƀan, kliov-an*, klioƀ-an*, as., st. V. (2a): nhd. klieben, sich spalten; ne. split (V.); W.: mnd. kluven, sw. V., klieben, sich spalten
+liodan%<v%>%<str%>%<class2%>:liod STR2	;	!	liodan 2, liod-an, as., st. V. (2b): nhd. wachsen (V.) (1); ne. grow (V.)
+liogan%<v%>%<str%>%<class2%>:liog STR2	;	!	liogan 2, liog-an, as., st. V. (2a): nhd. lügen, untreu werden; ne. lie (V.) (1), be (V.) untrue; W.: mnd. lêgen, leigen, st. V., lügen
+lûkan%<v%>%<str%>%<class2%>:lûk STR2	;	!	lûkan?***, lûk-an?***, as., st. V. (2a): nhd. schließen; ne. close (V.)
+niotan%<v%>%<str%>%<class2%>:niot STR2	;	!	niotan 11, neotan, niot-an, neo-tan, as., st. V. (2b): nhd. genießen, benutzen, sich erfreuen; ne. enjoy (V.), use (V.); W.: mnd. nêten, st. V., genießen, sich bedienen
+nithargiotan%<v%>%<str%>%<class2%>:nithargiot STR2	;	!	nithargiotan* 1, ni-th-ar-gio-t-an*, as., st. V. (2b): nhd. „niedergießen“, vergießen; ne. pour (V.)
+skiotan%<v%>%<str%>%<class2%>:skiot STR2	;	!	skiotan* 2, s-kio-t-an*, as., st. V. (2b): nhd. schießen; ne. shoot (V.); W.: mnd. scheten, st. V., zuschießen, losstürzen, stürzen, werfen, stoßen
+slûtan%<v%>%<str%>%<class2%>:slût STR2	;	!	slûtan?***, s-lû-t-an?***, as., st. V. (2b): nhd. schließen; ne. lock (V.); W.: mnd. slûten, st. V., schließen, verschließen
+sprûtan%<v%>%<str%>%<class2%>:sprût STR2	;	!	sprûtan?***, s-prû-t-an?***, as., st. V. (2b?): nhd. sprießen; ne. sprout (V.); W.: mnd. sprûten, st. V., sw. V., sprießen, treiben
+sûgan%<v%>%<str%>%<class2%>:sûg STR2	;	!	sûgan* 1, sû-g-an*, as., st. V. (2a): nhd. saugen; ne. suck (V.); W.: mnd. sôgen, sw. V., saugen
+teklioƀan%<v%>%<str%>%<class2%>:teklioƀ STR2	;	!	tekliovan* 1, teklioƀan, te-kliov-an*, te-klioƀ-an*, as., st. V. (2a): nhd. „zerklieben“, auseinanderreißen; ne. tear (V.) apart
+tiohan%<v%>%<str%>%<class2%>:tioh STR2	;	!	tiohan* 4, tio-h-an*, as., st. V. (2): nhd. ziehen, erziehen; ne. pull (V.), educate (V.); W.: mnd. tên, tien, st. V., ziehen, sich begeben (V.), sich erstrecken
+ûtbislûtan%<v%>%<str%>%<class2%>:ûtbislût STR2	;	!	ûtbislûtan* 1, ût-bi-s-lû-t-an*, as., st. V. (2b): nhd. ausschließen; ne. seclude (V.)
+ûtbliuwan%<v%>%<str%>%<class2%>:ûtbliuw STR2	;	!	ûtbliuwan* 1, ût-bliuw-an*, as., st. V. (2a): nhd. „ausbleuen“, herausschlagen, heraushauen; ne. knock (V.) out
+ûtfliotan%<v%>%<str%>%<class2%>:ûtfliot STR2	;	!	ûtfliotan* 1, ût-fli-o-t-an*, as., st. V. (2b): nhd. ausfließen; ne. flow (V.) out; W.: mnd. ûtflêten, st. V., ausfließen
+ûtsprûtan%<v%>%<str%>%<class2%>:ûtsprût STR2	;	!	ûtsprûtan* 1, ût-s-prû-t-an*, as., st. V. (2b?): nhd. „aussprießen“, hervorsprießen; ne. sprout (V.); W.: mnd. ûtsprûten, st. V., aussprießen, hervorsprossen
+withartiohan%<v%>%<str%>%<class2%>:withartioh STR2	;	!	withartiohan* 1, wi-th-ar-tio-h-an*, as., st. V. (2): nhd. „widerziehen“, zurückziehen; ne. retreat (V.)
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!Class 3!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -4760,6 +4911,7 @@ undgeldan%<v%>%<str%>%<class3b%>:undgeld STR3    ;	! nhd. entgelten, büßen
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!Class 4!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+quêman%<v%>%<str%>%<class4%>quem STR4 ; 	! nhd. kommen ( tk manually entered)
 queman%<v%>%<str%>%<class4%>quem STR4 ; 	! nhd. kommen ( tk manually entered)
 neman%<v%>%<str%>%<class4%>:nem STR4 ;          ! nhd. nehmen
 niman%<v%>%<str%>%<class4%>:nim STR4 ;          ! nhd. nehmen
@@ -5635,7 +5787,7 @@ wiđ%<prep%>%<dat%>:wider	# ; ! gegen
 wiđ%<prep%>%<instr%>:wider	# ; ! gegen
 
 
-LEXICON Adjectiƀes
+LEXICON Adjectives
 gôd%<adj%>%<a%/ô-stem%>:gôd Adj-a-o-mono	; !manually entered
 hêlag%<adj%>%<a%/ô-stem%>:hêlag Adj-a-o-poly	; !manually entered
 âdêla%<adj%>:âdêla Adj-a-o-mono	;	!	âdêla* 1, âtêla, âtêlo, â-dêl-a*, â-têl-a, â-têl-o*, as., Adj., Adƀ.?: nhd. unangemessen, unpassend; ne. not suitable (Adj.)
@@ -6300,7 +6452,7 @@ wunnisam%<adj%>:wunnisam Adj-a-o-mono	;	!	wunnisam* 13, wunsam, wun-n-i-sam*, wu
 wurmbêtig%<adj%>:wurmbêtig Adj-a-o-mono	;	!	wurmbêtig* 1, wur-m-bêt-ig*, as., Adj.: nhd. wurmstichig; ne. wormy (Adj.)
 
 
-!!!!!!!!!!!!!ja-jo stem adjectiƀes!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!ja-jo stem adjectives!!!!!!!!!!!!!!!!
 alaefni%<adj%>:alaefni Adj-ja-jo	;	!	alaefni* 1, al-a-efn-i*, as., Adj.: nhd. ganz eben, flach; ne. plain (Adj.)
 anawâni%<adj%>:anawâni Adj-ja-jo	;	!	anawâni* (2) 1, an-a-wâni*, as., Adj.: nhd. ƀerdächtig; ne. suspicious (Adj.)
 andhêti%<adj%>:andhêti Adj-ja-jo	;	!	andhêti 2, anthêti, and-hê-t-i, ant-hê-t-i, as., Adj.: nhd. fromm, ƀersprochen, ƀerlobt; ne. pious (Adj.), promised (Adj.), engaged (Adj.)

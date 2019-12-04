@@ -25,7 +25,9 @@ for char in alphabet:
             consonants.append(char)
 
 
-POS_tags = ['as., st. V. (1)', 'as., st. V. (2)', 'as., st. V. (3a)', 'as., st. V. (3b)', 'as., st. V. (4)', 'as., st. V. (5)', 'as., st. V. (6)', 'as., st. V. (7)', \
+POS_tags = ['as., st. V. (1)', 'as., st. V. (1a)', 'as., st. V. (1b)', 'as., st. V. (1',\
+            'as., st. V. (2', 'as., st. V. (2)', \
+            'as., st. V. (3a)', 'as., st. V. (3b)', 'as., st. V. (4)', 'as., st. V. (5)', 'as., st. V. (6)', 'as., st. V. (7)', \
 'as., sw. V. (1', 'as., sw. V. (1a)', 'as., sw. V. (1b)', 'as., sw. V. (2)', \
 'as., red. V.',\
 'as., st. M. (a)', 'as., st. N. (a)', 'as., st. M. (ja)', 'as., st. N. (ja)', 'as., st. M. (wa)', 'as., st. N. (wa)', \
@@ -55,19 +57,50 @@ def dict_scrape(POS, dictionaryfile='as_kurzform.txt'):
                 break
             else:
                 i=i+1
-        lemmas_cleaned.append(line[:i].lower().strip().replace('*','').replace('?','')+'\n')
-        #scrub line of the frequency data, begin with headword?
+        lemmas_cleaned.append(line[:i].lower().strip().replace('*','').replace('?','').replace('ī','î').replace('ū','û').replace('ō','ô').replace('ā','â').replace('ē','ê').replace('ė','e').replace('v','ƀ')+'\n')
+        #scrub line of the frequency data; standardize characters
     return lemmas_cleaned
-
-
-
 
 #dict_scrape(sys.argv[1])
 
 
+#####################Strong Verbs######################
+#STR1
+i=0
+with open('STR1','w+') as to_write:
+    lemmas=[]
+    lemmas_cleaned=[]
+    to_write.write(60*'!')
+    to_write.write('\n')
+    to_write.write(20*'!')
+    to_write.write('Class 1 Strong Verbs')
+    to_write.write(20*'!')
+    to_write.write('\n')
+    to_write.write(60*'!')
+    to_write.write('\n')
+    dict_scrape('as., st. V. (1')
+    while i < len(lemmas_cleaned):
+        to_write.write(lemmas_cleaned[i][:-1]+'%<v%>%<str%>%<class1%>:'+lemmas_cleaned[i][:-3]+' STR1\t;\t!\t' + lemmas[i][:-1] + '\n')
+        i=i+1
 
 
-
+#STR2
+i=0
+with open('STR2','w+') as to_write:
+    lemmas=[]
+    lemmas_cleaned=[]
+    to_write.write(60*'!')
+    to_write.write('\n')
+    to_write.write(20*'!')
+    to_write.write('Class 2 Strong Verbs')
+    to_write.write(20*'!')
+    to_write.write('\n')
+    to_write.write(60*'!')
+    to_write.write('\n')
+    dict_scrape('as., st. V. (2')
+    while i < len(lemmas_cleaned):
+        to_write.write(lemmas_cleaned[i][:-1]+'%<v%>%<str%>%<class2%>:'+lemmas_cleaned[i][:-3]+' STR2\t;\t!\t' + lemmas[i][:-1] + '\n')
+        i=i+1
 
 
 

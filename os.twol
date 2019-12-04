@@ -31,6 +31,7 @@ Alphabet
 	ê:ê ê:ie 			! Normal | Ablaut1 & Alaut2 		[e.g. hêtan ~ hiet ~ hietun ~ gihêtan] 
 	ô:ô ô:io !ô:uo			! Normal | 7th class Ablaut1 & Ablaut2 [e.g. hlôpan ~ hliop ~ hliopun ~ hlôpan] | alternate spelling
 	â:â â:ê 			! Normal | 7th class Ablaut1 & Ablaut2 [e.g. lâtan ~ lêt ~ lêtun ~ gilâtan] 
+	û:u û:ô û:u û:o		! Normal | Ablaut 1 | Ablaut 2 | Ablaut 3 [e.g. lûkan ~ lôk ~ lukun ~ gilokan]
 	đ
 	ƀ 
 	th:th th:d		! Normal | Grammatischer Wechsel 
@@ -151,11 +152,15 @@ u:o <=> _ Cns+ ₄: ³: ;					! kuman ~ gikoman
 "â:ê in Ablaut 1 and 2 of Class VII strong verbs"
 â:ê <=> _ Cns+ ₇: [ ¹: |  ²:] ( %>: ) ;
 
+!	û:u û:ô û:u û:o		! Normal | Ablaut 1 | Ablaut 2 | Ablaut 3 [e.g. lûkan ~ lôk ~ lukun ~ gilokan] Class II strong verbs
+"û to ô in Ablaut 1 (Pret 1. 3. sg.) of Class II strong verbs"
+û:ô <=> _ Cns+ ¹: ( %>: ) ;
 
+"û to u in Ablaut 2 (Pret pl., 2. sg) of Class II strong verbs"
+û:u <=> _ Cns+ ²: ( %>: ) ;
 
-
-
-
+"û to u in Ablaut 3 (Past participle) of Class II strong verbs"
+û:u <=> _ Cns+ ³: ( %>: ) ;
 
 
 
