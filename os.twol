@@ -1,6 +1,6 @@
 Alphabet
 	a:a a:e a:ô 		! Normal | Umlaut | Ablaut1 and Ablaut2 |  
-	b 
+	b:b b:p			! Normal | Final devoicing 
 	c 
 	d 
 	e:e e:i	e:a e:u e:o e:a e:â e:o e:e e:0		! Normal | Umlaut | Ablaut1 | Ablaut2 | Ablaut3 | Ablaut-STR4&5-1 | Ablaut STR4&5-2 | Ablaut-STR4-3 | ABLAUT-STR5-3 | After surface 'e' to prohibit clusters
@@ -33,7 +33,7 @@ Alphabet
 	â:â â:ê 			! Normal | 7th class Ablaut1 & Ablaut2 [e.g. lâtan ~ lêt ~ lêtun ~ gilâtan] 
 	û:u û:ô û:u û:o		! Normal | Ablaut 1 | Ablaut 2 | Ablaut 3 [e.g. lûkan ~ lôk ~ lukun ~ gilokan]
 	đ
-	ƀ 
+	ƀ:ƀ ƀ:f				! Normal | Final Devoicing 
 	th:th th:d		! Normal | Grammatischer Wechsel 
 	¹:0 ²:0 ³:0 ⁴:0		!four contexts for Ablaut
 	₄:0 ₅:0 ₇:0 		!three exceptional strong verb classes
@@ -59,6 +59,12 @@ Rules
 
 "Remove morpheme boundary"
 %>:0 <=> _ 			;
+
+"Final Devoicing"
+Vx:Vy <=> _ ( ₄: | ₅: | ₇: ) ( ¹: ) # ;
+        where Vx in ( b ƀ ) 
+              Vy in ( p f )
+        matched ;
 
 
 
