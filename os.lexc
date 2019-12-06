@@ -541,7 +541,7 @@ inna%<adv%>:inna	 # ; !
 innan%<adv%>:innan	 # ; !  
 inne%<adv%>:inne	 # ; !  
 inwardas%<adv%>:inwardas	 # ; !  
-iû%<adv%>:jû	 # ; !  
+iû%<adv%>:iû	 # ; !  
 klêno%<adv%>:klêno	 # ; !  
 kraftaglîko%<adv%>:kraftaglîko	 # ; !  
 kûsko%<adv%>:kûsko	 # ; !  
@@ -2125,9 +2125,9 @@ hûwo%<noun%>%<masc%>%<n-stem%>:hûw Masc-n-Stem 		; ! hûwo*, hû-w-o*, as., sw
 hwerƀo%<noun%>%<masc%>%<n-stem%>:hwerƀ Masc-n-Stem 		; ! hwerƀo*, hwerƀo, hwerƀ-o*, hwerƀ-o*, as., sw. M. (n): nhd. Pol, Angel (F.), Drehpunkt; ne. pole (N.), piƀot (N.); W.: mnd. werƀe, warƀe, F., Drehung, Turnus
 hwolƀo%<noun%>%<masc%>%<n-stem%>:hwolƀ Masc-n-Stem 		; ! hwolƀo* 1, hwolƀo, hwolƀ-o*, hwolƀ-o*, as., sw. M. (n): nhd. Hohlziegel; ne. hollow tile (N.)
 irrislo%<noun%>%<masc%>%<n-stem%>:irrisl Masc-n-Stem 		; ! irrislo* 4, errislo, ir-r-i-slo*, er-r-i-slo, as., sw. M. (n): nhd. Ärgernis; ne. scandal (N.)
-iudeo%<noun%>%<masc%>%<n-stem%>:jude Masc-n-Stem 		; ! Judeo* 1, Jude-o*, as., sw. M. (n): nhd. Jude; ne. Jew (M.); W.: mnd. jöde, jödde, jüde, iude, Sb., Jude
-iungaro%<noun%>%<masc%>%<n-stem%>:jungar Masc-n-Stem 		; ! jungaro* 94, jungero, jungro, ju-n-g-ar-o*, ju-n-g-er-o*, ju-n-g-r-o*, as., sw. M. (n): nhd. Jünger, Schüler; ne. disciple (M.), student (M.)
-iungo%<noun%>%<masc%>%<n-stem%>:jung Masc-n-Stem 		; ! jungo* 1, ju-n-g-o*, as., sw. M. (n): nhd. Junges, Hühnchen; ne. young (N.), chicken (N.)
+iudeo%<noun%>%<masc%>%<n-stem%>:iude Masc-n-Stem 		; ! Judeo* 1, Jude-o*, as., sw. M. (n): nhd. Jude; ne. Jew (M.); W.: mnd. jöde, jödde, jüde, iude, Sb., Jude
+iungaro%<noun%>%<masc%>%<n-stem%>:iungar Masc-n-Stem 		; ! jungaro* 94, jungero, jungro, ju-n-g-ar-o*, ju-n-g-er-o*, ju-n-g-r-o*, as., sw. M. (n): nhd. Jünger, Schüler; ne. disciple (M.), student (M.)
+iungo%<noun%>%<masc%>%<n-stem%>:iung Masc-n-Stem 		; ! jungo* 1, ju-n-g-o*, as., sw. M. (n): nhd. Junges, Hühnchen; ne. young (N.), chicken (N.)
 kempio%<noun%>%<masc%>%<n-stem%>:kempi Masc-n-Stem 		; ! kempio 1, kem-p-io, as., sw. M. (n): nhd. Kämpe, Kämpfer; ne. fighter (M.); W.: mnd. kempe (1), kampe, M., Kämpe, Kämpfer
 kerno%<noun%>%<masc%>%<n-stem%>:kern Masc-n-Stem 		; ! kerno 1, ker-n-o, as., sw. M. (n): nhd. Kern; ne. core (N.); W.: mnd. kê̆rn, M., Kern; mnd. kê̆rne, karne, M., F., Kern
 kinislo%<noun%>%<masc%>%<n-stem%>:kinisl Masc-n-Stem 		; ! kinislo* 1, ki-n-isl-o*, as., sw. M. (n): nhd. Ritze, Spalt; ne. chink (N.)
@@ -2624,10 +2624,10 @@ inlât%<noun%>%<masc%>%<a-stem%>:inlât Masc-A-Stem ;
 inwidnîth%<noun%>%<masc%>%<a-stem%>:inwidnîth Masc-A-Stem ;
 inwidrâd%<noun%>%<masc%>%<a-stem%>:inwidrâd Masc-A-Stem ;
 israhel%<noun%>%<masc%>%<a-stem%>:israhel Masc-A-Stem ;
-iârasdag%<noun%>%<masc%>%<a-stem%>:jârasdag Masc-A-Stem ;
-iuktâm%<noun%>%<masc%>%<a-stem%>:juktâm Masc-A-Stem ;
-iungardôm%<noun%>%<masc%>%<a-stem%>:jungardôm Masc-A-Stem ;
-iungling%<noun%>%<masc%>%<a-stem%>:jungling Masc-A-Stem ;
+iârasdag%<noun%>%<masc%>%<a-stem%>:iârasdag Masc-A-Stem ;
+iuktâm%<noun%>%<masc%>%<a-stem%>:iuktâm Masc-A-Stem ;
+iungardôm%<noun%>%<masc%>%<a-stem%>:iungardôm Masc-A-Stem ;
+iungling%<noun%>%<masc%>%<a-stem%>:iungling Masc-A-Stem ;
 kamb%<noun%>%<masc%>%<a-stem%>:kamb Masc-A-Stem ;
 karl%<noun%>%<masc%>%<a-stem%>:karl Masc-A-Stem ;
 kelik%<noun%>%<masc%>%<a-stem%>:kelik Masc-A-Stem ;
@@ -3133,11 +3133,11 @@ infern%<noun%>%<neut%>%<a-stem%>:infern Neut-A-Stem ; ! infern* 2, as., st. N. (
 îs%<noun%>%<neut%>%<a-stem%>:îs Neut-A-Stem ; ! îs 1, as., st. N. (a): nhd. Eis, i-Rune; ne. i-rune (N.), ice (N.); W.: mnd. îs, N., Eis
 îsarn%<noun%>%<neut%>%<a-stem%>:îsarn Neut-A-Stem ; ! îsarn 2, îs-arn, as., st. N. (a): nhd. Eisen; ne. iron (N.); W.: mnd. îsern, îseren, îsen, N., Eisen
 îsbên%<noun%>%<neut%>%<a-stem%>:îsbên Neut-A-Stem ; ! îsbên 1, îs-bê-n, as., st. N. (a): nhd. Eisbein, Schenkelbein, Hinterbacke; ne. pig’s knuckle (N.); W.: mnd. îsbên, îsbein, N., Hüftbein
-iâr%<noun%>%<neut%>%<a-stem%>:jâr Neut-A-Stem ; ! jâr*, j-â-r*, as., st. N. (a): nhd. Jahr; ne. year (N.)
-iudeofolk%<noun%>%<neut%>%<a-stem%>:judeofolk Neut-A-Stem ; ! Judeofolk* 1 und häufiger, Jude-o-fol-k*, as., st. N. (a): nhd. Judenfolk; ne. Jews (M. Pl.)
-iuk%<noun%>%<neut%>%<a-stem%>:juk Neut-A-Stem ; ! juk* 4, ju-k*, as., st. N. (a): nhd. Joch; ne. yoke (N.); W.: mnd. jok, juk, N., M., Joch
-iukfak%<noun%>%<neut%>%<a-stem%>:jukfak Neut-A-Stem ; ! jukfak* 1, ju-k-fak*, as., st. N. (a): nhd. „Jochfach“, Umzäunung; ne. enclosure (N.)
-iukkorn%<noun%>%<neut%>%<a-stem%>:jukkorn Neut-A-Stem ; ! jukkorn* 2, iugkorn, ju-k-kor-n*, iu-g-korn*, as., st. N. (a): nhd. „Jochkorn“, Korn; ne. corn (N.)
+iâr%<noun%>%<neut%>%<a-stem%>:iâr Neut-A-Stem ; ! jâr*, j-â-r*, as., st. N. (a): nhd. Jahr; ne. year (N.)
+iudeofolk%<noun%>%<neut%>%<a-stem%>:iudeofolk Neut-A-Stem ; ! Judeofolk* 1 und häufiger, Jude-o-fol-k*, as., st. N. (a): nhd. Judenfolk; ne. Jews (M. Pl.)
+iuk%<noun%>%<neut%>%<a-stem%>:iuk Neut-A-Stem ; ! juk* 4, ju-k*, as., st. N. (a): nhd. Joch; ne. yoke (N.); W.: mnd. jok, juk, N., M., Joch
+iukfak%<noun%>%<neut%>%<a-stem%>:iukfak Neut-A-Stem ; ! jukfak* 1, ju-k-fak*, as., st. N. (a): nhd. „Jochfach“, Umzäunung; ne. enclosure (N.)
+iukkorn%<noun%>%<neut%>%<a-stem%>:iukkorn Neut-A-Stem ; ! jukkorn* 2, iugkorn, ju-k-kor-n*, iu-g-korn*, as., st. N. (a): nhd. „Jochkorn“, Korn; ne. corn (N.)
 kapsilîn%<noun%>%<neut%>%<a-stem%>:kapsilîn Neut-A-Stem ; ! kapsilîn* 1, kaps-ilîn*, as., st. N. (a): nhd. „Kapsellein“, Kästchen; ne. casket (N.)
 kar%<noun%>%<neut%>%<a-stem%>:kar Neut-A-Stem ; ! kar?***, as., st. N. (a): nhd. Gefäß; ne. ƀessel (N.); W.: mnd. kâr (2), N., Gefäß
 kastel%<noun%>%<neut%>%<a-stem%>:kastel Neut-A-Stem ; ! kastel* 1, as., st. N. (a): nhd. Kastell, Burg; ne. castle (N.); W.: mnd. kastel, kastêl, kastelle, N., Kastell, Burg
@@ -3909,8 +3909,8 @@ irminthiod%<noun%>%<fem%>%<ô-stem%>:irminthio Fem-Ô-Stem 		; ! irminthiod 5, i
 irminthioda%<noun%>%<fem%>%<ô-stem%>:irminthiod Fem-Ô-Stem 		; ! irminthioda 7, irm-in-thi-o-d-a, as., st. F. (ô): nhd. Volk; ne. people (N.)
 îsirna%<noun%>%<fem%>%<ô-stem%>:îsirn Fem-Ô-Stem 		; ! îsirna* 1, îs-irn-a*, as., st. F. (ô): nhd. Eisenkraut; ne. ƀerƀain (N.)
 îsirnina%<noun%>%<fem%>%<ô-stem%>:îsirnin Fem-Ô-Stem 		; ! îsirnina* 1, îs-irn-ina*, as., st. F. (ô): nhd. Eisenkraut; ne. ƀerƀain (N.)
-ieda%<noun%>%<fem%>%<ô-stem%>:jed Fem-Ô-Stem 		; ! jeda* 1, geda, jed-a*, ged-a*, as., st. F. (ô): nhd. Jäthacke; ne. hoe (N.)
-iukrôda%<noun%>%<fem%>%<ô-stem%>:jukrôd Fem-Ô-Stem 		; ! jukrôda* 1, ju-k-rôd-a*, as., st. F. (ô): nhd. Jochrute; ne. yokerod (N.)
+ieda%<noun%>%<fem%>%<ô-stem%>:ied Fem-Ô-Stem 		; ! jeda* 1, geda, jed-a*, ged-a*, as., st. F. (ô): nhd. Jäthacke; ne. hoe (N.)
+iukrôda%<noun%>%<fem%>%<ô-stem%>:iukrôd Fem-Ô-Stem 		; ! jukrôda* 1, ju-k-rôd-a*, as., st. F. (ô): nhd. Jochrute; ne. yokerod (N.)
 kâ%<noun%>%<fem%>%<ô-stem%>:k Fem-Ô-Stem 		; ! kâ* 1, as., st. F. (ô): nhd. Dohle; ne. jackdaw (N.); W.: mnd. kâ, F., Dohle
 kamara%<noun%>%<fem%>%<ô-stem%>:kamar Fem-Ô-Stem 		; ! kamara 2, kamera*, as., st. F. (ô)?, sw. F. (n)?: nhd. Kammer; ne. chamber (N.); W.: mnd. kâmere, kâmer, kammer, F., Kammer
 kanna%<noun%>%<fem%>%<ô-stem%>:kann Fem-Ô-Stem 		; ! kanna 1, kan-n-a, as., st. F. (ô)?: nhd. Kanne; ne. jug (N.), can (N.); W.: mnd. kanne, F., M., Kanne
@@ -4339,8 +4339,8 @@ hôƀidstedi%<noun%>%<masc%>%<i-stem%>:hôƀidsted	Masc-I-Stem-Short 		; ! hôƀ
 hugi%<noun%>%<masc%>%<i-stem%>:hug	Masc-I-Stem-Short 		; ! hugi 199, hug-i, as., st. M. (i): nhd. Gedanke, Sinn; ne. thought (N.), mind (N.); W.: mnd. höge, hoge, M., auch F., Gedanke, Stimmung, Fröhlichkeit
 hûn%<noun%>%<masc%>%<i-stem%>:hûn	Masc-I-Stem-Long 		; ! Hûn* 1, as., st. M. (i): nhd. Hunne; ne. Hun (M.)
 hunegappul%<noun%>%<masc%>%<i-stem%>:hunegappul	Masc-I-Stem-Long 		; ! hunegappul* 1, hunegappel, huneg-appul*, huneg-appel*, as., st. M. (i): nhd. „Honigapfel“, Pastille; ne. lozenge (N.)
-iudeoliudi%<noun%>%<masc%>%<i-stem%>:judeoliud	Masc-I-Stem-Short 		; ! Judeoliudi* 1 und häufiger, Jude-o-liud-i*, as., st. M. (i) Pl.: nhd. „Judenleute“, Juden; ne. Jews (M. Pl.)
-iungarskepi%<noun%>%<masc%>%<i-stem%>:jungarskep	Masc-I-Stem-Short 		; ! jungarskepi* 2, ju-n-g-ar-s-kep-i*, as., st. M. (i): nhd. „Jüngerschaft“, Dienst; ne. serƀice (N.)
+iudeoliudi%<noun%>%<masc%>%<i-stem%>:iudeoliud	Masc-I-Stem-Short 		; ! Judeoliudi* 1 und häufiger, Jude-o-liud-i*, as., st. M. (i) Pl.: nhd. „Judenleute“, Juden; ne. Jews (M. Pl.)
+iungarskepi%<noun%>%<masc%>%<i-stem%>:iungarskep	Masc-I-Stem-Short 		; ! jungarskepi* 2, ju-n-g-ar-s-kep-i*, as., st. M. (i): nhd. „Jüngerschaft“, Dienst; ne. serƀice (N.)
 karm%<noun%>%<masc%>%<i-stem%>:karm	Masc-I-Stem-Long 		; ! karm 2, kar-m, as., st. M. (i): nhd. Jammer, Seufzer; ne. lament (N.)
 kumi%<noun%>%<masc%>%<i-stem%>:kum	Masc-I-Stem-Short 		; ! kumi* 11, ku-m-i*, as., st. M. (i): nhd. Ankunft; ne. arriƀal (N.); W.: mnd. kome, F., Ankunft
 kuri%<noun%>%<masc%>%<i-stem%>:kur	Masc-I-Stem-Short 		; ! kuri?***, kur-i?***, as., st. M. (i): nhd. „Kür“, Wahl; ne. election (N.); W.: mhd. köre, kör, küre, kür, M. F., Wahl, Probe
@@ -4497,8 +4497,8 @@ hurth%<noun%>%<fem%>%<i-stem%>:hurth	Fem-I-Stem-Long 		; ! hurth* 3, hur-th*, as
 hûsstedi%<noun%>%<fem%>%<i-stem%>:hûssted	Fem-I-Stem-Short 		; ! hûsstedi* 1, hû-s-ste-d-i*, as., st. F. (i): nhd. „Hausstätte“, Hausplatz; ne. site (N.)
 hwîtewurt%<noun%>%<fem%>%<i-stem%>:hwîtewurt	Fem-I-Stem-Long 		; ! hwîtewurt* 1, hwî-t-e-wurt*, as., st. F. (i): nhd. Weißwurz; ne. medical herb (N.) from Dicte; W.: mnd. witwort, Sb., Weißwurz (Gallée, J., Vorstudien zu einem altniederdeutschen Wörterbuch, 1903, S. 159)
 irminsûl%<noun%>%<fem%>%<i-stem%>:irminsûl	Fem-I-Stem-Long 		; ! irminsûl* 7, irm-in-sû-l*, as., st. F. (i): nhd. große Säule der Sachsen; ne. monumental Saxon pillar (N.)
-iuguth%<noun%>%<fem%>%<i-stem%>:juguth	Fem-I-Stem-Long 		; ! juguth* 4, ju-g-u-th*, as., st. F. (i): nhd. Jugend; ne. youth (N.); W.: mnd. joget, F., Jugend
-iuguthhêd%<noun%>%<fem%>%<i-stem%>:juguthhêd	Fem-I-Stem-Long 		; ! juguthhêd* 2, ju-g-u-th-hê-d*, as., st. F. (i): nhd. Jugend; ne. youth (N.)
+iuguth%<noun%>%<fem%>%<i-stem%>:iuguth	Fem-I-Stem-Long 		; ! juguth* 4, ju-g-u-th*, as., st. F. (i): nhd. Jugend; ne. youth (N.); W.: mnd. joget, F., Jugend
+iuguthhêd%<noun%>%<fem%>%<i-stem%>:iuguthhêd	Fem-I-Stem-Long 		; ! juguthhêd* 2, ju-g-u-th-hê-d*, as., st. F. (i): nhd. Jugend; ne. youth (N.)
 kelasuht%<noun%>%<fem%>%<i-stem%>:kelasuht	Fem-I-Stem-Long 		; ! kelasuht* 2, kel-a-suht*, as., st. F. (i): nhd. „Kehlsucht“, Halsbräune, Halsdrüsengeschwulst; ne. inflammation (N.) of the throat
 kôpstedi%<noun%>%<fem%>%<i-stem%>:kôpsted	Fem-I-Stem-Short 		; ! kôpstedi* 2, kôp-ste-d-i*, as., st. F. (i): nhd. „Kaufstätte“, Kaufplatz; ne. market (N.); W.: mnd. kôpstêde, F., „Kaufstätte“, Kaufplatz, Verkaufsstelle
 krâd%<noun%>%<fem%>%<i-stem%>:krâd	Fem-I-Stem-Long 		; ! krâd?***, as., st. F. (i): nhd. Krähen (N.); ne. crowing (N.); W.: mnd. krât, Sb., Krähen (N.), Hahnenschrei
@@ -5440,7 +5440,7 @@ hwetian%<v%>%<wk%>%<1%>:hwet WK1		 ; !hwetian?***, hwet-ian?***, as., sw. V. (1a
 îlian%<v%>%<wk%>%<1%>:îl WK1		 ; !îlian* 2, î-l-ian*, as., sw. V. (1a): nhd. eilen; ne. hurry (V.); W.: mnd. îlen, sw. V., eilen
 inbôgian%<v%>%<wk%>%<1%>:inbôg WK1		 ; !inbôgian* 1, in-bôg-ian*, as., sw. V. (1a): nhd. beugen; ne. bend (V.); W.: s. mnd. inbögen, Part. Prät. gebogen, gerundet
 irrian%<v%>%<wk%>%<1%>:irr WK1		 ; !irrian* 1, ir-r-ian*, as., sw. V. (1a): nhd. „irren“, zerstören; ne. destroy (V.)
-iukkian%<v%>%<wk%>%<1%>:jukk WK1		 ; !jukkian* 2, juk-k-ian*, as., sw. V. (1a): nhd. jucken; ne. itch (V.); W.: mnd. jöken, jucken, sw. V., jucken
+iukkian%<v%>%<wk%>%<1%>:iukk WK1		 ; !jukkian* 2, juk-k-ian*, as., sw. V. (1a): nhd. jucken; ne. itch (V.); W.: mnd. jöken, jucken, sw. V., jucken
 kelkian%<v%>%<wk%>%<1%>:kelk WK1		 ; !kelkian* 1, kelk-ian*, as., sw. V. (1a): nhd. kälken; ne. whitewash (V.); W.: mnd. kelken (1), sw. V., kälken
 kembian%<v%>%<wk%>%<1%>:kemb WK1		 ; !kembian* 2, kem-b-ian*, as., sw. V. (1a): nhd. kämmen; ne. comb (V.); W.: mnd. kemmen, sw. V., kämmen
 kennian%<v%>%<wk%>%<1%>:kenn WK1		 ; !kennian* (1) 1, ken-n-ian*, as., sw. V. (1a): nhd. erzeugen; ne. generate (V.)
@@ -6112,11 +6112,11 @@ hwît%<adj%>:hwît Adj-a-o-mono	;	!	hwît* 12, hwî-t*, as., Adj.: nhd. weiß, g
 inburdig%<adj%>:inburdig Adj-a-o-mono	;	!	inburdig* 1, in-burd-ig*, as., Adj.: nhd. eingeboren (Adj.); ne. natiƀe (Adj.)
 irmin%<adj%>:irmin Adj-a-o-mono	;	!	irmin?***, irm-in?***, as., Adj.: nhd. groß; ne. great (Adj.), big (Adj.)
 îsarnîn%<adj%>:îsarnîn Adj-a-o-mono	;	!	îsarnîn 1, îs-arn-în, as., Adj.: nhd. eisern; ne. iron (Adj.); W.: mnd. îsern, Adj., eisern
-iâmar%<adj%>:jâmar Adj-a-o-mono	;	!	jâmar* 3, giâmar, jâm-ar*, g-iâm-ar, as., Adj.: nhd. „jammerƀoll“, traurig; ne. sad (Adj.); W.: s. mnd. jamer, jammer, M., N., Jammer
-iâmarlîk%<adj%>:jâmarlîk Adj-a-o-mono	;	!	jâmarlîk* 1, giâmarlîk, jâm-ar-lîk*, g-iâm-ar-lîk*, as., Adj.: nhd. „jämmerlich“, jammerƀoll; ne. miserable (Adj.); W.: mnd. jâmerlîk, Adj., jämmerlich, nothaft
-iâmarmôd%<adj%>:jâmarmôd Adj-a-o-mono	;	!	jâmarmôd* 5, giâmermôd, jâm-ar-mô-d*, g-iâm-er-mô-d*, as., Adj.: nhd. traurig, betrübt; ne. sad (Adj.)
-iudeisk%<adj%>:judeisk Adj-a-o-mono	;	!	judeisk* 2, jude-isk*, as., Adj.: nhd. jüdisch; ne. Jewish (Adj.); W.: mnd. jödisch, jöddisch, jüdisch, Adj., jüdisch
-iung%<adj%>:jung Adj-a-o-mono	;	!	jung* 20, ju-n-g*, as., Adj.: nhd. jung; ne. young (Adj.); W.: mnd. junc, Adj., jung
+iâmar%<adj%>:iâmar Adj-a-o-mono	;	!	jâmar* 3, giâmar, jâm-ar*, g-iâm-ar, as., Adj.: nhd. „jammerƀoll“, traurig; ne. sad (Adj.); W.: s. mnd. jamer, jammer, M., N., Jammer
+iâmarlîk%<adj%>:iâmarlîk Adj-a-o-mono	;	!	jâmarlîk* 1, giâmarlîk, jâm-ar-lîk*, g-iâm-ar-lîk*, as., Adj.: nhd. „jämmerlich“, jammerƀoll; ne. miserable (Adj.); W.: mnd. jâmerlîk, Adj., jämmerlich, nothaft
+iâmarmôd%<adj%>:iâmarmôd Adj-a-o-mono	;	!	jâmarmôd* 5, giâmermôd, jâm-ar-mô-d*, g-iâm-er-mô-d*, as., Adj.: nhd. traurig, betrübt; ne. sad (Adj.)
+iudeisk%<adj%>:iudeisk Adj-a-o-mono	;	!	judeisk* 2, jude-isk*, as., Adj.: nhd. jüdisch; ne. Jewish (Adj.); W.: mnd. jödisch, jöddisch, jüdisch, Adj., jüdisch
+iung%<adj%>:iung Adj-a-o-mono	;	!	jung* 20, ju-n-g*, as., Adj.: nhd. jung; ne. young (Adj.); W.: mnd. junc, Adj., jung
 kald%<adj%>:kald Adj-a-o-mono	;	!	kald 4, kal-d, as., Adj.: nhd. kalt; ne. cold (Adj.); W.: mnd. kôlt, kalt, Adj., kalt
 karag%<adj%>:karag Adj-a-o-mono	;	!	karag?***, kar-a-g?***, as., Adj.: nhd. kummerƀoll; ne. mournful (Adj.)
 karkarlîk%<adj%>:karkarlîk Adj-a-o-mono	;	!	karkarlîk* 1, karkar-lîk*, as., Adj.: nhd. kerkerlich; ne. dungeon... (Adj.)
