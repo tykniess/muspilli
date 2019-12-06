@@ -41,14 +41,14 @@ Multichar_Symbols
 %<indef%>			! Indefinite Pronoun
 
 !!!!!!!!!!!!!!!!!!VERBAL CHARS!!!!!!!!!!!!!!!!!!!!!!!!
-%<inf%>				! Infinitiƀe
-%<act%>				! Actiƀe
-%<pass%>			! Passiƀe
+%<inf%>				! Infinitive
+%<act%>				! Active
+%<pass%>			! Passive
 %<pres%>			! Present tense
 %<pret%>			! Preterite tense
-%<indic%>			! Indicatiƀe mood
-%<opt%>				! Optatiƀe/Subjunctiƀe mood
-%<impƀ%>			! Imperatiƀe mood
+%<indic%>			! Indicative mood
+%<opt%>				! Optative/Subjunctive mood
+%<impv%>			! Imperatiƀe mood
 
 %<1st%>				! First Person
 %<2nd%>				! Second Person
@@ -77,15 +77,16 @@ Multichar_Symbols
 %<prtprs%>			! Praeteritopraesentia
 
 !Archiphonemes
-%{I%}				! i-infix in strong ƀerbs
-%{E%^%A%}			! Archiphoneme e/a in the datiƀe and genitiƀe cases
+%{I%}				! i-infix in strong verbs
+%{E%^%A%}			! Archiphoneme e/a in the dative and genitiƀe cases
 %{O%^%A%}                       ! Archiphoneme o/a in the plural of a-stems
 %{U%^%O%}			! Archiphoneme u/o in ô-stems
-%{M%}				! Archiphomene m/n in datiƀe plural
+%{M%}				! Archiphomene m/n in dative plural
 %{NAPL%}			! Neuter a-stem plural morpheme; u or zero depending on syllable weight
 
 th				! sequence th which is actually one letter
-ie				! ƀowel ie 
+ie				! vowel ie 
+io				! vowel io
 
 LEXICON Root
 Nouns 				; 
@@ -1046,19 +1047,19 @@ LEXICON StrTempus			!for first and 3rd class strong ƀerbs
 %<pres%>: STR-INFL-PRES                       ;
 %<pret%>: STR-INFL-PRET-1Grade                ;
 %<pret%>: STR-INFL-PRET-2Grade         ;
-%<impƀ%>: STR-IMPERATIV                       ;
+%<impv%>: STR-IMPERATIV                       ;
 
 LEXICON StrTempus2				!for second class strong ƀerbs
 %<pres%>: STR-INFL-PRES                       ;
 %<pret%>: STR-INFL-PRET-1Grade                ;
 %<pret%>: STR-INFL-PRET-2Grade         ;
-%<impƀ%>: STR-IMPERATIV                       ;
+%<impv%>: STR-IMPERATIV                       ;
 
 LEXICON StrTempus4                              !for 4th class strong ƀerbs
 %<pres%>: STR-INFL-PRES                       ;
 %<pret%>: STR-INFL-PRET-1Grade                ;
 %<pret%>: STR-INFL-PRET-2Grade         ;
-%<impƀ%>: STR-IMPERATIV                       ;
+%<impv%>: STR-IMPERATIV                       ;
 
 LEXICON STR-INFL-PRES
 %<indic%>: STR-INFL-PRES-INDIC		;
@@ -1733,13 +1734,13 @@ LEXICON Tempus-WK1
 
 %<pres%>: INFL-PRES-WK1			;
 %<pret%>:%>d INFL-PRET-WK1		;
-%<impƀ%>: IMPERATIV-WK1			;
+%<impv%>: IMPERATIV-WK1			;
 
 LEXICON Tempus-WK2
 
 %<pres%>: INFL-PRES-WK2         	;
 %<pret%>:%>d INFL-PRET-WK2              ;
-%<impƀ%>: IMPERATIV-WK2     		;
+%<impv%>: IMPERATIV-WK2     		;
 
 LEXICON INFL-PRES-WK1
 
