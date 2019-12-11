@@ -11,4 +11,4 @@ all:
 	python3 coverage.py
 	cat heliand/clean.txt|while read line; do hfst-lookup os.mor.hfst; done > lookup.txt
 	echo 'The top 20 words yet to be included are:'
-	cat lookup.txt |grep '\tinf'| sort | uniq -c| sort -rn | head -n 20             
+	cat words_not_covered.txt | sort | uniq -c| sort -rn | head -n 20             

@@ -53,7 +53,7 @@ Multichar_Symbols
 %<pret%>			! Preterite tense
 %<indic%>			! Indicative mood
 %<opt%>				! Optative/Subjunctive mood
-%<impv%>			! Imperatiƀe mood
+%<impv%>			! Imperative mood
 
 %<1st%>				! First Person
 %<2nd%>				! Second Person
@@ -83,9 +83,9 @@ Multichar_Symbols
 
 !Archiphonemes
 %{I%}				! i-infix in strong verbs
-%{E%^%A%}			! Archiphoneme e/a (often in the dative and genitive cases)
-%{O%^%A%}                       ! Archiphoneme o/a in the plural of a-stems
-%{U%^%O%}			! Archiphoneme u/o in ô-stems
+%{E%^A%}			! Archiphoneme e/a (often in the dative and genitive cases)
+%{O%^A%}                       ! Archiphoneme o/a in the plural of a-stems
+%{U%^O%}			! Archiphoneme u/o in ô-stems
 %{M%}				! Archiphomene m/n in dative plural
 %{NAPL%}			! Neuter a-stem plural morpheme; u or zero depending on syllable weight
 %{%^N%}				! Archiphoneme n/0 for the odd declension of man
@@ -776,16 +776,16 @@ LEXICON Neut-u-Stem
 %<dat%>%<sg%>:e			# ;
 
 LEXICON Fem-Ô-Stem						!fix o-stem i-infix
-%<nom%>%<sg%>:%{E%^%A%}		#	;	!geba~gebe
-%<gen%>%<sg%>:%{E%^%A%}		#	;	!geba~gebe
-%<dat%>%<sg%>:%{E%^%A%}		#	;	!geba~gebe
-%<dat%>%<sg%>:%{U%^%O%}		#	;	!gebu~gebo
-%<acc%>%<sg%>:%{E%^%A%}		#	;	!geba~gebe
+%<nom%>%<sg%>:%{E%^A%}		#	;	!geba~gebe
+%<gen%>%<sg%>:%{E%^A%}		#	;	!geba~gebe
+%<dat%>%<sg%>:%{E%^A%}		#	;	!geba~gebe
+%<dat%>%<sg%>:%{U%^O%}		#	;	!gebu~gebo
+%<acc%>%<sg%>:%{E%^A%}		#	;	!geba~gebe
 
-%<nom%>%<pl%>:%{E%^%A%}		#	;	!geba~gebe
+%<nom%>%<pl%>:%{E%^A%}		#	;	!geba~gebe
 %<gen%>%<pl%>:o			#	;	!gebo~gebono
-%<dat%>%<pl%>:%{U%^%O%}n	#	;	!geba~gebe
-%<acc%>%<pl%>:%{E%^%A%}		#	;	!geba~gebe
+%<dat%>%<pl%>:%{U%^O%}n	#	;	!geba~gebe
+%<acc%>%<pl%>:%{E%^A%}		#	;	!geba~gebe
 
 LEXICON Masc-n-Stem
 %<nom%>%<sg%>:o			# ;
@@ -855,25 +855,25 @@ LEXICON Fem-n-Stem
 
 LEXICON Masc-A-Stem
 %<nom%>%<sg%>:0			#	;
-%<gen%>%<sg%>:%{E%^%A%}s		#	;
-%<dat%>%<sg%>:%{E%^%A%}		#	;
+%<gen%>%<sg%>:%{E%^A%}s		#	;
+%<dat%>%<sg%>:%{E%^A%}		#	;
 %<acc%>%<sg%>:0			#	;
 %<instr%>%<sg%>:u		#	; !extremely rare case remnant, consider remoƀing
 !%<instr%>:o             	#       ; ! ƀariant form of instrumental case
 
-%<nom%>%<pl%>:os         	#       ; ! consider changing to %{O%^%A%}s to account for scribal ƀariation
+%<nom%>%<pl%>:os         	#       ; ! consider changing to %{O%^A%}s to account for scribal ƀariation
 %<gen%>%<pl%>:o            	#       ; 
 %<dat%>%<pl%>:u%{M%}            #       ;
 %<dat%>%<pl%>:on	        #       ;
-%<acc%>%<pl%>:os         	#       ; ! consider changing to %{O%^%A%}s to account for scribal ƀariation
+%<acc%>%<pl%>:os         	#       ; ! consider changing to %{O%^A%}s to account for scribal ƀariation
 %<instr%>%<pl%>:u               #       ;
 !%<nom%>%<pl%>:a		#	; !extreme scribal ƀariant, thus not included in compilation
 !%<acc%>%<pl%>:a		#	; !extreme scribal ƀariant, thus not included in compilation
 
 LEXICON Neut-A-Stem
 %<nom%>%<sg%>:0                 #       ;
-%<gen%>%<sg%>:%{E%^%A%}s            #       ;
-%<dat%>%<sg%>:%{E%^%A%}             #       ;
+%<gen%>%<sg%>:%{E%^A%}s            #       ;
+%<dat%>%<sg%>:%{E%^A%}             #       ;
 %<acc%>%<sg%>:0                 #       ;
 %<instr%>%<sg%>:u               #       ; !extremely rare case remnant, consider remoƀing
 !%<instr%>:o                    #       ; ! ƀariant form of instrumental case
@@ -895,12 +895,12 @@ LEXICON Masc-Ja-Stem
 %<instr%>%<sg%>:iu               #       ; !extremely rare case remnant, consider removing
 !%<instr%>:o                    #       ; ! variant form of instrumental case
 
-%<nom%>%<pl%>:ios                #       ; ! consider changing to %{O%^%A%}s to account for scribal ƀariation
+%<nom%>%<pl%>:ios                #       ; ! consider changing to %{O%^A%}s to account for scribal ƀariation
 %<gen%>%<pl%>:io                 #       ;
 %<gen%>%<pl%>:eo                 #       ;
 %<dat%>%<pl%>:iun            #       ;
 %<dat%>%<pl%>:ion                #       ;
-%<acc%>%<pl%>:ios                #       ; ! consider changing to %{O%^%A%}s to account for scribal ƀariation
+%<acc%>%<pl%>:ios                #       ; ! consider changing to %{O%^A%}s to account for scribal ƀariation
 
 LEXICON Neut-Ja-Stem
 Masc-Ja-Stem				;
@@ -1026,7 +1026,7 @@ Fem-I-Stem-Long				; !"Die feminina weisen vielfach formen der i-declination auf
 LEXICON Verbs
 StrongVerbs			;
 WeakVerbs			;
-Praeterito-Praesentia		;
+IrregularVerbs		;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1219,11 +1219,11 @@ LEXICON WESAN
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!Preteropresent!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!And Irregular!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-LEXICON Praeterito-Praesentia
+LEXICON IrregularVerbs
 witan%<v%>%<prtprs%>%<inf%>:witan #			;
 witan%<v%>%<prtprs%>%<inf%>:witen #			;
 witan%<v%>%<prtprs%>%<pres%>%<indic%>%<1st%>%<sg%>:wêt #                ;
@@ -1332,8 +1332,8 @@ kunnan%<v%>%<prtprs%>%<pret%>%<opt%>%<3rd%>%<sg%>:cunsti #              ;
 durran%<v%>%<prtprs%>%<inf%>:durran				#	;
 durran%<v%>%<prtprs%>%<pres%>%<indic%>%<1st%>%<sg%>:darr	#	;
 durran%<v%>%<prtprs%>%<pres%>%<indic%>%<3rd%>%<sg%>:darr	#	;
-durran%<v%>%<prtprs%>%<pret%>%<indic%>%<1st%>%<sg%>:dorst%{E%^%A%} #	;
-durran%<v%>%<prtprs%>%<pret%>%<indic%>%<3rd%>%<sg%>:dorst%{E%^%A%} #	;
+durran%<v%>%<prtprs%>%<pret%>%<indic%>%<1st%>%<sg%>:dorst%{E%^A%} #	;
+durran%<v%>%<prtprs%>%<pret%>%<indic%>%<3rd%>%<sg%>:dorst%{E%^A%} #	;
 durran%<v%>%<prtprs%>%<pret%>%<indic%>%<1st%>%<pl%>:dorstun	#	;
 durran%<v%>%<prtprs%>%<pret%>%<indic%>%<2nd%>%<pl%>:dorstun	#	;
 durran%<v%>%<prtprs%>%<pret%>%<indic%>%<3rd%>%<pl%>:dorstun	#	;
@@ -1379,8 +1379,8 @@ munan%<v%>%<prtprs%>%<pres%>%<indic%>%<2nd%>%<sg%>:manst			#	;
 munan%<v%>%<prtprs%>%<pres%>%<opt%>%<1st%>%<pl%>:munin				#	;
 munan%<v%>%<prtprs%>%<pres%>%<opt%>%<2nd%>%<pl%>:munin				#	;
 munan%<v%>%<prtprs%>%<pres%>%<opt%>%<3rd%>%<pl%>:munin				#	;
-munan%<v%>%<prtprs%>%<pret%>%<indic%>%<1st%>%<sg%>:m%{U%^%O%}nsta		#	;
-munan%<v%>%<prtprs%>%<pret%>%<indic%>%<3rd%>%<sg%>:m%{U%^%O%}nsta		#	;
+munan%<v%>%<prtprs%>%<pret%>%<indic%>%<1st%>%<sg%>:m%{U%^O%}nsta		#	;
+munan%<v%>%<prtprs%>%<pret%>%<indic%>%<3rd%>%<sg%>:m%{U%^O%}nsta		#	;
 munan%<v%>%<prtprs%>%<pret%>%<indic%>%<1st%>%<pl%>:mônstun			#	;
 munan%<v%>%<prtprs%>%<pret%>%<indic%>%<2nd%>%<pl%>:mônstun			#	;
 munan%<v%>%<prtprs%>%<pret%>%<indic%>%<3rd%>%<pl%>:mônstun			#	;
@@ -1393,13 +1393,115 @@ farmunan%<v%>%<prtprs%>%<pres%>%<indic%>%<2nd%>%<sg%>:farmanst			#	;
 farmunan%<v%>%<prtprs%>%<pres%>%<opt%>%<1st%>%<pl%>:farmunin			#	;
 farmunan%<v%>%<prtprs%>%<pres%>%<opt%>%<2nd%>%<pl%>:farmunin			#	;
 farmunan%<v%>%<prtprs%>%<pres%>%<opt%>%<3rd%>%<pl%>:farmunin			#	;
-farmunan%<v%>%<prtprs%>%<pret%>%<indic%>%<1st%>%<sg%>:farm%{U%^%O%}nsta		#	;
-farmunan%<v%>%<prtprs%>%<pret%>%<indic%>%<3rd%>%<sg%>:farm%{U%^%O%}nsta		#	;
+farmunan%<v%>%<prtprs%>%<pret%>%<indic%>%<1st%>%<sg%>:farm%{U%^O%}nsta		#	;
+farmunan%<v%>%<prtprs%>%<pret%>%<indic%>%<3rd%>%<sg%>:farm%{U%^O%}nsta		#	;
 farmunan%<v%>%<prtprs%>%<pret%>%<indic%>%<1st%>%<pl%>:farmônstun		#	;
 farmunan%<v%>%<prtprs%>%<pret%>%<indic%>%<2nd%>%<pl%>:farmônstun		#	;
 farmunan%<v%>%<prtprs%>%<pret%>%<indic%>%<3rd%>%<pl%>:farmônstun		#	;
 farmunan%<v%>%<prtprs%>%<pret%>%<opt%>%<2nd%>%<sg%>:farmunidis			#	;
 
+mugan%<v%>%<prtprs%>%<inf%>:mugan					#	;
+mugan%<v%>%<prtprs%>%<pres%>%<indic%>%<1st%>%<sg%>:mag			#	;
+mugan%<v%>%<prtprs%>%<pres%>%<indic%>%<1st%>%<sg%>:mah			#	;
+mugan%<v%>%<prtprs%>%<pres%>%<indic%>%<2nd%>%<sg%>:maht			#	;
+mugan%<v%>%<prtprs%>%<pres%>%<indic%>%<3rd%>%<sg%>:mag			#	;
+mugan%<v%>%<prtprs%>%<pres%>%<indic%>%<3rd%>%<sg%>:mah			#	;
+mugan%<v%>%<prtprs%>%<pres%>%<indic%>%<1st%>%<pl%>:mugun		#	;
+mugan%<v%>%<prtprs%>%<pres%>%<indic%>%<2nd%>%<pl%>:mugun		#	;
+mugan%<v%>%<prtprs%>%<pres%>%<indic%>%<3rd%>%<pl%>:mugun		#	;
+mugan%<v%>%<prtprs%>%<pres%>%<opt%>%<1st%>%<sg%>:mugi			#	;
+mugan%<v%>%<prtprs%>%<pres%>%<opt%>%<2nd%>%<sg%>:mugis			#	;
+mugan%<v%>%<prtprs%>%<pres%>%<opt%>%<3rd%>%<sg%>:mugi			#	;
+mugan%<v%>%<prtprs%>%<pres%>%<indic%>%<1st%>%<pl%>:mugin		#	;
+mugan%<v%>%<prtprs%>%<pres%>%<indic%>%<2nd%>%<pl%>:mugin		#	;
+mugan%<v%>%<prtprs%>%<pres%>%<indic%>%<3rd%>%<pl%>:mugin		#	;
+mugan%<v%>%<prtprs%>%<pret%>%<indic%>%<1st%>%<sg%>:m%{O%^A%}ht%{E%^A%}	#	;
+mugan%<v%>%<prtprs%>%<pret%>%<indic%>%<3rd%>%<sg%>:m%{O%^A%}ht%{E%^A%}	#	;
+mugan%<v%>%<prtprs%>%<pret%>%<indic%>%<2nd%>%<sg%>:maht%{E%^A%}s	#	;
+mugan%<v%>%<prtprs%>%<pret%>%<indic%>%<1st%>%<pl%>:m%{O%^A%}htun	#	;
+mugan%<v%>%<prtprs%>%<pret%>%<indic%>%<2nd%>%<pl%>:m%{O%^A%}htun	#	;
+mugan%<v%>%<prtprs%>%<pret%>%<indic%>%<3rd%>%<pl%>:m%{O%^A%}htun	#	;
+mugan%<v%>%<prtprs%>%<pret%>%<opt%>%<1st%>%<sg%>:m%{O%^A%}ht%>i			#	;
+mugan%<v%>%<prtprs%>%<pret%>%<opt%>%<2nd%>%<sg%>:m%{O%^A%}ht%>is			#	;
+mugan%<v%>%<prtprs%>%<pret%>%<opt%>%<3rd%>%<sg%>:m%{O%^A%}ht%>i			#	;
+mugan%<v%>%<prtprs%>%<pret%>%<opt%>%<1st%>%<pl%>:m%{O%^A%}ht%>in			#	;
+mugan%<v%>%<prtprs%>%<pret%>%<opt%>%<2nd%>%<pl%>:m%{O%^A%}ht%>in			#	;
+mugan%<v%>%<prtprs%>%<pret%>%<opt%>%<3rd%>%<pl%>:m%{O%^A%}ht%>in			#	;
+
+môtan%<v%>%<prtprs%>%<inf%>:môtan					#	;
+môtan%<v%>%<prtprs%>%<pres%>%<indic%>%<1st%>%<sg%>:môt			#	;
+môtan%<v%>%<prtprs%>%<pres%>%<indic%>%<1st%>%<sg%>:môst			#	;
+môtan%<v%>%<prtprs%>%<pres%>%<indic%>%<3rd%>%<sg%>:môt			#	;
+môtan%<v%>%<prtprs%>%<pres%>%<indic%>%<1st%>%<pl%>:môtun		#	;
+môtan%<v%>%<prtprs%>%<pres%>%<indic%>%<1st%>%<pl%>:môtun		#	;
+môtan%<v%>%<prtprs%>%<pres%>%<indic%>%<3rd%>%<pl%>:môtun		#	;
+môtan%<v%>%<prtprs%>%<pres%>%<opt%>%<1st%>%<sg%>:môti			#	;
+môtan%<v%>%<prtprs%>%<pres%>%<opt%>%<2nd%>%<sg%>:môtis			#	;
+môtan%<v%>%<prtprs%>%<pres%>%<opt%>%<3rd%>%<sg%>:môti			#	;
+môtan%<v%>%<prtprs%>%<pres%>%<opt%>%<1st%>%<pl%>:môtin			#	;
+môtan%<v%>%<prtprs%>%<pres%>%<opt%>%<1st%>%<pl%>:môtin			#	;
+môtan%<v%>%<prtprs%>%<pres%>%<opt%>%<3rd%>%<pl%>:môtin			#	;
+môtan%<v%>%<prtprs%>%<pret%>%<indic%>%<1st%>%<sg%>:môst%{E%^A%}		#	;
+môtan%<v%>%<prtprs%>%<pret%>%<indic%>%<2nd%>%<sg%>:môst			#	;
+môtan%<v%>%<prtprs%>%<pret%>%<indic%>%<3rd%>%<sg%>:môst%{E%^A%}		#	;
+môtan%<v%>%<prtprs%>%<pret%>%<indic%>%<1st%>%<pl%>:môstun		#	;
+môtan%<v%>%<prtprs%>%<pret%>%<indic%>%<2nd%>%<pl%>:môstun		#	;
+môtan%<v%>%<prtprs%>%<pret%>%<indic%>%<3rd%>%<pl%>:môstun		#	;
+môtan%<v%>%<prtprs%>%<pret%>%<opt%>%<1st%>%<sg%>:môsti			#	;
+môtan%<v%>%<prtprs%>%<pret%>%<opt%>%<3rd%>%<sg%>:môsti			#	;
+môtan%<v%>%<prtprs%>%<pret%>%<opt%>%<1st%>%<pl%>:môstin			#	;
+môtan%<v%>%<prtprs%>%<pret%>%<opt%>%<2nd%>%<pl%>:môstin			#	;
+môtan%<v%>%<prtprs%>%<pret%>%<opt%>%<3rd%>%<pl%>:môstin			#	;
+
+willian%<v%>%<inf%>:willian 				#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<inf%>:willeon 				#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<indic%>%<1st%>%<sg%>:w%{I%^E%}lliu #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<indic%>%<1st%>%<sg%>:w%{I%^E%}lleo #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<indic%>%<2nd%>%<sg%>:wili #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<indic%>%<2nd%>%<sg%>:willi #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<indic%>%<2nd%>%<sg%>:wil #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<indic%>%<2nd%>%<sg%>:wilt #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<indic%>%<3rd%>%<sg%>:wili #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<indic%>%<3rd%>%<sg%>:wil #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<indic%>%<3rd%>%<sg%>:will #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<indic%>%<1st%>%<pl%>:williad #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<indic%>%<1st%>%<pl%>:williat #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<indic%>%<2nd%>%<pl%>:williad #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<indic%>%<2nd%>%<pl%>:williat #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<indic%>%<3rd%>%<pl%>:williad #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<indic%>%<3rd%>%<pl%>:williat #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<opt%>%<1st%>%<sg%>:willie #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<opt%>%<2nd%>%<sg%>:w%{I%^E%}llies #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<opt%>%<3rd%>%<sg%>:w%{I%^E%}llie #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<indic%>%<1st%>%<pl%>:w%{I%^E%}llean #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<indic%>%<2nd%>%<pl%>:w%{I%^E%}llean #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<indic%>%<3rd%>%<pl%>:w%{I%^E%}llean #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<impv%>%<pl%>:williad	#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pres%>%<impv%>%<pl%>:welleat	#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<prespart%>:willeandi	#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<prespart%>:willendi	#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<prespart%>:williendi	#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pret%>%<indic%>%<1st%>%<sg%>:weld%{E%^A%} #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pret%>%<indic%>%<1st%>%<sg%>:w%{O%^A%}lda #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pret%>%<indic%>%<2nd%>%<sg%>:weld%{E%^A%}s #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pret%>%<indic%>%<3rd%>%<sg%>:weld%{E%^A%} #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pret%>%<indic%>%<3rd%>%<sg%>:w%{O%^A%}lda #              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen
+willian%<v%>%<prtprs%>%<pret%>%<indic%>%<1st%>%<pl%>:weldun	#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pret%>%<indic%>%<1st%>%<pl%>:woldun	#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pret%>%<opt%>%<1st%>%<sg%>:weldi	#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pret%>%<opt%>%<1st%>%<sg%>:woldi	#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pret%>%<opt%>%<1st%>%<sg%>:weld		#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pret%>%<opt%>%<2nd%>%<sg%>:weldi	#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pret%>%<opt%>%<2nd%>%<sg%>:woldi	#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pret%>%<opt%>%<2nd%>%<sg%>:weld		#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pret%>%<opt%>%<3rd%>%<sg%>:weldi	#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pret%>%<opt%>%<3rd%>%<sg%>:woldi	#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pret%>%<opt%>%<3rd%>%<sg%>:weld		#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pret%>%<opt%>%<1st%>%<pl%>:weldin	#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pret%>%<opt%>%<2nd%>%<pl%>:weldin	#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+willian%<v%>%<prtprs%>%<pret%>%<opt%>%<3rd%>%<pl%>:weldin	#              ;	!willian* 325, w-i-l-l-i-an*, as., anom. V.: nhd. wollen (V.); ne. want (V.); W.: mnd. willen, wellen, unr. V., wollen (V.), wünschen, verlangen 
+
+!tk mag
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -2412,6 +2514,7 @@ weroldhêrro%<noun%>%<masc%>%<n-stem%>:weroldhêrr Masc-n-Stem 		; ! weroldhêrr
 weroldwelo%<noun%>%<masc%>%<n-stem%>:weroldwel Masc-n-Stem 		; ! weroldwelo* 2, wer-o-l-d-wel-o*, as., sw. M. (n): nhd. „Weltgut“, irdisches Gut; ne. wordly wealth (N.)
 wildikresso%<noun%>%<masc%>%<n-stem%>:wildikress Masc-n-Stem 		; ! wildikresso* 1, wil-di-kres-s-o*, as., sw. M. (n): nhd. wilde Kresse; ne. cress (N.)
 willio%<noun%>%<masc%>%<n-stem%>:willi Masc-n-Stem 		; ! willio* 187, w-i-l-l-i-o*, as., sw. M. (n): nhd. Wille, Gnade, Freude; ne. will (N.), faƀour (N.), joy (N.); W.: mnd. wille, sw. M., Wille, Wunsch
+willio%<noun%>%<masc%>%<n-stem%>:wille Masc-n-Stem 		; ! tk manually added willio* 187, w-i-l-l-i-o*, as., sw. M. (n): nhd. Wille, Gnade, Freude; ne. will (N.), faƀour (N.), joy (N.); W.: mnd. wille, sw. M., Wille, Wunsch
 wîngardo%<noun%>%<masc%>%<n-stem%>:wîngard Masc-n-Stem 		; ! wîngardo* 5, wî-n-gar-d-o*, as., sw. M. (n): nhd. Weingarten; ne. ƀineyard (N.); W.: mnd. wîngarde, sw. M., Weingarten
 wîsbodo%<noun%>%<masc%>%<n-stem%>:wîsbod Masc-n-Stem 		; ! wîsbodo* 1, wî-s-bod-o*, as., sw. M. (n): nhd. „Weisbote“, Bote; ne. messenger (M.)
 wiskumo%<noun%>%<masc%>%<n-stem%>:wiskum Masc-n-Stem 		; ! wiskumo* 3, wisskumo, wi-s-kum-o*, wis-s-kumo*, as., sw. M. (n): nhd. Gewisskommender; ne. surely coming (M.)

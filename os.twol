@@ -25,7 +25,7 @@ Alphabet
 	t 
 	u:u u:a u:â u:o			! Normal | Ablaut-STR4&5-1 | Ablaut STR4&5-2 | Ablaut STR4&5-3 [e.g. kuman~kam~kâmun-gikoman]
 	v:ƀ
-	w 
+	w w:u ! Normal | optional [hu] for [hw] after an h, before a vowel
 	x 
 	y 
 	z 
@@ -34,12 +34,13 @@ Alphabet
 	ô:ô ô:io !ô:uo			! Normal | 7th class Ablaut1 & Ablaut2 [e.g. hlôpan ~ hliop ~ hliopun ~ hlôpan] | alternate spelling
 	â:â â:ê 			! Normal | 7th class Ablaut1 & Ablaut2 [e.g. lâtan ~ lêt ~ lêtun ~ gilâtan] 
 	û:u û:ô û:u û:o		! Normal | Ablaut 1 | Ablaut 2 | Ablaut 3 [e.g. lûkan ~ lôk ~ lukun ~ gilokan]
-	đ
+	đ:đ đ:d			! Free variation in plural conjugations
 	ƀ:ƀ ƀ:f				! Normal | Final Devoicing 
 	th:th th:d		! Normal | Grammatischer Wechsel 
 	¹:0 ²:0 ³:0 ⁴:0		!four contexts for Ablaut
 	₄:0 ₅:0 ₇:0 		!three exceptional strong verb classes
 	%{I%}:i %{I%}:0		!j-infix
+	%{I%^E%}:i %{I%^E%}:e	!i/e in free variation in the stem vowel of the verb 'willian'
 	%{E%^%A%}:e %{E%^%A%}:a		!e/a alternations in dative and genitive
 	%{O%^%A%}:o %{O%^%A%}:a		!o/a alternations in nominative/accusative plural
 	%{U%^%O%}:u %{U%^%O%}:o	!u/o alternations in ô-stem plural
@@ -53,7 +54,7 @@ V = a e i o u %{I%}			;
 ShortV = a e i o u                     ;
 FrontV = a e i %{I%}			;
 BackV = o u			;
-Cns = b d f g h j k l m n p w r s t v w x y z đ ƀ th ; 
+Cns = b c d f g h j k l m n p w r s t v w x y z đ ƀ th ; 
 HighV = i u ;
 
 Rules
@@ -69,7 +70,8 @@ Vx:Vy <=> _ ( ₄: | ₅: | ₇: ) ( ¹: ) # ;
               Vy in ( p f )
         matched ;
 
-
+"Plural morpheme iađ~iad"			!The verbal plural morpheme iađ is often written iad
+đ:d => i: a: _ # ;
 
 "e:i in Umlaut of strong verbs"
 e:i <=> _ Cns+ %>:  HighV ;			
@@ -196,3 +198,6 @@ Vx:Vy <=> _ Vz: ;
 "Extraordinary declension of *man*"
 %{%^N%}:n <=> 	m a n _ u	;
 		m a n _ o	;
+
+"optional <hu> for <hw> after before a vowel"
+w:u => h:  _ V: ;

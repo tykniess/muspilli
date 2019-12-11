@@ -247,7 +247,7 @@ gisprac
 giwîsda
 endi
 giwarahta
-wndarlîcas
+wundarlîcas
 filo
 sô
 manag
@@ -382,14 +382,14 @@ gisterkid
 that
 sia
 habdon
-bithwngana
+bithwungana
 thiedo
 gihuilica
 habdun
 fan
 rûmuburg
 rîki
-giwnnan
+giwunnan
 helmgitrôsteon
 sâton
 iro
@@ -988,7 +988,7 @@ im
 thero
 dâdeo
 bigan
-wndron
+wundron
 thero
 wordo
 hwô
@@ -1123,7 +1123,7 @@ weroldi
 sô
 mi
 thes
-wndar
+wundar
 thunkit
 hwô
 it
@@ -1152,7 +1152,7 @@ he
 is
 giwerkes
 sô
-wndron
+wundron
 scolda
 endi
 that
@@ -1269,7 +1269,7 @@ for
 them
 wîha
 endi
-wndrodun
+wundrodun
 alla
 bihwî
 he
@@ -1464,7 +1464,7 @@ tesamne
 thea
 suâsostun
 mêst
-wndrodun
+wundrodun
 thes
 werkes
 bihuî
@@ -2163,7 +2163,7 @@ gôdun
 endi
 mid
 hluttrun
-trewn
+trewun
 warđ
 the
 hêlago
@@ -3046,7 +3046,7 @@ wordun
 that
 he
 thar
-biwndan
+biwundan
 ligid
 that
 kind
@@ -3107,7 +3107,7 @@ sie
 eft
 te
 heƀanwanga
-wndun
+wundun
 thurh
 thiu
 wolcan
@@ -4133,7 +4133,7 @@ wracsîđ
 hweđer
 lêdiad
 gi
-wndan
+wundan
 gold
 te
 geƀu
@@ -5300,7 +5300,7 @@ mid
 theru
 gôdan
 thiornan
-wnon
+wunon
 undar
 themu
 werode
@@ -6116,7 +6116,7 @@ firiwitlîco
 wîsera
 wordo
 sie
-wndradun
+wundradun
 alle
 bihwî
 gio
@@ -6527,7 +6527,7 @@ landscepi
 liudiun
 ginâhid
 welono
-wnsamost
+wunsamost
 im
 was
 thô
@@ -8769,7 +8769,7 @@ bi
 theru
 ahu
 habdun
-gewnstes
+gewunstes
 bi
 them
 watare
@@ -9991,7 +9991,7 @@ endi
 ni
 cumit
 welan
-wnsames
+wunsames
 sô
 habde
 thô
@@ -10175,7 +10175,7 @@ woroldwelon
 thie
 forslîtat
 iro
-wnnia
+wunnia
 hêr
 geniudot
 sie
@@ -10197,7 +10197,7 @@ thie
 hêr
 êr
 an
-wnnion
+wunnion
 sîn
 libbiad
 an
@@ -10502,7 +10502,7 @@ folc
 manag
 wlitig
 endi
-wnsam
+wunsam
 ni
 mugun
 iwua
@@ -12791,7 +12791,7 @@ the
 man
 êhti
 welono
-gewnnan
+gewunnan
 endi
 allaro
 gewâdeo
@@ -13544,7 +13544,7 @@ thea
 hêlagan
 lêra
 swîđo
-wnsam
+wunsam
 word
 endi
 sculun
@@ -14039,7 +14039,7 @@ bigunnun
 an
 iro
 hugi
-wndron
+wundron
 meginfolc
 mikil
 gehôrdun
@@ -14052,7 +14052,7 @@ wârun
 an
 themu
 lande
-gewno
+gewuno
 that
 sie
 eo
@@ -15486,7 +15486,7 @@ afhôƀun
 wârun
 thar
 an
-wnneun
+wunneun
 thô
 im
 thes
@@ -15841,7 +15841,7 @@ than
 haƀas
 thu
 nu
-wnderlîco
+wunderlîco
 werdskepi
 thînan
 gemarcod
@@ -15982,7 +15982,7 @@ wîne
 that
 warđ
 thar
-wndro
+wundro
 êrist
 thero
 the
@@ -16006,7 +16006,7 @@ huat
 thar
 sîđor
 warđ
-wndres
+wundres
 undar
 themu
 werode
@@ -16051,7 +16051,7 @@ godes
 thar
 gêst
 manag
-wnod
+wunod
 an
 willean
 the
@@ -16269,7 +16269,7 @@ mi
 ôdes
 genôg
 welono
-gewnnen
+gewunnen
 thoh
 ic
 undar
@@ -16662,7 +16662,7 @@ thesaro
 middilgard
 mâriđa
 gefrumide
-wndres
+wundres
 gewarhte
 huand
 al
@@ -16815,7 +16815,7 @@ iru
 widowa
 ne
 habda
-wnnea
+wunnea
 than
 mêr
 biûten
@@ -16825,7 +16825,7 @@ themu
 sunie
 al
 gelâten
-wnnea
+wunnea
 endi
 willean
 anttat
@@ -16973,7 +16973,7 @@ froƀra
 thes
 wîƀes
 an
-wnneon
+wunneon
 huand
 iro
 thar
@@ -17032,7 +17032,7 @@ that
 ahton
 managa
 that
-wnder
+wunder
 that
 under
 them
@@ -17345,7 +17345,7 @@ wi
 sculun
 hier
 te
-wnderquâlu
+wunderquâlu
 sueltan
 an
 theson
@@ -17402,7 +17402,7 @@ werđan
 gi
 thit
 wedar
-wnsam
+wunsam
 tho
 hi
 te
@@ -17439,7 +17439,7 @@ folc
 undar
 im
 werod
-wndraian
+wundraian
 endi
 suma
 mid
@@ -17963,7 +17963,7 @@ thesumu
 seli
 innan
 te
-wndron
+wundron
 giwêgid
 that
 ik
@@ -18036,7 +18036,7 @@ manag
 hêđin
 man
 weros
-wndradun
+wundradun
 quâđun
 that
 imu
@@ -18076,7 +18076,7 @@ habdun
 im
 lêđan
 strîd
-wnnun
+wunnun
 wiđar
 is
 wordun
@@ -18185,7 +18185,7 @@ an
 thesaro
 weroldi
 forđ
-wnneono
+wunneono
 neotan
 um
 xxix
@@ -18640,7 +18640,7 @@ wordspâha
 weros
 was
 im
-wndar
+wundar
 mikil
 be
 huilicun
@@ -19625,7 +19625,7 @@ wolda
 im
 thar
 sô
-wnsames
+wunsames
 wastmes
 tilian
 fagares
@@ -20438,7 +20438,7 @@ dâdun
 it
 bi
 themu
-wndre
+wundre
 huanen
 imu
 mahti
@@ -20609,7 +20609,7 @@ rîkeon
 krist
 wêgdin
 te
-wndron
+wundron
 hêtun
 thô
 iro
@@ -20967,7 +20967,7 @@ hebbie
 sie
 imu
 te
-hîwn
+hîwun
 ef
 thu
 mi
@@ -21153,7 +21153,7 @@ iro
 bâggeƀon
 wesen
 an
-wnneon
+wunneon
 drôg
 man
 wîn
@@ -21189,7 +21189,7 @@ themu
 werode
 mêst
 te
-wnniun
+wunniun
 gifremidi
 hêt
 he
@@ -21934,7 +21934,7 @@ te
 meti
 habdin
 wistes
-gewnnin
+gewunnin
 thô
 sprak
 imu
@@ -22712,7 +22712,7 @@ thene
 wêg
 mid
 windu
-wndun
+wundun
 ina
 ûđeon
 hô
@@ -23446,7 +23446,7 @@ sie
 mid
 imu
 gerno
-gewnodun
+gewunodun
 weros
 thurh
 is
@@ -23847,7 +23847,7 @@ binden
 wêgean
 mi
 te
-wndrun
+wundrun
 dôt
 mi
 wîties
@@ -24043,7 +24043,7 @@ weroldes
 welde
 im
 thar
-wndres
+wundres
 filu
 têcno
 tôgean
@@ -24173,7 +24173,7 @@ wehslean
 thar
 warđ
 sô
-wnsam
+wunsam
 sprâka
 sô
 gôd
@@ -24259,7 +24259,7 @@ is
 ôdas
 hêm
 welono
-wnsamost
+wunsamost
 reht
 sô
 he
@@ -24518,7 +24518,7 @@ iudeono
 folc
 wêgean
 te
-wndrun
+wundrun
 thes
 wrđun
 thar
@@ -25184,7 +25184,7 @@ habde
 imu
 ôdwelon
 allen
-gewnnen
+gewunnen
 mêđomhord
 manag
 thoh
@@ -25219,7 +25219,7 @@ al
 gescôp
 werold
 endi
-wnnea
+wunnea
 ef
 thu
 is
@@ -25434,7 +25434,7 @@ habde
 mêđmo
 filu
 welono
-gewnnen
+gewunnen
 wende
 imu
 eft
@@ -25847,7 +25847,7 @@ hundos
 tô
 likkodun
 is
-lîkwndon
+lîkwundon
 thar
 he
 liggiandi
@@ -25912,7 +25912,7 @@ simlun
 forđ
 wesen
 an
-wnniun
+wunniun
 thô
 quâmun
 ôk
@@ -26087,7 +26087,7 @@ thu
 thar
 alle
 thîne
-wnnea
+wunnea
 farsliti
 gôdes
 an
@@ -27014,7 +27014,7 @@ is
 werold
 endi
 is
-wnnea
+wunnea
 farslîtid
 than
 beginnid
@@ -27322,7 +27322,7 @@ sie
 wêgeat
 mi
 te
-wndron
+wundron
 wâpnes
 eggiun
 bilôsiad
@@ -27836,7 +27836,7 @@ hêr
 an
 thiustriu
 thiodarƀedi
-wnnun
+wunnun
 wracsîđos
 welon
 tharƀodun
@@ -27896,7 +27896,7 @@ was
 thô
 sô
 farhuerƀid
-bithwngen
+bithwungen
 an
 thiustrie
 an
@@ -28476,7 +28476,7 @@ hûs
 godes
 allaro
 wîho
-wnsamost
+wunsamost
 thô
 wel
 imu
@@ -29109,7 +29109,7 @@ mêr
 at
 hûs
 welona
-gewnnen
+gewunnen
 ni
 dede
 thius
@@ -29126,7 +29126,7 @@ that
 siu
 habde
 welono
-gewnnen
+gewunnen
 sô
 siu
 iru
@@ -29553,7 +29553,7 @@ sîn
 geƀad
 weroldhêrron
 is
-gewnst
+gewunst
 endi
 waldand
 gode
@@ -30003,7 +30003,7 @@ lîƀu
 beniman
 wêgean
 te
-wndrun
+wundrun
 thô
 sprak
 imu
@@ -30185,7 +30185,7 @@ sô
 thar
 mid
 thurstu
-bithwngan
+bithwungan
 wâri
 sô
 ganga
@@ -30352,7 +30352,7 @@ he
 wirkid
 manages
 huat
-wndres
+wundres
 an
 thesaru
 weroldi
@@ -30627,7 +30627,7 @@ martha
 magađ
 frîlîca
 suîđo
-wnsama
+wunsama
 wîf
 thia
 wissa
@@ -31678,7 +31678,7 @@ giwêdie
 was
 imo
 sô
-bewnden
+bewunden
 thô
 noh
 an
@@ -31693,7 +31693,7 @@ krist
 weros
 gengun
 tô
-antwndun
+antwundun
 that
 gewâdi
 wânum
@@ -31739,7 +31739,7 @@ an
 iro
 môde
 maneg
-wndrode
+wundrode
 iudeo
 liudio
 thô
@@ -31822,7 +31822,7 @@ eo
 sulic
 ni
 warđ
-wnder
+wunder
 an
 weroldi
 than
@@ -31848,7 +31848,7 @@ wiđ
 is
 craft
 mikil
-wnnun
+wunnun
 mid
 iro
 wordun
@@ -32040,7 +32040,7 @@ thes
 wîhes
 mi
 thunkid
-wnder
+wunder
 mikil
 quađ
 he
@@ -32325,7 +32325,7 @@ hôhon
 burg
 hêlag
 drohtin
-wnode
+wunode
 mid
 is
 werodu
@@ -33067,7 +33067,7 @@ sie
 thius
 werold
 an
-wnniun
+wunniun
 êr
 than
 that
@@ -33228,7 +33228,7 @@ hêr
 têcan
 biforan
 giwerđad
-wnderlîc
+wunderlîc
 êr
 than
 he
@@ -33476,7 +33476,7 @@ sumer
 ginâhid
 warm
 endi
-wnsam
+wunsam
 endi
 weder
 scôni
@@ -33918,7 +33918,7 @@ geƀo
 mildie
 than
 ik
-bithwngan
+bithwungan
 was
 thurstu
 endi
@@ -33969,7 +33969,7 @@ wâri
 thu
 bifangan
 sô
-bethwngan
+bethwungan
 an
 sulicun
 tharaƀun
@@ -33986,7 +33986,7 @@ gisah
 thi
 man
 ênig
-bethwngen
+bethwungen
 an
 sulicun
 tharaƀun
@@ -34006,7 +34006,7 @@ the
 io
 manno
 barn
-gewnnun
+gewunnun
 an
 thesaro
 weroldi
@@ -34150,7 +34150,7 @@ endi
 thurst
 wêgde
 te
-wndrun
+wundrun
 eftha
 ik
 gewâdies
@@ -35287,7 +35287,7 @@ handun
 nu
 wîti
 endi
-wnderquâle
+wunderquâle
 thea
 ik
 for
@@ -35843,7 +35843,7 @@ al
 giscôp
 werold
 endi
-wnnea
+wunnea
 endi
 sprak
 word
@@ -36501,7 +36501,7 @@ thar
 was
 hie
 upp
-giwno
+giwuno
 gangan
 mid
 is
@@ -36746,7 +36746,7 @@ drôr
 kumid
 wallan
 fan
-wndun
+wundun
 was
 an
 gewinne
@@ -36828,7 +36828,7 @@ barn
 te
 wêgeanne
 te
-wndrun
+wundrun
 it
 sî
 than
@@ -37603,7 +37603,7 @@ ordun
 spildien
 môstin
 wâpnun
-wnde
+wunde
 than
 ni
 wâri
@@ -37718,21 +37718,21 @@ warđ
 an
 that
 hôƀid
-wnd
+wund
 that
 imu
 herudrôrag
 hlear
 endi
 ôre
-beniwndun
+beniwundun
 brast
 blôd
 aftar
 sprang
 well
 fan
-wndun
+wundun
 thô
 was
 an
@@ -37898,14 +37898,14 @@ he
 thô
 te
 themu
-wndon
+wundon
 manne
 legde
 mid
 listiun
 lîk
 tesamne
-hôƀidwndon
+hôƀidwundon
 that
 siu
 sân
@@ -37925,7 +37925,7 @@ wrêđe
 werod
 mi
 thunkid
-wnder
+wunder
 mikil
 quađ
 he
@@ -38897,7 +38897,7 @@ thes
 liudio
 barn
 weros
-wndroian
+wundroian
 behuî
 it
 weldi
@@ -38916,7 +38916,7 @@ hêrron
 sînes
 thurh
 thera
-thiwn
+thiwun
 word
 thegno
 snellost
@@ -39189,7 +39189,7 @@ sie
 ina
 than
 te
-wnderquâlu
+wunderquâlu
 wêgean
 môstin
 adêlien
@@ -40477,7 +40477,7 @@ herubendiun
 te
 wêgeanne
 te
-wndrun
+wundrun
 te
 thiu
 warđ
@@ -41650,7 +41650,7 @@ dôđ
 tholon
 wîti
 endi
-wndarquâla
+wundarquâla
 werod
 iudeono
 sô
@@ -41692,7 +41692,7 @@ lêđun
 thiod
 wêgian
 te
-wndron
+wundron
 all
 sô
 iro
@@ -42944,7 +42944,7 @@ hêlagun
 pêda
 allaro
 giwâdio
-wnsamost
+wunsamost
 thes
 werodes
 hirdi
@@ -43619,7 +43619,7 @@ that
 gisuerc
 warđ
 thuo
-teswngan
+teswungan
 bigan
 sunnun
 lioht
@@ -43668,7 +43668,7 @@ under
 theson
 fîondon
 hier
-wndron
+wundron
 giwêgid
 uerod
 iudeono
@@ -43834,7 +43834,7 @@ warđ
 sân
 after
 thiu
-wndartêcan
+wundartêcan
 giwaraht
 that
 thar
@@ -44185,7 +44185,7 @@ is
 lîchamo
 thia
 liudi
-gisâwn
+gisâwun
 that
 thanan
 bluod
@@ -44459,7 +44459,7 @@ armscapana
 thia
 that
 all
-forsâwn
+forsâwun
 thes
 gumen
 grimman
@@ -44962,7 +44962,7 @@ wintarcaldon
 snêwe
 gilîcost
 thuo
-sâwn
+sâwun
 sia
 ina
 sittian
