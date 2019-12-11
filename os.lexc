@@ -4,7 +4,9 @@ Multichar_Symbols
 %<v%>				! Verb
 %<noun%>			! Noun
 %<prep%>			! Preposition
-%<adv%>				! Adƀerb
+%<adv%>				! Adverb
+%<conj%>			! Conjunction
+
 %<a-stem%>			! a-stem noun
 %<ja-stem%>			! ja-stem noun
 %<wa-stem%>			! wa-stem noun
@@ -13,30 +15,33 @@ Multichar_Symbols
 %<jô-stem%>			! jô-stem noun
 %<u-stem%>			! u-stem noun
 %<n-stem%>			! n-stem noun (a. k. a. weak noun)
+%<r-stem%>			! r-stem noun (family relations)
 %<a%/ô-stem%>			! a/ô-stem adjective
+%<nd-stem%>			! nd-stem noun
+%<athem%>			! athematic noun
 
 !!!!!!!!!!!!!!!!!!NOMINAL CHARS!!!!!!!!!!!!!!!!!!!!!!!
 %<masc%>			! masculine noun
 %<fem%>				! feminine noun
 %<neut%>			! neuter noun
 
-%<nom%>				! nominatiƀe case
-%<gen%>				! genitiƀe case
-%<dat%>				! datiƀe case
-%<acc%>				! accusatiƀe case
+%<nom%>				! nominative case
+%<gen%>				! genitive case
+%<dat%>				! dative case
+%<acc%>				! accusative case
 %<instr%>			! instrumental case
 
 %<prn%>				! Pronoun
 
 %<pers%>			! Personal Pronoun
-%<poss%>			! Possessiƀe Pronoun
-%<demo%>			! Demonstratiƀe Pronoun
+%<poss%>			! Possessive Pronoun
+%<demo%>			! Demonstrative Pronoun
 %<comp%>			! Compound Pronoun "this"
-%<inter%>			! Interrogatiƀe Pronoun
-%<ort%>				! Locatiƀe Pronoun
-%<wo%>				! Locatiƀe Pronoun- where?
-%<woher%>			! Locatiƀe Pronoun- whence?
-%<wohin%>			! Locatiƀe Pronoun- whither?
+%<inter%>			! Interrogative Pronoun
+%<ort%>				! Locative Pronoun
+%<wo%>				! Locative Pronoun- where?
+%<woher%>			! Locative Pronoun- whence?
+%<wohin%>			! Locative Pronoun- whither?
 %<neg%>				! Negated
 %<indef%>			! Indefinite Pronoun
 
@@ -78,15 +83,19 @@ Multichar_Symbols
 
 !Archiphonemes
 %{I%}				! i-infix in strong verbs
-%{E%^%A%}			! Archiphoneme e/a in the dative and genitiƀe cases
+%{E%^%A%}			! Archiphoneme e/a (often in the dative and genitive cases)
 %{O%^%A%}                       ! Archiphoneme o/a in the plural of a-stems
 %{U%^%O%}			! Archiphoneme u/o in ô-stems
 %{M%}				! Archiphomene m/n in dative plural
 %{NAPL%}			! Neuter a-stem plural morpheme; u or zero depending on syllable weight
+%{%^N%}				! Archiphoneme n/0 for the odd declension of man
 
-th				! sequence th which is actually one letter
+				! sequence qu which is actually one sound
+th				! sequence th which is actually one sound
 ie				! vowel ie 
 io				! vowel io
+iu				! vowel iu
+eo				! vowel eo
 
 LEXICON Root
 Nouns 				; 
@@ -465,6 +474,7 @@ foran%<adv%>:foran	 # ; !
 forana%<adv%>:forana	 # ; !  
 forn%<adv%>:forn	 # ; !  
 forth%<adv%>:forth	 # ; !  
+forth%<adv%>:forđ	 # ; !  tk manually added
 forthward%<adv%>:forthward	 # ; !  
 forthwerd%<adv%>:forthwerd	 # ; !  
 fram%<adv%>:fram	 # ; !  
@@ -722,6 +732,9 @@ I-Stem				;
 Ô-Stem				;
 U-Stem				;
 N-Stem				;
+R-Stem				;
+ND-Stem				;
+Athem				;
 
 LEXICON Masc-u-Stem
 %<nom%>%<sg%>:%{U%^O%}		# ;
@@ -879,8 +892,8 @@ LEXICON Masc-Ja-Stem
 %<dat%>%<sg%>:ie             	#       ;
 %<dat%>%<sg%>:ea                # 	;
 %<acc%>%<sg%>:i                 #       ;
-%<instr%>%<sg%>:iu               #       ; !extremely rare case remnant, consider remoƀing
-!%<instr%>:o                    #       ; ! ƀariant form of instrumental case
+%<instr%>%<sg%>:iu               #       ; !extremely rare case remnant, consider removing
+!%<instr%>:o                    #       ; ! variant form of instrumental case
 
 %<nom%>%<pl%>:ios                #       ; ! consider changing to %{O%^%A%}s to account for scribal ƀariation
 %<gen%>%<pl%>:io                 #       ;
@@ -983,6 +996,30 @@ LEXICON Fem-I-Stem-Long
 LEXICON Neut-I-Stem-Short
 Masc-I-Stem-Short			;
 
+LEXICON ND-Stem-Decline
+%<nom%>%<sg%>:0			#	;
+%<acc%>%<sg%>:0			#	;
+%<gen%>%<sg%>:es		#	;
+%<dat%>%<sg%>:%{E%^A%}		#	;
+%<dat%>%<sg%>:i			#	;
+%<nom%>%<pl%>:0			#	;
+%<acc%>%<pl%>:0			#	;
+%<gen%>%<pl%>:o			#	;
+%<dat%>%<pl%>:%{U%^O%}n		#	;
+
+LEXICON Athem-Masc
+%<nom%>%<sg%>:0			#	;
+%<acc%>%<sg%>:0			#	;
+%<gen%>%<sg%>:%{E%^A%}s		#	;
+%<dat%>%<sg%>:%{%^N%}e		#	; ! man can also have a zero dative plural
+%<dat%>%<sg%>:i			#	;
+%<nom%>%<pl%>:0			#	;
+%<acc%>%<pl%>:0			#	;
+%<gen%>%<pl%>:%{%^N%}o		#	; ! man can also have an extra n in gen & dat pl
+%<dat%>%<pl%>:%{%^N%}%{U%^O%}n		#	;
+
+LEXICON Athem-Fem
+Fem-I-Stem-Long				; !"Die feminina weisen vielfach formen der i-declination auf" tk will need to create idiosyncratic endings for each
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -1005,57 +1042,64 @@ LEXICON STR1
 %<inf%>:%>an		 	# ;	
 StrTempus                         ;
 %<pastpart%>:³%>an              # ;
-%<prespart%>:and Adj-ja-jo	;
+%<prespart%>:and Adj-ja-jo	;	!participial adjective
+%<prespart%>:and ND-Stem-Decline ;	!participial noun
 
 LEXICON STR2
 %<inf%>:%>an              	# ;
 StrTempus2                        ;
 %<pastpart%>:³%>an              # ;
 %<prespart%>:and Adj-ja-jo	;
+%<prespart%>:and ND-Stem-Decline  ;	!participial noun
 
 LEXICON STR3
 %<inf%>:%>an                    # ;
 StrTempus                         ; !class 3 conjugates like STR1
 %<pastpart%>:³%>an              # ;
 %<prespart%>:and Adj-ja-jo	;
+%<prespart%>:and ND-Stem-Decline  ;	!participial noun
 
 LEXICON STR4
 %<inf%>:%>an                    # ;
 :₄ StrTempus4                     ; !classes 4 and 5 are unique but haƀe similar input vowels to class 3, thus the extra subscript
 %<pastpart%>:₄³%>an             # ;
 %<prespart%>:and Adj-ja-jo	;
+%<prespart%>:and ND-Stem-Decline  ;	!participial noun
 
 LEXICON STR5
 %<inf%>:%>an                    # ;
 :₄ StrTempus4                     ; !5 is like 4 in inflections
 %<pastpart%>:₅³%>an 		# ;
 %<prespart%>:and Adj-ja-jo	;
+%<prespart%>:and ND-Stem-Decline  ;	!participial noun
 
 LEXICON STR6				!fine but cannot yet account for the -jan ƀerbs in class 6
 %<inf%>:%>an                    # ;
 StrTempus                         ; !
 %<pastpart%>:%>an               # ; ! faran->gifaran
 %<prespart%>:and Adj-ja-jo	;
+%<prespart%>:and ND-Stem-Decline  ;	!participial noun
 
 LEXICON STR7
 %<inf%>:%>an                    # ;
 :₇ StrTempus                      ; !
 %<pastpart%>:³%>an              # ;
 %<prespart%>:and Adj-ja-jo	;
+%<prespart%>:and ND-Stem-Decline  ;	!participial noun
 
-LEXICON StrTempus			!for first and 3rd class strong ƀerbs
+LEXICON StrTempus			!for first and 3rd class strong verbs
 %<pres%>: STR-INFL-PRES                       ;
 %<pret%>: STR-INFL-PRET-1Grade                ;
 %<pret%>: STR-INFL-PRET-2Grade         ;
 %<impv%>: STR-IMPERATIV                       ;
 
-LEXICON StrTempus2				!for second class strong ƀerbs
+LEXICON StrTempus2				!for second class strong verbs
 %<pres%>: STR-INFL-PRES                       ;
 %<pret%>: STR-INFL-PRET-1Grade                ;
 %<pret%>: STR-INFL-PRET-2Grade         ;
 %<impv%>: STR-IMPERATIV                       ;
 
-LEXICON StrTempus4                              !for 4th class strong ƀerbs
+LEXICON StrTempus4                              !for 4th class strong verbs
 %<pres%>: STR-INFL-PRES                       ;
 %<pret%>: STR-INFL-PRET-1Grade                ;
 %<pret%>: STR-INFL-PRET-2Grade         ;
@@ -1120,6 +1164,7 @@ LEXICON STR-IMPERATIV
 LEXICON WESAN
 %<inf%>:wesan				#;
 %<prespart%>:wesand Adj-ja-jo	;
+%<prespart%>:and ND-Stem-Decline  ;	!participial noun
 
 %<pres%>%<indic%>%<1st%>%<sg%>:bium		#;
 %<pres%>%<indic%>%<1st%>%<sg%>:biun          #;
@@ -1368,11 +1413,11 @@ farmunan%<v%>%<prtprs%>%<pret%>%<opt%>%<2nd%>%<sg%>:farmunidis			#	;
 
 LEXICON Pronouns		
 Personal-Pronouns			;
-Possessiƀe-Pronouns			;
-Demonstratiƀe-Pronouns			;
+Possessive-Pronouns			;
+Demonstrative-Pronouns			;
 Compound-Pronouns			;
-Interrogatiƀe-Pronouns			;
-Ortsadƀerbien-Pronouns			;
+Interrogative-Pronouns			;
+Ortsadverbien-Pronouns			;
 Indefinite-Pronouns			;
 
 LEXICON Personal-Pronouns
@@ -1387,6 +1432,7 @@ ic%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mê  	#       ;
 ic%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:me  	#       ;
 ic%<prn%>%<pers%>%<1st%>%<sg%>%<acc%>:mik  	#       ;
 wî%<prn%>%<pers%>%<1st%>%<pl%>%<nom%>:wî  	#       ;
+wî%<prn%>%<pers%>%<1st%>%<pl%>%<nom%>:wi  	#       ; ! tk manually added
 wî%<prn%>%<pers%>%<1st%>%<pl%>%<nom%>:wê  	#       ;
 wî%<prn%>%<pers%>%<1st%>%<pl%>%<gen%>:ûser	#       ;
 wî%<prn%>%<pers%>%<1st%>%<pl%>%<dat%>:ûs  	#       ;
@@ -1477,7 +1523,7 @@ siu%<prn%>%<pers%>%<3rd%>%<fem%>%<pl%>%<acc%>:sia	#	;
 siu%<prn%>%<pers%>%<3rd%>%<fem%>%<pl%>%<acc%>:sea	#	;
 siu%<prn%>%<pers%>%<3rd%>%<fem%>%<pl%>%<acc%>:siu	#	;
 
-LEXICON Possessiƀe-Pronouns
+LEXICON Possessive-Pronouns
 mîn%<prn%>%<poss%>%<1st%>%<masc%>%<sg%>:mîn	#	;
 thîn%<prn%>%<poss%>%<2nd%>%<masc%>%<sg%>:thîn	#	;
 sîn%<prn%>%<poss%>%<3rd%>%<masc%>%<sg%>:sîn	#	;
@@ -1489,20 +1535,18 @@ sîn%<prn%>%<poss%>%<3rd%>%<masc%>%<pl%>:iro	#	;
 sîn%<prn%>%<poss%>%<3rd%>%<neut%>%<pl%>:iro	#	;
 ira%<prn%>%<poss%>%<3rd%>%<fem%>%<pl%>:iro		#	;
 
-LEXICON Demonstratiƀe-Pronouns
+LEXICON Demonstrative-Pronouns
 thê%<prn%>%<demo%>%<masc%>%<nom%>%<sg%>:thê	#	;
 thê%<prn%>%<demo%>%<masc%>%<nom%>%<sg%>:the	#	;
-thê%<prn%>%<demo%>%<masc%>%<nom%>%<sg%>:se		#	;
+thê%<prn%>%<demo%>%<masc%>%<nom%>%<sg%>:se	#	;
 thê%<prn%>%<demo%>%<masc%>%<gen%>%<sg%>:thes	#	;
 thê%<prn%>%<demo%>%<masc%>%<dat%>%<sg%>:themu	#	;
 thê%<prn%>%<demo%>%<masc%>%<dat%>%<sg%>:themo	#	;
 thê%<prn%>%<demo%>%<masc%>%<dat%>%<sg%>:them	#	;	
 thê%<prn%>%<demo%>%<masc%>%<dat%>%<sg%>:thamo	#	;
 thê%<prn%>%<demo%>%<masc%>%<dat%>%<sg%>:then	#	;
-thê%<prn%>%<demo%>%<masc%>%<acc%>%<sg%>:thena	#	;
-thê%<prn%>%<demo%>%<masc%>%<acc%>%<sg%>:thana	#	;
-thê%<prn%>%<demo%>%<masc%>%<acc%>%<sg%>:thane	#	;
-thê%<prn%>%<demo%>%<masc%>%<acc%>%<sg%>:then	#	;
+thê%<prn%>%<demo%>%<masc%>%<acc%>%<sg%>:th%{E%^A%}n%{E%^A%}	#	;
+thê%<prn%>%<demo%>%<masc%>%<acc%>%<sg%>:th%{E%^A%}n	#	;
 thê%<prn%>%<demo%>%<masc%>%<acc%>%<sg%>:than	#	;
 thê%<prn%>%<demo%>%<masc%>%<instr%>%<sg%>:thiu	#	;
 
@@ -1622,7 +1666,7 @@ thius%<prn%>%<fem%>%<3rd%>%<gen%>%<pl%>:thesoro         #       ;
 thius%<prn%>%<fem%>%<3rd%>%<dat%>%<pl%>:thesun         #       ;
 thius%<prn%>%<fem%>%<3rd%>%<dat%>%<pl%>:theson         #       ;
 
-LEXICON Interrogatiƀe-Pronouns
+LEXICON Interrogative-Pronouns
 hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<nom%>%<sg%>:hwê         #       ;
 hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<nom%>%<sg%>:hwie         #       ;
 hwê%<prn%>%<inter%>%<3rd%>%<fem%>%<nom%>%<sg%>:hwê         #       ; !the feminine is a copy of the masculine
@@ -1675,6 +1719,63 @@ hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<instr%>%<sg%>:hwilice         #       ;
 hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<instr%>%<sg%>:hwilica         #       ;
 hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<instr%>%<sg%>:hwilice         #       ;
 hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<instr%>%<sg%>:hwilica         #       ;
+hwô%<prn%>%<inter%>%<3rd%>:hwô		#			; ! tk manually entered
+hwô%<prn%>%<inter%>%<3rd%>:huô		#			; ! tk manually entered
+
+!!!!!!!!!!!!!!!!!!!!!!!!manual addition!!!!!!!!!!!
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<nom%>%<sg%>:huê         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<nom%>%<sg%>:huie         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<fem%>%<nom%>%<sg%>:huê         #       ; !the feminine is a copy of the masculine
+hwê%<prn%>%<inter%>%<3rd%>%<fem%>%<nom%>%<sg%>:huie         #       ; !feminine copies masculine form
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<gen%>%<sg%>:hues         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<fem%>%<gen%>%<sg%>:hues         #       ;!see nom
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<dat%>%<sg%>:huemu         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<dat%>%<sg%>:huem         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<fem%>%<dat%>%<sg%>:huemu         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<fem%>%<dat%>%<sg%>:huem         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<acc%>%<sg%>:huena         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<acc%>%<sg%>:huene         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<fem%>%<acc%>%<sg%>:huena         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<fem%>%<acc%>%<sg%>:huene         #       ;
+hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<nom%>%<sg%>:huat         #       ;
+hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<acc%>%<sg%>:huat         #       ;
+hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<gen%>%<sg%>:hues         #       ;
+hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<dat%>%<sg%>:huemu         #       ;
+hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<gen%>%<sg%>:huem         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<instr%>%<sg%>:huiu         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<instr%>%<sg%>:hueo         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<instr%>%<sg%>:huî         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<fem%>%<instr%>%<sg%>:huiu         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<fem%>%<instr%>%<sg%>:hueo         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<fem%>%<instr%>%<sg%>:huî         #       ;
+hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<instr%>%<sg%>:huiu         #       ;
+hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<instr%>%<sg%>:hueo         #       ;
+hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<instr%>%<sg%>:huî         #       ;
+
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<nom%>%<sg%>:huilic         #       ;
+hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<nom%>%<sg%>:huilic         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<fem%>%<nom%>%<sg%>:huilic         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<gen%>%<sg%>:huilices         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<gen%>%<sg%>:huilicas         #       ;
+hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<gen%>%<sg%>:huilices         #       ;
+hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<gen%>%<sg%>:huilicas         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<dat%>%<sg%>:huilicumu         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<dat%>%<sg%>:huilicum         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<dat%>%<sg%>:huilicum         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<dat%>%<sg%>:huilicon         #       ;
+hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<dat%>%<sg%>:huilicumu         #       ;
+hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<dat%>%<sg%>:huilicum         #       ;
+hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<dat%>%<sg%>:huilicum         #       ;
+hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<dat%>%<sg%>:huilicon         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<acc%>%<sg%>:huilican         #       ;
+hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<acc%>%<sg%>:huilic         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<fem%>%<acc%>%<sg%>:huilika         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<fem%>%<acc%>%<sg%>:huilike         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<instr%>%<sg%>:huilice         #       ;
+hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<instr%>%<sg%>:huilica         #       ;
+hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<instr%>%<sg%>:huilice         #       ;
+hwat%<prn%>%<inter%>%<3rd%>%<neut%>%<instr%>%<sg%>:huilica         #       ;
+
 
 LEXICON Indefinite-Pronouns
 sum%<prn%>%<indef%>%<masc%>%<nom%>%<sg%>:sum		#	; !Add inflection
@@ -1694,7 +1795,7 @@ hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<nom%>%<sg%>:gihwilic         #       ; ! ei
 hwê%<prn%>%<inter%>%<3rd%>%<masc%>%<nom%>%<sg%>:sulic         #       ; ! ein solcher
 
 
-LEXICON Ortsadƀerbien-Pronouns                  
+LEXICON Ortsadverbien-Pronouns                  
 thar%<prn%>%<ort%>%<wo%>:thar		#	;
 thar%<prn%>%<ort%>%<wo%>:hwar               #       ;
 thar%<prn%>%<ort%>%<wo%>:hier               #       ;
@@ -1723,12 +1824,14 @@ LEXICON WK1
 %<inf%>:%>ian		 	 # ;	
 :%>%>i Tempus-WK1                     ;			!NOTE the second morpheme boundary blocks umlaut
 %<prespart%>:and Adj-ja-jo	;
+%<prespart%>:and ND-Stem-Decline  ;	!participial noun
 
 LEXICON WK2
 
 %<inf%>:%>on                    # ;
 :%>o Tempus-WK2                     ;
 %<prespart%>:and Adj-ja-jo	;
+%<prespart%>:and ND-Stem-Decline  ;	!participial noun
 
 LEXICON Tempus-WK1
 
@@ -4633,6 +4736,104 @@ liudskepi%<noun%>%<neut%>%<i-stem%>:liudskep	Neut-I-Stem-Short 		; ! liudskepi* 
 meni%<noun%>%<neut%>%<i-stem%>:men	Neut-I-Stem-Short 		; ! meni? (1)***, men-i?***, as., st. N. (i): nhd. Kette (F.) (1), Schmuck; ne. necklace (N.)
 selskepi%<noun%>%<neut%>%<i-stem%>:selskep	Neut-I-Stem-Short 		; ! selskepi* 1, sel-s-kep-i*, as., st. N. (i)?: nhd. Gesellschaft; ne. company (N.); W.: mnd. selschap, selschop?, N., Gesellschaft
 
+LEXICON R-Stem
+fader%<noun%>%<masc%>%<r-stem%>%<nom%>%<sg%>:fad%{E%^A%}r	#	; !father, tk manually added
+fader%<noun%>%<masc%>%<r-stem%>%<acc%>%<sg%>:fad%{E%^A%}r	#	; !father, tk manually added
+fader%<noun%>%<masc%>%<r-stem%>%<gen%>%<sg%>:fader		#	; !father, tk manually added
+fader%<noun%>%<masc%>%<r-stem%>%<dat%>%<sg%>:fad%{E%^A%}r	#	; !father, tk manually added
+fader%<noun%>%<masc%>%<r-stem%>%<nom%>%<pl%>:fader		#	; !father, tk manually added
+fader%<noun%>%<masc%>%<r-stem%>%<acc%>%<pl%>:fader		#	; !father, tk manually added
+fader%<noun%>%<masc%>%<r-stem%>%<dat%>%<pl%>:fader		#	; !father, tk manually added
+
+brôđer%<noun%>%<masc%>%<r-stem%>%<nom%>%<sg%>:brôđ%{E%^A%}r	#	; !brother, tk manually added
+brôđer%<noun%>%<masc%>%<r-stem%>%<acc%>%<sg%>:brôđ%{E%^A%}r	#	; !brother, tk manually added
+brôđer%<noun%>%<masc%>%<r-stem%>%<gen%>%<sg%>:brôđer		#	; !brother, tk manually added
+brôđer%<noun%>%<masc%>%<r-stem%>%<dat%>%<sg%>:brôđer	#	; !brother, tk manually added
+brôđer%<noun%>%<masc%>%<r-stem%>%<nom%>%<pl%>:gibrôđ%{E%^A%}r	#	; !brother, tk manually added
+brôđer%<noun%>%<masc%>%<r-stem%>%<acc%>%<pl%>:gibrôđ%{E%^A%}r	#	; !brother, tk manually added
+brôđer%<noun%>%<masc%>%<r-stem%>%<dat%>%<pl%>:gibrôđr%{U%^O%}n #	; !brother, tk manually added
+
+dohter%<noun%>%<fem%>%<r-stem%>%<nom%>%<sg%>:doht%{E%^A%}r	#	; !daughter, tk manually added
+dohter%<noun%>%<fem%>%<r-stem%>%<acc%>%<sg%>:doht%{E%^A%}r	#	; !daughter, tk manually added
+dohter%<noun%>%<fem%>%<r-stem%>%<dat%>%<sg%>:dohter	#	; !daughter, tk manually added
+dohter%<noun%>%<fem%>%<r-stem%>%<nom%>%<pl%>:dohter	#	; !daughter, tk manually added
+dohter%<noun%>%<fem%>%<r-stem%>%<acc%>%<pl%>:dohter	#	; !daughter, tk manually added
+
+môder%<noun%>%<fem%>%<r-stem%>%<nom%>%<sg%>:môd%{E%^A%}r	#	; !mother, tk manually added
+môder%<noun%>%<fem%>%<r-stem%>%<nom%>%<sg%>:môdor		#	; !mother, tk manually added
+môder%<noun%>%<fem%>%<r-stem%>%<acc%>%<sg%>:môd%{E%^A%}r	#	; !mother, tk manually added
+môder%<noun%>%<fem%>%<r-stem%>%<acc%>%<sg%>:môdor	#	; !mother, tk manually added
+môder%<noun%>%<fem%>%<r-stem%>%<dat%>%<sg%>:môd%{E%^A%}r	#	; !mother, tk manually added
+môder%<noun%>%<fem%>%<r-stem%>%<dat%>%<sg%>:môdor	#	; !mother, tk manually added
+môder%<noun%>%<fem%>%<r-stem%>%<nom%>%<pl%>:môder	#	; !mother, tk manually added
+môder%<noun%>%<fem%>%<r-stem%>%<acc%>%<pl%>:môder	#	; !mother, tk manually added
+
+swester%<noun%>%<fem%>%<r-stem%>%<nom%>%<pl%>:giswest%{E%^A%}r	#	; !sister, tk manually added
+swester%<noun%>%<fem%>%<r-stem%>%<acc%>%<pl%>:giswest%{E%^A%}r	#	; !sister, tk manually added
+swester%<noun%>%<fem%>%<r-stem%>%<dat%>%<pl%>:giswestr%{U%^O%}n #	; !sister, tk manually added
+
+LEXICON ND-Stem
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!nd-stem Nouns!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alowaldand%<n%>%<nd-stem%>:alowaldand ND-Stem-Decline	;	!	alowaldand* 2, al-o-wal-d-and*, as., (Part. Präs.=)Adj., st. M. (nd): nhd. allwaltend, Allwaltender; ne. ruler (M.)
+berand%<n%>%<nd-stem%>:berand ND-Stem-Decline	;	!	berand?***, ber-an-d?***, as., (Part. Präs.=)st. M. (nd): nhd. Träger; ne. bearer (M.)
+fîund%<n%>%<nd-stem%>:fîund ND-Stem-Decline	;	!	fīund 66, fīand, fīond, fī-u-n-d, fī-a-n-d*, fī-o-n-d, as., (Part. Präs.=)st. M. (nd): nhd. Feind; ne. enemy (M.), fiend (M.); W.: mnd. viant, vient, Sb., Feind
+friund%<n%>%<nd-stem%>:friund ND-Stem-Decline	;	!	friund 12, fri-u-n-d, as., (Part. Präs.=)st. M. (nd): nhd. Freund, Verwandter; ne. friend (M.), relative (M.); W.: mnd. vrint, vrunt, vrent, M., Freund
+gêrfîund%<n%>%<nd-stem%>:gêrfîund ND-Stem-Decline	;	!	gêrfīund* 1, gê-r-fī-u-n-d*, as., st. M. (nd): nhd. „Gerfeind“, Teufel; ne. fiend (M.); W.: mnd. *gērviant, *gērvient, Sb., „Gerfeind“
+hêliand%<n%>%<nd-stem%>:hêliand ND-Stem-Decline	;	!	hêliand* 24, hê-l-ian-d*, as., (Part. Präs.=)st. M. (nd): nhd. Heiland; ne. Saviour (M.); W.: mnd. heilant, heylant, (Part. Präs.=)M., Heiland, Helfer, Attich
+helmberand%<n%>%<nd-stem%>:helmberand ND-Stem-Decline	;	!	helmberand* 1, hel-m-ber-an-d*, as., (Part. Präs.=)st. M. (nd): nhd. Helmträger; ne. helmetbearer (M.)
+hêmsittiand%<n%>%<nd-stem%>:hêmsittiand ND-Stem-Decline	;	!	hêmsittiand* 1, hê-m-si-t-t-iand*, as., (Part. Präs.=)st. M. (nd): nhd. „Heimsitzender“, Fürst; ne. prince (M.)
+hettiand%<n%>%<nd-stem%>:hettiand ND-Stem-Decline	;	!	hėttiand 7, hėt-t-iand, as., (Part. Präs.=)st. M. (nd): nhd. Feind; ne. enemy (M.)
+lagulîthand%<n%>%<nd-stem%>:lagulîthand ND-Stem-Decline	;	!	lagulīthand* 2, lag-u-līthand*, as., (Part. Präs.=)st. M. (nd): nhd. Seefahrer; ne. sailor (M.)
+lêriand%<n%>%<nd-stem%>:lêriand ND-Stem-Decline	;	!	lêriand* 5, lêr-ian-d*, as., (Part. Präs.=)st. M. (nd): nhd. „Lehrender“, Lehrer; ne. teacher (M.)
+lîthand%<n%>%<nd-stem%>:lîthand ND-Stem-Decline	;	!	līthand?***, lī-th-an-d?***, as., (Part. Präs.=)st. M. (nd): nhd. Fahrer, Fahrender; ne. driver (M.)
+neriand%<n%>%<nd-stem%>:neriand ND-Stem-Decline	;	!	nėriand 26, nėr-ian-d, as., (Part. Präs.=)st. M. (nd): nhd. Retter, Heiland; ne. saviour (M.)
+râdand%<n%>%<nd-stem%>:râdand ND-Stem-Decline	;	!	rādand 2, rā-d-an-d, as., (Part. Präs.=) st. M. (nd): nhd. „Ratender“, Herrscher, Schützer, Heiland; ne. emperor (M.), patron (M.), Saviour (M.)
+sakwaldand%<n%>%<nd-stem%>:sakwaldand ND-Stem-Decline	;	!	sakwaldand* 1, sak-wal-d-an-d*, as., (Part. Präs.=)st. M. (nd): nhd. „Sachwaltender“, Gegner; ne. opponent (M.); W.: mnd. sakwolde, M., Partei im Rechtsstreit, Hauptbeteiligter
+sêolîthand%<n%>%<nd-stem%>:sêolîthand ND-Stem-Decline	;	!	sêolīthand* 1, sê-o-lī-th-an-d*, as., (Part. Präs.=)st. M. (nd): nhd. „Seefahrender“, Seefahrer; ne. sailor (M.)
+wâglîthand%<n%>%<nd-stem%>:wâglîthand ND-Stem-Decline	;	!	wāglīthand* 1, wāg-lī-th-an-d*, as., (Part. Präs.=)st. M. (nd): nhd. „Wogenfahrender“, Seefahrer; ne. sailor (M.)
+waldand%<n%>%<nd-stem%>:waldand ND-Stem-Decline	;	!	waldand* 204, wal-d-and*, as., (Part. Präs.=)st. M. (nd): nhd. „Waltender“, Herrscher; ne. ruler (M.)
+wâpanberand%<n%>%<nd-stem%>:wâpanberand ND-Stem-Decline	;	!	wāpanberand* 2, wāp-an-ber-an-d*, as., (Part. Präs.=)st. M. (nd): nhd. „Waffentragender“, Krieger; ne. warrior (M.)
+wîgand%<n%>%<nd-stem%>:wîgand ND-Stem-Decline	;	!	wīgand* 3, wīg-and*, as., (Part. Präs.=)st. M. (nd): nhd. „Kämpfender“, Krieger; ne. warrior (M.)
+
+LEXICON Athem
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!athematic masculine!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ambahtman%<noun%>%<masc%>%<athem%>:ambahtman Athem-Masc		;	!	ambahtman* 2, amb-ah-t-man*, as., st. M. (athem.): nhd. Amtmann, Verwalter, Diener, Dienstmann; ne. officer (M.), steward (M.), servant (M.); W.: mnd. ambachtman, amtman, M., Handwerker, Gewalthaber einer Stelle beim Landesherren
+askman%<noun%>%<masc%>%<athem%>:askman Athem-Masc		;	!	askman* 1, askmann, as-k-man*, as-k-mann*, as., st. M. (athem.): nhd. „Eschenmann“, Seeräuber; ne. pirat (M.)
+irminman%<noun%>%<masc%>%<athem%>:irminman Athem-Masc		;	!	irminman* 3, irminmann, irm-in-man*, irm-in-man-n, as., st. M. (athem.): nhd. Mensch; ne. man (M.)
+mahalman%<noun%>%<masc%>%<athem%>:mahalman Athem-Masc		;	!	mahalman* 6, mahalmann, mah-al-man*, mah-al-man-n*, as., st. M. (athem.): nhd. „Malmann“, Diener, Klosterbauer; ne. servant (M.), peasant (M.) on church property; W.: mnd. malman, M., Dingpflichtiger, Gerichtsgenosse
+man%<noun%>%<masc%>%<athem%>:man Athem-Masc		;	!	man (1) 588, mann, man-n, as., st. M. (athem.) (a), Pron.: nhd. Mann, Mensch, Jüngling, Diener; ne. man (M.), youth (M.), servant (M.); W.: mnd. man, manne, men, menne, M., Mensch, Person, Mann
+markâtman%<noun%>%<masc%>%<athem%>:markâtman Athem-Masc		;	!	markātman* 1, markātmann, mark-āt-man*, mark-āt-man-n*, as., st. M. (athem.): nhd. „Marktmann“, Kaufmann; ne. merchant (M.)
+mundman%<noun%>%<masc%>%<athem%>:mundman Athem-Masc		;	!	mundman* 1, mundmann, mun-d-man*, mun-d-man-n*, as., st. M. (athem.): nhd. „Muntmann“, Höriger; ne. person (M.) under patronage
+offarman%<noun%>%<masc%>%<athem%>:offarman Athem-Masc		;	!	offarman* 2, offarmann, of-f-ar-man*, of-f-ar-man-n*, as., st. M. (athem.): nhd. „Opfermann“, Küster; ne. sexton (M.)
+sprâkman%<noun%>%<masc%>%<athem%>:sprâkman Athem-Masc		;	!	sprākman* 2, sprākmann, s-prā-k-man*, s-prā-k-man-n*, as., st. M. (athem.): nhd. „Sprachmann“, Richter; ne. judge (M.)
+stelman%<noun%>%<masc%>%<athem%>:stelman Athem-Masc		;	!	stelman* 1, stelmann, stel-man*, stel-man-n*, as., st. M. (athem.): nhd. Stallmann?; ne. stableman? (M.); W.: mnd. stalman, M., Gastwirt, Herbergsvater
+thingman%<noun%>%<masc%>%<athem%>:thingman Athem-Masc		;	!	thingman*, thingmann* 1, thing-man*, thing-man-n* 1, as., st. M. (athem.): nhd. „Dingmann“, Redner; ne. speaker (M.); W.: mnd. dinkman, M., Beisitzer des Gerichts
+waldman%<noun%>%<masc%>%<athem%>:waldman Athem-Masc		;	!	waldman?***, waldmann?***, wal-d-man?***, wal-d-man-n?***, as., st. M. (athem.): nhd. „Waldmann“, Waldbewohner; ne. forestdweller (M.)
+werold%<noun%>%<masc%>%<athem%>:werold Athem-Masc		;	!	werold* 172, warold, worold, wer-o-l-d*, war-o-l-d*, wor-o-l-d*, as., st. M. (athem.), st. F. (athem.): nhd. Welt, Erde; ne. world (N.); W.: mnd. werlt, werelt, werlde, F., Welt, Schöpfung, Zeitalter
+wîgman%<noun%>%<masc%>%<athem%>:wîgman Athem-Masc		;	!	wīgman* 1, wīgmann, wīg-man*, wīg-man-n, as., st. M. (athem.): nhd. „Kampfmann“, Streiter; ne. fighter (M.)
+wintar%<noun%>%<masc%>%<athem%>:wintar Athem-Masc		;	!	wintar* 8, as., st. M. (athem.): nhd. Winter, Jahr; ne. winter (N.), year (N.); W.: mnd. winter, M., Winter
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!athematic feminine!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+brôk%<noun%>%<fem%>%<athem%>:brôk Athem-Fem		;	!	brōk* (2) 2, as., st. F. (athem.): nhd. Hose; ne. trousers (N. Pl.); W.: mnd. brōk, F., Hose
+erit%<noun%>%<fem%>%<athem%>:erit Athem-Fem		;	!	ėrit 14, ėriwit, ėri-t, ėri-wit*, as., st. F. (athem.): nhd. Erbse; ne. pea (N.); W.: s. mnd. erwete, ērte, F., Erbse
+gâs%<noun%>%<fem%>%<athem%>:gâs Athem-Fem		;	!	gās?***, gā-s?***, as., st. F. (athem.): nhd. Gans; ne. goose (N.); W.: mnd. gōs, gūs, F., Gans
+gêt%<noun%>%<fem%>%<athem%>:gêt Athem-Fem		;	!	gêt (1) 1, as., st. F. (athem.): nhd. Geiß; ne. goat (N.); W.: mnd. gete, geite, F., Geiß
+idis%<noun%>%<fem%>%<athem%>:idis Athem-Fem		;	!	idis 43, i-d-i-s, as., st. F. (athem.): nhd. Weib; ne. wife (F.), woman (F.)
+keƀis%<noun%>%<fem%>%<athem%>:keƀis Athem-Fem		;	!	kėvis* 2, kėƀis, kėv-is*, kėƀ-is*, as., st. F. (athem.): nhd. Kebse, Nebenfrau; ne. concubine (F.); W.: mnd. keves, kevis, F., Kebse, Nebenfrau
+kô%<noun%>%<fem%>%<athem%>:kô Athem-Fem		;	!	kō* 10, as., st. F. (athem.): nhd. Kuh; ne. cow (N.); W.: mnd. kô, F., Kuh
+magath%<noun%>%<fem%>%<athem%>:magath Athem-Fem		;	!	magath* 15, ma-g-ath*, as., st. F. (athem.): nhd. Magd, Jungfrau, Weib; ne. maid (F.), virgin (F.), woman (F.)
+merikô%<noun%>%<fem%>%<athem%>:merikô Athem-Fem		;	!	mėrikō* 1, mėr-i-kō*, as., st. F. (athem.): nhd. „Meerkuh“, Seehund; ne. seal (N.) (1)
+middilgard%<noun%>%<fem%>%<athem%>:middilgard Athem-Fem		;	!	middilgard* 41, mi-d-d-il-gar-d*, as., st. M. (a?) (i?), st. F. (athem.): nhd. Erde; ne. earth (N.)
+naht%<noun%>%<fem%>%<athem%>:naht Athem-Fem		;	!	naht 35, as., st. F. (athem.): nhd. Nacht; ne. night (N.); W.: mnd. nacht, M., F., Nacht
+werold%<noun%>%<fem%>%<athem%>:w%{E%^A%}rold Athem-Fem		;	!	werold* 172, warold, worold, wer-o-l-d*, war-o-l-d*, wor-o-l-d*, as., st. M. (athem.), st. F. (athem.): nhd. Welt, Erde; ne. world (N.); W.: mnd. werlt, werelt, werlde, F., Welt, Schöpfung, Zeitalter
+werold%<noun%>%<fem%>%<athem%>:worold Athem-Fem		;	!	werold* 172, warold, worold, wer-o-l-d*, war-o-l-d*, wor-o-l-d*, as., st. M. (athem.), st. F. (athem.): nhd. Welt, Erde; ne. world (N.); W.: mnd. werlt, werelt, werlde, F., Welt, Schöpfung, Zeitalter
+
 
 LEXICON StrongVerbs
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -5779,8 +5980,10 @@ umbi%<prep%>:umbi	 	# ; !
 und%<prep%>%<acc%>:und	 	# ; ! bis
 undartwisk%<prep%>:undartwisk	# ; ! 
 ûtar%<prep%>:ûtar	 	# ; ! 
-wiđ%<prep%>%<acc%>:wid	# ; ! gegen tk added manually
-wiđ%<prep%>%<dat%>:wid	# ; ! gegen tk added manually
+wiđ%<prep%>%<acc%>:wid		# ; ! gegen tk added manually
+wiđ%<prep%>%<dat%>:wid		# ; ! gegen tk added manually
+wiđ%<prep%>%<acc%>:wiđ		# ; ! gegen tk added manually
+wiđ%<prep%>%<dat%>:wiđ		# ; ! gegen tk added manually
 wiđ%<prep%>%<instr%>:wid	# ; ! gegen tk added manually
 wiđ%<prep%>%<acc%>:widar	# ; ! gegen
 wiđ%<prep%>%<dat%>:widar	# ; ! gegen
@@ -6618,3 +6821,35 @@ slêu%<adj%>:slê Adj-wa-wo	;	!	slêu* 1, s-lêu*, as., Adj.: nhd. schlaff, feig
 filo%<adj%>%<neut%>%<nom%>%<sg%>:fil%{U%^O%} 	#	;	!	filo 128, filu, fil-o, fil-u, as., Adj., Adv., Sb.: nhd. viel; ne. much (Adv.); W.: mnd. vele, vil, Adv., viel
 filo%<adj%>%<neut%>%<acc%>%<sg%>:fil%{U%^O%} 	#	;	!	filo 128, filu, fil-o, fil-u, as., Adj., Adv., Sb.: nhd. viel; ne. much (Adv.); W.: mnd. vele, vil, Adv., viel
 !!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!Conjunctions!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+af%<conj%>:af 	#	;	!	af (2), a-f, as., Konj.: nhd. wenn, ob; ne. if (Konj.), whether (Konj.)
+ak%<conj%>:ak 	#	;	!	ak 122, as., Konj.: nhd. sondern (Konj.), aber; ne. but (Konj.)
+as%<conj%>:as 	#	;	!	as*? 1, as., Konj.: nhd. insofern wie; ne. how (Adv.), as (Konj.)
+aƀer%<conj%>:aƀer 	#	;	!	aver*?, aƀer*?, ave-r*?, aƀe-r*?, as., Konj.: nhd. aber, denn; ne. but (Konj.); W.: mnd. aver, over, Konj., aber
+bêthiu%<conj%>:bêthiu 	#	;	!	bêthiu* (1) 40, bê-thiu*, as., Konj.: nhd. sowohl, deswegen; ne. as well (Adv.), therefore (Konj.)
+bûtan%<conj%>:bûtan 	#	;	!	būtan 18, biūtan, botan, b-ūt-a-n, bi-ūt-a-n, b-ot-a-n, as., Konj.: nhd. außer; ne. except (Konj.); W.: mnd. būten, Konj., außer
+ef%<conj%>:ef 	#	;	!	ef 108, af, of, e-f, a-f, o-f, as., Konj.: nhd. ob, wenn; ne. if (Konj.); W.: mnd. ef, Konj., Adv., ob, wenn
+eftha%<conj%>:eftha 	#	;	!	eftha 41, eftho, atha, ettha, ettho, ohtho, e-f-th-a, e-f-th-o, a-th-a*, e-t-th-a, e-t-th-o, oh-th-o, as., Konj.: nhd. oder; ne. or (Konj.); W.: mnd. efte, Konj.
+endi%<conj%>:endi 	#	;	!	ėndi (2) 1596, ande*, as., Konj.: nhd. und; ne. and (Konj.); W.: mnd. ende, Konj., und
+ettha,%<conj%>:ettha, 	#	;	!	ettha, ettho, e-t-th-a, e-t-th-o, as., Konj.: nhd. oder; ne. or (Konj.)
+ettho,%<conj%>:ettho, 	#	;	!	ettho, e-t-th-o, as., Konj.: nhd. oder; ne. or (Konj.)
+ge%<conj%>:ge 	#	;	!	ge (1) 19, gi, gie, gia, as., Konj.: nhd. und; ne. and (Konj.)
+gêt%<conj%>:gêt 	#	;	!	gêt* (2) 1, gêth, as., Konj.: nhd. auch; ne. also (Konj.)
+hwand%<conj%>:hwand 	#	;	!	hwand* 111, hwanda, hwan-d*, hwan-d-a*, as., Konj.: nhd. denn, weil; ne. for (Konj.), because (Konj.); W.: s. mnd. wande, wante, Konj. denn, weil
+hwanthiu%<conj%>:hwanthiu 	#	;	!	hwanthiu* 1, hwa-n-thiu*, as., Konj.: nhd. weil; ne. because (Konj.); W.: mnd. wante, wande, wente, wende, Konj., denn, weil
+inu%<conj%>:inu 	#	;	!	inu* 1, as., Konj., Interj.: nhd. nun, doch, wohl, denn, nämlich; ne. now but (Konj.), well (Adv.)
+jak%<conj%>:jak 	#	;	!	jak* 17, gek, giak, ja-k*, ge-k*, gia-k*, as., Konj.: nhd. und, auch, und auch; ne. and (Konj.), also (Konj.)
+nek%<conj%>:nek 	#	;	!	nek* 8, neak, ne-k*, ne-ak*, as., Konj.: nhd. auch nicht, noch; ne. nor (Konj.)
+newa%<conj%>:newa 	#	;	!	newa* 8, neva, nevo, nevu, ne-w-a*, ne-v-a*, ne-v-o*, ne-v-u*, as., Konj.: nhd. sondern (Konj.); ne. but (Konj.)
+newan%<conj%>:newan 	#	;	!	newan* 28, niwan, nowan, ne-w-a-n*, ni-w-a-n*, no-w-a-n*, as., Konj.: nhd. nur, außer, sondern (Konj.), aber, nur dass, als (Konj.); ne. only (Konj.), if not, but (Konj.)
+noh%<conj%>:noh 	#	;	!	noh (1) 40, as., Konj.: nhd. noch, und nicht; ne. nor (Konj.); W.: mnd. noch, Konj., noch, bis jetzt
+of%<conj%>:of 	#	;	!	of (1) 7, o-f, as., Konj.: nhd. wenn; ne. if (Konj.); W.: mnd. of, Konj., wenn, sofern, falls
+ofthe%<conj%>:ofthe 	#	;	!	ofthe 2, o-f-th-e, as., Konj.: nhd. oder, ob, wenn; ne. or (Konj.), whether (Konj.), if (Konj.)
+ôk%<conj%>:ôk 	#	;	!	ôk 105, as., Konj., Adv.: nhd. auch, doch; ne. also (Adv.), but (Adv. bzw. Konj.); W.: mnd. ôk, Konj., auch, ebenfalls, und
+that%<conj%>:that 	#	;	!	that 804 und häufiger, tha-t, as., Konj., Pron.: nhd. das, dass, damit; ne. that (Konj.), that (Pron.); W.: mnd. dat, Konj., dass
+the%<conj%>:the 	#	;	!	the (3) 5, as., Konj.: nhd. oder; ne. or (Konj.)
+thes%<conj%>:thes 	#	;	!	thes 23, as., Konj.: nhd. weil; ne. because (Konj.); W.: mnd. des, Konj., deshalb
+untat%<conj%>:untat 	#	;	!	untat 46, unthat, antthat, untthat, unt-a-t, unth-a-t, ant-th-a-t, unt-th-a-t, as., Konj., Präp.: nhd. bis, bis dass; ne. till (Präp. bzw. Konj.)
+we%<conj%>:we 	#	;	!	we? 1, as., Konj.: nhd. und; ne. and

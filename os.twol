@@ -4,12 +4,14 @@ Alphabet
 	c 
 	d 
 	e:e e:i	e:a e:u e:o e:a e:â e:o e:e e:0		! Normal | Umlaut | Ablaut1 | Ablaut2 | Ablaut3 | Ablaut-STR4&5-1 | Ablaut STR4&5-2 | Ablaut-STR4-3 | ABLAUT-STR5-3 | After surface 'e' to prohibit clusters
+	eo
 	f 
 	g 
 	h:h h:g			! Normal | Grammatischer Wechsel 
 	i			 
 	ie:ie			! single phoneme
-	io:io io:iu io:ô io:u io:o		! Normal | Umlaut | Ablaut 1 | Ablaut 2 | Ablaut 3
+	io:io io:iu io:ô io:u io:o io:eo		! Normal | Umlaut | Ablaut 1 | Ablaut 2 | Ablaut 3 | occasional variant
+	iu
 	j 
 	k:k k:c 
 	l 
@@ -17,7 +19,7 @@ Alphabet
 	n 
 	o			
 	p 
-	qu 
+	q 
 	r 
 	s 
 	t 
@@ -43,6 +45,7 @@ Alphabet
 	%{U%^%O%}:u %{U%^%O%}:o	!u/o alternations in ô-stem plural
 	%{M%}:m %{M%}:n		!m/n alternation in dative plural
 	%{NAPL%}:0 %{NAPL%}:u	!neuter a-stem plural morpheme; either u (after short stem) or 0 (after heavy stem)
+	%{%^N%}:n %{%^N%}:0	! n-archiphoneme surfaces man_u and man_o, not elsewhere
 	;
 
 Sets
@@ -189,3 +192,7 @@ Vx:Vy <=> _ Vz: ;
 
 "Neuter a-stem plural is -u after short stem, zero elsewhere"
 %{NAPL%}:u <=> ShortV: ( Cns: ) ( ShortV+ ) _ ; !not working
+
+"Extraordinary declension of *man*"
+%{%^N%}:n <=> 	m a n _ u	;
+		m a n _ o	;

@@ -37,7 +37,10 @@ POS_tags = ['as., st. V. (1)', 'as., st. V. (1a)', 'as., st. V. (1b)', 'as., st.
 'as., st. F. (ō)', 'as., st. F. (jō)', \
 'as., st. M. (u)', 'as., st. F. (u)', 'as., st. N. (u)', \
 'as., sw. M. (n)', 'as., sw. F. (n)', 'as., sw. N. (n)', \
-'as., Adj.']
+'st. M. (nd)', \
+'as., st. M. (athem.)', 'st. F. (athem.)',
+'as., Adj.', \
+'as., Konj.']
 
 def dict_scrape(POS, dictionaryfile='as_kurzform.txt'):
     """Scrapes a dictionary for a given part of speech. POS tags in POS_tags.
@@ -67,40 +70,42 @@ def dict_scrape(POS, dictionaryfile='as_kurzform.txt'):
 #####################Strong Verbs######################
 #STR1
 i=0
-with open('STR1','w+') as to_write:
-    lemmas=[]
-    lemmas_cleaned=[]
-    to_write.write(60*'!')
-    to_write.write('\n')
-    to_write.write(20*'!')
-    to_write.write('Class 1 Strong Verbs')
-    to_write.write(20*'!')
-    to_write.write('\n')
-    to_write.write(60*'!')
-    to_write.write('\n')
-    dict_scrape('as., st. V. (1')
-    while i < len(lemmas_cleaned):
-        to_write.write(lemmas_cleaned[i][:-1]+'%<v%>%<str%>%<class1%>:'+lemmas_cleaned[i][:-3]+' STR1\t;\t!\t' + lemmas[i][:-1] + '\n')
-        i=i+1
+##with open('STR1','w+') as to_write:
+##    lemmas=[]
+##    lemmas_cleaned=[]
+##    to_write.write(60*'!')
+##    to_write.write('\n')
+##    to_write.write(20*'!')
+##    to_write.write('Class 1 Strong Verbs')
+##    to_write.write(20*'!')
+##    to_write.write('\n')
+##    to_write.write(60*'!')
+##    to_write.write('\n')
+##    dict_scrape('as., st. V. (1')
+##    while i < len(lemmas_cleaned):
+##        to_write.write(lemmas_cleaned[i][:-1]+'%<v%>%<str%>%<class1%>:'+lemmas_cleaned[i][:-3]+' STR1\t;\t!\t' + lemmas[i][:-1] + '\n')
+##        i=i+1
 
 
-#STR2
-i=0
-with open('STR2','w+') as to_write:
-    lemmas=[]
-    lemmas_cleaned=[]
-    to_write.write(60*'!')
-    to_write.write('\n')
-    to_write.write(20*'!')
-    to_write.write('Class 2 Strong Verbs')
-    to_write.write(20*'!')
-    to_write.write('\n')
-    to_write.write(60*'!')
-    to_write.write('\n')
-    dict_scrape('as., st. V. (2')
-    while i < len(lemmas_cleaned):
-        to_write.write(lemmas_cleaned[i][:-1]+'%<v%>%<str%>%<class2%>:'+lemmas_cleaned[i][:-3]+' STR2\t;\t!\t' + lemmas[i][:-1] + '\n')
-        i=i+1
+
+
+###STR2
+##i=0
+##with open('STR2','w+') as to_write:
+##    lemmas=[]
+##    lemmas_cleaned=[]
+##    to_write.write(60*'!')
+##    to_write.write('\n')
+##    to_write.write(20*'!')
+##    to_write.write('Class 2 Strong Verbs')
+##    to_write.write(20*'!')
+##    to_write.write('\n')
+##    to_write.write(60*'!')
+##    to_write.write('\n')
+##    dict_scrape('as., st. V. (2')
+##    while i < len(lemmas_cleaned):
+##        to_write.write(lemmas_cleaned[i][:-1]+'%<v%>%<str%>%<class2%>:'+lemmas_cleaned[i][:-3]+' STR2\t;\t!\t' + lemmas[i][:-1] + '\n')
+##        i=i+1
 
 
 
@@ -117,7 +122,29 @@ with open('STR2','w+') as to_write:
 
 
 
-
+###########################nouns##################################
+###########################nouns##################################
+###########################nouns##################################
+###########################nouns##################################
+###########################nouns##################################
+###########################nouns##################################
+#nd-stem nouns
+##i=0
+##with open('nd-stem','w+') as to_write:
+##    lemmas=[]
+##    lemmas_cleaned=[]
+##    to_write.write(60*'!')
+##    to_write.write('\n')
+##    to_write.write(20*'!')
+##    to_write.write('nd-stem Nouns')
+##    to_write.write(20*'!')
+##    to_write.write('\n')
+##    to_write.write(60*'!')
+##    to_write.write('\n')
+##    dict_scrape('st. M. (nd)')
+##    while i < len(lemmas_cleaned):
+##        to_write.write(lemmas_cleaned[i][:-1]+'%<n%>%<nd-stem%>:'+lemmas_cleaned[i][:-1]+' ND-Stem-Decline\t;\t!\t' + lemmas[i][:-1] + '\n')
+##        i=i+1
 
 ###encode masculine a-stem nouns for LEXICON:
 ##with open(POS[5:]+'_ready-for-import','w+') as to_write:
@@ -277,30 +304,30 @@ with open('STR2','w+') as to_write:
 ##        i=i+1
 
 
-#now to look at wa-wo stems
-i=0
-with open('wa_stem_adjective','w+') as to_write:
-    to_write.write(60*'!')
-    to_write.write('\n')
-    to_write.write(20*'!')
-    to_write.write('wa-wo-stems')
-    to_write.write(20*'!')
-    to_write.write('\n')
-    to_write.write(60*'!')
-    to_write.write('\n')
-    dict_scrape('as., Adj.')
-    while i < len(lemmas_cleaned):
-        if lemmas_cleaned[i][-2] == 'i':
-            #to_write.write(lemmas_cleaned[i][:-1]+'%<adj%>:'+lemmas_cleaned[i][:-1]+' Adj-ja-jo\t;\t!\t' + lemmas[i][:-1] + '\n')
-            #print(lemma[:-1] + ' is a ja stem')
-            pass
-        elif lemmas_cleaned[i][-2] == 'u':
-            to_write.write(lemmas_cleaned[i][:-1]+'%<adj%>:'+lemmas_cleaned[i][:-2]+' Adj-wa-wo\t;\t!\t' + lemmas[i][:-1] + '\n')
-        elif lemmas_cleaned[i][-2] == 'o':
-            if 'Komp.' not in lemmas[i]:
-                to_write.write(lemmas_cleaned[i][:-1]+'%<adj%>:'+lemmas_cleaned[i][:-2]+' Adj-wa-wo\t;\t!\t' + lemmas[i][:-1] + '\n')
-        else:
-            pass
+###now to look at wa-wo stems
+##i=0
+##with open('wa_stem_adjective','w+') as to_write:
+##    to_write.write(60*'!')
+##    to_write.write('\n')
+##    to_write.write(20*'!')
+##    to_write.write('wa-wo-stems')
+##    to_write.write(20*'!')
+##    to_write.write('\n')
+##    to_write.write(60*'!')
+##    to_write.write('\n')
+##    dict_scrape('as., Adj.')
+##    while i < len(lemmas_cleaned):
+##        if lemmas_cleaned[i][-2] == 'i':
+##            #to_write.write(lemmas_cleaned[i][:-1]+'%<adj%>:'+lemmas_cleaned[i][:-1]+' Adj-ja-jo\t;\t!\t' + lemmas[i][:-1] + '\n')
+##            #print(lemma[:-1] + ' is a ja stem')
+##            pass
+##        elif lemmas_cleaned[i][-2] == 'u':
+##            to_write.write(lemmas_cleaned[i][:-1]+'%<adj%>:'+lemmas_cleaned[i][:-2]+' Adj-wa-wo\t;\t!\t' + lemmas[i][:-1] + '\n')
+##        elif lemmas_cleaned[i][-2] == 'o':
+##            if 'Komp.' not in lemmas[i]:
+##                to_write.write(lemmas_cleaned[i][:-1]+'%<adj%>:'+lemmas_cleaned[i][:-2]+' Adj-wa-wo\t;\t!\t' + lemmas[i][:-1] + '\n')
+##        else:
+##            pass
             #print (lemma[:-1] + ' is an a/o stem, but idk if it is long or short stem')
             #now that we have a/o stems, we need to check if the adjective has one or more syllables
 ##            for char in lemmas_cleaned[i][:-1]:
@@ -308,8 +335,8 @@ with open('wa_stem_adjective','w+') as to_write:
 ##                    to_write.write(lemmas_cleaned[i][:-1]+':%<adj%>'+lemmas_cleaned[i][:-1]+' Adj-a-o-mono\t;\t!\t' + lemmas[i][:-1])
 ##                else:
 ##                    to_write.write(lemmas_cleaned[i][:-1]+':%<adj%>'+lemmas_cleaned[i][:-1]+' Adj-a-o-poly\t;\t!\t' + lemmas[i][:-1])
-            #to_write.write(lemmas_cleaned[i][:-1]+'%<adj%>:'+lemmas_cleaned[i][:-1]+' Adj-a-o-mono\t;\t!\t' + lemmas[i][:-1] + '\n')
-        i=i+1
+##            #to_write.write(lemmas_cleaned[i][:-1]+'%<adj%>:'+lemmas_cleaned[i][:-1]+' Adj-a-o-mono\t;\t!\t' + lemmas[i][:-1] + '\n')
+##        i=i+1
 
 #wa-stem/wo-stem
 #u-stem (only filu remains)
@@ -368,6 +395,41 @@ with open('wa_stem_adjective','w+') as to_write:
 ##        i=i+1
 
 
+
+#athematic
+#'as., st. M. (athem.)', 'st. F. (athem.)',
+i=0
+with open('athem_masc','w+') as to_write:
+    lemmas=[]
+    lemmas_cleaned=[]
+    to_write.write(60*'!')
+    to_write.write('\n')
+    to_write.write(20*'!')
+    to_write.write('athematic masculine')
+    to_write.write(20*'!')
+    to_write.write('\n')
+    to_write.write(60*'!')
+    to_write.write('\n')
+    dict_scrape('as., st. M. (athem.)')
+    while i < len(lemmas_cleaned):
+        to_write.write(lemmas_cleaned[i][:-1]+'%<noun%>%<masc%>%<athem%>:'+lemmas_cleaned[i][:-1]+' Athem-Masc\t\t;\t!\t' + lemmas[i][:-1] + '\n')
+        i=i+1
+i=0
+with open('athem_fem','w+') as to_write:
+    lemmas=[]
+    lemmas_cleaned=[]
+    to_write.write(60*'!')
+    to_write.write('\n')
+    to_write.write(20*'!')
+    to_write.write('athematic feminine')
+    to_write.write(20*'!')
+    to_write.write('\n')
+    to_write.write(60*'!')
+    to_write.write('\n')
+    dict_scrape('st. F. (athem.)')
+    while i < len(lemmas_cleaned):
+        to_write.write(lemmas_cleaned[i][:-1]+'%<noun%>%<fem%>%<athem%>:'+lemmas_cleaned[i][:-1]+' Athem-Fem\t\t;\t!\t' + lemmas[i][:-1] + '\n')
+        i=i+1
 ###'as., Adv.'
 ###balusprāka* 2, balosprāka, bal-u-s-prā-k-a*, bal-o-s-prā-k-a*, as., st. F. (ō): nhd. böse Rede; ne. evil speech (N.)
 ##with open('adverbs_ready-for-import','w+') as to_write:
@@ -387,3 +449,30 @@ with open('wa_stem_adjective','w+') as to_write:
 ##	        to_write.write(line[:-1]+"%<adv%>:"+line[:-1]+\
 ##                       "\t # ; !  \n")
 ##
+
+
+
+
+#######################
+#######################
+#conjunctions
+i=0
+with open('conjunctions','w+') as to_write:
+    lemmas=[]
+    lemmas_cleaned=[]
+    to_write.write(60*'!')
+    to_write.write('\n')
+    to_write.write(20*'!')
+    to_write.write('Conjunctions')
+    to_write.write(20*'!')
+    to_write.write('\n')
+    to_write.write(60*'!')
+    to_write.write('\n')
+    dict_scrape('as., Konj.')
+    while i < len(lemmas_cleaned):
+        to_write.write(lemmas_cleaned[i][:-1]+'%<conj%>:'+lemmas_cleaned[i][:-1]+' \t#\t;\t!\t' + lemmas[i][:-1] + '\n')
+        i=i+1
+
+
+
+
