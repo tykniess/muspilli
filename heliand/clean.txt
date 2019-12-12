@@ -84,7 +84,7 @@ craft
 fan
 criste
 sia
-wrđun
+wurđun
 gicorana
 te
 thio
@@ -124,7 +124,7 @@ thuru
 craft
 godas
 gecorana
-wrđun
+wurđun
 matheus
 endi
 marcus
@@ -888,7 +888,7 @@ weroldi
 sô
 haƀed
 im
-wrdgiscapu
+wurdgiscapu
 metod
 gimarcod
 endi
@@ -1425,7 +1425,7 @@ aftar
 thiu
 that
 wîf
-wrdigiscapu
+wurdigiscapu
 skrêd
 the
 wintar
@@ -1479,7 +1479,7 @@ sô
 aldun
 tuêm
 ôdan
-wrđi
+wurđi
 barn
 an
 giburdeon
@@ -2274,7 +2274,7 @@ sô
 iru
 thar
 nu
-wrđi
+wurđi
 lêdes
 wiht
 ôdan
@@ -2952,7 +2952,7 @@ an
 them
 felda
 sie
-wrđun
+wurđun
 an
 forhtun
 thô
@@ -3813,7 +3813,7 @@ maht
 metodes
 tedêlda
 wrêđ
-wrdigiscapu
+wurdigiscapu
 thô
 was
 siu
@@ -4174,7 +4174,7 @@ hêr
 sulica
 cumana
 ni
-wrđun
+wurđun
 êri
 fon
 ôđrun
@@ -4466,7 +4466,7 @@ folgodin
 sô
 it
 furi
-wrđi
+wurđi
 westar
 oƀar
 thesa
@@ -5505,7 +5505,7 @@ filo
 sô
 thar
 giboran
-wrđi
+wurđi
 an
 tuêm
 gêrun
@@ -5704,7 +5704,7 @@ wonoda
 an
 willeon
 antthat
-wrd
+wurd
 fornam
 erodes
 thana
@@ -6267,7 +6267,7 @@ thero
 the
 io
 giboran
-wrđi
+wurđi
 magu
 fon
 môdar
@@ -8620,7 +8620,7 @@ thero
 liudeo
 an
 lustun
-wrđun
+wurđun
 im
 thea
 lêra
@@ -10108,7 +10108,7 @@ firinsprâka
 endi
 fîundscepi
 lâgniad
-iwua
+iuwa
 lêra
 dôt
 iu
@@ -10116,7 +10116,7 @@ lêđes
 filu
 harmes
 thurh
-iwuen
+iuwen
 hêrron
 thes
 lâtad
@@ -10308,7 +10308,7 @@ sô
 sculun
 gi
 mid
-iwuon
+iuwon
 lêrun
 liudfolc
 manag
@@ -10317,7 +10317,7 @@ aftar
 mînon
 willeon
 ef
-iwuar
+iuwar
 than
 awirđid
 hwilic
@@ -10505,7 +10505,7 @@ endi
 wunsam
 ni
 mugun
-iwua
+iuwa
 werk
 mikil
 biholan
@@ -10535,7 +10535,7 @@ wrisilîc
 giwerc
 ni
 mugun
-iwua
+iuwa
 word
 than
 mêr
@@ -10544,7 +10544,7 @@ thesoro
 middilgard
 mannum
 werđen
-iwua
+iuwa
 dâdi
 bidernit
 dôt
@@ -10553,7 +10553,7 @@ ic
 iu
 lêriu
 lâtad
-iwua
+iuwa
 lioht
 mikil
 liudiun
@@ -10563,12 +10563,12 @@ barnun
 that
 sie
 farstandan
-iwuan
+iuwan
 môdseƀon
-iwua
+iuwa
 werc
 endi
-iwuan
+iuwan
 willeon
 endi
 thes
@@ -10627,7 +10627,7 @@ halt
 ni
 sculun
 gi
-iwua
+iuwa
 hêlag
 word
 an
@@ -10974,18 +10974,18 @@ thesumu
 folke
 that
 gi
-iwua
+iuwa
 fîund
 sculun
 minneon
 an
-iwuomu
+iuwomu
 môde
 sô
 samo
 sô
 gi
-iwua
+iuwa
 mâgos
 dôt
 an
@@ -11062,7 +11062,7 @@ mugun
 mid
 gibolgono
 hugi
-iwuas
+iuwas
 gôdes
 wiht
 te
@@ -11697,7 +11697,7 @@ weroldi
 ac
 huggeat
 te
-iwuomu
+iuwomu
 leoƀon
 hêrran
 thero
@@ -11798,7 +11798,7 @@ eft
 than
 thu
 wili
-iwuan
+iuwan
 ôđwelon
 geƀan
 gi
@@ -11816,7 +11816,7 @@ lônon
 endi
 rômot
 te
-iwues
+iuwes
 waldandes
 rîkea
 te
@@ -11925,7 +11925,7 @@ hnîgan
 endi
 williad
 te
-iwuomu
+iuwomu
 hêrron
 helpono
 biddean
@@ -11973,7 +11973,7 @@ thero
 dâdeo
 that
 gi
-iwues
+iuwes
 drohtines
 gibed
 thurh
@@ -11988,7 +11988,7 @@ than
 gi
 willean
 te
-iwuomo
+iuwomo
 hêrron
 helpono
 biddean
@@ -12013,7 +12013,7 @@ darno
 thoh
 wêt
 it
-iwue
+iuwe
 drohtin
 self
 hêlag
@@ -12186,7 +12186,7 @@ quađ
 he
 weros
 mid
-iwuon
+iuwon
 wordun
 waldand
 grôtean
@@ -12298,7 +12298,7 @@ bede
 hnîgad
 weros
 mid
-iwuom
+iuwom
 wordun
 that
 iu
@@ -12343,7 +12343,7 @@ ef
 iu
 than
 wirđid
-iwua
+iuwa
 môd
 te
 starc
@@ -12422,12 +12422,12 @@ lêra
 mîna
 than
 gi
-iwua
+iuwa
 fastonnea
 frummean
 willean
 minson
-iwua
+iuwa
 mêndâdi
 than
 ni
@@ -12448,7 +12448,7 @@ wêt
 mahtig
 god
 waldand
-iwuan
+iuwan
 willean
 thoh
 iu
@@ -12465,7 +12465,7 @@ iu
 lôn
 aftar
 thiu
-iwua
+iuwa
 hêlag
 fadar
 an
@@ -12550,7 +12550,7 @@ tigangid
 the
 goldwelo
 lêstead
-iwua
+iuwa
 gôdon
 werc
 samnod
@@ -12591,12 +12591,12 @@ hordes
 gesamnod
 heliđos
 thurh
-iwua
+iuwa
 handgeƀa
 endi
 hebbead
 tharod
-iwuan
+iuwan
 hugi
 fasto
 hwand
@@ -12669,7 +12669,7 @@ ni
 gornot
 gi
 umbi
-iwua
+iuwa
 gegarwui
 ac
 huggead
@@ -12679,7 +12679,7 @@ fasto
 ne
 mornont
 an
-iwuomu
+iuwomu
 môde
 hwat
 gi
@@ -12751,12 +12751,12 @@ hungre
 mugun
 gi
 an
-iwuom
+iuwom
 hugi
 marcon
 weros
 umbi
-iwua
+iuwa
 gewâdi
 hwô
 thie
@@ -12867,14 +12867,14 @@ ne
 thurƀon
 gi
 umbi
-iwua
+iuwa
 gewâdi
 sorgon
 ne
 gornot
 gi
 umbi
-iwua
+iuwa
 gegariwi
 te
 swîđo
@@ -12978,7 +12978,7 @@ unreht
 ôđrum
 neo
 that
-iwuar
+iuwar
 ênig
 ne
 dua
@@ -13184,7 +13184,7 @@ sculun
 gi
 suînum
 teforan
-iwua
+iuwa
 meregrîton
 macon
 ettho
@@ -13213,7 +13213,7 @@ hîr
 folc
 manag
 the
-iwua
+iuwa
 hêlag
 word
 hôrean
@@ -13248,7 +13248,7 @@ than
 that
 sie
 gehôrean
-iwua
+iuwa
 hêlag
 word
 ef
@@ -13268,7 +13268,7 @@ them
 ni
 seggean
 gi
-iwuoro
+iuworo
 lêron
 wiht
 that
@@ -13794,7 +13794,7 @@ firiho
 barn
 sôkead
 fadar
-iwuan
+iuwan
 up
 te
 themu
@@ -13807,15 +13807,15 @@ ina
 aftar
 thiu
 te
-iwuoru
+iuworu
 frumu
 fîđan
 cûđead
-iwua
+iuwa
 fard
 tharod
 at
-iwuas
+iuwas
 drohtines
 durun
 than
@@ -14208,7 +14208,7 @@ iro
 mannun
 forđ
 an
-iwuon
+iuwon
 hugiskeftiun
 helpono
 mildea
@@ -14237,7 +14237,7 @@ that
 it
 eo
 an
-iwua
+iuwa
 gewald
 cuma
 fagara
@@ -14282,13 +14282,13 @@ innan
 neo
 gi
 umbi
-iwuan
+iuwan
 meti
 ni
 sorgot
 leng
 umbi
-iwua
+iuwa
 lîfnare
 huand
 thene
@@ -14399,7 +14399,7 @@ sô
 sculun
 gi
 undar
-iwua
+iuwa
 fîund
 faren
 undar
@@ -14409,7 +14409,7 @@ undar
 mislîke
 man
 hebbead
-iwuan
+iuwan
 môd
 wiđar
 them
@@ -14477,7 +14477,7 @@ wesat
 gi
 eft
 an
-iwuon
+iuwon
 dâdiun
 dûƀon
 gelîca
@@ -14494,14 +14494,14 @@ thar
 man
 negên
 thurh
-iwua
+iuwa
 dâdi
 bedrogan
 ne
 werđe
 besuican
 thurh
-iwua
+iuwa
 sundea
 nu
 sculun
@@ -14573,7 +14573,7 @@ that
 ne
 lâtad
 gi
-iwuan
+iuwan
 hugi
 tuîflon
 seƀon
@@ -14586,7 +14586,7 @@ an
 sorgun
 wesan
 an
-iwuomu
+iuwomu
 hugi
 huergin
 than
@@ -14626,7 +14626,7 @@ hêlogo
 gêst
 mahtig
 fon
-iwuomu
+iuwomu
 munde
 bethiu
 ne
@@ -14643,7 +14643,7 @@ fîundskepi
 thoh
 sie
 hebbean
-iwuas
+iuwas
 ferahes
 gewald
 that
@@ -14670,7 +14670,7 @@ waldand
 god
 forhtead
 fader
-iwuan
+iuwan
 frummiad
 gerno
 is
@@ -14693,7 +14693,7 @@ sô
 self
 ef
 gi
-iwua
+iuwa
 an
 them
 sîđe
@@ -14716,7 +14716,7 @@ fîđan
 hwand
 sie
 fader
-iwua
+iuwa
 haldid
 hêlag
 god
@@ -14872,7 +14872,7 @@ menegi
 endi
 cûđead
 imu
-iwuan
+iuwan
 môđseƀon
 wârun
 wordun
@@ -14884,7 +14884,7 @@ wirđige
 sint
 that
 sie
-iwua
+iuwa
 gôdun
 werc
 gerno
@@ -14939,11 +14939,11 @@ ni
 môtun
 that
 sie
-iwua
+iuwa
 werc
 frummien
 lêstien
-iwua
+iuwa
 lêra
 than
 gi
@@ -14956,12 +14956,12 @@ fan
 themu
 folke
 the
-iwua
+iuwa
 friđu
 hwirƀid
 eft
 an
-iwuoro
+iuworo
 selƀoro
 sîđ
 endi
@@ -14988,7 +14988,7 @@ melmes
 wiht
 folgan
 an
-iwuom
+iuwom
 fôtun
 thanan
 the
@@ -15001,7 +15001,7 @@ ac
 scuddiat
 it
 fan
-iwuon
+iuwon
 scôhun
 that
 it
@@ -15071,7 +15071,7 @@ wiđarwerpat
 endi
 ne
 williad
-iwua
+iuwa
 word
 frummien
 sô
@@ -15098,7 +15098,7 @@ waldand
 god
 antfangan
 fader
-iwuan
+iuwan
 firiho
 drohtin
 rîkean
@@ -16831,7 +16831,7 @@ willean
 anttat
 ina
 iru
-wrđ
+wurđ
 benam
 mâri
 metodogescapu
@@ -17138,7 +17138,7 @@ under
 them
 liudeon
 endi
-wrđun
+wurđun
 thar
 gilêdit
 tuo
@@ -17336,7 +17336,7 @@ im
 ginâđig
 neriendi
 crist
-wrđi
+wurđi
 wiđ
 them
 watare
@@ -18803,7 +18803,7 @@ gi
 witan
 môtun
 an
-iwuom
+iuwom
 hugiskeftiun
 himilisc
 gerûni
@@ -18889,7 +18889,7 @@ that
 he
 it
 be
-iwuon
+iuwon
 wordun
 due
 that
@@ -18910,7 +18910,7 @@ mîna
 godes
 ambusni
 endi
-iwuaro
+iuwaro
 gumono
 word
 an
@@ -19026,7 +19026,7 @@ sprâkono
 spâhi
 endi
 wêt
-iwuaro
+iuwaro
 spello
 giskêd
 hugid
@@ -19106,7 +19106,7 @@ haƀad
 endi
 imu
 thiu
-wrđ
+wurđ
 bihagod
 endi
 wederes
@@ -19207,7 +19207,7 @@ gelîk
 sulicumu
 gilôƀon
 wesad
-iwuaro
+iuwaro
 lêrono
 forđ
 mancunnie
@@ -19789,7 +19789,7 @@ ni
 mugun
 gigômean
 an
-iwuon
+iuwon
 gange
 thoh
 gi
@@ -19807,7 +19807,7 @@ kîđo
 awerdiat
 felliat
 under
-iwua
+iuwa
 fuoti
 lâte
 man
@@ -20263,7 +20263,7 @@ oft
 luttiles
 huat
 liohtora
-wrđi
+wurđi
 sô
 hôho
 afhuoƀi
@@ -20725,7 +20725,7 @@ te
 foldu
 that
 he
-wrđi
+wurđi
 is
 ferhes
 lôs
@@ -21077,7 +21077,7 @@ sia
 wela
 mahtun
 thô
-wrđun
+wurđun
 an
 themu
 gêrtale
@@ -22096,7 +22096,7 @@ an
 lustun
 thea
 liudi
-wrđun
+wurđun
 alle
 sade
 sâlig
@@ -22129,7 +22129,7 @@ lêƀa
 thar
 farloren
 ni
-wrđi
+wurđi
 hêt
 sie
 thô
@@ -22197,7 +22197,7 @@ quâđun
 that
 gio
 ni
-wrđi
+wurđi
 an
 thit
 lioht
@@ -23144,7 +23144,7 @@ an
 is
 hugea
 mildi
-wrđi
+wurđi
 themu
 wîƀe
 thô
@@ -23231,7 +23231,7 @@ an
 is
 môdseƀon
 mildi
-wrđi
+wurđi
 that
 siu
 iro
@@ -24116,7 +24116,7 @@ uppe
 wliti
 endi
 giwâdi
-wrđun
+wurđun
 imu
 is
 wangun
@@ -24520,7 +24520,7 @@ wêgean
 te
 wundrun
 thes
-wrđun
+wurđun
 thar
 wîse
 man
@@ -24629,7 +24629,7 @@ sân
 mêđmo
 kusteon
 biûten
-iwue
+iuwe
 mêster
 êno
 haƀad
@@ -25415,7 +25415,7 @@ thu
 friđu
 sîđur
 thô
-wrđun
+wurđun
 kristes
 word
 kindiungumu
@@ -25610,7 +25610,7 @@ than
 môtun
 gi
 mid
-iwuomu
+iuwomu
 drohtine
 thar
 selƀon
@@ -25916,7 +25916,7 @@ wunniun
 thô
 quâmun
 ôk
-wrdegiscapu
+wurdegiscapu
 themu
 ôdagan
 man
@@ -27698,7 +27698,7 @@ them
 blindun
 thô
 bêđium
-wrđun
+wurđun
 ôgon
 gioponod
 that
@@ -27822,7 +27822,7 @@ sie
 sinscôni
 lioht
 farlêtun
-wrđun
+wurđun
 an
 lêđaron
 stedi
@@ -27978,7 +27978,7 @@ antkennien
 huô
 is
 kumi
-wrđun
+wurđun
 an
 thesaru
 middilgard
@@ -28061,7 +28061,7 @@ awahsane
 unttat
 sie
 eft
-wrd
+wurd
 farnimid
 that
 mênde
@@ -28109,7 +28109,7 @@ flêsk
 endi
 lîchamon
 thô
-wrđun
+wurđun
 thes
 firiho
 barn
@@ -28171,7 +28171,7 @@ mildi
 aftar
 thiu
 waldand
-wrđi
+wurđi
 than
 weridun
 im
@@ -28517,7 +28517,7 @@ wârun
 ni
 wêst
 thea
-wrdegiskefti
+wurdegiskefti
 the
 thi
 noh
@@ -29564,7 +29564,7 @@ sîn
 ist
 that
 sculun
-iwua
+iuwa
 seolon
 wesen
 gumono
@@ -29860,7 +29860,7 @@ erlun
 sô
 huilik
 sô
-iwuar
+iuwar
 âno
 sî
 quađ
@@ -30278,7 +30278,7 @@ huldi
 godes
 um
 xlviii
-wrđun
+wurđun
 thô
 thea
 liudi
@@ -30369,7 +30369,7 @@ te
 sulicaru
 frumu
 ni
-wrđi
+wurđi
 ac
 it
 gegnungo
@@ -30448,7 +30448,7 @@ mi
 wîtnon
 hêr
 thurh
-iwuan
+iuwan
 starkan
 hugi
 stên
@@ -30604,7 +30604,7 @@ thar
 te
 criste
 cumana
-wrđun
+wurđun
 bodon
 fan
 bethaniu
@@ -30917,7 +30917,7 @@ word
 for
 gumon
 sô
-wrđun
+wurđun
 thuo
 iungron
 cristes
@@ -30971,7 +30971,7 @@ libbiandi
 lioht
 than
 wirđit
-iwua
+iuwa
 gilôƀo
 after
 thiu
@@ -31048,7 +31048,7 @@ an
 thiu
 gardos
 sô
-wrđun
+wurđun
 thes
 godes
 barnes
@@ -32077,7 +32077,7 @@ endi
 that
 he
 thurh
-iwua
+iuwa
 dâdi
 drôreg
 sterƀe
@@ -32182,7 +32182,7 @@ willeon
 waldandio
 crist
 thô
-wrđun
+wurđun
 ênwordie
 oƀarmôdie
 man
@@ -33559,7 +33559,7 @@ duomdag
 the
 mâreo
 endi
-iwues
+iuwes
 drohtines
 craft
 thiu
@@ -33743,7 +33743,7 @@ bethiu
 lâtad
 iu
 an
-iwuan
+iuwan
 môd
 sorga
 um
@@ -33913,7 +33913,7 @@ gerno
 endi
 wârun
 mi
-iwuaro
+iuwaro
 geƀo
 mildie
 than
@@ -33933,19 +33933,19 @@ biklemmid
 an
 karkare
 oft
-wrđun
+wurđun
 mi
 kumana
 tharod
 helpa
 fan
-iwun
+iuwn
 handun
 gi
 wârun
 mi
 an
-iwuomu
+iuwomu
 hugi
 mildie
 wîsodun
@@ -34024,7 +34024,7 @@ dâdun
 quiđit
 he
 an
-iwues
+iuwes
 drohtines
 namon
 gôdes
@@ -34060,7 +34060,7 @@ huat
 sô
 gi
 im
-iwuaro
+iuwaro
 welono
 fargâƀun
 gidâdun
@@ -34068,7 +34068,7 @@ thurh
 diuriđa
 that
 antfeng
-iwua
+iuwa
 drohtin
 selƀo
 thiu
@@ -34083,7 +34083,7 @@ the
 hêlago
 drohtin
 lônon
-iwuan
+iuwan
 gilôƀon
 giƀid
 iw
@@ -34268,7 +34268,7 @@ manno
 thea
 minniston
 an
-iwuomu
+iuwomu
 môdseƀon
 heliđos
 farhugdun
@@ -34276,23 +34276,23 @@ lêtun
 sea
 iu
 an
-iwuomu
+iuwomu
 hugi
 lêđe
 bedêldun
 sie
-iwuaro
+iuwaro
 diurđa
 than
 dâdun
 gi
-iwuana
+iuwana
 drohtin
 sô
 sama
 giwernidun
 imu
-iwuaro
+iuwaro
 welono
 bethiu
 ni
@@ -34302,7 +34302,7 @@ waldand
 god
 antfâhen
 fader
-iwua
+iuwa
 ac
 gi
 an
@@ -34482,7 +34482,7 @@ scoldun
 iro
 gode
 thionon
-wrđun
+wurđun
 êosagon
 alle
 kumane
@@ -34691,7 +34691,7 @@ sô
 treulôs
 huan
 êr
-wrđi
+wurđi
 imu
 thiu
 tîd
@@ -35126,7 +35126,7 @@ mid
 mînun
 gesîđun
 thô
-wrđun
+wurđun
 sân
 aftar
 thiu
@@ -35254,7 +35254,7 @@ diuriun
 nu
 ik
 iu
-iwues
+iuwes
 drohtines
 scal
 willeon
@@ -35344,7 +35344,7 @@ endi
 gi
 mi
 holdlîco
-iwuan
+iuwan
 theganskepi
 nu
 ni
@@ -35365,7 +35365,7 @@ wâran
 hêr
 that
 wili
-iwuar
+iuwar
 tueliƀio
 ên
 trewana
@@ -35409,7 +35409,7 @@ be
 that
 he
 thea
-wrdi
+wurdi
 farsihit
 endi
 he
@@ -35435,7 +35435,7 @@ he
 gio
 giboran
 ni
-wrđi
+wurđi
 libbiendi
 te
 thesumu
@@ -35510,7 +35510,7 @@ antsuok
 thero
 manno
 gehuilic
-wrđun
+wurđun
 alle
 an
 forhtun
@@ -35708,7 +35708,7 @@ leng
 willeon
 thînan
 thiu
-wrd
+wurd
 is
 at
 handun
@@ -35922,7 +35922,7 @@ mid
 thius
 sculun
 gi
-iwuomu
+iuwomu
 drohtine
 diuriđa
 frummien
@@ -35970,7 +35970,7 @@ hêr
 gebiudu
 that
 gi
-iwuan
+iuwan
 brôđerskepi
 fasto
 frummiad
@@ -35980,7 +35980,7 @@ hugi
 minniod
 iu
 an
-iwuomu
+iuwomu
 môde
 that
 that
@@ -36009,14 +36009,14 @@ fîund
 hetteand
 herugrim
 umbi
-iwuan
+iuwan
 hugi
 niusien
 satanas
 selƀo
 he
 cumid
-iwuaro
+iuwaro
 seolono
 herod
 frôkno
@@ -36027,12 +36027,12 @@ fasto
 te
 gode
 berad
-iwua
+iuwa
 breostgithâht
 ik
 scal
 an
-iwuaru
+iuwaru
 bedu
 standen
 that
@@ -36091,7 +36091,7 @@ mi
 gesuîkan
 gesîđos
 mîne
-iwues
+iuwes
 theganscepies
 êr
 than
@@ -36394,10 +36394,10 @@ diopa
 githâhti
 ne
 druoƀie
-iwua
+iuwa
 herta
 thuru
-iwues
+iuwes
 drohtines
 word
 ne
@@ -36593,7 +36593,7 @@ gio
 endi
 ni
 cumiđ
-iwues
+iuwes
 wellîƀes
 giwand
 bethiu
@@ -36949,7 +36949,7 @@ wacon
 êne
 tîd
 thiu
-wrd
+wurd
 is
 at
 handun
@@ -37305,7 +37305,7 @@ sie
 te
 criste
 kumane
-wrđun
+wurđun
 grim
 folc
 iudeono
@@ -37511,13 +37511,13 @@ it
 selƀo
 was
 sô
-wrđun
+wurđun
 thô
 an
 forhtun
 folc
 iudeono
-wrđun
+wurđun
 underbadode
 that
 sie
@@ -37945,7 +37945,7 @@ fengun
 than
 ik
 undar
-iwuomu
+iuwomu
 folke
 stôd
 an
@@ -38082,7 +38082,7 @@ weldun
 um
 lix
 thô
-wrđun
+wurđun
 thes
 sô
 malsce
@@ -38442,7 +38442,7 @@ gi
 quađ
 siu
 an
-iwuan
+iuwan
 fîund
 sehan
 thit
@@ -40063,7 +40063,7 @@ im
 erlos
 ênwordie
 alle
-wrđin
+wurđin
 huat
 sie
 imu
@@ -40133,7 +40133,7 @@ sô
 wrêđe
 sind
 an
-iwuomu
+iuwomu
 hugea
 hôtie
 sie
@@ -40242,7 +40242,7 @@ ina
 than
 eft
 under
-iwue
+iuwe
 folcscepi
 ef
 he
@@ -40262,7 +40262,7 @@ werđ
 sô
 it
 an
-iwuaro
+iuwaro
 aldrono
 êo
 gebiode
@@ -40785,7 +40785,7 @@ thero
 the
 io
 giboren
-wrđi
+wurđi
 an
 liudio
 lioht
@@ -40963,7 +40963,7 @@ leggian
 thiu
 mêr
 hie
-wrđi
+wurđi
 them
 liudion
 thar
@@ -41122,7 +41122,7 @@ selƀon
 anbudun
 that
 hie
-iwues
+iuwes
 werodes
 sô
 filo
@@ -41159,10 +41159,10 @@ hiudu
 erodes
 mohta
 thie
-iwuan
+iuwan
 êo
 bican
-iwuaro
+iuwaro
 liudo
 landreht
 hie
@@ -41726,7 +41726,7 @@ oƀar
 theson
 middilgard
 than
-wrđi
+wurđi
 im
 iro
 muodseƀo
@@ -41770,7 +41770,7 @@ huat
 sia
 warahtun
 thiu
-wrd
+wurd
 nâhida
 thuo
 mâri
@@ -42743,7 +42743,7 @@ gi
 mid
 hofnu
 mugun
-iwua
+iuwa
 wrêđan
 werc
 wôpu
@@ -42773,7 +42773,7 @@ an
 aldre
 than
 gi
-iwua
+iuwa
 inwid
 sculun
 grimmo
@@ -43923,7 +43923,7 @@ upp
 fan
 erđu
 endi
-wrđun
+wurđun
 giôgida
 thar
 mannon
@@ -45034,7 +45034,7 @@ ik
 wêt
 that
 gi
-iwuan
+iuwan
 drohtin
 suokat
 neriendon
@@ -45309,7 +45309,7 @@ sagda
 thann
 hie
 an
-iwuon
+iuwon
 gisîđe
 was
 an
@@ -46045,7 +46045,7 @@ ik
 bêđero
 fader
 alawaldan
-iwuan
+iuwan
 endi
 mînan
 suođfastan

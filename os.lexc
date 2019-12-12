@@ -6,6 +6,7 @@ Multichar_Symbols
 %<prep%>			! Preposition
 %<adv%>				! Adverb
 %<conj%>			! Conjunction
+%<num%>				! Numeral
 
 %<a-stem%>			! a-stem noun
 %<ja-stem%>			! ja-stem noun
@@ -37,6 +38,7 @@ Multichar_Symbols
 %<poss%>			! Possessive Pronoun
 %<demo%>			! Demonstrative Pronoun
 %<comp%>			! Compound Pronoun "this"
+%>compar%>			! Comparative
 %<inter%>			! Interrogative Pronoun
 %<ort%>				! Locative Pronoun
 %<wo%>				! Locative Pronoun- where?
@@ -104,6 +106,74 @@ Pronouns			;
 Prepositions			;
 Adverbs				;
 Adjectives			;
+Numerals			;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!Numeral Paradigms!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON Numerals
+ên%<num%>:ên Adj-a-o-mono		;
+
+twêne%<num%>%<masc%>%<nom%>:twêne	# ;
+twêne%<num%>%<masc%>%<acc%>:twêne	# ;
+twêne%<num%>%<masc%>%<gen%>:twêio	# ;
+twêne%<num%>%<masc%>%<dat%>:twêm	# ;
+
+twêne%<num%>%<neut%>%<nom%>:twê	# ;
+twêne%<num%>%<neut%>%<acc%>:twê	# ;
+twêne%<num%>%<neut%>%<gen%>:twêio	# ;
+twêne%<num%>%<neut%>%<dat%>:twêm	# ;
+
+twêne%<num%>%<fem%>%<nom%>:tw%{O%^A%}	# ;
+twêne%<num%>%<fem%>%<acc%>:tw%{O%^A%}	# ;
+twêne%<num%>%<fem%>%<gen%>:twêio	# ;
+twêne%<num%>%<fem%>%<dat%>:twêm	# ;
+
+
+thria%<num%>%<masc%>%<nom%>:thri%{E%^A%}	# ;
+thria%<num%>%<masc%>%<nom%>:threa		# ;
+thria%<num%>%<masc%>%<acc%>:thri%{E%^A%}	# ;
+thria%<num%>%<masc%>%<acc%>:threa		# ;
+thria%<num%>%<masc%>%<gen%>:thrîo		# ;
+thria%<num%>%<masc%>%<dat%>:thrim		# ;
+
+thria%<num%>%<fem%>%<nom%>:thri%{E%^A%}		# ;
+thria%<num%>%<fem%>%<nom%>:threa		# ;
+thria%<num%>%<fem%>%<acc%>:thri%{E%^A%}		# ;
+thria%<num%>%<fem%>%<acc%>:threa		# ;
+thria%<num%>%<fem%>%<gen%>:thrîo		# ;
+thria%<num%>%<masc%>%<dat%>:thrim		# ;
+
+thria%<num%>%<neut%>%<nom%>:thriu		# ;
+thria%<num%>%<neut%>%<nom%>:thrû		# ;
+thria%<num%>%<neut%>%<acc%>:thriu	# ;
+thria%<num%>%<neut%>%<acc%>:thrû		# ;
+thria%<num%>%<neut%>%<gen%>:thrîo		# ;
+thria%<num%>%<neut%>%<dat%>:thrim		# ;
+
+fiuwar%<num%>:fiuwar Adj-a-o-mono			;
+
+fiuwar%<num%>:fîf Adj-a-o-mono			;
+
+sehs%<num%>:sehs Adj-a-o-mono			;
+
+siƀun%<num%>:siƀun Adj-a-o-mono			;
+
+ahto%<num%>:ahto Adj-a-o-mono			;
+
+nigun%<num%>:nigun Adj-a-o-mono			;
+
+tehan%<num%>:tehan Adj-a-o-mono			;
+
+elevan%<num%>:elevan Adj-a-o-mono			;
+
+tweliƀi%<num%>:tweliƀi Adj-a-o-mono			;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -246,6 +316,7 @@ LEXICON Adj-a-o-mono
 %<fem%>%<acc%>%<pl%>:a			#	;
 
 Adj-weak					;
+Comparative					;
 
 LEXICON Adj-a-o-poly
 %<masc%>%<nom%>%<sg%>:0			#	;
@@ -306,6 +377,7 @@ LEXICON Adj-a-o-poly
 %<fem%>%<acc%>%<pl%>:a			#	;
 
 Adj-weak					;
+Comparative					;
 
 LEXICON Adj-ja-jo
 %<masc%>%<nom%>%<sg%>:i			#	;
@@ -384,6 +456,7 @@ LEXICON Adj-ja-jo
 %<fem%>%<acc%>%<pl%>:a				#	;
 	
 Adj-weak						;
+Comparative					;
 
 LEXICON Adj-wa-wo
 %<masc%>%<nom%>%<sg%>:%{U%^O%}			#	;
@@ -409,7 +482,12 @@ LEXICON Adj-wa-wo
 %<fem%>%<gen%>%<pl%>:ora			#	;
 
 Adj-weak						;
+Comparative					;
 
+
+LEXICON Comparative
+%<compar%>:ir					#	;
+Adj-weak						;	! All comparative forms decline weak
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1991,6 +2069,47 @@ LEXICON IMPERATIV-WK2
 %<sg%>:         #;
 %<pl%>:d       #;
 
+LEXICON WK3
+hebbian%<v%>%<wk%>%<class3%>%<pres%>%<indic%>%<1st%>%<sg%>:hebbea	# ;
+hebbian%<v%>%<wk%>%<class3%>%<pres%>%<indic%>%<pl%>:hebbead	# ;
+hebbian%<v%>%<wk%>%<class3%>%<inf%>:hebbean	# ;
+hebbian%<v%>%<wk%>%<class3%>%<pres%>%<indic%>%<pl%>:hebbeat	# ;
+hebbian%<v%>%<wk%>%<class3%>%<pres%>%<indic%>%<pl%>:hebbiad	# ;
+hebbian%<v%>%<wk%>%<class3%>%<inf%>:hebbian	# ;
+hebbian%<v%>%<wk%>%<class3%>%<pres%>%<indic%>%<pl%>:hebbiat	# ;
+hebbian%<v%>%<wk%>%<class3%>%<pres%>%<opt%>%<1st%>%<sg%>:hebbie	# ;
+hebbian%<v%>%<wk%>%<class3%>%<pres%>%<opt%>%<3rd%>%<sg%>:hebbie	# ;
+hebbian%<v%>%<wk%>%<class3%>%<pres%>%<opt%>%<pl%>:hebbien	# ;
+hebbian%<v%>%<wk%>%<class3%>%<pres%>%<indic%>%<1st%>%<sg%>:hebbiu	# ;
+hebbian%<v%>%<wk%>%<class3%>%<pres%>%<indic%>%<pl%>:h%{E%^A%}bbiad	# ;
+hebbian%<v%>%<wk%>%<class3%>%<pres%>%<opt%>%<pl%>habbien	# ;
+hebbian%<v%>%<wk%>%<class3%>%<pret%>%<pl%>:habd%{U%^O%}n	# ;
+
+seggian%<v%>%<wk%>%<class3%>%<pres%>%<indic%>%<1st%>%<sg%>:seggea	# ;
+seggian%<v%>%<wk%>%<class3%>%<pres%>%<indic%>%<pl%>:seggead	# ;
+seggian%<v%>%<wk%>%<class3%>%<inf%>:seggean	# ;
+seggian%<v%>%<wk%>%<class3%>%<pres%>%<indic%>%<pl%>:seggeat	# ;
+seggian%<v%>%<wk%>%<class3%>%<pres%>%<indic%>%<pl%>:seggiad	# ;
+seggian%<v%>%<wk%>%<class3%>%<inf%>:seggian	# ;
+seggian%<v%>%<wk%>%<class3%>%<pres%>%<indic%>%<pl%>:seggiat	# ;
+seggian%<v%>%<wk%>%<class3%>%<pres%>%<opt%>%<1st%>%<sg%>:seggie	# ;
+seggian%<v%>%<wk%>%<class3%>%<pres%>%<opt%>%<3rd%>%<sg%>:seggie	# ;
+seggian%<v%>%<wk%>%<class3%>%<pres%>%<opt%>%<pl%>:seggien	# ;
+seggian%<v%>%<wk%>%<class3%>%<pres%>%<indic%>%<1st%>%<sg%>:seggiu	# ;
+seggian%<v%>%<wk%>%<class3%>%<pres%>%<indic%>%<pl%>:seggiad	# ;
+seggian%<v%>%<wk%>%<class3%>%<pres%>%<opt%>%<pl%>seggien	# ;
+seggian%<v%>%<wk%>%<class3%>%<pret%>%<pl%>:sagd%{U%^O%}n	# ;
+seggian%<v%>%<wk%>%<class3%>%<pret%>%<indic%>%<3rd%>%<pl%>:sagad		# ;
+seggian%<v%>%<wk%>%<class3%>%<pret%>%<indic%>%<1st%>%<sg%>:sagd%{E%^A%}		# ;
+seggian%<v%>%<wk%>%<class3%>%<pret%>%<indic%>%<3rd%>%<sg%>:sagda%{E%^A%}	# ;
+seggian%<v%>%<wk%>%<class3%>%<pret%>%<indic%>%<2nd%>%<sg%>:sagdas	# ;
+seggian%<v%>%<wk%>%<class3%>%<pret%>%<opt%>%<1st%>%<sg%>:sagdi	# ;
+seggian%<v%>%<wk%>%<class3%>%<pret%>%<opt%>%<3rd%>%<sg%>:sagdi	# ;
+seggian%<v%>%<wk%>%<class3%>%<pret%>%<opt%>:sagdin	# ;
+seggian%<v%>%<wk%>%<class3%>%<pret%>%<indic%>%<pl%>:sagdun	# ;
+seggian%<v%>%<wk%>%<class3%>%<pres%>%<indic%>%<2nd%>%<sg%>:sagis	# ;
+seggian%<v%>%<wk%>%<class3%>%<pres%>%<indic%>%<3rd%>%<sg%>:sagit	# ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -2615,6 +2734,7 @@ LEXICON A-Stem
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!Masc. a-stem!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 middilgard%<noun%>%<masc%>%<a-stem%>:middilgard Masc-A-Stem ;	!Manually entered. tk need to redo this section to include forms with 'as., st. M. (a?)' in dict
 crist%<noun%>%<masc%>%<a-stem%>:crist Masc-A-Stem ; !Manually entered, tk no proper names in dictionary
 
@@ -5216,8 +5336,7 @@ undgeldan%<v%>%<str%>%<class3b%>:undgeld STR3    ;	! nhd. entgelten, büßen
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!Class 4!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-quêman%<v%>%<str%>%<class4%>quem STR4 ; 	! nhd. kommen ( tk manually entered)
-queman%<v%>%<str%>%<class4%>quem STR4 ; 	! nhd. kommen ( tk manually entered)
+queman%<v%>%<str%>%<class4%>:quem STR4 ; 	! nhd. kommen ( tk manually entered)
 neman%<v%>%<str%>%<class4%>:nem STR4 ;          ! nhd. nehmen
 niman%<v%>%<str%>%<class4%>:nim STR4 ;          ! nhd. nehmen
 kuman%<v%>%<str%>%<class4%>:kum STR4    ;	! nhd. kommen
@@ -5469,6 +5588,7 @@ wesan%<v%>%<irregular%>: WESAN			;	!nhd. sein
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON WeakVerbs
+WK3							;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!1st class weak ƀerbs!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -6097,6 +6217,9 @@ wiđ%<prep%>%<instr%>:wider	# ; ! gegen
 
 
 LEXICON Adjectives
+ênig%<adj%>%<a%/o-stem%>:ênig Adj-a-o-mono	;	! tk manually entered
+selƀo%<adj%>:selƀ Adj-a-o-mono			;	!manually entered tk
+all%<adj%>:all Adj-a-o-mono			;	!manually entered tk
 gôd%<adj%>%<a%/ô-stem%>:gôd Adj-a-o-mono	; !manually entered
 hêlag%<adj%>%<a%/ô-stem%>:hêlag Adj-a-o-poly	; !manually entered
 âdêla%<adj%>:âdêla Adj-a-o-mono	;	!	âdêla* 1, âtêla, âtêlo, â-dêl-a*, â-têl-a, â-têl-o*, as., Adj., Adƀ.?: nhd. unangemessen, unpassend; ne. not suitable (Adj.)
